@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Học tiếng Trung</string>
+    <string name="welcome">Chào bạn! 你好</string>
+    <string name="menu">Danh mục</string>
+    <string name="roadmap">Lộ trình</string>
+    <string name="login">Đăng nhập</string>
+    <string name="lessons">Bài học</string>
+    <string name="vocabulary">Thư viện từ vựng</string>
+    <string name="handwriting">Luyện viết</string>
+    <string name="review">Ôn tập</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="roadmap_placeholder">Lộ trình học dành cho người mới bắt đầu sẽ xuất hiện tại đây.</string>
+    <string name="login_placeholder">Đăng nhập bằng email và mật khẩu để tiếp tục.</string>
+    <string name="lessons_placeholder">Các bài học tiếng Trung sẽ xuất hiện tại đây.</string>
+    <string name="vocabulary_placeholder">Từ vựng đã học và từ vựng cá nhân sẽ xuất hiện tại đây.</string>
+    <string name="handwriting_placeholder">Khu vực luyện viết chữ Hán sẽ xuất hiện tại đây.</string>
+    <string name="review_placeholder">Lịch ôn tập cá nhân sẽ xuất hiện tại đây.</string>
+    <string name="profile_placeholder">Các tùy chỉnh hồ sơ sẽ được bổ sung sau.</string>
+    <string name="future_feature">Tính năng đang được chuẩn bị.</string>
+    <string name="connection_title">Kết nối máy chủ</string>
+    <string name="connecting">Đang kết nối…</string>
+    <string name="backend_reachable">Đã kết nối máy chủ</string>
+    <string name="backend_unavailable">Chưa thể kết nối. Hãy kiểm tra mạng và thử lại.</string>
+    <string name="retry">Thử lại</string>
+</resources>

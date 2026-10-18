@@ -1,0 +1,34 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/local.properties
+*.jks
+*.keystore
+*.pem
+*service-account*.json
+google-services.json
+# Android / IDE
+.idea/
+*.iml
+**/.gradle/
+**/.kotlin/
+**/build/
+captures/
+.cxx/
+.externalNativeBuild/
+# Python
+**/.venv/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+backend/.content-storage/
+backend/.test-postgres-slice1/
+backend/.test-postgres-slice2*/
+dist/
+*.log
+.DS_Store

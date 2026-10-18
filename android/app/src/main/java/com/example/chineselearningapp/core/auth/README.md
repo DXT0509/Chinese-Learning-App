@@ -1,0 +1,1 @@
+Authentication uses email/password application sessions. Keystore token persistence lives in core/network/SessionVault; protected requests are serialized by feature/auth/data/RemoteSessionRepository. Google linking is deferred until pre-release. See docs/authentication.md.

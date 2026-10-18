@@ -1,0 +1,24 @@
+<resources>
+    <string name="auth_register">Đăng ký</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Mật khẩu (6–128 ký tự)</string>
+    <string name="auth_to_register">Tạo tài khoản</string>
+    <string name="auth_to_login">Đã có tài khoản? Đăng nhập</string>
+    <string name="auth_logout">Đăng xuất</string>
+    <string name="auth_validation">Nhập email hợp lệ và mật khẩu từ 6 đến 128 ký tự.</string>
+    <string name="auth_invalid">Email hoặc mật khẩu không hợp lệ.</string>
+    <string name="auth_duplicate">Không thể đăng ký với thông tin này.</string>
+    <string name="auth_throttled">Quá nhiều yêu cầu. Vui lòng thử lại sau một phút.</string>
+    <string name="auth_unverified">Email chưa được xác minh. Chỉ dùng tài khoản thử nghiệm ở giai đoạn này.</string>
+    <string name="session_expired">Phiên đã hết hạn. Vui lòng đăng nhập lại.</string>
+    <string name="session_network_error">Không thể kết nối. Vui lòng thử lại.</string>
+    <string name="session_retry">Tải lại</string>
+    <string name="preview_disabled">Máy chủ chưa cho phép xem trước nội dung.</string>
+    <string name="preview_notice">Bản xem trước nội dung: chưa có bài học hoàn chỉnh, EXP hoặc SRS.</string>
+    <string name="preview_consent">Tôi muốn mở bản xem trước.</string>
+    <string name="preview_start">Bắt đầu bản xem trước</string>
+    <string name="preview_resume">Tiếp tục phiên %1$s</string>
+    <string name="preview_version">Phiên bản cố định: %1$s</string>
+    <string name="preview_checkpoint">Cảnh %1$d · mốc xem %2$d</string>
+    <string name="preview_save">Lưu mốc xem tiếp theo</string>
+</resources>
