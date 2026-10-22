@@ -1,5 +1,26 @@
 # Development guide
 
+For Phase 3.3 model downloads, handwriting state, Android checks and physical-device
+verification, follow [dictionary handwriting](android-handwriting.md).
+
+For Phase 3.1.1, follow [dictionary revision repair and Vietnamese character enrichment](dictionary-vietnamese-enrichment.md).
+New CC-CEDICT imports derive revisions from header/checksum when `--revision` is omitted.
+Repair of an existing placeholder defaults to dry-run and requires explicit `--confirm`;
+apply additive revision `0006_dictionary_enrichment` before confirmed repair/enrichment.
+No development database repair or enrichment has been automatically applied. The additional
+`ENRICHMENT_MIGRATION_TEST_DATABASE_URL` must select a fresh empty isolated PostgreSQL DB.
+
+Phase 3.1 dictionary lookup uses additive revision `0005_dictionary_foundation` and an
+explicit local CC-CEDICT v1 import, never a startup download. Follow
+[dictionary foundation](dictionary-foundation.md) for source/license review, checksums,
+import commands, Swagger, PostgreSQL tests and synthetic performance measurements.
+`DICTIONARY_MIGRATION_TEST_DATABASE_URL` selects an additional fresh-empty rehearsal from
+0004; like the legacy rehearsal, it refuses existing tables and retains its fixtures.
+
+For the playable vocabulary sample, apply revision `0004_vocabulary_player` and publish
+lesson-ni version 2. Follow [the Phase 3 player guide](vocabulary-player.md) for current
+native PostgreSQL/USB commands, scene support and checkpoint semantics.
+
 Follow the root README for setup and `AGENTS.md` for coding boundaries. Run Python commands
 from `backend/`, Gradle from `android/`, and Docker Compose from the repository root.
 Android Studio should open `android/`. Existing root `.idea` and `.gradle` folders are

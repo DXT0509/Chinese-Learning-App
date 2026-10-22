@@ -219,3 +219,26 @@ def test_asset_key_and_hash_must_agree():
                 "metadata": {},
             }
         )
+
+
+def test_player_template_is_strict_and_preserves_legacy_config():
+    library = load_library(CONTENT)
+    original, player = library.templates
+    assert original.version == 1 and player.version == 2
+    assert "pagination" not in original.scenes[1].config.model_dump()
+    assert player.scenes[2].config.pagination == "ONE_COMPONENT_PER_PAGE"
+    assert [scene.scene_type for scene in player.scenes] == [
+        "VOCABULARY_INTRODUCTION",
+        "VOCABULARY_INFORMATION",
+        "CHARACTER_ANALYSIS",
+        "STROKE_ANIMATION",
+        "HANDWRITING_PRACTICE",
+    ]
+    value = player.model_dump()
+    value["scenes"][0]["config"]["show_meaning"] = "true"
+    with pytest.raises(ValidationError):
+        TemplateDefinition.model_validate(value)
+    value = player.model_dump()
+    value["scenes"][2]["config"]["pagination"] = "EXECUTE_SCRIPT"
+    with pytest.raises(ValidationError):
+        TemplateDefinition.model_validate(value)

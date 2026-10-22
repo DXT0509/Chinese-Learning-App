@@ -1,4 +1,4 @@
-﻿package com.example.chineselearningapp
+package com.example.chineselearningapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,6 +16,11 @@ class MainActivity : ComponentActivity() {
     private val connectivityViewModel: ConnectivityViewModel by viewModels()
     private val sessionViewModel: com.example.chineselearningapp.feature.auth.SessionViewModel by viewModels()
 
+    private val lessonViewModel: com.example.chineselearningapp.feature.lesson.LessonPlayerViewModel by viewModels()
+
+    @javax.inject.Inject lateinit var dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository
+    @javax.inject.Inject lateinit var handwritingRecognizers: javax.inject.Provider<com.example.chineselearningapp.feature.dictionary.handwriting.MlKitHandwritingRecognizer>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge(
@@ -23,7 +28,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.BLACK)
         )
         setContent {
-            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel) }
+            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel, lessonViewModel, dictionaryRepository, { handwritingRecognizers.get() }) }
         }
     }
 }

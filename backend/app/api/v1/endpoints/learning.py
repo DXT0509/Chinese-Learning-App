@@ -1,7 +1,7 @@
 from typing import Annotated
 from uuid import UUID
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Response
 from sqlalchemy import select
 
 from app.dependencies.authentication import Database, current_user_id
@@ -73,3 +73,9 @@ async def checkpoint(
     run_id: UUID, scene_key: UUID, data: CheckpointInput, session: Database, user_id: Identity
 ):
     return await learning_access.checkpoint(session, user_id, run_id, scene_key, data)
+
+
+@router.get("/lesson-versions/{version_id}/assets/{asset_id}")
+async def media(version_id: UUID, asset_id: UUID, session: Database, user_id: Identity):
+    raw, media_type = await learning_access.media(session, version_id, asset_id)
+    return Response(raw, media_type=media_type, headers={"Cache-Control": "no-store"})

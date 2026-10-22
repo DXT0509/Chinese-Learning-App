@@ -62,14 +62,18 @@ class AuthenticationIntegrationTest {
         compose.onNodeWithTag("auth_submit").performScrollTo().performClick()
         compose.waitUntil(20000) { model.state.value.status == SessionStatus.SignedIn && !model.state.value.loading }
         compose.onNodeWithText(email).assertIsDisplayed()
-        compose.onNodeWithText("Đăng xuất").performClick()
+        compose.onNodeWithTag("tab_Profile").performClick()
+        compose.onNodeWithTag("profile_logout").performScrollTo().performClick()
+        compose.onNodeWithTag("confirm_logout").performClick()
         compose.waitUntil(15000) { model.state.value.status == SessionStatus.SignedOut }
         compose.onNodeWithTag("email_input").performTextInput(email)
         compose.onNodeWithTag("password_input").performScrollTo().performTextInput("123456")
         compose.onNodeWithTag("auth_submit").performScrollTo().performClick()
         compose.waitUntil(20000) { model.state.value.status == SessionStatus.SignedIn && !model.state.value.loading }
         compose.onNodeWithText(email).assertIsDisplayed()
-        compose.onNodeWithText("Đăng xuất").performClick()
+        compose.onNodeWithTag("tab_Profile").performClick()
+        compose.onNodeWithTag("profile_logout").performScrollTo().performClick()
+        compose.onNodeWithTag("confirm_logout").performClick()
         compose.waitUntil(15000) { model.state.value.status == SessionStatus.SignedOut }
         compose.onNodeWithTag("email_input").assertExists()
     }

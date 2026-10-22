@@ -1,5 +1,14 @@
 # Architecture
 
+Phase 3.3 adds [on-device dictionary handwriting](android-handwriting.md), using a
+back-stack ViewModel and a dedicated ML Kit adapter. Selected candidates feed the existing
+dictionary query pipeline; recognition adds no backend operations or learning progress.
+
+Phase 3 adds the [Vocabulary Lesson Player MVP](vocabulary-player.md): typed bundle
+mapping, five scene renderers, temporary handwriting and a transactionally saved resume
+cursor. The historical Slice 1/2 descriptions below describe the earlier preview controls;
+published content still carries preview-only completion semantics.
+
 The scaffold contains one Android Gradle app module and one independently runnable API.
 The implemented Android slice is Compose → ConnectivityViewModel → HealthRepository →
 RemoteHealthRepository → Retrofit → GET /api/v1/health → immutable UI state.
@@ -90,3 +99,21 @@ Home, Login/Registration and PreviewLessonsScreen are separate renderers. Shared
 colors, typography, shapes, spacing and actions live in ui/theme and core/designsystem.
 Catalog/run errors do not undo an authenticated account. No new database schema, provider,
 credential mechanism or learning completion behavior is introduced by the UI revision.
+
+## Main navigation and Profile
+
+The authenticated graph uses one Navigation Compose controller with four top-level tabs:
+Home (Trang chủ), Learning (Học tập), Review (Ôn tập), and Profile (Hồ sơ).
+Tab switching pops to Home with saveState, launchSingleTop and restoreState; reselecting
+the active tab is a no-op. Back from another tab returns to Home. Scroll state and the
+selected destination use Compose/Navigation saved state. Preview catalog, vocabulary,
+connectivity demo and player remain detail routes without bottom navigation. Login and
+registration retain their separate controller outside the authenticated shell.
+
+Profile renders only available SessionState account fields and owns the sole logout
+entry point. A saveable AlertDialog confirms the existing SessionViewModel.logout call.
+Loading disables repeat submissions; server/network failures keep the account and show
+the existing error for retry. Successful revocation clears the existing repository and
+ViewModel session data and removes the identity-keyed protected graph, including saved
+tab history. Home has no logout callback. Learning and Review add no roadmap/SRS logic
+or synthetic progress; Learning links to the existing preview catalog.

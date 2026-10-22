@@ -19,7 +19,7 @@ data class StartDto(
 )
 data class CheckpointDto(@SerializedName("scene_key") val key: String, val page: Int)
 data class PageDto(val page: Int)
-data class RunDto(val id: String, @SerializedName("lesson_version_id") val versionId: String, val checkpoints: List<CheckpointDto>)
+data class RunDto(val id: String, @SerializedName("lesson_version_id") val versionId: String, val checkpoints: List<CheckpointDto>, @SerializedName("current_scene_key") val currentSceneKey: String? = null)
 
 interface SessionApi {
     @POST("api/v1/auth/register") suspend fun register(@Body data: CredentialsDto): TokensDto
@@ -32,5 +32,6 @@ interface SessionApi {
     @POST("api/v1/learning-runs") suspend fun start(@Header("Authorization") auth: String, @Body data: StartDto): RunDto
     @GET("api/v1/learning-runs/{id}") suspend fun resume(@Header("Authorization") auth: String, @Path("id") id: String): RunDto
     @GET("api/v1/lesson-versions/{id}/bundle?allow_preview=true") suspend fun bundle(@Header("Authorization") auth: String, @Path("id") id: String): JsonObject
+    @GET("api/v1/lesson-versions/{id}/assets/{asset}") suspend fun asset(@Header("Authorization") auth: String, @Path("id") id: String, @Path("asset") asset: String): okhttp3.ResponseBody
     @PUT("api/v1/learning-runs/{id}/scenes/{key}") suspend fun checkpoint(@Header("Authorization") auth: String, @Path("id") id: String, @Path("key") key: String, @Body data: PageDto): RunDto
 }

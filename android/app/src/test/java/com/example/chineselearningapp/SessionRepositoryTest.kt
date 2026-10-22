@@ -86,4 +86,30 @@ class SessionRepositoryTest {
             catch (_: retrofit2.HttpException) { assertEquals("old-refresh", store.value?.refresh) }
         }
     }
+    @Test fun startResumeBundleAndCheckpointKeepPinnedWireContract() = runTest {
+        MockWebServer().use { server ->
+            val store = Store()
+            val run = """{"id":"run","lesson_version_id":"pinned","current_scene_key":"scene","checkpoints":[{"scene_key":"scene","page":1}]}"""
+            server.enqueue(MockResponse().setBody(run))
+            server.enqueue(MockResponse().setBody(run))
+            server.enqueue(MockResponse().setBody("""{"schema_version":1,"lesson":{"version_id":"pinned","lesson_type":"VOCABULARY","title":"Ni"},"scenes":[]}"""))
+            server.enqueue(MockResponse().setBody(run))
+            val repo = RemoteSessionRepository(api(server), store)
+            assertEquals("scene", repo.start("pinned", "request").currentSceneKey)
+            assertEquals("pinned", repo.resume("run").versionId)
+            assertTrue(repo.lessonBundle("pinned").scenes.isEmpty())
+            assertEquals(1, repo.checkpoint("run", "scene", 1).checkpoints["scene"])
+            val start = server.takeRequest()
+            assertEquals("/api/v1/learning-runs", start.path)
+            val body = com.google.gson.JsonParser.parseString(start.body.readUtf8()).asJsonObject
+            assertEquals("pinned", body.get("lesson_version_id").asString)
+            assertTrue(body.get("allow_preview").asBoolean)
+            assertEquals("/api/v1/learning-runs/run", server.takeRequest().path)
+            assertEquals("/api/v1/lesson-versions/pinned/bundle?allow_preview=true", server.takeRequest().path)
+            val checkpoint = server.takeRequest()
+            assertEquals("PUT", checkpoint.method)
+            assertEquals("/api/v1/learning-runs/run/scenes/scene", checkpoint.path)
+            assertEquals("{\"page\":1}", checkpoint.body.readUtf8())
+        }
+    }
 }

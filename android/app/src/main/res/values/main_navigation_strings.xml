@@ -1,0 +1,15 @@
+<resources>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_learning">Học tập</string>
+    <string name="learning_title">Lộ trình học tập</string>
+    <string name="learning_soon">Lộ trình và các bài học tương tác mới sẽ sớm có mặt. Bạn có thể khám phá những bài học xem trước hiện có trong lúc chờ nhé.</string>
+    <string name="learning_catalog">Khám phá bài học xem trước</string>
+    <string name="review_empty">Các từ vựng cần ôn tập sẽ xuất hiện tại đây.</string>
+    <string name="profile_account">Thông tin tài khoản</string>
+    <string name="profile_email">Email đăng ký</string>
+    <string name="profile_settings">Cài đặt</string>
+    <string name="profile_settings_soon">Tùy chọn học tập và cài đặt cá nhân sẽ được bổ sung sau.</string>
+    <string name="logout_confirm_title">Đăng xuất tài khoản?</string>
+    <string name="logout_confirm_body">Bạn sẽ cần đăng nhập lại để tiếp tục học.</string>
+    <string name="logout_cancel">Ở lại</string>
+</resources>

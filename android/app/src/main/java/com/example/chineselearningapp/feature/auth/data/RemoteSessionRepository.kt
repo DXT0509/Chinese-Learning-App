@@ -25,7 +25,7 @@ class RemoteSessionRepository @Inject constructor(private val api: SessionApi, p
         tokens = value
         loaded = true
     }
-    private suspend fun <T> authorized(call: suspend (String) -> T): T = withContext(Dispatchers.IO) {
+    internal suspend fun <T> authorized(call: suspend (String) -> T): T = withContext(Dispatchers.IO) {
         mutex.withLock {
             val current = load() ?: throw SessionExpired()
             try { call("Bearer ${current.access}") }
@@ -73,7 +73,12 @@ class RemoteSessionRepository @Inject constructor(private val api: SessionApi, p
         PreviewScene(it.asJsonObject.get("scene_key").asString, 0)
     }
     override suspend fun checkpoint(runId: String, sceneKey: String, page: Int) = authorized { api.checkpoint(it, runId, sceneKey, PageDto(page)) }.domain()
-    private fun RunDto.domain() = PreviewRun(id, versionId, checkpoints.associate { it.key to it.page })
+    override suspend fun lessonBundle(versionId: String) =
+        com.example.chineselearningapp.feature.lesson.data.LessonBundleMapper.map(authorized { api.bundle(it, versionId) }, versionId)
+    override suspend fun lessonAsset(versionId: String, assetId: String) = authorized {
+        api.asset(it, versionId, assetId).use { body -> body.bytes() }
+    }
+    private fun RunDto.domain() = PreviewRun(id, versionId, checkpoints.associate { it.key to it.page }, currentSceneKey)
 }
 
 class SessionExpired : Exception()

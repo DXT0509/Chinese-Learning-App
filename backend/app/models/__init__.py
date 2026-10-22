@@ -7,6 +7,12 @@ from app.models.content import (
     LessonTemplateVersion,
     LessonVersion,
 )
+from app.models.dictionary import (
+    DictionaryCharacterEnrichment,
+    DictionaryEnrichmentImport,
+    DictionaryEntry,
+    DictionaryImport,
+)
 from app.models.learning import (
     Character,
     Lesson,
@@ -30,6 +36,10 @@ __all__ = [
     "Asset",
     "AuthSession",
     "Character",
+    "DictionaryCharacterEnrichment",
+    "DictionaryEnrichmentImport",
+    "DictionaryEntry",
+    "DictionaryImport",
     "Lesson",
     "LessonRun",
     "LessonTemplate",

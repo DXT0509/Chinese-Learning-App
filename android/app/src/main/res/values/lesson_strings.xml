@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lesson_title">Bài học từ vựng</string>
+    <string name="lesson_exit">Rời bài học</string>
+    <string name="lesson_preview_hint">Bản học thử · Chưa tính hoàn thành, EXP hay mức độ ghi nhớ.</string>
+    <string name="lesson_progress">Nội dung %1$d / %2$d</string>
+    <string name="lesson_page">Trang %1$d / %2$d</string>
+    <string name="lesson_previous">Quay lại</string>
+    <string name="lesson_next">Tiếp tục</string>
+    <string name="lesson_save_exit">Lưu và rời bài</string>
+    <string name="lesson_introduction">Làm quen từ mới</string>
+    <string name="lesson_information">Hiểu về từ</string>
+    <string name="lesson_analysis">Phân tích chữ</string>
+    <string name="lesson_stroke">Thứ tự nét</string>
+    <string name="lesson_handwriting">Tập viết</string>
+    <string name="lesson_missing">Chưa có thông tin</string>
+    <string name="lesson_analysis_missing">Phân tích thành phần chưa được duyệt. Bạn có thể tiếp tục bài học.</string>
+    <string name="lesson_stroke_missing">Chưa có tư liệu thứ tự nét đã duyệt. Bạn có thể tiếp tục tập viết tự do.</string>
+    <string name="lesson_handwriting_hint">Dùng ngón tay viết trong khung. Nét viết chỉ được giữ trong phiên học này; chưa có chấm điểm.</string>
+    <string name="lesson_clear">Xóa nét viết</string>
+    <string name="lesson_unsupported">Nội dung này chưa được hỗ trợ trong bản học thử. Bạn có thể tiếp tục.</string>
+    <string name="lesson_empty">Bài học chưa có nội dung để hiển thị.</string>
+    <string name="lesson_load_error">Chưa mở được bài học. Kiểm tra kết nối hoặc thử lại sau.</string>
+    <string name="lesson_save_error">Chưa lưu được vị trí. Hãy thử lại trước khi tiếp tục hoặc rời bài.</string>
+    <string name="lesson_media_error">Chưa tải hoặc phát được tư liệu này. Bạn vẫn có thể tiếp tục.</string>
+    <string name="lesson_play_audio">Nghe phát âm</string>
+    <string name="lesson_pinyin">Phiên âm</string>
+    <string name="lesson_reading">Âm Hán Việt</string>
+    <string name="lesson_meaning">Nghĩa tiếng Việt</string>
+    <string name="lesson_pos">Từ loại</string>
+    <string name="lesson_notes">Ghi chú</string>
+    <string name="lesson_stroke_count">Số nét: %1$d</string>
+</resources>

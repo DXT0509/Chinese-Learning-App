@@ -80,7 +80,8 @@ class LessonTemplateScene(Base):
         CheckConstraint("position >= 0", name="nonnegative_position"),
         CheckConstraint("contract_version = 1", name="supported_contract"),
         CheckConstraint(
-            "scene_type IN ('VOCABULARY_INFORMATION','CHARACTER_ANALYSIS')", name="supported_type"
+            "scene_type IN ('VOCABULARY_INFORMATION','CHARACTER_ANALYSIS','VOCABULARY_INTRODUCTION','STROKE_ANIMATION','HANDWRITING_PRACTICE')",
+            name="supported_type",
         ),
         CheckConstraint("jsonb_typeof(config) = 'object'", name="config_object"),
     )

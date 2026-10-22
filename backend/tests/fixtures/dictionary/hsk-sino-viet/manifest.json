@@ -1,0 +1,18 @@
+{
+  "source": "hsk-sino-viet",
+  "commit": "7cd2805fb0bb46f8e21bda364b857759465f1ce2",
+  "origin_artifact_sha256": "50a50b9d56374be5815c5f53a5f26569522143a9a4e94a7387ee6935d21e82ba",
+  "subset_sha256": "9b0f83a869f5aa1fb23c8ea890b0d595dc4fef434ae1fc585189beb3138c4a54",
+  "selected_fields": [
+    "hanzi",
+    "traditional",
+    "pinyin",
+    "sinoViet",
+    "meaningVi"
+  ],
+  "record_count": 2,
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_url": "https://github.com/xkhanhs/hsk-sino-viet",
+  "changes": "Two character records and five fields selected verbatim; other fields omitted."
+}

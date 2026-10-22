@@ -200,3 +200,14 @@ explicit steps and smaller sub-slices. Required speech/STT and multi-task PASS/F
 final requirements; optional microphone capture and four-rating mastery are superseded.
 One eligible sentence is the default; a higher count requires a lesson override. The
 next implementation task is Slice 3; Slices 1 and 2 are implemented with the boundaries above.
+
+## Phase 3.1 dictionary foundation — implemented scope
+
+The independent Custom Vocabulary sub-phase adds source research, a licensed local
+CC-CEDICT v1 importer, shared indexed lookup data, authenticated search/detail contracts
+and PostgreSQL tests. See [foundation and limitations](dictionary-foundation.md) and
+[source selection](dictionary-source-evaluation.md). English data is labeled English;
+Vietnamese/Sino-Vietnamese coverage remains absent. This sub-phase does not change the
+learning delivery plan below or implement handwriting, Android dictionary UI or personal
+collection persistence. Phase 3.2 can consume nullable source-grounded lookup contracts;
+saving entries needs a separately authorized ownership/schema slice.

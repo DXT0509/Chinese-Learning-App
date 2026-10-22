@@ -18,13 +18,10 @@ import com.example.chineselearningapp.feature.auth.SessionState
 fun HomeScreen(
     state: SessionState, openLessons: () -> Unit, openRoadmap: () -> Unit,
     openVocabulary: () -> Unit, openReview: () -> Unit, openProfile: () -> Unit,
-    logout: () -> Unit, reload: () -> Unit
+    reload: () -> Unit
 ) {
     PageColumn {
-        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.weight(1f)) { AppBrand(compact = true) }
-            TextButton(onClick = logout, enabled = !state.loading) { Text(stringResource(R.string.auth_logout)) }
-        }
+        AppBrand(compact = true)
         val name = state.account?.displayName?.takeIf { it.isNotBlank() }
             ?: state.account?.email?.substringBefore('@') ?: stringResource(R.string.home_friend)
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -45,7 +42,7 @@ fun HomeScreen(
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
             FutureFeatureEntry(R.drawable.ic_book, R.string.vocabulary, R.string.home_vocabulary_hint, openVocabulary)
             FutureFeatureEntry(R.drawable.ic_path, R.string.review, R.string.home_review_hint, openReview)
-            FutureFeatureEntry(R.drawable.ic_book, R.string.profile, R.string.home_profile_hint, openProfile)
+            FutureFeatureEntry(R.drawable.ic_person, R.string.profile, R.string.home_profile_hint, openProfile, comingSoon = false)
         }
         TextButton(onClick = reload, enabled = !state.loading, modifier = Modifier.fillMaxWidth()) {
             Text(stringResource(R.string.session_retry))
@@ -124,7 +121,7 @@ private fun RoadmapEntry(open: () -> Unit) {
 }
 
 @Composable
-private fun FutureFeatureEntry(@DrawableRes icon: Int, @StringRes title: Int, @StringRes description: Int, open: () -> Unit) {
+private fun FutureFeatureEntry(@DrawableRes icon: Int, @StringRes title: Int, @StringRes description: Int, open: () -> Unit, comingSoon: Boolean = true) {
     Card(onClick = open, colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
         Row(Modifier.fillMaxWidth().padding(20.dp), verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(16.dp)) {
@@ -133,7 +130,7 @@ private fun FutureFeatureEntry(@DrawableRes icon: Int, @StringRes title: Int, @S
                 Text(stringResource(title), style = MaterialTheme.typography.titleMedium)
                 Text(stringResource(description), style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Text(stringResource(R.string.coming_soon), style = MaterialTheme.typography.labelSmall,
+                if (comingSoon) Text(stringResource(R.string.coming_soon), style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.primary)
             }
             Icon(painterResource(R.drawable.ic_arrow), null, tint = MaterialTheme.colorScheme.onSurfaceVariant)

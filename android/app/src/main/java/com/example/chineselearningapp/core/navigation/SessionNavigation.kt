@@ -16,12 +16,12 @@ import androidx.navigation.compose.*
 import com.example.chineselearningapp.R
 import com.example.chineselearningapp.core.designsystem.*
 import com.example.chineselearningapp.feature.auth.*
-import com.example.chineselearningapp.feature.home.HomeScreen
-import com.example.chineselearningapp.feature.lesson.PreviewLessonsScreen
+import com.example.chineselearningapp.feature.lesson.*
 import com.example.chineselearningapp.feature.roadmap.*
+import com.example.chineselearningapp.feature.dictionary.handwriting.HandwritingRecognizer
 
 enum class Destination(@param:StringRes val title: Int) {
-    Home(R.string.home_title), Lessons(R.string.lessons), Roadmap(R.string.roadmap),
+    Home(R.string.home_title), Learning(R.string.nav_learning), Lessons(R.string.lessons), Roadmap(R.string.roadmap),
     Vocabulary(R.string.vocabulary), Review(R.string.review), Profile(R.string.profile)
 }
 
@@ -33,19 +33,22 @@ data class SessionActions(
 )
 
 @Composable
-fun AppNavigation(viewModel: ConnectivityViewModel, sessionViewModel: SessionViewModel) {
+fun AppNavigation(viewModel: ConnectivityViewModel, sessionViewModel: SessionViewModel, lessonViewModel: LessonPlayerViewModel, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository,
+    handwritingFactory: (() -> HandwritingRecognizer)? = null) {
     val connectivity by viewModel.state.collectAsStateWithLifecycle()
     val session by sessionViewModel.state.collectAsStateWithLifecycle()
+    LaunchedEffect(session.account?.id) { lessonViewModel.bindIdentity(session.account?.id) }
     SessionNavigation(session, SessionActions(
         sessionViewModel::authenticate, sessionViewModel::logout, sessionViewModel::reload,
         sessionViewModel::clearFormErrors, sessionViewModel::start, sessionViewModel::resume,
         sessionViewModel::checkpoint
-    ), connectivity, viewModel::retry)
+    ), connectivity, viewModel::retry, lessonViewModel, dictionaryRepository, handwritingFactory)
 }
 
 @Composable
 fun SessionNavigation(state: SessionState, actions: SessionActions,
-    connectivity: ConnectivityState = ConnectivityState.Loading, retryConnection: () -> Unit = {}) {
+    connectivity: ConnectivityState = ConnectivityState.Loading, retryConnection: () -> Unit = {}, lessonViewModel: LessonPlayerViewModel? = null, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository? = null,
+    handwritingFactory: (() -> HandwritingRecognizer)? = null) {
     FreshBackground {
         // The entire graph is removed on identity changes. No protected back-stack or
         // saved destination survives logout/account switching; no login graph survives login.
@@ -56,7 +59,7 @@ fun SessionNavigation(state: SessionState, actions: SessionActions,
                 }
             SessionStatus.SignedOut -> key("signed-out") { AuthenticationGraph(state, actions) }
             SessionStatus.SignedIn -> key("signed-in", state.account?.id) {
-                ProtectedGraph(state, actions, connectivity, retryConnection)
+                ProtectedGraph(state, actions, connectivity, retryConnection, lessonViewModel, dictionaryRepository, handwritingFactory)
             }
         }
     }
@@ -78,55 +81,6 @@ private fun AuthenticationGraph(state: SessionState, actions: SessionActions) {
                 RegistrationScreen(state, { email, password, confirmation ->
                     actions.authenticate(email, password, true, confirmation)
                 }, { actions.edited(); controller.popBackStack() }, actions.edited)
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun ProtectedGraph(state: SessionState, actions: SessionActions,
-    connectivity: ConnectivityState, retryConnection: () -> Unit) {
-    val controller = rememberNavController()
-    val entry by controller.currentBackStackEntryAsState()
-    val destination = Destination.entries.firstOrNull { it.name == entry?.destination?.route } ?: Destination.Home
-    val open: (Destination) -> Unit = { target -> controller.navigate(target.name) { launchSingleTop = true } }
-    Scaffold(containerColor = MaterialTheme.colorScheme.surface.copy(alpha = 0f), topBar = {
-        if (destination != Destination.Home) {
-            TopAppBar(title = { Text(stringResource(destination.title)) }, navigationIcon = {
-                TextButton(onClick = { controller.popBackStack() }) { Text(stringResource(R.string.screen_back)) }
-            }, colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface.copy(alpha = 0f)))
-        }
-    }) { padding ->
-        NavHost(controller, startDestination = Destination.Home.name, modifier = Modifier.padding(padding),
-            enterTransition = { fadeIn(tween(180)) }, exitTransition = { fadeOut(tween(120)) }) {
-            composable(Destination.Home.name) {
-                HomeScreen(state, { open(Destination.Lessons) }, { open(Destination.Roadmap) },
-                    { open(Destination.Vocabulary) }, { open(Destination.Review) }, { open(Destination.Profile) },
-                    actions.logout, actions.reload)
-            }
-            composable(Destination.Lessons.name) {
-                PreviewLessonsScreen(state, actions.start, actions.resume, actions.checkpoint, actions.reload)
-            }
-            composable(Destination.Roadmap.name) {
-                PageColumn { RoadmapScreen(connectivity, retryConnection) }
-            }
-            listOf(Destination.Vocabulary, Destination.Review, Destination.Profile).forEach { target ->
-                composable(target.name) {
-                    PageColumn {
-                        AppBrand(compact = true)
-                        Text(stringResource(target.title), style = MaterialTheme.typography.headlineMedium)
-                        Text(stringResource(R.string.coming_soon), color = MaterialTheme.colorScheme.primary,
-                            style = MaterialTheme.typography.titleMedium)
-                        Text(stringResource(R.string.placeholder_intro), color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        if (target == Destination.Profile) {
-                            state.account?.email?.let { Text(it) }
-                            Text(stringResource(R.string.auth_unverified), style = MaterialTheme.typography.bodySmall)
-                            PrimaryAction(R.string.auth_logout, state.loading, actions.logout)
-                            state.error?.let { ErrorBanner(it) }
-                        }
-                    }
-                }
             }
         }
     }

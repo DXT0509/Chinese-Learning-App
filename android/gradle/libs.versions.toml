@@ -16,8 +16,10 @@ datastore = "1.2.0"
 retrofit = "3.0.0"
 okhttp = "4.12.0"
 coroutines = "1.10.2"
+digitalInk = "19.0.0"
 
 [libraries]
+mlkit-digital-ink = { module = "com.google.mlkit:digital-ink-recognition", version.ref = "digitalInk" }
 androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }

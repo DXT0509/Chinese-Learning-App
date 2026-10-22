@@ -29,7 +29,7 @@ fun PreviewLessonsScreen(state: SessionState, start: (String) -> Unit, resume: (
             Text(stringResource(R.string.preview_consent), Modifier.padding(start = 12.dp))
         }
         if (state.contentLoaded && state.catalog.isEmpty()) Text(stringResource(R.string.home_catalog_empty))
-        state.catalog.forEach { lesson ->
+        state.catalog.sortedByDescending { it.version }.forEach { lesson ->
             Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
                 Column(Modifier.fillMaxWidth().padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(lesson.title, style = MaterialTheme.typography.titleMedium)
@@ -44,19 +44,6 @@ fun PreviewLessonsScreen(state: SessionState, start: (String) -> Unit, resume: (
                 OutlinedButton(onClick = { resume(run.id) }, enabled = consent && !state.loading,
                     modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp)) {
                     Text(state.catalog.firstOrNull { it.versionId == run.versionId }?.title ?: stringResource(R.string.home_run_label))
-                }
-            }
-        }
-        state.run?.let { run ->
-            Text(stringResource(R.string.preview_run_heading), style = MaterialTheme.typography.titleLarge)
-            state.scenes.forEachIndexed { index, scene ->
-                Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
-                    Column(Modifier.fillMaxWidth().padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Text(stringResource(R.string.preview_scene_label, index + 1, run.checkpoints[scene.key] ?: 0))
-                        TextButton(onClick = { checkpoint(scene.key) }, enabled = consent && !state.loading) {
-                            Text(stringResource(R.string.preview_save))
-                        }
-                    }
                 }
             }
         }

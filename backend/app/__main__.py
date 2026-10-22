@@ -7,7 +7,7 @@ from app.core.logging import SERVER_LOG_CONFIG
 if __name__ == "__main__":
     uvicorn.run(
         "app.main:app",
-        host="0.0.0.0",
+        host="127.0.0.1",
         port=8000,
         loop="app.core.event_loop:new_event_loop",
         access_log=False,

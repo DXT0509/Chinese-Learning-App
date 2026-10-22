@@ -65,4 +65,5 @@ class RunInfo(BaseModel):
     id: UUID
     lesson_version_id: UUID
     learning_completion_supported: Literal[False] = False
+    current_scene_key: UUID | None = None
     checkpoints: list[CheckpointInfo]

@@ -73,7 +73,8 @@ async def test_import_is_idempotent_and_draft_validates(pg_sessions, tmp_path):
             LessonVocabulary,
             VocabularyCharacter,
         ):
-            assert await session.scalar(select(func.count()).select_from(model)) == 1
+            expected = 2 if model in (LessonVersion, LessonTemplateVersion, LessonVocabulary) else 1
+            assert await session.scalar(select(func.count()).select_from(model)) == expected
         version = await session.get(LessonVersion, version_id("lesson", "lesson-ni", 1))
         assert version.status == "DRAFT" and version.bundle_asset_id is None
         bundle, template = await compile_draft(session, version, storage)
@@ -111,17 +112,17 @@ async def test_publish_freezes_bundle_and_definitions_then_new_draft(pg_sessions
     second = replace(
         library,
         lessons=[
-            library.lessons[0].model_copy(update={"version": 2, "title": "Bản xem trước mới"})
+            library.lessons[0].model_copy(update={"version": 3, "title": "Bản xem trước mới"})
         ],
     )
     async with pg_sessions() as session:
         await import_library(session, second, storage)
     async with pg_sessions() as session:
         assert await inspect_bundle(session, lesson_id, 1, storage) == first_bytes
-        second_draft = await session.get(LessonVersion, version_id("lesson", "lesson-ni", 2))
+        second_draft = await session.get(LessonVersion, version_id("lesson", "lesson-ni", 3))
         assert second_draft.status == "DRAFT"
     async with pg_sessions() as session:
-        second_key = await publish_lesson(session, lesson_id, 2, storage)
+        second_key = await publish_lesson(session, lesson_id, 3, storage)
     assert second_key != key and storage.read(key) == first_bytes
 
 
@@ -295,12 +296,12 @@ async def test_catalog_prose_changes_only_new_bundle(pg_sessions, tmp_path):
         vocabulary=[
             library.vocabulary[0].model_copy(update={"notes": "Thông tin bổ sung đã duyệt."})
         ],
-        lessons=[library.lessons[0].model_copy(update={"version": 2})],
+        lessons=[library.lessons[0].model_copy(update={"version": 3})],
     )
     async with pg_sessions() as session:
         await import_library(session, changed, storage)
     async with pg_sessions() as session:
-        second_key = await publish_lesson(session, lesson_id, 2, storage)
+        second_key = await publish_lesson(session, lesson_id, 3, storage)
     assert storage.read(first_key) == data
     assert json.loads(storage.read(second_key))["vocabulary"]["revision"] == 2
 

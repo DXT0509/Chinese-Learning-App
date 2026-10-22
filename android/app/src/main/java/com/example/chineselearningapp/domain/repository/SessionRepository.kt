@@ -2,7 +2,7 @@ package com.example.chineselearningapp.domain.repository
 
 data class Account(val id: String, val email: String?, val displayName: String = "")
 data class CatalogLesson(val versionId: String, val title: String, val version: Int = 1)
-data class PreviewRun(val id: String, val versionId: String, val checkpoints: Map<String, Int>)
+data class PreviewRun(val id: String, val versionId: String, val checkpoints: Map<String, Int>, val currentSceneKey: String? = null)
 data class PreviewScene(val key: String, val page: Int)
 
 interface SessionRepository {
@@ -14,5 +14,11 @@ interface SessionRepository {
     suspend fun start(versionId: String, requestId: String): PreviewRun
     suspend fun resume(runId: String): PreviewRun
     suspend fun scenes(versionId: String): List<PreviewScene>
+    suspend fun lessonBundle(versionId: String): com.example.chineselearningapp.domain.model.LessonBundle {
+        throw UnsupportedOperationException()
+    }
+    suspend fun lessonAsset(versionId: String, assetId: String): ByteArray {
+        throw UnsupportedOperationException()
+    }
     suspend fun checkpoint(runId: String, sceneKey: String, page: Int): PreviewRun
 }

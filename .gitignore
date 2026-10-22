@@ -22,11 +22,13 @@ captures/
 **/__pycache__/
 *.py[cod]
 **/.pytest_cache/
+backend/.pytest-phase3*/
 **/.ruff_cache/
 *.egg-info/
 .coverage
 htmlcov/
 backend/.content-storage/
+backend/.dictionary-source-cache/
 backend/.test-postgres-slice1/
 backend/.test-postgres-slice2*/
 dist/

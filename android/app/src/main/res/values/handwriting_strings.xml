@@ -1,0 +1,17 @@
+<resources>
+    <string name="ink_title">Viết chữ Hán</string>
+    <string name="ink_instruction">Vẽ một chữ Hán trong khung bên dưới</string>
+    <string name="ink_canvas">Khung viết chữ Hán bằng ngón tay hoặc bút</string>
+    <string name="ink_close">Đóng</string>
+    <string name="ink_undo">Hoàn tác</string>
+    <string name="ink_clear">Xóa nét</string>
+    <string name="ink_recognize">Nhận diện</string>
+    <string name="ink_preparing">Đang chuẩn bị nhận diện chữ viết tay…</string>
+    <string name="ink_downloading">Đang tải dữ liệu nhận diện tiếng Trung lần đầu. Cần kết nối mạng.</string>
+    <string name="ink_recognizing">Đang nhận diện…</string>
+    <string name="ink_model_error">Không thể chuẩn bị dữ liệu nhận diện. Vui lòng kiểm tra kết nối mạng và thử lại.</string>
+    <string name="ink_recognition_error">Không thể nhận diện lúc này. Hãy thử lại hoặc viết lại.</string>
+    <string name="ink_empty">Không nhận diện được chữ này. Hãy thử viết lại.</string>
+    <string name="ink_choose">Chọn chữ muốn nhập</string>
+    <string name="ink_multiple">Kết quả có nhiều chữ sẽ được chèn đầy đủ khi bạn chọn.</string>
+</resources>

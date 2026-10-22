@@ -53,6 +53,7 @@ class LessonRun(CreatedAt, Base):
     __table_args__ = (UniqueConstraint("user_id", "request_id"),)
     id: Mapped[UUID] = mapped_column(Uuid, primary_key=True, default=uuid4)
     user_id: Mapped[UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    current_scene_key: Mapped[UUID | None] = mapped_column(Uuid)
     request_id: Mapped[UUID] = mapped_column(Uuid)
     lesson_version_id: Mapped[UUID] = mapped_column(
         ForeignKey("lesson_versions.id", ondelete="RESTRICT")

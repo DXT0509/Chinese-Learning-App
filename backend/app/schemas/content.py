@@ -147,6 +147,19 @@ class AnalysisConfig(ContentModel):
     missing_analysis: Literal["SHOW_UNREVIEWED_PLACEHOLDER"]
 
 
+class PaginatedAnalysisConfig(AnalysisConfig):
+    pagination: Literal["ONE_CHARACTER_PER_PAGE", "ONE_COMPONENT_PER_PAGE"]
+
+
+class IntroductionConfig(ContentModel):
+    vocabulary_ref: TargetVocabulary
+    show_meaning: bool = True
+
+
+class PracticeConfig(ContentModel):
+    vocabulary_ref: TargetVocabulary
+
+
 class SceneEnvelope(ContentModel):
     scene_key: Identifier
     position: Position
@@ -161,10 +174,28 @@ class InformationScene(SceneEnvelope):
 
 class AnalysisScene(SceneEnvelope):
     scene_type: Literal["CHARACTER_ANALYSIS"]
-    config: AnalysisConfig
+    config: AnalysisConfig | PaginatedAnalysisConfig
 
 
-Scene = Annotated[InformationScene | AnalysisScene, Field(discriminator="scene_type")]
+class IntroductionScene(SceneEnvelope):
+    scene_type: Literal["VOCABULARY_INTRODUCTION"]
+    config: IntroductionConfig
+
+
+class StrokeScene(SceneEnvelope):
+    scene_type: Literal["STROKE_ANIMATION"]
+    config: PracticeConfig
+
+
+class HandwritingScene(SceneEnvelope):
+    scene_type: Literal["HANDWRITING_PRACTICE"]
+    config: PracticeConfig
+
+
+Scene = Annotated[
+    InformationScene | AnalysisScene | IntroductionScene | StrokeScene | HandwritingScene,
+    Field(discriminator="scene_type"),
+]
 
 
 class TemplateDefinition(ContentModel):

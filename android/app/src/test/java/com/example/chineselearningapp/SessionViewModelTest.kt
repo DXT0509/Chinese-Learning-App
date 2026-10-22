@@ -22,6 +22,9 @@ class SessionViewModelTest {
         var authFailure: Exception? = null
         var contentFailure: Exception? = null
         var restoreGate: CompletableDeferred<Unit>? = null
+        var logoutFailure: Exception? = null
+        var logoutGate: CompletableDeferred<Unit>? = null
+        var logoutCalls = 0
         var authCalls = 0
         val requests = mutableListOf<String>()
         override suspend fun authenticate(email: String, password: String, register: Boolean) {
@@ -34,7 +37,12 @@ class SessionViewModelTest {
             accountFailure?.let { throw it }
             return user
         }
-        override suspend fun logout() { user = null }
+        override suspend fun logout() {
+            logoutCalls++
+            logoutGate?.await()
+            logoutFailure?.let { throw it }
+            user = null
+        }
         override suspend fun catalog(): List<CatalogLesson> {
             contentFailure?.let { throw it }
             return listOf(CatalogLesson("version-1", "Preview"))
@@ -79,6 +87,36 @@ class SessionViewModelTest {
             assertNull(model.state.value.account)
             assertEquals(SessionStatus.SignedOut, model.state.value.status)
             assertNull(model.state.value.run)
+            assertTrue(model.state.value.runs.isEmpty())
+        } finally { Dispatchers.resetMain() }
+    }
+
+    @Test fun logoutWaitsForRepositoryAndFailureKeepsSessionForRetry() = runTest {
+        Dispatchers.setMain(StandardTestDispatcher(testScheduler))
+        try {
+            val repository = FakeRepository().apply { user = Account("user", "user@example.com") }
+            val model = SessionViewModel(repository)
+            advanceUntilIdle()
+            repository.logoutGate = CompletableDeferred()
+            repository.logoutFailure = java.io.IOException()
+            model.logout()
+            runCurrent()
+            assertTrue(model.state.value.loading)
+            assertEquals(SessionStatus.SignedIn, model.state.value.status)
+            model.logout()
+            assertEquals(1, repository.logoutCalls)
+            repository.logoutGate!!.complete(Unit)
+            advanceUntilIdle()
+            assertEquals(SessionStatus.SignedIn, model.state.value.status)
+            assertNotNull(model.state.value.account)
+            assertEquals(R.string.session_network_error, model.state.value.error)
+            repository.logoutFailure = null
+            model.logout()
+            advanceUntilIdle()
+            assertEquals(2, repository.logoutCalls)
+            assertEquals(SessionStatus.SignedOut, model.state.value.status)
+            assertNull(model.state.value.account)
+            assertTrue(model.state.value.catalog.isEmpty())
             assertTrue(model.state.value.runs.isEmpty())
         } finally { Dispatchers.resetMain() }
     }

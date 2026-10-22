@@ -1,1 +1,1 @@
-Profile currently uses a shared navigation placeholder. User identity and logout isolation must be implemented before profile data.
+ProfileScreen renders the existing SessionState account, account information and a future settings notice. The only main-app logout entry opens a confirmation dialog and calls SessionViewModel.logout through SessionActions. Loading disables duplicate requests; session errors remain visible for retry. Successful server logout discards the identity-keyed protected navigation graph.

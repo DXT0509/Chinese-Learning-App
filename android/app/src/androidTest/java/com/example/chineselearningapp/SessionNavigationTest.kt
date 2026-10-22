@@ -80,7 +80,10 @@ class SessionNavigationTest {
         compose.onNodeWithTag("confirmation_input").assertDoesNotExist()
         compose.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
         compose.runOnIdle { assertEquals(1, rootBackCount) }
-        compose.onNodeWithText("Đăng xuất").performClick()
+        compose.onNodeWithTag("profile_logout").assertDoesNotExist()
+        compose.onNodeWithTag("tab_Profile").performClick()
+        compose.onNodeWithTag("profile_logout").performScrollTo().performClick()
+        compose.onNodeWithTag("confirm_logout").performClick()
         compose.onNodeWithTag("email_input").assertIsDisplayed()
         compose.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
         compose.runOnIdle { assertEquals(2, rootBackCount) }

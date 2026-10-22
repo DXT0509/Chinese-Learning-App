@@ -31,6 +31,12 @@ object AppModule {
         .addConverterFactory(GsonConverterFactory.create()).build()
         .create(com.example.chineselearningapp.core.network.SessionApi::class.java)
     @Provides @Singleton
+    fun dictionaryApi(client: OkHttpClient): com.example.chineselearningapp.core.network.DictionaryApi = Retrofit.Builder()
+        .baseUrl(BuildConfig.API_BASE_URL).client(client)
+        .addConverterFactory(GsonConverterFactory.create()).build()
+        .create(com.example.chineselearningapp.core.network.DictionaryApi::class.java)
+
+    @Provides @Singleton
     fun client(): OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(10, TimeUnit.SECONDS).readTimeout(10, TimeUnit.SECONDS)
         .callTimeout(15, TimeUnit.SECONDS).build()
@@ -53,6 +59,9 @@ object AppModule {
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
+    @Binds @Singleton
+    abstract fun dictionary(implementation: com.example.chineselearningapp.feature.dictionary.data.RemoteDictionaryRepository): com.example.chineselearningapp.domain.repository.DictionaryRepository
+
     @Binds @Singleton
     abstract fun tokenStore(implementation: com.example.chineselearningapp.core.network.SessionVault): com.example.chineselearningapp.core.network.SessionTokenStore
     @Binds @Singleton

@@ -250,6 +250,11 @@ async def test_pinned_idempotent_runs_checkpoints_and_ownership(api):
     assert first.status_code == 201, first.text
     run = first.json()
     assert (await client.post("/api/v1/learning-runs", headers=headers, json=data)).json() == run
+    # New request UUIDs (including after app reinstall) resume the same pinned run.
+    another = await client.post(
+        "/api/v1/learning-runs", headers=headers, json={**data, "request_id": str(uuid4())}
+    )
+    assert another.json()["id"] == run["id"]
     run_path = "/api/v1/learning-runs/" + run["id"]
     scene_path = run_path + "/scenes/" + bundle["scenes"][0]["scene_key"]
     assert (await client.get(run_path, headers=auth(other))).status_code == 404
@@ -265,22 +270,30 @@ async def test_pinned_idempotent_runs_checkpoints_and_ownership(api):
         await client.put(scene_path, headers=headers, json={"page": 1, "completed": True})
     ).status_code == 422
     restored = (await client.get(run_path, headers=headers)).json()
+    assert restored["current_scene_key"] == bundle["scenes"][0]["scene_key"]
+    # Backward navigation also changes the latest cursor, independently of scene ordering.
+    second_scene = bundle["scenes"][1]["scene_key"]
+    assert (
+        await client.put(run_path + "/scenes/" + second_scene, headers=headers, json={"page": 0})
+    ).json()["current_scene_key"] == second_scene
+    restored = (await client.put(scene_path, headers=headers, json={"page": 3})).json()
+    assert restored["current_scene_key"] == bundle["scenes"][0]["scene_key"]
     assert restored["lesson_version_id"] == str(pinned)
     assert restored["learning_completion_supported"] is False
     assert len((await client.get("/api/v1/learning-runs", headers=auth(other))).json()) == 0
     # A newer publication must not move an existing run or its bundle/checkpoints.
     library = load_library(Path(__file__).resolve().parents[1] / "content")
-    second = replace(library, lessons=[library.lessons[0].model_copy(update={"version": 2})])
+    second = replace(library, lessons=[library.lessons[0].model_copy(update={"version": 3})])
     async with factory() as session:
         await import_library(session, second, storage)
     async with factory() as session:
-        await publish_lesson(session, lesson_id, 2, storage)
+        await publish_lesson(session, lesson_id, 3, storage)
     assert (await client.get(run_path, headers=headers)).json() == restored
     assert (await client.get(bundle_path + "?allow_preview=true", headers=headers)).json() == bundle
     conflict = await client.post(
         "/api/v1/learning-runs",
         headers=headers,
-        json={**data, "lesson_version_id": str(version_id("lesson", "lesson-ni", 2))},
+        json={**data, "lesson_version_id": str(version_id("lesson", "lesson-ni", 3))},
     )
     assert conflict.status_code == 409
 
@@ -302,3 +315,73 @@ async def test_preview_requires_server_gate_and_drafts_are_unavailable(api, monk
     monkeypatch.setenv("ALLOW_CONTENT_PREVIEW", "false")
     get_settings.cache_clear()
     assert (await client.get(path, headers=auth(tokens))).status_code == 403
+
+
+async def test_vocabulary_player_v2_bundle_and_missing_assets(api):
+    client, factory, root = api
+    storage = LocalContentStorage(root)
+    async with factory() as session:
+        await import_library(
+            session, load_library(Path(__file__).resolve().parents[1] / "content"), storage
+        )
+    pinned = version_id("lesson", "lesson-ni", 2)
+    async with factory() as session:
+        lesson_id = (await session.get(LessonVersion, pinned)).lesson_id
+    async with factory() as session:
+        await publish_lesson(session, lesson_id, 2, storage)
+    headers = auth(await register(client))
+    path = f"/api/v1/lesson-versions/{pinned}"
+    response = await client.get(path + "/bundle?allow_preview=true", headers=headers)
+    assert response.status_code == 200
+    assert [scene["scene_type"] for scene in response.json()["scenes"]] == [
+        "VOCABULARY_INTRODUCTION",
+        "VOCABULARY_INFORMATION",
+        "CHARACTER_ANALYSIS",
+        "STROKE_ANIMATION",
+        "HANDWRITING_PRACTICE",
+    ]
+    asset_path = path + f"/assets/{uuid4()}"
+    assert (await client.get(asset_path)).status_code == 401
+    assert (await client.get(asset_path, headers=headers)).status_code == 404
+
+
+async def test_media_is_pinned_to_bundle_and_hash_verified(api, monkeypatch):
+    from hashlib import sha256
+    from unittest.mock import AsyncMock
+
+    from app.services import learning_access
+
+    client, _, root = api
+    raw = b"fixture-media-bytes"
+    digest = sha256(raw).hexdigest()
+    asset_id = uuid4()
+    key = f"sha256/{digest}.wav"
+    path = root / key
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(raw)
+    monkeypatch.setattr(
+        learning_access,
+        "bundle",
+        AsyncMock(
+            return_value={
+                "assets": [
+                    {
+                        "id": str(asset_id),
+                        "storage_key": key,
+                        "sha256": digest,
+                        "byte_length": len(raw),
+                        "media_type": "audio/wav",
+                    }
+                ]
+            }
+        ),
+    )
+    headers = auth(await register(client))
+    prefix = f"/api/v1/lesson-versions/{uuid4()}/assets/"
+    response = await client.get(prefix + str(asset_id), headers=headers)
+    assert response.status_code == 200
+    assert response.content == raw
+    assert response.headers["Content-Type"] == "audio/wav"
+    assert (await client.get(prefix + str(uuid4()), headers=headers)).status_code == 404
+    path.write_bytes(b"corrupt")
+    assert (await client.get(prefix + str(asset_id), headers=headers)).status_code == 503

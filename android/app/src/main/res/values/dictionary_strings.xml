@@ -1,0 +1,29 @@
+<resources>
+    <string name="dictionary_title">Tra từ điển</string>
+    <string name="dictionary_intro">Khám phá chữ Hán, Pinyin và ý nghĩa của từ.</string>
+    <string name="dictionary_query">Nhập chữ Hán</string>
+    <string name="dictionary_clear">Xóa</string>
+    <string name="dictionary_initial">Nhập chữ Hán để khám phá từ vựng</string>
+    <string name="dictionary_typing">Đang chờ nhập xong…</string>
+    <string name="dictionary_loading">Đang tra từ điển…</string>
+    <string name="dictionary_empty">Không tìm thấy từ phù hợp</string>
+    <string name="dictionary_error">Không thể tải kết quả. Vui lòng thử lại.</string>
+    <string name="dictionary_expired">Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.</string>
+    <string name="dictionary_invalid">Nhập tối đa 64 ký tự, không chứa ký tự điều khiển hoặc ký tự ẩn.</string>
+    <string name="dictionary_not_found">Mục từ này không còn khả dụng.</string>
+    <string name="dictionary_retry">Thử lại</string>
+    <string name="dictionary_more">Xem thêm kết quả</string>
+    <string name="dictionary_traditional">Phồn thể: %1$s</string>
+    <string name="dictionary_meaning_en">Nghĩa tiếng Anh</string>
+    <string name="dictionary_meaning_vi">Nghĩa tiếng Việt</string>
+    <string name="dictionary_meaning_other">Nghĩa (%1$s)</string>
+    <string name="dictionary_characters">Khám phá từng chữ Hán</string>
+    <string name="dictionary_character_note">Chú giải từng chữ, không phải bản dịch hay âm Hán Việt đã xác minh cho cả từ.</string>
+    <string name="dictionary_sino">Âm Hán Việt: %1$s</string>
+    <string name="dictionary_reading_mismatch">Chú giải này có cách đọc khác với mục từ đang xem.</string>
+    <string name="dictionary_reading_unknown">Chưa xác minh cách đọc này với mục từ đang xem.</string>
+    <string name="dictionary_sources">Nguồn và giấy phép</string>
+    <string name="dictionary_source_link">Trang nguồn</string>
+    <string name="dictionary_license_link">Giấy phép: %1$s</string>
+    <string name="dictionary_link_error">Không thể mở liên kết này.</string>
+</resources>

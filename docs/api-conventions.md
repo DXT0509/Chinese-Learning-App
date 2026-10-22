@@ -26,3 +26,12 @@ Bearer rejection returns 401 with WWW-Authenticate; cross-user runs return 404. 
 throttling returns 429/Retry-After. Private responses use Cache-Control: no-store.
 CORS is closed by default; explicitly enumerate browser origins using a JSON array in
 `CORS_ORIGINS`. Native Android requests do not need CORS. Credentialed CORS is disabled.
+
+## Phase 3.1 dictionary lookup
+
+`GET /api/v1/dictionary/search` and `GET /api/v1/dictionary/entries/{entry_id}`
+require the existing Bearer identity. Lookup data is shared across users. Search accepts
+1–64 codepoints, limit 1–50 and offset 0–1000; exact matches precede prefix matches with
+deterministic Unicode ordering. Responses preserve source/revision and nullable Vietnamese
+coverage; detail includes source/license attribution. Generic 401/404/422 errors follow
+existing policies. See [the full contract](dictionary-foundation.md#http-contracts).

@@ -1,5 +1,9 @@
 # Chạy ứng dụng qua USB trên Windows
 
+Phase 3: cần migration `0004_vocabulary_player` và xuất bản lesson-ni phiên bản 2 để mở
+đủ năm nội dung học thử. Xem [hướng dẫn Lesson Player](vocabulary-player.md) để có lệnh
+chạy đầy đủ và cách kiểm tra lưu/tiếp tục bài học.
+
 Ứng dụng dùng FastAPI cổng 8000, PostgreSQL cài trực tiếp trên Windows và điện thoại
 Android nối USB. Không cần Docker. Debug mặc định dùng `http://127.0.0.1:8000/`;
 `adb reverse` chuyển cổng này trên điện thoại về máy tính. Không dùng địa chỉ emulator
@@ -36,8 +40,14 @@ Chỉ cần Alembic khi khởi tạo database hoặc có revision mới chưa á
 .venv\Scripts\python -m alembic upgrade head
 ```
 
-Thay đổi giới hạn mật khẩu và giao diện trong tác vụ này **không đổi schema**, không có
-revision mới và không cần migration nếu database đã ở `0003_sessions_and_runs`.
+Phase 3 có revision mới `0004_vocabulary_player`; database đang ở
+`0003_sessions_and_runs` cần chạy lệnh upgrade ở trên trước khi dùng Lesson Player.
+
+Chỉ chạy một backend trên cổng 8000. Trên Windows, tiến trình bind `127.0.0.1`
+có thể cùng tồn tại với tiến trình bind `0.0.0.0`; điện thoại qua ADB reverse vẫn có
+thể kết nối vào bản cũ. `python -m app` dùng `127.0.0.1` giống lệnh Uvicorn bên dưới
+để tránh hai cách khởi chạy dùng địa chỉ bind khác nhau. Sau khi đổi `.env`, dừng
+backend cũ bằng Ctrl+C trước khi chạy lại; `--reload` không tự nạp thay đổi `.env`.
 
 ## 2. Chạy FastAPI với tự nạp lại mã
 

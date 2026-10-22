@@ -1,5 +1,9 @@
 # Email/password authentication (Slice 2)
 
+Phase 3 retains these authentication contracts and adds a playable preview lesson UI.
+Run responses now include `current_scene_key`; starting the same lesson version resumes
+its existing run. See [the vocabulary player guide](vocabulary-player.md).
+
 Email/password registration and login are the MVP priority. Google Sign-In is deferred
 until pre-release; no Google SDK, verifier or Google authentication endpoint is included.
 `users.id` remains the internal ownership UUID. The new `password_credentials` table

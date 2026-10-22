@@ -1,5 +1,12 @@
 # Proposed database and learning architecture
 
+Phase 3.1 adds two implemented lookup tables, `dictionary_imports` and
+`dictionary_entries`, in additive revision `0005_dictionary_foundation` after the existing
+player revision 0004. They are shared external-source data, independent of the target
+learning schema below. No curriculum/user vocabulary, asset or learning table is adapted.
+See [dictionary foundation](dictionary-foundation.md) for identity, indexes, import
+retention and nullable language metadata; this lookup does not grant learning eligibility.
+
 Status: **target design; Slices 1 and 2 implemented separately**. Reviewed 2026-10-18. This proposal
 supersedes the vocabulary-only ten-table proposal. It authorizes no implementation,
 migration, database connection, or data change by itself. The authorized Slice 1 scope,
