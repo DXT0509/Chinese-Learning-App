@@ -37,6 +37,8 @@ def run():
     parser.add_argument("--acknowledge-license", choices=[LICENSE], required=True)
     parser.add_argument("--validate-only", action="store_true")
     args = parser.parse_args()
+    if not args.validate_only:
+        parser.error("Provider retired in Phase 4; use scripts.curated_vocabulary")
     try:
         if args.revision:
             validate_revision(args.revision)

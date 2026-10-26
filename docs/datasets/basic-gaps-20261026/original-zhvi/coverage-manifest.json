@@ -1,0 +1,56 @@
+{
+  "provenance": {
+    "author_label": "Codex session",
+    "author_model": null,
+    "author_version": null,
+    "method": "Manually composed in the active Codex conversation; not Gemini output",
+    "source": "authored.psv",
+    "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+    "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+    "timestamp": "2026-10-26T04:52:03.340313+00:00",
+    "paid_api_calls": 0
+  },
+  "scope": "322 missing beginner words/character elements from a bounded 709-form audit",
+  "batches": [
+    {
+      "batch_key": "L0-B001",
+      "artifact_file": "level-0-batch-001.authored.jsonl",
+      "records_count": 50
+    },
+    {
+      "batch_key": "L0-B002",
+      "artifact_file": "level-0-batch-002.authored.jsonl",
+      "records_count": 50
+    },
+    {
+      "batch_key": "L0-B003",
+      "artifact_file": "level-0-batch-003.authored.jsonl",
+      "records_count": 23
+    },
+    {
+      "batch_key": "L1-B001",
+      "artifact_file": "level-1-batch-001.authored.jsonl",
+      "records_count": 50
+    },
+    {
+      "batch_key": "L1-B002",
+      "artifact_file": "level-1-batch-002.authored.jsonl",
+      "records_count": 50
+    },
+    {
+      "batch_key": "L1-B003",
+      "artifact_file": "level-1-batch-003.authored.jsonl",
+      "records_count": 50
+    },
+    {
+      "batch_key": "L1-B004",
+      "artifact_file": "level-1-batch-004.authored.jsonl",
+      "records_count": 39
+    },
+    {
+      "batch_key": "L2-B001",
+      "artifact_file": "level-2-batch-001.authored.jsonl",
+      "records_count": 10
+    }
+  ]
+}

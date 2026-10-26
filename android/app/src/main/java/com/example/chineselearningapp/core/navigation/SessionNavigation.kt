@@ -34,7 +34,8 @@ data class SessionActions(
 
 @Composable
 fun AppNavigation(viewModel: ConnectivityViewModel, sessionViewModel: SessionViewModel, lessonViewModel: LessonPlayerViewModel, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository,
-    handwritingFactory: (() -> HandwritingRecognizer)? = null) {
+    handwritingFactory: (() -> HandwritingRecognizer)? = null,
+    wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null) {
     val connectivity by viewModel.state.collectAsStateWithLifecycle()
     val session by sessionViewModel.state.collectAsStateWithLifecycle()
     LaunchedEffect(session.account?.id) { lessonViewModel.bindIdentity(session.account?.id) }
@@ -42,13 +43,14 @@ fun AppNavigation(viewModel: ConnectivityViewModel, sessionViewModel: SessionVie
         sessionViewModel::authenticate, sessionViewModel::logout, sessionViewModel::reload,
         sessionViewModel::clearFormErrors, sessionViewModel::start, sessionViewModel::resume,
         sessionViewModel::checkpoint
-    ), connectivity, viewModel::retry, lessonViewModel, dictionaryRepository, handwritingFactory)
+    ), connectivity, viewModel::retry, lessonViewModel, dictionaryRepository, handwritingFactory, wordbookRepository)
 }
 
 @Composable
 fun SessionNavigation(state: SessionState, actions: SessionActions,
     connectivity: ConnectivityState = ConnectivityState.Loading, retryConnection: () -> Unit = {}, lessonViewModel: LessonPlayerViewModel? = null, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository? = null,
-    handwritingFactory: (() -> HandwritingRecognizer)? = null) {
+    handwritingFactory: (() -> HandwritingRecognizer)? = null,
+    wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null) {
     FreshBackground {
         // The entire graph is removed on identity changes. No protected back-stack or
         // saved destination survives logout/account switching; no login graph survives login.
@@ -59,7 +61,7 @@ fun SessionNavigation(state: SessionState, actions: SessionActions,
                 }
             SessionStatus.SignedOut -> key("signed-out") { AuthenticationGraph(state, actions) }
             SessionStatus.SignedIn -> key("signed-in", state.account?.id) {
-                ProtectedGraph(state, actions, connectivity, retryConnection, lessonViewModel, dictionaryRepository, handwritingFactory)
+                ProtectedGraph(state, actions, connectivity, retryConnection, lessonViewModel, dictionaryRepository, handwritingFactory, wordbookRepository)
             }
         }
     }

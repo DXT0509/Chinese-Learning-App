@@ -1,0 +1,318 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L2-B001",
+  "source_file": "level-2-batch-001.authored.jsonl",
+  "source_sha256": "f4eb5748511490a5467a3896202150f42e21831c2d14e1ded094d2a4d9aa5a0f",
+  "deployment_sha256": "f4eb5748511490a5467a3896202150f42e21831c2d14e1ded094d2a4d9aa5a0f",
+  "checkpoint_written_at": "2026-10-26T04:52:03.340313+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "scope": "Session-authored supplementary entries; every field and complete example reviewed",
+  "supporting_sources": [],
+  "author_provenance": {
+    "author_label": "Codex session",
+    "author_model": null,
+    "author_version": null,
+    "method": "Manually composed in the active Codex conversation; not Gemini output",
+    "source": "authored.psv",
+    "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+    "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+    "timestamp": "2026-10-26T04:52:03.340313+00:00",
+    "paid_api_calls": 0
+  },
+  "records": [
+    {
+      "lexical_key": "胳膊|ge1 bo5",
+      "id": "ae43bce7-ae8b-52bc-b5a1-14a7e252c84a",
+      "source_content_version": 1,
+      "source_checksum": "414ebaea16d6651602124f1695824c0e822649d66c4bac20acc2a8b9a1c6785b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "414ebaea16d6651602124f1695824c0e822649d66c4bac20acc2a8b9a1c6785b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Choose standard gēbo with neutral bo; no ge2 alternative silently added.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "膝盖|xi1 gai4",
+      "id": "51962495-dfee-5b8d-8db5-c83c39f9478a",
+      "source_content_version": 1,
+      "source_checksum": "e192e4160b6433ef43ee5b5a8b6d751f488d499b32a4ac8a3614f78ca439cc2e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e192e4160b6433ef43ee5b5a8b6d751f488d499b32a4ac8a3614f78ca439cc2e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xigai1-4 knee; do not neutralize gài in canonical key.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "昂贵|ang2 gui4",
+      "id": "c51d0d8f-c7a2-5136-84cd-418b9ed8a8ad",
+      "source_content_version": 1,
+      "source_checksum": "354737ebcea2f1e043d42a824a73040f0253b6f20b60152d4c9bf2f24801e274",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "354737ebcea2f1e043d42a824a73040f0253b6f20b60152d4c9bf2f24801e274",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Anggui2-4 costly, more formal than 贵 but useful synonym, not cheap.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "作|zuo4",
+      "id": "74c12c80-9906-5ef3-a93f-3a9ed3bcbf75",
+      "source_content_version": 1,
+      "source_checksum": "790caae48d8abc2f034a1029fc51c32db100f43746851687a457abe8b2d63cba",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "790caae48d8abc2f034a1029fc51c32db100f43746851687a457abe8b2d63cba",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zuo4 compose/do in 作诗; not falsely interchangeable with 做 in every collocation, exclude zuo1.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "喜|xi3",
+      "id": "6a5cd807-ddea-512b-b57f-b2a2cd509f83",
+      "source_content_version": 1,
+      "source_checksum": "c386a75fd6001da93f2f6b93f9fa554b7ef2dd41f9b8ff18d8a27de76683e216",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c386a75fd6001da93f2f6b93f9fa554b7ef2dd41f9b8ff18d8a27de76683e216",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xi3 joy element; idiom example labelled compound usage rather than teaching 喜 as standalone like verb.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "目|mu4",
+      "id": "5ed28fe6-5c64-581b-af5b-695334f04528",
+      "source_content_version": 1,
+      "source_checksum": "21caf3c1dc1d91b6ea705db4eca9ce338160d89601bd16a209d588424cd4c4ff",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "21caf3c1dc1d91b6ea705db4eca9ce338160d89601bd16a209d588424cd4c4ff",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Mu4 literary eye in 双目; everyday equivalent 眼睛 remains separate and register explicit.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "耳|er3",
+      "id": "920cb57e-bfd5-5b98-9778-1f7625164a23",
+      "source_content_version": 1,
+      "source_checksum": "8783662a44ca0620d11449acce9fdf96a5f84238996ca8d7184bd920eb2946f8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8783662a44ca0620d11449acce9fdf96a5f84238996ca8d7184bd920eb2946f8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Er3 ear literary/compound register, apostrophe in 双耳; not child 儿 er2.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "识|shi2",
+      "id": "792bea33-8c7f-5011-a692-b4fd554a7368",
+      "source_content_version": 1,
+      "source_checksum": "b4128897c2283fb3e6c5705abef0bf312199e208e95f3c2d19b4ef86d47b3172",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b4128897c2283fb3e6c5705abef0bf312199e208e95f3c2d19b4ef86d47b3172",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shi2 citation of knowledge element; neutral shi in 认识 example intentional, exclude zhi4 mark sense.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "足|zu2",
+      "id": "59e27be6-daa8-5663-af16-e5d759c450d3",
+      "source_content_version": 1,
+      "source_checksum": "a47145c05732431b637a8e7e0036855909de82927c88a55a1172f5564147d5e0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a47145c05732431b637a8e7e0036855909de82927c88a55a1172f5564147d5e0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zu2 foot in literary 洗足; ordinary spoken 洗脚 is more common and register explicitly marked.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "道|dao4",
+      "id": "36ba37e5-0f01-5309-b467-b54e915ffec6",
+      "source_content_version": 1,
+      "source_checksum": "85768b6ded1c30e28b3afd8441ebb17202d565299d84b004cb906ab828a8bd45",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "85768b6ded1c30e28b3afd8441ebb17202d565299d84b004cb906ab828a8bd45",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dao4 way/path in 人行道, not neutral dao of 知道 or unrelated classifier sense.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    }
+  ]
+}

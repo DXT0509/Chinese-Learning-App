@@ -33,6 +33,8 @@ def run():
     parser.add_argument("--acknowledge-license", choices=[LICENSE], required=True)
     parser.add_argument("--validate-only", action="store_true")
     args = parser.parse_args()
+    if not args.validate_only:
+        parser.error("Provider retired in Phase 4; use scripts.curated_vocabulary")
     try:
         revision = validate_revision(args.revision or "artifact-sha256-" + args.sha256.lower())
         dataset = load_character_dataset(args.file, args.sha256.lower())

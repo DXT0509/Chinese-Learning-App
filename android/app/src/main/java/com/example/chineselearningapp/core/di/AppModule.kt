@@ -26,15 +26,18 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object AppModule {
     @Provides @Singleton
-    fun sessionApi(client: OkHttpClient): com.example.chineselearningapp.core.network.SessionApi = Retrofit.Builder()
+    fun retrofit(client: OkHttpClient): Retrofit = Retrofit.Builder()
         .baseUrl(BuildConfig.API_BASE_URL).client(client)
         .addConverterFactory(GsonConverterFactory.create()).build()
-        .create(com.example.chineselearningapp.core.network.SessionApi::class.java)
     @Provides @Singleton
-    fun dictionaryApi(client: OkHttpClient): com.example.chineselearningapp.core.network.DictionaryApi = Retrofit.Builder()
-        .baseUrl(BuildConfig.API_BASE_URL).client(client)
-        .addConverterFactory(GsonConverterFactory.create()).build()
-        .create(com.example.chineselearningapp.core.network.DictionaryApi::class.java)
+    fun sessionApi(retrofit: Retrofit): com.example.chineselearningapp.core.network.SessionApi =
+        retrofit.create(com.example.chineselearningapp.core.network.SessionApi::class.java)
+    @Provides @Singleton
+    fun dictionaryApi(retrofit: Retrofit): com.example.chineselearningapp.core.network.DictionaryApi =
+        retrofit.create(com.example.chineselearningapp.core.network.DictionaryApi::class.java)
+    @Provides @Singleton
+    fun personalVocabularyApi(retrofit: Retrofit): com.example.chineselearningapp.core.network.PersonalVocabularyApi =
+        retrofit.create(com.example.chineselearningapp.core.network.PersonalVocabularyApi::class.java)
 
     @Provides @Singleton
     fun client(): OkHttpClient = OkHttpClient.Builder()
@@ -42,10 +45,7 @@ object AppModule {
         .callTimeout(15, TimeUnit.SECONDS).build()
 
     @Provides @Singleton
-    fun healthApi(client: OkHttpClient): HealthApi = Retrofit.Builder()
-        .baseUrl(BuildConfig.API_BASE_URL).client(client)
-        .addConverterFactory(GsonConverterFactory.create())
-        .build().create(HealthApi::class.java)
+    fun healthApi(retrofit: Retrofit): HealthApi = retrofit.create(HealthApi::class.java)
 
     @Provides @Singleton
     fun database(@ApplicationContext context: Context): LearningDatabase = Room.databaseBuilder(
@@ -59,6 +59,9 @@ object AppModule {
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
+    @Binds @Singleton
+    abstract fun personalVocabulary(implementation: com.example.chineselearningapp.feature.vocabulary.data.RemotePersonalVocabularyRepository): com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository
+
     @Binds @Singleton
     abstract fun dictionary(implementation: com.example.chineselearningapp.feature.dictionary.data.RemoteDictionaryRepository): com.example.chineselearningapp.domain.repository.DictionaryRepository
 

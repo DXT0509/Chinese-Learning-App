@@ -1,0 +1,4015 @@
+{
+  "source_sha256": "ddeb6f2a4b2188355363c8d7cc2b4a3bfdbcc1473aa435ff0502f3a5f4249006",
+  "mappings": [
+    {
+      "source_key": "cv_1fbecb75-1350-5364-b3c7-340d6d3eb773",
+      "source_reading": "r1",
+      "lexical_key": "你好|ni3 hao3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction. Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "你好！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ hǎo!",
+            "pinyin_numbered": "ni3 hao3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Xin chào!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "你好",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "你好",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"你好\",\"ni3 hao3\",1]",
+        "key": "cv_1fbecb75-1350-5364-b3c7-340d6d3eb773",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nǐ hǎo",
+            "pinyin_numbered": "ni3 hao3",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "xin chào"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_5bdd3dc3-de9f-5f8c-ad02-56b9668776a9",
+      "source_reading": "r1",
+      "lexical_key": "您好|nin2 hao3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction. Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "您好！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nín hǎo!",
+            "pinyin_numbered": "nin2 hao3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Cháu chào bác ạ!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "您好",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "您好",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"您好\",\"nin2 hao3\",1]",
+        "key": "cv_5bdd3dc3-de9f-5f8c-ad02-56b9668776a9",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nín hǎo",
+            "pinyin_numbered": "nin2 hao3",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "xin chào (lịch sự)"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_d6b2d7bd-98e1-5d42-9629-5b9ed96c0f6f",
+      "source_reading": "r1",
+      "lexical_key": "再见|zai4 jian4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "再见！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zàijiàn!",
+            "pinyin_numbered": "zai4 jian4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tạm biệt!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "再见",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "再見",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"再见\",\"zai4 jian4\",1]",
+        "key": "cv_d6b2d7bd-98e1-5d42-9629-5b9ed96c0f6f",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "zàijiàn",
+            "pinyin_numbered": "zai4 jian4",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "tạm biệt"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_d6071dd7-6cd0-5a87-8ad1-4f7dae33cc87",
+      "source_reading": "r1",
+      "lexical_key": "谢谢|xie4 xie5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "谢谢你！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Xièxie nǐ!",
+            "pinyin_numbered": "xie4 xie5 ni3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Cảm ơn bạn!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "谢谢",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "謝謝",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"谢谢\",\"xie4 xie5\",1]",
+        "key": "cv_d6071dd7-6cd0-5a87-8ad1-4f7dae33cc87",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "xièxie",
+            "pinyin_numbered": "xie4 xie5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "cảm ơn"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_2a762c3b-0e16-5d57-a380-f5816d944d33",
+      "source_reading": "r1",
+      "lexical_key": "不客气|bu4 ke4 qi5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction. Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "不客气！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Bù kèqi!",
+            "pinyin_numbered": "bu4 ke4 qi5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Không có gì!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "不客气",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "不客氣",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"不客气\",\"bu4 ke4 qi5\",1]",
+        "key": "cv_2a762c3b-0e16-5d57-a380-f5816d944d33",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "bù kèqi",
+            "pinyin_numbered": "bu4 ke4 qi5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [
+          {
+            "blocking": true,
+            "code": "NEUTRAL_TONE_VARIATION",
+            "explanation": "Draft uses a neutral final syllable. A human must confirm this teaching choice and whether to add a full-tone regional or careful-speech variant.",
+            "path": "/readings/0"
+          }
+        ],
+        "review_status": "NEEDS_REVIEW",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "không có gì (đáp lời cảm ơn)"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_70ac9e04-38bc-55c1-8740-efc0220a2901",
+      "source_reading": "r1",
+      "lexical_key": "对不起|dui4 bu5 qi3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction. Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "对不起！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Duìbuqǐ!",
+            "pinyin_numbered": "dui4 bu5 qi3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Xin lỗi!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "对不起",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "對不起",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"对不起\",\"dui4 bu5 qi3\",1]",
+        "key": "cv_70ac9e04-38bc-55c1-8740-efc0220a2901",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "duìbuqǐ",
+            "pinyin_numbered": "dui4 bu5 qi3",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "xin lỗi"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_83757cef-10b8-5235-84a4-2d985be998b1",
+      "source_reading": "r1",
+      "lexical_key": "没关系|mei2 guan1 xi5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "没关系！",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Méi guānxi!",
+            "pinyin_numbered": "mei2 guan1 xi5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Không sao đâu!"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "没关系",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "沒關係",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"没关系\",\"mei2 guan1 xi5\",1]",
+        "key": "cv_83757cef-10b8-5235-84a4-2d985be998b1",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "méi guānxi",
+            "pinyin_numbered": "mei2 guan1 xi5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [
+          {
+            "blocking": true,
+            "code": "NEUTRAL_TONE_VARIATION",
+            "explanation": "Draft uses a neutral final syllable. A human must confirm this teaching choice and whether to add a full-tone regional or careful-speech variant.",
+            "path": "/readings/0"
+          }
+        ],
+        "review_status": "NEEDS_REVIEW",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "không sao (đáp lời xin lỗi)"
+            ],
+            "part_of_speech": "phrase",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_adb54974-7c35-59b4-b67a-0cec7d1a34e0",
+      "source_reading": "r1",
+      "lexical_key": "请|qing3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Verb label covers inviting/requesting; the example teaches polite 请 + verb, not every usage.",
+        "examples": [
+          {
+            "chinese": "请喝茶。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Qǐng hē chá.",
+            "pinyin_numbered": "qing3 he1 cha2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Mời bạn uống trà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "请",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "請",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"请\",\"qing3\",1]",
+        "key": "cv_adb54974-7c35-59b4-b67a-0cec7d1a34e0",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "qǐng",
+            "pinyin_numbered": "qing3",
+            "primary": true,
+            "sino_vietnamese": "thỉnh",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "mời",
+              "xin (dùng để đề nghị lịch sự)"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_aabd9c8f-d9b3-5c71-a16f-95c4331c84dc",
+      "source_reading": "r1",
+      "lexical_key": "我|wo3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "我在家。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ zài jiā.",
+            "pinyin_numbered": "wo3 zai4 jia1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi ở nhà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "我",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "我",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"我\",\"wo3\",1]",
+        "key": "cv_aabd9c8f-d9b3-5c71-a16f-95c4331c84dc",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "wǒ",
+            "pinyin_numbered": "wo3",
+            "primary": true,
+            "sino_vietnamese": "ngã",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "tôi",
+              "mình"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_5ab21e2d-37ae-5837-ba2a-ea20af5d50a7",
+      "source_reading": "r1",
+      "lexical_key": "你|ni3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "你喝茶吗？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ hē chá ma?",
+            "pinyin_numbered": "ni3 he1 cha2 ma5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bạn có uống trà không?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "你",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "你",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"你\",\"ni3\",1]",
+        "key": "cv_5ab21e2d-37ae-5837-ba2a-ea20af5d50a7",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nǐ",
+            "pinyin_numbered": "ni3",
+            "primary": true,
+            "sino_vietnamese": "nhĩ",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "bạn",
+              "cậu (ngôi thứ hai số ít)"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_dd4bee51-8c51-5076-b1f8-0684b136db25",
+      "source_reading": "r1",
+      "lexical_key": "您|nin2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. Vietnamese address terms depend on relationship and age; ông/bà are illustrative alternatives, not a fixed equivalence.",
+        "examples": [
+          {
+            "chinese": "您请。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nín qǐng.",
+            "pinyin_numbered": "nin2 qing3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Xin mời ông/bà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "您",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "您",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"您\",\"nin2\",1]",
+        "key": "cv_dd4bee51-8c51-5076-b1f8-0684b136db25",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nín",
+            "pinyin_numbered": "nin2",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ông",
+              "bà",
+              "anh",
+              "chị (cách xưng hô lịch sự)"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_a3239998-3a3c-51a2-8ce6-34182aaee2e7",
+      "source_reading": "r1",
+      "lexical_key": "他|ta1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "他在家。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Tā zài jiā.",
+            "pinyin_numbered": "ta1 zai4 jia1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Anh ấy ở nhà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "他",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "他",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"他\",\"ta1\",1]",
+        "key": "cv_a3239998-3a3c-51a2-8ce6-34182aaee2e7",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "tā",
+            "pinyin_numbered": "ta1",
+            "primary": true,
+            "sino_vietnamese": "tha",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "anh ấy",
+              "ông ấy",
+              "cậu ấy"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_0ed90e68-13ce-581b-9f99-258b03183fdf",
+      "source_reading": "r1",
+      "lexical_key": "她|ta1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "她喝水。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Tā hē shuǐ.",
+            "pinyin_numbered": "ta1 he1 shui3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Cô ấy uống nước."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "她",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "她",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"她\",\"ta1\",1]",
+        "key": "cv_0ed90e68-13ce-581b-9f99-258b03183fdf",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "tā",
+            "pinyin_numbered": "ta1",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "cô ấy",
+              "bà ấy",
+              "chị ấy"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_1b2ae9a6-306f-505e-a18f-a6f537fcb244",
+      "source_reading": "r1",
+      "lexical_key": "我们|wo3 men5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "我们去。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒmen qù.",
+            "pinyin_numbered": "wo3 men5 qu4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Chúng tôi đi."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "我们",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "我們",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"我们\",\"wo3 men5\",1]",
+        "key": "cv_1b2ae9a6-306f-505e-a18f-a6f537fcb244",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "wǒmen",
+            "pinyin_numbered": "wo3 men5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "chúng tôi",
+              "chúng ta"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_e43d9356-11b6-5c3e-b788-0291f4afbdee",
+      "source_reading": "r1",
+      "lexical_key": "你们|ni3 men5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "你们来吗？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐmen lái ma?",
+            "pinyin_numbered": "ni3 men5 lai2 ma5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Các bạn có đến không?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "你们",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "你們",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"你们\",\"ni3 men5\",1]",
+        "key": "cv_e43d9356-11b6-5c3e-b788-0291f4afbdee",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nǐmen",
+            "pinyin_numbered": "ni3 men5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "các bạn",
+              "các anh",
+              "các chị"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_428edb16-55d3-5617-9cc7-ae66180143b7",
+      "source_reading": "r1",
+      "lexical_key": "这|zhe4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "这是水。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zhè shì shuǐ.",
+            "pinyin_numbered": "zhe4 shi4 shui3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Đây là nước."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "这",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "這",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"这\",\"zhe4\",1]",
+        "key": "cv_428edb16-55d3-5617-9cc7-ae66180143b7",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "zhè",
+            "pinyin_numbered": "zhe4",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "đây",
+              "này (chỉ người hoặc vật ở gần)"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_ec3bf56b-cf1a-524b-acec-1e55ff444995",
+      "source_reading": "r1",
+      "lexical_key": "那|na4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "那是茶。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nà shì chá.",
+            "pinyin_numbered": "na4 shi4 cha2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Kia là trà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "那",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "那",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"那\",\"na4\",1]",
+        "key": "cv_ec3bf56b-cf1a-524b-acec-1e55ff444995",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "nà",
+            "pinyin_numbered": "na4",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "kia",
+              "đó (chỉ người hoặc vật ở xa hơn)"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_ef3df994-fd44-5e20-812c-4c92df1f2c91",
+      "source_reading": "r1",
+      "lexical_key": "谁|shei2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "他是谁？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Tā shì shéi?",
+            "pinyin_numbered": "ta1 shi4 shei2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Anh ấy là ai?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "谁",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "誰",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"谁\",\"shei2\",1]",
+        "key": "cv_ef3df994-fd44-5e20-812c-4c92df1f2c91",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shéi",
+            "pinyin_numbered": "shei2",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          },
+          {
+            "key": "r2",
+            "pinyin": "shuí",
+            "pinyin_numbered": "shui2",
+            "primary": false,
+            "sino_vietnamese": null,
+            "usage_note": "Alternative reading; primary teaching preference pending human review."
+          }
+        ],
+        "review_issues": [
+          {
+            "blocking": true,
+            "code": "READING_VARIANT_POLICY",
+            "explanation": "Both shéi and shuí are represented. Human review must confirm primary-reading selection and beginner presentation.",
+            "path": "/readings"
+          }
+        ],
+        "review_status": "NEEDS_REVIEW",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ai"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1",
+              "r2"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_ef3df994-fd44-5e20-812c-4c92df1f2c91",
+      "source_reading": "r2",
+      "lexical_key": "谁|shui2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "他是谁？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Tā shì shéi?",
+            "pinyin_numbered": "ta1 shi4 shei2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Anh ấy là ai?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "谁",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "誰",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"谁\",\"shei2\",1]",
+        "key": "cv_ef3df994-fd44-5e20-812c-4c92df1f2c91",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shéi",
+            "pinyin_numbered": "shei2",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          },
+          {
+            "key": "r2",
+            "pinyin": "shuí",
+            "pinyin_numbered": "shui2",
+            "primary": false,
+            "sino_vietnamese": null,
+            "usage_note": "Alternative reading; primary teaching preference pending human review."
+          }
+        ],
+        "review_issues": [
+          {
+            "blocking": true,
+            "code": "READING_VARIANT_POLICY",
+            "explanation": "Both shéi and shuí are represented. Human review must confirm primary-reading selection and beginner presentation.",
+            "path": "/readings"
+          }
+        ],
+        "review_status": "NEEDS_REVIEW",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ai"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1",
+              "r2"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_79096eb0-272d-50a3-8abe-47697059f8b2",
+      "source_reading": "r1",
+      "lexical_key": "什么|shen2 me5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. 什麼 is the selected primary traditional form; 甚麼 is retained as a written variant. Regional preference needs human review.",
+        "examples": [
+          {
+            "chinese": "这是什么？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zhè shì shénme?",
+            "pinyin_numbered": "zhe4 shi4 shen2 me5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Đây là cái gì?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "什么",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "什麼",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad-alt",
+            "primary": false,
+            "script": "TRADITIONAL",
+            "text": "甚麼",
+            "usage_note": "Written variant; regional preference pending human review."
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"什么\",\"shen2 me5\",1]",
+        "key": "cv_79096eb0-272d-50a3-8abe-47697059f8b2",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shénme",
+            "pinyin_numbered": "shen2 me5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [
+          {
+            "blocking": true,
+            "code": "TRADITIONAL_VARIANT_POLICY",
+            "explanation": "Human reviewer must confirm the chosen traditional-form preference and regional usage notes for 什麼 / 甚麼.",
+            "path": "/forms"
+          }
+        ],
+        "review_status": "NEEDS_REVIEW",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "gì",
+              "cái gì"
+            ],
+            "part_of_speech": "pronoun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_671c0975-0bcf-5f85-a199-b7a1b2d1c697",
+      "source_reading": "r1",
+      "lexical_key": "零|ling2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "这是零。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zhè shì líng.",
+            "pinyin_numbered": "zhe4 shi4 ling2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Đây là số không."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "零",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "零",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"零\",\"ling2\",1]",
+        "key": "cv_671c0975-0bcf-5f85-a199-b7a1b2d1c697",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "líng",
+            "pinyin_numbered": "ling2",
+            "primary": true,
+            "sino_vietnamese": "linh",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "số không"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_ee69425d-d439-5301-8aab-62add5f542f1",
+      "source_reading": "r1",
+      "lexical_key": "一|yi1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "一加一是二。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Yī jiā yī shì èr.",
+            "pinyin_numbered": "yi1 jia1 yi1 shi4 er4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Một cộng một bằng hai."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "一",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "一",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"一\",\"yi1\",1]",
+        "key": "cv_ee69425d-d439-5301-8aab-62add5f542f1",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "yī",
+            "pinyin_numbered": "yi1",
+            "primary": true,
+            "sino_vietnamese": "nhất",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "một"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_2e12dab0-c652-5b6d-8f7a-e90202e5e0ed",
+      "source_reading": "r1",
+      "lexical_key": "二|er4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "一加一是二。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Yī jiā yī shì èr.",
+            "pinyin_numbered": "yi1 jia1 yi1 shi4 er4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Một cộng một bằng hai."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "二",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "二",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"二\",\"er4\",1]",
+        "key": "cv_2e12dab0-c652-5b6d-8f7a-e90202e5e0ed",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "èr",
+            "pinyin_numbered": "er4",
+            "primary": true,
+            "sino_vietnamese": "nhị",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "hai (số đếm)"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_87cadc24-7b69-58ff-bebd-0970ee3e442b",
+      "source_reading": "r1",
+      "lexical_key": "三|san1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "一加二是三。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Yī jiā èr shì sān.",
+            "pinyin_numbered": "yi1 jia1 er4 shi4 san1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Một cộng hai bằng ba."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "三",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "三",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"三\",\"san1\",1]",
+        "key": "cv_87cadc24-7b69-58ff-bebd-0970ee3e442b",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "sān",
+            "pinyin_numbered": "san1",
+            "primary": true,
+            "sino_vietnamese": "tam",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ba"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_4c638f41-c2de-570a-8c66-9383325d476b",
+      "source_reading": "r1",
+      "lexical_key": "四|si4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "二加二是四。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Èr jiā èr shì sì.",
+            "pinyin_numbered": "er4 jia1 er4 shi4 si4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Hai cộng hai bằng bốn."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "四",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "四",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"四\",\"si4\",1]",
+        "key": "cv_4c638f41-c2de-570a-8c66-9383325d476b",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "sì",
+            "pinyin_numbered": "si4",
+            "primary": true,
+            "sino_vietnamese": "tứ",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "bốn"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_55606b15-7b6a-5e67-9b43-832c80a1374b",
+      "source_reading": "r1",
+      "lexical_key": "五|wu3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "二加三是五。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Èr jiā sān shì wǔ.",
+            "pinyin_numbered": "er4 jia1 san1 shi4 wu3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Hai cộng ba bằng năm."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "五",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "五",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"五\",\"wu3\",1]",
+        "key": "cv_55606b15-7b6a-5e67-9b43-832c80a1374b",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "wǔ",
+            "pinyin_numbered": "wu3",
+            "primary": true,
+            "sino_vietnamese": "ngũ",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "năm (số đếm)"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_66d145ed-02a4-5d29-884a-57db04ddb3d5",
+      "source_reading": "r1",
+      "lexical_key": "六|liu4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "三加三是六。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Sān jiā sān shì liù.",
+            "pinyin_numbered": "san1 jia1 san1 shi4 liu4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Ba cộng ba bằng sáu."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "六",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "六",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"六\",\"liu4\",1]",
+        "key": "cv_66d145ed-02a4-5d29-884a-57db04ddb3d5",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "liù",
+            "pinyin_numbered": "liu4",
+            "primary": true,
+            "sino_vietnamese": "lục",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "sáu"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_4a662d0d-d679-5934-9fc0-0ccbe4b1ea5c",
+      "source_reading": "r1",
+      "lexical_key": "七|qi1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "三加四是七。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Sān jiā sì shì qī.",
+            "pinyin_numbered": "san1 jia1 si4 shi4 qi1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Ba cộng bốn bằng bảy."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "七",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "七",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"七\",\"qi1\",1]",
+        "key": "cv_4a662d0d-d679-5934-9fc0-0ccbe4b1ea5c",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "qī",
+            "pinyin_numbered": "qi1",
+            "primary": true,
+            "sino_vietnamese": "thất",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "bảy"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_cc9192ee-bb18-5861-b126-34b4f8cd3340",
+      "source_reading": "r1",
+      "lexical_key": "八|ba1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "四加四是八。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Sì jiā sì shì bā.",
+            "pinyin_numbered": "si4 jia1 si4 shi4 ba1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bốn cộng bốn bằng tám."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "八",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "八",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"八\",\"ba1\",1]",
+        "key": "cv_cc9192ee-bb18-5861-b126-34b4f8cd3340",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "bā",
+            "pinyin_numbered": "ba1",
+            "primary": true,
+            "sino_vietnamese": "bát",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "tám"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_642fec9b-67ca-5d94-b07b-4f6be63b6fa3",
+      "source_reading": "r1",
+      "lexical_key": "九|jiu3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "四加五是九。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Sì jiā wǔ shì jiǔ.",
+            "pinyin_numbered": "si4 jia1 wu3 shi4 jiu3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bốn cộng năm bằng chín."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "九",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "九",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"九\",\"jiu3\",1]",
+        "key": "cv_642fec9b-67ca-5d94-b07b-4f6be63b6fa3",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "jiǔ",
+            "pinyin_numbered": "jiu3",
+            "primary": true,
+            "sino_vietnamese": "cửu",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "chín"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_14297442-bff6-5fc9-adc5-13977f288a0e",
+      "source_reading": "r1",
+      "lexical_key": "十|shi2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "五加五是十。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǔ jiā wǔ shì shí.",
+            "pinyin_numbered": "wu3 jia1 wu3 shi4 shi2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Năm cộng năm bằng mười."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "十",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "十",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"十\",\"shi2\",1]",
+        "key": "cv_14297442-bff6-5fc9-adc5-13977f288a0e",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shí",
+            "pinyin_numbered": "shi2",
+            "primary": true,
+            "sino_vietnamese": "thập",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "mười"
+            ],
+            "part_of_speech": "numeral",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_c375eaf7-b9d3-5d6f-ba71-848d4b775a04",
+      "source_reading": "r1",
+      "lexical_key": "是|shi4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "这是茶。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zhè shì chá.",
+            "pinyin_numbered": "zhe4 shi4 cha2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Đây là trà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "是",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "是",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"是\",\"shi4\",1]",
+        "key": "cv_c375eaf7-b9d3-5d6f-ba71-848d4b775a04",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shì",
+            "pinyin_numbered": "shi4",
+            "primary": true,
+            "sino_vietnamese": "thị",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "là"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_e2dd34ba-5b6a-5524-a3d6-1ba44caf6528",
+      "source_reading": "r1",
+      "lexical_key": "不|bu4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "我不去。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ bù qù.",
+            "pinyin_numbered": "wo3 bu4 qu4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi không đi."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "不",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "不",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"不\",\"bu4\",1]",
+        "key": "cv_e2dd34ba-5b6a-5524-a3d6-1ba44caf6528",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "bù",
+            "pinyin_numbered": "bu4",
+            "primary": true,
+            "sino_vietnamese": "bất",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "không (phủ định)"
+            ],
+            "part_of_speech": "adverb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_99727584-76c6-5e26-9d23-24d78849b1c3",
+      "source_reading": "r1",
+      "lexical_key": "有|you3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "我有水。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ yǒu shuǐ.",
+            "pinyin_numbered": "wo3 you3 shui3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi có nước."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "有",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "有",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"有\",\"you3\",1]",
+        "key": "cv_99727584-76c6-5e26-9d23-24d78849b1c3",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "yǒu",
+            "pinyin_numbered": "you3",
+            "primary": true,
+            "sino_vietnamese": "hữu",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "có"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_1651fd3c-5d2d-565b-824a-aa7e07130da0",
+      "source_reading": "r1",
+      "lexical_key": "没有|mei2 you3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. Only the displayed beginner sense and grammatical use are introduced; other readings or functions are not implied.",
+        "examples": [
+          {
+            "chinese": "我没有茶。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ méiyǒu chá.",
+            "pinyin_numbered": "wo3 mei2 you3 cha2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi không có trà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "没有",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "沒有",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"没有\",\"mei2 you3\",1]",
+        "key": "cv_1651fd3c-5d2d-565b-824a-aa7e07130da0",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "méiyǒu",
+            "pinyin_numbered": "mei2 you3",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "không có"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_dcafbb70-7ae4-53ef-a79f-0ffc5c3c6eb4",
+      "source_reading": "r1",
+      "lexical_key": "好|hao3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction. Only the displayed beginner sense and grammatical use are introduced; other readings or functions are not implied.",
+        "examples": [
+          {
+            "chinese": "我很好。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ hěn hǎo.",
+            "pinyin_numbered": "wo3 hen3 hao3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi khỏe."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "好",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "好",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"好\",\"hao3\",1]",
+        "key": "cv_dcafbb70-7ae4-53ef-a79f-0ffc5c3c6eb4",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "hǎo",
+            "pinyin_numbered": "hao3",
+            "primary": true,
+            "sino_vietnamese": "hảo",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "tốt",
+              "ổn",
+              "khỏe (khi nói về tình trạng sức khỏe)"
+            ],
+            "part_of_speech": "adjective",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_f551a53d-996f-59f3-80ff-71cae4f09570",
+      "source_reading": "r1",
+      "lexical_key": "吗|ma5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "你去吗？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ qù ma?",
+            "pinyin_numbered": "ni3 qu4 ma5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bạn có đi không?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "吗",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "嗎",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"吗\",\"ma5\",1]",
+        "key": "cv_f551a53d-996f-59f3-80ff-71cae4f09570",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "ma",
+            "pinyin_numbered": "ma5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "trợ từ cuối câu hỏi có/không"
+            ],
+            "part_of_speech": "particle",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_63caa69f-5d3d-596e-9a6b-e667569e9ff8",
+      "source_reading": "r1",
+      "lexical_key": "呢|ne5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. Only the displayed beginner sense and grammatical use are introduced; other readings or functions are not implied.",
+        "examples": [
+          {
+            "chinese": "我喝茶，你呢？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ hē chá, nǐ ne?",
+            "pinyin_numbered": "wo3 he1 cha2 ni3 ne5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi uống trà, còn bạn thì sao?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "呢",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "呢",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"呢\",\"ne5\",1]",
+        "key": "cv_63caa69f-5d3d-596e-9a6b-e667569e9ff8",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "ne",
+            "pinyin_numbered": "ne5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "trợ từ dùng khi hỏi lại về người hoặc việc vừa nhắc đến"
+            ],
+            "part_of_speech": "particle",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_1fe3afc4-8b5d-56b8-9dd7-6e0311add35e",
+      "source_reading": "r1",
+      "lexical_key": "的|de5",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. Only the displayed beginner sense and grammatical use are introduced; other readings or functions are not implied.",
+        "examples": [
+          {
+            "chinese": "这是我的。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Zhè shì wǒ de.",
+            "pinyin_numbered": "zhe4 shi4 wo3 de5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Đây là của tôi."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "的",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "的",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"的\",\"de5\",1]",
+        "key": "cv_1fe3afc4-8b5d-56b8-9dd7-6e0311add35e",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "de",
+            "pinyin_numbered": "de5",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "của (đánh dấu quan hệ sở hữu trong bài này)"
+            ],
+            "part_of_speech": "particle",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_3a6314d7-5243-53e0-9361-d80c03159c49",
+      "source_reading": "r1",
+      "lexical_key": "在|zai4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Only the displayed beginner sense and grammatical use are introduced; other readings or functions are not implied.",
+        "examples": [
+          {
+            "chinese": "我在家。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ zài jiā.",
+            "pinyin_numbered": "wo3 zai4 jia1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi ở nhà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "在",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "在",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"在\",\"zai4\",1]",
+        "key": "cv_3a6314d7-5243-53e0-9361-d80c03159c49",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "zài",
+            "pinyin_numbered": "zai4",
+            "primary": true,
+            "sino_vietnamese": "tại",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ở",
+              "có mặt tại"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_038086a2-c34c-5a2a-9de1-d177ff0aa401",
+      "source_reading": "r1",
+      "lexical_key": "人|ren2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "那里有人。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nàli yǒu rén.",
+            "pinyin_numbered": "na4 li5 you3 ren2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Ở đó có người."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "人",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "人",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"人\",\"ren2\",1]",
+        "key": "cv_038086a2-c34c-5a2a-9de1-d177ff0aa401",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "rén",
+            "pinyin_numbered": "ren2",
+            "primary": true,
+            "sino_vietnamese": "nhân",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "người"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_3f57f290-28f4-576a-937b-88b7b4eb78d9",
+      "source_reading": "r1",
+      "lexical_key": "水|shui3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Pinyin records citation tones, not contextual tone sandhi. Spoken realization needs separate instruction.",
+        "examples": [
+          {
+            "chinese": "我喝水。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ hē shuǐ.",
+            "pinyin_numbered": "wo3 he1 shui3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi uống nước."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "水",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "水",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"水\",\"shui3\",1]",
+        "key": "cv_3f57f290-28f4-576a-937b-88b7b4eb78d9",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "shuǐ",
+            "pinyin_numbered": "shui3",
+            "primary": true,
+            "sino_vietnamese": "thủy",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "nước"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_899e5af3-4093-5574-9aa3-8eb4f6e9ddcf",
+      "source_reading": "r1",
+      "lexical_key": "茶|cha2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "请喝茶。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Qǐng hē chá.",
+            "pinyin_numbered": "qing3 he1 cha2",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Mời bạn uống trà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "茶",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "茶",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"茶\",\"cha2\",1]",
+        "key": "cv_899e5af3-4093-5574-9aa3-8eb4f6e9ddcf",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "chá",
+            "pinyin_numbered": "cha2",
+            "primary": true,
+            "sino_vietnamese": "trà",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "trà",
+              "chè (đồ uống)"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_23d733bd-0677-5193-96ea-c942cfce89e8",
+      "source_reading": "r1",
+      "lexical_key": "米饭|mi3 fan4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "我吃米饭。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ chī mǐfàn.",
+            "pinyin_numbered": "wo3 chi1 mi3 fan4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi ăn cơm."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "米饭",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "米飯",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"米饭\",\"mi3 fan4\",1]",
+        "key": "cv_23d733bd-0677-5193-96ea-c942cfce89e8",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "mǐfàn",
+            "pinyin_numbered": "mi3 fan4",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "cơm (cơm nấu từ gạo)"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_42d95ef0-629f-5ba9-9c3f-a8a378c0efcb",
+      "source_reading": "r1",
+      "lexical_key": "吃|chi1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "你吃什么？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ chī shénme?",
+            "pinyin_numbered": "ni3 chi1 shen2 me5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bạn ăn gì?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "吃",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "吃",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"吃\",\"chi1\",1]",
+        "key": "cv_42d95ef0-629f-5ba9-9c3f-a8a378c0efcb",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "chī",
+            "pinyin_numbered": "chi1",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "ăn"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_0d663de5-ad6a-59fd-b730-aca03040bdf5",
+      "source_reading": "r1",
+      "lexical_key": "喝|he1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "你喝什么？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ hē shénme?",
+            "pinyin_numbered": "ni3 he1 shen2 me5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bạn uống gì?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "喝",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "喝",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"喝\",\"he1\",1]",
+        "key": "cv_0d663de5-ad6a-59fd-b730-aca03040bdf5",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "hē",
+            "pinyin_numbered": "he1",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "uống"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_c8b79966-de9d-5357-8749-b68fffb35ca4",
+      "source_reading": "r1",
+      "lexical_key": "要|yao4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings. Only the request/want sense of yào is introduced. Other senses and yāo are outside this entry revision. Requests may need 请 or 谢谢 for politeness.",
+        "examples": [
+          {
+            "chinese": "我要水。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ yào shuǐ.",
+            "pinyin_numbered": "wo3 yao4 shui3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi muốn lấy nước."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "要",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "要",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"要\",\"yao4\",1]",
+        "key": "cv_c8b79966-de9d-5357-8749-b68fffb35ca4",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "yào",
+            "pinyin_numbered": "yao4",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "muốn",
+              "muốn lấy (khi yêu cầu thứ gì)"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_ecedb74a-cbbc-5aa8-a0e7-5bca5c8a13ac",
+      "source_reading": "r1",
+      "lexical_key": "去|qu4",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "我去。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ qù.",
+            "pinyin_numbered": "wo3 qu4",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi đi."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "去",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "去",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"去\",\"qu4\",1]",
+        "key": "cv_ecedb74a-cbbc-5aa8-a0e7-5bca5c8a13ac",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "qù",
+            "pinyin_numbered": "qu4",
+            "primary": true,
+            "sino_vietnamese": "khứ",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "đi (rời chỗ đang nói hoặc hướng đến nơi khác)"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_87b2e8b1-028f-5a4a-a044-043b9fc6afb4",
+      "source_reading": "r1",
+      "lexical_key": "来|lai2",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "你来吗？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Nǐ lái ma?",
+            "pinyin_numbered": "ni3 lai2 ma5",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Bạn có đến không?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "来",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "來",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"来\",\"lai2\",1]",
+        "key": "cv_87b2e8b1-028f-5a4a-a044-043b9fc6afb4",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "lái",
+            "pinyin_numbered": "lai2",
+            "primary": true,
+            "sino_vietnamese": "lai",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "đến",
+              "tới (hướng về chỗ người nói hoặc điểm quy chiếu)"
+            ],
+            "part_of_speech": "verb",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_80829b70-871d-5a34-822a-689a9cbd1626",
+      "source_reading": "r1",
+      "lexical_key": "家|jia1",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": null,
+        "examples": [
+          {
+            "chinese": "我在家。",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Wǒ zài jiā.",
+            "pinyin_numbered": "wo3 zai4 jia1",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Tôi ở nhà."
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "家",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "家",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"家\",\"jia1\",1]",
+        "key": "cv_80829b70-871d-5a34-822a-689a9cbd1626",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "jiā",
+            "pinyin_numbered": "jia1",
+            "primary": true,
+            "sino_vietnamese": "gia",
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "nhà",
+              "gia đình"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    },
+    {
+      "source_key": "cv_f09ab67e-6131-514d-8e80-323ddaf4b8df",
+      "source_reading": "r1",
+      "lexical_key": "厕所|ce4 suo3",
+      "source_record": {
+        "classification": {
+          "classification_standard": "APP_CURATED",
+          "difficulty_reference": "HSK_2_0",
+          "hsk_reference_level": null,
+          "learning_level": 0,
+          "membership_evidence": null,
+          "rationale": "Application-defined introductory vocabulary for immediate communication; no official HSK membership is asserted.",
+          "review_required": false
+        },
+        "editorial_notes": "Sino-Vietnamese is intentionally null: no useful conventional lexical reading is asserted; this does not assert that the characters lack historical readings.",
+        "examples": [
+          {
+            "chinese": "厕所在哪儿？",
+            "editorial_note": null,
+            "key": "e1",
+            "pinyin": "Cèsuǒ zài nǎr?",
+            "pinyin_numbered": "ce4 suo3 zai4 nar3",
+            "reading_key": "r1",
+            "sense_key": "s1",
+            "vietnamese": "Nhà vệ sinh ở đâu?"
+          }
+        ],
+        "forms": [
+          {
+            "key": "f-simp",
+            "primary": true,
+            "script": "SIMPLIFIED",
+            "text": "厕所",
+            "usage_note": null
+          },
+          {
+            "key": "f-trad",
+            "primary": true,
+            "script": "TRADITIONAL",
+            "text": "廁所",
+            "usage_note": null
+          }
+        ],
+        "identity_seed": "[\"zhvi-curated-v1\",\"厕所\",\"ce4 suo3\",1]",
+        "key": "cv_f09ab67e-6131-514d-8e80-323ddaf4b8df",
+        "provenance": "ORIGINAL_AI_AUTHORED",
+        "readings": [
+          {
+            "key": "r1",
+            "pinyin": "cèsuǒ",
+            "pinyin_numbered": "ce4 suo3",
+            "primary": true,
+            "sino_vietnamese": null,
+            "usage_note": null
+          }
+        ],
+        "review_issues": [],
+        "review_status": "GENERATED_UNREVIEWED",
+        "revision": 1,
+        "schema_version": 1,
+        "senses": [
+          {
+            "key": "s1",
+            "meanings_en": [],
+            "meanings_vi": [
+              "nhà vệ sinh"
+            ],
+            "part_of_speech": "noun",
+            "reading_keys": [
+              "r1"
+            ],
+            "usage_note": null
+          }
+        ],
+        "supersedes_revision": null
+      }
+    }
+  ]
+}

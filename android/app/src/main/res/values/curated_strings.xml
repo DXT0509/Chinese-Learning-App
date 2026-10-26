@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="curated_content_source">Từ vựng giản thể do ứng dụng biên soạn và được người biên tập duyệt. Cấp độ là phân loại độ khó của ứng dụng.</string>
+    <string name="curated_local_codex_source">Từ vựng đã được Codex rà soát cho bản phát triển cục bộ. Cấp độ là phân loại độ khó của ứng dụng.</string>
+</resources>

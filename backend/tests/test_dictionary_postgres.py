@@ -154,20 +154,11 @@ async def test_real_authenticated_api_detail_and_revocation(dictionary_sessions)
                 "/api/v1/dictionary/search", params={"q": "你"}, headers=headers
             )
             assert result.status_code == 200
-            entry = result.json()["items"][0]
-            assert entry["short_vi_meaning"] is None
-            assert entry["available_languages"] == ["en"]
-            path = f"/api/v1/dictionary/entries/{entry['entry_id']}"
-            response = await client.get(path, headers=headers)
-            assert response.status_code == 200
-            detail = response.json()
-            assert detail["primary_pinyin"] == detail["citation_pinyin"] == "nǐ"
-            assert len(detail["meanings"]["en"]) == 2
-            assert detail["sino_vietnamese"] is None
-            assert detail["examples"] == detail["audio"] == detail["parts_of_speech"] == []
-            assert detail["provenance"]["license"] == "CC-BY-SA-4.0"
-            assert "MDBG" in detail["provenance"]["attribution"]
-            assert detail["provenance"]["sha256"] == fixture_dataset().sha256
+            # Retired provider rows remain stored until explicit maintenance, but
+            # public lookup now reads only the curated catalog.
+            assert result.json()["items"] == []
+            path = f"/api/v1/dictionary/entries/{fixture_dataset().entries[0].id}"
+            assert (await client.get(path, headers=headers)).status_code == 404
             missing = await client.get(f"/api/v1/dictionary/entries/{uuid4()}", headers=headers)
             assert missing.status_code == 404
             assert (

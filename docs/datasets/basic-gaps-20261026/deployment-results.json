@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-26T05:02:24.491259+00:00",
+  "database": [
+    "chinese_learning",
+    "127.0.0.1/32",
+    5432,
+    "postgres"
+  ],
+  "migrations": [
+    "0010_local_codex_review"
+  ],
+  "catalog_records": 2810,
+  "status_counts": {
+    "NEEDS_REVIEW": 6,
+    "LOCAL_CODEX_REVIEWED": 2804
+  },
+  "search_visible_by_enabled_application_predicate": 2804,
+  "local_receipts": 2804,
+  "protected_editorial_holds": 6,
+  "unresolved_old_drafts_still_excluded": 13,
+  "transaction": "REPEATABLE READ READ ONLY",
+  "database_writes": 0,
+  "all_322_new_entries_search_and_detail_verified": true,
+  "all_existing_database_rows_preserved": true,
+  "protected_tables_unchanged": 28,
+  "operator": "dxt",
+  "explicit_authorization": "User confirmed import and local approval of 322 entries after preview",
+  "supplement_import_executed": true,
+  "accepted_local_added": 322,
+  "production_AI_APPROVED_created": 0,
+  "paid_api_calls": 0,
+  "author_label": "Codex session",
+  "exact_author_model": null,
+  "exact_reviewer_model": null,
+  "authoring_and_review_by_same_session": true,
+  "authenticated_http_verified_for_supplement": false,
+  "physical_android_verified": false
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASSED_FULL_REVIEW_RECONCILIATION",
+  "verified_at": "2026-10-26T03:47:11.882866+00:00",
+  "reviewed": 2501,
+  "batches": 50,
+  "unique_written_items": 2500,
+  "pronunciation_identities": 2501,
+  "accepted_candidates": 2482,
+  "excluded": 19,
+  "actual_linguistic_content_corrections": 640,
+  "corrected_accepted_candidates": 634,
+  "correction_ledger_records": 640,
+  "status_only_versioned_records": [
+    "厕所|ce4 suo3",
+    "过去|guo4 qu5",
+    "生发|sheng1 fa1",
+    "活泼|huo2 po5",
+    "场|chang3",
+    "不但|bu2 dan4",
+    "引起|ying3 qi3",
+    "克勤克俭|ke4 qin2 ke4 jian4",
+    "生物信息学|sheng1 wu4 xin1 xi1 xue2"
+  ],
+  "per_level": {
+    "0": {
+      "batches": 2,
+      "reviewed": 101,
+      "accepted_candidates": 95,
+      "excluded": 6,
+      "corrected_content": 1
+    },
+    "1": {
+      "batches": 2,
+      "reviewed": 100,
+      "accepted_candidates": 100,
+      "corrected_content": 9
+    },
+    "2": {
+      "batches": 3,
+      "reviewed": 150,
+      "corrected_content": 10,
+      "accepted_candidates": 148,
+      "excluded": 2
+    },
+    "3": {
+      "batches": 6,
+      "reviewed": 300,
+      "corrected_content": 32,
+      "accepted_candidates": 294,
+      "excluded": 6
+    },
+    "4": {
+      "batches": 12,
+      "reviewed": 600,
+      "accepted_candidates": 599,
+      "corrected_content": 153,
+      "excluded": 1
+    },
+    "5": {
+      "batches": 25,
+      "reviewed": 1250,
+      "corrected_content": 435,
+      "accepted_candidates": 1246,
+      "excluded": 4
+    }
+  },
+  "complete_dataset": "provisional-deployment.jsonl",
+  "complete_sha256": "1e490609d214cd9b3fc3d038e60f31570cb3568f4795dcc20c5a3f0ab28fa8fc",
+  "accepted_dataset": "accepted-deployment.jsonl",
+  "accepted_sha256": "3c17f51cba7f558bb8c8648a5475bf59c4935a8c5822b2e8ed768bea9b91773e",
+  "checks": [
+    "strict JSONL contracts including Simplified-only and pinyin formatting",
+    "all original/current byte hashes and per-record versions/checksums",
+    "all 50 complete per-record note sets; all nine aspects",
+    "global written and pronunciation identity counts; no duplicate keys",
+    "stable keys, pronunciation identities and app levels preserved",
+    "every candidate has genuine recorded PASS/CORRECTED_PASS and no pending reason",
+    "unknown exact model/version/confidence remain null"
+  ],
+  "publication": "NOT_IMPORTED_OR_PUBLISHED",
+  "development_database_writes": 0,
+  "paid_api_calls": 0
+}

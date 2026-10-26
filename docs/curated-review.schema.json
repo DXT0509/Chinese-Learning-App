@@ -1,0 +1,551 @@
+{
+  "input": {
+    "$defs": {
+      "AutomatedValidation": {
+        "additionalProperties": false,
+        "properties": {
+          "validator_version": {
+            "const": "curated-record-v1",
+            "title": "Validator Version",
+            "type": "string"
+          },
+          "content_checksum": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Content Checksum",
+            "type": "string"
+          },
+          "passed": {
+            "const": true,
+            "title": "Passed",
+            "type": "boolean"
+          },
+          "checks": {
+            "items": {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "title": "Checks",
+            "type": "array"
+          }
+        },
+        "required": [
+          "validator_version",
+          "content_checksum",
+          "passed",
+          "checks"
+        ],
+        "title": "AutomatedValidation",
+        "type": "object"
+      },
+      "CuratedExample": {
+        "additionalProperties": false,
+        "properties": {
+          "simplified": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Simplified",
+            "type": "string"
+          },
+          "pinyin": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Pinyin",
+            "type": "string"
+          },
+          "vietnamese": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Vietnamese",
+            "type": "string"
+          }
+        },
+        "required": [
+          "simplified",
+          "pinyin",
+          "vietnamese"
+        ],
+        "title": "CuratedExample",
+        "type": "object"
+      },
+      "CuratedRecord": {
+        "additionalProperties": false,
+        "properties": {
+          "schema_version": {
+            "const": 1,
+            "title": "Schema Version",
+            "type": "integer"
+          },
+          "lexical_key": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Lexical Key",
+            "type": "string"
+          },
+          "simplified": {
+            "maxLength": 255,
+            "minLength": 1,
+            "title": "Simplified",
+            "type": "string"
+          },
+          "pinyin": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Pinyin",
+            "type": "string"
+          },
+          "pinyin_numbered": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Pinyin Numbered",
+            "type": "string"
+          },
+          "sino_vietnamese": {
+            "anyOf": [
+              {
+                "maxLength": 1000,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Sino Vietnamese"
+          },
+          "part_of_speech": {
+            "anyOf": [
+              {
+                "maxLength": 1000,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Part Of Speech"
+          },
+          "learning_level": {
+            "maximum": 5,
+            "minimum": 0,
+            "title": "Learning Level",
+            "type": "integer"
+          },
+          "classification_standard": {
+            "const": "APP_CURATED",
+            "default": "APP_CURATED",
+            "title": "Classification Standard",
+            "type": "string"
+          },
+          "difficulty_reference": {
+            "const": "HSK_2_0",
+            "default": "HSK_2_0",
+            "title": "Difficulty Reference",
+            "type": "string"
+          },
+          "review_status": {
+            "default": "GENERATED_UNREVIEWED",
+            "enum": [
+              "GENERATED_UNREVIEWED",
+              "NEEDS_REVIEW"
+            ],
+            "title": "Review Status",
+            "type": "string"
+          },
+          "content_version": {
+            "minimum": 1,
+            "title": "Content Version",
+            "type": "integer"
+          },
+          "vietnamese_meanings": {
+            "items": {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 30,
+            "minItems": 1,
+            "title": "Vietnamese Meanings",
+            "type": "array"
+          },
+          "english_meanings": {
+            "items": {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "maxItems": 30,
+            "title": "English Meanings",
+            "type": "array"
+          },
+          "examples": {
+            "items": {
+              "$ref": "#/$defs/CuratedExample"
+            },
+            "maxItems": 10,
+            "title": "Examples",
+            "type": "array"
+          }
+        },
+        "required": [
+          "schema_version",
+          "lexical_key",
+          "simplified",
+          "pinyin",
+          "pinyin_numbered",
+          "learning_level",
+          "content_version",
+          "vietnamese_meanings"
+        ],
+        "title": "CuratedRecord",
+        "type": "object"
+      },
+      "ModelIdentity": {
+        "additionalProperties": false,
+        "properties": {
+          "provider": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Provider",
+            "type": "string"
+          },
+          "model": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Model",
+            "type": "string"
+          },
+          "version": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "provider",
+          "model",
+          "version"
+        ],
+        "title": "ModelIdentity",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "schema_version": {
+        "const": 1,
+        "default": 1,
+        "title": "Schema Version",
+        "type": "integer"
+      },
+      "policy_version": {
+        "const": "zhvi-semantic-v1",
+        "default": "zhvi-semantic-v1",
+        "title": "Policy Version",
+        "type": "string"
+      },
+      "generator": {
+        "$ref": "#/$defs/ModelIdentity"
+      },
+      "content_checksum": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Content Checksum",
+        "type": "string"
+      },
+      "content": {
+        "$ref": "#/$defs/CuratedRecord"
+      },
+      "automated_validation": {
+        "$ref": "#/$defs/AutomatedValidation"
+      },
+      "lexical_catalog": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Lexical Catalog",
+        "type": "array"
+      },
+      "required_aspects": {
+        "items": {
+          "type": "string"
+        },
+        "title": "Required Aspects",
+        "type": "array"
+      },
+      "instructions": {
+        "default": "Assess every aspect independently. Citation and neutral tones, natural Vietnamese, optional Sino-Vietnamese, examples and Pinyin alignment, levels 0-5, duplicate lexical identity and ambiguous senses/readings require semantic assessment. Mark uncertain items NEEDS_REVIEW. Do not treat mechanical validation as linguistic approval. Return ReviewResult JSON; never invent model provenance. Compare supplied batch identities and flag possible duplicates for operator resolution.",
+        "title": "Instructions",
+        "type": "string"
+      }
+    },
+    "required": [
+      "generator",
+      "content_checksum",
+      "content",
+      "automated_validation"
+    ],
+    "title": "ReviewInput",
+    "type": "object"
+  },
+  "output": {
+    "$defs": {
+      "Assessment": {
+        "additionalProperties": false,
+        "properties": {
+          "aspect": {
+            "enum": [
+              "simplified",
+              "mandarin_pinyin_neutral_tones",
+              "vietnamese_definitions",
+              "sino_vietnamese",
+              "example_correctness",
+              "example_pinyin_alignment",
+              "learning_difficulty",
+              "duplicate_identity",
+              "ambiguity"
+            ],
+            "title": "Aspect",
+            "type": "string"
+          },
+          "result": {
+            "enum": [
+              "pass",
+              "fail",
+              "uncertain",
+              "not_applicable"
+            ],
+            "title": "Result",
+            "type": "string"
+          },
+          "rationale": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Rationale",
+            "type": "string"
+          }
+        },
+        "required": [
+          "aspect",
+          "result",
+          "rationale"
+        ],
+        "title": "Assessment",
+        "type": "object"
+      },
+      "AutomatedValidation": {
+        "additionalProperties": false,
+        "properties": {
+          "validator_version": {
+            "const": "curated-record-v1",
+            "title": "Validator Version",
+            "type": "string"
+          },
+          "content_checksum": {
+            "pattern": "^[0-9a-f]{64}$",
+            "title": "Content Checksum",
+            "type": "string"
+          },
+          "passed": {
+            "const": true,
+            "title": "Passed",
+            "type": "boolean"
+          },
+          "checks": {
+            "items": {
+              "maxLength": 1000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "title": "Checks",
+            "type": "array"
+          }
+        },
+        "required": [
+          "validator_version",
+          "content_checksum",
+          "passed",
+          "checks"
+        ],
+        "title": "AutomatedValidation",
+        "type": "object"
+      },
+      "Finding": {
+        "additionalProperties": false,
+        "properties": {
+          "aspect": {
+            "enum": [
+              "simplified",
+              "mandarin_pinyin_neutral_tones",
+              "vietnamese_definitions",
+              "sino_vietnamese",
+              "example_correctness",
+              "example_pinyin_alignment",
+              "learning_difficulty",
+              "duplicate_identity",
+              "ambiguity"
+            ],
+            "title": "Aspect",
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "blocking",
+              "warning"
+            ],
+            "title": "Severity",
+            "type": "string"
+          },
+          "message": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Message",
+            "type": "string"
+          },
+          "resolved": {
+            "title": "Resolved",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "aspect",
+          "severity",
+          "message",
+          "resolved"
+        ],
+        "title": "Finding",
+        "type": "object"
+      },
+      "ModelIdentity": {
+        "additionalProperties": false,
+        "properties": {
+          "provider": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Provider",
+            "type": "string"
+          },
+          "model": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Model",
+            "type": "string"
+          },
+          "version": {
+            "maxLength": 1000,
+            "minLength": 1,
+            "title": "Version",
+            "type": "string"
+          }
+        },
+        "required": [
+          "provider",
+          "model",
+          "version"
+        ],
+        "title": "ModelIdentity",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "schema_version": {
+        "const": 1,
+        "title": "Schema Version",
+        "type": "integer"
+      },
+      "review_id": {
+        "format": "uuid",
+        "title": "Review Id",
+        "type": "string"
+      },
+      "policy_version": {
+        "const": "zhvi-semantic-v1",
+        "title": "Policy Version",
+        "type": "string"
+      },
+      "lexical_key": {
+        "maxLength": 1000,
+        "minLength": 1,
+        "title": "Lexical Key",
+        "type": "string"
+      },
+      "content_version": {
+        "exclusiveMinimum": 0,
+        "title": "Content Version",
+        "type": "integer"
+      },
+      "content_checksum": {
+        "pattern": "^[0-9a-f]{64}$",
+        "title": "Content Checksum",
+        "type": "string"
+      },
+      "generator": {
+        "$ref": "#/$defs/ModelIdentity"
+      },
+      "reviewer": {
+        "$ref": "#/$defs/ModelIdentity"
+      },
+      "reviewed_at": {
+        "format": "date-time",
+        "title": "Reviewed At",
+        "type": "string"
+      },
+      "decision": {
+        "enum": [
+          "AI_APPROVED",
+          "NEEDS_REVIEW",
+          "REJECTED"
+        ],
+        "title": "Decision",
+        "type": "string"
+      },
+      "confidence": {
+        "maximum": 1,
+        "minimum": 0,
+        "title": "Confidence",
+        "type": "number"
+      },
+      "assessments": {
+        "items": {
+          "$ref": "#/$defs/Assessment"
+        },
+        "maxItems": 9,
+        "minItems": 9,
+        "title": "Assessments",
+        "type": "array"
+      },
+      "findings": {
+        "items": {
+          "$ref": "#/$defs/Finding"
+        },
+        "title": "Findings",
+        "type": "array"
+      },
+      "automated_validation": {
+        "$ref": "#/$defs/AutomatedValidation"
+      }
+    },
+    "required": [
+      "schema_version",
+      "review_id",
+      "policy_version",
+      "lexical_key",
+      "content_version",
+      "content_checksum",
+      "generator",
+      "reviewer",
+      "reviewed_at",
+      "decision",
+      "confidence",
+      "assessments",
+      "findings",
+      "automated_validation"
+    ],
+    "title": "ReviewResult",
+    "type": "object"
+  }
+}

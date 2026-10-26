@@ -27,9 +27,21 @@ All endpoints below are under `/api/v1`:
 | --- | --- | --- |
 | POST | `/auth/register` | `{email,password}`; 201 session pair |
 | POST | `/auth/login` | `{email,password}`; 200 session pair |
+| POST | `/auth/token` | OAuth2 password form: `username` = email, `password`, `grant_type=password`; same session pair |
 | POST | `/auth/refresh` | `{refresh_token}`; rotated session pair |
 | POST | `/auth/logout` | `{refresh_token}`; revoke family, 204 |
 | GET | `/auth/me` | Bearer access token; public account fields only |
+
+For local interactive API use, open `http://127.0.0.1:8000/docs`, click **Authorize**,
+enter the existing account email in **username** and the password in **password**,
+leave **client_id** and **client_secret** empty, then click **Authorize** and **Close**.
+Swagger calls `/api/v1/auth/token` and supplies the returned Bearer access token to
+protected requests automatically. JSON `/auth/login` and Android remain unchanged.
+The form adapter uses the same email/password validation, authentication service and
+router-level rate limiter; it never registers accounts. Clicking Authorize creates a
+real session, just like login. Access expires after ten minutes; authorize again when
+needed. Swagger Logout clears its authorization; server-side revocation still uses
+the existing `/auth/logout` contract. Authorization persistence is not enabled.
 
 Tokens are opaque 256-bit random credentials, not JWTs. `auth_sessions` stores the SHA-256
 access digest, 10-minute access expiry, fixed 30-day session expiry and revocation time.

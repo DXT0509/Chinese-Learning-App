@@ -1,0 +1,323 @@
+﻿simplified,pinyin,pinyin_numbered,vietnamese_meanings,sino_vietnamese,part_of_speech,learning_level,review_status,entry_id
+女,nǚ,nü3,nữ; thuộc giới tính nữ,nữ,adjective,0,LOCAL_CODEX_REVIEWED,4ca4de17-769b-52e2-9b81-019e98e4b411
+口,kǒu,kou3,miệng; lượng từ đếm người trong gia đình,khẩu,noun; classifier,0,LOCAL_CODEX_REVIEWED,b3e7516f-6923-54d4-b5d1-340be3727567
+男,nán,nan2,nam; thuộc giới tính nam,nam,adjective,0,LOCAL_CODEX_REVIEWED,2b7c8f88-a1c3-5d49-b15d-b03a8e44d000
+中,zhōng,zhong1,ở giữa; trung tâm,trung,noun; locality,0,LOCAL_CODEX_REVIEWED,21c8da77-0994-5d8f-99d3-0a5f639dbe02
+左,zuǒ,zuo3,bên trái,tả,noun; locality,0,LOCAL_CODEX_REVIEWED,9d25bdfe-ddf3-5fcd-bcdd-175dc03becd8
+右,yòu,you4,bên phải,hữu,noun; locality,0,LOCAL_CODEX_REVIEWED,4251e931-f689-56e8-9513-d4ef6f2ebe0d
+前,qián,qian2,phía trước; trước,tiền,noun; locality,0,LOCAL_CODEX_REVIEWED,ade5dd8c-15f1-5434-ba2c-30b00d4d4b9f
+后,hòu,hou4,phía sau; sau,hậu,noun; locality,0,LOCAL_CODEX_REVIEWED,d2bb2049-1553-51fc-a8f9-5db905474016
+东,dōng,dong1,phía đông,đông,noun; locality,0,LOCAL_CODEX_REVIEWED,ef670ed9-7e62-5ae3-bd25-1ef4f92521a8
+西,xī,xi1,phía tây,tây,noun; locality,0,LOCAL_CODEX_REVIEWED,30e086da-23e7-536c-a638-f520cc5c338c
+北,běi,bei3,phía bắc,bắc,noun; locality,0,LOCAL_CODEX_REVIEWED,3925194b-7c72-5d78-9c8c-437655f55f0d
+百,bǎi,bai3,trăm,bách,numeral,0,LOCAL_CODEX_REVIEWED,b68900a2-be6e-58c6-b049-7959d6a125c2
+千,qiān,qian1,nghìn,thiên,numeral,0,LOCAL_CODEX_REVIEWED,18839099-49b7-50b6-a04d-b6288e3772a1
+万,wàn,wan4,vạn; mười nghìn,vạn,numeral,0,LOCAL_CODEX_REVIEWED,af618815-2a74-570f-a754-a0e767fede0c
+两,liǎng,liang3,hai (thường dùng trước lượng từ),lưỡng,numeral,0,LOCAL_CODEX_REVIEWED,45a8c192-1ea7-5d1a-974c-db5806a4f547
+天,tiān,tian1,ngày; trời,thiên,noun,0,LOCAL_CODEX_REVIEWED,1c571c74-0908-5b81-a001-d9ccb5c9e82d
+分,fēn,fen1,phút; chia,phân,noun; verb,0,LOCAL_CODEX_REVIEWED,ce2cc44b-a1e4-5c0f-8c90-5199608f99be
+早,zǎo,zao3,sớm,tảo,adjective,0,LOCAL_CODEX_REVIEWED,7d5aa8be-5a99-5d4a-aaa0-73dd71ff9a4e
+晚,wǎn,wan3,muộn,vãn,adjective,0,LOCAL_CODEX_REVIEWED,993989bc-cf29-515c-88b1-12ba5b0e8d93
+半,bàn,ban4,nửa; một nửa,bán,numeral,0,LOCAL_CODEX_REVIEWED,ae6d2fb3-c779-5b47-be33-d07339172304
+木,mù,mu4,gỗ (thường dùng trong từ ghép),mộc,noun; word element,0,LOCAL_CODEX_REVIEWED,41d6eed4-fd3b-5a9b-ba27-4ccd032e6dc7
+金,jīn,jin1,vàng (kim loại),kim,noun,0,LOCAL_CODEX_REVIEWED,4ade0d9c-4773-5fb5-997c-c9614197701d
+土,tǔ,tu3,đất,thổ,noun,0,LOCAL_CODEX_REVIEWED,e757d48f-520a-55ac-948f-04696c6715dc
+石,shí,shi2,đá (thường dùng trong từ ghép),thạch,noun; word element,0,LOCAL_CODEX_REVIEWED,d6f1d926-f342-5cce-b7e2-7682d4caa9af
+田,tián,tian2,ruộng,điền,noun,0,LOCAL_CODEX_REVIEWED,7d9104b5-c47c-5dc5-b135-a15d122bf218
+雨,yǔ,yu3,mưa,vũ,noun,0,LOCAL_CODEX_REVIEWED,4dc018fb-845a-57bc-a20a-26af418ce31c
+电,diàn,dian4,điện,điện,noun,0,LOCAL_CODEX_REVIEWED,7c864290-c3ae-526c-94ba-45c06d8791c3
+气,qì,qi4,khí; hơi,khí,noun,0,LOCAL_CODEX_REVIEWED,caa4e8f2-da70-538a-9e39-d6c595635d9f
+面,miàn,mian4,mì; bột mì,diện,noun,0,LOCAL_CODEX_REVIEWED,5539b087-9f20-5391-8b0d-dadd637371c4
+肉,ròu,rou4,thịt,nhục,noun,0,LOCAL_CODEX_REVIEWED,2b4c3250-4734-5973-a3a3-0c9dfe4738e4
+虫,chóng,chong2,sâu; côn trùng,trùng,noun,0,LOCAL_CODEX_REVIEWED,6d80f65a-7152-5aa9-b9c5-0b661700e1f0
+鸡,jī,ji1,gà,kê,noun,0,LOCAL_CODEX_REVIEWED,213d5258-3683-581f-bc03-f60291568acc
+鸭,yā,ya1,vịt,áp,noun,0,LOCAL_CODEX_REVIEWED,0ad0cd2b-9334-56f3-ba66-751d12440c10
+猪,zhū,zhu1,lợn; heo,trư,noun,0,LOCAL_CODEX_REVIEWED,f498122f-fd6b-5d5d-97e6-7d557a297237
+兔,tù,tu4,thỏ,thố,noun,0,LOCAL_CODEX_REVIEWED,2fbfbf3b-30a8-5009-937c-44b66b05c9ed
+龙,lóng,long2,rồng,long,noun,0,LOCAL_CODEX_REVIEWED,d75c7b71-114a-56a7-9da0-0b38d366948f
+鼠,shǔ,shu3,chuột (thường dùng trong từ ghép),thử,noun; word element,0,LOCAL_CODEX_REVIEWED,2a25527d-b495-5359-be9c-556f4556d436
+虎,hǔ,hu3,hổ (thường dùng trong từ ghép),hổ,noun; word element,0,LOCAL_CODEX_REVIEWED,93ef212a-6b4b-5cf8-97dc-789e3204878b
+蛇,shé,she2,rắn,xà,noun,0,LOCAL_CODEX_REVIEWED,b6fb1534-a332-53e8-a6bc-c39a38c34717
+嘴,zuǐ,zui3,miệng,,noun,0,LOCAL_CODEX_REVIEWED,04e5958a-876c-53e5-b1f7-2d1977de09a6
+牙,yá,ya2,răng,nha,noun,0,LOCAL_CODEX_REVIEWED,130d4ef0-12a2-558d-9df7-18d964fb3412
+心,xīn,xin1,tim; lòng,tâm,noun,0,LOCAL_CODEX_REVIEWED,8d1aa07c-aa06-5136-b747-402d86a35710
+皮,pí,pi2,da; vỏ,bì,noun,0,LOCAL_CODEX_REVIEWED,c9c714f4-3f94-53d4-be5c-ac9494308c69
+血,xuè,xue4,máu,huyết,noun,0,LOCAL_CODEX_REVIEWED,ad21e3a7-b8e1-53b6-b9cb-9b5079fa2267
+见,jiàn,jian4,gặp; thấy,kiến,verb,0,LOCAL_CODEX_REVIEWED,1cb0eab5-9cd1-5c16-803d-acf582ed9f4d
+学,xué,xue2,học,học,verb,0,LOCAL_CODEX_REVIEWED,03b2390f-aba8-5fd1-b088-75f3ebd297b4
+答,dá,da2,trả lời,đáp,verb,0,LOCAL_CODEX_REVIEWED,eb512f8a-77c4-566c-9bf4-42cd37daf2d5
+认,rèn,ren4,nhận ra; nhận biết,nhận,verb,0,LOCAL_CODEX_REVIEWED,00518580-daad-5faa-97b6-02b7d61c33c9
+站,zhàn,zhan4,đứng; trạm,trạm,verb; noun,0,LOCAL_CODEX_REVIEWED,31b52a95-a17e-564e-b898-5b57468d6519
+用,yòng,yong4,dùng; sử dụng,dụng,verb,0,LOCAL_CODEX_REVIEWED,c36a3c82-f322-5df5-986a-2206e5a5734b
+打,dǎ,da3,đánh; gọi (điện thoại),đả,verb,0,LOCAL_CODEX_REVIEWED,37769c7c-29e9-5137-8d0f-179e0da29c45
+让,ràng,rang4,để; cho phép; bảo ai làm gì,nhượng,verb,0,LOCAL_CODEX_REVIEWED,97032ad4-0934-5c43-9b8e-41112215924c
+帮,bāng,bang1,giúp,bang,verb,0,LOCAL_CODEX_REVIEWED,2d1a0de4-1b6e-50c4-ab8b-d9ea8d7060bb
+唱,chàng,chang4,hát,xướng,verb,0,LOCAL_CODEX_REVIEWED,a1731808-1aae-52cd-bfc1-f157ea043631
+睡,shuì,shui4,ngủ,thụy,verb,0,LOCAL_CODEX_REVIEWED,505d690a-9548-572a-a5c9-a708a82c2024
+醒,xǐng,xing3,tỉnh; thức giấc,tỉnh,verb,0,LOCAL_CODEX_REVIEWED,a05f994d-4feb-506b-9e2c-a945486ecfa5
+又,yòu,you4,lại (sự việc lặp lại),hựu,adverb,0,LOCAL_CODEX_REVIEWED,69e25e9d-8790-534d-9a6c-1b5c7fdfac38
+更,gèng,geng4,hơn; càng,,adverb,0,LOCAL_CODEX_REVIEWED,57fac865-690b-51de-a676-e9db064415c9
+最,zuì,zui4,nhất,tối,adverb,0,LOCAL_CODEX_REVIEWED,bbf24fcb-f34e-5e83-968d-9b13d973b030
+哪,nǎ,na3,nào,,pronoun,0,LOCAL_CODEX_REVIEWED,24172d00-1b47-5cec-9e99-9e7847d059ef
+了,le,le5,trợ từ chỉ hoàn thành hoặc thay đổi tình huống,,particle,0,LOCAL_CODEX_REVIEWED,2f60676c-ab92-5ba9-a5fe-0e3774aeb7c4
+过,guo,guo5,trợ từ chỉ trải nghiệm đã từng,,particle,0,LOCAL_CODEX_REVIEWED,3b8f8819-04ed-51f7-88fe-7ccafd9d5461
+着,zhe,zhe5,trợ từ chỉ trạng thái hoặc hành động đang tiếp diễn,,particle,0,LOCAL_CODEX_REVIEWED,51227570-2d30-573d-b30d-1093eb27508c
+吧,ba,ba5,trợ từ gợi ý hoặc làm dịu lời nói,,particle,0,LOCAL_CODEX_REVIEWED,e1ba7cbf-5afe-59e7-b985-7008b4a38b6c
+啊,a,a5,à; ôi; trợ từ cảm thán,,particle,0,LOCAL_CODEX_REVIEWED,2d2924f3-6c35-5562-bef3-fc8d5ad304cb
+跟,gēn,gen1,với; theo,,preposition; verb,0,LOCAL_CODEX_REVIEWED,40b3c5e5-715d-5fd7-b0c8-2bfe3c4d8a93
+被,bèi,bei4,bị; được (dấu hiệu câu bị động),bị,preposition,0,LOCAL_CODEX_REVIEWED,7f38314d-9adc-5b76-b166-fdf1187878b3
+杯,bēi,bei1,cốc; lượng từ cho đồ uống đựng trong cốc,bôi,noun; classifier,0,LOCAL_CODEX_REVIEWED,2cffc750-79ca-5de2-9ba0-d6416b55a706
+瓶,píng,ping2,chai; lượng từ chỉ chai,bình,noun; classifier,0,LOCAL_CODEX_REVIEWED,e69b5f15-577a-5bc7-b9de-513f19ead39f
+元,yuán,yuan2,nhân dân tệ (đơn vị tiền tệ),nguyên,classifier,0,LOCAL_CODEX_REVIEWED,4fe2c38c-5024-5661-8e3f-cac9d78e7e27
+角,jiǎo,jiao3,góc; hào (một phần mười nhân dân tệ),giác,noun; classifier,0,LOCAL_CODEX_REVIEWED,2e386b61-0649-5244-9da9-91363b689754
+里,lǐ,li3,bên trong,lý,noun; locality,0,LOCAL_CODEX_REVIEWED,e5df6e8b-8271-5b11-a646-d951e52e4e85
+坏,huài,huai4,xấu; hỏng,hoại,adjective,0,LOCAL_CODEX_REVIEWED,85d35253-57ec-51c8-a95c-7dd28dc142d1
+轻,qīng,qing1,nhẹ,khinh,adjective,0,LOCAL_CODEX_REVIEWED,30a4a8d1-6095-5209-9a1f-3dc96da1fc45
+重,zhòng,zhong4,nặng,trọng,adjective,0,LOCAL_CODEX_REVIEWED,f8be313f-2e2d-50ea-8e2a-c32994846447
+病,bìng,bing4,bệnh; bị bệnh,bệnh,noun; verb,0,LOCAL_CODEX_REVIEWED,e7825304-3cb8-57e8-bb4d-e826ac37aeee
+爸,bà,ba4,bố; ba,,noun,0,LOCAL_CODEX_REVIEWED,d97aabfe-1e36-59cf-b21c-93e99c8fc50d
+妈,mā,ma1,mẹ; má,,noun,0,LOCAL_CODEX_REVIEWED,ada8ce03-8f65-5e5a-b53a-5bec66a6b0a9
+哥,gē,ge1,anh trai,,noun,0,LOCAL_CODEX_REVIEWED,86bb435b-53e5-5ac0-99d5-91e46779757e
+姐,jiě,jie3,chị gái,,noun,0,LOCAL_CODEX_REVIEWED,bbecd1cb-fbd2-5ee6-a9be-71d465df7142
+弟,dì,di4,em trai (thường dùng trong từ ghép),,noun; word element,0,LOCAL_CODEX_REVIEWED,fc2a3a2e-045f-58a3-bf10-dfe189587b71
+妹,mèi,mei4,em gái (thường dùng trong từ ghép),,noun; word element,0,LOCAL_CODEX_REVIEWED,7ebcf4e5-8c4b-533b-884c-bd7dcfdbf6f0
+房,fáng,fang2,nhà; phòng (thường dùng trong từ ghép),phòng,noun; word element,0,LOCAL_CODEX_REVIEWED,71d1218d-968f-5fc4-b5ff-b8a7655921a0
+窗,chuāng,chuang1,cửa sổ (thường dùng trong từ ghép),song,noun; word element,0,LOCAL_CODEX_REVIEWED,e249cba0-8236-5b97-9b9e-cd3064bbd187
+床,chuáng,chuang2,giường,sàng,noun,0,LOCAL_CODEX_REVIEWED,85f224e2-7036-591e-953b-9961a76a34d9
+笔,bǐ,bi3,bút,bút,noun,0,LOCAL_CODEX_REVIEWED,8297824d-2be6-5ac7-b475-5c735d06406f
+纸,zhǐ,zhi3,giấy,chỉ,noun,0,LOCAL_CODEX_REVIEWED,c6beb987-843c-53ba-865c-620f3c76e4d7
+车,chē,che1,xe,xa,noun,0,LOCAL_CODEX_REVIEWED,93a09101-273c-5928-a637-ea7ee6dd2169
+店,diàn,dian4,cửa hàng; tiệm,điếm,noun,0,LOCAL_CODEX_REVIEWED,92b08432-d753-521c-886c-3d0bf7d527c3
+名,míng,ming2,tên; lượng từ trang trọng đếm người,danh,noun; classifier,0,LOCAL_CODEX_REVIEWED,57b687d0-7428-5bb4-b6ad-2c7e21dbfc58
+课,kè,ke4,tiết học; bài học,khóa,noun,0,LOCAL_CODEX_REVIEWED,1b454c8b-3407-5357-b52b-06496f29ac78
+班,bān,ban1,lớp; ca làm việc,ban,noun,0,LOCAL_CODEX_REVIEWED,0c52f80e-c110-5649-9f73-da095a20dccc
+力,lì,li4,sức; lực,lực,noun,0,LOCAL_CODEX_REVIEWED,05223bb8-d9bb-5120-a4fe-35007b30d858
+今,jīn,jin1,nay; hiện tại (yếu tố trong từ ghép),kim,word element,0,LOCAL_CODEX_REVIEWED,f956ca97-584d-5cae-848e-0a879cd22e9b
+儿,ér,er2,con trai; trẻ em (thường dùng trong từ ghép),nhi,noun; word element,0,LOCAL_CODEX_REVIEWED,4867ee2b-e003-5061-af2d-ce542ebd1317
+午,wǔ,wu3,giữa trưa (yếu tố trong từ ghép),ngọ,word element,0,LOCAL_CODEX_REVIEWED,5b4e4c54-6d3f-55d7-989c-edb8e697ae27
+友,yǒu,you3,bạn (thường dùng trong từ ghép),hữu,noun; word element,0,LOCAL_CODEX_REVIEWED,511cd072-acff-570b-9c8d-f403c12a2094
+国,guó,guo2,nước; quốc gia (thường dùng trong từ ghép),quốc,noun; word element,0,LOCAL_CODEX_REVIEWED,b6407d36-29f6-558b-a5a4-dbfe62c0cf9c
+子,zǐ,zi3,"con; con trai (nghĩa gốc, thường trong từ ghép)",tử,noun; word element,0,LOCAL_CODEX_REVIEWED,8478ed4e-4f7e-540d-a45c-128419c63d7e
+孙,sūn,sun1,cháu trai (thường dùng trong từ ghép),tôn,noun; word element,0,LOCAL_CODEX_REVIEWED,710f69d9-afa7-5791-9aaa-4824c5273bdd
+工,gōng,gong1,công việc; người thợ (thường dùng trong từ ghép),công,noun; word element,0,LOCAL_CODEX_REVIEWED,da839bb1-2025-5533-9060-f6ee6722759d
+市,shì,shi4,thành phố; chợ (thường dùng trong từ ghép),thị,noun; word element,0,LOCAL_CODEX_REVIEWED,f5b58c8f-68ad-5fa2-b551-fff36d0f1774
+师,shī,shi1,thầy; người có chuyên môn (thường dùng trong từ ghép),sư,noun; word element,0,LOCAL_CODEX_REVIEWED,c32c5210-d14f-53a3-8141-38e2576c4eac
+文,wén,wen2,văn; chữ viết; bài viết (thường dùng trong từ ghép),văn,noun; word element,0,LOCAL_CODEX_REVIEWED,157a1707-3dd4-5448-aece-3da28b265b19
+时,shí,shi2,thời gian; lúc (thường dùng trong từ ghép),thời,noun; word element,0,LOCAL_CODEX_REVIEWED,e591dd54-48e9-58d7-a625-61b7862f9de2
+明,míng,ming2,"sáng; rõ; tiếp theo (trong 明天, 明年)",minh,adjective; word element,0,LOCAL_CODEX_REVIEWED,768e07ae-0345-553f-acfd-635e87d0c65c
+易,yì,yi4,dễ (thường dùng trong văn viết hoặc từ ghép),dị,adjective; word element,0,LOCAL_CODEX_REVIEWED,d16687f7-3e62-5492-867b-2a51f97e2caa
+星,xīng,xing1,sao (thường dùng trong từ ghép),tinh,noun; word element,0,LOCAL_CODEX_REVIEWED,376933c8-2609-5742-970f-9bda4f7781a1
+昨,zuó,zuo2,hôm trước; ngày trước (trong từ ghép),tạc,word element,0,LOCAL_CODEX_REVIEWED,60c592b6-ea48-5c5b-9f3e-1fd0f5dfa6ab
+朋,péng,peng2,bạn (yếu tố trong từ ghép),bằng,word element,0,LOCAL_CODEX_REVIEWED,eb036983-3e2c-5162-a571-ad309605ea29
+校,xiào,xiao4,trường học (yếu tố trong từ ghép),hiệu,noun; word element,0,LOCAL_CODEX_REVIEWED,e82ecfc0-aefe-5150-b598-c95d34e8eb02
+桌,zhuō,zhuo1,bàn (thường dùng trong từ ghép),trác,noun; word element,0,LOCAL_CODEX_REVIEWED,a042bd85-dac4-5677-a9cc-bf9127f913b3
+椅,yǐ,yi3,ghế tựa (thường dùng trong từ ghép),ỷ,noun; word element,0,LOCAL_CODEX_REVIEWED,f89ed680-198c-58de-b6d3-d8d4858111ab
+欢,huān,huan1,vui; vui mừng (yếu tố trong từ ghép),hoan,adjective; word element,0,LOCAL_CODEX_REVIEWED,2b32d230-d23f-5a73-8152-098b9a5d2602
+汉,hàn,han4,Hán; thuộc người Hán hoặc tiếng Hán (trong từ ghép),hán,noun; word element,0,LOCAL_CODEX_REVIEWED,9ff740d7-9b66-584d-8b06-ba3e6f94f828
+生,shēng,sheng1,sinh; sinh ra; sống (thường dùng trong từ ghép),sinh,verb; word element,0,LOCAL_CODEX_REVIEWED,7ffe75cf-d3de-5ed6-8303-eb1c01b7c4d2
+眼,yǎn,yan3,mắt,nhãn,noun,0,LOCAL_CODEX_REVIEWED,0ea908fc-d593-58ec-a2bc-5a81a1c91f70
+知,zhī,zhi1,biết (thường dùng trong từ ghép),tri,verb; word element,0,LOCAL_CODEX_REVIEWED,24c0d9f9-1d89-5bd0-9088-37ab667a12a2
+老,lǎo,lao3,già; cũ; lâu năm,lão,adjective,0,LOCAL_CODEX_REVIEWED,18484775-e9aa-59a8-9280-fa73076cbcaa
+语,yǔ,yu3,ngôn ngữ; lời nói (thường dùng trong từ ghép),ngữ,noun; word element,0,LOCAL_CODEX_REVIEWED,1840d2c5-175f-524f-b4c3-550063be79e0
+起,qǐ,qi3,đứng dậy; nổi lên; bắt đầu,khởi,verb,0,LOCAL_CODEX_REVIEWED,3736a7d2-5873-521e-8885-7533483824bb
+身,shēn,shen1,thân; cơ thể (thường dùng trong từ ghép),thân,noun; word element,0,LOCAL_CODEX_REVIEWED,bc26949c-3ff9-5bb2-80d3-e903d281c7f3
+鼻,bí,bi2,mũi (thường dùng trong từ ghép),tị,noun; word element,0,LOCAL_CODEX_REVIEWED,2ba8a6ed-0533-5d48-83ce-de3a6f7f78b0
+它,tā,ta1,nó (đồ vật hoặc động vật),,pronoun,1,LOCAL_CODEX_REVIEWED,4dce3b26-b534-538d-b531-37b418b0665e
+它们,tā men,ta1 men5,chúng nó (đồ vật hoặc động vật),,pronoun,1,LOCAL_CODEX_REVIEWED,3646a0f0-f7ed-5770-be06-e6bf332df9fa
+大家,dà jiā,da4 jia1,mọi người,,pronoun,1,LOCAL_CODEX_REVIEWED,a582283c-db8d-57ae-a54c-d4c625ea525f
+别人,bié rén,bie2 ren2,người khác,,pronoun,1,LOCAL_CODEX_REVIEWED,791d6315-e8c6-59ff-8940-899732d6ddf5
+自己,zì jǐ,zi4 ji3,bản thân; tự mình,,pronoun,1,LOCAL_CODEX_REVIEWED,6448f8c5-9cc1-57d4-8c7d-4590f11efd71
+男孩,nán hái,nan2 hai2,bé trai; con trai,,noun,1,LOCAL_CODEX_REVIEWED,03c8811e-9213-5ab1-ac73-a0bcdac7cafd
+女孩,nǚ hái,nü3 hai2,bé gái; con gái,,noun,1,LOCAL_CODEX_REVIEWED,48abe55b-293a-587f-80d4-789ff29e64c5
+男生,nán shēng,nan2 sheng1,nam sinh,,noun,1,LOCAL_CODEX_REVIEWED,753b152b-fd04-5356-9fec-3c72b6d80c75
+女生,nǚ shēng,nü3 sheng1,nữ sinh,,noun,1,LOCAL_CODEX_REVIEWED,57574bbb-be07-5c7e-b8eb-3d5cd1f00459
+男朋友,nán péng you,nan2 peng2 you5,bạn trai (người yêu),,noun,1,LOCAL_CODEX_REVIEWED,dd4624b9-6d61-5c29-997b-6ba07152a630
+女朋友,nǚ péng you,nü3 peng2 you5,bạn gái (người yêu),,noun,1,LOCAL_CODEX_REVIEWED,3e3b896d-8123-5fda-9aeb-7a68b891e15e
+外公,wài gōng,wai4 gong1,ông ngoại,,noun,1,LOCAL_CODEX_REVIEWED,a983f031-abdd-503c-9d2e-e06aa20b77fb
+太太,tài tai,tai4 tai5,bà (cách xưng hô); vợ,,noun,1,LOCAL_CODEX_REVIEWED,08e3e132-8c28-53f5-acac-575a52068269
+家人,jiā rén,jia1 ren2,người nhà; gia đình,,noun,1,LOCAL_CODEX_REVIEWED,01e9ff08-fa2c-5a32-85cb-2538b1c14746
+老人,lǎo rén,lao3 ren2,người cao tuổi,,noun,1,LOCAL_CODEX_REVIEWED,f3f79463-69c8-5d5b-94d6-50bcb68a6e97
+年轻人,nián qīng rén,nian2 qing1 ren2,người trẻ; thanh niên,,noun,1,LOCAL_CODEX_REVIEWED,f1a0b9b5-7563-5342-b9c4-1d92d4f765ef
+耳朵,ěr duo,er3 duo5,tai,,noun,1,LOCAL_CODEX_REVIEWED,621675bd-a23a-5f09-9410-78249ee6a760
+鼻子,bí zi,bi2 zi5,mũi,,noun,1,LOCAL_CODEX_REVIEWED,5ce37e7c-ad33-5a37-aa55-16f6c91c1664
+嘴巴,zuǐ ba,zui3 ba5,miệng,,noun,1,LOCAL_CODEX_REVIEWED,956c2a62-10ee-5405-ada1-4e9275db04ff
+牙齿,yá chǐ,ya2 chi3,răng,,noun,1,LOCAL_CODEX_REVIEWED,1dd54562-c78a-5973-86c4-fa0f06d6405b
+脚趾,jiǎo zhǐ,jiao3 zhi3,ngón chân,,noun,1,LOCAL_CODEX_REVIEWED,6efbc23d-855a-5883-a95b-2323db47387d
+手指,shǒu zhǐ,shou3 zhi3,ngón tay,,noun,1,LOCAL_CODEX_REVIEWED,aa4bcd61-e176-53ff-a40e-777e240701d0
+脖子,bó zi,bo2 zi5,cổ,,noun,1,LOCAL_CODEX_REVIEWED,78ca83cc-4a50-5fc9-897c-f72546d14047
+头疼,tóu téng,tou2 teng2,đau đầu,,verb; adjective,1,LOCAL_CODEX_REVIEWED,46383779-efeb-5356-b1e3-09673f7796c9
+感冒,gǎn mào,gan3 mao4,cảm lạnh; bị cảm,cảm mạo,noun; verb,1,LOCAL_CODEX_REVIEWED,e15c9852-f66a-5f7f-93a1-61db9c45f397
+药店,yào diàn,yao4 dian4,hiệu thuốc; nhà thuốc,,noun,1,LOCAL_CODEX_REVIEWED,c1b8c680-b859-5812-ab9c-b3a0037daa1a
+时间,shí jiān,shi2 jian1,thời gian,thời gian,noun,1,LOCAL_CODEX_REVIEWED,150b0a8b-0768-5c80-9031-ebb6ddd92a0a
+白天,bái tiān,bai2 tian1,ban ngày,bạch thiên,noun; time,1,LOCAL_CODEX_REVIEWED,0990d0e2-8600-59fe-b1dc-71eaf0feac60
+夜里,yè li,ye4 li5,ban đêm,,noun; time,1,LOCAL_CODEX_REVIEWED,f7fa154b-1775-5c32-8d68-8336f0a55a10
+晚安,wǎn ān,wan3 an1,chúc ngủ ngon,,phrase,1,LOCAL_CODEX_REVIEWED,9492df89-7ad0-5582-9d90-32bc744fcb19
+周末,zhōu mò,zhou1 mo4,cuối tuần,,noun; time,1,LOCAL_CODEX_REVIEWED,6d1cb58c-d634-51eb-8a87-fd654c2bf302
+周一,zhōu yī,zhou1 yi1,thứ Hai,,noun; time,1,LOCAL_CODEX_REVIEWED,ef38acae-f87e-5a64-b3a9-40cdef9ca6f3
+星期一,xīng qī yī,xing1 qi1 yi1,thứ Hai,,noun; time,1,LOCAL_CODEX_REVIEWED,f2aeafca-b7ac-55de-b3bf-15635976280e
+星期二,xīng qī èr,xing1 qi1 er4,thứ Ba,,noun; time,1,LOCAL_CODEX_REVIEWED,24c9add0-48ca-5fa9-a826-f9ea5335adfe
+星期三,xīng qī sān,xing1 qi1 san1,thứ Tư,,noun; time,1,LOCAL_CODEX_REVIEWED,321dab19-12f9-5785-b554-96b80b7475f2
+星期四,xīng qī sì,xing1 qi1 si4,thứ Năm,,noun; time,1,LOCAL_CODEX_REVIEWED,edeca898-833f-568b-a284-c6798452117c
+星期五,xīng qī wǔ,xing1 qi1 wu3,thứ Sáu,,noun; time,1,LOCAL_CODEX_REVIEWED,b8f6e600-7429-581f-8338-89dc9cdcc1e3
+星期六,xīng qī liù,xing1 qi1 liu4,thứ Bảy,,noun; time,1,LOCAL_CODEX_REVIEWED,cbc55b5a-9778-5312-864a-5440ad980af8
+星期日,xīng qī rì,xing1 qi1 ri4,Chủ nhật,,noun; time,1,LOCAL_CODEX_REVIEWED,03241e75-969c-5098-a4b4-9845e97d8765
+星期天,xīng qī tiān,xing1 qi1 tian1,Chủ nhật,,noun; time,1,LOCAL_CODEX_REVIEWED,2b4d9c35-c9bf-5b93-a9a5-91bc38a96089
+今年,jīn nián,jin1 nian2,năm nay,kim niên,noun; time,1,LOCAL_CODEX_REVIEWED,f97e881f-beb5-5e70-80ee-75a1c9a3141c
+生日,shēng rì,sheng1 ri4,sinh nhật,sinh nhật,noun,1,LOCAL_CODEX_REVIEWED,620a1888-bce8-5cdb-9819-31a96e16ddb9
+秒钟,miǎo zhōng,miao3 zhong1,giây (đơn vị thời gian),,noun,1,LOCAL_CODEX_REVIEWED,4dcee0c2-6dbc-53e5-beba-1dd157fcb948
+夜,yè,ye4,đêm,,noun,1,LOCAL_CODEX_REVIEWED,75f4a07f-8cea-5efc-8c44-8b46efa6474c
+今天晚上,jīn tiān wǎn shang,jin1 tian1 wan3 shang5,tối nay,,phrase; time,1,LOCAL_CODEX_REVIEWED,7d5e7883-6ca9-51cf-ad26-c668532d0d6a
+以前,yǐ qián,yi3 qian2,trước đây; trước khi,dĩ tiền,noun; time,1,LOCAL_CODEX_REVIEWED,b19feb49-8588-567b-9dfd-9d4a246cf4d5
+以后,yǐ hòu,yi3 hou4,sau này; sau khi,dĩ hậu,noun; time,1,LOCAL_CODEX_REVIEWED,95465b7f-2441-5377-b16d-472084148556
+刚才,gāng cái,gang1 cai2,vừa nãy,,noun; time,1,LOCAL_CODEX_REVIEWED,5c6d3155-82fc-5710-9cde-b42792e9f9d6
+还没,hái méi,hai2 mei2,vẫn chưa,,phrase; adverb,1,LOCAL_CODEX_REVIEWED,4debce6a-f8e9-5cf0-a408-1520241c4d86
+一会儿,yī huì er,yi1 hui4 er5,một lát; một chút thời gian,,noun; time,1,LOCAL_CODEX_REVIEWED,29ae56b5-3269-564c-8d49-5c82df2e2842
+每天,měi tiān,mei3 tian1,mỗi ngày; hằng ngày,,noun; time,1,LOCAL_CODEX_REVIEWED,e4836b95-b190-5807-854c-ac3ac9297752
+每年,měi nián,mei3 nian2,mỗi năm; hằng năm,,noun; time,1,LOCAL_CODEX_REVIEWED,595fd10d-65c7-507e-9c33-7ed0a2621f7b
+每月,měi yuè,mei3 yue4,mỗi tháng; hằng tháng,,noun; time,1,LOCAL_CODEX_REVIEWED,9f061e3a-59a2-5f26-9aa8-3c892b0f4a88
+每周,měi zhōu,mei3 zhou1,mỗi tuần; hằng tuần,,noun; time,1,LOCAL_CODEX_REVIEWED,4b5a49a2-45ac-52e4-8a5b-ed44c1b07edb
+有时候,yǒu shí hou,you3 shi2 hou5,đôi khi; có lúc,,adverb,1,LOCAL_CODEX_REVIEWED,5d096849-86e0-5d4a-b4c2-f67ca6056734
+一起,yī qǐ,yi1 qi3,cùng nhau,,adverb,1,LOCAL_CODEX_REVIEWED,c938541f-5937-59ae-971b-ae09264e2803
+房子,fáng zi,fang2 zi5,nhà; căn nhà,,noun,1,LOCAL_CODEX_REVIEWED,1694539b-2d24-595a-a963-cb5542398975
+卧室,wò shì,wo4 shi4,phòng ngủ,,noun,1,LOCAL_CODEX_REVIEWED,ba1c3aa5-c007-5799-9b68-dfa18b919c2b
+门口,mén kǒu,men2 kou3,cửa ra vào; ngay cửa,,noun; locality,1,LOCAL_CODEX_REVIEWED,9e081366-0785-5d96-a31d-3bfa17e41865
+窗户,chuāng hu,chuang1 hu5,cửa sổ,,noun,1,LOCAL_CODEX_REVIEWED,bfbc6b31-c9e2-54cd-a8c8-482f0e23e315
+床上,chuáng shàng,chuang2 shang4,trên giường,,phrase; locality,1,LOCAL_CODEX_REVIEWED,6f985d6a-0039-5c18-9334-96a0ef919622
+电话,diàn huà,dian4 hua4,điện thoại; cuộc gọi điện thoại,điện thoại,noun,1,LOCAL_CODEX_REVIEWED,aa531337-8fb1-52f3-a49f-08bfdef8848b
+水杯,shuǐ bēi,shui3 bei1,cốc uống nước,,noun,1,LOCAL_CODEX_REVIEWED,dad08772-cb9c-506c-993f-9b5272cd495c
+碗筷,wǎn kuài,wan3 kuai4,bát đũa,,noun,1,LOCAL_CODEX_REVIEWED,036c32c8-dcc5-52df-9185-2b6163b22025
+盘子,pán zi,pan2 zi5,đĩa,,noun,1,LOCAL_CODEX_REVIEWED,dce83a7d-d053-5af5-a146-fbcbe1b9f6bb
+书包,shū bāo,shu1 bao1,cặp sách; ba lô đi học,,noun,1,LOCAL_CODEX_REVIEWED,021685f5-7bac-57ee-9d82-b9a41b191dc7
+皮包,pí bāo,pi2 bao1,túi da,,noun,1,LOCAL_CODEX_REVIEWED,37d4a353-c2df-5004-9979-0dac2a9c5e48
+洗脸,xǐ liǎn,xi3 lian3,rửa mặt,,verb,1,LOCAL_CODEX_REVIEWED,10dc7314-4599-5b85-a71b-1eb5dee70ec4
+开门,kāi mén,kai1 men2,mở cửa,,verb,1,LOCAL_CODEX_REVIEWED,25b29b0b-c90a-5990-af5d-5a1359f9bbb6
+关门,guān mén,guan1 men2,đóng cửa,,verb,1,LOCAL_CODEX_REVIEWED,c2825418-628a-5a5a-9b0c-4640121c8829
+馒头,mán tou,man2 tou5,bánh màn thầu (bánh hấp không nhân),,noun,1,LOCAL_CODEX_REVIEWED,51d4620e-4afa-5d51-b626-131307f84796
+豆浆,dòu jiāng,dou4 jiang1,sữa đậu nành,,noun,1,LOCAL_CODEX_REVIEWED,9e732074-2421-5fd2-bee9-006d9e89de69
+白酒,bái jiǔ,bai2 jiu3,rượu trắng Trung Quốc; rượu chưng cất từ ngũ cốc,,noun,1,LOCAL_CODEX_REVIEWED,988dd6dc-2fa1-5e15-a6f1-f7086eb22de3
+饮料,yǐn liào,yin3 liao4,đồ uống,,noun,1,LOCAL_CODEX_REVIEWED,c5c9609c-f0fb-5fe8-835d-01302014af07
+开水,kāi shuǐ,kai1 shui3,nước đun sôi,,noun,1,LOCAL_CODEX_REVIEWED,562461e4-e68b-5ce4-9f9e-7c8442df440a
+热水,rè shuǐ,re4 shui3,nước nóng,,noun,1,LOCAL_CODEX_REVIEWED,c8894447-5e3e-521c-b3ed-3d5bb1755119
+冷水,lěng shuǐ,leng3 shui3,nước lạnh,,noun,1,LOCAL_CODEX_REVIEWED,ecdbab5f-1a77-56f4-b319-028ae9e26621
+水果,shuǐ guǒ,shui3 guo3,trái cây; hoa quả,,noun,1,LOCAL_CODEX_REVIEWED,7d3afc48-0fb0-51dc-8773-8eae05071364
+香蕉,xiāng jiāo,xiang1 jiao1,chuối,,noun,1,LOCAL_CODEX_REVIEWED,17aaf5a0-5aa1-5f19-9447-6f06ba5d0742
+橘子,jú zi,ju2 zi5,quýt,,noun,1,LOCAL_CODEX_REVIEWED,1e57f978-dec9-5d83-a058-37d1e50a5f19
+橙子,chéng zi,cheng2 zi5,cam,,noun,1,LOCAL_CODEX_REVIEWED,8cf3b859-5f85-5fe1-84aa-7e7fd8a1f358
+草莓,cǎo méi,cao3 mei2,dâu tây,,noun,1,LOCAL_CODEX_REVIEWED,608cc09d-a9db-5a08-8f36-cdf191adcc09
+桃子,táo zi,tao2 zi5,quả đào,,noun,1,LOCAL_CODEX_REVIEWED,bc5a7b9c-62bd-53d4-abf4-88a5c7a36bde
+梨,lí,li2,quả lê,,noun,1,LOCAL_CODEX_REVIEWED,e9779493-20c2-515d-9b70-0662876b9df3
+蔬菜,shū cài,shu1 cai4,rau; rau củ,,noun,1,LOCAL_CODEX_REVIEWED,6d0a43d3-63fc-5b5a-987d-ac19255e470b
+白菜,bái cài,bai2 cai4,cải thảo; cải trắng,,noun,1,LOCAL_CODEX_REVIEWED,74c60302-34ef-5393-ba77-60e9d807e90b
+西红柿,xī hóng shì,xi1 hong2 shi4,cà chua,,noun,1,LOCAL_CODEX_REVIEWED,39a5cabe-45ab-55a9-b05a-da1ef39fd35d
+土豆,tǔ dòu,tu3 dou4,khoai tây,,noun,1,LOCAL_CODEX_REVIEWED,bebf10c7-13a6-545e-9863-618ac4a17d2b
+黄瓜,huáng guā,huang2 gua1,dưa chuột; dưa leo,,noun,1,LOCAL_CODEX_REVIEWED,40d6d5dc-3cdf-5d22-9612-624d23c5e5fd
+胡萝卜,hú luó bo,hu2 luo2 bo5,cà rốt,,noun,1,LOCAL_CODEX_REVIEWED,badd18aa-0142-5e6e-8117-d463e5b41899
+鸡肉,jī ròu,ji1 rou4,thịt gà,,noun,1,LOCAL_CODEX_REVIEWED,b25b96bf-56d6-5239-90f2-294251842fae
+牛肉,niú ròu,niu2 rou4,thịt bò,,noun,1,LOCAL_CODEX_REVIEWED,9cc98a86-1050-5a77-bade-09e49968645f
+猪肉,zhū ròu,zhu1 rou4,thịt lợn; thịt heo,,noun,1,LOCAL_CODEX_REVIEWED,d86a095a-9f61-5e3a-9f3f-66069dee53d8
+鱼肉,yú ròu,yu2 rou4,thịt cá,,noun,1,LOCAL_CODEX_REVIEWED,d584cc4a-0cea-5907-9ba1-f29fe1bae9bc
+盐,yán,yan2,muối,,noun,1,LOCAL_CODEX_REVIEWED,9dcb1e3c-cbc2-52ed-86dd-d1a2e06bb331
+油,yóu,you2,dầu; dầu ăn,,noun,1,LOCAL_CODEX_REVIEWED,75280ebe-517b-52cf-99a3-69fda21a4e47
+醋,cù,cu4,giấm,,noun,1,LOCAL_CODEX_REVIEWED,36d77d5b-8eed-5d78-889c-976448daf955
+辣椒,là jiāo,la4 jiao1,ớt,,noun,1,LOCAL_CODEX_REVIEWED,fd386ab5-9fa0-5fdd-94a6-7d4f25d78185
+早餐,zǎo cān,zao3 can1,bữa sáng,,noun,1,LOCAL_CODEX_REVIEWED,1b28c467-f5cc-506b-92c3-467aa7415325
+午饭,wǔ fàn,wu3 fan4,bữa trưa; cơm trưa,,noun,1,LOCAL_CODEX_REVIEWED,12a66c03-c742-5932-8dbd-b2a34b8d16bf
+晚饭,wǎn fàn,wan3 fan4,bữa tối; cơm tối,,noun,1,LOCAL_CODEX_REVIEWED,a562c4f0-1d4e-5e24-bef6-b333516c95b2
+早饭,zǎo fàn,zao3 fan4,bữa sáng; cơm sáng,,noun,1,LOCAL_CODEX_REVIEWED,554d4fed-2c8a-5b01-8530-a850923fbe9a
+餐厅,cān tīng,can1 ting1,nhà hàng; phòng ăn,,noun,1,LOCAL_CODEX_REVIEWED,f8b132ec-fc80-52f8-ad65-34f53f2d98ea
+好吃,hǎo chī,hao3 chi1,ngon (đồ ăn),,adjective,1,LOCAL_CODEX_REVIEWED,ae0cbc79-b6dd-50ae-b082-2bb594b85b6d
+好喝,hǎo hē,hao3 he1,ngon (đồ uống),,adjective,1,LOCAL_CODEX_REVIEWED,18251b34-79ec-59d1-a4e6-b18f206546fe
+学校,xué xiào,xue2 xiao4,trường học,học hiệu,noun,1,LOCAL_CODEX_REVIEWED,5536491b-0b02-50fb-b030-d911d398eadd
+车站,chē zhàn,che1 zhan4,bến xe; nhà ga,,noun,1,LOCAL_CODEX_REVIEWED,88000552-f5d7-5df0-8c65-7fe6f1ba1696
+地铁站,dì tiě zhàn,di4 tie3 zhan4,ga tàu điện ngầm,,noun,1,LOCAL_CODEX_REVIEWED,4f6db11b-d85d-5a89-a74e-d7accc8a33aa
+酒店,jiǔ diàn,jiu3 dian4,khách sạn,,noun,1,LOCAL_CODEX_REVIEWED,857be955-8ae6-5848-8f59-3acda4535cdd
+越南,yuè nán,yue4 nan2,Việt Nam,việt nam,proper noun,1,LOCAL_CODEX_REVIEWED,7e18b72f-a497-5d4f-ba56-f32d2c8ba971
+河内,hé nèi,he2 nei4,Hà Nội,hà nội,proper noun,1,LOCAL_CODEX_REVIEWED,bae83fb2-49ee-5664-89fb-0d3648352ff9
+胡志明市,hú zhì míng shì,hu2 zhi4 ming2 shi4,Thành phố Hồ Chí Minh,,proper noun,1,LOCAL_CODEX_REVIEWED,2a72fe13-f0e4-5a28-b2c4-89eccde0d516
+中文,zhōng wén,zhong1 wen2,tiếng Trung; chữ viết tiếng Trung,trung văn,noun,1,LOCAL_CODEX_REVIEWED,f562c2b2-8aa7-58a0-9df4-510364c69e0d
+越南语,yuè nán yǔ,yue4 nan2 yu3,tiếng Việt,việt nam ngữ,noun,1,LOCAL_CODEX_REVIEWED,56904b34-81d9-5b41-928e-214427e2fe68
+英语,yīng yǔ,ying1 yu3,tiếng Anh,anh ngữ,noun,1,LOCAL_CODEX_REVIEWED,2d7e17bd-d2ea-548d-9121-b5bb6f384ba6
+摩托车,mó tuō chē,mo2 tuo1 che1,xe máy; mô tô,,noun,1,LOCAL_CODEX_REVIEWED,dc782b19-809b-5229-a112-4807e9eeae50
+汽车,qì chē,qi4 che1,ô tô; xe hơi,khí xa,noun,1,LOCAL_CODEX_REVIEWED,3c650460-e222-5125-910a-91e97799791e
+火车,huǒ chē,huo3 che1,tàu hỏa; xe lửa,hỏa xa,noun,1,LOCAL_CODEX_REVIEWED,4cb1c4a9-af99-5fa6-8a2c-41dcd0e79351
+地铁,dì tiě,di4 tie3,tàu điện ngầm; hệ thống tàu điện ngầm,địa thiết,noun,1,LOCAL_CODEX_REVIEWED,91992c61-ff02-5546-ba53-b259157636e7
+轮船,lún chuán,lun2 chuan2,tàu thủy,,noun,1,LOCAL_CODEX_REVIEWED,6479cffc-ed01-520c-96d8-a28964e86785
+马路,mǎ lù,ma3 lu4,đường phố; đường giao thông,,noun,1,LOCAL_CODEX_REVIEWED,c4402a82-aba6-51e4-bb25-b6cf43bb8276
+红绿灯,hóng lǜ dēng,hong2 lü4 deng1,đèn giao thông,,noun,1,LOCAL_CODEX_REVIEWED,4f91f55f-95c7-5d58-85ac-b93b7f96d19f
+路口,lù kǒu,lu4 kou3,giao lộ; ngã đường,,noun,1,LOCAL_CODEX_REVIEWED,693866a6-ba40-5cb2-859d-466554b91c29
+上面,shàng miàn,shang4 mian4,phía trên; bên trên,,noun; locality,1,LOCAL_CODEX_REVIEWED,8638bc90-6441-5c2b-b865-a3e4f73dff5e
+下面,xià miàn,xia4 mian4,phía dưới; bên dưới,,noun; locality,1,LOCAL_CODEX_REVIEWED,0240d793-7692-5ae8-b64c-b358b349fc19
+附近,fù jìn,fu4 jin4,gần đây; khu vực lân cận,,noun; locality,1,LOCAL_CODEX_REVIEWED,5ffb5085-6c05-5220-9c27-394bb308aea2
+上学,shàng xué,shang4 xue2,đi học; theo học ở trường,,verb,1,LOCAL_CODEX_REVIEWED,6e044040-9ad6-5d3b-9571-b5ee5a91cc3d
+放学,fàng xué,fang4 xue2,tan học,,verb,1,LOCAL_CODEX_REVIEWED,cdf88cc6-d62d-551e-821b-692933436158
+上课,shàng kè,shang4 ke4,học trên lớp; giảng dạy trên lớp; vào tiết học,,verb,1,LOCAL_CODEX_REVIEWED,84ba6d6c-458c-58c9-b3de-89d666ba4df6
+下课,xià kè,xia4 ke4,hết tiết; tan lớp,,verb,1,LOCAL_CODEX_REVIEWED,0e72f4f0-b48b-57dd-9830-92369207ba11
+复习,fù xí,fu4 xi2,ôn tập,phục tập,verb,1,LOCAL_CODEX_REVIEWED,b460e198-3022-5dd9-be4b-93ac06117a24
+作业,zuò yè,zuo4 ye4,bài tập về nhà; bài tập được giao,tác nghiệp,noun,1,LOCAL_CODEX_REVIEWED,953b22fb-57c2-5087-8584-f109f4262a6b
+汉字,hàn zì,han4 zi4,chữ Hán,hán tự,noun,1,LOCAL_CODEX_REVIEWED,34432b97-013d-594c-a0a4-6d23e34cad57
+拼音,pīn yīn,pin1 yin1,pinyin; hệ thống phiên âm Hán ngữ,bính âm,noun,1,LOCAL_CODEX_REVIEWED,53de9669-1f2b-5968-b789-327ee8ca7406
+声调,shēng diào,sheng1 diao4,thanh điệu,thanh điệu,noun,1,LOCAL_CODEX_REVIEWED,d5266fc4-eb1d-5d5d-b1f6-e506a0c3e39d
+发音,fā yīn,fa1 yin1,phát âm; cách phát âm,phát âm,verb; noun,1,LOCAL_CODEX_REVIEWED,77fe1795-e2de-58d8-8d10-eaa24d4393c2
+写字,xiě zì,xie3 zi4,viết chữ,,verb,1,LOCAL_CODEX_REVIEWED,12c9e105-965b-5347-a9c4-276e2b18185f
+读书,dú shū,du2 shu1,đọc sách; đi học,,verb,1,LOCAL_CODEX_REVIEWED,51ad8e7c-d066-59ab-a748-f916d70bc7ee
+看书,kàn shū,kan4 shu1,đọc sách,,verb,1,LOCAL_CODEX_REVIEWED,7a799e43-fd76-5551-ba56-20bd3279b103
+走路,zǒu lù,zou3 lu4,đi bộ,,verb,1,LOCAL_CODEX_REVIEWED,2c3a826e-9645-5cff-b4ae-d66e36d782d6
+骑车,qí chē,qi2 che1,đi xe đạp hoặc xe hai bánh bằng cách cưỡi,,verb,1,LOCAL_CODEX_REVIEWED,a8c4f26c-61a7-5275-938d-802e618d52a4
+坐车,zuò chē,zuo4 che1,đi xe (với tư cách hành khách),,verb,1,LOCAL_CODEX_REVIEWED,e2208f84-ae3e-51e3-b6da-10b003740878
+打车,dǎ chē,da3 che1,gọi xe; đi taxi,,verb,1,LOCAL_CODEX_REVIEWED,c276e9be-2d5e-53b9-bf01-5d4231182122
+上网,shàng wǎng,shang4 wang3,lên mạng; truy cập Internet,,verb,1,LOCAL_CODEX_REVIEWED,4a3f6dbc-2d3d-5f7b-90cd-53e06c27afec
+聊天,liáo tiān,liao2 tian1,trò chuyện; tán gẫu,,verb,1,LOCAL_CODEX_REVIEWED,48addca8-e8b4-5bbc-ad1c-c13c381bf460
+照相,zhào xiàng,zhao4 xiang4,chụp ảnh,,verb,1,LOCAL_CODEX_REVIEWED,a4fc3cb1-c4f9-53b7-b264-9e820a29201e
+拍照,pāi zhào,pai1 zhao4,chụp ảnh,,verb,1,LOCAL_CODEX_REVIEWED,c3d4341e-af16-5e8f-980b-03d41305a752
+买东西,mǎi dōng xi,mai3 dong1 xi5,mua đồ; đi mua sắm,,verb phrase,1,LOCAL_CODEX_REVIEWED,ba146a20-8fa6-5c63-892e-e5f82f6f2bd4
+付钱,fù qián,fu4 qian2,trả tiền; thanh toán,,verb,1,LOCAL_CODEX_REVIEWED,d9a807a2-63f3-5a59-9d5b-5dbe1ba1f227
+找钱,zhǎo qián,zhao3 qian2,trả lại tiền thừa,,verb,1,LOCAL_CODEX_REVIEWED,6190d46d-19c7-5c5a-a9a7-ad72db43131f
+帮忙,bāng máng,bang1 mang2,giúp đỡ,bang mang,verb,1,LOCAL_CODEX_REVIEWED,ed8b0314-4f30-5ee1-b360-03aa5143cacd
+旅行,lǚ xíng,lü3 xing2,du lịch; đi xa,lữ hành,verb; noun,1,LOCAL_CODEX_REVIEWED,70471f9f-f09e-5165-8f7e-384668e3b8a6
+打球,dǎ qiú,da3 qiu2,chơi bóng,,verb,1,LOCAL_CODEX_REVIEWED,4a21117a-d7cb-5ea8-b17a-241dff1258e7
+打开,dǎ kāi,da3 kai1,mở,,verb,1,LOCAL_CODEX_REVIEWED,9acdb965-3fec-5c93-9dd4-c16f1a7c6265
+关闭,guān bì,guan1 bi4,đóng; tắt,,verb,1,LOCAL_CODEX_REVIEWED,08fee5d0-34fa-51f0-98d1-8173af38a944
+进入,jìn rù,jin4 ru4,đi vào; bước vào,tiến nhập,verb,1,LOCAL_CODEX_REVIEWED,6c384b4b-0497-5bc0-9d6a-6c0769d8f6b6
+出去,chū qù,chu1 qu4,đi ra ngoài,,verb,1,LOCAL_CODEX_REVIEWED,bbb20678-9a83-5d69-b80d-e641be08b802
+回来,huí lái,hui2 lai2,trở về; quay lại đây,,verb,1,LOCAL_CODEX_REVIEWED,2daa00ee-aa9b-58bd-a14a-874a6665f85f
+回家,huí jiā,hui2 jia1,về nhà,,verb,1,LOCAL_CODEX_REVIEWED,a74ca15c-5e81-535b-a76b-8529f85e3b05
+听见,tīng jiàn,ting1 jian4,nghe thấy,,verb,1,LOCAL_CODEX_REVIEWED,88849972-4194-53e9-84b8-af2434a33612
+需要,xū yào,xu1 yao4,cần,,verb,1,LOCAL_CODEX_REVIEWED,9ae4b2d3-9c37-5f11-85a8-70af6ad751d4
+应该,yīng gāi,ying1 gai1,nên; cần phải (theo lẽ phải),ưng cai,modal verb,1,LOCAL_CODEX_REVIEWED,f34d3d9b-8ba8-5ff1-b43a-cf625a927f92
+可以,kě yǐ,ke3 yi3,có thể; được phép,khả dĩ,modal verb,1,LOCAL_CODEX_REVIEWED,6a47409b-b9bc-54d2-8aa3-5fa1350c867e
+可能,kě néng,ke3 neng2,có thể; có khả năng,khả năng,modal verb; adjective,1,LOCAL_CODEX_REVIEWED,e9183365-63ba-5337-a34f-ff1d57d77fd7
+必须,bì xū,bi4 xu1,phải; nhất thiết phải,tất tu,adverb,1,LOCAL_CODEX_REVIEWED,bcdf82cf-206b-5687-853a-7269bba085c9
+带来,dài lái,dai4 lai2,mang đến,,verb,1,LOCAL_CODEX_REVIEWED,49bc1380-86de-5d96-8c0f-ff1276536ea7
+拿走,ná zǒu,na2 zou3,cầm đi; mang đi,,verb,1,LOCAL_CODEX_REVIEWED,4d37b9ed-6c5f-5c63-96f8-6bf44d0cc21e
+等等,děng děng,deng3 deng3,vân vân; và những thứ tương tự,,particle,1,LOCAL_CODEX_REVIEWED,ee78e55c-13fc-562e-b1f1-6cd52aa2ed08
+好看,hǎo kàn,hao3 kan4,đẹp; hay (khi xem hoặc đọc),,adjective,1,LOCAL_CODEX_REVIEWED,e714f344-7abd-5d19-ad6e-3ee706fa1cf8
+快乐,kuài lè,kuai4 le4,vui vẻ; hạnh phúc,khoái lạc,adjective,1,LOCAL_CODEX_REVIEWED,02586d68-c2a9-5819-89fa-db485a0be253
+害怕,hài pà,hai4 pa4,sợ; sợ hãi,,verb; adjective,1,LOCAL_CODEX_REVIEWED,fa23cb91-6880-51d3-9983-4595de76fdca
+紧张,jǐn zhāng,jin3 zhang1,căng thẳng; hồi hộp,,adjective,1,LOCAL_CODEX_REVIEWED,37119a37-b6a4-57c5-ad5c-ae2c406a0a61
+可爱,kě ài,ke3 ai4,đáng yêu; dễ thương,khả ái,adjective,1,LOCAL_CODEX_REVIEWED,f01a586b-fba5-5b77-8d10-f50afa44e3b1
+满,mǎn,man3,đầy,,adjective,1,LOCAL_CODEX_REVIEWED,ee76bf90-a017-5454-9286-be9f0c0479ef
+一样,yī yàng,yi1 yang4,giống nhau; như nhau,,adjective,1,LOCAL_CODEX_REVIEWED,48ebd19f-6116-5db4-8fb9-6ce09585620a
+不同,bù tóng,bu4 tong2,khác nhau; khác biệt,bất đồng,adjective,1,LOCAL_CODEX_REVIEWED,64535acc-c293-5f02-a84e-bc267a043ecc
+有点儿,yǒu diǎn er,you3 dian3 er5,hơi; có chút,,adverb,1,LOCAL_CODEX_REVIEWED,1b9ffde8-7b9e-52e8-ae00-671eaad52eb0
+一点儿,yī diǎn er,yi1 dian3 er5,một chút; một ít,,quantifier,1,LOCAL_CODEX_REVIEWED,9553be9b-6bc1-55e2-ba56-0c83db4a3456
+哪儿,nǎ er,na3 er5,ở đâu; nơi nào,,pronoun,1,LOCAL_CODEX_REVIEWED,c1c1f1e6-d433-5cfb-8a8f-21d44e00efc0
+这儿,zhè er,zhe4 er5,ở đây; chỗ này,,pronoun,1,LOCAL_CODEX_REVIEWED,9b22112d-1d87-5d39-bf50-6810e0807497
+那儿,nà er,na4 er5,ở đó; chỗ kia,,pronoun,1,LOCAL_CODEX_REVIEWED,4f94d609-6fa1-51b4-91b4-4f45ccccdeba
+不是,bù shì,bu4 shi4,không phải,,phrase,1,LOCAL_CODEX_REVIEWED,731ff9ae-3775-5b20-b979-163868f317be
+不用,bù yòng,bu4 yong4,không cần,,phrase; modal,1,LOCAL_CODEX_REVIEWED,3b2d3f28-40a0-567c-ac9f-fed0f3cca730
+不会,bù huì,bu4 hui4,không biết làm; sẽ không,,phrase; modal,1,LOCAL_CODEX_REVIEWED,c5b87549-8bc0-5036-a347-54c1019de1a3
+不要,bù yào,bu4 yao4,đừng; không muốn,,phrase; modal,1,LOCAL_CODEX_REVIEWED,f5f817d0-7389-59ec-ba97-abcdde0c069c
+不能,bù néng,bu4 neng2,không thể; không được,,phrase; modal,1,LOCAL_CODEX_REVIEWED,65eef442-25dc-5deb-b279-aee421bdc578
+不可以,bù kě yǐ,bu4 ke3 yi3,không được phép,,phrase; modal,1,LOCAL_CODEX_REVIEWED,09d27b6f-4f1d-5093-afda-e2fb2eeac084
+然后,rán hòu,ran2 hou4,sau đó; rồi,nhiên hậu,conjunction,1,LOCAL_CODEX_REVIEWED,148e8b5d-8fcf-589b-8481-c0ed8647b0d5
+还是,hái shì,hai2 shi4,hay là (trong câu hỏi lựa chọn); vẫn,,conjunction; adverb,1,LOCAL_CODEX_REVIEWED,429ca13d-40ec-59c2-80d1-b9f39f9b56e0
+胳膊,gē bo,ge1 bo5,cánh tay,,noun,2,LOCAL_CODEX_REVIEWED,ae43bce7-ae8b-52bc-b5a1-14a7e252c84a
+膝盖,xī gài,xi1 gai4,đầu gối,,noun,2,LOCAL_CODEX_REVIEWED,51962495-dfee-5b8d-8db5-c83c39f9478a
+昂贵,áng guì,ang2 gui4,đắt đỏ,ngang quý,adjective,2,LOCAL_CODEX_REVIEWED,c51d0d8f-c7a2-5136-84cd-418b9ed8a8ad
+作,zuò,zuo4,làm; sáng tác (thường dùng trong từ ghép),tác,verb; word element,2,LOCAL_CODEX_REVIEWED,74c12c80-9906-5ef3-a93f-3a9ed3bcbf75
+喜,xǐ,xi3,vui mừng; mừng,hỉ,verb; word element,2,LOCAL_CODEX_REVIEWED,6a5cd807-ddea-512b-b57f-b2a2cd509f83
+目,mù,mu4,"mắt (văn viết, thường dùng trong từ ghép)",mục,noun; word element,2,LOCAL_CODEX_REVIEWED,5ed28fe6-5c64-581b-af5b-695334f04528
+耳,ěr,er3,"tai (văn viết, thường dùng trong từ ghép)",nhĩ,noun; word element,2,LOCAL_CODEX_REVIEWED,920cb57e-bfd5-5b98-9778-1f7625164a23
+识,shí,shi2,biết; nhận biết (thường dùng trong từ ghép),thức,verb; word element,2,LOCAL_CODEX_REVIEWED,792bea33-8c7f-5011-a692-b4fd554a7368
+足,zú,zu2,"chân; bàn chân (văn viết, thường dùng trong từ ghép)",túc,noun; word element,2,LOCAL_CODEX_REVIEWED,59e27be6-daa8-5663-af16-e5d759c450d3
+道,dào,dao4,con đường; đạo lý (thường dùng trong từ ghép hoặc văn viết),đạo,noun; word element,2,LOCAL_CODEX_REVIEWED,36ba37e5-0f01-5309-b467-b54e915ffec6

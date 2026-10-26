@@ -1,0 +1,1478 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L1-B002",
+  "source_file": "level-1-batch-002.authored.jsonl",
+  "source_sha256": "edc7aeff6a380118ef75ef16078a765ba58aff16ec2f5a26f42d93bde2277ffe",
+  "deployment_sha256": "edc7aeff6a380118ef75ef16078a765ba58aff16ec2f5a26f42d93bde2277ffe",
+  "checkpoint_written_at": "2026-10-26T04:52:03.340313+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "scope": "Session-authored supplementary entries; every field and complete example reviewed",
+  "supporting_sources": [],
+  "author_provenance": {
+    "author_label": "Codex session",
+    "author_model": null,
+    "author_version": null,
+    "method": "Manually composed in the active Codex conversation; not Gemini output",
+    "source": "authored.psv",
+    "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+    "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+    "timestamp": "2026-10-26T04:52:03.340313+00:00",
+    "paid_api_calls": 0
+  },
+  "records": [
+    {
+      "lexical_key": "每天|mei3 tian1",
+      "id": "e4836b95-b190-5807-854c-ac3ac9297752",
+      "source_content_version": 1,
+      "source_checksum": "75e8817a6bff48298e99accc02b7cd59a62b97f75087f8076061d55361b4082c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "75e8817a6bff48298e99accc02b7cd59a62b97f75087f8076061d55361b4082c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Meitian3-1 daily frequency expression, no past-only inference.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "每年|mei3 nian2",
+      "id": "595fd10d-65c7-507e-9c33-7ed0a2621f7b",
+      "source_content_version": 1,
+      "source_checksum": "320a3c0c5318fff2f8db60125d4aa97cdbd1ffb5ccb42205c56db4da41b77114",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "320a3c0c5318fff2f8db60125d4aa97cdbd1ffb5ccb42205c56db4da41b77114",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Meinian3-2 every year, 每 and 都 cooperate naturally.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "每月|mei3 yue4",
+      "id": "9f061e3a-59a2-5f26-9aa8-3c892b0f4a88",
+      "source_content_version": 1,
+      "source_checksum": "1b88bd229b669522eecbf055272bbfcb96eb41a7cf29a933d8d7d37191409fdc",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1b88bd229b669522eecbf055272bbfcb96eb41a7cf29a933d8d7d37191409fdc",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Meiyue3-4 each month; 两 plus 本 correctly counts books.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "每周|mei3 zhou1",
+      "id": "4b5a49a2-45ac-52e4-8a5b-ed44c1b07edb",
+      "source_content_version": 1,
+      "source_checksum": "90008fabc3556abfee329921bdde19f85b3baef4bf661c054615ae381116c970",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "90008fabc3556abfee329921bdde19f85b3baef4bf661c054615ae381116c970",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Meizhou3-1 weekly frequency; 次 counts occurrences, not weeks.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "有时候|you3 shi2 hou5",
+      "id": "5d096849-86e0-5d4a-b4c2-f67ca6056734",
+      "source_content_version": 1,
+      "source_checksum": "b506726e145c1ef11a81b931bb42b730c007b74626aade31626c961df605aafb",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b506726e145c1ef11a81b931bb42b730c007b74626aade31626c961df605aafb",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "You3 shi2 hou5 with neutral hou; frequency sense not a literal possession of time.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "一起|yi1 qi3",
+      "id": "c938541f-5937-59ae-971b-ae09264e2803",
+      "source_content_version": 1,
+      "source_checksum": "b3099e8a3d74795127e997c074df4d9433b3e42818894ebeaaeb596a28408651",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b3099e8a3d74795127e997c074df4d9433b3e42818894ebeaaeb596a28408651",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Citation yi1 qi3, spoken yìqǐ before third-tone 起; no erroneous stable yi4 key.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "房子|fang2 zi5",
+      "id": "1694539b-2d24-595a-a963-cb5542398975",
+      "source_content_version": 1,
+      "source_checksum": "59ea6d35db9cce565f5af8fcc9bcb33b37a3eb0d0ec42c2fe5356645fbe20b9d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "59ea6d35db9cce565f5af8fcc9bcb33b37a3eb0d0ec42c2fe5356645fbe20b9d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fangzi2-5 house/building, not necessarily a single room.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "卧室|wo4 shi4",
+      "id": "ba1c3aa5-c007-5799-9b68-dfa18b919c2b",
+      "source_content_version": 1,
+      "source_checksum": "ea7fed1bfd4a1901a6586dd7a4d96e85601593f4396346a3ee48304a87e5e54c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ea7fed1bfd4a1901a6586dd7a4d96e85601593f4396346a3ee48304a87e5e54c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Woshi4-4 bedroom, classifier 张 correctly applies to bed.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "门口|men2 kou3",
+      "id": "9e081366-0785-5d96-a31d-3bfa17e41865",
+      "source_content_version": 1,
+      "source_checksum": "32270acab49386ae7b37aba5e71ed5d04e1ad6c1e97dd5934ff35d1d7c47f84f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "32270acab49386ae7b37aba5e71ed5d04e1ad6c1e97dd5934ff35d1d7c47f84f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Menkou2-3 doorway location, not the door panel alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "窗户|chuang1 hu5",
+      "id": "bfbc6b31-c9e2-54cd-a8c8-482f0e23e315",
+      "source_content_version": 1,
+      "source_checksum": "aab0a12ef4d84c16f2b1109187d3caac56f7cae1f11490d72f64510b53c67b3b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "aab0a12ef4d84c16f2b1109187d3caac56f7cae1f11490d72f64510b53c67b3b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Chuanghu1-5 neutral hu; differs from bed chuang2.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "床上|chuang2 shang4",
+      "id": "6f985d6a-0039-5c18-9334-96a0ef919622",
+      "source_content_version": 1,
+      "source_checksum": "055531971773f6e802b17588dfa6cc482166859865889d7ac1feda786dde7822",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "055531971773f6e802b17588dfa6cc482166859865889d7ac1feda786dde7822",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Locative phrase citation shang4; locative shang is unstressed in the connected example.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "电话|dian4 hua4",
+      "id": "aa531337-8fb1-52f3-a49f-08bfdef8848b",
+      "source_content_version": 1,
+      "source_checksum": "ea6931a6c77febf4ebdb2c1fac1b21cc02bb72a91613091d7c08db9011ae385e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ea6931a6c77febf4ebdb2c1fac1b21cc02bb72a91613091d7c08db9011ae385e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dianhua4-4 phone/call; number collocation and Vietnamese align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "水杯|shui3 bei1",
+      "id": "dad08772-cb9c-506c-993f-9b5272cd495c",
+      "source_content_version": 1,
+      "source_checksum": "98d28d6f34004a201a83727cd3853cfbb7fd55699e0f00541b5d4f81265742b1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "98d28d6f34004a201a83727cd3853cfbb7fd55699e0f00541b5d4f81265742b1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shuibei3-1 vessel, not the quantified phrase a cup of water 一杯水.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "碗筷|wan3 kuai4",
+      "id": "036c32c8-dcc5-52df-9185-2b6163b22025",
+      "source_content_version": 1,
+      "source_checksum": "09af62f6db3164253946ff1249177b2e1dc20f5d8df6aa9cece233625c983f19",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "09af62f6db3164253946ff1249177b2e1dc20f5d8df6aa9cece233625c983f19",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Wankuai3-4 tableware pair, not literal rice bowl only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "盘子|pan2 zi5",
+      "id": "dce83a7d-d053-5af5-a146-fbcbe1b9f6bb",
+      "source_content_version": 1,
+      "source_checksum": "7f8cccb498f9b0ce52e0b60055e3639c4ca949bb4a9153ed874758a26f8b59ab",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "7f8cccb498f9b0ce52e0b60055e3639c4ca949bb4a9153ed874758a26f8b59ab",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Panzi2-5 plate, neutral zi and locative 里 are natural.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "书包|shu1 bao1",
+      "id": "021685f5-7bac-57ee-9d82-b9a41b191dc7",
+      "source_content_version": 1,
+      "source_checksum": "e786f23b22f065eb451df4b4e82d41234de46212725b5ba23127bb6e8480b152",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e786f23b22f065eb451df4b4e82d41234de46212725b5ba23127bb6e8480b152",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shubao1-1 schoolbag, not any parcel of books.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "皮包|pi2 bao1",
+      "id": "37d4a353-c2df-5004-9979-0dac2a9c5e48",
+      "source_content_version": 1,
+      "source_checksum": "66ac394934e73d5556a0593423596169b38d585698d755a3839d805fd38a9846",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "66ac394934e73d5556a0593423596169b38d585698d755a3839d805fd38a9846",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Pibao2-1 leather bag; not automatically wallet 钱包.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "洗脸|xi3 lian3",
+      "id": "10dc7314-4599-5b85-a71b-1eb5dee70ec4",
+      "source_content_version": 1,
+      "source_checksum": "ab74caba25b97f9c401978fb875a05e45018b99e02b6a5d99cb09304da7dd19e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ab74caba25b97f9c401978fb875a05e45018b99e02b6a5d99cb09304da7dd19e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xilian3-3 verb-object phrase, literal face washing not general bathing.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "开门|kai1 men2",
+      "id": "25b29b0b-c90a-5990-af5d-5a1359f9bbb6",
+      "source_content_version": 1,
+      "source_checksum": "4a5cda65b0548c4ee527126932dee3919b94f971c593ac533872760060e95316",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "4a5cda65b0548c4ee527126932dee3919b94f971c593ac533872760060e95316",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Kaimen1-2 opening a door, no assumption of a business-opening sense.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "关门|guan1 men2",
+      "id": "c2825418-628a-5a5a-9b0c-4640121c8829",
+      "source_content_version": 1,
+      "source_checksum": "80e724fde73d8837a8e076308b9b1b8d735ddfe21a25c2ac8bfaca01fa5aa07f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "80e724fde73d8837a8e076308b9b1b8d735ddfe21a25c2ac8bfaca01fa5aa07f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Guanmen1-2 closing door; time clause translation preserved.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "馒头|man2 tou5",
+      "id": "51d4620e-4afa-5d51-b626-131307f84796",
+      "source_content_version": 1,
+      "source_checksum": "7d00487d20a02d992a9ce9be4ff22edf159162eb6bd1b3b9cae85c3cfb3acff6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "7d00487d20a02d992a9ce9be4ff22edf159162eb6bd1b3b9cae85c3cfb3acff6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Mantou2-5 plain steamed bun; distinguish filled 包子.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "豆浆|dou4 jiang1",
+      "id": "9e732074-2421-5fd2-bee9-006d9e89de69",
+      "source_content_version": 1,
+      "source_checksum": "2ace872ca4375716d0318cde793924f00438e1c394ffc288bd478fcf1268ed1e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2ace872ca4375716d0318cde793924f00438e1c394ffc288bd478fcf1268ed1e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Doujiang4-1 soy milk, not soy sauce 酱油.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "白酒|bai2 jiu3",
+      "id": "988dd6dc-2fa1-5e15-a6f1-f7086eb22de3",
+      "source_content_version": 1,
+      "source_checksum": "53010b299e2b0b181800c8af4e066d37462bd4da9dea01c0f58d374087a15e92",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "53010b299e2b0b181800c8af4e066d37462bd4da9dea01c0f58d374087a15e92",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Baijiu2-3 Chinese distilled spirit, explicitly not white wine.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "饮料|yin3 liao4",
+      "id": "c5c9609c-f0fb-5fe8-835d-01302014af07",
+      "source_content_version": 1,
+      "source_checksum": "db1d8b21f7d903eafc0ada68f00f88e9884cf73a0f3aea6651f535e366bdc4f2",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "db1d8b21f7d903eafc0ada68f00f88e9884cf73a0f3aea6651f535e366bdc4f2",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yinliao3-4 beverage category, not water only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "开水|kai1 shui3",
+      "id": "562461e4-e68b-5ce4-9f9e-7c8442df440a",
+      "source_content_version": 1,
+      "source_checksum": "de33a5a2389f5bc7529d43a881cddfdfecc737a367e2261c8053244171cb76b5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "de33a5a2389f5bc7529d43a881cddfdfecc737a367e2261c8053244171cb76b5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Kaishui1-3 boiled water; does not mean opening water or necessarily currently boiling.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "热水|re4 shui3",
+      "id": "c8894447-5e3e-521c-b3ed-3d5bb1755119",
+      "source_content_version": 1,
+      "source_checksum": "46fd658679791ddf7481fe47c67e925e5b99fa38e7f7a39cec6e5363e04c9978",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "46fd658679791ddf7481fe47c67e925e5b99fa38e7f7a39cec6e5363e04c9978",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Reshui4-3 hot water, distinct from boiled-water process 开水.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "冷水|leng3 shui3",
+      "id": "ecdbab5f-1a77-56f4-b319-028ae9e26621",
+      "source_content_version": 1,
+      "source_checksum": "dfefdaa8ff40fe5aad1b12b26824971399ebcefa207e6cf242ecdcd42c073e93",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dfefdaa8ff40fe5aad1b12b26824971399ebcefa207e6cf242ecdcd42c073e93",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Lengshui3-3 cold water; citation third tones retained.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "水果|shui3 guo3",
+      "id": "7d3afc48-0fb0-51dc-8773-8eae05071364",
+      "source_content_version": 1,
+      "source_checksum": "9aaf791de0400fdd66318ea5358fe7e83d81ee22fec5d53c5138a79e7c1a9b4f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9aaf791de0400fdd66318ea5358fe7e83d81ee22fec5d53c5138a79e7c1a9b4f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shuiguo3-3 collective fruit noun, not literal water result.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "香蕉|xiang1 jiao1",
+      "id": "17aaf5a0-5aa1-5f19-9447-6f06ba5d0742",
+      "source_content_version": 1,
+      "source_checksum": "9706b02ec7b7792c3060b1163fc977af8856167e81b7e59ce2e4bbb7125be9bb",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9706b02ec7b7792c3060b1163fc977af8856167e81b7e59ce2e4bbb7125be9bb",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xiangjiao1-1 banana; 根 is a natural classifier for individual bananas.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "橘子|ju2 zi5",
+      "id": "1e57f978-dec9-5d83-a058-37d1e50a5f19",
+      "source_content_version": 1,
+      "source_checksum": "1d26ab79b35f5f2e0a84e80f55d4af9122fef2cfb65451f578e20093acf60846",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1d26ab79b35f5f2e0a84e80f55d4af9122fef2cfb65451f578e20093acf60846",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Juzi2-5 mandarin/tangerine, distinguished from 橙子 orange.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "橙子|cheng2 zi5",
+      "id": "8cf3b859-5f85-5fe1-84aa-7e7fd8a1f358",
+      "source_content_version": 1,
+      "source_checksum": "cbbfc062e929f56c5a989628a27cbc778a5f5709945b022761c68b870daa006d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "cbbfc062e929f56c5a989628a27cbc778a5f5709945b022761c68b870daa006d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Chengzi2-5 orange fruit, neutral zi; not tangerine 橘子.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "草莓|cao3 mei2",
+      "id": "608cc09d-a9db-5a08-8f36-cdf191adcc09",
+      "source_content_version": 1,
+      "source_checksum": "1a30320b9a6b8f91934797d1748429c79a906762580d49c8636dd776580d8a0a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1a30320b9a6b8f91934797d1748429c79a906762580d49c8636dd776580d8a0a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Caomei3-2 strawberry; dâu tây avoids confusion with mulberry.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "桃子|tao2 zi5",
+      "id": "bc5a7b9c-62bd-53d4-abf4-88a5c7a36bde",
+      "source_content_version": 1,
+      "source_checksum": "884decd5b7edc3862efca1a0b60d3a7c62155c50fd1757ee9ea97216f5dabd19",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "884decd5b7edc3862efca1a0b60d3a7c62155c50fd1757ee9ea97216f5dabd19",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Taozi2-5 peach fruit; no botanical tree sense needed.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "梨|li2",
+      "id": "e9779493-20c2-515d-9b70-0662876b9df3",
+      "source_content_version": 1,
+      "source_checksum": "c634f77dc46aefbaf0da25cf9a77b4ab6faea607dc41dca5cc74ffb79ed7aae1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c634f77dc46aefbaf0da25cf9a77b4ab6faea607dc41dca5cc74ffb79ed7aae1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Li2 pear, distinct from locative 里 li3; yí ge is contextual 一 before ge4-derived classifier.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "蔬菜|shu1 cai4",
+      "id": "6d0a43d3-63fc-5b5a-987d-ac19255e470b",
+      "source_content_version": 1,
+      "source_checksum": "40715279c469a774c681d03cf26395c2afb812f7c4497abe1e3dea791a474fba",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "40715279c469a774c681d03cf26395c2afb812f7c4497abe1e3dea791a474fba",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shucai1-4 vegetables, broad category rather than fruit.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "白菜|bai2 cai4",
+      "id": "74c60302-34ef-5393-ba77-60e9d807e90b",
+      "source_content_version": 1,
+      "source_checksum": "d8505060c94b9e16929712ee9e52ec962e1f3fb08b4947fc2b0e55594f3f96a5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "d8505060c94b9e16929712ee9e52ec962e1f3fb08b4947fc2b0e55594f3f96a5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Baicai2-4 Chinese cabbage; gloss qualified as cải trắng, not generic all white vegetables.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "西红柿|xi1 hong2 shi4",
+      "id": "39a5cabe-45ab-55a9-b05a-da1ef39fd35d",
+      "source_content_version": 1,
+      "source_checksum": "265a10c413bb4dd758de1c7d37c5ef05b3ba159d564bdead19a2a178e6ec7d92",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "265a10c413bb4dd758de1c7d37c5ef05b3ba159d564bdead19a2a178e6ec7d92",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xihongshi1-2-4 tomato; canonical shì full fourth tone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "土豆|tu3 dou4",
+      "id": "bebf10c7-13a6-545e-9863-618ac4a17d2b",
+      "source_content_version": 1,
+      "source_checksum": "7adc9bc0ac47155d5c8bd9eea35822ef9898fe1872a7094107c3611057a158db",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "7adc9bc0ac47155d5c8bd9eea35822ef9898fe1872a7094107c3611057a158db",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Tudou3-4 potato; two mainland 斤 equal one kilogram, translation makes measure accurate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "黄瓜|huang2 gua1",
+      "id": "40d6d5dc-3cdf-5d22-9612-624d23c5e5fd",
+      "source_content_version": 1,
+      "source_checksum": "d8051ffbed31d4cfdab0c53c966410bf966d7a178e2dec405c9efaa0090d552f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "d8051ffbed31d4cfdab0c53c966410bf966d7a178e2dec405c9efaa0090d552f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Huanggua2-1 cucumber with 根 classifier; not yellow melon by literal character translation.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "胡萝卜|hu2 luo2 bo5",
+      "id": "badd18aa-0142-5e6e-8117-d463e5b41899",
+      "source_content_version": 1,
+      "source_checksum": "eb1a9dc883c20f1c128376ed09139dd56d27b0b9634fcaf4fa73145b7c3c2723",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "eb1a9dc883c20f1c128376ed09139dd56d27b0b9634fcaf4fa73145b7c3c2723",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Huluobo2-2-5 carrot; neutral bo is retained, not generic radish.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "鸡肉|ji1 rou4",
+      "id": "b25b96bf-56d6-5239-90f2-294251842fae",
+      "source_content_version": 1,
+      "source_checksum": "afe561754af28a2f4a89955ca54771c090a2f6f5adf82b75a019e9caebf1b1ea",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "afe561754af28a2f4a89955ca54771c090a2f6f5adf82b75a019e9caebf1b1ea",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Jirou1-4 chicken meat, distinct from living chicken headword.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "牛肉|niu2 rou4",
+      "id": "9cc98a86-1050-5a77-bade-09e49968645f",
+      "source_content_version": 1,
+      "source_checksum": "b4aad42dd6540eadc5f3b4b0f9e5ccff2cefef6be957c59ef082111762d5dc8c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b4aad42dd6540eadc5f3b4b0f9e5ccff2cefef6be957c59ef082111762d5dc8c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Niurou2-4 beef; food compound example is ordinary.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "猪肉|zhu1 rou4",
+      "id": "d86a095a-9f61-5e3a-9f3f-66069dee53d8",
+      "source_content_version": 1,
+      "source_checksum": "f8e9cea90cc94538f9d9db899cd1e0358e9d6aa17c4e6472f944a5044a483dc4",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f8e9cea90cc94538f9d9db899cd1e0358e9d6aa17c4e6472f944a5044a483dc4",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zhurou1-4 pork, Vietnamese regional synonyms preserved.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "鱼肉|yu2 rou4",
+      "id": "d584cc4a-0cea-5907-9ba1-f29fe1bae9bc",
+      "source_content_version": 1,
+      "source_checksum": "3427de8f2527652ca015bf673c5baf3acd8f264759c29e35f3fa4f4356340bed",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3427de8f2527652ca015bf673c5baf3acd8f264759c29e35f3fa4f4356340bed",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yurou2-4 literal fish flesh food sense; literary exploit sense intentionally omitted.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "盐|yan2",
+      "id": "9dcb1e3c-cbc2-52ed-86dd-d1a2e06bb331",
+      "source_content_version": 1,
+      "source_checksum": "265584a1164f60bcd0a58e59ef04e6e244818601fee535be79d51d8c4f7ef219",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "265584a1164f60bcd0a58e59ef04e6e244818601fee535be79d51d8c4f7ef219",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yan2 salt; negative request and mass noun are natural.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "油|you2",
+      "id": "75280ebe-517b-52cf-99a3-69fda21a4e47",
+      "source_content_version": 1,
+      "source_checksum": "389d7d0cf9d1da7fd908014e8eee4db3715204f62035a24c829e551332405df8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "389d7d0cf9d1da7fd908014e8eee4db3715204f62035a24c829e551332405df8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "You2 oil, food example selects cooking oil rather than petroleum.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "醋|cu4",
+      "id": "36d77d5b-8eed-5d78-889c-976448daf955",
+      "source_content_version": 1,
+      "source_checksum": "672b066a909fa601f67010e6998657372d8847b317bb662e91aceacf96412def",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "672b066a909fa601f67010e6998657372d8847b317bb662e91aceacf96412def",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Cu4 vinegar, not metaphorical jealousy in this food lesson.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "辣椒|la4 jiao1",
+      "id": "fd386ab5-9fa0-5fdd-94a6-7d4f25d78185",
+      "source_content_version": 1,
+      "source_checksum": "9efae55e4a6b6eca5716207b4748cde618e9745200661c1250c57f3154a565f5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9efae55e4a6b6eca5716207b4748cde618e9745200661c1250c57f3154a565f5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Lajiao4-1 chili pepper, not black pepper 胡椒.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "早餐|zao3 can1",
+      "id": "1b28c467-f5cc-506b-92c3-467aa7415325",
+      "source_content_version": 1,
+      "source_checksum": "ad76e107ae4368231f7f840268127fe58c992eac1e3d56fe0f95b7d2240a4510",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ad76e107ae4368231f7f840268127fe58c992eac1e3d56fe0f95b7d2240a4510",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zaocan3-1 breakfast, meal noun interchangeable in sense with 早饭.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "午饭|wu3 fan4",
+      "id": "12a66c03-c742-5932-8dbd-b2a34b8d16bf",
+      "source_content_version": 1,
+      "source_checksum": "c1f80d9832bbd2fb45dd3b22dbec3392e4cd8a3314e3462d3507c4103ab2378b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c1f80d9832bbd2fb45dd3b22dbec3392e4cd8a3314e3462d3507c4103ab2378b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Wufan3-4 lunch, not afternoon snack.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    }
+  ]
+}

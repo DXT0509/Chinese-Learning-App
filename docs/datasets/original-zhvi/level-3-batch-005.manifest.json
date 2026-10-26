@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "batch_key": "L3-B005",
+  "learning_level": 3,
+  "batch_number": 5,
+  "expected_count": 50,
+  "actual_count": 50,
+  "cumulative_level_unique_lexical_count": 600,
+  "provenance": "ORIGINAL_AI_AUTHORED",
+  "classification_standard": "APP_CURATED",
+  "difficulty_reference": "HSK_2_0",
+  "generator": {
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "version": "2026-10"
+  },
+  "artifact_file": "level-3-batch-005.jsonl",
+  "artifact_sha256": "813030241df3f61002dfec04e9211c5afca1b8d46b33cd7f0413cb3ee0f1890d",
+  "artifact_bytes": 28797,
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "structural_validation": "PASSED",
+  "independent_review": "PENDING",
+  "human_approved_count": 0,
+  "ai_approved_count": 0,
+  "review_status_counts": {
+    "GENERATED_UNREVIEWED": 50,
+    "NEEDS_REVIEW": 0
+  },
+  "records": [
+    {
+      "id": "55e23231-79ae-5bc0-b73f-1c526d496961",
+      "lexical_key": "季节|ji4 jie2",
+      "simplified": "季节",
+      "pinyin_numbered": "ji4 jie2",
+      "content_version": 1,
+      "checksum": "56bbd3b48f9f7d4bcb89dd22a6bddabe91bbb62252cf44f3fc5281e9e4f5bacf"
+    },
+    {
+      "id": "ef14d25b-004b-597d-83c1-1b531452a4c4",
+      "lexical_key": "春天|chun1 tian1",
+      "simplified": "春天",
+      "pinyin_numbered": "chun1 tian1",
+      "content_version": 1,
+      "checksum": "9387a947478d94112f59d706c72dff0da14204050a544f3b7fc151cc120516be"
+    },
+    {
+      "id": "f1d0bde9-cf8e-5630-9807-5790639d2417",
+      "lexical_key": "夏天|xia4 tian1",
+      "simplified": "夏天",
+      "pinyin_numbered": "xia4 tian1",
+      "content_version": 1,
+      "checksum": "ba3bf0b617486590ce5256b9ab10c8525fbf7420dc340878a902f05a10d44384"
+    },
+    {
+      "id": "70012839-7832-5c96-9b8d-3d9119c6e7fc",
+      "lexical_key": "秋天|qiu1 tian1",
+      "simplified": "秋天",
+      "pinyin_numbered": "qiu1 tian1",
+      "content_version": 1,
+      "checksum": "b97178f70005214b050187582da03c3dc86f38f51bd305d241f0cbdacec6d8a6"
+    },
+    {
+      "id": "07d7b71b-59a5-5c4b-83b3-bf41a82a4a02",
+      "lexical_key": "冬天|dong1 tian1",
+      "simplified": "冬天",
+      "pinyin_numbered": "dong1 tian1",
+      "content_version": 1,
+      "checksum": "5eff93ac589f64555bcb7d55979af3f1129f2162cec71bf803334d01eb1e20bc"
+    },
+    {
+      "id": "1134fea2-e4d1-595f-ba98-3682d15a0d19",
+      "lexical_key": "太阳|tai4 yang2",
+      "simplified": "太阳",
+      "pinyin_numbered": "tai4 yang2",
+      "content_version": 1,
+      "checksum": "b0d1d0c054843955e05ececd2c2a71369ae61c7108f155f0aa195afd2f57939f"
+    },
+    {
+      "id": "eb2d5543-4688-595f-beb6-8dc8f204e442",
+      "lexical_key": "月亮|yue4 liang5",
+      "simplified": "月亮",
+      "pinyin_numbered": "yue4 liang5",
+      "content_version": 1,
+      "checksum": "8c92b1d3feda946c7b9313e2b8ba1736dc13e112a8e37c20556c3164d2eb1f50"
+    },
+    {
+      "id": "ec064d7d-0a0c-5362-8177-de99dd400b7e",
+      "lexical_key": "星星|xing1 xing5",
+      "simplified": "星星",
+      "pinyin_numbered": "xing1 xing5",
+      "content_version": 1,
+      "checksum": "060710400d38fb7f034cadc06ff799a1134863691523a7c3b96cf28c6d9754e3"
+    },
+    {
+      "id": "b1d39ec7-4dcf-5f6a-b95e-738b3fab9f31",
+      "lexical_key": "风|feng1",
+      "simplified": "风",
+      "pinyin_numbered": "feng1",
+      "content_version": 1,
+      "checksum": "f2858d8c517c778ea73096be578443547e2c433f598f72be12ce252efa0d2ea8"
+    },
+    {
+      "id": "bfe603eb-0697-5946-b85b-35a781f34fdc",
+      "lexical_key": "雪|xue3",
+      "simplified": "雪",
+      "pinyin_numbered": "xue3",
+      "content_version": 1,
+      "checksum": "510e745f3f36d2771280bd3dbdfb9eb26710441427baabd3019572549874e8f6"
+    },
+    {
+      "id": "179c71ae-23f1-505f-b281-044b4611a4d1",
+      "lexical_key": "云|yun2",
+      "simplified": "云",
+      "pinyin_numbered": "yun2",
+      "content_version": 1,
+      "checksum": "8e675ac754d37f52de9bc5d95bec2e03f1d56ac7491c06fd07db1d2524b668ff"
+    },
+    {
+      "id": "db2a3cb5-5a5e-5e4b-8419-cadcb4ca4ab7",
+      "lexical_key": "空气|kong1 qi4",
+      "simplified": "空气",
+      "pinyin_numbered": "kong1 qi4",
+      "content_version": 1,
+      "checksum": "b6d58b6e555d3a84e6b8eb76b39961481308c36f1f6db8c38c03be46c69c35c8"
+    },
+    {
+      "id": "aaf94f21-90bc-5e0b-a479-a0b240b9aee8",
+      "lexical_key": "环境|huan2 jing4",
+      "simplified": "环境",
+      "pinyin_numbered": "huan2 jing4",
+      "content_version": 1,
+      "checksum": "b17efc7c9d0818b956ed9ed048ed0b22c65fca0c6c8853a6631f6fbe9af6fcb4"
+    },
+    {
+      "id": "98d2f8f3-1da3-55c0-9917-95c2f0ce0fa3",
+      "lexical_key": "草|cao3",
+      "simplified": "草",
+      "pinyin_numbered": "cao3",
+      "content_version": 1,
+      "checksum": "3960eba0098084a9b03285c010dfd87f322d015468b1b4b0e9d06ce8b6ba7b0e"
+    },
+    {
+      "id": "185c306e-3a45-52c0-b913-917eecd2244d",
+      "lexical_key": "树|shu4",
+      "simplified": "树",
+      "pinyin_numbered": "shu4",
+      "content_version": 1,
+      "checksum": "182c163a7b1f99cadd56c89de6d8e0c47f4c0f9360f2c830fd2151e1032bfa1d"
+    },
+    {
+      "id": "d73bbf3a-ced0-539e-9542-15539d0e4560",
+      "lexical_key": "花|hua1",
+      "simplified": "花",
+      "pinyin_numbered": "hua1",
+      "content_version": 1,
+      "checksum": "16bb9ec0c9c9908557b419ee3e710dc0ebbf34f26b29ebf1f8f00a278d929533"
+    },
+    {
+      "id": "6267a4f3-8ffa-59c3-9979-e709cfc1056c",
+      "lexical_key": "叶子|ye4 zi5",
+      "simplified": "叶子",
+      "pinyin_numbered": "ye4 zi5",
+      "content_version": 1,
+      "checksum": "d36b07461b4da5eeebf96ed7d0a8bebe7a79d5b7b2b57ea04413235d4f5f3601"
+    },
+    {
+      "id": "1196a835-686f-5dd4-b217-eaa4bb91a87c",
+      "lexical_key": "河|he2",
+      "simplified": "河",
+      "pinyin_numbered": "he2",
+      "content_version": 1,
+      "checksum": "da121c71b5b3372a770a722e5cbe2335702cc9f3f28432514ac93be6def8552a"
+    },
+    {
+      "id": "8ea27515-293b-5117-87ef-807e31655ae2",
+      "lexical_key": "湖|hu2",
+      "simplified": "湖",
+      "pinyin_numbered": "hu2",
+      "content_version": 1,
+      "checksum": "b6a487cb30d921ebdcab05bc6bca16db5194c7e15ff53d010dc8d1d74a95cc5e"
+    },
+    {
+      "id": "fbc9b5c3-94ac-541b-87f8-1ec273d44320",
+      "lexical_key": "海|hai3",
+      "simplified": "海",
+      "pinyin_numbered": "hai3",
+      "content_version": 1,
+      "checksum": "1c300b8872c491e0cef5198e9010efb15bf4313d4f083efa79c8f75cd322b7de"
+    },
+    {
+      "id": "74b11dc6-5acf-59b3-8c0b-581fe2fcf67d",
+      "lexical_key": "山|shan1",
+      "simplified": "山",
+      "pinyin_numbered": "shan1",
+      "content_version": 1,
+      "checksum": "9b25aeef5a4b30ff79b8438a43b61a3638f9c70e4297b24a3bcec841dbcb3ce5"
+    },
+    {
+      "id": "d1c71578-0ef5-5571-bf96-b35da7b35d1f",
+      "lexical_key": "森林|sen1 lin2",
+      "simplified": "森林",
+      "pinyin_numbered": "sen1 lin2",
+      "content_version": 1,
+      "checksum": "fea58ad6243afbf741a48bc7894cd5ed0930b2119630cf5ca9b6d52422ee5053"
+    },
+    {
+      "id": "bd4864ff-7ceb-5f53-8178-3f4b1a561d0e",
+      "lexical_key": "动物|dong4 wu4",
+      "simplified": "动物",
+      "pinyin_numbered": "dong4 wu4",
+      "content_version": 1,
+      "checksum": "dba3707c86f937a631138447dfa4729cc3f7ec90c3094e3f9b95b2a0513e1da9"
+    },
+    {
+      "id": "07e4a630-eb2d-5e19-97ce-cbdb260f05a0",
+      "lexical_key": "鸟|niao3",
+      "simplified": "鸟",
+      "pinyin_numbered": "niao3",
+      "content_version": 1,
+      "checksum": "37c3ec70a98e30fbb5372b103493cab0a41ce1f790060870a9cd5790aa2137d6"
+    },
+    {
+      "id": "7211e006-ff56-59ac-9cfa-f5a83ebfe1d7",
+      "lexical_key": "马|ma3",
+      "simplified": "马",
+      "pinyin_numbered": "ma3",
+      "content_version": 1,
+      "checksum": "a594c38e3cfee5b66c95f7ad55014aef743e30b19a8607abe90806dc119d608e"
+    },
+    {
+      "id": "580de7e9-851e-5357-93fe-82baf1c1993a",
+      "lexical_key": "牛|niu2",
+      "simplified": "牛",
+      "pinyin_numbered": "niu2",
+      "content_version": 1,
+      "checksum": "225611edec2e3f343074b8bb1261916c289fc43ff87a755080ae1405164bad21"
+    },
+    {
+      "id": "703d52b0-16d5-5641-a92f-2b5f8d7df35e",
+      "lexical_key": "羊|yang2",
+      "simplified": "羊",
+      "pinyin_numbered": "yang2",
+      "content_version": 1,
+      "checksum": "72659b89b50f3c7d19bbc91f814acc0ca4fef8381d8d5e3c44bc85f1b7491dd9"
+    },
+    {
+      "id": "dec6c95f-4ac4-59b5-9267-f5781614e376",
+      "lexical_key": "熊猫|xiong2 mao1",
+      "simplified": "熊猫",
+      "pinyin_numbered": "xiong2 mao1",
+      "content_version": 1,
+      "checksum": "6911b4dc9d1fc4def65785885a963f6f168ddb722716d3dff9bda8a13af91319"
+    },
+    {
+      "id": "5d59df61-d148-57d4-92a4-03345b14be7d",
+      "lexical_key": "气候|qi4 hou4",
+      "simplified": "气候",
+      "pinyin_numbered": "qi4 hou4",
+      "content_version": 1,
+      "checksum": "02bb725d6c90c7e01fd14490b15bf21133087f4b33d2c0c7199dc51c6e77decf"
+    },
+    {
+      "id": "1e5ae0ac-28b5-5271-9275-c639644da095",
+      "lexical_key": "自然|zi4 ran2",
+      "simplified": "自然",
+      "pinyin_numbered": "zi4 ran2",
+      "content_version": 1,
+      "checksum": "6c155e77be14f3584e84e4112676b0852c7f0e9c310bba53f10fae448ba05714"
+    },
+    {
+      "id": "d3c1494e-f7b2-56a2-a2dd-3295c3e0f7bf",
+      "lexical_key": "温度|wen1 du4",
+      "simplified": "温度",
+      "pinyin_numbered": "wen1 du4",
+      "content_version": 1,
+      "checksum": "bf7f6d7c3e2c526ec68e0e3ceed91857dd3f2d82f28fdbe930bb801a398c87dc"
+    },
+    {
+      "id": "bca8e2a9-f490-559f-987e-524b9572645c",
+      "lexical_key": "气温|qi4 wen1",
+      "simplified": "气温",
+      "pinyin_numbered": "qi4 wen1",
+      "content_version": 1,
+      "checksum": "06713a7ffa62268c2a338339b84675b74fd2ebed3a64fd3920437f90449eb42e"
+    },
+    {
+      "id": "74dd1e59-a4f2-5c26-9c91-fbe9641601f3",
+      "lexical_key": "度|du4",
+      "simplified": "度",
+      "pinyin_numbered": "du4",
+      "content_version": 1,
+      "checksum": "8894fec2eb056931919b6f534bfc6de2bd8ddb72d1b3de7eb47e5aea1c083a73"
+    },
+    {
+      "id": "846f6a4b-b6b0-54f3-8af8-12a52ca6944e",
+      "lexical_key": "米|mi3",
+      "simplified": "米",
+      "pinyin_numbered": "mi3",
+      "content_version": 1,
+      "checksum": "b132a20e03ff4054974a26f043d34cfe9188e18ba7f491e4e4541a1fda41a73a"
+    },
+    {
+      "id": "61fbb631-6c5e-5f3e-a5f2-754d7e2adaf4",
+      "lexical_key": "千克|qian1 ke4",
+      "simplified": "千克",
+      "pinyin_numbered": "qian1 ke4",
+      "content_version": 1,
+      "checksum": "1c761f1ab75620bae582fbd3e34c1e04097de37899d8d5250762d55f5fefa43d"
+    },
+    {
+      "id": "03e00f82-a478-5d8d-9271-8c1798b57c5a",
+      "lexical_key": "斤|jin1",
+      "simplified": "斤",
+      "pinyin_numbered": "jin1",
+      "content_version": 1,
+      "checksum": "86bcba0ad02c8a01b93d3351c717953eeb5aecb1860be92aebc51ab70fea41ae"
+    },
+    {
+      "id": "23a84c66-df8f-53a7-895c-9a04959f7962",
+      "lexical_key": "克|ke4",
+      "simplified": "克",
+      "pinyin_numbered": "ke4",
+      "content_version": 1,
+      "checksum": "2b2809b9d976ed9c7273f630970885605b860f737a79fd49fac1a7fdbdcb02f6"
+    },
+    {
+      "id": "aeed842f-5871-5ea1-bddb-c0f1aaa05045",
+      "lexical_key": "公里|gong1 li3",
+      "simplified": "公里",
+      "pinyin_numbered": "gong1 li3",
+      "content_version": 1,
+      "checksum": "62b098bb997023e0b5df008ad002814d2e76111522627524ce2cf00725272fa0"
+    },
+    {
+      "id": "133fa91f-661a-5cac-84e3-908a840b11ea",
+      "lexical_key": "段|duan4",
+      "simplified": "段",
+      "pinyin_numbered": "duan4",
+      "content_version": 1,
+      "checksum": "20ee182caab28ab8f2576973584ca3c29f30f55679585eb9f3a3edebe9cf166f"
+    },
+    {
+      "id": "e2153b57-3c0b-560e-8a5c-22392ac89897",
+      "lexical_key": "层|ceng2",
+      "simplified": "层",
+      "pinyin_numbered": "ceng2",
+      "content_version": 1,
+      "checksum": "562fe329fb1f46152a1a5ead60dd7e9bd5c9ee916dde18b438a215d3e50333af"
+    },
+    {
+      "id": "3f12c3f6-2a9c-563a-92e7-651926550316",
+      "lexical_key": "页|ye4",
+      "simplified": "页",
+      "pinyin_numbered": "ye4",
+      "content_version": 1,
+      "checksum": "5bf9ba7fc0cfc26ce5af84796f12dc2de3227a864fb905acc69bf281c0897a2e"
+    },
+    {
+      "id": "4c4c0e51-aba3-52c2-b7db-c495174a12b0",
+      "lexical_key": "套|tao4",
+      "simplified": "套",
+      "pinyin_numbered": "tao4",
+      "content_version": 1,
+      "checksum": "5758f54a4e1bc4dd227b24d607c3e680201fa8930524fdcc5cf902e1ebf83c8f"
+    },
+    {
+      "id": "bc19cbad-e61b-5bf9-ac27-3c30a44e02e4",
+      "lexical_key": "位|wei4",
+      "simplified": "位",
+      "pinyin_numbered": "wei4",
+      "content_version": 1,
+      "checksum": "442f63ecbd15ec4a9085a379a51baac892dc3b033fca767997e32039ab67445d"
+    },
+    {
+      "id": "5941771e-1cdc-5947-aa50-ddc8900c7a75",
+      "lexical_key": "把|ba3",
+      "simplified": "把",
+      "pinyin_numbered": "ba3",
+      "content_version": 1,
+      "checksum": "16dc4e93b67cb1754cee66f4f9d54e93a2df9796c2a4a470f3d2c1c6f2f700d0"
+    },
+    {
+      "id": "2385708b-0e63-58d4-bc5d-db632e4cbf7d",
+      "lexical_key": "头|tou2",
+      "simplified": "头",
+      "pinyin_numbered": "tou2",
+      "content_version": 1,
+      "checksum": "cfab880b4e457aeb0372f1c3d45fbad64f547ad082584afa1b1aa4e7a8a49cfe"
+    },
+    {
+      "id": "f64afea6-611a-57b9-841e-9d16ad68b118",
+      "lexical_key": "匹|pi3",
+      "simplified": "匹",
+      "pinyin_numbered": "pi3",
+      "content_version": 1,
+      "checksum": "feb89f6fee47a9616840890799e67063a29cabcb36fc6707d89bb1666fcdf171"
+    },
+    {
+      "id": "7409251d-ffbc-5b19-9799-1f1524b860c1",
+      "lexical_key": "棵|ke1",
+      "simplified": "棵",
+      "pinyin_numbered": "ke1",
+      "content_version": 1,
+      "checksum": "977a41c050293bc892df87e283df5c9922c5b4e94478fd239a6c121c8337fc34"
+    },
+    {
+      "id": "d18fbd58-8e5e-5fb6-849d-d0828784a74f",
+      "lexical_key": "辆|liang4",
+      "simplified": "辆",
+      "pinyin_numbered": "liang4",
+      "content_version": 1,
+      "checksum": "cb1b01584178a5ae9c2ccdd9f218427f60528d17a30777fbac59df19ab074c16"
+    },
+    {
+      "id": "3a813db7-952f-5431-9c2d-dd6c6ba7baae",
+      "lexical_key": "封|feng1",
+      "simplified": "封",
+      "pinyin_numbered": "feng1",
+      "content_version": 1,
+      "checksum": "acc3c17073ca26306c9759fbfd53a39a7fe351996bc76cccad4a47245e5cba59"
+    },
+    {
+      "id": "a2af535f-ff20-50bd-94b1-bd2463a10d08",
+      "lexical_key": "场|chang3",
+      "simplified": "场",
+      "pinyin_numbered": "chang3",
+      "content_version": 1,
+      "checksum": "ec35224f770945dce752fcff4cce11a4a025fec0a85d0073c402e5078dcad31c"
+    }
+  ]
+}

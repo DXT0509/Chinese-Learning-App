@@ -10,7 +10,7 @@ import com.example.chineselearningapp.R
 import com.example.chineselearningapp.core.designsystem.*
 
 @Composable
-fun LearningScreen(openLessons: () -> Unit, openConnectivity: () -> Unit, openDictionary: () -> Unit = {}) {
+fun LearningScreen(openLessons: () -> Unit, openConnectivity: () -> Unit, openDictionary: () -> Unit = {}, openWordbook: () -> Unit = {}) {
     PageColumn {
         Card(onClick = openDictionary, colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
             shape = MaterialTheme.shapes.large) {
@@ -20,6 +20,7 @@ fun LearningScreen(openLessons: () -> Unit, openConnectivity: () -> Unit, openDi
                 Text(stringResource(R.string.dictionary_intro), style = MaterialTheme.typography.bodyMedium)
             }
         }
+        PrimaryAction(R.string.wordbook_title, false, openWordbook)
         FeatureEmptyState(R.string.learning_title, R.string.learning_soon, R.drawable.ic_book)
         PrimaryAction(R.string.learning_catalog, false, openLessons)
         TextButton(onClick = openConnectivity) { Text(stringResource(R.string.connection_title)) }

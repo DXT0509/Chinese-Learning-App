@@ -1,0 +1,1159 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L1-B004",
+  "source_file": "level-1-batch-004.authored.jsonl",
+  "source_sha256": "924396a5a0f1cd115349550b526a9250ef80b3becc38cf2ec62beadf6af6d1b6",
+  "deployment_sha256": "924396a5a0f1cd115349550b526a9250ef80b3becc38cf2ec62beadf6af6d1b6",
+  "checkpoint_written_at": "2026-10-26T04:52:03.340313+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "scope": "Session-authored supplementary entries; every field and complete example reviewed",
+  "supporting_sources": [],
+  "author_provenance": {
+    "author_label": "Codex session",
+    "author_model": null,
+    "author_version": null,
+    "method": "Manually composed in the active Codex conversation; not Gemini output",
+    "source": "authored.psv",
+    "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+    "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+    "timestamp": "2026-10-26T04:52:03.340313+00:00",
+    "paid_api_calls": 0
+  },
+  "records": [
+    {
+      "lexical_key": "帮忙|bang1 mang2",
+      "id": "ed8b0314-4f30-5ee1-b360-03aa5143cacd",
+      "source_content_version": 1,
+      "source_checksum": "9f5cd7df3be7514496b6caf0bde85351b172f68dbec0d2bb64aa747088631e87",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9f5cd7df3be7514496b6caf0bde85351b172f68dbec0d2bb64aa747088631e87",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bangmang1-2 help out; no ungrammatical 帮忙我 direct object pattern.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "旅行|lü3 xing2",
+      "id": "70471f9f-f09e-5165-8f7e-384668e3b8a6",
+      "source_content_version": 1,
+      "source_checksum": "2eb1feae970a5c522261078e378c39d247644532212a78f68a9ca9853c94fdf8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2eb1feae970a5c522261078e378c39d247644532212a78f68a9ca9853c94fdf8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Lüxing3-2 travel with ü, not 履行 lü3 xing2 carry out despite homophony.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "打球|da3 qiu2",
+      "id": "4a21117a-d7cb-5ea8-b17a-241dff1258e7",
+      "source_content_version": 1,
+      "source_checksum": "29ceb8fa28fa5653a2a85bd6804c2db5f4ffb06ae76df219e4ee418dc5f41b63",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "29ceb8fa28fa5653a2a85bd6804c2db5f4ffb06ae76df219e4ee418dc5f41b63",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Daqiu3-2 ball sports using hands/racket; not a universal instruction for kicking football.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "打开|da3 kai1",
+      "id": "9acdb965-3fec-5c93-9dd4-c16f1a7c6265",
+      "source_content_version": 1,
+      "source_checksum": "5809387127080e97d789071c549995c14d1afda25e359b9c40d77a197cd2cd09",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5809387127080e97d789071c549995c14d1afda25e359b9c40d77a197cd2cd09",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dakai3-1 open object; book example is natural, not turn on only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "关闭|guan1 bi4",
+      "id": "08fee5d0-34fa-51f0-98d1-8173af38a944",
+      "source_content_version": 1,
+      "source_checksum": "955169775ff4a6d53d4add361080fb42ff46ab783b70db5f1d15d6fae2049762",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "955169775ff4a6d53d4add361080fb42ff46ab783b70db5f1d15d6fae2049762",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Guanbi1-4 shut/turn off; formal but useful UI/device term.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "进入|jin4 ru4",
+      "id": "6c384b4b-0497-5bc0-9d6a-6c0769d8f6b6",
+      "source_content_version": 1,
+      "source_checksum": "b26f964394c81bab62ab456f7c75fa8c580ac46ef24f8079e794b9f46c1b0764",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b26f964394c81bab62ab456f7c75fa8c580ac46ef24f8079e794b9f46c1b0764",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Jinru4-4 enter with direct place object; bú yào imperative sandhi correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "出去|chu1 qu4",
+      "id": "bbb20678-9a83-5d69-b80d-e641be08b802",
+      "source_content_version": 1,
+      "source_checksum": "fab58e488b7ee82b5f1d66e4953746a4587fc2e27fd20d41264aad65cc9e398d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "fab58e488b7ee82b5f1d66e4953746a4587fc2e27fd20d41264aad65cc9e398d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Chu1 qu4 citation directional verb, not 来 toward speaker; reduplicated 走走 neutral second syllable.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "回来|hui2 lai2",
+      "id": "2daa00ee-aa9b-58bd-a14a-874a6665f85f",
+      "source_content_version": 1,
+      "source_checksum": "32f707ee01787951982207cbeb70f2ba72f3569b8ede0dd22bb777a078c04c57",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "32f707ee01787951982207cbeb70f2ba72f3569b8ede0dd22bb777a078c04c57",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Hui2 lai2 citation tones; direction toward reference/speaker retained in Vietnamese.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "回家|hui2 jia1",
+      "id": "a74ca15c-5e81-535b-a76b-8529f85e3b05",
+      "source_content_version": 1,
+      "source_checksum": "7d71ba4c1e52e2b6f15703943e32c83250934e3e436014ac9443743bd5c1fbde",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "7d71ba4c1e52e2b6f15703943e32c83250934e3e436014ac9443743bd5c1fbde",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Huijia2-1 return home, not go back to any location.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "听见|ting1 jian4",
+      "id": "88849972-4194-53e9-84b8-af2434a33612",
+      "source_content_version": 1,
+      "source_checksum": "4a513bdcf3ce06f4e0c7d7e38ff2ec1d7ab66d78caed40fcf8657b23f338d9cb",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "4a513bdcf3ce06f4e0c7d7e38ff2ec1d7ab66d78caed40fcf8657b23f338d9cb",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Tingjian1-4 result of hearing, not merely listening intentionally.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "需要|xu1 yao4",
+      "id": "9ae4b2d3-9c37-5f11-85a8-70af6ad751d4",
+      "source_content_version": 1,
+      "source_checksum": "2f347615b115a1cd4e0d90c59b2b496c6c7e1a2078c8cc4996b799267ea62438",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2f347615b115a1cd4e0d90c59b2b496c6c7e1a2078c8cc4996b799267ea62438",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xuyao1-4 need with noun phrase object, not wish alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "应该|ying1 gai1",
+      "id": "f34d3d9b-8ba8-5ff1-b43a-cf625a927f92",
+      "source_content_version": 1,
+      "source_checksum": "ddd9551f55c47f66c25b7d13961147087b98178e665895f782a60d0a70487ee3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ddd9551f55c47f66c25b7d13961147087b98178e665895f782a60d0a70487ee3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yinggai1-1 should, advice not certainty that an event happened.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "可以|ke3 yi3",
+      "id": "6a47409b-b9bc-54d2-8aa3-5fa1350c867e",
+      "source_content_version": 1,
+      "source_checksum": "9c67a0d6be7788ca2fc4f5b7176e19e8f99ee5f6607c4f7cab7cfabd7519ffa4",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9c67a0d6be7788ca2fc4f5b7176e19e8f99ee5f6607c4f7cab7cfabd7519ffa4",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Keyi3-3 permission/possibility, third-tone citation identity stable.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "可能|ke3 neng2",
+      "id": "e9183365-63ba-5337-a34f-ff1d57d77fd7",
+      "source_content_version": 1,
+      "source_checksum": "16f2410d423e9c03c23c6e0e19ef04f858a57b2ae1760312de600a055e96efc1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "16f2410d423e9c03c23c6e0e19ef04f858a57b2ae1760312de600a055e96efc1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Keneng3-2 probability, not physical ability 能 alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "必须|bi4 xu1",
+      "id": "bcdf82cf-206b-5687-853a-7269bba085c9",
+      "source_content_version": 1,
+      "source_checksum": "a81d04f74f23e0840fefa61ab4411cb32249f0b50759e51d6bc3d200b4952a67",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a81d04f74f23e0840fefa61ab4411cb32249f0b50759e51d6bc3d200b4952a67",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bixu4-1 necessity before verb; distinct from 必需 adjective indispensable.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "带来|dai4 lai2",
+      "id": "49bc1380-86de-5d96-8c0f-ff1276536ea7",
+      "source_content_version": 1,
+      "source_checksum": "63bdde0569570d4f442786738aac88515ba1bfc234ade5ca3ab3c1f93d79dba4",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "63bdde0569570d4f442786738aac88515ba1bfc234ade5ca3ab3c1f93d79dba4",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dai4 lai2 bring toward reference point, not take away.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "拿走|na2 zou3",
+      "id": "4d37b9ed-6c5f-5c63-96f8-6bf44d0cc21e",
+      "source_content_version": 1,
+      "source_checksum": "b9068a65e266ea8cb4e4125964c0321e629e47086139bc416dfe19d54c752405",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b9068a65e266ea8cb4e4125964c0321e629e47086139bc416dfe19d54c752405",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Nazou2-3 take away result/direction, contrasts bringing 带来.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "等等|deng3 deng3",
+      "id": "ee78e55c-13fc-562e-b1f1-6cd52aa2ed08",
+      "source_content_version": 1,
+      "source_checksum": "5124bc51564662f4ba50050513ab81ae9bd1ca81f1687ef76630867a651464ba",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5124bc51564662f4ba50050513ab81ae9bd1ca81f1687ef76630867a651464ba",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Deng3 deng3 enumeration etc sense only; not reduplicated verb wait a moment with neutral second syllable.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "好看|hao3 kan4",
+      "id": "e714f344-7abd-5d19-ad6e-3ee706fa1cf8",
+      "source_content_version": 1,
+      "source_checksum": "ab3fcee9ad30ea37ce4ca3e5cb24404e215848caa02928878bb0ef0fb1632b06",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ab3fcee9ad30ea37ce4ca3e5cb24404e215848caa02928878bb0ef0fb1632b06",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Haokan3-4 attractive/enjoyable to watch; film classifier 部 and evaluation are natural.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "快乐|kuai4 le4",
+      "id": "02586d68-c2a9-5819-89fa-db485a0be253",
+      "source_content_version": 1,
+      "source_checksum": "b26efa2571dd5c1553d522b18d4ff2367e0e113be8201b6ead32d51c13c44944",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b26efa2571dd5c1553d522b18d4ff2367e0e113be8201b6ead32d51c13c44944",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Kuaile4-4 happiness; 乐 is le4 not music yue4.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "害怕|hai4 pa4",
+      "id": "fa23cb91-6880-51d3-9983-4595de76fdca",
+      "source_content_version": 1,
+      "source_checksum": "59bab8551fd07f48ca330946b714e19a6de2a05af1d67a92c6c597013c5202ee",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "59bab8551fd07f48ca330946b714e19a6de2a05af1d67a92c6c597013c5202ee",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Haipa4-4 fear, no need to force a noun object in simple predicate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "紧张|jin3 zhang1",
+      "id": "37119a37-b6a4-57c5-ad5c-ae2c406a0a61",
+      "source_content_version": 1,
+      "source_checksum": "0d074540bcd187b075b91838125d617c3476cdca239b9212552a6f354a70519a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "0d074540bcd187b075b91838125d617c3476cdca239b9212552a6f354a70519a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Jinzhang3-1 tension/nervousness in exam context, not physical tightness alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "可爱|ke3 ai4",
+      "id": "f01a586b-fba5-5b77-8d10-f50afa44e3b1",
+      "source_content_version": 1,
+      "source_checksum": "383651d30e312dc1cd58a538f49ecb5ce564831a42f066ff3eeb8e02cf63b91f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "383651d30e312dc1cd58a538f49ecb5ce564831a42f066ff3eeb8e02cf63b91f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Ke3 ai4 requires apostrophe in compact pinyin kě'ài; adjective not the verb love.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "满|man3",
+      "id": "ee76bf90-a017-5454-9286-be9f0c0479ef",
+      "source_content_version": 1,
+      "source_checksum": "df35fea676713ff3fbb3b8c6cc88e9681f560a76efed60718847bf6bcd88c24b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "df35fea676713ff3fbb3b8c6cc88e9681f560a76efed60718847bf6bcd88c24b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Man3 filled state, not satisfied 满意 or all items indiscriminately.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "一样|yi1 yang4",
+      "id": "48ebd19f-6116-5db4-8fb9-6ce09585620a",
+      "source_content_version": 1,
+      "source_checksum": "5b6455f1e0b741ada2f73ec1565d7695552d815d41f6b805f7cb464b07f8ad37",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5b6455f1e0b741ada2f73ec1565d7695552d815d41f6b805f7cb464b07f8ad37",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Citation yi1 yang4 while example yíyàng reflects 一 sandhi before yang4.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不同|bu4 tong2",
+      "id": "64535acc-c293-5f02-a84e-bc267a043ecc",
+      "source_content_version": 1,
+      "source_checksum": "72a5475276a501359c7b2b6e1a1a3bb4d79c48d67a0e2705f99651e6e9d6128d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "72a5475276a501359c7b2b6e1a1a3bb4d79c48d67a0e2705f99651e6e9d6128d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 tong2 different; 不 remains bù before second-tone 同.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "有点儿|you3 dian3 er5",
+      "id": "1b9ffde8-7b9e-52e8-ae00-671eaad52eb0",
+      "source_content_version": 1,
+      "source_checksum": "b0e1202551a16a68e6fdf2e46ad51118d853028a8d53c08b7b31fa8a758efcbb",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b0e1202551a16a68e6fdf2e46ad51118d853028a8d53c08b7b31fa8a758efcbb",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "You3 dian3 er5 degree phrase commonly before undesirable states; erhua rendered yǒudiǎnr.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "一点儿|yi1 dian3 er5",
+      "id": "9553be9b-6bc1-55e2-ba56-0c83db4a3456",
+      "source_content_version": 1,
+      "source_checksum": "5f45ba01f096e51ff77a5522be6ae29dcfeecc71d0a7d93939a01d603150d30c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5f45ba01f096e51ff77a5522be6ae29dcfeecc71d0a7d93939a01d603150d30c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Citation yi1 dian3 er5, example yìdiǎnr quantity after 给 not pre-adjective 有点儿 pattern.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "哪儿|na3 er5",
+      "id": "c1c1f1e6-d433-5cfb-8a8f-21d44e00efc0",
+      "source_content_version": 1,
+      "source_checksum": "f5763c53b5250d8cb1c37e9ee92391e85d0968c5702fb3529e55b9dc4e6bf0f3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f5763c53b5250d8cb1c37e9ee92391e85d0968c5702fb3529e55b9dc4e6bf0f3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Na3 er5 interrogative erhua, example nǎr not a literal separate syllable ér.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "这儿|zhe4 er5",
+      "id": "9b22112d-1d87-5d39-bf50-6810e0807497",
+      "source_content_version": 1,
+      "source_checksum": "9fd5efc3183d949983730625fe729d5fe21751f3f1b2b1a66940cbc2a3b2b007",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9fd5efc3183d949983730625fe729d5fe21751f3f1b2b1a66940cbc2a3b2b007",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zhe4 er5 near deictic location, example fused zhèr.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "那儿|na4 er5",
+      "id": "4f94d609-6fa1-51b4-91b4-4f45ccccdeba",
+      "source_content_version": 1,
+      "source_checksum": "b909dee70934fb6f1e20fc4a319f9838c2578e5fd780cfbe4dafc84173b040e8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b909dee70934fb6f1e20fc4a319f9838c2578e5fd780cfbe4dafc84173b040e8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Na4 er5 distal location, fourth tone distinguishes interrogative nǎr.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不是|bu4 shi4",
+      "id": "731ff9ae-3775-5b20-b979-163868f317be",
+      "source_content_version": 1,
+      "source_checksum": "120afefaae4f274fcf38d3e16b9be2e44866cc6cd7ffeaf2dc3c3603b9b12a0f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "120afefaae4f274fcf38d3e16b9be2e44866cc6cd7ffeaf2dc3c3603b9b12a0f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Citation bu4 shi4 stable; example bú shì has contextual fourth-tone sandhi.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不用|bu4 yong4",
+      "id": "3b2d3f28-40a0-567c-ac9f-fed0f3cca730",
+      "source_content_version": 1,
+      "source_checksum": "7684077b1deccc6a9a69e66e3b2e0940e9ba77abbfa2fe3e8f1774db423896a4",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "7684077b1deccc6a9a69e66e3b2e0940e9ba77abbfa2fe3e8f1774db423896a4",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 yong4 no need, not a prohibition equivalent to 不可以.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不会|bu4 hui4",
+      "id": "c5b87549-8bc0-5036-a347-54c1019de1a3",
+      "source_content_version": 1,
+      "source_checksum": "0a8c92479e6d59516b2bb1365b925ffa993af0b2855ec66a156c435bf3587e97",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "0a8c92479e6d59516b2bb1365b925ffa993af0b2855ec66a156c435bf3587e97",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 hui4 lack learned ability in example; future-will-not sense scoped separately in gloss.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不要|bu4 yao4",
+      "id": "f5f817d0-7389-59ec-ba97-abcdde0c069c",
+      "source_content_version": 1,
+      "source_checksum": "23e4a238dd9390a9909cffbfd8303972a236c00285d782aa3bca3ffa71bdc4a6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "23e4a238dd9390a9909cffbfd8303972a236c00285d782aa3bca3ffa71bdc4a6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 yao4 negative imperative selected; citation bù vs example bú before yào distinguished.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不能|bu4 neng2",
+      "id": "65eef442-25dc-5deb-b279-aee421bdc578",
+      "source_content_version": 1,
+      "source_checksum": "dc332115b4d58e7c24ac8fc7008e65f8660cbaf2a89846102db16582c3431ec3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dc332115b4d58e7c24ac8fc7008e65f8660cbaf2a89846102db16582c3431ec3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 neng2 restriction/ability negation; no fourth-tone sandhi before neng2.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "不可以|bu4 ke3 yi3",
+      "id": "09d27b6f-4f1d-5093-afda-e2fb2eeac084",
+      "source_content_version": 1,
+      "source_checksum": "4d6f526113b2860cc68f9e26b3e709a420ec25fb9527c4eda40192f4c47b4d04",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "4d6f526113b2860cc68f9e26b3e709a420ec25fb9527c4eda40192f4c47b4d04",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Bu4 ke3 yi3 explicit prohibition, not the no-need meaning of 不用.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "然后|ran2 hou4",
+      "id": "148e8b5d-8fcf-589b-8481-c0ed8647b0d5",
+      "source_content_version": 1,
+      "source_checksum": "68295328b8ecefbf6439b6aca356dd86ceee130fddb91a01e2b4391717b86871",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "68295328b8ecefbf6439b6aca356dd86ceee130fddb91a01e2b4391717b86871",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Ranhou2-4 sequential connector with 先, not causal 所以.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "还是|hai2 shi4",
+      "id": "429ca13d-40ec-59c2-80d1-b9f39f9b56e0",
+      "source_content_version": 1,
+      "source_checksum": "b24a588018d0f9ab416400947c77cf1f50896d63bb73b04bfc34d36d4e60bf2e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b24a588018d0f9ab416400947c77cf1f50896d63bb73b04bfc34d36d4e60bf2e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Hai2 shi4 citation; unstressed shi in spoken háishi, alternative-question connector not generic 或者 substitution.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    }
+  ]
+}

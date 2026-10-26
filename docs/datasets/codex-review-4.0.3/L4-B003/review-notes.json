@@ -1,0 +1,1780 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L4-B003",
+  "source_file": "level-4-batch-003.jsonl",
+  "source_sha256": "8061bf6b16949d1eef4f0b9cef037cfe439cc14f4b7ddb4a87526029fe67b897",
+  "deployment_sha256": "2b7534b48d8b20f7dbf56d2207237059cc7ad28a76991e2faba16dbcd6f147a6",
+  "checkpoint_written_at": "2026-10-25T15:29:47.731505+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "strict_review_results_created": 0,
+  "scope": "All record fields and complete examples read in the active session",
+  "correction_review": "Corrected records re-read and assessed by this same session; no claim of a second independent model",
+  "supporting_sources": [],
+  "records": [
+    {
+      "lexical_key": "感觉|gan3 jue2",
+      "id": "8719e274-2a56-53e6-b3fa-c5e612d00871",
+      "source_content_version": 1,
+      "source_checksum": "59ecf25ec130c375d989206949daa306dfad9bacb4aa751be3b7b0f880a44dad",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "eb14d0f088bc666dd0640d629ab1d6953c328f9f22a2a2cb2305c5c5f5891147",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "感觉 gǎnjué feel/feeling; add noun POS for existing cảm giác sense, warm water improving throat example aligned.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "verb, noun"
+        },
+        "reason": "Existing feeling noun sense needs noun POS."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "感情|gan3 qing2",
+      "id": "6ceeaddb-98d3-5164-b7a6-437469e0b946",
+      "source_content_version": 1,
+      "source_checksum": "16f24fe29d8bb37ca061807ea34dce178590a5cf56b1b3bb1094ae83ca652799",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "16f24fe29d8bb37ca061807ea34dce178590a5cf56b1b3bb1094ae83ca652799",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "感情 gǎnqíng emotion/affection; married couple's deep affection accurately rendered as tình cảm mặn nồng.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "感谢|gan3 xie4",
+      "id": "9c18a20e-8de1-5e32-a6be-1cdae1b87285",
+      "source_content_version": 1,
+      "source_checksum": "c3197f5edccd814aca10126ae81bb90457b92b5bc8124155590b63132b1f2295",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c3197f5edccd814aca10126ae81bb90457b92b5bc8124155590b63132b1f2295",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "感谢 gǎnxiè thank; 衷心感谢领导给予关心指导 and full pinyin correct, 给予 jǐyǔ not gěiyǔ.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "干|gan1",
+      "id": "146540ef-27ae-5e79-b5d6-bcf8c98008a6",
+      "source_content_version": 1,
+      "source_checksum": "480ccbc9e602adc06ec1cf0795e41a1200e239cb5f44e947f3bad27faf1044ab",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "480ccbc9e602adc06ec1cf0795e41a1200e239cb5f44e947f3bad27faf1044ab",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "干 gān dry, distinct from gàn work; clothes dried after sunshine example and VI agree.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "干警|gan4 jing3",
+      "id": "5b3ada0d-12a9-505b-a525-5a97ec267f28",
+      "source_content_version": 1,
+      "source_checksum": "bd9edbc471b0806fa9d335c0629fa9ef7be9eb70ef1aa5a4e79d8b52af10d0a4",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "40c84befe1434093388644c26047f4d1fba0ee23d28353fc2aad9d8cc03fb30c",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "干警 gànjǐng police cadres; SV 干 in cadre sense is cán, correct can cảnh to cán cảnh; day-and-night protection example sound.",
+      "correction": {
+        "changes": {
+          "sino_vietnamese": "cán cảnh"
+        },
+        "reason": "干 in cadre abbreviation 干警 is cán, as in cán bộ."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "刚好|gang1 hao3",
+      "id": "536f30ed-84e0-5189-bc7e-01deca98c4a0",
+      "source_content_version": 1,
+      "source_checksum": "3dc79148c3a375b3fab68e2f6249934d9431afa5a8b9a021a3dde7881fa46a88",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3dc79148c3a375b3fab68e2f6249934d9431afa5a8b9a021a3dde7881fa46a88",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "刚好 gānghǎo just in time; arriving as subway train arrives correctly demonstrates coincidence.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "钢铁|gang1 tie3",
+      "id": "c60c4933-f755-5c29-bd70-7ffc4985e1e7",
+      "source_content_version": 1,
+      "source_checksum": "892a2659c558a8b5662f1a7edb7fe91e5b14507909926f60ca48488b238641a2",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "892a2659c558a8b5662f1a7edb7fe91e5b14507909926f60ca48488b238641a2",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "钢铁 gāngtiě steel/iron; SV cương thiết, skyscraper construction example and 摩天 pronunciation correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "高度|gao1 du4",
+      "id": "53e2394a-e98c-55a8-8d03-5147004c0027",
+      "source_content_version": 1,
+      "source_checksum": "787b17ccb20dd8e900e4a4eb9befbb85156724adfa042d9fa2b4e01edcc79e94",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "9426a58c5a9e7c91e6e9e04324f8985ba3b61cebb7ba6230b1254b4d98b386cc",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "高度 gāodù height; replace redundant aircraft cruising-height phrase with clear approximately ten-thousand-meter altitude, all fields rechecked.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "飞机的巡航高度保持在一万米左右。",
+              "pinyin": "Fēijī de xúnháng gāodù bǎochí zài yí wàn mǐ zuǒyòu.",
+              "vietnamese": "Độ cao bay hành trình của máy bay được duy trì ở khoảng mười nghìn mét."
+            }
+          ]
+        },
+        "reason": "Remove redundant 航行/巡航 and 高度/高空 phrasing."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "告别|gao4 bie2",
+      "id": "4641308a-2ad0-5356-843a-1ed4443da15f",
+      "source_content_version": 1,
+      "source_checksum": "10b605af525994bf39165e02e409beed7e6cbb165ab27af3891622ec9c7b5ad7",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "10b605af525994bf39165e02e409beed7e6cbb165ab27af3891622ec9c7b5ad7",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "告别 gàobié farewell; reluctant graduation goodbye, 依依不舍 idiom and translation aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "格外|ge2 wai4",
+      "id": "999585c8-a09b-5ec8-a532-80a4cdac7db1",
+      "source_content_version": 1,
+      "source_checksum": "473d4136d6f27ab349c7d668ff7736c2cf0d7b51f2d6a39dc682cbb83be1a008",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "473d4136d6f27ab349c7d668ff7736c2cf0d7b51f2d6a39dc682cbb83be1a008",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "格外 géwài exceptionally; fresh air after rain is coherent, 宜人 yírén and VI correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "各|ge4",
+      "id": "95693cb4-b304-5485-b43a-4c05e854e7e6",
+      "source_content_version": 1,
+      "source_checksum": "afc63ed173d1360422c5bcd77c2367c91ca1301e729c8cbaacdb4aaa2509288b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "afc63ed173d1360422c5bcd77c2367c91ca1301e729c8cbaacdb4aaa2509288b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "各 gè each; 各位/各自 assigned seating example demonstrates distributive use, tone and SV correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "个子|ge4 zi5",
+      "id": "07bbb7f0-a6c6-53a2-937f-14df9e5f9935",
+      "source_content_version": 1,
+      "source_checksum": "71036ca5dbbc4968fb654252ad8ec16b422418e6fc58f1d63c8bdf6c6f1177f6",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "f0ffdd278712aad2689e870ec894614235167b797525e65e1088566a6e61bc6a",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "个子 gèzi stature; growing younger brother's height surpassing older brother, improve VI to explicit chiều cao.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "弟弟这两年长得飞快，个子已经超过了哥哥。",
+              "pinyin": "Dìdi zhè liǎng nián zhǎng de fēikuài, gèzi yǐjīng chāoguò le gēge.",
+              "vietnamese": "Em trai hai năm nay lớn rất nhanh, chiều cao đã vượt cả anh trai."
+            }
+          ]
+        },
+        "reason": "Here 个子 compares height specifically."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "给力|gei3 li4",
+      "id": "01c326e9-43a5-51c6-9cb6-2f2a6d099619",
+      "source_content_version": 1,
+      "source_checksum": "9cdb8315999c2a2778bedd029642fdc95a66eb6a9ad9f0c3b33690e2de9eaf09",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9cdb8315999c2a2778bedd029642fdc95a66eb6a9ad9f0c3b33690e2de9eaf09",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "给力 gěilì informal excellent/effective; team performance example and Vietnamese praise fit colloquial usage.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "根|gen1",
+      "id": "ffef8944-ce68-5980-a8cf-f5b5b3ec72e1",
+      "source_content_version": 1,
+      "source_checksum": "70ccbe40e40bc75f913a2b55f4550fe69be1bb0cc4ff69b98922080e628ee45b",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "df58c6cc9e6aa059198e8ecc3b9e201b71222e2e1eb207c9a0a209225ac7c3e0",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "根 gēn classifier for slender objects; line normally takes 条, replace example with 一根细树枝 and recheck Chinese/pinyin/VI.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "他用一根细树枝在地上画线。",
+              "pinyin": "Tā yòng yì gēn xì shùzhī zài dì shang huà xiàn.",
+              "vietnamese": "Anh ấy dùng một cành cây nhỏ vẽ đường trên mặt đất."
+            }
+          ]
+        },
+        "reason": "Use 根 with slender branch rather than line, whose normal classifier is 条."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "根本|gen1 ben3",
+      "id": "9033578a-74aa-502f-8c12-2d202a44e4e5",
+      "source_content_version": 1,
+      "source_checksum": "8d7d8dac319b3111ec510829032a74e5284885752653da4068a123db72dff71c",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "fc87a82692d1809ea2cb482b6c2b2b166d1d85c06a151d55f1fce0c73b062bc3",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "根本 gēnběn at all/fundamental; negative incomprehension example fits adverb, add adjective POS for fundamental sense.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "adverb, adjective"
+        },
+        "reason": "Fundamental sense is adjectival, at-all sense adverbial."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "更加|geng4 jia1",
+      "id": "fb0f166a-ba64-5f4b-b6b2-4d40c1da907a",
+      "source_content_version": 1,
+      "source_checksum": "924878ee0d70e78048c2e26d57262f8f1b547b556caed0f5ecae52ec09afadce",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "924878ee0d70e78048c2e26d57262f8f1b547b556caed0f5ecae52ec09afadce",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "更加 gèngjiā even more; confidence after patient tutoring coherent, SV cánh gia retained.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "公布|gong1 bu4",
+      "id": "fef6d457-0774-5416-8f1e-c5b82b6801e8",
+      "source_content_version": 1,
+      "source_checksum": "581cb3ee48d7d48c2ec2fc1ea43a14ea76d10ac3b1cef2e60f5f4dd4aa847ef6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "581cb3ee48d7d48c2ec2fc1ea43a14ea76d10ac3b1cef2e60f5f4dd4aa847ef6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "公布 gōngbù announce; admissions results publication example natural, 录取 lùqǔ and VI correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "公平|gong1 ping2",
+      "id": "58374df0-47d4-5a20-9659-2e595fc19aad",
+      "source_content_version": 1,
+      "source_checksum": "ab81a4adde05abb762cb90ee7c903ae681cf791669d237462a464cf6ba4a5058",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ab81a4adde05abb762cb90ee7c903ae681cf791669d237462a464cf6ba4a5058",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "公平 gōngpíng fair; impartial judging principles, 秉持 bǐngchí and 执裁 zhícái are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "共同体|gong4 tong2 ti3",
+      "id": "70dc7303-53e4-5267-8fa1-6629503a4088",
+      "source_content_version": 1,
+      "source_checksum": "5d603c0eb3e263bf4294c3cd2d51f9270630d847110a06236b470a43f6aaed82",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5d603c0eb3e263bf4294c3cd2d51f9270630d847110a06236b470a43f6aaed82",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "共同体 gòngtóngtǐ community; shared-fate idiom 休戚与共 and Vietnamese interpretation agree.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "功夫|gong1 fu5",
+      "id": "7bfb42a1-b02b-592d-abc2-316f195fa38d",
+      "source_content_version": 1,
+      "source_checksum": "8bd7fcd1b88e1799b9592a75ce6758357728f4890fbe671e825de17b9a0dcedf",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8bd7fcd1b88e1799b9592a75ce6758357728f4890fbe671e825de17b9a0dcedf",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "功夫 gōngfu neutral fu: skill/effort/time/kung fu; Shaolin example supports martial arts, no conflation requiring rename.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "工资|gong1 zi1",
+      "id": "6d35c9b0-cc3a-55c2-bc4b-cba2e8c28dc5",
+      "source_content_version": 1,
+      "source_checksum": "ea8a9c77635064254c11e04d2c2b5f590e6701ac0bf32ee1bf273d1b741f4908",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ea8a9c77635064254c11e04d2c2b5f590e6701ac0bf32ee1bf273d1b741f4908",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "工资 gōngzī wages; monthly tenth-day bank salary payment and translation correct, SV công tư is character reading.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "共同|gong4 tong2",
+      "id": "04703217-5528-57e2-b8ae-6c3edb633658",
+      "source_content_version": 1,
+      "source_checksum": "cc9e3d906814a4e49c039d753b154f7734e1d2dbe81ed015a2e53c6374e5108b",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "97093679f9384f217aeb95441eda564bbf34dec86a5a42d53dfe331ffdb7e8a5",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "共同 gòngtóng common/together; adverbial 共同肩负 requires adverb POS alongside adjective sense, responsibility translation correct.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "adjective, adverb"
+        },
+        "reason": "Together modifying 肩负 is adverbial."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "购物|gou4 wu4",
+      "id": "531751fc-af55-54ec-910f-fb0d397a0681",
+      "source_content_version": 1,
+      "source_checksum": "1135622e2f74a4e30bb735d1096a4d98db5c82749e740d7778d0e5e87c988353",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1135622e2f74a4e30bb735d1096a4d98db5c82749e740d7778d0e5e87c988353",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "购物 gòuwù shop; shopping mall attracting weekend shoppers is coherent, SV cấu vật and pinyin correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "够|gou4",
+      "id": "8d712161-2c4b-56ee-bc88-5ce105a93868",
+      "source_content_version": 1,
+      "source_checksum": "1112eca8509cdadbac426085a6073d570a3058280f69f7909ce4d4e0166fe272",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "e38caf016f621bb68a8672754a33ee90272305f56e4ebfb1dfa43c49c233b756",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "够 gòu sufficient/quite; add verb POS and replace awkward 尽情吃够 with 水果够大家吃, recheck all example fields.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "verb, adverb",
+          "examples": [
+            {
+              "simplified": "桌上的水果够大家吃。",
+              "pinyin": "Zhuō shang de shuǐguǒ gòu dàjiā chī.",
+              "vietnamese": "Hoa quả trên bàn đủ cho mọi người ăn."
+            }
+          ]
+        },
+        "reason": "Demonstrate sufficient quantity naturally and include verbal use."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "估计|gu1 ji4",
+      "id": "f35becb5-dbc4-5c8e-94af-379dab2e0d2a",
+      "source_content_version": 1,
+      "source_checksum": "110f4401c96cb7e05f8fb9930a64ae727d9648327520a3adc6885533dd411301",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "110f4401c96cb7e05f8fb9930a64ae727d9648327520a3adc6885533dd411301",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "估计 gūjì estimate; estimated eight-o'clock train arrival has matching time expression and Vietnamese.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "鼓励|gu3 li4",
+      "id": "61b4f9b9-d5ea-5ffb-9b42-552b5119db77",
+      "source_content_version": 1,
+      "source_checksum": "7432347a5cbdbd51dd0a350b86506a91b77b43fbf7fa9303f87e15ef8d1e977f",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "7c16e3d9d48b7caf4a64077bf5b666b2d26a29065f8f4b54b3e65d9ff7ba5c2d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "鼓励 gǔlì encourage/encouragement; add noun POS for existing English sense, weak-foundation pupils building confidence correct.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "verb, noun"
+        },
+        "reason": "Encouragement nominal sense already in English."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "故意|gu4 yi4",
+      "id": "f441e15f-7e61-5c37-bfb0-7575364b339b",
+      "source_content_version": 1,
+      "source_checksum": "fd3607df0c1be4f8b858448306c3d0dffd192a4f4726a87dc3cce85771f4bdbe",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "fd3607df0c1be4f8b858448306c3d0dffd192a4f4726a87dc3cce85771f4bdbe",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "故意 gùyì deliberately; denial of intentional book-knocking uses 绝不是 correctly, bú before shì is valid sandhi.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "孤独|gu1 du2",
+      "id": "2c2471e8-0ab4-50d7-987c-4246e64bc40b",
+      "source_content_version": 1,
+      "source_checksum": "32627023cefd0f0d388cbbdf7c58670121bb4296e472330eb6e6d40998ee0f95",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "32627023cefd0f0d388cbbdf7c58670121bb4296e472330eb6e6d40998ee0f95",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "孤独 gūdú lonely; older person living alone and 难免感到 sentence/translation correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "挂号|gua4 hao4",
+      "id": "0621081c-ea62-5e09-a2ee-f09ac1b3998c",
+      "source_content_version": 1,
+      "source_checksum": "0db99bf755e6aed7e26a0418a51415db72fc5bd410c6cef83d53fe20fa9ec214",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "0db99bf755e6aed7e26a0418a51415db72fc5bd410c6cef83d53fe20fa9ec214",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "挂号 guàhào register/take hospital number; window queue example and SV quải hào correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "关键|guan1 jian4",
+      "id": "9b074753-4e4a-58d1-a46e-094351225a6c",
+      "source_content_version": 1,
+      "source_checksum": "340f4c6d40a311323a971e434e9ef494b634175501a2c996b58528409d1d49fb",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "f4251b6b7793a925d7d77588f82e5e0b8fde3e8428beced1febc63e6e1af266e",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "关键 guānjiàn key point; experiment-success sentence sound, remove redundant mấu chốt then chốt in VI.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "认真细致是取得科学实验成功的关键所在。",
+              "pinyin": "Rènzhēn xìzhì shì qǔdé kēxué shíyàn chénggōng de guānjiàn suǒzài.",
+              "vietnamese": "Sự cẩn thận tỉ mỉ là mấu chốt để thí nghiệm khoa học thành công."
+            }
+          ]
+        },
+        "reason": "Remove duplicated Vietnamese key-point expression."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "姑姑|gu1 gu5",
+      "id": "9b900624-f86d-571a-b43b-b2fd686d7abb",
+      "source_content_version": 1,
+      "source_checksum": "74218f4d5fb1bb0cf9ae5d071c777a53c44bfac9d7799688d2c3a3bc6d390af5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "74218f4d5fb1bb0cf9ae5d071c777a53c44bfac9d7799688d2c3a3bc6d390af5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "姑姑 gūgu paternal aunt, not maternal dì; gloss explicitly identifies father's sister and hometown pastry example correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "管理|guan3 li3",
+      "id": "0783b3c5-f4e4-5768-a0cd-45987ef9b273",
+      "source_content_version": 1,
+      "source_checksum": "b3dbae65881676ff897dc75ab3ac6a3973310fe888ddb501fd9ac7c9b3ef8650",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "37c84f4ce42f098b66c6c03e8403db77ad38a33a343000e20cfc916ddfa6fda4",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "管理 guǎnlǐ manage/management; add noun POS and natural adverbial 地 in manager example, pinyin/VI aligned.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "verb, noun",
+          "examples": [
+            {
+              "simplified": "这位新厂长善于科学高效地管理现代企业。",
+              "pinyin": "Zhè wèi xīn chǎngzhǎng shànyú kēxué gāoxiào de guǎnlǐ xiàndài qǐyè.",
+              "vietnamese": "Vị giám đốc nhà máy mới này rất giỏi quản lý doanh nghiệp hiện đại một cách khoa học hiệu quả."
+            }
+          ]
+        },
+        "reason": "Management noun sense and clearer adverbial modification."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "光|guang1",
+      "id": "71f3be84-eb50-5f31-9d48-dd3d9b9732b2",
+      "source_content_version": 1,
+      "source_checksum": "37178483a1a92dc1dd151f7ad5320664acf11366b550d0e8ae1da5e56a6abdf0",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "3242ac14d85747288aa420e75a953ffcbffaecef324b960a7af51c38d2ec5f9c",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "光 guāng has light, only, and all-gone senses; add missing VI senses/POS and use natural 吃光 example, no change of key.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "noun, adjective, adverb",
+          "vietnamese_meanings": [
+            "ánh sáng",
+            "sạch trơn",
+            "hết sạch",
+            "chỉ"
+          ],
+          "examples": [
+            {
+              "simplified": "大家把桌上的饭菜都吃光了。",
+              "pinyin": "Dàjiā bǎ zhuō shang de fàncài dōu chīguāng le.",
+              "vietnamese": "Mọi người đã ăn hết thức ăn trên bàn rồi."
+            }
+          ]
+        },
+        "reason": "Align Vietnamese with existing English light/empty/only and repair redundant result construction."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "广播|guang3 bo1",
+      "id": "3dcb8d87-e2fb-5cf6-960f-4852055d323b",
+      "source_content_version": 1,
+      "source_checksum": "1537db97429fdaf4285e7eff8d63d38d01688489ca90b9767f5ce55e2f5abd89",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1537db97429fdaf4285e7eff8d63d38d01688489ca90b9767f5ce55e2f5abd89",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "广播 guǎngbō broadcast/radio; six-o'clock campus broadcast and morning tune correctly rendered.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "广告|guang3 gao4",
+      "id": "121fe936-c895-5c50-b032-34ece78480b8",
+      "source_content_version": 1,
+      "source_checksum": "2880798b49c26fed63bd9ee688338693edbfd5956a9ef567b239f3402cfd870a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2880798b49c26fed63bd9ee688338693edbfd5956a9ef567b239f3402cfd870a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "广告 guǎnggào advertisement; public-service environmental TV advert uses 则 classifier and correct pinyin.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "逛|guang4",
+      "id": "c6566e33-9de0-54ea-8c4f-b36a867ec856",
+      "source_content_version": 1,
+      "source_checksum": "ac9b97faccd1eac26eb178b6acafe911150d1e87f50ab72bec57876aa76e425a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ac9b97faccd1eac26eb178b6acafe911150d1e87f50ab72bec57876aa76e425a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "逛 guàng stroll/shop; weekend commercial-street outing accurate, SV cuống retained.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "规定|gui1 ding4",
+      "id": "2dc1dcf4-9a80-58d7-8844-772b2b1573fc",
+      "source_content_version": 1,
+      "source_checksum": "4534aa5f7aaa8b414d7577735b276c1f2c1d1dbea1852400f535dd02870fd423",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "4534aa5f7aaa8b414d7577735b276c1f2c1d1dbea1852400f535dd02870fd423",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "规定 guīdìng regulation; factory operating-safety requirements and 严格遵守 collocation correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "国籍|guo2 ji2",
+      "id": "100e7027-bd3d-5ace-9f60-1654eda0c359",
+      "source_content_version": 1,
+      "source_checksum": "ad3060056c0a100e0ef09148a1872a1a79b82f1e1e4a92bac3a921d288850dc2",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ad3060056c0a100e0ef09148a1872a1a79b82f1e1e4a92bac3a921d288850dc2",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "国籍 guójí nationality; immigration form request and 出入境 pronunciation match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "国际|guo2 ji4",
+      "id": "3864f2c0-d976-57d2-b27a-00768b6b3de4",
+      "source_content_version": 1,
+      "source_checksum": "f174acf104590d81068a5a855b39b02d4e5faea9070b4dcaacad0d3d6810ac41",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f174acf104590d81068a5a855b39b02d4e5faea9070b4dcaacad0d3d6810ac41",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "国际 guójì international; sports-gathering example demonstrates attributive usage; fictional next-year statement is pedagogical, not event reporting.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "股票|gu3 piao4",
+      "id": "5a79c0e5-0181-50b3-bf9f-af37f7e2bd8b",
+      "source_content_version": 1,
+      "source_checksum": "e8dbbbedd6491ffbe75b398e682ead61c319d4fc9b73d2f7fd52cdef37089a8a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e8dbbbedd6491ffbe75b398e682ead61c319d4fc9b73d2f7fd52cdef37089a8a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "股票 gǔpiào stock/share; rational cautious stock-market investment example coherent and accurately translated.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "过程|guo4 cheng2",
+      "id": "4a0c9861-1339-5309-8f17-8d28c2f6db1f",
+      "source_content_version": 1,
+      "source_checksum": "d1a21948c6e9627775e590fd10fc8967369e6e64c67cdb5f7d6e9c878eb5038d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "d1a21948c6e9627775e590fd10fc8967369e6e64c67cdb5f7d6e9c878eb5038d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "过程 guòchéng process; researchers overcoming experimental-development obstacles, all compound pinyin aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "海洋|hai3 yang2",
+      "id": "ce6ad2a6-6db8-5635-811a-fa37ffd5bec5",
+      "source_content_version": 1,
+      "source_checksum": "085f0fe90424888ada1baf704d4c51b561c71d22dc6ce77e49daf5751b621a23",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "085f0fe90424888ada1baf704d4c51b561c71d22dc6ce77e49daf5751b621a23",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "海洋 hǎiyáng ocean; vast ocean biological-resources sentence and 蕴藏 yùncáng correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "盒|he2",
+      "id": "f557a50d-27a9-5f9b-b36a-13fee6d7b929",
+      "source_content_version": 1,
+      "source_checksum": "44751cd85c98477486acb322a632c8e2815c6686268427cb69cec086848e0e71",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "44751cd85c98477486acb322a632c8e2815c6686268427cb69cec086848e0e71",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "盒 hé classifier box of; 一盒巧克力 gift demonstrates intended measure, SV hạp and pinyin valid.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "寒假|han2 jia4",
+      "id": "fc1d7e25-5e44-5b7a-a23a-0b5de5fd7520",
+      "source_content_version": 1,
+      "source_checksum": "1e76435cd2b260edf44b5b4f732aac3a3833a843f790694e6d80342af55e1939",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1e76435cd2b260edf44b5b4f732aac3a3833a843f790694e6d80342af55e1939",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "寒假 hánjià winter break, not jiǎ fake; students returning home for New Year translation correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "汗|han4",
+      "id": "ce8b2f4c-d871-5087-8633-53cd62f4c8f3",
+      "source_content_version": 1,
+      "source_checksum": "dd35a491d737703e7689197ad8b47fcea0eff83dff805f56a8a76a1d414d81d8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dd35a491d737703e7689197ad8b47fcea0eff83dff805f56a8a76a1d414d81d8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "汗 hàn sweat; sweating after intense basketball match, pinyin and VI accurate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "好处|hao3 chu5",
+      "id": "68d65931-b1b8-5ac7-9a57-1afab48feb95",
+      "source_content_version": 1,
+      "source_checksum": "2b31353b22c8ce9cbb2ac7ee7eb70fb083b02f55a3f9be96d8e57418dca15785",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2b31353b22c8ce9cbb2ac7ee7eb70fb083b02f55a3f9be96d8e57418dca15785",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "好处 hǎochu neutral chu benefit; outdoor jogging benefiting health coherent, not hào liking reading.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "好像|hao3 xiang4",
+      "id": "7c1c726c-affa-5d11-ace6-b37a0a263322",
+      "source_content_version": 1,
+      "source_checksum": "a8622bd51a229b13393e491c80e2ed87a6a9fe2231c93070d00a3484672155dd",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a8622bd51a229b13393e491c80e2ed87a6a9fe2231c93070d00a3484672155dd",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "好像 hǎoxiàng seems; dark clouds and impending heavy rain correctly express apparent likelihood.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "号码|hao4 ma3",
+      "id": "72f5db38-c8b9-52ff-ba9a-37c10363e1b9",
+      "source_content_version": 1,
+      "source_checksum": "1ba638b6ae703642a04d1d85b6b6f6ca870cd6f31671b19fb913da6aefb43070",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1ba638b6ae703642a04d1d85b6b6f6ca870cd6f31671b19fb913da6aefb43070",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "号码 hàomǎ number; leaving mobile number for contact has full matching pinyin and VI.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "合格|he2 ge2",
+      "id": "cdc9ecb2-bc1d-554a-879e-5e24b46e4c93",
+      "source_content_version": 1,
+      "source_checksum": "a069656e1b5f7f410a4435742a1981656daf19616da1b01e767441507021c035",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a069656e1b5f7f410a4435742a1981656daf19616da1b01e767441507021c035",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "合格 hégé meets standards; inspected factory products rated qualified, 为 wéi reading correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "合适|he2 shi4",
+      "id": "e7ad1b00-fe68-5f1c-8ac0-beea1ce768b7",
+      "source_content_version": 1,
+      "source_checksum": "bf3926c3b3c90236531c606f19aaff766fbdb3565b9665768e63d6fdc6c2f327",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "bf3926c3b3c90236531c606f19aaff766fbdb3565b9665768e63d6fdc6c2f327",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "合适 héshì suitable/fit; well-fitting formal suit example and all tones align. All levels reasonable app intermediate choices, no duplicate identities introduced.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    }
+  ]
+}

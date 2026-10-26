@@ -1,0 +1,11 @@
+{
+  "author_label": "Codex session",
+  "author_model": null,
+  "author_version": null,
+  "method": "Manually composed in the active Codex conversation; not Gemini output",
+  "source": "authored.psv",
+  "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+  "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+  "timestamp": "2026-10-26T04:52:03.340313+00:00",
+  "paid_api_calls": 0
+}

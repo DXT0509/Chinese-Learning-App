@@ -1,0 +1,2640 @@
+{
+  "database": [
+    "chinese_learning",
+    "127.0.0.1/32",
+    5432,
+    "postgres"
+  ],
+  "migrations": [
+    "0010_local_codex_review"
+  ],
+  "coverage": {
+    "policy": "local-codex-session-v1",
+    "reviewed": 322,
+    "accepted": 322,
+    "unreviewed": 0,
+    "excluded": [],
+    "receipts": [
+      {
+        "batch": "L0-B001",
+        "notes_sha256": "5b0aaad09ca65618bdff4e003019e8af941f990bbd2580596dccf43feb7b3039",
+        "data_sha256": "ef2444b8c698747c7e34630084c4aa1fe02b8b9634b572499718f448eb8b292a"
+      },
+      {
+        "batch": "L0-B002",
+        "notes_sha256": "c341d9668eea8638d655e386149502a7e254fc70faa69dec7fd2b540bd1fa35d",
+        "data_sha256": "615b014f292027aa0952e9b056013c4a2a34448029e1a627cbb7359cbe6bc79f"
+      },
+      {
+        "batch": "L0-B003",
+        "notes_sha256": "5c87146f04da53b0510dba010f81315fefb8a0a209cf897215e5e71a6fdd5294",
+        "data_sha256": "65349d5888b16cac8716307e5d0f39c08b149d52a93809475bd90a30aa38c635"
+      },
+      {
+        "batch": "L1-B001",
+        "notes_sha256": "237591e254cfb5089f50fbae2ab4ba457be80e5d1c8a3488d933c2c8615cc13e",
+        "data_sha256": "fcee0b4d4fc64703e99a93ca97eac4f27d88bfab72549f898863ef5cda8c57a5"
+      },
+      {
+        "batch": "L1-B002",
+        "notes_sha256": "d1fc3c03c7a08f50bcc61b08ee62298ef415aac84b34f0404ab002e4ad9d9d8d",
+        "data_sha256": "edc7aeff6a380118ef75ef16078a765ba58aff16ec2f5a26f42d93bde2277ffe"
+      },
+      {
+        "batch": "L1-B003",
+        "notes_sha256": "78c93df898477b827df2e0c9e7cb264553b36465d8aee30f10ea97b9c04b7353",
+        "data_sha256": "1e8f3dea3ed2b16cc0105b7991d0b6cd11debe419d579b3e7e0ab5d1ea347b76"
+      },
+      {
+        "batch": "L1-B004",
+        "notes_sha256": "2f6617986da790d7b40a769d0e4841248b405b4481478f1d9cc70226762ed80c",
+        "data_sha256": "924396a5a0f1cd115349550b526a9250ef80b3becc38cf2ec62beadf6af6d1b6"
+      },
+      {
+        "batch": "L2-B001",
+        "notes_sha256": "14707b117994664a62d6b5fa402bb350e36eee2eeceed565e6133c735f77a8d9",
+        "data_sha256": "f4eb5748511490a5467a3896202150f42e21831c2d14e1ded094d2a4d9aa5a0f"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "lexical_key": "女|nü3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "accc49f29999b1bda9db15c55a86a5bca4517338b6a58f46337f5f3d566fd79b",
+      "evidence_checksum": "033742b0193c8d2b5d3d153a26a0e0d27c9331bdec096ec649756ae34b2ebbd9"
+    },
+    {
+      "lexical_key": "口|kou3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3578d5c683c1bab2ba998a52050dbb9e2b19ddd31289e176bb2ed62593e88664",
+      "evidence_checksum": "542d914d4f99c1b1aa5fd245c8cf5d410aec3af5f9b586310d14a96613eef068"
+    },
+    {
+      "lexical_key": "男|nan2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1e80a88263cd3376b39f18f8bc1a1d8fa824b630760d0737931a73c7b29cc9da",
+      "evidence_checksum": "7882a954e2356fb3cbc7907151da52c5f8993337a92041f6a421bc81e4281142"
+    },
+    {
+      "lexical_key": "中|zhong1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3f8c7319cb8b32e86d40cda141bbcdd6fc048b2ec328f080b471cc2942d2e03f",
+      "evidence_checksum": "4ba836c2aa2cab8eff61ebf1e71560100d3ff81f942e7978449809562ad141fb"
+    },
+    {
+      "lexical_key": "左|zuo3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4df0da3b23eb8f0f3f8ed4f5a81d04faed39fb33534815d2d119c179698f422b",
+      "evidence_checksum": "facd67612688b86ea49908fa26cdbe826870ae1592f3ab94d012fe7e5a00d1a1"
+    },
+    {
+      "lexical_key": "右|you4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "796775a7f5bb85a31d3ac4d49ffb96c1c94668ad4a2cb1f2e26d902292001481",
+      "evidence_checksum": "17091191ac5d2ed122ebfb8e85351fbe7f2b2f21788fdac2fdd291c8009a2e6d"
+    },
+    {
+      "lexical_key": "前|qian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "03df49ba819e3c29825c22f6482eb630d4ec1fd493d3fd62c1c1386eaeb06043",
+      "evidence_checksum": "6468385fc14b4d74df294562e2c957050b33982b7468589a771a7cd9357ffaa3"
+    },
+    {
+      "lexical_key": "后|hou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "89a4dc23ea770807a27ae486ae228b5f8f620fdf713d2b1662cff032599d14c5",
+      "evidence_checksum": "27a8bf94c208ea8b21e27ae5d4e6a77e6f631b20e1a37adae98a7f61bf815e67"
+    },
+    {
+      "lexical_key": "东|dong1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "724a3b4df142102b464f4009e30ee1dfdabae4e91d3015e34294acde52123273",
+      "evidence_checksum": "2cead46c063c43f52a402d33e1f3a8f65f6c261bd59730818f5999dcf7ef5b38"
+    },
+    {
+      "lexical_key": "西|xi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5d106048966d75965b9feb118bbea750968459ca4cfb32bcb3fcb7e2e241c589",
+      "evidence_checksum": "2b6419b21134b3fb77976239528a9174c4a080d10cc95bd77bed24b215922bfb"
+    },
+    {
+      "lexical_key": "北|bei3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "71b62a2c5a71b0e9a80b63946f57a6191901adca726f4535f14ca1a86e2e8101",
+      "evidence_checksum": "c11759f9aa435f9faa9c5097dd21b54eceb9f94a73294a46d6c7c85db30f657c"
+    },
+    {
+      "lexical_key": "百|bai3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cfd67ef840a52a66ff3cdc0412090b36d0820853d1690ebe11761d7494fed045",
+      "evidence_checksum": "6bd36b6df1609f16e519e50a1a8925469410a9385aa71aaecc7c59b1b657d0bc"
+    },
+    {
+      "lexical_key": "千|qian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "397136e1393bf103d513116580102e99c9074d66aa27efd0874f2f1a5cb1e2b0",
+      "evidence_checksum": "8f33cc0b0e78623456827c044182b1fa6bd5e3eb83fb4b2204f5dd4414ee403b"
+    },
+    {
+      "lexical_key": "万|wan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2312c717bd2b8204b8b9992bfaa854ab4f75d50c1997505b6fa7b1042c5491a1",
+      "evidence_checksum": "51ff6e76a11414913aee59319a605e68cdd0cc93e6e4663099e1d38a25a5c342"
+    },
+    {
+      "lexical_key": "两|liang3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cd0b70990594b1541fbf20c1edca1fa64b86c95f71a7a2f472c4afe2f9731800",
+      "evidence_checksum": "2fcfece0f15fdeb7acf362b11870b1525cc38b970b3a887df5338bba076be278"
+    },
+    {
+      "lexical_key": "天|tian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "06cf6b8f03f28eb18fed429eed15975eb875e5c6792482fd63e8fe7a263ec0bf",
+      "evidence_checksum": "0f6b2aba4585e452f3e702eefa059c8c686a365f060607dcc5b35e069b580f4d"
+    },
+    {
+      "lexical_key": "分|fen1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9e89dd2d8cbfc14220e64427ff8c8d44f9ae998cca536f19c64d6e960461772a",
+      "evidence_checksum": "d36f66a5dfc15a9796d34a2f8945cf5ee35dfd0888e3a185ddb84b940186135f"
+    },
+    {
+      "lexical_key": "早|zao3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "421c757a1ffbcf8b6d5aa49f6fc317e4ac14ec53b0049f872ef0a6649f07e35f",
+      "evidence_checksum": "2ae0dbcaac4fab9015fc215ae10fbb8988292d8a53ed294febfc9b8fb830301c"
+    },
+    {
+      "lexical_key": "晚|wan3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ccbe3bd49562c1bbd3cfe2cc88990ce41cefc46e96aa3a379295db2f998270f7",
+      "evidence_checksum": "f8479b1c329e8f455f503bce39f4640d450c234c5a6853afde75d86959dff606"
+    },
+    {
+      "lexical_key": "半|ban4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "323894a2cd42923dc885fef99b56eeca8532430c9ad34cd3c05171bd13f6bc4d",
+      "evidence_checksum": "fb3ae414aa09f60963e3a2072cea255c42cd48a86701a113413658fc767e6217"
+    },
+    {
+      "lexical_key": "木|mu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "db576827ed5bd81130584fbd26daf7534e8a89ac3b4cf7003e329317d00a96a6",
+      "evidence_checksum": "1b51cba8f9050316f1b5ca9a5d9a8a1a9bb8c80f1cb936ff6d66310dbfddc13b"
+    },
+    {
+      "lexical_key": "金|jin1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "d19434f1e70870918539cbbdb6ef519c71abba73cd7f3f953a8b42f2201259ae",
+      "evidence_checksum": "c8dc23824651ba2239c5cc8e51b462f7fea19d6abaea12e63a5bf1b5906fe466"
+    },
+    {
+      "lexical_key": "土|tu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "fde2a967b8bdad0a9b54df1514089010b6d9eb2c5448e5b2b3474e1dfbd9e63a",
+      "evidence_checksum": "13df116a6d44cadd97e52ee4e67e2c7e1e0b076eaa486d79a60d0ad430828852"
+    },
+    {
+      "lexical_key": "石|shi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "99e839d43119c93c95102bdd9633e3216afb169c5dc6316fabea3608745a8804",
+      "evidence_checksum": "fa00d45590ac3b99293a7a158c1ece53dc0d9fd423989d8ffee96b0916afc27b"
+    },
+    {
+      "lexical_key": "田|tian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "faddafdf2667257c69ebc85ce873b8714e4d153f466084e4cfc7ffb890057a73",
+      "evidence_checksum": "6fbc8703a79a0befaa0dbaf8009d1659bc5df93c35d292f66b8c7b5152314c02"
+    },
+    {
+      "lexical_key": "雨|yu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1498cd3e6b1c809be4419f9407149cc74ba3096d380042373b3766f6f5777f52",
+      "evidence_checksum": "f4dcd7eee03f810ca15f4e43dc29bb5b6d056474d25a8a11f095650b52dac5e3"
+    },
+    {
+      "lexical_key": "电|dian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7fb75248751952b2721738acfd70969e3cb06d20f9c5de4b93c7f94c8dbc191a",
+      "evidence_checksum": "56d18448d46476b70d4aa7cb1dce54eff5a0b763ce39197a1e279111c84d0a03"
+    },
+    {
+      "lexical_key": "气|qi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "492a4b1bebfe08a703dc90f36c363a0af88a5086f23657e58eb0383716d93641",
+      "evidence_checksum": "5746c53598696d9988bd28c2e8e34880e01384d532518cca1ae6828234abdaf1"
+    },
+    {
+      "lexical_key": "面|mian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2e7b2681a4ac20ebbb68481f24ea81e6f1a2149271706c9f68a37a77bfbdc530",
+      "evidence_checksum": "bfa253f690d438c9199f653fc4564177054032c37920302cbd89c53bdab9a86f"
+    },
+    {
+      "lexical_key": "肉|rou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b06a90d90638bd192ec00913991877124f0748bab90178799f90a6930b61c7e3",
+      "evidence_checksum": "94a51e0f03ed8e632ac6cc40f26e55f0b797cd49a91ecd6120a5a30a831cd133"
+    },
+    {
+      "lexical_key": "虫|chong2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c9c97445033b7e6536bcddc54e2ea58b86566be948a33836758c365e3a6ff1f1",
+      "evidence_checksum": "98f21645115f4477331acc57ad218f91365ff93a06ced3cd7c40ddb961de89bb"
+    },
+    {
+      "lexical_key": "鸡|ji1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bc8add0bbb5a45505fdaaa923eee9d1d0dab1ad1ccc663587ca2ffcff4f74c7c",
+      "evidence_checksum": "b5b23e70d7e88392dad44c261c6638e21fef48099cf5f8c5aac1f40eb21965e9"
+    },
+    {
+      "lexical_key": "鸭|ya1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0ba97152f710a0c0ac4c15c562c65baa2e80501f395b77e893a9a70953176194",
+      "evidence_checksum": "c95aca683e9556521089a52c8d43581264487163ffcc3b83cb1e2f4faa080fdf"
+    },
+    {
+      "lexical_key": "猪|zhu1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1bcd8a81add3e95b7588f3c7ca497eed7f1aef45c7fb1eb720fb496edb0c22c0",
+      "evidence_checksum": "135379508492cb6d81aa216fed6389e7bb3ebcebabae376588f443519bbb58d3"
+    },
+    {
+      "lexical_key": "兔|tu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "56956eca429f739a4f26342525d311a0c27beda43baee5a57053479226f01f10",
+      "evidence_checksum": "e59d9f19598e4a1a7931ecaf04be4871aa1b2b5f1902520687fd285a75409dbc"
+    },
+    {
+      "lexical_key": "龙|long2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cf4982eba350af3f8c5e10b189b684d340fb16184ef36c93d5f9896788f35cb5",
+      "evidence_checksum": "7e7bc6fef133c1df0cf62a69c3e6ab86b2333b07ed62b51ef2c901517758d5be"
+    },
+    {
+      "lexical_key": "鼠|shu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9771ecc8d5f9f916eeea53cfda61c7ba358729ecc8ce1770deea9ec5453f4a0f",
+      "evidence_checksum": "53d22e92037027c5b503dc3011645be2fce782e21df1082065b2cb79d96b64a0"
+    },
+    {
+      "lexical_key": "虎|hu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "743d4dc49025f0719ee2acc9af87bf7f815a9d4c06c706e4ee7aed0bc08ea55d",
+      "evidence_checksum": "3dc53d8b8908e8a5147a947f1d036f5dc2a985f212edf52a1bbb95805a72c42f"
+    },
+    {
+      "lexical_key": "蛇|she2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "71a95caed77155ebee6d7c034a2c51cca1b6c48709fdf074f52c3c1354fbb9da",
+      "evidence_checksum": "dd79d00e760ea2d3dbab76f2619129e009537595395760015e2546e7f58f6932"
+    },
+    {
+      "lexical_key": "嘴|zui3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4cf5e35190194065d696898176d0302655f6a6e3cdd8130bd14deb2e411a51cf",
+      "evidence_checksum": "f67f7f7b30e65a48ac89f9097bf554ec8d5b1a87c6cc12db7548be5a0194acc6"
+    },
+    {
+      "lexical_key": "牙|ya2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b991418ee24b9d43babbc3538a6eaff1ad51262553ed8e2c2a7ba27f228294a8",
+      "evidence_checksum": "f17f2885848fbf53da4d1885791f05f3da50edbe4a100954132734e522f4c429"
+    },
+    {
+      "lexical_key": "心|xin1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ea355afcbe6a71c1ebb2894eef4856de9123a62ace368515dc23f238dd8943cf",
+      "evidence_checksum": "2fa4146abd511d62ea544bb6451919ca0fc38279b1427ed931cdf81e02e76df3"
+    },
+    {
+      "lexical_key": "皮|pi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f90d1c47a44ee124fa3088f8dd5ae30fb412bff5a3345761609293c39d926b31",
+      "evidence_checksum": "4840a546f790fa5ceecf4e55d3c591d7accef3fb1ab88f95473627a18de305b7"
+    },
+    {
+      "lexical_key": "血|xue4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "21fddc7705a49f5d3f4519d019fed75ea3cf17a8a958bcd0d6157f705c3f8220",
+      "evidence_checksum": "5e3efbf7ac24cbbea0c630fd40bb8fffd731cd9fb3eba44a816d47f5e7868d00"
+    },
+    {
+      "lexical_key": "见|jian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8fc36bfb94abaca2183d44174970376c9182576659b38b84b43024975763253f",
+      "evidence_checksum": "9335c44f99b0ca4db33a2a2952aa13f8fd893b721fe247ab1d0f5c5aaec9ff22"
+    },
+    {
+      "lexical_key": "学|xue2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "119ef421211f1d9e8b6aef6f0fa8eec4dc166fa0ee3a3c21bc43e74a6a24f8d2",
+      "evidence_checksum": "fdc8f68f1b9160dde179b726261550e7633e0ad12f051f3f129d26a5b314b628"
+    },
+    {
+      "lexical_key": "答|da2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "da9f9ae8820045b3e2ae8cc7b179e52bedf50553449bbb08b75fad29c3d11e2b",
+      "evidence_checksum": "a61ae7ace3d1cc923b90a2c02fef4113b95282e598deaeb68d28995864d51652"
+    },
+    {
+      "lexical_key": "认|ren4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "40259083d890f0f36c732f57fc32eb1a0ff55e44a39594a493911490141731e0",
+      "evidence_checksum": "65b8d616503360a1ef1b2e11e81321a8c252f5babceb800d251fab7c20fd2af4"
+    },
+    {
+      "lexical_key": "站|zhan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0547e1ca0b6a33f15e3d0801fc06a3a8a7228c98fefbda573c9db58d05d69bf7",
+      "evidence_checksum": "b524814a588061657b28e99ab127e58ed2a0399ca2199fbf87baf7312ffe2a67"
+    },
+    {
+      "lexical_key": "用|yong4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c91344dcb31181f53db9ac277458d239e59fb7350f2364cea05096e3572ceefe",
+      "evidence_checksum": "4003d3a2e9f251e88fe14ee00956e1fe34fbda22e6ec970e150ff9812ab33416"
+    },
+    {
+      "lexical_key": "打|da3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6221fdc4fc5e616ac296166ae5e9d31f7d7a9afce2d4ad5ce6ea891e205e659e",
+      "evidence_checksum": "723d84c237fbef129cbdcfa33c65a2d5db8764944f5c7e012df784df5505dd26"
+    },
+    {
+      "lexical_key": "让|rang4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9f4befe19c0b06b97f35d788273ded7f7072c101f9b5a167ae2054fcec8fe672",
+      "evidence_checksum": "886bef5ffeeae2abd84c65cc515ed6f0c4bf43ea0382e134454c8efdf90a3eef"
+    },
+    {
+      "lexical_key": "帮|bang1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "85ce0cfa24f444f0eada685b0bcee93f2a32051f08cad92e89cc5222e784eb47",
+      "evidence_checksum": "7090b60f925024ed588dfcde1692108cd1841450cd085a3aed457470110bb949"
+    },
+    {
+      "lexical_key": "唱|chang4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8d2e22c0a1eccd5c1b39854811d047b64e4d1b5223bf77eecbb39fd0496fe74e",
+      "evidence_checksum": "1340469528b99e66cc93c1fd57846ae967b755ccc54f1fe92989692b921f7ba3"
+    },
+    {
+      "lexical_key": "睡|shui4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c5f06053e014bce537fafb9ad07c6756798b6739052fd3b4c0a1a2b3ded1a77e",
+      "evidence_checksum": "4c1424b468707ee7879c32fa9f50e2c246cc1a034c1f892ecaa46fa6f0cc9e4a"
+    },
+    {
+      "lexical_key": "醒|xing3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bf950c8c1e44f225436c31bc5807f20c9071183f2cff8e98fad5a16f0bb4bd4c",
+      "evidence_checksum": "6950dc26075bd1d1abc0231298b8b5a25724abd967fecaf5a5d17c8ab714a892"
+    },
+    {
+      "lexical_key": "又|you4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1e8416dfbca0f95b4c77381d5740368b6549b412703929ae666081e896cb9ff0",
+      "evidence_checksum": "235c6d682fc4e4ce5fb0ff40dc9770f46ddd830841483c26709d5beeaa6a38fb"
+    },
+    {
+      "lexical_key": "更|geng4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9581d835e596bc6a9f95365051865f38732b68822f95201ab12e3a94b6f8bb7d",
+      "evidence_checksum": "dfdbfc7692316c3519566c1ac0921657ba42ae1ce2fa4c87233525d9f64cfb41"
+    },
+    {
+      "lexical_key": "最|zui4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bdf25a06dc17a6508c0633075f0e055af5010207a23ccd6711a9459c6eda0006",
+      "evidence_checksum": "33669159aaf006d5a24e8155d881722b3a13919863ac5e84d7bf853ebfba3643"
+    },
+    {
+      "lexical_key": "哪|na3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0a3f53b7d6318da72e4d1cc4346d64f707e5b86a021b329a91c233cce7c1ed7c",
+      "evidence_checksum": "ef2117810cf2d763dd8cfac23dd60d8340501d427c524630a1b7180068bc96f2"
+    },
+    {
+      "lexical_key": "了|le5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bc3b1ef0d5acee1fab5fb0b53edb6f9502a2aadfda6136de7d2119f790812763",
+      "evidence_checksum": "030b6114a7cba7d95d609e2672f67c0fc576e5ca96a8fdf0de87ac3648a47d81"
+    },
+    {
+      "lexical_key": "过|guo5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "be92d508637e83a1002a2b22574299f1fc79310e684c037a0f986178cbb011e3",
+      "evidence_checksum": "7ba9aa15fa432e94cc10de3998a538d76fd03da778cc82c8e4dd07ca7ec8f053"
+    },
+    {
+      "lexical_key": "着|zhe5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f38dd5ad68c15d0315410fab281b80228cbf4637e24a5d8ca350fcf079507f25",
+      "evidence_checksum": "88eea4694a61a685372671f932527025692f65b4c2fdeab2e4ee4a32231ff184"
+    },
+    {
+      "lexical_key": "吧|ba5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "28c0207e1c326be91163a45dc48a0eb389ba0af3673cc17ba43cb9d79bfb01fa",
+      "evidence_checksum": "9f17594c8c2b616784b95b656c6b75416de9acbca4ac5ba514592ffb2b2ce782"
+    },
+    {
+      "lexical_key": "啊|a5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "358398545ed5e4470ca67005ce3e8ff98aa2f409fa71fdbf75b7698abb505041",
+      "evidence_checksum": "c811e36b1accb3e690a5104125c88db6b35b11b65a1042d83fb35b253b323f5c"
+    },
+    {
+      "lexical_key": "跟|gen1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "11af260e8658d6a6dff57e4077b5e2ee101c07d04a6f955364dffeeaaa7c5924",
+      "evidence_checksum": "473cb523295056a685271f2d32825041236c674ed702c78ce91100353422eab3"
+    },
+    {
+      "lexical_key": "被|bei4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ad7516800073d5d179ec58889894217201ac39a356bc32d7f413fb6c322a1c4d",
+      "evidence_checksum": "89d1d6d5e192c7ec775a16e00237ab823b25f4e17ba3b4020691b92fd434164a"
+    },
+    {
+      "lexical_key": "杯|bei1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "d46aede1ccc0ef665a3eb7eb8240cd1e31995d5d3da0f7a636e8c94c9cc63be9",
+      "evidence_checksum": "46d4372ed19a3f6d8338386277e288c1f4a168fea347a3e8f941021ec024cab2"
+    },
+    {
+      "lexical_key": "瓶|ping2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bed329ed858171cfe7973099e892b9fc5f89cbfe63d1eeb51f16703c0d53147b",
+      "evidence_checksum": "a5bd2dd414316b0891275ffdb7d16c323e6b2c284afadd1d3b3c20a179076e07"
+    },
+    {
+      "lexical_key": "元|yuan2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a6af0e56132d17daaddad9e8088aff1edc8f1f74c83ce3514f7e037da5cd537d",
+      "evidence_checksum": "9669c87a4de7ffb0210cc61b3afce033d1fd2ae9a120b1f43ba2de2db619f51a"
+    },
+    {
+      "lexical_key": "角|jiao3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "14459acd22dfc56ae856f5493183220758e79afaf48f065f3cd6671001e5d462",
+      "evidence_checksum": "d8ff3caa82602d15281beeb615366913562503b4a923da36ee10343464da4d1d"
+    },
+    {
+      "lexical_key": "里|li3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "783b351caa6e57e8733a69701def2fd82d439ec241f1acf123ad548c3bb197e1",
+      "evidence_checksum": "fed35ddb4e8eea17ee604ba0cd821708e75499ad87e73c44f43d78e83a7bdc0b"
+    },
+    {
+      "lexical_key": "坏|huai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "13f426d83e595ffb6262ad4dec03107af8db62430938624d7080effe628a4f22",
+      "evidence_checksum": "7e5530a1e6e36882abb7b8eedb69dfe35b6b41a55447f4b1eedd43615546687d"
+    },
+    {
+      "lexical_key": "轻|qing1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a2071fdf5e9cf9fe63f6229cd13f6363036a499f73865cf2ee4434ff5cf4b1a4",
+      "evidence_checksum": "6991cf95499f5a810212605e2c16436533df0b3fa150ff448af9eb0263cb583d"
+    },
+    {
+      "lexical_key": "重|zhong4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "745f6d2da91c0e6424ed58435efb1e5f0a52c7f7e7ddadcfd1eaab79d7022142",
+      "evidence_checksum": "db5fc27e5bc6f7531059df82ec469c00bf0810a0583fcb2ae4533339603aea8f"
+    },
+    {
+      "lexical_key": "病|bing4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5a9227493f37859d6dab037b71716729a3f4317d3e91a45bd8fff5aaa05dc5b9",
+      "evidence_checksum": "14098eea7f747cbea4758cf6cac494f0523f0d4e8861cf2c304714677da0331f"
+    },
+    {
+      "lexical_key": "爸|ba4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "616dbec747b834d49aea347b4e615005f48cdb7586e4306c93d2c618fb2836b4",
+      "evidence_checksum": "591c87c8045431e0068f5e31463a998777932f4e7c32755231b2a1631801b347"
+    },
+    {
+      "lexical_key": "妈|ma1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2e6cbcb439b551e506cf020b6943883ac77266e2516b0dec15b00ce1edfd0625",
+      "evidence_checksum": "c637543c4f28867f45878f0dcadc0e22a4937eac7ca259ce099f4b33282e6df2"
+    },
+    {
+      "lexical_key": "哥|ge1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1f636cc18b608fb7a0604ad2fb63b5a140ff33bd0cd365c819c916f43229c183",
+      "evidence_checksum": "80022752b9bea4e23b2e87622bb007bf946731e4e4694e2dbcbe937e6a7bc3c3"
+    },
+    {
+      "lexical_key": "姐|jie3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "da8399fd1e2318b2664237f8566ce75df3e8a9c27fcb585c62fa87c7305833a8",
+      "evidence_checksum": "85112b246f5ad9978265e8ef34e51ca1dc0a9e7861a2e1065cc6cbe83b13e9ea"
+    },
+    {
+      "lexical_key": "弟|di4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b5018b62deb119d1b05216c82644c0c84a1081e5ca87bd3c297391c633a2fe7e",
+      "evidence_checksum": "bce428146c0077d8444eb48ebffdbcea39c9fa511ecc9f1503b76fe953be76e4"
+    },
+    {
+      "lexical_key": "妹|mei4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7821d76d5044f4ececf6a5c58b5bcce60e40c6f74d87a4945442e45ce5376160",
+      "evidence_checksum": "9a9ddc7479b6e027b4b0575aac38eba6b4e4660d791b47963a16cb2a31eecc89"
+    },
+    {
+      "lexical_key": "房|fang2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "43b3ba28d7c6b79bc3a46b166a96e669e5a32326afe179048ffc7c357768e04a",
+      "evidence_checksum": "c56f2a9f8cbd1a204d323fd379ff81c2f03310cad20981c1836703af331edcb0"
+    },
+    {
+      "lexical_key": "窗|chuang1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "61401f4fa2bd872ef94e30f6bb2a8d27738dc29c4cd1e1f17cd0e8bfe348a2ce",
+      "evidence_checksum": "dc16d8e4102ce1ae33d640c1bf8c5e9f4078a9b86f4150d8fe65bbf5e9ec4b7b"
+    },
+    {
+      "lexical_key": "床|chuang2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e59d476527097dc9140151c6183ce1da3eeab8f228782d446b77a80cf4f7f6fe",
+      "evidence_checksum": "22b4125f1d4928804d51fa162d172c96a20466385aa389a2fdee6f28d9f88e97"
+    },
+    {
+      "lexical_key": "笔|bi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f34d91da3e01907721a8896236af7d49b7d0e226179ab758ceadecc0a6740664",
+      "evidence_checksum": "93ee04a748267fb5d70504207d327c52ba587bfe4a24a299e10f7e14bea4de2e"
+    },
+    {
+      "lexical_key": "纸|zhi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "56de02d89621c6c48a881fd96e58c6302d576103c46d967225b3b2fe05a461f5",
+      "evidence_checksum": "8be690bf8a7ebf27a497d88b8b248aaeefe92984bc483d44134e420f797b10c5"
+    },
+    {
+      "lexical_key": "车|che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "63a326e820dab7a3f9c1e1b37d39e79a619d71ee8c7bd06a0becb153be490587",
+      "evidence_checksum": "1263ea73e9dfb165b4b4b9fabcaea66d12f3d9f9749534fef454623b0d91def8"
+    },
+    {
+      "lexical_key": "店|dian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8bf3c2a06a174803da40393164576f30e4142d567af53fcecc003284dd6c7c39",
+      "evidence_checksum": "7e04bcc8123ce37f5ca29394f21388ba625a9cb39790b70e909432b0303bd18b"
+    },
+    {
+      "lexical_key": "名|ming2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4712a53f48f00dedeec23d63b017bcf11654e0c2691212c482e1b8cdeb20700f",
+      "evidence_checksum": "be8d674fe58a345edebdcdf8d7126a8d8f573b623e723ebae252a53e1d00e83b"
+    },
+    {
+      "lexical_key": "课|ke4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e43a0f134d4f213b6e67c8c4f45d05b19e514279fdf3d039922811bc27bf2338",
+      "evidence_checksum": "bfeb6d1ac68261b1b38e127e9c1ecd3c6f225be93ae2ff21a5a8849c8c4b23e9"
+    },
+    {
+      "lexical_key": "班|ban1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b109af4a3691fc9134157eaaf2137c093d4f868ebe84d41a2ece85c143ce4272",
+      "evidence_checksum": "2567c9dd9614886576ef65b02e372ce7625c4f712398bb1605345e62f5746daf"
+    },
+    {
+      "lexical_key": "力|li4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e823b54b8c06adf742893fd7f9e600fd92484e1fea65186b36cd3938cab401b9",
+      "evidence_checksum": "837afdb6bdaf0803c91fb1a11e3ad2cca0af7f4ac1082c027d31d4c5bf6de5c1"
+    },
+    {
+      "lexical_key": "今|jin1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6e101bc9adb139e0e5158d577607a57a2a08edcd61f13729ed9b082049303c3c",
+      "evidence_checksum": "470f68c10c6844a6c4a86b2108aad7c4f1595a1f5c5b631b470f036ec048071a"
+    },
+    {
+      "lexical_key": "儿|er2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9d93440f064b5ba23f5e8137b00b3d5520045f4aad8308de5843c80dd7c78cd6",
+      "evidence_checksum": "442678a64858cdc9f5be911d1af8d13890e65aaf92b11eaa76fa88f8d550c7c0"
+    },
+    {
+      "lexical_key": "午|wu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7fe4e6daf4575072ac352272cd0f02a8c9376d5b3092398a8ceb3735cb2b98a8",
+      "evidence_checksum": "1f8e4f261ec0e22380d31d46e58a3e5a5090b4d7ee673f70255f53ed4b15f6ee"
+    },
+    {
+      "lexical_key": "友|you3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e9753ed93a1d907b6f2b122500e52afe00b529bfa0675c509cfb22ce7a25511f",
+      "evidence_checksum": "3a04ea60f0d862f86dffbf764d6855f3a7096e55b4d2a62a722c80dc0d232d6e"
+    },
+    {
+      "lexical_key": "国|guo2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "d47f69b4d338f9371f0da7613751d32aa6db2b249d2a36c6921a7bbea8695024",
+      "evidence_checksum": "270d84006445288c17cf8f61c44f0f6c189cc04060d932b76b0372a31a6ec831"
+    },
+    {
+      "lexical_key": "子|zi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "34f202921e76e2b0336b18e10070d0feb0793e63113e346f16bb5fc1f2d9e537",
+      "evidence_checksum": "3d252275eb978090a799c2cbeae9613d65f1461f709b420501309681b3966794"
+    },
+    {
+      "lexical_key": "孙|sun1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "452584e7b5e4bfccb8103931c2c1b883ddf97dc401d551c55b21c1fa527d9f95",
+      "evidence_checksum": "885bbca8b9c8799d812e9e83f802ea3e2b47ffc2b833e38ba4fea351b9c0d6dc"
+    },
+    {
+      "lexical_key": "工|gong1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7cd038424e58d1cc2611ad3946a092d4a821b7be8fc81ce8694f54df172cc9b6",
+      "evidence_checksum": "1c7aa11eadf483e8574d91191c33f40ac989b60a8c0945486d75c03819e121cc"
+    },
+    {
+      "lexical_key": "市|shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b89af681cac4458b65478bc6cc9451d3fc3a091d2f0a21292352c193177040a1",
+      "evidence_checksum": "4d00352ca8d6678c83026fe85dcb5f253e883640c14ca2fbcba16779e2e1d45d"
+    },
+    {
+      "lexical_key": "师|shi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "639442519d886bec0f853758b797084ceb632ba3b72dae30b6709d394ee1a0de",
+      "evidence_checksum": "6d217f90106fec88fc3cba4090bab22f0ca2213b490ac900741d8ace34788c89"
+    },
+    {
+      "lexical_key": "文|wen2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "69ce250a52e6b164d49c8264bd5063b49891f2e0a23adc844ef554129ca9970d",
+      "evidence_checksum": "c9f1806ee60143c7f800277e1bdf26325182c0599c9be8ff86b4f700b5a25cdf"
+    },
+    {
+      "lexical_key": "时|shi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "08e15c5c5a615028ad74c3b2c0ad71d0a727f0d15697e52e5ec1f93ba5f44961",
+      "evidence_checksum": "c2567cb39eca298dd2986c9ca998787887b183ee32a043a045f92625fa132f1a"
+    },
+    {
+      "lexical_key": "明|ming2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ffe57ae7bc383a150bb9fc65a8623de11d53c3f5b3142c8972ace5fa7366f562",
+      "evidence_checksum": "da3c65e9938eb24495fb1f52f4e6e6194a12a2fd10c68a64f85d3e7a40c6f6bf"
+    },
+    {
+      "lexical_key": "易|yi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "64fd86c0b28b61d05812a4e45501184b64b7df36d125e5d9babf8841a777a69b",
+      "evidence_checksum": "5da1ecd0be76998dfabf8990279779ff315dbbd1a0396535fd548d8b54559bb0"
+    },
+    {
+      "lexical_key": "星|xing1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4d0df9e6247b9563036b9e439c23cdbf3e80ff8a84759142474f80e6075079a7",
+      "evidence_checksum": "ece537faf84814a22f3e894068b95636a2a5d4f0865c8c891fd0e4b8a2f7503a"
+    },
+    {
+      "lexical_key": "昨|zuo2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1e367f13a210542639c5d7156fec3584aa1f59e4f2e8829f53054a43b3664faf",
+      "evidence_checksum": "727608370911c8d69d0e32000e98df68ff44b76f5d8647abc54a44af14a493ee"
+    },
+    {
+      "lexical_key": "朋|peng2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9f104ec89496beb788658a7bdaa56763d49aa78a87be1d27c153c270417e1984",
+      "evidence_checksum": "15fb727987f2cbc15fd1294892ca2fd0e4c7d95414a9f98269dceefe286047ac"
+    },
+    {
+      "lexical_key": "校|xiao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b1f867e133ba0385775c9dc96944b3146dc2ba9cacba2c7e7ad4c0e19760b2f2",
+      "evidence_checksum": "5d48c2cb5ab9a4dbca8cb7fe8a69a4e81c1e849d1598db293d8cd2669ae173ff"
+    },
+    {
+      "lexical_key": "桌|zhuo1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1bf7a39b02ca1ca3fbcf0bfdd056c27f2f1aa43aab5dad871e24cf1dfbaa3953",
+      "evidence_checksum": "668785fd92f14e491b1892157b907873989cf5ab10e0d43c0028052afb660761"
+    },
+    {
+      "lexical_key": "椅|yi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9e42949cb8dae4e33861d9188214ad99c4c53e3ee469f31b3610d22dd03e9fa2",
+      "evidence_checksum": "245049367ec33169212849f93e3dd6730a66dedac01321f118913d28808b34e7"
+    },
+    {
+      "lexical_key": "欢|huan1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "da0527d1eb2c3d7d0d179859493475385198b196c1f76a239643fd22567e1a2f",
+      "evidence_checksum": "389384f33a310abc23e72f92842aa7ebe7d80ea3cb5d715918861d2b91a89883"
+    },
+    {
+      "lexical_key": "汉|han4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8f45261bb476408c18bea7341d396b0d6d6d122f1c76eb6f4724d9c5da20303e",
+      "evidence_checksum": "c518f5a809e41d10e2dd4bcc393008e550208a7d5d4d9db6392d61dff019dc98"
+    },
+    {
+      "lexical_key": "生|sheng1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7675540a90f6cbaac422731e6232d164d91f12ade227994dd792f1b307e5bd24",
+      "evidence_checksum": "713255f914c28ac5587b0f45e09969706e6d57057686d1d8b66b79f36357f07e"
+    },
+    {
+      "lexical_key": "眼|yan3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9efbaab4798b9b39b345f90f39bb08965dfed5a49350d8aa03f82669337b4e73",
+      "evidence_checksum": "c74c85f2f2e021159bfb73b66e61d7e7e5358f299b7bce5702cc447cace7f384"
+    },
+    {
+      "lexical_key": "知|zhi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6515799555743659ce49b90ebc44ea97e51a2a9b4fa8de141a20d5b23605fa25",
+      "evidence_checksum": "58de32bc5ce00496307cfa746593fa8a98aed575de392df6dadc4c072d9c3aed"
+    },
+    {
+      "lexical_key": "老|lao3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "07c48e6cbfcb0d4fe43e2bb16d6b3ed54062996103ac4ce71cf16b9292a31f61",
+      "evidence_checksum": "16f8cc9bcaf796b0801bbcfa6d91e347e57e5a673a0317985ba5a4157a5e9592"
+    },
+    {
+      "lexical_key": "语|yu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8106b10ac19bdd6f4760fc204b6ad6c923907a1545614ef187e5e5310a238493",
+      "evidence_checksum": "b373374a5730e833745dba951deac27a007e738db1dabaa93b845bbd4b74864d"
+    },
+    {
+      "lexical_key": "起|qi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8a33ac3ccd61fd8149f92fa0eb76562f98bf21ac6eae2e12ff8d34c8a453c8f0",
+      "evidence_checksum": "3ec35815c11a4d426e330dc726f09d9a426b5052c12d45f5fe16b4a853f6ae9d"
+    },
+    {
+      "lexical_key": "身|shen1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6122134021859941de0bec71ee1b543429d161dc3a6659e97cbf2aa4613a72d8",
+      "evidence_checksum": "3be13ceca34a387aed11129c47b31b8006d019ce00776535147b640fa42046dc"
+    },
+    {
+      "lexical_key": "鼻|bi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2f291762864d68e103cbcc844090985d55b42b04e53151ec92a49b5ec60a48f4",
+      "evidence_checksum": "02f51ad5f1cc832443c5b2b38949cdf8fc418bf53b4e581b267f1c6e7fa316db"
+    },
+    {
+      "lexical_key": "它|ta1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0d7de6b0a0405e158115e69baf6fc6b272b16392eba21f45580b994b30e77187",
+      "evidence_checksum": "8c307b64273ae4182d3e54afe956c23fbb0cda2fc89a18591c7aea58254f9dda"
+    },
+    {
+      "lexical_key": "它们|ta1 men5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "07ec28401dfad18b5b161bfbf9e53657fa40f20ce44ded3477c52213d7b26d26",
+      "evidence_checksum": "b1ece8189422a757c88e85eb4f8a820426e49003027eca08232b509329feb8a0"
+    },
+    {
+      "lexical_key": "大家|da4 jia1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bf16ecb413d590618cfa40ca91dd8a43b914b4d38ffb8db0a30fcf4e0a65d017",
+      "evidence_checksum": "33b8551e207f6c9b3ae6d3d4db70f7f85d5d200a0becc6b21e78872aac625452"
+    },
+    {
+      "lexical_key": "别人|bie2 ren2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "dd0107bd9fe79ed6e7c8a51041a2cc8854f272932bc21c5369985409ef0cf1ac",
+      "evidence_checksum": "52291bd4d0456bac8e34f0d392b96b0288c7c96cd7c5923e66bbcaee7634f37e"
+    },
+    {
+      "lexical_key": "自己|zi4 ji3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "414dfd80cabf8dcaf9b557e692cf1d51eca5193145d3cf7418e5c5d9a506b8fb",
+      "evidence_checksum": "d64196fa48cb17efc4bea46bbaaa298d8200ed649117e836df5a89737804f442"
+    },
+    {
+      "lexical_key": "男孩|nan2 hai2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7e094e188fe87f97df2b9011a83dd3373715eeb251174c8816918b368f416fe8",
+      "evidence_checksum": "727eff522073556756bcd0170369cb67fc28d1fac6df10a53426e2786b32b2d4"
+    },
+    {
+      "lexical_key": "女孩|nü3 hai2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "42dfdc843666b819ec25de54cb7771cda8216b4bf72f49b2c3e2b4c3c0541301",
+      "evidence_checksum": "8db206e941d4749ac9be507a625ad27d523e34fe10e0a90333610dadb94836d3"
+    },
+    {
+      "lexical_key": "男生|nan2 sheng1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "089dff98909d780d0b7f60b430087fde43d8732be724429eb8ff7a03ad81a84b",
+      "evidence_checksum": "32ff86c1fa807189e323d51b711368a0dc2304e189cbc86d1b435a88e44695ea"
+    },
+    {
+      "lexical_key": "女生|nü3 sheng1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3e8900a1f77680d605609a69275cc50b9ead977f8daa27186570c6da95c2d569",
+      "evidence_checksum": "c40442f0e794c2f2816a87eda314825a36ea0698e197d189aa46eac6b939db83"
+    },
+    {
+      "lexical_key": "男朋友|nan2 peng2 you5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "17efeaa1a0baa9401b9f7484a3baf67573c840346c531ad9d71ad91f7b49224b",
+      "evidence_checksum": "6a8123e15e43f4077618e21bf24ef657f8bf1098b6f6dd59945134fa063404ee"
+    },
+    {
+      "lexical_key": "女朋友|nü3 peng2 you5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5201267e4f42578cc9ab9eb5dd063fdf420e991d0956cd57d0a7dffb27745080",
+      "evidence_checksum": "8319c71ac94b2f671209bab7eb75e61f983762eaa9da1e853ea5587a8622a367"
+    },
+    {
+      "lexical_key": "外公|wai4 gong1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "553d07947148448904df172c7a7938ec2f5a3809c79dd22ce2b5bbaa9b828d06",
+      "evidence_checksum": "d44c2423df23856087799a21ddd8283f59106024089f199a066e17b1348f563c"
+    },
+    {
+      "lexical_key": "太太|tai4 tai5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "83ac9e386546f499d8814bb07f31e30760ce86ecc551e54d59eca19b453bc8d8",
+      "evidence_checksum": "4fa2d3c449a37d66d8e514dc50e5b327685fb400f2db77c0e2e6b4daad802a3e"
+    },
+    {
+      "lexical_key": "家人|jia1 ren2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b1591a7df6698411a136d41b717286b9f826f1571930257dc0aa38305125fa53",
+      "evidence_checksum": "df26ef414ae9f74059426b8c850f2ccf02c6b2e15edec1d81561e44343fc21e8"
+    },
+    {
+      "lexical_key": "老人|lao3 ren2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "51c548536575e88b3c6dee1288eb7742f979f53e30f1ec0b353034ae923c8158",
+      "evidence_checksum": "7ef54861b1b85b3af1961cc0e3f09f73f4ed2a31b47ae5f65c9cf6662768a389"
+    },
+    {
+      "lexical_key": "年轻人|nian2 qing1 ren2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b205881bc4c0bd3bafd3b204d0501c9364acc2294ebde77dbf8acac0430cc73b",
+      "evidence_checksum": "71686694b8b66dd0ff6f115bd77caa92d88e9f2c5c34353a9d4c487e306eae93"
+    },
+    {
+      "lexical_key": "耳朵|er3 duo5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7855c8772bbc3c38dd592e757957b58a4451466af71989ad1aa3d5d6ca5ee512",
+      "evidence_checksum": "57ce67b85041e16f90651514572f0ac482ead97fc71a1ea2e6ec4daa082706e7"
+    },
+    {
+      "lexical_key": "鼻子|bi2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c728d2e0581df0b92ecf1c3889f186374b21fb4640fa2f51ebd883de88ff6833",
+      "evidence_checksum": "52dc3c76919b4e0003023a078bbb33e17999787c548fb089bbbb78f3cd423b79"
+    },
+    {
+      "lexical_key": "嘴巴|zui3 ba5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7e693f0255fd9359bdabeb12536a74cf60f91f2c0c517a642571a30f38f33405",
+      "evidence_checksum": "06fed492296030b8385fc527124b4fd374cb04c24d23939a048f950fdff79773"
+    },
+    {
+      "lexical_key": "牙齿|ya2 chi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7d47cc5137d28f637fd6cb9b97ffde39ec119b1ae500db80ed3ad229b9977f0c",
+      "evidence_checksum": "8e582853eae36fcdf8bee1e2bebaa57f8e42d8f764104f4f1cbe8035dc2daf25"
+    },
+    {
+      "lexical_key": "脚趾|jiao3 zhi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2240844e74f053e1bb5345a70ebb78e00bcda1a5808632dda3def20fd9a13d4e",
+      "evidence_checksum": "a75d5bb4ff81b61b118ce3ee010ea892711486fc8978396bc831dc9e33b20653"
+    },
+    {
+      "lexical_key": "手指|shou3 zhi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6a74a460d26651b51acfbaf826f361c84ea6fbeab7877696c47a70f396ec8a63",
+      "evidence_checksum": "6f150facfbd4192eacc9a15a9eab272743b3c0547009f06d79a920578a1a390d"
+    },
+    {
+      "lexical_key": "脖子|bo2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c871cba66e12b444919ddfbe3ddd538607afab96470d940fa9aab10e84c40fa2",
+      "evidence_checksum": "c5d297fb4a593865e2b2d33149447a091881919995c49c5cc93ffed45b78a8bf"
+    },
+    {
+      "lexical_key": "头疼|tou2 teng2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f0d9e5c0b0b9de05c30ffce08bf138cbc73739bc171e5526c8c8e555d04a6f0e",
+      "evidence_checksum": "6af475e5416e91ce6b040ad1638d73aa9916800b330aee0684610253f5feaf0b"
+    },
+    {
+      "lexical_key": "感冒|gan3 mao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2d890f9dd42d23d9522ef2965e94cac1dc494c97610045d58cc8786ca9b1512a",
+      "evidence_checksum": "dd201bbfeeceea93156db821c54a991984ef94aad83846dae8b003b1c39054ee"
+    },
+    {
+      "lexical_key": "药店|yao4 dian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0dbda19c80453d5bfeae64700ee320854dcbcd6dcf5400b9c4b9896e7c3366f3",
+      "evidence_checksum": "d1169de4bf352f1aed6aa5ae370e8c45dde203c634097028e5561ccfade9dbaa"
+    },
+    {
+      "lexical_key": "时间|shi2 jian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5c3bb737e67523987cc84ab3fc2452e24ef5897062d842370353e3d688530593",
+      "evidence_checksum": "ab3fdaee04e40d39416914ef8ec31e3b4fc52fabcacedb6ad6ac866ea90a0837"
+    },
+    {
+      "lexical_key": "白天|bai2 tian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b70550c08a648bb0ee47c2828c955276e22977392dcfbf51c39862b7d25851bc",
+      "evidence_checksum": "60a7e454a6bb753c00a1eb7a1ae939b4f0350a65ca5c1ad89f87d60acb6e25b6"
+    },
+    {
+      "lexical_key": "夜里|ye4 li5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "210cae48afda4681c006793cae01caaeadf8d13e91c219f2e557872d1c474d41",
+      "evidence_checksum": "956ff5a613775f259a24ac447129a81551ea61e4e9edd84ca3464349dff7fa81"
+    },
+    {
+      "lexical_key": "晚安|wan3 an1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1f8bc21e5bd27df53322362832176bb91e8abccef08aa25318da3f0814d0f8c6",
+      "evidence_checksum": "9407cacbfcd8708da3c65caa1313401a7f46cf1b24466bb5384138d43e43c079"
+    },
+    {
+      "lexical_key": "周末|zhou1 mo4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a91cd865a1b57443f75939b56b5986ec6d0cb2fdd2815828f49341c5aa21c419",
+      "evidence_checksum": "b3f30929cb026a6d9b6b59e89c6623dc0cab9eb905027f75b18a573f150af1b5"
+    },
+    {
+      "lexical_key": "周一|zhou1 yi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ed7fef29aa331798c879bf59f309b27456e6efdb6a96a2c8e50e9af9ccefede5",
+      "evidence_checksum": "ca22f4de31671c70f52f5218a435de9a55a7ab2ad1f2bcfa55db10f09a7930f9"
+    },
+    {
+      "lexical_key": "星期一|xing1 qi1 yi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c61d8f487663bfb5b4db302db00212945df6e5f6010d524412313429979f1d93",
+      "evidence_checksum": "cb8870f5671970d74b552c9dd0a51e904daefa233eb6b0824db2ee7fb8839a97"
+    },
+    {
+      "lexical_key": "星期二|xing1 qi1 er4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f5b886985d654e7d340ef3a72030345a9f1519386bf6beba47f2ed8a7ac1b709",
+      "evidence_checksum": "7edd822d3c433c53e2c8e342ae397a1928cbf7e65af78f624f2f6c50d5c42c09"
+    },
+    {
+      "lexical_key": "星期三|xing1 qi1 san1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "aa23fa5d13011cbca9c69e49e235b08955dd4febae028f7434ef58a4b8c34dec",
+      "evidence_checksum": "ca5d7bf0689a21b5c02a259c71570c25f3d8f947a2a80a1652dfe427a39ab5cc"
+    },
+    {
+      "lexical_key": "星期四|xing1 qi1 si4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "81af30cf0d1c76e0af5c2358593d0138f3030ab0487c96aa3113f02a8014f6cc",
+      "evidence_checksum": "addf55ccbe09cdd7a641337be630697cf377df480136a009035bf65159aceaa0"
+    },
+    {
+      "lexical_key": "星期五|xing1 qi1 wu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "571be1ecbd7f8d4688190da76610616e778aec63044758651a649feefe7fae7a",
+      "evidence_checksum": "001ea4ad54fe488cdb280339503348f4dee2c7fab8aa9377743732568012ae87"
+    },
+    {
+      "lexical_key": "星期六|xing1 qi1 liu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4383c413dbf8eb98d37a437db118f5bf24806104991d7620274204c42ea5eb8a",
+      "evidence_checksum": "8571309902e6407a460ae990323bf1e1793cd7da4afa14b13db2a719b71aecc6"
+    },
+    {
+      "lexical_key": "星期日|xing1 qi1 ri4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8ab3fd1985432722810e961d75d896078901a59b30a55068780c96b096dc410d",
+      "evidence_checksum": "27c9df46fdd510cd69b24b3f697a263c32f48833ac99b49c03d81f9837b8b440"
+    },
+    {
+      "lexical_key": "星期天|xing1 qi1 tian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4109aca683537dc2dcd87a96a1feae71b5423b3998463932bdd1c17dc37921f9",
+      "evidence_checksum": "173ef61cb35cbaaf4b37a8017543bfa1adfb833d2e6031f7d1119f7b2fa8ab67"
+    },
+    {
+      "lexical_key": "今年|jin1 nian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "faedc055dec2c164e74c5865829b8f9faed7717b7fdc4186f3033559d497061e",
+      "evidence_checksum": "23a23457173691b8a6a0e195bf61525ba5504efafa6d63ea0428e9596b7bc184"
+    },
+    {
+      "lexical_key": "生日|sheng1 ri4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f8388d19c18e1003507414920152aa149dc990d550473029bb392737904869aa",
+      "evidence_checksum": "903372cadf5d4f66689cb4cdd65c34fd41db5700bf23c3c5bb647be45c45ebde"
+    },
+    {
+      "lexical_key": "秒钟|miao3 zhong1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "207915efe231d20281704b95064eef1d1fc662087db1897a6b90dc5cfb98550f",
+      "evidence_checksum": "cdf5e827e5533b927ff1e2cfd98595a40b30095ae015970cee60881439a6fc3e"
+    },
+    {
+      "lexical_key": "夜|ye4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "38de713a3a85c30a3c3d751d01b5a7c037c3e724072b0e55abc98fd0e26c3223",
+      "evidence_checksum": "ba142bdbaab5a583017e141daaa2896fc031b9e883dedd1f199681e7dbac6be0"
+    },
+    {
+      "lexical_key": "今天晚上|jin1 tian1 wan3 shang5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c74af675fd771a79fa91297d73936c9a06548085920f462c64de5de94fdeef74",
+      "evidence_checksum": "9fdc688931e534ed728c86f4c448808c3d44c11074a101f9c62e635dff461f09"
+    },
+    {
+      "lexical_key": "以前|yi3 qian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "eea3579a643a6db1f2013be37c721cabc9da57a91504bd60f550366cddd702d8",
+      "evidence_checksum": "d0f342fed522716a60f8803131ded9faf474818e2acfc9d010f2199bfb9e1065"
+    },
+    {
+      "lexical_key": "以后|yi3 hou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "384e523189be242d9241d64462f40520d94a6c4d44fc03833f85a5addcb7d67d",
+      "evidence_checksum": "6b54eaa47ab547d4d59f0cbe0435ff4028bd12ab3a58e5747920c96431130942"
+    },
+    {
+      "lexical_key": "刚才|gang1 cai2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "da2e13062c6c9e0024ff3a1f6c9cc1f1d78106b9201c1c8e7812a85dd671dbe9",
+      "evidence_checksum": "92c2df6efff154f94ec1ee54371695dcb17a251576ee3cacc5d8fde5f4ad68f1"
+    },
+    {
+      "lexical_key": "还没|hai2 mei2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e81f9221b39a24ce53e563e92e3567150232d095b7d77c35176e1df514423206",
+      "evidence_checksum": "0a3d29718dc81dd238a9ec3ace45b02ed1c2594e81fdf809c386e56d69de1bdd"
+    },
+    {
+      "lexical_key": "一会儿|yi1 hui4 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8106c95ecd0e392f33aa72239745f278d4b1ea365f9be0f93113f1884839c237",
+      "evidence_checksum": "a51f30837eb9060f98c14186efce1ff563fa54ac0dcba114095b837f7fd16b6d"
+    },
+    {
+      "lexical_key": "每天|mei3 tian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "75e8817a6bff48298e99accc02b7cd59a62b97f75087f8076061d55361b4082c",
+      "evidence_checksum": "199594ced3c360bd132ce398c48d8a146a11e9b8217d3c291b9adeeeb391082b"
+    },
+    {
+      "lexical_key": "每年|mei3 nian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "320a3c0c5318fff2f8db60125d4aa97cdbd1ffb5ccb42205c56db4da41b77114",
+      "evidence_checksum": "767b9cdd4a585a1b80fc231fe87362ff8f4c600d9932e70a934bb5f16f9b7c8d"
+    },
+    {
+      "lexical_key": "每月|mei3 yue4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1b88bd229b669522eecbf055272bbfcb96eb41a7cf29a933d8d7d37191409fdc",
+      "evidence_checksum": "9815955a9422e4a77ff7ce1ce105510a50306fff0a9be394302ab98a551c3b0c"
+    },
+    {
+      "lexical_key": "每周|mei3 zhou1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "90008fabc3556abfee329921bdde19f85b3baef4bf661c054615ae381116c970",
+      "evidence_checksum": "9da98d41e000e5569c15115237cd7c03329b4943e054885a9a845053858092e5"
+    },
+    {
+      "lexical_key": "有时候|you3 shi2 hou5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b506726e145c1ef11a81b931bb42b730c007b74626aade31626c961df605aafb",
+      "evidence_checksum": "59bca24b4f4685cd99a6087111770869bd2c007961bde48eca3db7130c08a340"
+    },
+    {
+      "lexical_key": "一起|yi1 qi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b3099e8a3d74795127e997c074df4d9433b3e42818894ebeaaeb596a28408651",
+      "evidence_checksum": "bfa6a8f85cdc1f16dd61f8326d70837364af86769ef82223a21faaa37b2e555c"
+    },
+    {
+      "lexical_key": "房子|fang2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "59ea6d35db9cce565f5af8fcc9bcb33b37a3eb0d0ec42c2fe5356645fbe20b9d",
+      "evidence_checksum": "9aaf14ad817bd7b4d3aff4a9d66ac83e537a66139aba2b69abbee8982e74fb80"
+    },
+    {
+      "lexical_key": "卧室|wo4 shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ea7fed1bfd4a1901a6586dd7a4d96e85601593f4396346a3ee48304a87e5e54c",
+      "evidence_checksum": "9227a69a2212cadcc2be0b054574ec728a7e1d82b7cc6c617294c5ce9766ddde"
+    },
+    {
+      "lexical_key": "门口|men2 kou3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "32270acab49386ae7b37aba5e71ed5d04e1ad6c1e97dd5934ff35d1d7c47f84f",
+      "evidence_checksum": "2ad2283c784f3d8c0e71b5f4d3e707e834f48509f24cb6a354616cab7dfddec9"
+    },
+    {
+      "lexical_key": "窗户|chuang1 hu5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "aab0a12ef4d84c16f2b1109187d3caac56f7cae1f11490d72f64510b53c67b3b",
+      "evidence_checksum": "a04bc43abe6cd4e14727bee266df4b032219a7f4dc9cd2258af31e1064da9ee3"
+    },
+    {
+      "lexical_key": "床上|chuang2 shang4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "055531971773f6e802b17588dfa6cc482166859865889d7ac1feda786dde7822",
+      "evidence_checksum": "980aa4dc242c4271553db055b9c937ea3aaefe12a104ee2f35201a25f78dc9d0"
+    },
+    {
+      "lexical_key": "电话|dian4 hua4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ea6931a6c77febf4ebdb2c1fac1b21cc02bb72a91613091d7c08db9011ae385e",
+      "evidence_checksum": "291cd3573942c229a331fd7ceba49921ac8bda8f2e6872ec808d4d4901574830"
+    },
+    {
+      "lexical_key": "水杯|shui3 bei1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "98d28d6f34004a201a83727cd3853cfbb7fd55699e0f00541b5d4f81265742b1",
+      "evidence_checksum": "747ca5f463d08d86ccf0217f3179c3768b5732da2dfb577575b576af3f8ae54f"
+    },
+    {
+      "lexical_key": "碗筷|wan3 kuai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "09af62f6db3164253946ff1249177b2e1dc20f5d8df6aa9cece233625c983f19",
+      "evidence_checksum": "12b4123b2a444a717cc9b09520c4b827d14670aee74cddc0b4dd7948da5bed83"
+    },
+    {
+      "lexical_key": "盘子|pan2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7f8cccb498f9b0ce52e0b60055e3639c4ca949bb4a9153ed874758a26f8b59ab",
+      "evidence_checksum": "901ce3df68b6c53b8be5137fc027518fc766504576d95031e25d3ef608c64d11"
+    },
+    {
+      "lexical_key": "书包|shu1 bao1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e786f23b22f065eb451df4b4e82d41234de46212725b5ba23127bb6e8480b152",
+      "evidence_checksum": "0268cd116aa0fb382b12dbcd585ea575ced2bcb84c2c3fb990abe7e6abd9c627"
+    },
+    {
+      "lexical_key": "皮包|pi2 bao1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "66ac394934e73d5556a0593423596169b38d585698d755a3839d805fd38a9846",
+      "evidence_checksum": "7c84ae2a3dbeb6df80e5c42841cc36e88f1004a0be9db9006a602a82a052229e"
+    },
+    {
+      "lexical_key": "洗脸|xi3 lian3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ab74caba25b97f9c401978fb875a05e45018b99e02b6a5d99cb09304da7dd19e",
+      "evidence_checksum": "e3baa5b9b508af77d5f9e9ec9a6100a2a993b4fca88754c35096c993d5d52b9a"
+    },
+    {
+      "lexical_key": "开门|kai1 men2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4a5cda65b0548c4ee527126932dee3919b94f971c593ac533872760060e95316",
+      "evidence_checksum": "74e42223c6515ac927f8d604d5b7b582deb2e6c7b2391af2b3732c591ef8ab51"
+    },
+    {
+      "lexical_key": "关门|guan1 men2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "80e724fde73d8837a8e076308b9b1b8d735ddfe21a25c2ac8bfaca01fa5aa07f",
+      "evidence_checksum": "639a16875f8d63bdfab7bc7eada911f273f5e0ab5449076366aa60b307c7b542"
+    },
+    {
+      "lexical_key": "馒头|man2 tou5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7d00487d20a02d992a9ce9be4ff22edf159162eb6bd1b3b9cae85c3cfb3acff6",
+      "evidence_checksum": "a5e20ce92794a4ef1da3b9b79ba60e7dc137356580ae78c7aefb4e85467e5cbd"
+    },
+    {
+      "lexical_key": "豆浆|dou4 jiang1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2ace872ca4375716d0318cde793924f00438e1c394ffc288bd478fcf1268ed1e",
+      "evidence_checksum": "0d9f6050b8544fd832ff1ff7f0905762550151dd467223e49f5d65b35582a9fc"
+    },
+    {
+      "lexical_key": "白酒|bai2 jiu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "53010b299e2b0b181800c8af4e066d37462bd4da9dea01c0f58d374087a15e92",
+      "evidence_checksum": "ac09995cb617196ede7ec41d169f7325eab7c78eaf4248db8b43664e391f0e0c"
+    },
+    {
+      "lexical_key": "饮料|yin3 liao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "db1d8b21f7d903eafc0ada68f00f88e9884cf73a0f3aea6651f535e366bdc4f2",
+      "evidence_checksum": "88b8539690f1439ad78b6285fefcb0805208e2fd5137b96223013d99e082ffeb"
+    },
+    {
+      "lexical_key": "开水|kai1 shui3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "de33a5a2389f5bc7529d43a881cddfdfecc737a367e2261c8053244171cb76b5",
+      "evidence_checksum": "fe63005d4aacf46786609fde3986ce017e5dade482d6c1d8b10df92e84311ecf"
+    },
+    {
+      "lexical_key": "热水|re4 shui3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "46fd658679791ddf7481fe47c67e925e5b99fa38e7f7a39cec6e5363e04c9978",
+      "evidence_checksum": "6f728bfc993b6de23ea499924643cae490e91085aab9dd947b6dc80cf39a8aa5"
+    },
+    {
+      "lexical_key": "冷水|leng3 shui3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "dfefdaa8ff40fe5aad1b12b26824971399ebcefa207e6cf242ecdcd42c073e93",
+      "evidence_checksum": "a00179c1f57ee6bb1659c5249d1c2216d690e3b3556619ff489bbbe71e2bfd6e"
+    },
+    {
+      "lexical_key": "水果|shui3 guo3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9aaf791de0400fdd66318ea5358fe7e83d81ee22fec5d53c5138a79e7c1a9b4f",
+      "evidence_checksum": "0914491b7ddb80f1dad034ddd528a60e3e11b35d92a494bf1a78b5d420d47a62"
+    },
+    {
+      "lexical_key": "香蕉|xiang1 jiao1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9706b02ec7b7792c3060b1163fc977af8856167e81b7e59ce2e4bbb7125be9bb",
+      "evidence_checksum": "f11a9345b1b57cf7aae36f64765b037b39725b3f6edb20aaaec4f6fc2b2e7da3"
+    },
+    {
+      "lexical_key": "橘子|ju2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1d26ab79b35f5f2e0a84e80f55d4af9122fef2cfb65451f578e20093acf60846",
+      "evidence_checksum": "42de72c4d3a8ab8b2e1fd8da699f456ba9fb2c98437b99f06f56d8a170e2fc10"
+    },
+    {
+      "lexical_key": "橙子|cheng2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cbbfc062e929f56c5a989628a27cbc778a5f5709945b022761c68b870daa006d",
+      "evidence_checksum": "d3080291ec7e2c50beb6313829e206c86974db8861b6099ccbb5677ade062297"
+    },
+    {
+      "lexical_key": "草莓|cao3 mei2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "1a30320b9a6b8f91934797d1748429c79a906762580d49c8636dd776580d8a0a",
+      "evidence_checksum": "8495866309509eb592c5a7853287fb35464a1067a38c492ee36dc5b2aecb3242"
+    },
+    {
+      "lexical_key": "桃子|tao2 zi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "884decd5b7edc3862efca1a0b60d3a7c62155c50fd1757ee9ea97216f5dabd19",
+      "evidence_checksum": "e6ea2d5df054f2631ee5d148b26d47c5123ac4c91ee1e0da62d097b0d0533830"
+    },
+    {
+      "lexical_key": "梨|li2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c634f77dc46aefbaf0da25cf9a77b4ab6faea607dc41dca5cc74ffb79ed7aae1",
+      "evidence_checksum": "b6773e5276002e653daa1135f4ac40f28b74be66f7be862b89fdd75449e3d915"
+    },
+    {
+      "lexical_key": "蔬菜|shu1 cai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "40715279c469a774c681d03cf26395c2afb812f7c4497abe1e3dea791a474fba",
+      "evidence_checksum": "ba14579cc1f26cd09991629b99db3f09953ad45f74663f7c43841e944fb6fbcc"
+    },
+    {
+      "lexical_key": "白菜|bai2 cai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "d8505060c94b9e16929712ee9e52ec962e1f3fb08b4947fc2b0e55594f3f96a5",
+      "evidence_checksum": "945168da040de165e53b2d11773ce37eb5b8f16806b376309f7a0415045b2a34"
+    },
+    {
+      "lexical_key": "西红柿|xi1 hong2 shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "265a10c413bb4dd758de1c7d37c5ef05b3ba159d564bdead19a2a178e6ec7d92",
+      "evidence_checksum": "86320d7f893d66552928cf29fb02cf9a48a5782687b347872163756e9c42e81f"
+    },
+    {
+      "lexical_key": "土豆|tu3 dou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7adc9bc0ac47155d5c8bd9eea35822ef9898fe1872a7094107c3611057a158db",
+      "evidence_checksum": "2b39a98bf1f5e1195e09a3d79cb6e4c93b98eb310f75206cd29ad692814027a9"
+    },
+    {
+      "lexical_key": "黄瓜|huang2 gua1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "d8051ffbed31d4cfdab0c53c966410bf966d7a178e2dec405c9efaa0090d552f",
+      "evidence_checksum": "659e6c44e6ed8deeff346416fdf48dae0826adf8484d010ae41e42d1e6eda44c"
+    },
+    {
+      "lexical_key": "胡萝卜|hu2 luo2 bo5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "eb1a9dc883c20f1c128376ed09139dd56d27b0b9634fcaf4fa73145b7c3c2723",
+      "evidence_checksum": "a2eb11de5ec8dfb59116b5c7f858b4d261817f29020b0289d5e31bdf26de5d85"
+    },
+    {
+      "lexical_key": "鸡肉|ji1 rou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "afe561754af28a2f4a89955ca54771c090a2f6f5adf82b75a019e9caebf1b1ea",
+      "evidence_checksum": "3263faa9fbe1d279d3277c49c1bba1ec652880b8b56d5b7f473796a3f5a2e342"
+    },
+    {
+      "lexical_key": "牛肉|niu2 rou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b4aad42dd6540eadc5f3b4b0f9e5ccff2cefef6be957c59ef082111762d5dc8c",
+      "evidence_checksum": "ba53eaddb63c50d03ce252352691d4935c2046a386addf33090e29257a09d454"
+    },
+    {
+      "lexical_key": "猪肉|zhu1 rou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f8e9cea90cc94538f9d9db899cd1e0358e9d6aa17c4e6472f944a5044a483dc4",
+      "evidence_checksum": "13f912639f0a3ada66131cc77089a3559ee8af755079da038f4e81e3da0f88bd"
+    },
+    {
+      "lexical_key": "鱼肉|yu2 rou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3427de8f2527652ca015bf673c5baf3acd8f264759c29e35f3fa4f4356340bed",
+      "evidence_checksum": "77df3313dd1e7bb8fb4c5090416b72eaa1127bc80ee09f667a05540b8294b0ff"
+    },
+    {
+      "lexical_key": "盐|yan2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "265584a1164f60bcd0a58e59ef04e6e244818601fee535be79d51d8c4f7ef219",
+      "evidence_checksum": "ac0a6ac77cf815499e3ed4d3c57570f7b1f0e4f532ce56caa67d3a7a6aaf8d87"
+    },
+    {
+      "lexical_key": "油|you2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "389d7d0cf9d1da7fd908014e8eee4db3715204f62035a24c829e551332405df8",
+      "evidence_checksum": "a696a2b9d8fbdb06672527aa937b64c677e5f9276b0ed4b3369847fe4a328701"
+    },
+    {
+      "lexical_key": "醋|cu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "672b066a909fa601f67010e6998657372d8847b317bb662e91aceacf96412def",
+      "evidence_checksum": "eb6aef3fbb6fcc44d57bcace14710e671a5ea750b785923b964591c904a163fe"
+    },
+    {
+      "lexical_key": "辣椒|la4 jiao1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9efae55e4a6b6eca5716207b4748cde618e9745200661c1250c57f3154a565f5",
+      "evidence_checksum": "0ed92e65fe38241d50ecf1401f416fcdd901367636f981ff8ed31fe3ac1209ac"
+    },
+    {
+      "lexical_key": "早餐|zao3 can1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ad76e107ae4368231f7f840268127fe58c992eac1e3d56fe0f95b7d2240a4510",
+      "evidence_checksum": "c00298cd86805c3b1c06cc1cf24332bba6e5f0ee6c770d61d20f64b5e23dcc08"
+    },
+    {
+      "lexical_key": "午饭|wu3 fan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c1f80d9832bbd2fb45dd3b22dbec3392e4cd8a3314e3462d3507c4103ab2378b",
+      "evidence_checksum": "cb57a0132627e15da134c76d4bfe8fdbb2b932404b27b0d02b8384dd3718307d"
+    },
+    {
+      "lexical_key": "晚饭|wan3 fan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "81dcc313aa2f865f5728ad972efb20d0ab7fa9b82c0f343d12c904c5df0d00e6",
+      "evidence_checksum": "a56704834249a91f484597956fe181b7bfc8b7490af8887299f05263282be517"
+    },
+    {
+      "lexical_key": "早饭|zao3 fan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "19e373133487fbdc6920ed51ff4f4954915df39bf3dd3f6d5accffd2ac4f331a",
+      "evidence_checksum": "2603fdafa350447bfa27075a27f8240efff7cb3d784487993d43fa92fd177cde"
+    },
+    {
+      "lexical_key": "餐厅|can1 ting1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c4d27c74ff521a6ed4baf5f26e4fdd04a118ce0c1c5041cc47f21ea9741b0d02",
+      "evidence_checksum": "7d96ef386bd2f34dd790492c9780d882046a749436b995163147774e3afc8ae3"
+    },
+    {
+      "lexical_key": "好吃|hao3 chi1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2462e0eb557afd179b1f952305844e60be8971d959ba42f593f36bbe368b4898",
+      "evidence_checksum": "6c026fa1c567d5600f4c7bb7b7c55ffcf67ab800b51c4e88eb45a5dd0a98456f"
+    },
+    {
+      "lexical_key": "好喝|hao3 he1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ee45105034de53d58f4a4d8a2923e441f6c8d04d9feba0afe382e33c35d987fd",
+      "evidence_checksum": "c1c50dce776a3de97024b2000bcb9f31cac5fbf5dfa50235b5c81c7839d245be"
+    },
+    {
+      "lexical_key": "学校|xue2 xiao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e90d13ca1e6eea5676e96a9e61b9599c5a6b9e38dce613161a0f56ce914863a9",
+      "evidence_checksum": "4042a9dfb4437cd77bfec09d6f79c59ad428b7e20022a43658f52f6bf0d96144"
+    },
+    {
+      "lexical_key": "车站|che1 zhan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3005b05cca35c1a93034fd308933b1f733f9908dbdfc8f03989d28c5ddad0a49",
+      "evidence_checksum": "aed350aaa6bbfe65ef7d4e52883e4d6d36e3f522d01fbc971327f47f3f6239c7"
+    },
+    {
+      "lexical_key": "地铁站|di4 tie3 zhan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6693aa2d697c4775619ecc65f56fa5dee963b9a81efd28d5c2c3839c4a754370",
+      "evidence_checksum": "e88e1b6d9c498ddfceeb87dbef7728a07daf972582d06bac6b6cd0302cceee81"
+    },
+    {
+      "lexical_key": "酒店|jiu3 dian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "772d86a0383229e8d6b90129b29bffbae9619f21b132be622bc5373e5cb7a618",
+      "evidence_checksum": "b4a86ed0d14e7105f6c894ff7c33790f35425188d21626d8919a8de0f9d6f16a"
+    },
+    {
+      "lexical_key": "越南|yue4 nan2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cb2f6f2cc9da34e3715341dec9eb8af537e6380947ef44c5f2b05dde3143e3c9",
+      "evidence_checksum": "0d2fafdbe88182b0c595f57340fa62c8c74ed9e2d25e0eeeb7cb6eb1b020a176"
+    },
+    {
+      "lexical_key": "河内|he2 nei4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "fa47b4b78ce43c92cb7e6722244935066d2847a9f539c11202b13a074cc3d77e",
+      "evidence_checksum": "6f2ac3ac7dcbc4a7a2d5eaba831315cc8fb59abf222aae5ea323e1483dec85ed"
+    },
+    {
+      "lexical_key": "胡志明市|hu2 zhi4 ming2 shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e7e49f9cc892614d5438f789fa21d6f88b751dae7d408d2b5b5d3d9f5ec8b67d",
+      "evidence_checksum": "36e28073605ead4b40de6c04109f2f3134ab95f8c1ad71e1eb57b169d85612dd"
+    },
+    {
+      "lexical_key": "中文|zhong1 wen2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c1f9ae431e959f7793494e7667b87f8926a3b273a34f8e1f0e44c71878d183d0",
+      "evidence_checksum": "41c726c6928f0f5c75c2eebea08a569f4b51546ea953de7844d6e3ad3dac1143"
+    },
+    {
+      "lexical_key": "越南语|yue4 nan2 yu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6228c817b25ef474167a206d33ecac7305e3872727d24052e583f6e95d0d52eb",
+      "evidence_checksum": "784d0b65028a1ee8d9c2edf0837c52b09dde4e140c0f269d5745af47e3267c92"
+    },
+    {
+      "lexical_key": "英语|ying1 yu3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "adf088d74b8b298cf1efd06f62e592baef0392bd96736c72a9b0e82f9f1870cd",
+      "evidence_checksum": "0631ce4f7cf08bb1edafe8ac5b21cbe51a769214dcde787489fcf1feccd606de"
+    },
+    {
+      "lexical_key": "摩托车|mo2 tuo1 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f036cb07dc21b436becde79bca792ad2039735b272f1f656b279eba4f6c4055f",
+      "evidence_checksum": "e886eb9833e0038df860421dfe11d0d5f41dc256429a1cd0decf8b9677875c35"
+    },
+    {
+      "lexical_key": "汽车|qi4 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "cc14fa9a7ce87a1950080f441976ceb4f87196ff2072641d4044da4ed777f07a",
+      "evidence_checksum": "549bbb29edd68ba3d971918f8009f204453093c042fa80e73291c65dd5065145"
+    },
+    {
+      "lexical_key": "火车|huo3 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "27b226ca0f8bd1e99e658c164e50337b2ea285126beced30a97d70457a3051f0",
+      "evidence_checksum": "c64112c08f3204fd032f563593cff3ac0646cae1649d9504ef3a8d59d70159f1"
+    },
+    {
+      "lexical_key": "地铁|di4 tie3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8e09c4e55cc3b98ec6a40bbdde74b6b2d3c73f8911e987d6bc2a8dbd8f8b44d1",
+      "evidence_checksum": "bb337f2c73d24c4bb30e14bbcb05b626a7d47bee04811854128c6d6465f6060e"
+    },
+    {
+      "lexical_key": "轮船|lun2 chuan2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9bbc60a9719016f725b91ed1b397f0ffec1f832050c7c539cde5533927600ea3",
+      "evidence_checksum": "963bdbedab859bf948ba853fb617593cacfc5a4e6614f60af684afa3ebd3ad0f"
+    },
+    {
+      "lexical_key": "马路|ma3 lu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a2f8bdacf2a9fe9e8a95451ddbb87a23cbb945ddd39986ce72edc884eec6ff63",
+      "evidence_checksum": "8efce9e34fa124fd631de63423d947e2ca312f064a2b367d1b55226cc46c8b59"
+    },
+    {
+      "lexical_key": "红绿灯|hong2 lü4 deng1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "033d971514f5e0b268efcab860fc6acf68dc7c9a46483980f39385581fa2f430",
+      "evidence_checksum": "aac9a044724c99308c0d49ce4e3e228e71f24cc3f5dd1c952a3b7f2b2bb513cc"
+    },
+    {
+      "lexical_key": "路口|lu4 kou3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "93169ec71f3e48609710d8645f4846ac3871c8ab2eb889a9ec8a023a612a78c5",
+      "evidence_checksum": "680ab688fd757c13750e4eefc9caa161e4df00c8e128a4618eb415a3899cf8d6"
+    },
+    {
+      "lexical_key": "上面|shang4 mian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "57f64b780cb2d9b430464f551f28efa5cb0a598f2b3fcec63f7549dd1e5a3f18",
+      "evidence_checksum": "cb54f448ca16964f54424b2c0a06d245b706f2c192e92d77ac66a69a87dadfa2"
+    },
+    {
+      "lexical_key": "下面|xia4 mian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a24cff9a9bcab01561f554bdd7295eb2ef0114fe5d363ad51ba9de5e7366907b",
+      "evidence_checksum": "0893c79beb6b771fb76782f0ba133d99e3c4f569c7610915e0cfdf2b8ba31771"
+    },
+    {
+      "lexical_key": "附近|fu4 jin4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "72579bb6702aac05dbde48e25013047e9013296ef1cf2374c17a7b0d4addc37b",
+      "evidence_checksum": "0dede95b3c8b2e585b8b7a2d55f3ab5b8584437bf67784d6f13115688f3b7a42"
+    },
+    {
+      "lexical_key": "上学|shang4 xue2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3e739c1ab6fc458cea2c487dd84393ed5caf9cec7187bb3d4950ea31aedd56e0",
+      "evidence_checksum": "cf0b93bdd3d15eefad503ed1b24c0b2d3265db19a53c3398d1e073e1579b6192"
+    },
+    {
+      "lexical_key": "放学|fang4 xue2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b353fd62c8cefa4ebbb6c5a530a9611d015c9c61e4c09fc9bfd353a004110b7a",
+      "evidence_checksum": "c325c1556ef3eb5ae44e334d72fb75681fd953040545d6ecb1a3f7a01dbe38ca"
+    },
+    {
+      "lexical_key": "上课|shang4 ke4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "44d2df38ead8a446a72dca42e90703c7ece177110c842afe83835a846a643344",
+      "evidence_checksum": "7d0c328c1bd929168b543caecc7b137ef75ccdf3d6de29b1293347e25cff1490"
+    },
+    {
+      "lexical_key": "下课|xia4 ke4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "395dafb1de21c7534a98d2baab252578a3bcf80674f0f62b8bd93b8e7020d603",
+      "evidence_checksum": "c9ca73df9b299189219d3383a160048a3bc1e61ccfa0a81809c7b027e9bb2530"
+    },
+    {
+      "lexical_key": "复习|fu4 xi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "536580afaee2f8f50b9044a5b4707c674eda54d298fced20948a107d8c3aa92b",
+      "evidence_checksum": "98b1aa1dbb811de925b4dec168a499857c2ea123996370dfb417c110cc7ed3ca"
+    },
+    {
+      "lexical_key": "作业|zuo4 ye4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "585c9b2c0fe2abbc6be7af6c7416bddabbcc690e41694e59d80962469b5bf4b1",
+      "evidence_checksum": "5538c0cf5525f30109cae668ef85dcfaa6474c601df1893459334e9ba869b31a"
+    },
+    {
+      "lexical_key": "汉字|han4 zi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a7f5ebe08ffb4273cccd5a00c802a0b04bf0168ee9b5ad7ff829921bf5f4be62",
+      "evidence_checksum": "71d37967984efe2d9f64f5ea9501fcbeaa7e0d650a2791d9a40187f14a709d43"
+    },
+    {
+      "lexical_key": "拼音|pin1 yin1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "6fd84b8549e190d5774bd2f0bb5f835ec9a619208cc1b005f7264f1d264f8476",
+      "evidence_checksum": "0ffa2f9ee254276ea754294803ff1b87d0a21943322bc1bb00d499ad6542a419"
+    },
+    {
+      "lexical_key": "声调|sheng1 diao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9c130b60fdb1c714521167c08497e16b708ae3ab0235ce9e4d181a2899387b32",
+      "evidence_checksum": "e14638aba3754331d88a92d08c831f755807441a9181d4f1359b8d1ae26959b4"
+    },
+    {
+      "lexical_key": "发音|fa1 yin1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "03e49937edd0bb901c05caad7e904c49ada287d3cbfec62b1355f67b99f8a06c",
+      "evidence_checksum": "d6729defc2d72d2989ca7472d7f7412f5b5c197919f01d2e61ae756e6c3c2c88"
+    },
+    {
+      "lexical_key": "写字|xie3 zi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f3192443ee8475222f25656a4da43acd10afbec047d5641137828e23a4a86b2c",
+      "evidence_checksum": "1e65e4bcb74a7dd701c56dea6a0e058c4f46d3072202524c239f6d702ea31399"
+    },
+    {
+      "lexical_key": "读书|du2 shu1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "56fbcc05323efa27bebdb39dc41d65ce296e0b17f3171f7c4a25a9ed567519c8",
+      "evidence_checksum": "c5c3908efc940f906b9da8471b1fef103707a5e354fd2815e6453e22cc09c2e6"
+    },
+    {
+      "lexical_key": "看书|kan4 shu1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "3118f3b7c3e6e0a17a85f7c691de16fc68afe34c0ffc4db1fc39abc14fb9e4e8",
+      "evidence_checksum": "14e58de9e73a01600400c2376a29890a34d24eb4c3d07d20559fb17fa7a0c1a3"
+    },
+    {
+      "lexical_key": "走路|zou3 lu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "97bbfe79b70ca8a22d224d4635c46c8fd093937b8e474cde19a98d3a97494230",
+      "evidence_checksum": "dce7f3cb09e42c0fee5e14dc7f96d48bcfbf92de93ba5eefc60500e11e6b6b68"
+    },
+    {
+      "lexical_key": "骑车|qi2 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a6204c39815702e9d60daf4f351e535347b03adeb711257d62f4def6e6b9ed33",
+      "evidence_checksum": "5d8d62bd4564cb31a258e9110e8cb610b8d89372f616b0b9bb440c7bd6ccd581"
+    },
+    {
+      "lexical_key": "坐车|zuo4 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "355e7548c1eb64f990025330ca13dc25d20d3e3f4c1d8e76733c924dcc28ef6e",
+      "evidence_checksum": "ae1c678b2da8321bb130c9505d2a2eae03717685697a1c110298cd4f070e0fc9"
+    },
+    {
+      "lexical_key": "打车|da3 che1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "30288dc2f6822e57b9cd961aa3779e516e1de302e468942f6e520bc47bbf5806",
+      "evidence_checksum": "71a45e3d80c529ac4711fdc07cc58e5d4325f485e772a669807ef56331b3d192"
+    },
+    {
+      "lexical_key": "上网|shang4 wang3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e5c24044f8d3d878b4319b02f3c6cd03a6b954db99264cce21baeb83ed21582f",
+      "evidence_checksum": "1dd038373cb091a7da891d129617bbadc03b5cb878ce4961a6e26e8e8311e260"
+    },
+    {
+      "lexical_key": "聊天|liao2 tian1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0f462795384dc34fb6750ae9121b36dea9a424c7b50177170b17345a26c2c9b2",
+      "evidence_checksum": "87b98a65602d5636b14a48793ebabab559c1e55d506836e9fa874a6bc5326695"
+    },
+    {
+      "lexical_key": "照相|zhao4 xiang4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5fc407628525ab0e08c0654db7d5fa7077f8f632c5c71a76fc44149b9c61ab4d",
+      "evidence_checksum": "ead9a544da80ba441f6b2677c48e702c73b13df884523e357bc9c5ba806201c7"
+    },
+    {
+      "lexical_key": "拍照|pai1 zhao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "bb9b84fccbb58e452231acc3425f683c9d40342237df38bc7c0dedc0f31cf86e",
+      "evidence_checksum": "7025c3fa7e3d0914bf89f47307cca2abb557f8b59effce4f02c5da41c1a8fe14"
+    },
+    {
+      "lexical_key": "买东西|mai3 dong1 xi5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0d20b5bf8e80d742a60f4c989265528efc7bf871339b3f57b4e83812de165a6b",
+      "evidence_checksum": "15aa756ec67298a4de2ffbcb4e805e101cfcfcb580da14c412738ca55aee2127"
+    },
+    {
+      "lexical_key": "付钱|fu4 qian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2bdeb91340c525d72a42bc1a6c81e98bf6e0ea9ae973422cd4d143f3db9bd09c",
+      "evidence_checksum": "a745017892f8e68f3189997725dea055333dce924e24bba793ff952dd0d2898c"
+    },
+    {
+      "lexical_key": "找钱|zhao3 qian2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "13441c3476bcee839e15274db6415ca16861bfec1c8d4d2141b009ae3af21a16",
+      "evidence_checksum": "0ad51caee4f7babbd7ccbde6c5d2fd075b3f8283471e6da0373ebcd0d6877a93"
+    },
+    {
+      "lexical_key": "帮忙|bang1 mang2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9f5cd7df3be7514496b6caf0bde85351b172f68dbec0d2bb64aa747088631e87",
+      "evidence_checksum": "5d07421fe166621133345fe109dba161859f634f5c279cdb8a3a579f99c17f09"
+    },
+    {
+      "lexical_key": "旅行|lü3 xing2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2eb1feae970a5c522261078e378c39d247644532212a78f68a9ca9853c94fdf8",
+      "evidence_checksum": "4dd7e97b8aa371ee1d5da5512afd6176c0d06faf8418b4ff9f13562522e4eaae"
+    },
+    {
+      "lexical_key": "打球|da3 qiu2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "29ceb8fa28fa5653a2a85bd6804c2db5f4ffb06ae76df219e4ee418dc5f41b63",
+      "evidence_checksum": "93f8e1c25a830283afa8549769430891a7fa5b62421ddebdf234128a6bea07b0"
+    },
+    {
+      "lexical_key": "打开|da3 kai1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5809387127080e97d789071c549995c14d1afda25e359b9c40d77a197cd2cd09",
+      "evidence_checksum": "f6fff92931ca379af03681fda619c510b11d1bddbb907bb1e53817c5b07a9d3f"
+    },
+    {
+      "lexical_key": "关闭|guan1 bi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "955169775ff4a6d53d4add361080fb42ff46ab783b70db5f1d15d6fae2049762",
+      "evidence_checksum": "da10f5d9c7a05836deef829a0ef88b3e50a9e465af6b321b8d584c8795bdee4e"
+    },
+    {
+      "lexical_key": "进入|jin4 ru4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b26f964394c81bab62ab456f7c75fa8c580ac46ef24f8079e794b9f46c1b0764",
+      "evidence_checksum": "5cff05fbb49d6de802fea8841e070725987cdc2d8ce83d62c5011eb0f1462a07"
+    },
+    {
+      "lexical_key": "出去|chu1 qu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "fab58e488b7ee82b5f1d66e4953746a4587fc2e27fd20d41264aad65cc9e398d",
+      "evidence_checksum": "ed4edbd75de2668a886750687277cea598eb2e8d336da0b41a61b89f86ee14bd"
+    },
+    {
+      "lexical_key": "回来|hui2 lai2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "32f707ee01787951982207cbeb70f2ba72f3569b8ede0dd22bb777a078c04c57",
+      "evidence_checksum": "a17aadf9ce925e0fcc12c89a7c717fdc0f9e663d51a4e21211827c46f69985dd"
+    },
+    {
+      "lexical_key": "回家|hui2 jia1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7d71ba4c1e52e2b6f15703943e32c83250934e3e436014ac9443743bd5c1fbde",
+      "evidence_checksum": "8c155f342767b70dddddd9372007eda5de44af23b976e6e3542212631cb67be9"
+    },
+    {
+      "lexical_key": "听见|ting1 jian4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4a513bdcf3ce06f4e0c7d7e38ff2ec1d7ab66d78caed40fcf8657b23f338d9cb",
+      "evidence_checksum": "bb065ed948a30c908808bdafe753920eafb8c1c04a028e0323f2ca1c94c62116"
+    },
+    {
+      "lexical_key": "需要|xu1 yao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "2f347615b115a1cd4e0d90c59b2b496c6c7e1a2078c8cc4996b799267ea62438",
+      "evidence_checksum": "2f5c4d05b99208b8150c47dccfea667aeb32405a6f80925065c100e6d1922a30"
+    },
+    {
+      "lexical_key": "应该|ying1 gai1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ddd9551f55c47f66c25b7d13961147087b98178e665895f782a60d0a70487ee3",
+      "evidence_checksum": "f6e07e36a0b769652f32c15e4c0ff6906c1de2fb337f41034f8713dea42d19b2"
+    },
+    {
+      "lexical_key": "可以|ke3 yi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9c67a0d6be7788ca2fc4f5b7176e19e8f99ee5f6607c4f7cab7cfabd7519ffa4",
+      "evidence_checksum": "b65bc7b6d3e6d99f5d791e34ba0a35e970094699d5edee4d9e1b59c7c1392187"
+    },
+    {
+      "lexical_key": "可能|ke3 neng2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "16f2410d423e9c03c23c6e0e19ef04f858a57b2ae1760312de600a055e96efc1",
+      "evidence_checksum": "32a650855d3b929359f577a9e643d419123bc3036f5bfb313937ab9809bf2aed"
+    },
+    {
+      "lexical_key": "必须|bi4 xu1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a81d04f74f23e0840fefa61ab4411cb32249f0b50759e51d6bc3d200b4952a67",
+      "evidence_checksum": "64083fd642c5dcb5a1eab3d96e6b2d831dc13cee0a8792626633b0acae3cf2f7"
+    },
+    {
+      "lexical_key": "带来|dai4 lai2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "63bdde0569570d4f442786738aac88515ba1bfc234ade5ca3ab3c1f93d79dba4",
+      "evidence_checksum": "21d2dd9c30e1dcbd62c73f2c166c1559f551968f1e2489c8aece8b2875c499d3"
+    },
+    {
+      "lexical_key": "拿走|na2 zou3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b9068a65e266ea8cb4e4125964c0321e629e47086139bc416dfe19d54c752405",
+      "evidence_checksum": "46170a2b65f4997dce56e371f349ae296966e62eed6bad1e988f05238fccc8e7"
+    },
+    {
+      "lexical_key": "等等|deng3 deng3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5124bc51564662f4ba50050513ab81ae9bd1ca81f1687ef76630867a651464ba",
+      "evidence_checksum": "6aae1817727e009ce5c7f197ebcd5b8ae4fbb16d49118f7ca47ddb4239f1a8dc"
+    },
+    {
+      "lexical_key": "好看|hao3 kan4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "ab3fcee9ad30ea37ce4ca3e5cb24404e215848caa02928878bb0ef0fb1632b06",
+      "evidence_checksum": "18df58bbd51047718e24f12646a8c3e00e6dd07ab8c3e7ed3157945dadfa8c16"
+    },
+    {
+      "lexical_key": "快乐|kuai4 le4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b26efa2571dd5c1553d522b18d4ff2367e0e113be8201b6ead32d51c13c44944",
+      "evidence_checksum": "2ec4d797f8eadf6f06037d81123ed0ffeb9e2555eab198ede036abec3d63012d"
+    },
+    {
+      "lexical_key": "害怕|hai4 pa4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "59bab8551fd07f48ca330946b714e19a6de2a05af1d67a92c6c597013c5202ee",
+      "evidence_checksum": "65e49c924a3219861b03a146d8a07368d05d0cd250d8234fa14e2aabed465a00"
+    },
+    {
+      "lexical_key": "紧张|jin3 zhang1",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0d074540bcd187b075b91838125d617c3476cdca239b9212552a6f354a70519a",
+      "evidence_checksum": "166a2a75265b6cafe0fb7ea6f4dec3b092b0ad4ead547466f9e0ce9403402c29"
+    },
+    {
+      "lexical_key": "可爱|ke3 ai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "383651d30e312dc1cd58a538f49ecb5ce564831a42f066ff3eeb8e02cf63b91f",
+      "evidence_checksum": "3259389d3bd4a94fdc33b7b6b142bea673d224ca2509f76af55ac72655d8090d"
+    },
+    {
+      "lexical_key": "满|man3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "df35fea676713ff3fbb3b8c6cc88e9681f560a76efed60718847bf6bcd88c24b",
+      "evidence_checksum": "4433364f6019a559dac750e1665d021b0e56e3020235b0286887f8a81b0b97df"
+    },
+    {
+      "lexical_key": "一样|yi1 yang4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5b6455f1e0b741ada2f73ec1565d7695552d815d41f6b805f7cb464b07f8ad37",
+      "evidence_checksum": "20c2197c4d7aede16bcc2246bc0e2c63f4b856bcb4d9ead60b6d2da1e3fb9990"
+    },
+    {
+      "lexical_key": "不同|bu4 tong2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "72a5475276a501359c7b2b6e1a1a3bb4d79c48d67a0e2705f99651e6e9d6128d",
+      "evidence_checksum": "936313d01ca471f3827467aa67f3e1140a286f54159a7a21e8d28449526ec065"
+    },
+    {
+      "lexical_key": "有点儿|you3 dian3 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b0e1202551a16a68e6fdf2e46ad51118d853028a8d53c08b7b31fa8a758efcbb",
+      "evidence_checksum": "6ebbc5709ae28f9705149a1dd2c5976f36d6c09986c3b6fb5afcec1caa35eeb1"
+    },
+    {
+      "lexical_key": "一点儿|yi1 dian3 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "5f45ba01f096e51ff77a5522be6ae29dcfeecc71d0a7d93939a01d603150d30c",
+      "evidence_checksum": "22d114beb03755b3dbef585dc99fd5edb0f196bb24e5d533a915fa2f7da12b2a"
+    },
+    {
+      "lexical_key": "哪儿|na3 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "f5763c53b5250d8cb1c37e9ee92391e85d0968c5702fb3529e55b9dc4e6bf0f3",
+      "evidence_checksum": "768bb8982d216f865949d5f62ec7e51571ce420dde7c213f521a3a0c1b0ccb9d"
+    },
+    {
+      "lexical_key": "这儿|zhe4 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "9fd5efc3183d949983730625fe729d5fe21751f3f1b2b1a66940cbc2a3b2b007",
+      "evidence_checksum": "b9130f49e5adeadd6c9cfc42edead70cae5551f80b92566e4ed78c7c6b25bef7"
+    },
+    {
+      "lexical_key": "那儿|na4 er5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b909dee70934fb6f1e20fc4a319f9838c2578e5fd780cfbe4dafc84173b040e8",
+      "evidence_checksum": "db18782335ca407676f2b132aeffc9a9ec73c41486874259c16f36b0d6fbd5ab"
+    },
+    {
+      "lexical_key": "不是|bu4 shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "120afefaae4f274fcf38d3e16b9be2e44866cc6cd7ffeaf2dc3c3603b9b12a0f",
+      "evidence_checksum": "86cd0032ac2601d363c560b704ba823cf57c9632ac384ec51973b2bc24b795d6"
+    },
+    {
+      "lexical_key": "不用|bu4 yong4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "7684077b1deccc6a9a69e66e3b2e0940e9ba77abbfa2fe3e8f1774db423896a4",
+      "evidence_checksum": "34bfe832efc15e5bb39181cbea67a2b82f2ccf5e477ff56900b5a2cec1aada7f"
+    },
+    {
+      "lexical_key": "不会|bu4 hui4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "0a8c92479e6d59516b2bb1365b925ffa993af0b2855ec66a156c435bf3587e97",
+      "evidence_checksum": "326599535b7b029d85caf2076c084f28302e2890dfbee03a9a42922e56f9f818"
+    },
+    {
+      "lexical_key": "不要|bu4 yao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "23e4a238dd9390a9909cffbfd8303972a236c00285d782aa3bca3ffa71bdc4a6",
+      "evidence_checksum": "70cff306a66f7dec40a387d0c0dea34f1872920245ed484d6d32bf56176258a6"
+    },
+    {
+      "lexical_key": "不能|bu4 neng2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "dc332115b4d58e7c24ac8fc7008e65f8660cbaf2a89846102db16582c3431ec3",
+      "evidence_checksum": "6d65e57777621d1d55bffad5232d5904a02f382f7a20bd0a75c686563bc5477e"
+    },
+    {
+      "lexical_key": "不可以|bu4 ke3 yi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "4d6f526113b2860cc68f9e26b3e709a420ec25fb9527c4eda40192f4c47b4d04",
+      "evidence_checksum": "8e361e499fdd255f4a37337fc8cc4b6d681b950b63fe7d9064220da3c239c4f5"
+    },
+    {
+      "lexical_key": "然后|ran2 hou4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "68295328b8ecefbf6439b6aca356dd86ceee130fddb91a01e2b4391717b86871",
+      "evidence_checksum": "a0a6c576c07e72cf2cb9b8b402de33bb58b04a9466ddeba89aed5827097cd7d1"
+    },
+    {
+      "lexical_key": "还是|hai2 shi4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b24a588018d0f9ab416400947c77cf1f50896d63bb73b04bfc34d36d4e60bf2e",
+      "evidence_checksum": "135cd9cc1f2f42eb6de30e9e18677bb18286a6efb2d4b95fc4b12ccc5fc3d1d6"
+    },
+    {
+      "lexical_key": "胳膊|ge1 bo5",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "414ebaea16d6651602124f1695824c0e822649d66c4bac20acc2a8b9a1c6785b",
+      "evidence_checksum": "f63921718e778016765783e1aafae3bc352c0ceb9dfa473e0a7894379960388e"
+    },
+    {
+      "lexical_key": "膝盖|xi1 gai4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "e192e4160b6433ef43ee5b5a8b6d751f488d499b32a4ac8a3614f78ca439cc2e",
+      "evidence_checksum": "f076359e82da0b4415881cb47d452740e02900476b8ebfa8b5b60354978ced57"
+    },
+    {
+      "lexical_key": "昂贵|ang2 gui4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "354737ebcea2f1e043d42a824a73040f0253b6f20b60152d4c9bf2f24801e274",
+      "evidence_checksum": "c982f6a29413e056dbaa8c21275004f8bed777fd762ed60a2adb5e023bd4d44d"
+    },
+    {
+      "lexical_key": "作|zuo4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "790caae48d8abc2f034a1029fc51c32db100f43746851687a457abe8b2d63cba",
+      "evidence_checksum": "b8add60e1cc0cddc0c628a993bf0e9250a2b6d387408f1d747ca4c9b894a1e91"
+    },
+    {
+      "lexical_key": "喜|xi3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "c386a75fd6001da93f2f6b93f9fa554b7ef2dd41f9b8ff18d8a27de76683e216",
+      "evidence_checksum": "b593b337c7ad68ec3bd681316b3013cb3fdc398726be2f47d82bcaf43cdd49e4"
+    },
+    {
+      "lexical_key": "目|mu4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "21caf3c1dc1d91b6ea705db4eca9ce338160d89601bd16a209d588424cd4c4ff",
+      "evidence_checksum": "fa77ff5d9310ead5ca73806246e0815b8eb9f6867ab4a8610ecbb3c5607b2a06"
+    },
+    {
+      "lexical_key": "耳|er3",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "8783662a44ca0620d11449acce9fdf96a5f84238996ca8d7184bd920eb2946f8",
+      "evidence_checksum": "8a11a91220a84ac5892fd1628e0a5a335580de1b557df8d4742948effe02c017"
+    },
+    {
+      "lexical_key": "识|shi2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "b4128897c2283fb3e6c5705abef0bf312199e208e95f3c2d19b4ef86d47b3172",
+      "evidence_checksum": "0ff38972adef5b35c5d39fbb78ccd5376bf687dffd8d2e7ab911f4216537cce9"
+    },
+    {
+      "lexical_key": "足|zu2",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "a47145c05732431b637a8e7e0036855909de82927c88a55a1172f5564147d5e0",
+      "evidence_checksum": "7368af773ec2031abd389af3c511f2eea7e76ca4913f115d4c375682937687b9"
+    },
+    {
+      "lexical_key": "道|dao4",
+      "before": null,
+      "action": "INSERT_AND_ACCEPT_LOCAL",
+      "incoming_version": 1,
+      "incoming_checksum": "85768b6ded1c30e28b3afd8441ebb17202d565299d84b004cb906ab828a8bd45",
+      "evidence_checksum": "cb9a728acf01d2fd19675e7590875e1d09d9625b2f4e5f0ab1d580c601f9b79c"
+    }
+  ],
+  "policy": "local-codex-session-v1",
+  "confirmation": "LOCAL-CODEX-2a10666aa754f1d865541e1c1d731d4200b74220e9b53229dbb694baddc64365"
+}

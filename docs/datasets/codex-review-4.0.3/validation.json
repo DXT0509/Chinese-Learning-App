@@ -1,0 +1,4896 @@
+{
+  "status": "REVIEW_COMPLETE_WITH_RETAINED_HOLDS",
+  "structural_integrity": "PASSED",
+  "records": 2501,
+  "unique_learning_items": 2500,
+  "duplicate_keys": [],
+  "duplicate_simplified_pinyin_identities": [],
+  "reviewed_records": 2501,
+  "unreviewed_records": 0,
+  "deployment_file": "provisional-deployment.jsonl",
+  "deployment_sha256": "1e490609d214cd9b3fc3d038e60f31570cb3568f4795dcc20c5a3f0ab28fa8fc",
+  "source_audit": {
+    "schema_version": 1,
+    "structural_integrity": "PASSED",
+    "errors": [],
+    "files": [
+      {
+        "batch": "L0-B001",
+        "file": "level-0-batch-001.converted.jsonl",
+        "sha256": "d73ec8a21b5ccf254bc67963b85114bf914a8d806701adc586d82366a97ea351",
+        "source_sha256": "ddeb6f2a4b2188355363c8d7cc2b4a3bfdbcc1473aa435ff0502f3a5f4249006",
+        "records": 51,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L0-B002",
+        "file": "level-0-batch-002.jsonl",
+        "sha256": "538c6f0e281dc31ecae8024b243151783f26b0336a1edb776680d5826fdcca4d",
+        "source_sha256": "538c6f0e281dc31ecae8024b243151783f26b0336a1edb776680d5826fdcca4d",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L1-B001",
+        "file": "level-1-batch-001.jsonl",
+        "sha256": "2f76cc1ae9aaf4d3a7d603da3539d4705ffd3e8d313ab8e3cdff85913c8b7e94",
+        "source_sha256": "2f76cc1ae9aaf4d3a7d603da3539d4705ffd3e8d313ab8e3cdff85913c8b7e94",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L1-B002",
+        "file": "level-1-batch-002.jsonl",
+        "sha256": "ae9e5d30f41b4539b26864eda8d0a64e05d830a02add8dd4ff8cb96776ae066a",
+        "source_sha256": "ae9e5d30f41b4539b26864eda8d0a64e05d830a02add8dd4ff8cb96776ae066a",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L2-B001",
+        "file": "level-2-batch-001.jsonl",
+        "sha256": "f619ac7915f79e781da29c69c17d4e3f4982ba1886cef6ec6b6a408b090e2557",
+        "source_sha256": "f619ac7915f79e781da29c69c17d4e3f4982ba1886cef6ec6b6a408b090e2557",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L2-B002",
+        "file": "level-2-batch-002.jsonl",
+        "sha256": "93a2e8fcef97ba17ea9e9906d4d042cd545dc452effd973c59c233c26a8916cd",
+        "source_sha256": "93a2e8fcef97ba17ea9e9906d4d042cd545dc452effd973c59c233c26a8916cd",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L2-B003",
+        "file": "level-2-batch-003.jsonl",
+        "sha256": "563df7cf3ea31d02333a520934fb2f3321514fc28372a35d522cca6a64f321dc",
+        "source_sha256": "563df7cf3ea31d02333a520934fb2f3321514fc28372a35d522cca6a64f321dc",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B001",
+        "file": "level-3-batch-001.jsonl",
+        "sha256": "67b32a790c1b96163cad962517909f9a17a757c36e3728448f543579ad1b8fa9",
+        "source_sha256": "67b32a790c1b96163cad962517909f9a17a757c36e3728448f543579ad1b8fa9",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B002",
+        "file": "level-3-batch-002.jsonl",
+        "sha256": "7eba54e07f074f922dbbbde7b5341712e666dcf4987352fe78109360b711b205",
+        "source_sha256": "7eba54e07f074f922dbbbde7b5341712e666dcf4987352fe78109360b711b205",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B003",
+        "file": "level-3-batch-003.jsonl",
+        "sha256": "ab351d3ca40114502610a86be790c62828d0831b36ea4ff0b39cda7124af0e7b",
+        "source_sha256": "ab351d3ca40114502610a86be790c62828d0831b36ea4ff0b39cda7124af0e7b",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B004",
+        "file": "level-3-batch-004.jsonl",
+        "sha256": "5749ea8fd8c93bf316a63afdc9153da9582b10f0fb57b7178745a94d5233899d",
+        "source_sha256": "5749ea8fd8c93bf316a63afdc9153da9582b10f0fb57b7178745a94d5233899d",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B005",
+        "file": "level-3-batch-005.jsonl",
+        "sha256": "813030241df3f61002dfec04e9211c5afca1b8d46b33cd7f0413cb3ee0f1890d",
+        "source_sha256": "813030241df3f61002dfec04e9211c5afca1b8d46b33cd7f0413cb3ee0f1890d",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L3-B006",
+        "file": "level-3-batch-006.jsonl",
+        "sha256": "8dae28db9ffde8eb9c4bcb9fa33b5a13ba7cf9c634c456553ed0ebafd45bf48e",
+        "source_sha256": "8dae28db9ffde8eb9c4bcb9fa33b5a13ba7cf9c634c456553ed0ebafd45bf48e",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B001",
+        "file": "level-4-batch-001.jsonl",
+        "sha256": "0bd0db089b57b58236769562e5b61d04a9546ae950a7153efb9ddf701301553b",
+        "source_sha256": "0bd0db089b57b58236769562e5b61d04a9546ae950a7153efb9ddf701301553b",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B002",
+        "file": "level-4-batch-002.jsonl",
+        "sha256": "6d0ebdd057dec07668ae329e30d137993f227f5dafb6cec9f22b4c71520c37c1",
+        "source_sha256": "6d0ebdd057dec07668ae329e30d137993f227f5dafb6cec9f22b4c71520c37c1",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B003",
+        "file": "level-4-batch-003.jsonl",
+        "sha256": "8061bf6b16949d1eef4f0b9cef037cfe439cc14f4b7ddb4a87526029fe67b897",
+        "source_sha256": "8061bf6b16949d1eef4f0b9cef037cfe439cc14f4b7ddb4a87526029fe67b897",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B004",
+        "file": "level-4-batch-004.jsonl",
+        "sha256": "c785d6060694cec7225226f5a0e9d13adedc873819a8247b67df25b277affea3",
+        "source_sha256": "c785d6060694cec7225226f5a0e9d13adedc873819a8247b67df25b277affea3",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B005",
+        "file": "level-4-batch-005.jsonl",
+        "sha256": "041abd1ab69b8bc3c3073ce472f7980f1966ae704d149318440496b1eaa17eba",
+        "source_sha256": "041abd1ab69b8bc3c3073ce472f7980f1966ae704d149318440496b1eaa17eba",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B006",
+        "file": "level-4-batch-006.jsonl",
+        "sha256": "c62bd044834eea05408b56d2410de48fdc564167f79592f4bfdcbed731a4d271",
+        "source_sha256": "c62bd044834eea05408b56d2410de48fdc564167f79592f4bfdcbed731a4d271",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B007",
+        "file": "level-4-batch-007.jsonl",
+        "sha256": "4d5c9aa305ecd15b2f6d8245515b2adcf37e4d28d064b360e4d9d84a2153ae6e",
+        "source_sha256": "4d5c9aa305ecd15b2f6d8245515b2adcf37e4d28d064b360e4d9d84a2153ae6e",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B008",
+        "file": "level-4-batch-008.jsonl",
+        "sha256": "c9f303cddf4184355fbe091e5bc03b65ba5e21e80e5f7ce3541a568c8bb337cc",
+        "source_sha256": "c9f303cddf4184355fbe091e5bc03b65ba5e21e80e5f7ce3541a568c8bb337cc",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B009",
+        "file": "level-4-batch-009.jsonl",
+        "sha256": "6ed9db31586b85d4de63b747d18470cf5360b21159c0107b5c0f9731d5685566",
+        "source_sha256": "6ed9db31586b85d4de63b747d18470cf5360b21159c0107b5c0f9731d5685566",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B010",
+        "file": "level-4-batch-010.jsonl",
+        "sha256": "48b309b63f1319df170f800ff13397a333860ab142eb81373939df34839ebfb8",
+        "source_sha256": "48b309b63f1319df170f800ff13397a333860ab142eb81373939df34839ebfb8",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B011",
+        "file": "level-4-batch-011.jsonl",
+        "sha256": "29cb73163f3e2f3ead553b07fa8edaf6ed87bfd376b2b75a769dbc3efc84a24b",
+        "source_sha256": "29cb73163f3e2f3ead553b07fa8edaf6ed87bfd376b2b75a769dbc3efc84a24b",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L4-B012",
+        "file": "level-4-batch-012.jsonl",
+        "sha256": "82baea9bb4576d6dbe272d9755d7fca023bf388b9d262e096e49edeac6185c0f",
+        "source_sha256": "82baea9bb4576d6dbe272d9755d7fca023bf388b9d262e096e49edeac6185c0f",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B001",
+        "file": "level-5-batch-001.jsonl",
+        "sha256": "8ecd25a9074d5b3f11c355d92b3b275830ed98d3b96b93a24277303ca06dbfda",
+        "source_sha256": "8ecd25a9074d5b3f11c355d92b3b275830ed98d3b96b93a24277303ca06dbfda",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B002",
+        "file": "level-5-batch-002.jsonl",
+        "sha256": "e140a9e6559b2912638fb37dc62bd7ca1c240b5843865b066befab16e5dd67b4",
+        "source_sha256": "e140a9e6559b2912638fb37dc62bd7ca1c240b5843865b066befab16e5dd67b4",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B003",
+        "file": "level-5-batch-003.jsonl",
+        "sha256": "90fa80099a59f1a263dfcb20309dbc705b2686f0aab2fd902fa3555cc86d6041",
+        "source_sha256": "90fa80099a59f1a263dfcb20309dbc705b2686f0aab2fd902fa3555cc86d6041",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B004",
+        "file": "level-5-batch-004.jsonl",
+        "sha256": "7fa756605a54d30b8ed39e4f6b8a76fd34741cdc9800cdf437872451c75b9f95",
+        "source_sha256": "7fa756605a54d30b8ed39e4f6b8a76fd34741cdc9800cdf437872451c75b9f95",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B005",
+        "file": "level-5-batch-005.jsonl",
+        "sha256": "0123bd4c3c2029ba55e30d1e71d8ca79973f44e3262c2855a703d0652655e945",
+        "source_sha256": "0123bd4c3c2029ba55e30d1e71d8ca79973f44e3262c2855a703d0652655e945",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B006",
+        "file": "level-5-batch-006.jsonl",
+        "sha256": "9239db496546ee5aa25a364149eeeb26d73c2897b8a94c0c93c7d2d21ab158e0",
+        "source_sha256": "9239db496546ee5aa25a364149eeeb26d73c2897b8a94c0c93c7d2d21ab158e0",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B007",
+        "file": "level-5-batch-007.jsonl",
+        "sha256": "dd51d5ae9ccce457a90c94de40e4693498466cebaab0b947f0a4e4285a939ce3",
+        "source_sha256": "dd51d5ae9ccce457a90c94de40e4693498466cebaab0b947f0a4e4285a939ce3",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B008",
+        "file": "level-5-batch-008.jsonl",
+        "sha256": "60507abafc52be590bf58d9dd150aa12c37df215ecaa6560427eb39916937d84",
+        "source_sha256": "60507abafc52be590bf58d9dd150aa12c37df215ecaa6560427eb39916937d84",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B009",
+        "file": "level-5-batch-009.jsonl",
+        "sha256": "79a26cf855c041f5581add4089e84e01c35c07a448983b42152f62f2e3ad9625",
+        "source_sha256": "79a26cf855c041f5581add4089e84e01c35c07a448983b42152f62f2e3ad9625",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B010",
+        "file": "level-5-batch-010.jsonl",
+        "sha256": "f2a8bba01579517c14d6cf214ca8597027468ac9e28172d8053acc4b538e7877",
+        "source_sha256": "f2a8bba01579517c14d6cf214ca8597027468ac9e28172d8053acc4b538e7877",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B011",
+        "file": "level-5-batch-011.jsonl",
+        "sha256": "2e65a0a035179a9d97815593a7eabf95c5db4ba18deefb4ae252f4818737fa58",
+        "source_sha256": "2e65a0a035179a9d97815593a7eabf95c5db4ba18deefb4ae252f4818737fa58",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B012",
+        "file": "level-5-batch-012.jsonl",
+        "sha256": "2e74b84303e6f85bd6bcf116bbc976f6d3465b3eedb8c82a98c8822dfd89ff9a",
+        "source_sha256": "2e74b84303e6f85bd6bcf116bbc976f6d3465b3eedb8c82a98c8822dfd89ff9a",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B013",
+        "file": "level-5-batch-013.jsonl",
+        "sha256": "5b0d4502fe0025b3f4866827073fa4aff0770f03a8d42cffc1c36be643dea521",
+        "source_sha256": "5b0d4502fe0025b3f4866827073fa4aff0770f03a8d42cffc1c36be643dea521",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B014",
+        "file": "level-5-batch-014.jsonl",
+        "sha256": "7208e45abe742805f0b4b236aba9e4ff99ef79ad2ba0f49bd90415b0df41e2a4",
+        "source_sha256": "7208e45abe742805f0b4b236aba9e4ff99ef79ad2ba0f49bd90415b0df41e2a4",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B015",
+        "file": "level-5-batch-015.jsonl",
+        "sha256": "b788b27a1a13f65c544594754b6b5024e49bd9ec262db07970478825bffc3fcd",
+        "source_sha256": "b788b27a1a13f65c544594754b6b5024e49bd9ec262db07970478825bffc3fcd",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B016",
+        "file": "level-5-batch-016.jsonl",
+        "sha256": "dbb661f7a319a3573f1c1b1a5bed418781c4be9fdc412c24b57a8f66b00b32da",
+        "source_sha256": "dbb661f7a319a3573f1c1b1a5bed418781c4be9fdc412c24b57a8f66b00b32da",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B017",
+        "file": "level-5-batch-017.jsonl",
+        "sha256": "6a7923d8a20f1461bf5941a912ed415e3104a495be8827bb576e37245a807340",
+        "source_sha256": "6a7923d8a20f1461bf5941a912ed415e3104a495be8827bb576e37245a807340",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B018",
+        "file": "level-5-batch-018.jsonl",
+        "sha256": "63efd9ca4e0ed9b74c082a8dba71f5da299a5590357c771ead8cba822747bc8d",
+        "source_sha256": "63efd9ca4e0ed9b74c082a8dba71f5da299a5590357c771ead8cba822747bc8d",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B019",
+        "file": "level-5-batch-019.jsonl",
+        "sha256": "ffa416e02aa5d82a0220c1ebb70507c2a11fb5d50bbe631b09f79a4299669e87",
+        "source_sha256": "ffa416e02aa5d82a0220c1ebb70507c2a11fb5d50bbe631b09f79a4299669e87",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B020",
+        "file": "level-5-batch-020.jsonl",
+        "sha256": "584e9f29652015526121957e2c701f53742f2a77dcb3613cc8b9cd42844d748e",
+        "source_sha256": "584e9f29652015526121957e2c701f53742f2a77dcb3613cc8b9cd42844d748e",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B021",
+        "file": "level-5-batch-021.jsonl",
+        "sha256": "8ec10923296b1b018531c4f9e7f60cbed6ae132d946e165252c2c502b6c461f8",
+        "source_sha256": "8ec10923296b1b018531c4f9e7f60cbed6ae132d946e165252c2c502b6c461f8",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B022",
+        "file": "level-5-batch-022.jsonl",
+        "sha256": "60560f996900bd36a0e86697dbe1f494e82ad7a88929909683d98eadc0363391",
+        "source_sha256": "60560f996900bd36a0e86697dbe1f494e82ad7a88929909683d98eadc0363391",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B023",
+        "file": "level-5-batch-023.jsonl",
+        "sha256": "22c8103080e5a935809550c78be195ba8ab5215e6c1bbd245b87badc71dd75b9",
+        "source_sha256": "22c8103080e5a935809550c78be195ba8ab5215e6c1bbd245b87badc71dd75b9",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B024",
+        "file": "level-5-batch-024.jsonl",
+        "sha256": "33678abe7ab0945e1e9378713bd9bbda5f94591f5c6f42c0ffdf99b373d359b3",
+        "source_sha256": "33678abe7ab0945e1e9378713bd9bbda5f94591f5c6f42c0ffdf99b373d359b3",
+        "records": 50,
+        "structurally_valid": true
+      },
+      {
+        "batch": "L5-B025",
+        "file": "level-5-batch-025.jsonl",
+        "sha256": "a3f7d62f3e67a2e5142ea7d0f32dcb98764b5f6fc2311522bde0c0b194b46248",
+        "source_sha256": "a3f7d62f3e67a2e5142ea7d0f32dcb98764b5f6fc2311522bde0c0b194b46248",
+        "records": 50,
+        "structurally_valid": true
+      }
+    ],
+    "generated_records": 2501,
+    "unique_learning_items": 2500,
+    "by_learning_level": {
+      "0": 100,
+      "1": 100,
+      "2": 150,
+      "3": 300,
+      "4": 600,
+      "5": 1250
+    },
+    "records_by_level": {
+      "0": 101,
+      "1": 100,
+      "2": 150,
+      "3": 300,
+      "4": 600,
+      "5": 1250
+    },
+    "duplicate_keys": [],
+    "duplicate_identities": [],
+    "duplicate_candidates": [
+      {
+        "kind": "exact_vi_gloss",
+        "value": "xin lỗi",
+        "lexical_keys": [
+          "对不起|dui4 bu5 qi3",
+          "抱歉|bao4 qian4",
+          "道歉|dao4 qian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "mời",
+        "lexical_keys": [
+          "请|qing3",
+          "邀请|yao1 qing3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bạn",
+        "lexical_keys": [
+          "你|ni3",
+          "朋友|peng2 you5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ông",
+        "lexical_keys": [
+          "先生|xian1 sheng5",
+          "您|nin2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chúng ta",
+        "lexical_keys": [
+          "咱们|zan2 men5",
+          "我们|wo3 men5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đây",
+        "lexical_keys": [
+          "这|zhe4",
+          "这里|zhe4 li5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kia",
+        "lexical_keys": [
+          "那|na4",
+          "那里|na4 li5"
+        ]
+      },
+      {
+        "kind": "form",
+        "value": "谁",
+        "lexical_keys": [
+          "谁|shei2",
+          "谁|shui2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ai",
+        "lexical_keys": [
+          "谁|shei2",
+          "谁|shui2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ba",
+        "lexical_keys": [
+          "三|san1",
+          "爸爸|ba4 ba5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ở",
+        "lexical_keys": [
+          "住|zhu4",
+          "在|zai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "muốn",
+        "lexical_keys": [
+          "想|xiang3",
+          "要|yao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đến",
+        "lexical_keys": [
+          "到|dao4",
+          "来|lai2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhà vệ sinh",
+        "lexical_keys": [
+          "厕所|ce4 suo3",
+          "洗手间|xi3 shou3 jian1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thế nào",
+        "lexical_keys": [
+          "怎么|zen3 me5",
+          "怎么样|zen3 me5 yang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gọi là",
+        "lexical_keys": [
+          "叫|jiao4",
+          "称呼|cheng1 hu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "biết",
+        "lexical_keys": [
+          "知道|zhi1 dao5",
+          "认识|ren4 shi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhận biết",
+        "lexical_keys": [
+          "认识|ren4 shi5",
+          "辨别|bian4 bie2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nói",
+        "lexical_keys": [
+          "讲|jiang3",
+          "说|shuo1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đọc",
+        "lexical_keys": [
+          "读|du2",
+          "阅读|yue4 du2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ngồi",
+        "lexical_keys": [
+          "乘坐|cheng2 zuo4",
+          "坐|zuo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thích",
+        "lexical_keys": [
+          "喜欢|xi3 huan5",
+          "爱|ai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhớ",
+        "lexical_keys": [
+          "想|xiang3",
+          "记得|ji4 de5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhiều",
+        "lexical_keys": [
+          "多|duo1",
+          "许多|xu3 duo1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rất",
+        "lexical_keys": [
+          "很|hen3",
+          "挺|ting3",
+          "非常|fei1 chang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tất cả",
+        "lexical_keys": [
+          "一共|yi2 gong4",
+          "一切|yi2 qie4",
+          "全部|quan2 bu4",
+          "总共|zong3 gong4",
+          "所有|suo3 you3",
+          "都|dou1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thứ",
+        "lexical_keys": [
+          "东西|dong1 xi5",
+          "星期|xing1 qi1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bác sĩ",
+        "lexical_keys": [
+          "医生|yi1 sheng1",
+          "大夫|dai4 fu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khách sạn",
+        "lexical_keys": [
+          "宾馆|bin1 guan3",
+          "饭店|fan4 dian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bên trong",
+        "lexical_keys": [
+          "内|nei4",
+          "里面|li3 mian5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cái",
+        "lexical_keys": [
+          "个|ge4",
+          "条|tiao2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chiếc",
+        "lexical_keys": [
+          "个|ge4",
+          "件|jian4",
+          "台|tai2",
+          "把|ba3",
+          "根|gen1",
+          "辆|liang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "con",
+        "lexical_keys": [
+          "个|ge4",
+          "条|tiao2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "làm",
+        "lexical_keys": [
+          "做|zuo4",
+          "弄|nong4",
+          "当|dang1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chế tạo",
+        "lexical_keys": [
+          "做|zuo4",
+          "制造|zhi4 zao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "về",
+        "lexical_keys": [
+          "关于|guan1 yu2",
+          "回|hui2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vui vẻ",
+        "lexical_keys": [
+          "开心|kai1 xin1",
+          "高兴|gao1 xing4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phấn khởi",
+        "lexical_keys": [
+          "兴奋|xing1 fen4",
+          "高兴|gao1 xing4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cùng",
+        "lexical_keys": [
+          "和|he2",
+          "陪|pei2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cô",
+        "lexical_keys": [
+          "姑姑|gu1 gu5",
+          "小姐|xiao3 jie5",
+          "阿姨|a1 yi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nói chuyện",
+        "lexical_keys": [
+          "聊|liao2",
+          "说话|shuo1 hua4",
+          "谈|tan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ốm",
+        "lexical_keys": [
+          "生病|sheng1 bing4",
+          "瘦|shou4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tặng",
+        "lexical_keys": [
+          "给|gei3",
+          "送|song4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tìm kiếm",
+        "lexical_keys": [
+          "找|zhao3",
+          "探寻|tan4 xun2",
+          "查询|cha2 xun2",
+          "谋求|mou2 qiu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hiểu",
+        "lexical_keys": [
+          "懂|dong3",
+          "明白|ming2 bai5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bước đi",
+        "lexical_keys": [
+          "步履|bu4 lü3",
+          "步骤|bu4 zhou4",
+          "行动|xing2 dong4",
+          "走|zou3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gần",
+        "lexical_keys": [
+          "将近|jiang1 jin4",
+          "近|jin4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hỗ trợ",
+        "lexical_keys": [
+          "帮助|bang1 zhu4",
+          "辅助|fu3 zhu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chuẩn bị",
+        "lexical_keys": [
+          "准备|zhun3 bei4",
+          "筹备|chou2 bei4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chào đón",
+        "lexical_keys": [
+          "打招呼|da3 zhao1 hu5",
+          "欢迎|huan1 ying2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hiểu rõ",
+        "lexical_keys": [
+          "了解|liao3 jie3",
+          "清楚|qing1 chu5",
+          "理解|li3 jie3",
+          "知道|zhi1 dao5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cảm thấy",
+        "lexical_keys": [
+          "感觉|gan3 jue2",
+          "觉得|jue2 de5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trải qua",
+        "lexical_keys": [
+          "经历|jing1 li4",
+          "经过|jing1 guo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoàn thành",
+        "lexical_keys": [
+          "完|wan2",
+          "完成|wan2 cheng2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chính xác",
+        "lexical_keys": [
+          "准确|zhun3 que4",
+          "对|dui4",
+          "正确|zheng4 que4",
+          "精密|jing1 mi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rõ ràng",
+        "lexical_keys": [
+          "明朗|ming2 lang3",
+          "明白|ming2 bai5",
+          "清楚|qing1 chu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vé",
+        "lexical_keys": [
+          "券|quan4",
+          "票|piao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đường",
+        "lexical_keys": [
+          "糖|tang2",
+          "路|lu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lớp học",
+        "lexical_keys": [
+          "教室|jiao4 shi4",
+          "班级|ban1 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thấp",
+        "lexical_keys": [
+          "低|di1",
+          "矮|ai3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "liền",
+        "lexical_keys": [
+          "就|jiu4",
+          "马上|ma3 shang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thường xuyên",
+        "lexical_keys": [
+          "常常|chang2 chang2",
+          "经常|jing1 chang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lại",
+        "lexical_keys": [
+          "再|zai4",
+          "竟然|jing4 ran2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thực sự",
+        "lexical_keys": [
+          "实在|shi2 zai4",
+          "真|zhen1",
+          "真正|zhen1 zheng4",
+          "确实|que4 shi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vô cùng",
+        "lexical_keys": [
+          "十分|shi2 fen1",
+          "极度|ji2 du4",
+          "非常|fei1 chang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bởi vì",
+        "lexical_keys": [
+          "因为|yin1 wei4",
+          "由于|you2 yu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhưng mà",
+        "lexical_keys": [
+          "但是|dan4 shi4",
+          "可是|ke3 shi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhưng",
+        "lexical_keys": [
+          "但是|dan4 shi4",
+          "却|que4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hướng về",
+        "lexical_keys": [
+          "向|xiang4",
+          "向往|xiang4 wang3",
+          "往|wang3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "về phía",
+        "lexical_keys": [
+          "向|xiang4",
+          "往|wang3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bận rộn",
+        "lexical_keys": [
+          "忙|mang2",
+          "忙碌|mang2 lu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đúng đắn",
+        "lexical_keys": [
+          "正确|zheng4 que4",
+          "端正|duan1 zheng4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chuyện",
+        "lexical_keys": [
+          "事情|shi4 qing5",
+          "故事|gu4 shi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dự định",
+        "lexical_keys": [
+          "打算|da3 suan4",
+          "计划|ji4 hua4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tính toán",
+        "lexical_keys": [
+          "打算|da3 suan4",
+          "算|suan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tán thành",
+        "lexical_keys": [
+          "主张|zhu3 zhang1",
+          "同意|tong2 yi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sẵn lòng",
+        "lexical_keys": [
+          "愿意|yuan4 yi4",
+          "甘愿|gan1 yuan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tin tưởng",
+        "lexical_keys": [
+          "信任|xin4 ren4",
+          "相信|xiang1 xin4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phát hiện",
+        "lexical_keys": [
+          "发现|fa1 xian4",
+          "发觉|fa1 jue2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhận ra",
+        "lexical_keys": [
+          "发现|fa1 xian4",
+          "发觉|fa1 jue2",
+          "辨认|bian4 ren4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "so sánh",
+        "lexical_keys": [
+          "对照|dui4 zhao4",
+          "比较|bi3 jiao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thay",
+        "lexical_keys": [
+          "代|dai4",
+          "换|huan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lấy",
+        "lexical_keys": [
+          "取|qu3",
+          "拿|na2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "để",
+        "lexical_keys": [
+          "为了|wei4 le5",
+          "放|fang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giữ lại",
+        "lexical_keys": [
+          "保留|bao3 liu2",
+          "留|liu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "va chạm",
+        "lexical_keys": [
+          "冲突|chong1 tu1",
+          "碰|peng4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rút ra",
+        "lexical_keys": [
+          "吸取|xi1 qu3",
+          "抽|chou1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tra cứu",
+        "lexical_keys": [
+          "查|cha2",
+          "查询|cha2 xun2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kiểm tra",
+        "lexical_keys": [
+          "查|cha2",
+          "检查|jian3 cha2",
+          "检验|jian3 yan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nảy sinh",
+        "lexical_keys": [
+          "出现|chu1 xian4",
+          "发生|fa1 sheng1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lo lắng",
+        "lexical_keys": [
+          "担心|dan1 xin1",
+          "焦急|jiao1 ji2",
+          "着急|zhao2 ji2",
+          "顾虑|gu4 lü4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phát sinh",
+        "lexical_keys": [
+          "发|fa1",
+          "生发|sheng1 fa1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chúc mừng",
+        "lexical_keys": [
+          "祝|zhu4",
+          "祝贺|zhu4 he4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đau lòng",
+        "lexical_keys": [
+          "伤心|shang1 xin1",
+          "难过|nan2 guo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sốt ruột",
+        "lexical_keys": [
+          "焦急|jiao1 ji2",
+          "着急|zhao2 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhiệt tình",
+        "lexical_keys": [
+          "热心|re4 xin1",
+          "热情|re4 qing2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chăm chỉ",
+        "lexical_keys": [
+          "努力|nu3 li4",
+          "认真|ren4 zhen1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sôi nổi",
+        "lexical_keys": [
+          "活泼|huo2 po5",
+          "热烈|re4 lie4",
+          "热闹|re4 nao5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiện lợi",
+        "lexical_keys": [
+          "便利|bian4 li4",
+          "方便|fang1 bian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thuận tiện",
+        "lexical_keys": [
+          "便利|bian4 li4",
+          "方便|fang1 bian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đặc biệt",
+        "lexical_keys": [
+          "专门|zhuan1 men2",
+          "格外|ge2 wai4",
+          "特别|te4 bie2",
+          "特意|te4 yi4",
+          "特殊|te4 shu1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bình thường",
+        "lexical_keys": [
+          "一般|yi4 ban1",
+          "平常|ping2 chang2",
+          "平时|ping2 shi2",
+          "正常|zheng4 chang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phổ biến",
+        "lexical_keys": [
+          "一般|yi4 ban1",
+          "普遍|pu3 bian4",
+          "流行|liu2 xing2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giản dị",
+        "lexical_keys": [
+          "平常|ping2 chang2",
+          "简单|jian3 dan1",
+          "简朴|jian3 pu3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nổi tiếng",
+        "lexical_keys": [
+          "有名|you3 ming2",
+          "著名|zhu4 ming2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trung thực",
+        "lexical_keys": [
+          "忠实|zhong1 shi2",
+          "诚实|cheng2 shi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cẩn trọng",
+        "lexical_keys": [
+          "小心|xiao3 xin1",
+          "谨慎|jin3 shen4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cẩu thả",
+        "lexical_keys": [
+          "胡乱|hu2 luan4",
+          "草率|cao3 shuai4",
+          "马虎|ma3 hu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "qua loa",
+        "lexical_keys": [
+          "敷衍|fu1 yan3",
+          "草率|cao3 shuai4",
+          "马虎|ma3 hu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nghiêm khắc",
+        "lexical_keys": [
+          "严厉|yan2 li4",
+          "严格|yan2 ge2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dồi dào",
+        "lexical_keys": [
+          "丰富|feng1 fu4",
+          "充沛|chong1 pei4",
+          "充足|chong1 zu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "xuất sắc",
+        "lexical_keys": [
+          "优秀|you1 xiu4",
+          "精彩|jing1 cai3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "láng giềng",
+        "lexical_keys": [
+          "邻居|lin2 ju1",
+          "邻里|lin2 li3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhà báo",
+        "lexical_keys": [
+          "报社|bao4 she4",
+          "记者|ji4 zhe3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "công an",
+        "lexical_keys": [
+          "干警|gan4 jing3",
+          "警察|jing3 cha2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "quản lý",
+        "lexical_keys": [
+          "管理|guan3 li3",
+          "经理|jing1 li3",
+          "经营|jing1 ying2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "điều hòa",
+        "lexical_keys": [
+          "空调|kong1 tiao2",
+          "调和|tiao2 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tất",
+        "lexical_keys": [
+          "袜|wa4",
+          "袜子|wa4 zi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "không khí",
+        "lexical_keys": [
+          "气氛|qi4 fen1",
+          "空气|kong1 qi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cây cỏ",
+        "lexical_keys": [
+          "植物|zhi2 wu4",
+          "草|cao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cây",
+        "lexical_keys": [
+          "树|shu4",
+          "根|gen1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hồ nước",
+        "lexical_keys": [
+          "湖|hu2",
+          "湖泊|hu2 po1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đại dương",
+        "lexical_keys": [
+          "海|hai3",
+          "海洋|hai3 yang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "muông thú",
+        "lexical_keys": [
+          "动物|dong4 wu4",
+          "飞禽走兽|fei1 qin2 zou3 shou4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tự nhiên",
+        "lexical_keys": [
+          "自然|zi4 ran2",
+          "随便|sui2 bian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ý nghĩa",
+        "lexical_keys": [
+          "意义|yi4 yi4",
+          "意思|yi4 si5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ý kiến",
+        "lexical_keys": [
+          "主意|zhu3 yi5",
+          "意见|yi4 jian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bất đồng",
+        "lexical_keys": [
+          "分歧|fen1 qi2",
+          "意见|yi4 jian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cách thức",
+        "lexical_keys": [
+          "办法|ban4 fa3",
+          "方式|fang1 shi4",
+          "方法|fang1 fa3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "yêu cầu",
+        "lexical_keys": [
+          "要求|yao1 qiu2",
+          "请求|qing3 qiu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tin tức",
+        "lexical_keys": [
+          "新闻|xin1 wen2",
+          "消息|xiao1 xi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiếng nói",
+        "lexical_keys": [
+          "声音|sheng1 yin1",
+          "语言|yu3 yan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tác dụng",
+        "lexical_keys": [
+          "作用|zuo4 yong4",
+          "效果|xiao4 guo3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hiệu quả",
+        "lexical_keys": [
+          "作用|zuo4 yong4",
+          "成效|cheng2 xiao4",
+          "效果|xiao4 guo3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "mục đích",
+        "lexical_keys": [
+          "动机|dong4 ji1",
+          "目的|mu4 di4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khuyết điểm",
+        "lexical_keys": [
+          "欠缺|qian4 que1",
+          "毛病|mao2 bing5",
+          "缺点|que1 dian3",
+          "缺陷|que1 xian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gần như",
+        "lexical_keys": [
+          "几乎|ji1 hu1",
+          "将近|jiang1 jin4",
+          "差不多|cha4 bu5 duo1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tổng cộng",
+        "lexical_keys": [
+          "一共|yi2 gong4",
+          "总共|zong3 gong4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lẫn nhau",
+        "lexical_keys": [
+          "互相|hu4 xiang1",
+          "彼此|bi3 ci3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đột nhiên",
+        "lexical_keys": [
+          "忽然|hu1 ran2",
+          "突然|tu1 ran2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rốt cuộc",
+        "lexical_keys": [
+          "到底|dao4 di3",
+          "毕竟|bi4 jing4",
+          "究竟|jiu1 jing4",
+          "终于|zhong1 yu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ngoài ra",
+        "lexical_keys": [
+          "另外|ling4 wai4",
+          "除了|chu2 le5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "không chỉ",
+        "lexical_keys": [
+          "不仅|bu4 jin3",
+          "不但|bu2 dan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đúng giờ",
+        "lexical_keys": [
+          "准时|zhun3 shi2",
+          "按时|an4 shi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đưa tin",
+        "lexical_keys": [
+          "报导|bao4 dao3",
+          "报道|bao4 dao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bài báo",
+        "lexical_keys": [
+          "报道|bao4 dao4",
+          "文章|wen2 zhang1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cho dù",
+        "lexical_keys": [
+          "不管|bu4 guan3",
+          "即使|ji2 shi3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phần",
+        "lexical_keys": [
+          "份|fen4",
+          "部分|bu4 fen5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tài liệu",
+        "lexical_keys": [
+          "材料|cai2 liao4",
+          "资料|zi1 liao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cất giữ",
+        "lexical_keys": [
+          "保存|bao3 cun2",
+          "存|cun2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "làm phiền",
+        "lexical_keys": [
+          "打扰|da3 rao3",
+          "扰乱|rao3 luan4",
+          "骚扰|sao1 rao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "có lẽ",
+        "lexical_keys": [
+          "也许|ye3 xu3",
+          "大概|da4 gai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ngã",
+        "lexical_keys": [
+          "倒|dao3",
+          "跌倒|die1 dao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rốt cục",
+        "lexical_keys": [
+          "到底|dao4 di3",
+          "究竟|jiu1 jing4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đăng ký",
+        "lexical_keys": [
+          "申请|shen1 qing3",
+          "登记|deng1 ji4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trèo lên",
+        "lexical_keys": [
+          "攀登|pan1 deng1",
+          "登|deng1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chờ đợi",
+        "lexical_keys": [
+          "等候|deng3 hou4",
+          "等待|deng3 dai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vứt",
+        "lexical_keys": [
+          "丢|diu1",
+          "扔|reng1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cắt đứt",
+        "lexical_keys": [
+          "割断|ge1 duan4",
+          "断|duan4",
+          "断绝|duan4 jue2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phát",
+        "lexical_keys": [
+          "发|fa1",
+          "播放|bo1 fang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phát triển",
+        "lexical_keys": [
+          "发展|fa1 zhan3",
+          "发育|fa1 yu4",
+          "增长|zeng1 zhang3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "mở rộng",
+        "lexical_keys": [
+          "发展|fa1 zhan3",
+          "扩充|kuo4 chong1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phiền muộn",
+        "lexical_keys": [
+          "烦恼|fan2 nao3",
+          "苦恼|ku3 nao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khô ráo",
+        "lexical_keys": [
+          "干|gan1",
+          "干燥|gan1 zao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khô hạn",
+        "lexical_keys": [
+          "干旱|gan1 han4",
+          "干燥|gan1 zao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phong cảnh",
+        "lexical_keys": [
+          "风光|feng1 guang1",
+          "风景|feng1 jing3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giàu có",
+        "lexical_keys": [
+          "富|fu4",
+          "富裕|fu4 yu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trù phú",
+        "lexical_keys": [
+          "富|fu4",
+          "富裕|fu4 yu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vừa vặn",
+        "lexical_keys": [
+          "刚刚|gang1 gang1",
+          "合适|he2 shi4",
+          "适合|shi4 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kịp",
+        "lexical_keys": [
+          "来得及|lai2 de5 ji2",
+          "赶|gan3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hết sức",
+        "lexical_keys": [
+          "十分|shi2 fen1",
+          "格外|ge2 wai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "mạnh mẽ",
+        "lexical_keys": [
+          "给力|gei3 li4",
+          "蓬勃|peng2 bo2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "căn bản",
+        "lexical_keys": [
+          "根基|gen1 ji1",
+          "根本|gen1 ben3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "công bằng",
+        "lexical_keys": [
+          "公平|gong1 ping2",
+          "公道|gong1 dao5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cộng đồng",
+        "lexical_keys": [
+          "共同体|gong4 tong2 ti3",
+          "群体|qun2 ti3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thù lao",
+        "lexical_keys": [
+          "工资|gong1 zi1",
+          "报酬|bao4 chou5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "mua sắm",
+        "lexical_keys": [
+          "购物|gou4 wu4",
+          "采购|cai3 gou4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khích lệ",
+        "lexical_keys": [
+          "勉励|mian3 li4",
+          "鼓励|gu3 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "động viên",
+        "lexical_keys": [
+          "勉励|mian3 li4",
+          "鼓励|gu3 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chứng khoán",
+        "lexical_keys": [
+          "券|quan4",
+          "股票|gu3 piao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "con số",
+        "lexical_keys": [
+          "号码|hao4 ma3",
+          "数字|shu4 zi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đạt tiêu chuẩn",
+        "lexical_keys": [
+          "合格|he2 ge2",
+          "达标|da2 biao1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thích hợp",
+        "lexical_keys": [
+          "合适|he2 shi4",
+          "适合|shi4 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thanh toán",
+        "lexical_keys": [
+          "报销|bao4 xiao1",
+          "结账|jie2 zhang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiếc nuối",
+        "lexical_keys": [
+          "后悔|hou4 hui3",
+          "惋惜|wan3 xi1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vững chắc",
+        "lexical_keys": [
+          "牢固|lao2 gu4",
+          "结实|jie1 shi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoài nghi",
+        "lexical_keys": [
+          "怀疑|huai2 yi2",
+          "猜疑|cai1 yi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ngờ vực",
+        "lexical_keys": [
+          "怀疑|huai2 yi2",
+          "猜疑|cai1 yi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gắn kết",
+        "lexical_keys": [
+          "关联|guan1 lian2",
+          "结合|jie2 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cơn giận",
+        "lexical_keys": [
+          "火|huo3",
+          "脾气|pi2 qi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kích động",
+        "lexical_keys": [
+          "怂恿|song3 yong3",
+          "激动|ji1 dong4",
+          "鼓动|gu3 dong4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chủ động",
+        "lexical_keys": [
+          "主动|zhu3 dong4",
+          "积极|ji1 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tích lũy",
+        "lexical_keys": [
+          "积累|ji1 lei3",
+          "累积|lei3 ji1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gom góp",
+        "lexical_keys": [
+          "积累|ji1 lei3",
+          "采集|cai3 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dẫu rằng",
+        "lexical_keys": [
+          "即使|ji2 shi3",
+          "尽管|jin3 guan3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tay nghề",
+        "lexical_keys": [
+          "技术|ji4 shu4",
+          "技能|ji4 neng2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "duy trì",
+        "lexical_keys": [
+          "保持|bao3 chi2",
+          "继续|ji4 xu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bền bỉ",
+        "lexical_keys": [
+          "坚持|jian1 chi2",
+          "坚韧|jian1 ren4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tương lai",
+        "lexical_keys": [
+          "出路|chu1 lu4",
+          "将来|jiang1 lai2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiền thưởng",
+        "lexical_keys": [
+          "奖励金|jiang3 li4 jin1",
+          "奖金|jiang3 jin1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thưởng",
+        "lexical_keys": [
+          "奖赏|jiang3 shang3",
+          "奖金|jiang3 jin1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hạ thấp",
+        "lexical_keys": [
+          "贬低|bian3 di1",
+          "降低|jiang4 di1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giải thích",
+        "lexical_keys": [
+          "解释|jie3 shi4",
+          "说明|shuo1 ming2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thanh minh",
+        "lexical_keys": [
+          "澄清|cheng2 qing1",
+          "解释|jie3 shi4",
+          "辩解|bian4 jie3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiếp nhận",
+        "lexical_keys": [
+          "接受|jie1 shou4",
+          "接收|jie1 shou1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiếp theo",
+        "lexical_keys": [
+          "其次|qi2 ci4",
+          "后续|hou4 xu4",
+          "接着|jie1 zhe5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiết kiệm",
+        "lexical_keys": [
+          "省|sheng3",
+          "节约|jie2 yue1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cấp bách",
+        "lexical_keys": [
+          "紧急|jin3 ji2",
+          "紧迫|jin3 po4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kinh tế",
+        "lexical_keys": [
+          "合算|he2 suan4",
+          "实惠|shi2 hui4",
+          "经济|jing1 ji4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kinh doanh",
+        "lexical_keys": [
+          "业务|ye4 wu4",
+          "经营|jing1 ying2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhắc nhở",
+        "lexical_keys": [
+          "提醒|ti2 xing3",
+          "警告|jing3 gao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tổ chức",
+        "lexical_keys": [
+          "举办|ju3 ban4",
+          "机构|ji1 gou4",
+          "组织|zu3 zhi1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gặp gỡ",
+        "lexical_keys": [
+          "约会|yue1 hui4",
+          "聚会|ju4 hui4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cân nhắc",
+        "lexical_keys": [
+          "权衡|quan2 heng2",
+          "考虑|kao3 lü4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hạt",
+        "lexical_keys": [
+          "颗|ke1",
+          "颗粒|ke1 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tuy nhiên",
+        "lexical_keys": [
+          "可是|ke3 shi4",
+          "然而|ran2 er2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chỗ trống",
+        "lexical_keys": [
+          "空间|kong1 jian1",
+          "缺口|que1 kou3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kéo",
+        "lexical_keys": [
+          "扯|che3",
+          "拉|la1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lãng phí",
+        "lexical_keys": [
+          "奢侈|she1 chi3",
+          "浪费|lang4 fei4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bình tĩnh",
+        "lexical_keys": [
+          "冷静|leng3 jing4",
+          "沉着|chen2 zhuo2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "điềm tĩnh",
+        "lexical_keys": [
+          "冷静|leng3 jing4",
+          "沉着|chen2 zhuo2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bừa bãi",
+        "lexical_keys": [
+          "乱|luan4",
+          "胡乱|hu2 luan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khó chịu",
+        "lexical_keys": [
+          "别扭|bie4 niu5",
+          "反感|fan3 gan3",
+          "难受|nan2 shou4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lừa gạt",
+        "lexical_keys": [
+          "欺骗|qi1 pian4",
+          "骗|pian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khác biệt",
+        "lexical_keys": [
+          "区别|qu1 bie2",
+          "差别|cha1 bie2",
+          "独特|du2 te4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phân biệt",
+        "lexical_keys": [
+          "区别|qu1 bie2",
+          "辨别|bian4 bie2",
+          "鉴别|jian4 bie2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "toàn bộ",
+        "lexical_keys": [
+          "一切|yi2 qie4",
+          "全部|quan2 bu4",
+          "所有|suo3 you3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thiếu sót",
+        "lexical_keys": [
+          "欠缺|qian4 que1",
+          "缺陷|que1 xian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thiếu hụt",
+        "lexical_keys": [
+          "短缺|duan3 que1",
+          "缺少|que1 shao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "quả thực",
+        "lexical_keys": [
+          "实在|shi2 zai4",
+          "确实|que4 shi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thương lượng",
+        "lexical_keys": [
+          "商榷|shang1 que4",
+          "商量|shang1 liang5",
+          "谈判|tan2 pan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bàn bạc",
+        "lexical_keys": [
+          "商量|shang1 liang5",
+          "讨论|tao3 lun4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "một chút",
+        "lexical_keys": [
+          "略微|lüe4 wei1",
+          "稍微|shao1 wei1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hơi hơi",
+        "lexical_keys": [
+          "略微|lüe4 wei1",
+          "稍微|shao1 wei1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "quyến luyến",
+        "lexical_keys": [
+          "依恋|yi1 lian4",
+          "舍不得|she3 bu5 de5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thực tế",
+        "lexical_keys": [
+          "实际|shi2 ji4",
+          "现实|xian4 shi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hướng dẫn",
+        "lexical_keys": [
+          "指导|zhi3 dao3",
+          "说明|shuo1 ming2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tùy ý",
+        "lexical_keys": [
+          "随便|sui2 bian4",
+          "随心所欲|sui2 xin1 suo3 yu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phong thái",
+        "lexical_keys": [
+          "态度|tai4 du5",
+          "格调|ge2 diao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thảo luận",
+        "lexical_keys": [
+          "讨论|tao3 lun4",
+          "议论|yi4 lun4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoàn cảnh",
+        "lexical_keys": [
+          "境地|jing4 di4",
+          "条件|tiao2 jian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vượt qua",
+        "lexical_keys": [
+          "超越|chao1 yue4",
+          "通过|tong1 guo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thông báo",
+        "lexical_keys": [
+          "布告|bu4 gao4",
+          "通知|tong1 zhi1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoãn lại",
+        "lexical_keys": [
+          "延期|yan2 qi1",
+          "推迟|tui1 chi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoàn toàn",
+        "lexical_keys": [
+          "完全|wan2 quan2",
+          "彻底|che4 di3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đầy đủ",
+        "lexical_keys": [
+          "充足|chong1 zu2",
+          "完全|wan2 quan2",
+          "齐全|qi2 quan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vất vả",
+        "lexical_keys": [
+          "操劳|cao1 lao2",
+          "辛苦|xin1 ku3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tâm trạng",
+        "lexical_keys": [
+          "心情|xin1 qing2",
+          "情调|qing2 diao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tường thuật",
+        "lexical_keys": [
+          "叙述|xu4 shu4",
+          "报导|bao4 dao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chặt chẽ",
+        "lexical_keys": [
+          "严密|yan2 mi4",
+          "紧密|jin3 mi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nặng nề",
+        "lexical_keys": [
+          "严重|yan2 zhong4",
+          "沉重|chen2 zhong4",
+          "沉闷|chen2 men4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiếp thu",
+        "lexical_keys": [
+          "吸取|xi1 qu3",
+          "采纳|cai3 na4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tươi sáng",
+        "lexical_keys": [
+          "明朗|ming2 lang3",
+          "鲜明|xian1 ming2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hạn chế",
+        "lexical_keys": [
+          "局限|ju2 xian4",
+          "限制|xian4 zhi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lượng thứ",
+        "lexical_keys": [
+          "原谅|yuan2 liang4",
+          "谅解|liang4 jie3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ưng thuận",
+        "lexical_keys": [
+          "允许|yun3 xu3",
+          "许诺|xu3 nuo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tuyển dụng",
+        "lexical_keys": [
+          "录用|lu4 yong4",
+          "招聘|zhao1 pin4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chiêu mộ",
+        "lexical_keys": [
+          "招募|zhao1 mu4",
+          "招聘|zhao1 pin4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chứng minh",
+        "lexical_keys": [
+          "论证|lun4 zheng4",
+          "证明|zheng4 ming2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kiến thức",
+        "lexical_keys": [
+          "知识|zhi1 shi5",
+          "见识|jian4 shi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chuyên môn",
+        "lexical_keys": [
+          "专业|zhuan1 ye4",
+          "专门|zhuan1 men2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sinh lời",
+        "lexical_keys": [
+          "盈利|ying2 li4",
+          "赚|zhuan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chuẩn xác",
+        "lexical_keys": [
+          "准确|zhun3 que4",
+          "精确|jing1 que4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tổng hợp",
+        "lexical_keys": [
+          "合成|he2 cheng2",
+          "综合|zong1 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhìn chung",
+        "lexical_keys": [
+          "大体|da4 ti3",
+          "总体|zong3 ti3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "liên kết",
+        "lexical_keys": [
+          "组织|zu3 zhi1",
+          "联姻|lian2 yin1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hình mẫu",
+        "lexical_keys": [
+          "样板|yang4 ban3",
+          "榜样|bang3 yang4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chứa đựng",
+        "lexical_keys": [
+          "包含|bao1 han2",
+          "容纳|rong2 na4",
+          "承载|cheng2 zai4",
+          "蕴藏|yun4 cang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giữ gìn",
+        "lexical_keys": [
+          "保守|bao3 shou3",
+          "保持|bao3 chi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nóng nảy",
+        "lexical_keys": [
+          "急躁|ji2 zao4",
+          "暴躁|bao4 zao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phản bội",
+        "lexical_keys": [
+          "出卖|chu1 mai4",
+          "背叛|bei4 pan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khen thưởng",
+        "lexical_keys": [
+          "奖赏|jiang3 shang3",
+          "表彰|biao3 zhang1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gượng gạo",
+        "lexical_keys": [
+          "做作|zuo4 zuo5",
+          "别扭|bie4 niu5",
+          "拘束|ju1 shu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "biến động",
+        "lexical_keys": [
+          "动荡|dong4 dang4",
+          "波动|bo1 dong4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đọ sức",
+        "lexical_keys": [
+          "搏斗|bo2 dou4",
+          "斗争|dou4 zheng1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bù đắp",
+        "lexical_keys": [
+          "弥补|mi2 bu3",
+          "补偿|bu3 chang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cứu vãn",
+        "lexical_keys": [
+          "挽救|wan3 jiu4",
+          "补救|bu3 jiu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tiền trợ cấp",
+        "lexical_keys": [
+          "津贴|jin1 tie1",
+          "补贴|bu3 tie1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "không kìm được",
+        "lexical_keys": [
+          "不由得|bu4 you2 de5",
+          "不禁|bu4 jin1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lao tâm khổ tứ",
+        "lexical_keys": [
+          "操劳|cao1 lao2",
+          "费尽心机|fei4 jin4 xin1 ji1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hấp tấp",
+        "lexical_keys": [
+          "仓促|cang1 cu4",
+          "急躁|ji2 zao4",
+          "草率|cao3 shuai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lên kế hoạch",
+        "lexical_keys": [
+          "策划|ce4 hua4",
+          "筹划|chou2 hua4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đo lường",
+        "lexical_keys": [
+          "测定|ce4 ding4",
+          "测量|ce4 liang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "làm sáng tỏ",
+        "lexical_keys": [
+          "阐明|chan3 ming2",
+          "阐述|chan3 shu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thông suốt",
+        "lexical_keys": [
+          "互通|hu4 tong1",
+          "畅通|chang4 tong1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khởi xướng",
+        "lexical_keys": [
+          "倡导|chang4 dao3",
+          "倡议|chang4 yi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "coi thường",
+        "lexical_keys": [
+          "贬低|bian3 di1",
+          "轻视|qing1 shi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thu thập",
+        "lexical_keys": [
+          "搜集|sou1 ji2",
+          "采集|cai3 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bình diện",
+        "lexical_keys": [
+          "层面|ceng2 mian4",
+          "平面|ping2 mian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bắt giữ",
+        "lexical_keys": [
+          "查获|cha2 huo4",
+          "逮捕|dai4 bu3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "làm rõ",
+        "lexical_keys": [
+          "查明|cha2 ming2",
+          "澄清|cheng2 qing1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hoàn trả",
+        "lexical_keys": [
+          "偿还|chang2 huan2",
+          "归还|gui1 huan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "định kiến",
+        "lexical_keys": [
+          "偏见|pian1 jian4",
+          "成见|cheng2 jian4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hứa hẹn",
+        "lexical_keys": [
+          "承诺|cheng2 nuo4",
+          "许诺|xu3 nuo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "xung đột",
+        "lexical_keys": [
+          "冲突|chong1 tu1",
+          "抵触|di3 chu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sung túc",
+        "lexical_keys": [
+          "充足|chong1 zu2",
+          "富裕|fu4 yu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ban đầu",
+        "lexical_keys": [
+          "初步|chu1 bu4",
+          "初级|chu1 ji2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trong sáng",
+        "lexical_keys": [
+          "爽朗|shuang3 lang3",
+          "纯洁|chun2 jie2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "giục giã",
+        "lexical_keys": [
+          "催促|cui1 cu4",
+          "督促|du1 cu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "yếu ớt",
+        "lexical_keys": [
+          "娇气|jiao1 qi5",
+          "脆弱|cui4 ruo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cố vấn",
+        "lexical_keys": [
+          "导师|dao3 shi1",
+          "顾问|gu4 wen4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sụp đổ",
+        "lexical_keys": [
+          "倒闭|dao3 bi4",
+          "坍塌|tan1 ta1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kháng cự",
+        "lexical_keys": [
+          "对抗|dui4 kang4",
+          "抵制|di3 zhi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lắc lư",
+        "lexical_keys": [
+          "晃荡|huang4 dang5",
+          "颠簸|dian1 bo3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chòng chành",
+        "lexical_keys": [
+          "晃荡|huang4 dang5",
+          "颠簸|dian1 bo3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hòa giải",
+        "lexical_keys": [
+          "调和|tiao2 he2",
+          "调解|tiao2 jie3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dung hòa",
+        "lexical_keys": [
+          "折中|zhe2 zhong1",
+          "调和|tiao2 he2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dặn dò",
+        "lexical_keys": [
+          "交代|jiao1 dai4",
+          "关照|guan1 zhao4",
+          "叮嘱|ding1 zhu3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "căn dặn",
+        "lexical_keys": [
+          "叮嘱|ding1 zhu3",
+          "吩咐|fen1 fu5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thấu thị",
+        "lexical_keys": [
+          "洞察|dong4 cha2",
+          "锐利|rui4 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phong tỏa",
+        "lexical_keys": [
+          "冻结|dong4 jie2",
+          "封锁|feng1 suo3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đối kháng",
+        "lexical_keys": [
+          "对抗|dui4 kang4",
+          "对立|dui4 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dư thừa",
+        "lexical_keys": [
+          "冗余|rong3 yu2",
+          "多余|duo1 yu2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tự kiểm điểm",
+        "lexical_keys": [
+          "反思|fan3 si1",
+          "反省|fan3 xing3",
+          "检讨|jian3 tao3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đề phòng",
+        "lexical_keys": [
+          "戒备|jie4 bei4",
+          "警惕|jing3 ti4",
+          "防范|fang2 fan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phòng bị",
+        "lexical_keys": [
+          "戒备|jie4 bei4",
+          "防备|fang2 bei4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trăm phương nghìn kế",
+        "lexical_keys": [
+          "千方百计|qian1 fang1 bai3 ji4",
+          "费尽心机|fei4 jin4 xin1 ji1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sắc sảo",
+        "lexical_keys": [
+          "机警|ji1 jing3",
+          "锋芒|feng1 mang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hồi sinh",
+        "lexical_keys": [
+          "复兴|fu4 xing1",
+          "复苏|fu4 su1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "can dự",
+        "lexical_keys": [
+          "干预|gan1 yu4",
+          "牵连|qian1 lian2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khuyên can",
+        "lexical_keys": [
+          "劝阻|quan4 zu3",
+          "告诫|gao4 jie4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nguồn gốc",
+        "lexical_keys": [
+          "来源|lai2 yuan2",
+          "根源|gen1 yuan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trụ cột",
+        "lexical_keys": [
+          "梁柱|liang2 zhu4",
+          "骨干|gu3 gan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "xúi giục",
+        "lexical_keys": [
+          "怂恿|song3 yong3",
+          "鼓动|gu3 dong4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bao la",
+        "lexical_keys": [
+          "广阔|guang3 kuo4",
+          "辽阔|liao2 kuo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bát ngát",
+        "lexical_keys": [
+          "广阔|guang3 kuo4",
+          "辽阔|liao2 kuo4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tóm tắt",
+        "lexical_keys": [
+          "归纳|gui1 na4",
+          "简要|jian3 yao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "quá độ",
+        "lexical_keys": [
+          "过度|guo4 du4",
+          "过渡|guo4 du4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khí phách",
+        "lexical_keys": [
+          "气魄|qi4 po4",
+          "豪迈|hao2 mai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cùng có lợi",
+        "lexical_keys": [
+          "互利共赢|hu4 li4 gong4 ying2",
+          "互惠|hu4 hui4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "vắng vẻ",
+        "lexical_keys": [
+          "冷落|leng3 luo4",
+          "荒凉|huang1 liang2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cảnh giác",
+        "lexical_keys": [
+          "机警|ji1 jing3",
+          "警惕|jing3 ti4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cứng rắn",
+        "lexical_keys": [
+          "坚硬|jian1 ying4",
+          "强硬|qiang2 ying4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "kiên cố",
+        "lexical_keys": [
+          "坚硬|jian1 ying4",
+          "牢固|lao2 gu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tầm mắt",
+        "lexical_keys": [
+          "眼界|yan3 jie4",
+          "见识|jian4 shi5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bàn giao",
+        "lexical_keys": [
+          "交代|jiao1 dai4",
+          "交接|jiao1 jie1"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "gắn bó khăng khít",
+        "lexical_keys": [
+          "亲密|qin1 mi4",
+          "紧密|jin3 mi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cứu trợ",
+        "lexical_keys": [
+          "救助|jiu4 zhu4",
+          "救济|jiu4 ji4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "nhậm chức",
+        "lexical_keys": [
+          "上任|shang4 ren4",
+          "就职|jiu4 zhi2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "thăm dò",
+        "lexical_keys": [
+          "勘探|kan1 tan4",
+          "探寻|tan4 xun2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "hào phóng",
+        "lexical_keys": [
+          "慷慨|kang1 kai3",
+          "阔绰|kuo4 chuo5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "chưa từng có",
+        "lexical_keys": [
+          "前所未有|qian2 suo3 wei4 you3",
+          "空前|kong1 qian2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trói buộc",
+        "lexical_keys": [
+          "捆绑|kun3 bang3",
+          "束缚|shu4 fu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ràng buộc",
+        "lexical_keys": [
+          "捆绑|kun3 bang3",
+          "束缚|shu4 fu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "xa hoa",
+        "lexical_keys": [
+          "奢侈|she1 chi3",
+          "阔绰|kuo4 chuo5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "điểm xuất phát",
+        "lexical_keys": [
+          "着眼点|zhuo2 yan3 dian3",
+          "立足点|li4 zu2 dian3"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "liên đới",
+        "lexical_keys": [
+          "牵连|qian1 lian2",
+          "连带|lian2 dai4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "sắc bén",
+        "lexical_keys": [
+          "凌厉|ling2 li4",
+          "锐利|rui4 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "dữ dội",
+        "lexical_keys": [
+          "凌厉|ling2 li4",
+          "猛烈|meng3 lie4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tê liệt",
+        "lexical_keys": [
+          "瘫痪|tan1 huan4",
+          "麻木|ma2 mu4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "cằn nhằn",
+        "lexical_keys": [
+          "埋怨|man2 yuan4",
+          "絮叨|xu4 dao5"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "lừa dối",
+        "lexical_keys": [
+          "欺骗|qi1 pian4",
+          "蒙蔽|meng2 bi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "tầm nhìn",
+        "lexical_keys": [
+          "目光|mu4 guang1",
+          "眼界|yan3 jie4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "bài xích",
+        "lexical_keys": [
+          "唾弃|tuo4 qi4",
+          "排斥|pai2 chi4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "khâm phục",
+        "lexical_keys": [
+          "佩服|pei4 fu5",
+          "钦佩|qin1 pei4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "đồng tâm hiệp lực",
+        "lexical_keys": [
+          "和衷共济|he2 zhong1 gong4 ji4",
+          "齐心协力|qi2 xin1 xie2 li4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "rối loạn",
+        "lexical_keys": [
+          "失调|shi1 tiao2",
+          "紊乱|wen3 luan4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "ngọn lửa truyền đời",
+        "lexical_keys": [
+          "薪火|xin1 huo3",
+          "薪火相传|xin1 huo3 xiang1 chuan2"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "phô trương",
+        "lexical_keys": [
+          "张扬|zhang1 yang2",
+          "炫耀|xuan4 yao4"
+        ]
+      },
+      {
+        "kind": "exact_vi_gloss",
+        "value": "trụ cột vững chắc",
+        "lexical_keys": [
+          "中流砥柱|zhong1 liu2 di3 zhu4",
+          "主心骨|zhu3 xin1 gu3"
+        ]
+      }
+    ],
+    "duplicate_candidate_scope": "Exact form and Vietnamese gloss heuristics; semantic review pending",
+    "missing_content": [
+      "谁|shui2"
+    ],
+    "editorial_holds": [
+      "不客气|bu4 ke4 qi5",
+      "没关系|mei2 guan1 xi5",
+      "谁|shei2",
+      "谁|shui2",
+      "什么|shen2 me5"
+    ],
+    "generator_provenance": [
+      {
+        "batch": "L0-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L0-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L1-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L1-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L2-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L2-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L2-B003",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B003",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B004",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B005",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L3-B006",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B003",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B004",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B005",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B006",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B007",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B008",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B009",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B010",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B011",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L4-B012",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B001",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B002",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B003",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B004",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B005",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B006",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B007",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B008",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B009",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B010",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B011",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B012",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B013",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B014",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B015",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B016",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B017",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B018",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B019",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B020",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B021",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B022",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B023",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B024",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      },
+      {
+        "batch": "L5-B025",
+        "claimed_generator": {
+          "provider": "google",
+          "model": "gemini-3.8-flash",
+          "version": "2026-10"
+        },
+        "status": "UNVERIFIED_MANIFEST_ASSERTION",
+        "reason": "No provider generation receipt is established by manifests or review inputs"
+      }
+    ],
+    "provenance_evidence": {
+      "generator_helper": "generator_core.py",
+      "generator_helper_sha256": "e9c62f5df8b9dd495315f5f8d185976fbefea687729c5720937d4bbadd22a763",
+      "finding": "Repository generator accepts supplied content and has default provider/model/version strings; this does not prove a provider invocation",
+      "review_execution": "BLOCKED_UNTIL_BYTE_BOUND_GENERATOR_PROVENANCE_IS_VERIFIED"
+    },
+    "stages": {
+      "GENERATED": 2501,
+      "STRUCTURALLY_VALIDATED": 2501,
+      "IMPORTED": null,
+      "AI_REVIEWED": null,
+      "AI_APPROVED": null,
+      "PUBLISHED": null
+    }
+  },
+  "reviewed_batches": [
+    {
+      "batch": "L0-B001",
+      "source_sha256": "d73ec8a21b5ccf254bc67963b85114bf914a8d806701adc586d82366a97ea351",
+      "deployment_sha256": "57b4b7abdbb4c3438fc8b11340d9cecb60a23fc777bf94c0e39391ae150ca06d",
+      "records": 51
+    },
+    {
+      "batch": "L0-B002",
+      "source_sha256": "538c6f0e281dc31ecae8024b243151783f26b0336a1edb776680d5826fdcca4d",
+      "deployment_sha256": "b54dcca5adba14734c05a7bda607683b025edea62b44bc2d883cb439051f04cc",
+      "records": 50
+    },
+    {
+      "batch": "L1-B001",
+      "source_sha256": "2f76cc1ae9aaf4d3a7d603da3539d4705ffd3e8d313ab8e3cdff85913c8b7e94",
+      "deployment_sha256": "e2360b8a72e8452d7237d8aac8a51819adba021792d7ee8aafc7675b657b593d",
+      "records": 50
+    },
+    {
+      "batch": "L1-B002",
+      "source_sha256": "ae9e5d30f41b4539b26864eda8d0a64e05d830a02add8dd4ff8cb96776ae066a",
+      "deployment_sha256": "21d68982a509e2264554ed6def3fa5814b0601ef2f0ef1d2d30f8fe7b7083dcd",
+      "records": 50
+    },
+    {
+      "batch": "L2-B001",
+      "source_sha256": "f619ac7915f79e781da29c69c17d4e3f4982ba1886cef6ec6b6a408b090e2557",
+      "deployment_sha256": "96a49a18075960d2c115906276bda3113f5e95a924ca9ae7619e64c612056351",
+      "records": 50
+    },
+    {
+      "batch": "L2-B002",
+      "source_sha256": "93a2e8fcef97ba17ea9e9906d4d042cd545dc452effd973c59c233c26a8916cd",
+      "deployment_sha256": "27917562e3a046dc88a96443d15513333e6b4f57e193bf39e22a596d467fcee2",
+      "records": 50
+    },
+    {
+      "batch": "L2-B003",
+      "source_sha256": "563df7cf3ea31d02333a520934fb2f3321514fc28372a35d522cca6a64f321dc",
+      "deployment_sha256": "2bcddf7caf1ab3299b3213b304f5cefc20e9416405d18d63808382616d987a6f",
+      "records": 50
+    },
+    {
+      "batch": "L3-B001",
+      "source_sha256": "67b32a790c1b96163cad962517909f9a17a757c36e3728448f543579ad1b8fa9",
+      "deployment_sha256": "e7e9176b06baa886cea30243106b13865366971f002b79ecb83a40c8e6c5f2bc",
+      "records": 50
+    },
+    {
+      "batch": "L3-B002",
+      "source_sha256": "7eba54e07f074f922dbbbde7b5341712e666dcf4987352fe78109360b711b205",
+      "deployment_sha256": "4a1dbd3bb3a941da7deff8d0e61ebecaa91ab5c992f445cf0fd633632e392419",
+      "records": 50
+    },
+    {
+      "batch": "L3-B003",
+      "source_sha256": "ab351d3ca40114502610a86be790c62828d0831b36ea4ff0b39cda7124af0e7b",
+      "deployment_sha256": "ab1c6924f7cb6efcd2d4f440e7e3dd129cef8c67ed0de1b0d43934f8f69ae86c",
+      "records": 50
+    },
+    {
+      "batch": "L3-B004",
+      "source_sha256": "5749ea8fd8c93bf316a63afdc9153da9582b10f0fb57b7178745a94d5233899d",
+      "deployment_sha256": "c74e8800dc4b7ebb6f82746689bff869c8a2784b088819a0dd9b916d127380ad",
+      "records": 50
+    },
+    {
+      "batch": "L3-B005",
+      "source_sha256": "813030241df3f61002dfec04e9211c5afca1b8d46b33cd7f0413cb3ee0f1890d",
+      "deployment_sha256": "5dd54cc6e12412b4888bf77e3f817430a34f18ec28843cb19a8fe857c35ccb3c",
+      "records": 50
+    },
+    {
+      "batch": "L3-B006",
+      "source_sha256": "8dae28db9ffde8eb9c4bcb9fa33b5a13ba7cf9c634c456553ed0ebafd45bf48e",
+      "deployment_sha256": "5d9f263b1f2f9f7552d996a0e48648f537939b43106dd7e0e664d528a18d31dd",
+      "records": 50
+    },
+    {
+      "batch": "L4-B001",
+      "source_sha256": "0bd0db089b57b58236769562e5b61d04a9546ae950a7153efb9ddf701301553b",
+      "deployment_sha256": "833c0ea1209572411fd8ee2f727f8184e7f6d45430ff754133661a2b54a16ff6",
+      "records": 50
+    },
+    {
+      "batch": "L4-B002",
+      "source_sha256": "6d0ebdd057dec07668ae329e30d137993f227f5dafb6cec9f22b4c71520c37c1",
+      "deployment_sha256": "b508884f69d8866fb0c9dd6e79a87f22bdd1d2382572928a914cbde6b0cecc72",
+      "records": 50
+    },
+    {
+      "batch": "L4-B003",
+      "source_sha256": "8061bf6b16949d1eef4f0b9cef037cfe439cc14f4b7ddb4a87526029fe67b897",
+      "deployment_sha256": "2b7534b48d8b20f7dbf56d2207237059cc7ad28a76991e2faba16dbcd6f147a6",
+      "records": 50
+    },
+    {
+      "batch": "L4-B004",
+      "source_sha256": "c785d6060694cec7225226f5a0e9d13adedc873819a8247b67df25b277affea3",
+      "deployment_sha256": "e25525cb6603f8a5b15b3ab68bc5704ae3360b2a3b1a106dd3fe79949f8e2da2",
+      "records": 50
+    },
+    {
+      "batch": "L4-B005",
+      "source_sha256": "041abd1ab69b8bc3c3073ce472f7980f1966ae704d149318440496b1eaa17eba",
+      "deployment_sha256": "396dd632a5c4e5480ad67acb483caea69435a3877f1319697aac34f4d128c74d",
+      "records": 50
+    },
+    {
+      "batch": "L4-B006",
+      "source_sha256": "c62bd044834eea05408b56d2410de48fdc564167f79592f4bfdcbed731a4d271",
+      "deployment_sha256": "23769c132457a9172a0c34cafab04cdfb4b63d23355a218592ba69098aa0c0aa",
+      "records": 50
+    },
+    {
+      "batch": "L4-B007",
+      "source_sha256": "4d5c9aa305ecd15b2f6d8245515b2adcf37e4d28d064b360e4d9d84a2153ae6e",
+      "deployment_sha256": "b3053504ca3edc3bac50f902db00e18526239eb60930ba6eaaf6f1f585fa43a4",
+      "records": 50
+    },
+    {
+      "batch": "L4-B008",
+      "source_sha256": "c9f303cddf4184355fbe091e5bc03b65ba5e21e80e5f7ce3541a568c8bb337cc",
+      "deployment_sha256": "47003a2a95ee6220b5cfa2b835fc58d23f4194d6899e1e9c617ca03d8f9a6162",
+      "records": 50
+    },
+    {
+      "batch": "L4-B009",
+      "source_sha256": "6ed9db31586b85d4de63b747d18470cf5360b21159c0107b5c0f9731d5685566",
+      "deployment_sha256": "1c73c1d7315a0859d0cba381006f301ddb00940d2d8a69a51956fe2fc41444d4",
+      "records": 50
+    },
+    {
+      "batch": "L4-B010",
+      "source_sha256": "48b309b63f1319df170f800ff13397a333860ab142eb81373939df34839ebfb8",
+      "deployment_sha256": "557735408811596abf290c816480421d0728b53db009dc82914d4e44db97bc0e",
+      "records": 50
+    },
+    {
+      "batch": "L4-B011",
+      "source_sha256": "29cb73163f3e2f3ead553b07fa8edaf6ed87bfd376b2b75a769dbc3efc84a24b",
+      "deployment_sha256": "0df4b883cc1428362f0fdb7b060444a8e55436af96a3ebfe810884e064bf5a54",
+      "records": 50
+    },
+    {
+      "batch": "L4-B012",
+      "source_sha256": "82baea9bb4576d6dbe272d9755d7fca023bf388b9d262e096e49edeac6185c0f",
+      "deployment_sha256": "bdefd6a205234423175adeea3d65ab7af0b97273aceeb98c6a8c3120b8927957",
+      "records": 50
+    },
+    {
+      "batch": "L5-B001",
+      "source_sha256": "8ecd25a9074d5b3f11c355d92b3b275830ed98d3b96b93a24277303ca06dbfda",
+      "deployment_sha256": "c5cb4bebca8511d59474660d8f9149e9782cfde00b88cf7b1eaeba036bf2daca",
+      "records": 50
+    },
+    {
+      "batch": "L5-B002",
+      "source_sha256": "e140a9e6559b2912638fb37dc62bd7ca1c240b5843865b066befab16e5dd67b4",
+      "deployment_sha256": "3d37b15376b40c322128338e192471892f60024c6966f9570e7853a8b8add7c0",
+      "records": 50
+    },
+    {
+      "batch": "L5-B003",
+      "source_sha256": "90fa80099a59f1a263dfcb20309dbc705b2686f0aab2fd902fa3555cc86d6041",
+      "deployment_sha256": "593441de78ef7498e5139bccb358aa84ba33ce24a48efd2668d29e9940905395",
+      "records": 50
+    },
+    {
+      "batch": "L5-B004",
+      "source_sha256": "7fa756605a54d30b8ed39e4f6b8a76fd34741cdc9800cdf437872451c75b9f95",
+      "deployment_sha256": "dd99b99feb04de243cfaf3dbd6a8bb44d1e28c67df86e4ab1f12d9aca8eb1975",
+      "records": 50
+    },
+    {
+      "batch": "L5-B005",
+      "source_sha256": "0123bd4c3c2029ba55e30d1e71d8ca79973f44e3262c2855a703d0652655e945",
+      "deployment_sha256": "5d9ee8f54ea5a5d3c3854c916f824d0c17f3ba7d2fc8dd64a2b1ce373f0f298a",
+      "records": 50
+    },
+    {
+      "batch": "L5-B006",
+      "source_sha256": "9239db496546ee5aa25a364149eeeb26d73c2897b8a94c0c93c7d2d21ab158e0",
+      "deployment_sha256": "bf4364d92e5dd09d1407b0c023766f5141eb072c081277a733fbb58165045768",
+      "records": 50
+    },
+    {
+      "batch": "L5-B007",
+      "source_sha256": "dd51d5ae9ccce457a90c94de40e4693498466cebaab0b947f0a4e4285a939ce3",
+      "deployment_sha256": "ec7fa7aec44b4dea7a99b789160e29201de08bad230298f3fd166c0f4ff7ab42",
+      "records": 50
+    },
+    {
+      "batch": "L5-B008",
+      "source_sha256": "60507abafc52be590bf58d9dd150aa12c37df215ecaa6560427eb39916937d84",
+      "deployment_sha256": "d7b75288d2f93d385552d30a4c0c85f838330ddee54a70c69cd49bec0251a4e9",
+      "records": 50
+    },
+    {
+      "batch": "L5-B009",
+      "source_sha256": "79a26cf855c041f5581add4089e84e01c35c07a448983b42152f62f2e3ad9625",
+      "deployment_sha256": "19618e460ca5e81d9cf9aa4806d2388a4fb2a3ecdc18d6874aeb403751d5f6ff",
+      "records": 50
+    },
+    {
+      "batch": "L5-B010",
+      "source_sha256": "f2a8bba01579517c14d6cf214ca8597027468ac9e28172d8053acc4b538e7877",
+      "deployment_sha256": "cef2cad8fa25540041f98795c2b12fa1117c6caa75eefabf7341efee9826b50b",
+      "records": 50
+    },
+    {
+      "batch": "L5-B011",
+      "source_sha256": "2e65a0a035179a9d97815593a7eabf95c5db4ba18deefb4ae252f4818737fa58",
+      "deployment_sha256": "b3ffb8187bc8105134e0ee9f9ff3df2bd32b4c897489f4d800ed2275c6cbb3d7",
+      "records": 50
+    },
+    {
+      "batch": "L5-B012",
+      "source_sha256": "2e74b84303e6f85bd6bcf116bbc976f6d3465b3eedb8c82a98c8822dfd89ff9a",
+      "deployment_sha256": "4e03c75ca8e3abc206485f8930ba1eceee204426f3709e31e2f6b2959c66e98b",
+      "records": 50
+    },
+    {
+      "batch": "L5-B013",
+      "source_sha256": "5b0d4502fe0025b3f4866827073fa4aff0770f03a8d42cffc1c36be643dea521",
+      "deployment_sha256": "ce0e2b260c0b6038f3f57a8ea20977d6112f72612f232e28cd646428099a060b",
+      "records": 50
+    },
+    {
+      "batch": "L5-B014",
+      "source_sha256": "7208e45abe742805f0b4b236aba9e4ff99ef79ad2ba0f49bd90415b0df41e2a4",
+      "deployment_sha256": "46bd3cbd26b15239f498c11c6c1775f54467a20ba7a0eb0fdb9395805b2390aa",
+      "records": 50
+    },
+    {
+      "batch": "L5-B015",
+      "source_sha256": "b788b27a1a13f65c544594754b6b5024e49bd9ec262db07970478825bffc3fcd",
+      "deployment_sha256": "74426c808185029c5083950ddd89caa4ec45bca69c9a98bb26cbf40b10f146d4",
+      "records": 50
+    },
+    {
+      "batch": "L5-B016",
+      "source_sha256": "dbb661f7a319a3573f1c1b1a5bed418781c4be9fdc412c24b57a8f66b00b32da",
+      "deployment_sha256": "4c572994bc31d1b17627fe90eac47c01b553fe26e7a1ef43ca6d0a08f4cd5237",
+      "records": 50
+    },
+    {
+      "batch": "L5-B017",
+      "source_sha256": "6a7923d8a20f1461bf5941a912ed415e3104a495be8827bb576e37245a807340",
+      "deployment_sha256": "5a9041bccacfdd971cd2018ac694fc493a874bc237fbd1a68ae52520b14f8258",
+      "records": 50
+    },
+    {
+      "batch": "L5-B018",
+      "source_sha256": "63efd9ca4e0ed9b74c082a8dba71f5da299a5590357c771ead8cba822747bc8d",
+      "deployment_sha256": "878e21d8242f7bec5e1c63c1216b555c102411dc7b1f105bfa127b3ffbb23796",
+      "records": 50
+    },
+    {
+      "batch": "L5-B019",
+      "source_sha256": "ffa416e02aa5d82a0220c1ebb70507c2a11fb5d50bbe631b09f79a4299669e87",
+      "deployment_sha256": "f4ee24df91ff0f95f600a7780283f61075c5e81996f1e4cca798ff3fccb87e2c",
+      "records": 50
+    },
+    {
+      "batch": "L5-B020",
+      "source_sha256": "584e9f29652015526121957e2c701f53742f2a77dcb3613cc8b9cd42844d748e",
+      "deployment_sha256": "e966553d8d2c9a9c36e99949652e39efb5393784d8d437822bd6f2cd54581778",
+      "records": 50
+    },
+    {
+      "batch": "L5-B021",
+      "source_sha256": "8ec10923296b1b018531c4f9e7f60cbed6ae132d946e165252c2c502b6c461f8",
+      "deployment_sha256": "722c8d0332f270fb36d7e6ad2e84eb10730b6c368a632fe16d076e04f8ea9c91",
+      "records": 50
+    },
+    {
+      "batch": "L5-B022",
+      "source_sha256": "60560f996900bd36a0e86697dbe1f494e82ad7a88929909683d98eadc0363391",
+      "deployment_sha256": "5d8c7bde4f997bb452ab490f30b6b9b9ac7d3cca5bd791aa84ccc63c7653c3ca",
+      "records": 50
+    },
+    {
+      "batch": "L5-B023",
+      "source_sha256": "22c8103080e5a935809550c78be195ba8ab5215e6c1bbd245b87badc71dd75b9",
+      "deployment_sha256": "beabb4979da275a3a57e5182adfba10cf9e0aa290cc1a16aa6d8fb482f080826",
+      "records": 50
+    },
+    {
+      "batch": "L5-B024",
+      "source_sha256": "33678abe7ab0945e1e9378713bd9bbda5f94591f5c6f42c0ffdf99b373d359b3",
+      "deployment_sha256": "38334f4c69361f095ca737fd3583bc61fd6bd5d9bb6e0cf3b5281f0975dba3e8",
+      "records": 50
+    },
+    {
+      "batch": "L5-B025",
+      "source_sha256": "a3f7d62f3e67a2e5142ea7d0f32dcb98764b5f6fc2311522bde0c0b194b46248",
+      "deployment_sha256": "049942e9a09f65fbe13ce9f113a46b3cb949eb94382cadef46af4ad6b0593591",
+      "records": 50
+    }
+  ],
+  "missing_examples": [],
+  "hold_keys": [
+    "不客气|bu4 ke4 qi5",
+    "没关系|mei2 guan1 xi5",
+    "谁|shei2",
+    "谁|shui2",
+    "什么|shen2 me5",
+    "厕所|ce4 suo3",
+    "过去|guo4 qu5",
+    "一直|yi4 zhi2",
+    "生发|sheng1 fa1",
+    "一般|yi4 ban1",
+    "活泼|huo2 po5",
+    "场|chang3",
+    "一共|yi2 gong4",
+    "不但|bu2 dan4",
+    "引起|ying3 qi3",
+    "贯彻|guan1 che4",
+    "克勤克俭|ke4 qin2 ke4 jian4",
+    "质子治疗|zhi3 zi3 zhi4 liao2",
+    "生物信息学|sheng1 wu4 xin1 xi1 xue2"
+  ],
+  "versions_changed": [
+    "谁|shui2",
+    "厕所|ce4 suo3",
+    "上|shang4",
+    "下|xia4",
+    "块|kuai4",
+    "些|xie1",
+    "小姐|xiao3 jie5",
+    "点|dian3",
+    "咖啡|ka1 fei1",
+    "游泳|you2 yong3",
+    "给|gei3",
+    "帮助|bang1 zhu4",
+    "借|jie4",
+    "明白|ming2 bai5",
+    "服务员|fu2 wu4 yuan2",
+    "黑|hei1",
+    "黄|huang2",
+    "过去|guo4 qu5",
+    "一直|yi4 zhi2",
+    "旁边|pang2 bian5",
+    "外面|wai4 mian5",
+    "比|bi3",
+    "打算|da3 suan4",
+    "习惯|xi2 guan4",
+    "比较|bi3 jiao4",
+    "碰|peng4",
+    "算|suan4",
+    "练习|lian4 xi2",
+    "变化|bian4 hua4",
+    "担心|dan1 xin1",
+    "生发|sheng1 fa1",
+    "努力|nu3 li4",
+    "安全|an1 quan2",
+    "一般|yi4 ban1",
+    "胖|pang4",
+    "活泼|huo2 po5",
+    "客人|ke4 ren5",
+    "孙子|sun1 zi5",
+    "体育馆|ti3 yu4 guan3",
+    "大使馆|da4 shi3 guan3",
+    "钥匙|yao4 shi5",
+    "枕头|zhen3 tou5",
+    "肥皂|fei2 zao4",
+    "袜子|wa4 zi5",
+    "泳衣|yong3 yi1",
+    "自然|zi4 ran2",
+    "温度|wen1 du4",
+    "斤|jin1",
+    "头|tou2",
+    "棵|ke1",
+    "场|chang3",
+    "水平|shui3 ping2",
+    "段落|duan4 luo4",
+    "尤其|you2 qi2",
+    "几乎|ji1 hu1",
+    "一共|yi2 gong4",
+    "不但|bu2 dan4",
+    "只要|zhi3 yao4",
+    "报道|bao4 dao4",
+    "不得不|bu4 de2 bu4",
+    "材料|cai2 liao4",
+    "长途|chang2 tu2",
+    "超过|chao1 guo4",
+    "吵|chao3",
+    "成功|cheng2 gong1",
+    "传真|chuan2 zhen1",
+    "打扰|da3 rao3",
+    "打招呼|da3 zhao1 hu5",
+    "打折|da3 zhe2",
+    "代|dai4",
+    "代表|dai4 biao3",
+    "地|de5",
+    "低头|di1 tou2",
+    "地址|di4 zhi3",
+    "丢|diu1",
+    "对面|dui4 mian4",
+    "顿|dun4",
+    "发展|fa1 zhan3",
+    "翻译|fan1 yi4",
+    "烦恼|fan2 nao3",
+    "访问|fang3 wen4",
+    "费用|fei4 yong4",
+    "份|fen4",
+    "风景|feng1 jing3",
+    "感觉|gan3 jue2",
+    "干警|gan4 jing3",
+    "高度|gao1 du4",
+    "个子|ge4 zi5",
+    "根|gen1",
+    "根本|gen1 ben3",
+    "共同|gong4 tong2",
+    "够|gou4",
+    "鼓励|gu3 li4",
+    "关键|guan1 jian4",
+    "管理|guan3 li3",
+    "光|guang1",
+    "结账|jie2 zhang4",
+    "忽然|hu1 ran2",
+    "回忆|hui2 yi4",
+    "火|huo3",
+    "激动|ji1 dong4",
+    "积累|ji1 lei3",
+    "及时|ji2 shi2",
+    "寄信|ji4 xin4",
+    "既然|ji4 ran2",
+    "继续|ji4 xu4",
+    "家具|jia1 ju4",
+    "减肥|jian3 fei2",
+    "建议|jian4 yi4",
+    "将来|jiang1 lai2",
+    "降落|jiang4 luo4",
+    "郊区|jiao1 qu1",
+    "敬礼|jing4 li3",
+    "警告|jing3 gao4",
+    "竞争|jing4 zheng1",
+    "拒绝|ju4 jue2",
+    "科学|ke1 xue2",
+    "颗|ke1",
+    "可惜|ke3 xi1",
+    "矿泉水|kuang4 quan2 shui3",
+    "垃圾桶|la1 ji1 tong3",
+    "懒|lan3",
+    "浪漫|lang4 man4",
+    "离婚|li2 hun1",
+    "理发|li3 fa4",
+    "流泪|liu2 lei4",
+    "轮流|lun2 liu2",
+    "落后|luo4 hou4",
+    "毛|mao2",
+    "毛病|mao2 bing5",
+    "美丽|mei3 li4",
+    "梦|meng4",
+    "母亲|mu3 qin1",
+    "耐心|nai4 xin1",
+    "偶然|ou3 ran2",
+    "判断|pan4 duan4",
+    "批评|pi1 ping2",
+    "平常|ping2 chang2",
+    "破|po4",
+    "取|qu3",
+    "却|que4",
+    "然而|ran2 er2",
+    "沙发|sha1 fa1",
+    "舍不得|she3 bu5 de5",
+    "申请|shen1 qing3",
+    "深|shen1",
+    "省|sheng3",
+    "剩|sheng4",
+    "失败|shi1 bai4",
+    "实际|shi2 ji4",
+    "适合|shi4 he2",
+    "收|shou1",
+    "死|si3",
+    "塑料袋|su4 liao4 dai4",
+    "谈判|tan2 pan4",
+    "趟|tang4",
+    "特殊|te4 shu1",
+    "讨论|tao3 lun4",
+    "讨厌|tao3 yan4",
+    "通过|tong1 guo4",
+    "通知|tong1 zhi1",
+    "同情|tong2 qing2",
+    "袜|wa4",
+    "网球|wang3 qiu2",
+    "味道|wei4 dao5",
+    "信任|xin4 ren4",
+    "行动|xing2 dong4",
+    "行人|xing2 ren2",
+    "严密|yan2 mi4",
+    "研究生|yan2 jiu1 sheng1",
+    "邀请|yao1 qing3",
+    "引起|ying3 qi3",
+    "吸取|xi1 qu3",
+    "先进|xian1 jin4",
+    "鲜明|xian1 ming2",
+    "现实|xian4 shi2",
+    "限制|xian4 zhi4",
+    "约会|yue1 hui4",
+    "咱们|zan2 men5",
+    "增长|zeng1 zhang3",
+    "证明|zheng4 ming2",
+    "直接|zhi2 jie1",
+    "植物|zhi2 wu4",
+    "忠实|zhong1 shi2",
+    "逐渐|zhu2 jian4",
+    "著名|zhu4 ming2",
+    "专门|zhuan1 men2",
+    "赚|zhuan4",
+    "姿势|zi1 shi4",
+    "总共|zong3 gong4",
+    "组织|zu3 zhi1",
+    "作风|zuo4 feng1",
+    "作曲|zuo4 qu3",
+    "做客|zuo4 ke4",
+    "拜访|bai4 fang3",
+    "榜样|bang3 yang4",
+    "包含|bao1 han2",
+    "包括|bao1 kuo4",
+    "报仇|bao4 chou2",
+    "报告|bao4 gao4",
+    "报社|bao4 she4",
+    "报销|bao4 xiao1",
+    "悲剧|bei1 ju4",
+    "比例|bi3 li4",
+    "辩论|bian4 lun4",
+    "辩解|bian4 jie3",
+    "波动|bo1 dong4",
+    "捕捞|bu3 lao1",
+    "餐巾|can1 jin1",
+    "测量|ce4 liang2",
+    "常态|chang2 tai4",
+    "沉重|chen2 zhong4",
+    "罢工|ba4 gong1",
+    "保守|bao3 shou3",
+    "便利|bian4 li4",
+    "辨别|bian4 bie2",
+    "辩护|bian4 hu4",
+    "便利店|bian4 li4 dian4",
+    "飙升|biao1 sheng1",
+    "病菌|bing4 jun1",
+    "拨款|bo1 kuan3",
+    "波动性|bo1 dong4 xing4",
+    "哺乳|bu3 ru3",
+    "操纵|cao1 zong4",
+    "查获|cha2 huo4",
+    "查询|cha2 xun2",
+    "常年|chang2 nian2",
+    "常理|chang2 li3",
+    "倡议|chang4 yi4",
+    "沉淀|chen2 dian4",
+    "成效|cheng2 xiao4",
+    "澄清|cheng2 qing1",
+    "沉思|chen2 si1",
+    "惩罚|cheng2 fa2",
+    "澄清度|cheng2 qing1 du4",
+    "称呼|cheng1 hu5",
+    "乘机|cheng2 ji1",
+    "成千上万|cheng2 qian1 shang4 wan4",
+    "崇敬|chong2 jing4",
+    "充沛|chong1 pei4",
+    "出道|chu1 dao4",
+    "出息|chu1 xi5",
+    "储备|chu3 bei4",
+    "触犯|chu4 fan4",
+    "穿透|chuan1 tou4",
+    "喘气|chuan3 qi4",
+    "吹嘘|chui1 xu1",
+    "垂头丧气|chui2 tou2 sang4 qi4",
+    "纯洁|chun2 jie2",
+    "慈祥|ci2 xiang2",
+    "磁场|ci2 chang3",
+    "大局|da4 ju2",
+    "代理商|dai4 li3 shang1",
+    "逮捕|dai4 bu3",
+    "怠慢|dai4 man4",
+    "胆怯|dan3 qie4",
+    "导弹|dao3 dan4",
+    "颠簸|dian1 bo3",
+    "奠定|dian4 ding4",
+    "吊销|diao4 xiao1",
+    "调研|diao4 yan2",
+    "叮嘱|ding1 zhu3",
+    "定义|ding4 yi4",
+    "动员|dong4 yuan2",
+    "动魄|dong4 po4",
+    "冻结|dong4 jie2",
+    "斗争|dou4 zheng1",
+    "独创|du2 chuang4",
+    "端正|duan1 zheng4",
+    "断绝|duan4 jue2",
+    "对照|dui4 zhao4",
+    "对抗|dui4 kang4",
+    "多余|duo1 yu2",
+    "发扬|fa1 yang2",
+    "发誓|fa1 shi4",
+    "法制|fa3 zhi4",
+    "反思|fan3 si1",
+    "反馈|fan3 kui4",
+    "反感|fan3 gan3",
+    "泛滥|fan4 lan4",
+    "防御|fang2 yu4",
+    "废墟|fei4 xu1",
+    "分流|fen1 liu2",
+    "分泌|fen1 mi4",
+    "风气|feng1 qi4",
+    "锋芒|feng1 mang2",
+    "敷衍|fu1 yan3",
+    "辅助|fu3 zhu4",
+    "附属|fu4 shu3",
+    "复兴|fu4 xing1",
+    "钙|gai4",
+    "根基|gen1 ji1",
+    "根源|gen1 yuan2",
+    "公道|gong1 dao5",
+    "公式|gong1 shi4",
+    "功利|gong1 li4",
+    "功效|gong1 xiao4",
+    "勾结|gou1 jie2",
+    "构思|gou4 si1",
+    "孤僻|gu1 pi4",
+    "孤立|gu1 li4",
+    "古董|gu3 dong3",
+    "骨干|gu3 gan4",
+    "顾虑|gu4 lü4",
+    "关联|guan1 lian2",
+    "官僚|guan1 liao2",
+    "贯彻|guan1 che4",
+    "光辉|guang1 hui1",
+    "归还|gui1 huan2",
+    "规避|gui1 bi4",
+    "贵族|gui4 zu2",
+    "国家级|guo2 jia1 ji2",
+    "过度|guo4 du4",
+    "海洋学|hai3 yang2 xue2",
+    "含糊|han2 hu5",
+    "合成|he2 cheng2",
+    "合影|he2 ying3",
+    "合算|he2 suan4",
+    "轰动|hong1 dong4",
+    "后代|hou4 dai4",
+    "后顾之忧|hou4 gu4 zhi1 you1",
+    "候选人|hou4 xuan3 ren2",
+    "湖泊|hu2 po1",
+    "互动|hu4 dong4",
+    "缓和|huan3 he2",
+    "慌乱|huang1 luan4",
+    "黄昏|huang2 hun1",
+    "贿赂|hui4 lu4",
+    "毁灭|hui3 mie4",
+    "会谈|hui4 tan2",
+    "混沌|hun4 dun4",
+    "祸患|huo4 huan4",
+    "机警|ji1 jing3",
+    "机制|ji1 zhi4",
+    "肌体|ji1 ti3",
+    "积压|ji1 ya1",
+    "集结|ji2 jie2",
+    "继承人|ji4 cheng2 ren2",
+    "纪要|ji4 yao4",
+    "监督员|jian1 du1 yuan2",
+    "兼职|jian1 zhi2",
+    "剪彩|jian3 cai3",
+    "检讨|jian3 tao3",
+    "将近|jiang1 jin4",
+    "奖赏|jiang3 shang3",
+    "交代|jiao1 dai4",
+    "交接|jiao1 jie1",
+    "截止|jie2 zhi3",
+    "解脱|jie3 tuo1",
+    "借口|jie4 kou3",
+    "戒备|jie4 bei4",
+    "尽力|jin4 li4",
+    "进化|jin4 hua4",
+    "浸透|jin4 tou4",
+    "精确|jing1 que4",
+    "救济|jiu4 ji4",
+    "救助|jiu4 zhu4",
+    "聚精会神|ju4 jing1 hui4 shen2",
+    "开辟|kai1 pi4",
+    "开源|kai1 yuan2",
+    "考据|kao3 ju4",
+    "颗粒|ke1 li4",
+    "口径|kou3 jing4",
+    "扣留|kou4 liu2",
+    "枯竭|ku1 jie2",
+    "跨越式|kua4 yue4 shi4",
+    "筐|kuang1",
+    "阔绰|kuo4 chuo5",
+    "扩充|kuo4 chong1",
+    "拉拢|la1 long5",
+    "蓝图|lan2 tu2",
+    "牢固|lao2 gu4",
+    "累积|lei3 ji1",
+    "冷落|leng3 luo4",
+    "里程碑|li3 cheng2 bei1",
+    "立足点|li4 zu2 dian3",
+    "廉洁|lian2 jie2",
+    "廉政|lian2 zheng4",
+    "链条|lian4 tiao2",
+    "梁柱|liang2 zhu4",
+    "良知|liang2 zhi1",
+    "谅解|liang4 jie3",
+    "猎取|lie4 qu3",
+    "领航|ling3 hang2",
+    "流连忘返|liu2 lian2 wang4 fan3",
+    "浏览量|liu2 lan3 liang4",
+    "柳絮|liu3 xu4",
+    "漏税|lou4 shui4",
+    "陆地|lu4 di4",
+    "路标|lu4 biao1",
+    "乱象|luan4 xiang4",
+    "轮廓|lun2 kuo4",
+    "论证|lun4 zheng4",
+    "麻木|ma2 mu4",
+    "茅塞顿开|mao2 se4 dun4 kai1",
+    "茂盛|mao4 sheng4",
+    "弥补|mi2 bu3",
+    "密谋|mi4 mou2",
+    "勉强|mian3 qiang3",
+    "母语|mu3 yu3",
+    "沐浴|mu4 yu4",
+    "目光|mu4 guang1",
+    "纳米|na4 mi3",
+    "难堪|nan2 kan1",
+    "念头|nian4 tou5",
+    "凝固|ning2 gu4",
+    "农林牧渔|nong2 lin2 mu4 yu2",
+    "殴打|ou1 da3",
+    "偶像|ou3 xiang4",
+    "派生|pai4 sheng1",
+    "攀登|pan1 deng1",
+    "培训班|pei2 xun4 ban1",
+    "佩服|pei4 fu5",
+    "批示|pi1 shi4",
+    "疲惫|pi2 bei4",
+    "偏僻|pian1 pi4",
+    "贫困|pin2 kun4",
+    "品德|pin3 de2",
+    "剖析|pou1 xi1",
+    "普及率|pu3 ji2 lü4",
+    "齐全|qi2 quan2",
+    "起草|qi3 cao3",
+    "气魄|qi4 po4",
+    "牵连|qian1 lian2",
+    "欠缺|qian4 que1",
+    "枪支|qiang1 zhi1",
+    "强硬|qiang2 ying4",
+    "技巧性|ji4 qiao3 xing4",
+    "侵害|qin1 hai4",
+    "钦佩|qin1 pei4",
+    "清晰度|qing1 xi1 du4",
+    "情操|qing2 cao1",
+    "情绪化|qing2 xu4 hua4",
+    "请求|qing3 qiu2",
+    "庆祝会|qing4 zhu4 hui4",
+    "琼浆玉液|qiong2 jiang1 yu4 ye4",
+    "取舍|qu3 she3",
+    "全盛|quan2 sheng4",
+    "情节|qing2 jie2",
+    "请教|qing3 jiao4",
+    "驱使|qu1 shi3",
+    "权威性|quan2 wei1 xing4",
+    "权利|quan2 li4",
+    "券|quan4",
+    "劝阻|quan4 zu3",
+    "群众性|qun2 zhong4 xing4",
+    "染色体|ran3 se4 ti3",
+    "扰乱|rao3 luan4",
+    "热潮|re4 chao2",
+    "人道主义|ren2 dao4 zhu3 yi4",
+    "人事|ren2 shi4",
+    "容纳|rong2 na4",
+    "锐利|rui4 li4",
+    "三言两语|san1 yan2 liang3 yu3",
+    "桑梓|sang1 zi3",
+    "赡养|shan4 yang3",
+    "涉猎|she4 lie4",
+    "审理|shen3 li3",
+    "渗透|shen4 tou4",
+    "失宠|shi1 chong3",
+    "失调|shi1 tiao2",
+    "实惠|shi2 hui4",
+    "誓言|shi4 yan2",
+    "释怀|shi4 huai2",
+    "收敛|shou1 lian3",
+    "守恒|shou3 heng2",
+    "束缚|shu4 fu4",
+    "衰竭|shuai1 jie2",
+    "顺延|shun4 yan2",
+    "死心塌地|si3 xin1 ta1 di4",
+    "搜集|sou1 ji2",
+    "索赔|suo3 pei2",
+    "弹劾|tan2 he2",
+    "探寻|tan4 xun2",
+    "淘汰赛|tao2 tai4 sai4",
+    "天理|tian1 li3",
+    "田野调查|tian2 ye3 diao4 cha2",
+    "同理心|tong2 li3 xin1",
+    "统筹兼顾|tong3 chou2 jian1 gu4",
+    "投产|tou2 chan3",
+    "唾弃|tuo4 qi4",
+    "妥当|tuo3 dang5",
+    "瓦解|wa3 jie3",
+    "歪曲|wai1 qu1",
+    "惋惜|wan3 xi1",
+    "网联|wang3 lian2",
+    "妄图|wang4 tu2",
+    "微观|wei1 guan1",
+    "畏缩|wei4 suo1",
+    "慰问|wei4 wen4",
+    "紊乱|wen3 luan4",
+    "稀罕|xi1 han5",
+    "悉心|xi1 xin1",
+    "媳妇|xi2 fu5",
+    "喜闻乐见|xi3 wen2 le4 jian4",
+    "狭窄|xia2 zhai3",
+    "夏令营|xia4 ling4 ying2",
+    "先例|xian1 li4",
+    "相提并论|xiang1 ti2 bing4 lun4",
+    "向往|xiang4 wang3",
+    "硝烟|xiao1 yan1",
+    "协调员|xie2 tiao2 yuan2",
+    "心甘情愿|xin1 gan1 qing2 yuan4",
+    "芯片|xin1 pian4",
+    "信念感|xin4 nian4 gan3",
+    "性能|xing4 neng2",
+    "雄厚|xiong2 hou4",
+    "修正案|xiu1 zheng4 an4",
+    "絮叨|xu4 dao5",
+    "蓄水池|xu4 shui3 chi2",
+    "选用|xuan3 yong4",
+    "血气方刚|xue4 qi4 fang1 gang1",
+    "循规蹈矩|xun2 gui1 dao3 ju3",
+    "压抑|ya1 yi4",
+    "严厉|yan2 li4",
+    "言简意赅|yan2 jian3 yi4 gai1",
+    "岩石|yan2 shi2",
+    "掩蔽|yan3 bi4",
+    "样板|yang4 ban3",
+    "瑶池|yao2 chi2",
+    "咬文嚼字|yao3 wen2 jiao2 zi4",
+    "野蛮|ye3 man2",
+    "野心|ye3 xin1",
+    "夜幕|ye4 mu4",
+    "一目了然|yi1 mu4 liao3 ran2",
+    "一鼓作气|yi1 gu3 zuo4 qi4",
+    "一脉相承|yi1 mai4 xiang1 cheng2",
+    "一窍不通|yi1 qiao4 bu4 tong1",
+    "依恋|yi1 lian4",
+    "依托|yi1 tuo1",
+    "依法行政|yi1 fa3 xing2 zheng4",
+    "遗产税|yi2 chan3 shui4",
+    "毅然|yi4 ran2",
+    "意识形态|yi4 shi2 xing2 tai4",
+    "意气用事|yi4 qi4 yong4 shi4",
+    "音节|yin1 jie2",
+    "饮水思源|yin3 shui3 si1 yuan2",
+    "隐蔽|yin3 bi4",
+    "隐瞒|yin3 man2",
+    "硬币|ying4 bi4",
+    "应酬|ying4 chou5",
+    "应届|ying1 jie4",
+    "优势互补|you1 shi4 hu4 bu3",
+    "悠久|you1 jiu3",
+    "油漆|you2 qi1",
+    "幼稚|you4 zhi4",
+    "渔业|yu2 ye4",
+    "雨后春笋|yu3 hou4 chun1 sun3",
+    "舆论监督|yu2 lun4 jian1 du1",
+    "宇宙飞船|yu3 zhou4 fei1 chuan2",
+    "原动力|yuan2 dong4 li4",
+    "渊源|yuan1 yuan2",
+    "蕴藏|yun4 cang2",
+    "赞叹|zan4 tan4",
+    "兆头|zhao4 tou5",
+    "针锋相对|zhen1 feng1 xiang1 dui4",
+    "震惊|zhen4 jing1",
+    "蒸发|zheng1 fa1",
+    "证据链|zheng4 ju4 lian4",
+    "支柱产业|zhi1 zhu4 chan3 ye4",
+    "直截了当|zhi2 jie2 liao3 dang4",
+    "治本|zhi4 ben3",
+    "忠贞不渝|zhong1 zhen1 bu4 yu2",
+    "主流媒体|zhu3 liu2 mei2 ti3",
+    "总揽全局|zong3 lan3 quan2 ju2",
+    "遵循|zun1 xun2",
+    "厚积薄发|hou4 ji1 bo2 fa1",
+    "精益求精|jing1 yi4 qiu2 jing1",
+    "继往开来|ji4 wang3 kai1 lai2",
+    "潜移默化|qian2 yi2 mo4 hua4",
+    "推陈出新|tui1 chen2 chu1 xin1",
+    "未雨绸缪|wei4 yu3 chou2 mou2",
+    "卧薪尝胆|wo4 xin1 chang2 dan3",
+    "脚踏实地|jiao3 ta4 shi2 di4",
+    "粗制滥造|cu1 zhi4 lan4 zao4",
+    "大公无私|da4 gong1 wu2 si1",
+    "理所当然|li3 suo3 dang1 ran2",
+    "络绎不绝|luo4 yi4 bu4 jue2",
+    "莫名其妙|mo4 ming2 qi2 miao4",
+    "勤能补拙|qin2 neng2 bu3 zhuo1",
+    "情不自禁|qing2 bu4 zi4 jin1",
+    "世外桃源|shi4 wai4 tao2 yuan2",
+    "谈笑风生|tan2 xiao4 feng1 sheng1",
+    "提心吊胆|ti2 xin1 diao4 dan3",
+    "天伦之乐|tian1 lun2 zhi1 le4",
+    "想方设法|xiang3 fang1 she4 fa3",
+    "言行一致|yan2 xing2 yi1 zhi4",
+    "迎刃而解|ying2 ren4 er2 jie3",
+    "标本兼治|biao1 ben3 jian1 zhi4",
+    "大同世界|da4 tong2 shi4 jie4",
+    "防微杜渐|fang2 wei1 du4 jian4",
+    "国计民生|guo2 ji4 min2 sheng1",
+    "开源节流|kai1 yuan2 jie2 liu2",
+    "克勤克俭|ke4 qin2 ke4 jian4",
+    "量入为出|liang4 ru4 wei2 chu1",
+    "谋篇布局|mou2 pian1 bu4 ju2",
+    "求真务实|qiu2 zhen1 wu4 shi2",
+    "为民造福|wei4 min2 zao4 fu2",
+    "问政|wen4 zheng4",
+    "下情上达|xia4 qing2 shang4 da2",
+    "严于律己|yan2 yu2 lü4 ji3",
+    "众望所归|zhong4 wang4 suo3 gui1",
+    "暗物质|an4 wu4 zhi4",
+    "靶向药|ba3 xiang4 yao4",
+    "等离子体|deng3 li2 zi3 ti3",
+    "电磁波|dian4 ci2 bo1",
+    "激光雷达|ji1 guang1 lei2 da2",
+    "量子通信|liang4 zi3 tong1 xin4",
+    "深空探测|shen1 kong1 tan4 ce4",
+    "太阳能电池|tai4 yang2 neng2 dian4 chi2",
+    "碳纤维|tan4 xian1 wei2",
+    "外骨骼|wai4 gu3 ge2",
+    "云计算|yun2 ji4 suan4",
+    "质子治疗|zhi3 zi3 zhi4 liao2",
+    "重力波|zhong4 li4 bo1",
+    "单克隆抗体|dan1 ke4 long2 kang4 ti3",
+    "粒子物理|li4 zi3 wu4 li3",
+    "拓扑绝缘体|tuo4 pu1 jue2 yuan2 ti3",
+    "微流控|wei1 liu2 kong4",
+    "光伏发电|guang1 fu2 fa1 dian4",
+    "数字孪生|shu4 zi4 luan2 sheng1",
+    "生物信息学|sheng1 wu4 xin1 xi1 xue2",
+    "干细胞|gan4 xi4 bao1",
+    "超燃冲压|chao1 ran2 chong1 ya1",
+    "机器学习|ji1 qi4 xue2 xi2",
+    "固态电池|gu4 tai4 dian4 chi2",
+    "智能驾驶|zhi4 neng2 jia4 shi3",
+    "文质彬彬|wen2 zhi4 bin1 bin1",
+    "独树一帜|du2 shu4 yi1 zhi4",
+    "高山仰止|gao1 shan1 yang3 zhi3",
+    "铺陈|pu1 chen2",
+    "匠心独运|jiang4 xin1 du2 yun4",
+    "口传心授|kou3 chuan2 xin1 shou4",
+    "拍案叫绝|pai1 an4 jiao4 jue2",
+    "气韵|qi4 yun4",
+    "入木三分|ru4 mu4 san1 fen1",
+    "润物无声|run4 wu4 wu2 sheng1",
+    "生花妙笔|sheng1 hua1 miao4 bi3",
+    "文风|wen2 feng1",
+    "虚实相生|xu1 shi2 xiang1 sheng1",
+    "意境|yi4 jing4",
+    "造诣|zao4 yi4",
+    "主旋律|zhu3 xuan2 lü4",
+    "追本溯源|zhui1 ben3 su4 yuan2",
+    "经贸摩擦|jing1 mao4 mo2 ca1",
+    "脱钩断链|tuo1 gou1 duan4 lian4",
+    "自由贸易|zi4 you2 mao4 yi4",
+    "普惠金融|pu3 hui4 jin1 rong2",
+    "贸易逆差|mao4 yi4 ni4 cha1"
+  ],
+  "publication": "NONE; held records remain in the complete catalog"
+}

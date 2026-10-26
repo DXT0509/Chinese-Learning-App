@@ -4,6 +4,8 @@ from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Request, Response
+from fastapi.security import OAuth2PasswordRequestFormStrict
+from pydantic import ValidationError
 
 from app.dependencies.authentication import Database, current_user_id
 from app.models import User
@@ -38,6 +40,18 @@ async def register(data: Credentials, session: Database):
 
 @router.post("/login", response_model=Tokens)
 async def login(data: Credentials, session: Database):
+    return await authenticate(session, data, register=False)
+
+
+@router.post("/token", response_model=Tokens, summary="Sign in from Swagger Authorize")
+async def swagger_login(
+    form: Annotated[OAuth2PasswordRequestFormStrict, Depends()], session: Database
+):
+    """Use the account email as username; issue the same session as JSON login."""
+    try:
+        data = Credentials(email=form.username, password=form.password)
+    except ValidationError:
+        raise HTTPException(422, "Invalid request") from None
     return await authenticate(session, data, register=False)
 
 

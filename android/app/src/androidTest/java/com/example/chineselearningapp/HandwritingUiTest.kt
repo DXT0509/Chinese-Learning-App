@@ -73,8 +73,7 @@ class HandwritingUiTest {
 
     @Test fun handwritingUsesDictionarySearchAndExistingDetailNavigation() {
         val id = "f15eec42-512e-4a48-9c2f-045264b2e119"
-        val suggestion = DictionarySuggestion(id, "你", null, "nǐ", null, listOf("en"), "source")
-        val origin = DictionarySource("source", "https://example.com", "license", "https://example.com", "credit", "")
+        val suggestion = DictionarySuggestion(id, "你", "nǐ", "bạn", listOf("vi"), "APP_CURATED")
         val requested = mutableListOf<String>()
         val queries = mutableListOf<String>()
         val repository = object : DictionaryRepository {
@@ -85,7 +84,7 @@ class HandwritingUiTest {
             override suspend fun detail(entryId: String): DictionaryEntry {
                 requested += entryId
                 return DictionaryEntry(suggestion, "nǐ", mapOf("en" to listOf(DictionarySense(1, "you"))),
-                    null, emptyList(), origin)
+                    null, "HUMAN_APPROVED")
             }
         }
         compose.setContent {

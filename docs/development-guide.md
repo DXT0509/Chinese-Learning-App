@@ -1,5 +1,34 @@
 # Development guide
 
+For direct Codex session review, use the versioned development-only
+[local Codex runbook](runbooks/local-codex-vocabulary.md) and
+[current review coverage](phase4.0.3-codex-review.md). Additive migration 0010
+and a separate opt-in are required; no paid review provider is needed.
+
+Phase 4.0.2: [bulk vocabulary pipeline](bulk-vocabulary-pipeline.md) adds global integrity
+auditing, configured external review, versioned correction attempts, explicit database
+reconciliation/confirmation and resumable import/submission. Read the blocked-status
+snapshot before attempting development writes.
+
+Phase 4.0.1: follow [AI-assisted vocabulary publication](ai-vocabulary-publication.md)
+for additive migration 0009, offline review exchange, explicit publication opt-in and
+coverage reporting. This workflow preserves all existing catalog and user data.
+
+Phase 4 supersedes the historical dictionary/wordbook API and import instructions below.
+Follow [the vocabulary reset plan](vocabulary-reset-plan.md),
+[curated schema/API](curated-vocabulary-schema.md), and
+[JSONL import guide](curated-vocabulary-import.md). Apply additive 0008 explicitly;
+legacy deletion requires the separate backup/dry-run/confirmed maintenance workflow.
+
+## Personal vocabulary (Phase 3.4)
+
+Apply additive revision `0007_personal_vocabulary` explicitly before using the new wordbook.
+Do not reimport dictionary data or reset the native database. See
+[personal vocabulary](personal-vocabulary-design.md) for migration commands, isolated test
+URLs, authenticated endpoints, Android checks and the unperformed physical-device checklist.
+The fresh-database rehearsal uses `WORDBOOK_MIGRATION_TEST_DATABASE_URL` and retains fixtures.
+
+
 For Phase 3.3 model downloads, handwriting state, Android checks and physical-device
 verification, follow [dictionary handwriting](android-handwriting.md).
 

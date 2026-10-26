@@ -1,0 +1,720 @@
+[
+  {
+    "batch": "L0-B001",
+    "lexical_key": "不客气|bu4 ke4 qi5",
+    "id": "7e47be17-2a4a-51d2-938b-241f74494434",
+    "source_content_version": 1,
+    "source_checksum": "ed60456e2e1fa1c988fa8de7062a887f9c3e3bdbffd7ce267e13fea915adcd73",
+    "reviewed_content_version": 1,
+    "reviewed_checksum": "ed60456e2e1fa1c988fa8de7062a887f9c3e3bdbffd7ce267e13fea915adcd73",
+    "linguistic_outcome": "PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "不客气 bu4 ke4 qi5 is a valid neutral-tone courtesy formula. Bù in the example records citation tone. Original neutral-tone teaching hold retained.",
+    "correction": null,
+    "pending_reason": "Existing source editorial hold retained",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L0-B001",
+    "lexical_key": "没关系|mei2 guan1 xi5",
+    "id": "6e626271-0288-5aac-86d6-7739b8d9b04e",
+    "source_content_version": 1,
+    "source_checksum": "1d8af9667c41b7be00524062dddad0e8bcd52836067c0c55a1838f38e6c09188",
+    "reviewed_content_version": 1,
+    "reviewed_checksum": "1d8af9667c41b7be00524062dddad0e8bcd52836067c0c55a1838f38e6c09188",
+    "linguistic_outcome": "PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "没关系 mei2 guan1 xi5 is a valid colloquial response to an apology. Full-tone variation does not invalidate the neutral choice; existing hold retained.",
+    "correction": null,
+    "pending_reason": "Existing source editorial hold retained",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L0-B001",
+    "lexical_key": "谁|shei2",
+    "id": "9503913b-a26b-56b3-88dd-8767ca8a1d43",
+    "source_content_version": 1,
+    "source_checksum": "0cd1d47dd27aa0ee27874865124fa0ab3f23eaa7fbeb2c1479e35c2a6f3ba455",
+    "reviewed_content_version": 1,
+    "reviewed_checksum": "0cd1d47dd27aa0ee27874865124fa0ab3f23eaa7fbeb2c1479e35c2a6f3ba455",
+    "linguistic_outcome": "PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "谁 shei2 is the common spoken who reading. 他是谁 correctly renders shéi; keep the alternate shuí identity and unresolved presentation hold.",
+    "correction": null,
+    "pending_reason": "Existing source editorial hold retained",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L0-B001",
+    "lexical_key": "谁|shui2",
+    "id": "11367ee4-0fd5-5775-b099-c6c44d5e083b",
+    "source_content_version": 1,
+    "source_checksum": "5a018721ebcc6c5de2b5013e602952c30f24f254dde952ba4b1178ffaddd464a",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "16781a422596a992db50e311da66e014311c823599fe2c5f085338b90c327d2f",
+    "linguistic_outcome": "CORRECTED_PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "谁 shui2 is a valid alternative who reading, not a duplicate to delete. Added a reading-specific short example; primary-reading presentation hold remains.",
+    "correction": {
+      "changes": {
+        "examples": [
+          {
+            "simplified": "谁在家？",
+            "pinyin": "Shuí zài jiā?",
+            "vietnamese": "Ai ở nhà?"
+          }
+        ]
+      },
+      "reason": "Missing example for alternate pronunciation; new example explicitly realizes shuí and was re-read for grammar, tones and translation."
+    },
+    "pending_reason": "Existing source editorial hold retained",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L0-B001",
+    "lexical_key": "什么|shen2 me5",
+    "id": "01017fbb-541b-5687-897f-0d4bc2a6e6ed",
+    "source_content_version": 1,
+    "source_checksum": "374f2220566dc6f689d06c10176f6b71f619f095b46460dc8c94d8dff809488b",
+    "reviewed_content_version": 1,
+    "reviewed_checksum": "374f2220566dc6f689d06c10176f6b71f619f095b46460dc8c94d8dff809488b",
+    "linguistic_outcome": "PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "什么 shen2 me5 is the neutral-final what pronoun; example and Vietnamese match. Legacy Traditional-form policy hold is retained despite Simplified-only content.",
+    "correction": null,
+    "pending_reason": "Existing source editorial hold retained",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L0-B001",
+    "lexical_key": "厕所|ce4 suo3",
+    "id": "b58c0607-76a4-527c-a6ea-d77170d7dfd8",
+    "source_content_version": 1,
+    "source_checksum": "8c34ca8ead7e0c31373c408222690ef5c49d9aefae83bb493870fad09cee71f6",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "1dbd1cabb4085c1ad629f96aef9f6a5b3ce4c29dd0101d76cd7c7121dbd6cf5c",
+    "linguistic_outcome": "PASS",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "厕所 ce4 suo3 means toilet/restroom, with correct noun gloss and location question. Carry the existing database editorial hold into a version-2 draft; do not claim its issue resolved.",
+    "correction": null,
+    "pending_reason": "Existing PostgreSQL editorial hold; versioned copy preserves NEEDS_REVIEW without changing linguistic content.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L2-B002",
+    "lexical_key": "过去|guo4 qu5",
+    "id": "b42eaf57-1137-57f6-9353-da0f142a4012",
+    "source_content_version": 1,
+    "source_checksum": "c16d0cac6ca0f5506beefea769840df48545c4f83f2b5e33ecd2f117e66d5b32",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "7654248b0b6dbb7f4c6d04f4d3b953aae5b53759dedc92f708bdf51cde5bbe54",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "过去 is supplied as guo4 qu5 but labeled the past noun; example uses full qù for past and neutral qu for passing away. Hold for citation/neutral and sense-identity reconciliation rather than silently renaming its key.",
+    "correction": null,
+    "pending_reason": "Neutral qu5 lexical identity vs full-tone past-noun reading and mixed-sense example need resolution without changing an imported lexical key.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L2-B002",
+    "lexical_key": "一直|yi4 zhi2",
+    "id": "0ae54902-e921-5fd7-8305-f9f6a2c74050",
+    "source_content_version": 1,
+    "source_checksum": "4ff7a2cd640c82bc614be395ab6bb8ac60a13931a46e8e0efef98148c16ae079",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "2346f07639e23b421b70be7fdcdae6942c781d832e3a3c84b08264d1f469f547",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "一直 yìzhí is a real contextual pronunciation in teaching materials, but the catalog's citation-vs-sandhi identity policy is inconsistent with yi1 elsewhere. Preserve key and hold this policy uncertainty; clarify the uninterrupted-action Vietnamese example.",
+    "correction": {
+      "changes": {
+        "vietnamese_meanings": [
+          "suốt",
+          "liên tục",
+          "luôn luôn",
+          "thẳng"
+        ],
+        "examples": [
+          {
+            "simplified": "他一直在看书。",
+            "pinyin": "Tā yìzhí zài kàn shū.",
+            "vietnamese": "Anh ấy vẫn đang đọc sách suốt từ nãy đến giờ."
+          }
+        ]
+      },
+      "reason": "Clarify uninterrupted ongoing action and natural Vietnamese while retaining all valid original senses; phonological identity policy remains pending."
+    },
+    "pending_reason": "Contextual yi4 is attested, but citation identity policy and yi1/yi4 distinction need explicit reconciliation; do not rename automatically.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B001",
+    "lexical_key": "生发|sheng1 fa1",
+    "id": "40febbe0-9e7f-5a27-b482-08f5506069fc",
+    "source_content_version": 1,
+    "source_checksum": "dc051f203efdb9d5d8b9d49281c23d68b8b48c7a737827ce41d4b69701e44c50",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "d1fbed58e49cf0b96b699c819978cce57d4b3f7289b7320fc895d586184f1b4f",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "生发 sheng1 fa1 conflates sprouting/arising with hair-growing, which calls for the fa4 hair reading. Retain identity and both valid meanings pending pronunciation-specific sense separation; do not silently delete hair or add an unreviewed key.",
+    "correction": null,
+    "pending_reason": "Mixed fa1 sprouting vs fa4 hair sense cannot be resolved while silently preserving a single pronunciation key; editorial sense/identity decision required.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B002",
+    "lexical_key": "一般|yi4 ban1",
+    "id": "ac498bd7-0d46-56e7-89d8-402280059295",
+    "source_content_version": 1,
+    "source_checksum": "5ffe659f55e0dcf46af30004a02618d79a1eba8f83deeacdaa11e4e58bfc6fea",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "03e7b6dea235f655abc3ad497637ae2a37eaaabc3c5ee05f371554f529ab6e4b",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "一般 yi4 ban1 uses attested spoken sandhi but needs the same citation identity policy decision as 一直. Also restored omitted 很 in example Pinyin.",
+    "correction": {
+      "changes": {
+        "examples": [
+          {
+            "simplified": "这家餐馆的味道很一般。",
+            "pinyin": "Zhè jiā cānguǎn de wèidao hěn yìbān.",
+            "vietnamese": "Vị đồ ăn ở quán này rất bình thường."
+          }
+        ]
+      },
+      "reason": "Restore omitted 很 as hěn; the yi4 citation/sandhi identity question remains unresolved."
+    },
+    "pending_reason": "Need a consistent lexical citation-vs-spoken-sandhi policy for 一般|yi4 ban1 without silent key replacement.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B002",
+    "lexical_key": "活泼|huo2 po5",
+    "id": "935feef6-b0e9-5848-9aa9-754bfba8a89c",
+    "source_content_version": 1,
+    "source_checksum": "09fb234b49891f3c6cd68588decac3cdc398c2bfa40a7045de4fba1de54881f0",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "780d6f1b8261b9e28b6b11cca749f95c39756431a9ab1d341892fda3344c3d26",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "活泼 huo2 po5 is supplied with neutral po, whereas standard teaching sources normally give huópō. Retain key and hold for documented neutral-tone variant/citation verification.",
+    "correction": null,
+    "pending_reason": "Verify whether neutral po5 is an accepted teaching variant or requires a different canonical pronunciation identity.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B005",
+    "lexical_key": "场|chang3",
+    "id": "a2af535f-ff20-50bd-94b1-bd2463a10d08",
+    "source_content_version": 1,
+    "source_checksum": "ec35224f770945dce752fcff4cce11a4a025fec0a85d0073c402e5078dcad31c",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "9dd1f6cf018e0a7382826768d8aaa3ac8ad4681323a7787494e368d0a8e23f37",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "场 chang3 for events is mixed with rain-spell sense normally taught as chang2. Keep the lexical key and valid meanings, but hold for pronunciation-specific sense reconciliation instead of silently changing the key.",
+    "correction": null,
+    "pending_reason": "Record chang3 event senses and rain example need explicit chang2/chang3 lexical-sense decision; no silent key rewrite or sense removal.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B006",
+    "lexical_key": "一共|yi2 gong4",
+    "id": "a8ba8e8d-19c1-5cf7-9cd0-6a80a59f4d7d",
+    "source_content_version": 1,
+    "source_checksum": "64324f674747a38e212d38b04f7e468df440f173306f32bff47aa75f991cd421",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "c3178c37b38f4a6dd7b77d6b0fef52b87d92b348ed09b4f8ae554798b8f763c1",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "一共 yi2 gong4 is normal spoken yígòng but needs catalog citation-vs-sandhi identity reconciliation. Corrected currency translation without renaming its key; hold remains.",
+    "correction": {
+      "changes": {
+        "examples": [
+          {
+            "simplified": "这些书买下来一共需要一百块钱。",
+            "pinyin": "Zhèxiē shū mǎi xiàlai yígòng xūyào yì bǎi kuài qián.",
+            "vietnamese": "Mua hết chỗ sách này tổng cộng cần một trăm tệ."
+          }
+        ]
+      },
+      "reason": "Chinese price unit is yuan, not Vietnamese đồng; citation/sandhi identity policy remains pending."
+    },
+    "pending_reason": "Need an explicit yi1 citation vs yi2 spoken-sandhi lexical identity policy for 一共.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L3-B006",
+    "lexical_key": "不但|bu2 dan4",
+    "id": "965ce0a7-4549-5440-854d-1e7100aaff09",
+    "source_content_version": 1,
+    "source_checksum": "9fc28690a5efd91224ea69a04eafb43c2f5b6b56958532a5dc750b63ee5c420f",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "e30a76ca397322581cfdfab8832ff9de66c8db4066c7e9c432b5af5b749a5868",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "不但 bu2 dan4 is normal contextual búdàn, but its lexical key encodes sandhi contrary to citation treatment elsewhere. Preserve key and hold pending explicit policy, not automatic renaming.",
+    "correction": null,
+    "pending_reason": "Need an explicit bu4 citation vs bu2 contextual-sandhi lexical identity policy for 不但.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L4-B009",
+    "lexical_key": "引起|ying3 qi3",
+    "id": "86c54fbf-d4f3-534a-af70-4b7041f66f0b",
+    "source_content_version": 1,
+    "source_checksum": "df62495c84a482cb9f421a9bcc6cca0a3ec0d20632157bd4b0f80d0f452a96d3",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "e070bc1e754986e8a2de61f127817e2198db5d59b57529323e029f530edbbf24",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "Headword identity is ying3 qi3 but standard Mandarin for the written form is yin3 qi3, as correctly used in the example. A stable lexical-key repair requires an explicit identity decision; cannot silently rename.",
+    "correction": null,
+    "pending_reason": "Incorrect headword nasal coda: imported identity ying3 qi3 conflicts with correct yin3 qi3. Preserve identity and hold for explicit repair.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L5-B007",
+    "lexical_key": "贯彻|guan1 che4",
+    "id": "bf0aad14-a036-5372-88f0-13574c95ad74",
+    "source_content_version": 1,
+    "source_checksum": "7f908f76c5728fee8ad14867e12a5b5db90438a4a6d49039d329361963aed00a",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "867036548cc90d176abbfee8aee14978f0c46ebbf3e664870d32632f59dd0f21",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "贯彻 must guànchè but stable key guan1 che4 has wrong first tone; hold for explicit identity repair, also remove duplicate 全面.",
+    "correction": {
+      "reason": "Remove duplicated 全面; correct example's actual guànchè while keeping mismatching head identity on hold.",
+      "changes": {
+        "examples": [
+          {
+            "simplified": "各级党委政府必须全面准确贯彻创新、协调、绿色、开放、共享的新发展理念。",
+            "pinyin": "Gè jí dǎngwěi zhèngfǔ bìxū quánmiàn zhǔnquè guànchè chuàngxīn, xiétiáo, lǜsè, kāifàng, gòngxiǎng de xīn fāzhǎn lǐniàn.",
+            "vietnamese": "Cấp ủy chính quyền các cấp phải quán triệt toàn diện chính xác quan niệm phát triển mới đổi mới, phối hợp, xanh, cởi mở, cùng hưởng."
+          }
+        ]
+      }
+    },
+    "pending_reason": "Standard guan4 che4 conflicts with source stable lexical identity guan1 che4. Example repaired, but headword requires explicit identity repair rather than silent renaming.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L5-B022",
+    "lexical_key": "克勤克俭|ke4 qin2 ke4 jian4",
+    "id": "3dfb08ed-afdd-5e5d-9fb1-4d24263365fb",
+    "source_content_version": 1,
+    "source_checksum": "bdd44451109f36bb443a71ceda373c667fe0c7f6c48e78dd6c12a6377a8d5add",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "e9503b15ed0a4ab86466b74aa674f187b512a245ab079545096d9c0bb80ca0d0",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "克勤克俭 requires kèqínkèjiǎn; immutable key incorrectly jian4. Keep NEEDS_REVIEW pending pronunciation identity decision; example already jiǎn correct.",
+    "correction": null,
+    "pending_reason": "Incorrect stable pronunciation identity 克勤克俭|ke4 qin2 ke4 jian4: 俭 must jian3 (jiǎn), as already correctly transcribed in the example. Renaming the pronunciation-specific lexical key requires an explicit identity resolution; source key preserved, excluded from local acceptance.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L5-B023",
+    "lexical_key": "质子治疗|zhi3 zi3 zhi4 liao2",
+    "id": "eed52d35-8cd0-58d7-8b8a-2a94a0dad5cc",
+    "source_content_version": 1,
+    "source_checksum": "59dd141dfd8203c648130511fb88bf4523be4a6e4522bcf442d9be974e0fc0c9",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "9b6a91c0c7f5080962be9054f7a123bafdd8656a9ee5f4e10dc5452f6f850fb4",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "质子治疗 requires zhìzǐzhìliáo; stable key zhi3 incorrect. Hold identity; replace false nanoscale targeted explosion claim with proton beam irradiation.",
+    "correction": {
+      "reason": "Proton beam irradiation not nanoscale explosion; identity still held.",
+      "changes": {
+        "examples": [
+          {
+            "simplified": "质子治疗使用质子束照射肿瘤。",
+            "pinyin": "Zhìzǐ zhìliáo shǐyòng zhìzǐshù zhàoshè zhǒngliú.",
+            "vietnamese": "Xạ trị proton sử dụng chùm hạt proton để chiếu xạ khối u."
+          }
+        ]
+      }
+    },
+    "pending_reason": "Incorrect stable pronunciation identity 质子治疗|zhi3 zi3 zhi4 liao2: 质 must zhi4 (zhì). Example corrected and rechecked, but lexical key cannot be silently renamed. Excluded pending explicit identity resolution.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  },
+  {
+    "batch": "L5-B023",
+    "lexical_key": "生物信息学|sheng1 wu4 xin1 xi1 xue2",
+    "id": "2b9b294f-8e8a-5ea2-86c7-f982c3f83d9e",
+    "source_content_version": 1,
+    "source_checksum": "0c9f4042b1c6957cc18068dd45d1e4d88a4899c4481b8963fd7aa34dd15f7aa1",
+    "reviewed_content_version": 2,
+    "reviewed_checksum": "263dfea99f4eb5d55c14d34223b882983c6e404d288d768db26db92fb68324be",
+    "linguistic_outcome": "UNCERTAIN",
+    "checked_aspects": [
+      "simplified_spelling",
+      "mandarin_pinyin_tones",
+      "vietnamese_meanings",
+      "sino_vietnamese",
+      "part_of_speech",
+      "example_grammar_naturalness",
+      "example_pinyin_translation",
+      "learning_level",
+      "duplicates_readings_ambiguity"
+    ],
+    "note": "生物信息学 requires shēngwùxìnxīxué; immutable key xin1 should xin4. Hold identity; example already xìn correct.",
+    "correction": null,
+    "pending_reason": "Incorrect stable pronunciation identity 生物信息学|sheng1 wu4 xin1 xi1 xue2: 信 must xin4 (xìn), already correct in example. Preserve immutable key and hold pending explicit identity resolution.",
+    "local_development_candidate": false,
+    "eligible_for_AI_APPROVED": false,
+    "approval_contract_blockers": [
+      "Exact session reviewer model snapshot/version not exposed",
+      "No numeric confidence supplied; threshold cannot be truthfully asserted",
+      "Generator identity remains an unverified historical claim"
+    ],
+    "evidence_limitations": [
+      "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+    ]
+  }
+]

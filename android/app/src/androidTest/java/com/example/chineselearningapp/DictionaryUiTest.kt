@@ -17,14 +17,11 @@ class DictionaryUiTest {
     @get:Rule val compose = createAndroidComposeRule<ComponentActivity>()
     private val first = "f15eec42-512e-4a48-9c2f-045264b2e119"
     private val second = "f15eec42-512e-4a48-9c2f-045264b2e120"
-    private val source = DictionarySource("CC-CEDICT", "https://cc-cedict.org/", "CC BY-SA 4.0",
-        "https://creativecommons.org/licenses/by-sa/4.0/", "CC-CEDICT contributors", "")
-    private fun suggestion(id: String) = DictionarySuggestion(id, "家", if (id == first) "傢" else "家",
+    private fun suggestion(id: String) = DictionarySuggestion(id, "家",
         if (id == first) "jiā" else "jie", null, listOf("en"), "CC-CEDICT")
     private fun entry(id: String) = DictionaryEntry(suggestion(id), "jie",
         mapOf("en" to listOf(DictionarySense(1, "family"))), null,
-        listOf(CharacterEnrichment("character", "家", listOf(0), listOf(0), "jià", "giá",
-            "chú giải chữ", false, source)), source)
+        "HUMAN_APPROVED")
     private fun back() {
         compose.activityRule.scenario.onActivity { it.onBackPressedDispatcher.onBackPressed() }
         compose.waitForIdle()
@@ -69,7 +66,7 @@ class DictionaryUiTest {
         compose.onNodeWithTag("tab_Learning").assertIsSelected()
     }
 
-    @Test fun characterNotesHaveSeparateSectionAndMismatchWarning() {
+    @Test fun detailShowsCuratedContentSource() {
         compose.setContent {
             ChineseLearningAppTheme {
                 DictionaryDetailScreen(DictionaryDetailState(DictionaryPhase.Results, entry(second)), {}, {})
@@ -77,10 +74,7 @@ class DictionaryUiTest {
         }
         compose.onNodeWithText("Nghĩa tiếng Anh").assertExists()
         compose.onNodeWithText("Nghĩa tiếng Việt").assertDoesNotExist()
-        compose.onNodeWithText("Khám phá từng chữ Hán").performScrollTo().assertIsDisplayed()
-        compose.onNodeWithText("chú giải chữ").performScrollTo().assertIsDisplayed()
-        compose.onNodeWithText("Chú giải này có cách đọc khác với mục từ đang xem.").performScrollTo().assertIsDisplayed()
-        compose.onNodeWithText("Nguồn và giấy phép").performScrollTo().performClick()
-        compose.onNodeWithText("CC-CEDICT contributors").performScrollTo().assertIsDisplayed()
+        compose.onNodeWithText("Từ vựng giản thể do ứng dụng biên soạn", substring = true)
+            .performScrollTo().assertIsDisplayed()
     }
 }

@@ -1,0 +1,1715 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L3-B005",
+  "source_file": "level-3-batch-005.jsonl",
+  "source_sha256": "813030241df3f61002dfec04e9211c5afca1b8d46b33cd7f0413cb3ee0f1890d",
+  "deployment_sha256": "5dd54cc6e12412b4888bf77e3f817430a34f18ec28843cb19a8fe857c35ccb3c",
+  "checkpoint_written_at": "2026-10-25T15:02:00.727979+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "strict_review_results_created": 0,
+  "scope": "All record fields and complete examples read in the active session",
+  "correction_review": "Corrected records re-read and assessed by this same session; no claim of a second independent model",
+  "supporting_sources": [
+    "https://hvdic.thivien.net/whv/%E6%A3%B5",
+    "https://www.buli.page/view/zidian/entry/b7674f31-9b0c-45c5-860d-02609e056d56/"
+  ],
+  "records": [
+    {
+      "lexical_key": "季节|ji4 jie2",
+      "id": "55e23231-79ae-5bc0-b73f-1c526d496961",
+      "source_content_version": 1,
+      "source_checksum": "56bbd3b48f9f7d4bcb89dd22a6bddabe91bbb62252cf44f3fc5281e9e4f5bacf",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "56bbd3b48f9f7d4bcb89dd22a6bddabe91bbb62252cf44f3fc5281e9e4f5bacf",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "季节 ji4 jie2, quý tiết, is season; four-seasons sentence and Vietnamese agree.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "春天|chun1 tian1",
+      "id": "ef14d25b-004b-597d-83c1-1b531452a4c4",
+      "source_content_version": 1,
+      "source_checksum": "9387a947478d94112f59d706c72dff0da14204050a544f3b7fc151cc120516be",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9387a947478d94112f59d706c72dff0da14204050a544f3b7fc151cc120516be",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "春天 chun1 tian1 means spring; 花儿 huār erhua and flower-blooming sentence are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "夏天|xia4 tian1",
+      "id": "f1d0bde9-cf8e-5630-9807-5790639d2417",
+      "source_content_version": 1,
+      "source_checksum": "ba3bf0b617486590ce5256b9ab10c8525fbf7420dc340878a902f05a10d44384",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ba3bf0b617486590ce5256b9ab10c8525fbf7420dc340878a902f05a10d44384",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "夏天 xia4 tian1 means summer; hot-weather description and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "秋天|qiu1 tian1",
+      "id": "70012839-7832-5c96-9b8d-3d9119c6e7fc",
+      "source_content_version": 1,
+      "source_checksum": "b97178f70005214b050187582da03c3dc86f38f51bd305d241f0cbdacec6d8a6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b97178f70005214b050187582da03c3dc86f38f51bd305d241f0cbdacec6d8a6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "秋天 qiu1 tian1 means autumn; Beijing autumn description and Vietnamese are valid.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "冬天|dong1 tian1",
+      "id": "07d7b71b-59a5-5c4b-83b3-bf41a82a4a02",
+      "source_content_version": 1,
+      "source_checksum": "5eff93ac589f64555bcb7d55979af3f1129f2162cec71bf803334d01eb1e20bc",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5eff93ac589f64555bcb7d55979af3f1129f2162cec71bf803334d01eb1e20bc",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "冬天 dong1 tian1 means winter; snowy-weather example and Vietnamese align as an illustrative cold-climate context.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "太阳|tai4 yang2",
+      "id": "1134fea2-e4d1-595f-ba98-3682d15a0d19",
+      "source_content_version": 1,
+      "source_checksum": "b0d1d0c054843955e05ececd2c2a71369ae61c7108f155f0aa195afd2f57939f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b0d1d0c054843955e05ececd2c2a71369ae61c7108f155f0aa195afd2f57939f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "太阳 tai4 yang2, thái dương, is sun; eastern sunrise sentence and Vietnamese agree.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "月亮|yue4 liang5",
+      "id": "eb2d5543-4688-595f-beb6-8dc8f204e442",
+      "source_content_version": 1,
+      "source_checksum": "8c92b1d3feda946c7b9313e2b8ba1736dc13e112a8e37c20556c3164d2eb1f50",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8c92b1d3feda946c7b9313e2b8ba1736dc13e112a8e37c20556c3164d2eb1f50",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "月亮 yue4 liang5, nguyệt lượng, is moon; neutral liang and big-round description match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "星星|xing1 xing5",
+      "id": "ec064d7d-0a0c-5362-8177-de99dd400b7e",
+      "source_content_version": 1,
+      "source_checksum": "060710400d38fb7f034cadc06ff799a1134863691523a7c3b96cf28c6d9754e3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "060710400d38fb7f034cadc06ff799a1134863691523a7c3b96cf28c6d9754e3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "星星 xing1 xing5, tinh tinh, is stars; neutral second xing and bright-night-sky example align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "风|feng1",
+      "id": "b1d39ec7-4dcf-5f6a-b95e-738b3fab9f31",
+      "source_content_version": 1,
+      "source_checksum": "f2858d8c517c778ea73096be578443547e2c433f598f72be12ce252efa0d2ea8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f2858d8c517c778ea73096be578443547e2c433f598f72be12ce252efa0d2ea8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "风 feng1, phong, is wind; strong-wind warning and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "雪|xue3",
+      "id": "bfe603eb-0697-5946-b85b-35a781f34fdc",
+      "source_content_version": 1,
+      "source_checksum": "510e745f3f36d2771280bd3dbdfb9eb26710441427baabd3019572549874e8f6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "510e745f3f36d2771280bd3dbdfb9eb26710441427baabd3019572549874e8f6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "雪 xue3, tuyết, is snow; white-ground scene and Vietnamese are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "云|yun2",
+      "id": "179c71ae-23f1-505f-b281-044b4611a4d1",
+      "source_content_version": 1,
+      "source_checksum": "8e675ac754d37f52de9bc5d95bec2e03f1d56ac7491c06fd07db1d2524b668ff",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8e675ac754d37f52de9bc5d95bec2e03f1d56ac7491c06fd07db1d2524b668ff",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "云 yun2, vân, is cloud; 朵 classifier and white-cloud sentence match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "空气|kong1 qi4",
+      "id": "db2a3cb5-5a5e-5e4b-8419-cadcb4ca4ab7",
+      "source_content_version": 1,
+      "source_checksum": "b6d58b6e555d3a84e6b8eb76b39961481308c36f1f6db8c38c03be46c69c35c8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b6d58b6e555d3a84e6b8eb76b39961481308c36f1f6db8c38c03be46c69c35c8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "空气 kong1 qi4, không khí, is air; fresh-forest-air example and Vietnamese are accurate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "环境|huan2 jing4",
+      "id": "aaf94f21-90bc-5e0b-a479-a0b240b9aee8",
+      "source_content_version": 1,
+      "source_checksum": "b17efc7c9d0818b956ed9ed048ed0b22c65fca0c6c8853a6631f6fbe9af6fcb4",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b17efc7c9d0818b956ed9ed048ed0b22c65fca0c6c8853a6631f6fbe9af6fcb4",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "环境 huan2 jing4 means environment; hoàn cảnh is a reading aid while môi trường is the correct current Chinese sense. Environmental-protection sentence aligns.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "草|cao3",
+      "id": "98d2f8f3-1da3-55c0-9917-95c2f0ce0fa3",
+      "source_content_version": 1,
+      "source_checksum": "3960eba0098084a9b03285c010dfd87f322d015468b1b4b0e9d06ce8b6ba7b0e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3960eba0098084a9b03285c010dfd87f322d015468b1b4b0e9d06ce8b6ba7b0e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "草 cao3, thảo, is grass; courtyard-growth sentence uses zhǎng correctly and Vietnamese agrees.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "树|shu4",
+      "id": "185c306e-3a45-52c0-b913-917eecd2244d",
+      "source_content_version": 1,
+      "source_checksum": "182c163a7b1f99cadd56c89de6d8e0c47f4c0f9360f2c830fd2151e1032bfa1d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "182c163a7b1f99cadd56c89de6d8e0c47f4c0f9360f2c830fd2151e1032bfa1d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "树 shu4, thụ, means tree; 棵 classifier and hundred-year history sentence align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "花|hua1",
+      "id": "d73bbf3a-ced0-539e-9542-15539d0e4560",
+      "source_content_version": 1,
+      "source_checksum": "16bb9ec0c9c9908557b419ee3e710dc0ebbf34f26b29ebf1f8f00a278d929533",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "16bb9ec0c9c9908557b419ee3e710dc0ebbf34f26b29ebf1f8f00a278d929533",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "花 hua1, hoa, is flower in this noun entry; fragrant-garden example and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "叶子|ye4 zi5",
+      "id": "6267a4f3-8ffa-59c3-9979-e709cfc1056c",
+      "source_content_version": 1,
+      "source_checksum": "d36b07461b4da5eeebf96ed7d0a8bebe7a79d5b7b2b57ea04413235d4f5f3601",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "d36b07461b4da5eeebf96ed7d0a8bebe7a79d5b7b2b57ea04413235d4f5f3601",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "叶子 ye4 zi5, diệp tử, is leaf; neutral zi and autumn color change are accurate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "河|he2",
+      "id": "1196a835-686f-5dd4-b217-eaa4bb91a87c",
+      "source_content_version": 1,
+      "source_checksum": "da121c71b5b3372a770a722e5cbe2335702cc9f3f28432514ac93be6def8552a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "da121c71b5b3372a770a722e5cbe2335702cc9f3f28432514ac93be6def8552a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "河 he2, hà, is river; clear-water sentence and Vietnamese align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "湖|hu2",
+      "id": "8ea27515-293b-5117-87ef-807e31655ae2",
+      "source_content_version": 1,
+      "source_checksum": "b6a487cb30d921ebdcab05bc6bca16db5194c7e15ff53d010dc8d1d74a95cc5e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b6a487cb30d921ebdcab05bc6bca16db5194c7e15ff53d010dc8d1d74a95cc5e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "湖 hu2, hồ, is lake; lakeside walking sentence and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "海|hai3",
+      "id": "fbc9b5c3-94ac-541b-87f8-1ec273d44320",
+      "source_content_version": 1,
+      "source_checksum": "1c300b8872c491e0cef5198e9010efb15bf4313d4f083efa79c8f75cd322b7de",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1c300b8872c491e0cef5198e9010efb15bf4313d4f083efa79c8f75cd322b7de",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "海 hai3, hải, is sea; seaside-landscape example and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "山|shan1",
+      "id": "74b11dc6-5acf-59b3-8c0b-581fe2fcf67d",
+      "source_content_version": 1,
+      "source_checksum": "9b25aeef5a4b30ff79b8438a43b61a3638f9c70e4297b24a3bcec841dbcb3ce5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9b25aeef5a4b30ff79b8438a43b61a3638f9c70e4297b24a3bcec841dbcb3ce5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "山 shan1, sơn, is mountain; snow-covered peak scene and Vietnamese align. 终年 is zhōngnián in this context.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "森林|sen1 lin2",
+      "id": "d1c71578-0ef5-5571-bf96-b35da7b35d1f",
+      "source_content_version": 1,
+      "source_checksum": "fea58ad6243afbf741a48bc7894cd5ed0930b2119630cf5ca9b6d52422ee5053",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "fea58ad6243afbf741a48bc7894cd5ed0930b2119630cf5ca9b6d52422ee5053",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "森林 sen1 lin2, sâm lâm, is forest; animal-habitat example and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "动物|dong4 wu4",
+      "id": "bd4864ff-7ceb-5f53-8178-3f4b1a561d0e",
+      "source_content_version": 1,
+      "source_checksum": "dba3707c86f937a631138447dfa4729cc3f7ec90c3094e3f9b95b2a0513e1da9",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dba3707c86f937a631138447dfa4729cc3f7ec90c3094e3f9b95b2a0513e1da9",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "动物 dong4 wu4, động vật, is animal; caring-for-small-animals example is aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "鸟|niao3",
+      "id": "07e4a630-eb2d-5e19-97ce-cbdb260f05a0",
+      "source_content_version": 1,
+      "source_checksum": "37c3ec70a98e30fbb5372b103493cab0a41ce1f790060870a9cd5790aa2137d6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "37c3ec70a98e30fbb5372b103493cab0a41ce1f790060870a9cd5790aa2137d6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "鸟 niao3, điểu, is bird; singing-in-branches scene and Vietnamese hót are natural.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "马|ma3",
+      "id": "7211e006-ff56-59ac-9cfa-f5a83ebfe1d7",
+      "source_content_version": 1,
+      "source_checksum": "a594c38e3cfee5b66c95f7ad55014aef743e30b19a8607abe90806dc119d608e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a594c38e3cfee5b66c95f7ad55014aef743e30b19a8607abe90806dc119d608e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "马 ma3, mã, is horse; 匹 classifier and grassland example match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "牛|niu2",
+      "id": "580de7e9-851e-5357-93fe-82baf1c1993a",
+      "source_content_version": 1,
+      "source_checksum": "225611edec2e3f343074b8bb1261916c289fc43ff87a755080ae1405164bad21",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "225611edec2e3f343074b8bb1261916c289fc43ff87a755080ae1405164bad21",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "牛 niu2, ngưu, covers cattle and in wider compounds buffalo; cattle-herding example and Vietnamese bò are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "羊|yang2",
+      "id": "703d52b0-16d5-5641-a92f-2b5f8d7df35e",
+      "source_content_version": 1,
+      "source_checksum": "72659b89b50f3c7d19bbc91f814acc0ca4fef8381d8d5e3c44bc85f1b7491dd9",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "72659b89b50f3c7d19bbc91f814acc0ca4fef8381d8d5e3c44bc85f1b7491dd9",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "羊 yang2, dương, covers sheep/goats; 绵羊 in the example selects sheep explicitly and Vietnamese cừu matches.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "熊猫|xiong2 mao1",
+      "id": "dec6c95f-4ac4-59b5-9267-f5781614e376",
+      "source_content_version": 1,
+      "source_checksum": "6911b4dc9d1fc4def65785885a963f6f168ddb722716d3dff9bda8a13af91319",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6911b4dc9d1fc4def65785885a963f6f168ddb722716d3dff9bda8a13af91319",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "熊猫 xiong2 mao1, hùng miêu, is giant panda; national-treasure statement and Vietnamese are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "气候|qi4 hou4",
+      "id": "5d59df61-d148-57d4-92a4-03345b14be7d",
+      "source_content_version": 1,
+      "source_checksum": "02bb725d6c90c7e01fd14490b15bf21133087f4b33d2c0c7199dc51c6e77decf",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "02bb725d6c90c7e01fd14490b15bf21133087f4b33d2c0c7199dc51c6e77decf",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "气候 qi4 hou4, khí hậu, is climate; pleasant-climate example and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "自然|zi4 ran2",
+      "id": "1e5ae0ac-28b5-5271-9275-c639644da095",
+      "source_content_version": 1,
+      "source_checksum": "6c155e77be14f3584e84e4112676b0852c7f0e9c310bba53f10fae448ba05714",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "bc3dd7f7bb867df5357ecdc4d92944d0b5904d3ac38f372b16f3550a99283c45",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "自然 zi4 ran2 has nature noun and natural adjective senses already present; added adjective POS, preserving the nature example.",
+      "correction": {
+        "changes": {
+          "part_of_speech": "noun; adjective"
+        },
+        "reason": "Preserve both nature noun and natural adjective senses already represented in meanings."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "温度|wen1 du4",
+      "id": "d3c1494e-f7b2-56a2-a2dd-3295c3e0f7bf",
+      "source_content_version": 1,
+      "source_checksum": "bf7f6d7c3e2c526ec68e0e3ceed91857dd3f2d82f28fdbe930bb801a398c87dc",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "565d9c35d344df511753312377de822f77e9b4875ed3bb34e33c7b4bddecd59c",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "温度 wen1 du4, ôn độ, means temperature; pool-temperature sentence is grammatical. Replaced awkward Vietnamese vừa vặn with vừa phải.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "今天水池的温度刚刚好。",
+              "pinyin": "Jīntiān shuǐchí de wēndù gānggāng hǎo.",
+              "vietnamese": "Hôm nay nhiệt độ nước trong hồ vừa phải."
+            }
+          ]
+        },
+        "reason": "Use natural Vietnamese for a suitable water temperature rather than clothing-fit word vừa vặn."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "气温|qi4 wen1",
+      "id": "bca8e2a9-f490-559f-987e-524b9572645c",
+      "source_content_version": 1,
+      "source_checksum": "06713a7ffa62268c2a338339b84675b74fd2ebed3a64fd3920437f90449eb42e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "06713a7ffa62268c2a338339b84675b74fd2ebed3a64fd3920437f90449eb42e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "气温 qi4 wen1, khí ôn, specifies air temperature, distinct from generic 温度; forecast example and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "度|du4",
+      "id": "74dd1e59-a4f2-5c26-9c91-fbe9641601f3",
+      "source_content_version": 1,
+      "source_checksum": "8894fec2eb056931919b6f534bfc6de2bd8ddb72d1b3de7eb47e5aea1c083a73",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8894fec2eb056931919b6f534bfc6de2bd8ddb72d1b3de7eb47e5aea1c083a73",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "度 du4, độ, is degree for temperature/angle; thirty-degree air-temperature sentence is aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "米|mi3",
+      "id": "846f6a4b-b6b0-54f3-8af8-12a52ca6944e",
+      "source_content_version": 1,
+      "source_checksum": "b132a20e03ff4054974a26f043d34cfe9188e18ba7f491e4e4541a1fda41a73a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b132a20e03ff4054974a26f043d34cfe9188e18ba7f491e4e4541a1fda41a73a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "米 mi3, mễ, is meter in this measure entry, distinct from rice sense; hundred-meter field example and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "千克|qian1 ke4",
+      "id": "61fbb631-6c5e-5f3e-a5f2-754d7e2adaf4",
+      "source_content_version": 1,
+      "source_checksum": "1c761f1ab75620bae582fbd3e34c1e04097de37899d8d5250762d55f5fefa43d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "1c761f1ab75620bae582fbd3e34c1e04097de37899d8d5250762d55f5fefa43d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "千克 qian1 ke4, thiên khắc, is kilogram; two-kilogram apple-weighing request and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "斤|jin1",
+      "id": "03e00f82-a478-5d8d-9271-8c1798b57c5a",
+      "source_content_version": 1,
+      "source_checksum": "86bcba0ad02c8a01b93d3351c717953eeb5aecb1860be92aebc51ab70fea41ae",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "0e2aa351f2959dc5b3628121c0b8f35195bb45874452b13b33c779deb3c4494e",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "斤 jin1 is the Mainland 500-g catty, not a Vietnamese kilogram. Kept the explicit unit definition and clarified the example's 500 g and yuan price.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "这斤香蕉五块钱。",
+              "pinyin": "Zhè jīn xiāngjiāo wǔ kuài qián.",
+              "vietnamese": "500 gam chuối này giá năm tệ."
+            }
+          ]
+        },
+        "reason": "Make Mainland jin=500 g explicit and avoid confusing Chinese yuan with Vietnamese đồng in the price."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "克|ke4",
+      "id": "23a84c66-df8f-53a7-895c-9a04959f7962",
+      "source_content_version": 1,
+      "source_checksum": "2b2809b9d976ed9c7273f630970885605b860f737a79fd49fac1a7fdbdcb02f6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2b2809b9d976ed9c7273f630970885605b860f737a79fd49fac1a7fdbdcb02f6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "克 ke4, khắc, is gram; hundred-gram tea package and Vietnamese align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "公里|gong1 li3",
+      "id": "aeed842f-5871-5ea1-bddb-c0f1aaa05045",
+      "source_content_version": 1,
+      "source_checksum": "62b098bb997023e0b5df008ad002814d2e76111522627524ce2cf00725272fa0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "62b098bb997023e0b5df008ad002814d2e76111522627524ce2cf00725272fa0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "公里 gong1 li3, công lý, is kilometer; correct Vietnamese cây số avoids the reading-aid false friend justice.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "段|duan4",
+      "id": "133fa91f-661a-5cac-84e3-908a840b11ea",
+      "source_content_version": 1,
+      "source_checksum": "20ee182caab28ab8f2576973584ca3c29f30f55679585eb9f3a3edebe9cf166f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "20ee182caab28ab8f2576973584ca3c29f30f55679585eb9f3a3edebe9cf166f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "段 duan4, đoạn, counts sections; hard-to-walk road section and Vietnamese are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "层|ceng2",
+      "id": "e2153b57-3c0b-560e-8a5c-22392ac89897",
+      "source_content_version": 1,
+      "source_checksum": "562fe329fb1f46152a1a5ead60dd7e9bd5c9ee916dde18b438a215d3e50333af",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "562fe329fb1f46152a1a5ead60dd7e9bd5c9ee916dde18b438a215d3e50333af",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "层 ceng2, tầng, counts floors/layers; third-floor location and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "页|ye4",
+      "id": "3f12c3f6-2a9c-563a-92e7-651926550316",
+      "source_content_version": 1,
+      "source_checksum": "5bf9ba7fc0cfc26ce5af84796f12dc2de3227a864fb905acc69bf281c0897a2e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5bf9ba7fc0cfc26ce5af84796f12dc2de3227a864fb905acc69bf281c0897a2e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "页 ye4, diệp, counts pages; tenth-page instruction and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "套|tao4",
+      "id": "4c4c0e51-aba3-52c2-b7db-c495174a12b0",
+      "source_content_version": 1,
+      "source_checksum": "5758f54a4e1bc4dd227b24d607c3e680201fa8930524fdcc5cf902e1ebf83c8f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5758f54a4e1bc4dd227b24d607c3e680201fa8930524fdcc5cf902e1ebf83c8f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "套 tao4, sáo, counts sets/suites; a new suit example and Vietnamese bộ are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "位|wei4",
+      "id": "bc19cbad-e61b-5bf9-ac27-3c30a44e02e4",
+      "source_content_version": 1,
+      "source_checksum": "442f63ecbd15ec4a9085a379a51baac892dc3b033fca767997e32039ab67445d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "442f63ecbd15ec4a9085a379a51baac892dc3b033fca767997e32039ab67445d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "位 wei4, vị, politely counts people; identity question and courteous Vietnamese are natural.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "把|ba3",
+      "id": "5941771e-1cdc-5947-aa50-ddc8900c7a75",
+      "source_content_version": 1,
+      "source_checksum": "16dc4e93b67cb1754cee66f4f9d54e93a2df9796c2a4a470f3d2c1c6f2f700d0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "16dc4e93b67cb1754cee66f4f9d54e93a2df9796c2a4a470f3d2c1c6f2f700d0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "把 ba3, bả, counts handled objects including chairs; one-chair example and Vietnamese match, without conflating 把 disposal construction.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "头|tou2",
+      "id": "2385708b-0e63-58d4-bc5d-db632e4cbf7d",
+      "source_content_version": 1,
+      "source_checksum": "cfab880b4e457aeb0372f1c3d45fbad64f547ad082584afa1b1aa4e7a8a49cfe",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "73d4690214949b9cc793b6e89c3c116c828f015d60e9cf354a3033d148e82bc3",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "头 tou2, đầu, counts large livestock; aligned the example's weak tou with this record's selected full-tone tóu.",
+      "correction": {
+        "changes": {
+          "examples": [
+            {
+              "simplified": "农场里养着二十头牛。",
+              "pinyin": "Nóngchǎng lǐ yǎng zhe èrshí tóu niú.",
+              "vietnamese": "Trong trang trại nuôi hai mươi con bò."
+            }
+          ]
+        },
+        "reason": "Align the classifier example with the selected full-tone tou2 lexical record."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "匹|pi3",
+      "id": "f64afea6-611a-57b9-841e-9d16ad68b118",
+      "source_content_version": 1,
+      "source_checksum": "feb89f6fee47a9616840890799e67063a29cabcb36fc6707d89bb1666fcdf171",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "feb89f6fee47a9616840890799e67063a29cabcb36fc6707d89bb1666fcdf171",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "匹 pi3, thất, counts horses/cloth bolts; fine-horse-running example and Vietnamese are correct.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "棵|ke1",
+      "id": "7409251d-ffbc-5b19-9799-1f1524b860c1",
+      "source_content_version": 1,
+      "source_checksum": "977a41c050293bc892df87e283df5c9922c5b4e94478fd239a6c121c8337fc34",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "40affe2cf03b8384a7b45d1bf1f8d18383689ff47cdfe7170a85178c7567174d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "棵 ke1 counts trees; corrected khóa to documented Sino-Vietnamese khỏa. Two peach trees and Vietnamese align.",
+      "correction": {
+        "changes": {
+          "sino_vietnamese": "khỏa"
+        },
+        "reason": "棵 is documented as khoả/khoã, normalized here to khỏa, not khóa."
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "辆|liang4",
+      "id": "d18fbd58-8e5e-5fb6-849d-d0828784a74f",
+      "source_content_version": 1,
+      "source_checksum": "cb1b01584178a5ae9c2ccdd9f218427f60528d17a30777fbac59df19ab074c16",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "cb1b01584178a5ae9c2ccdd9f218427f60528d17a30777fbac59df19ab074c16",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "辆 liang4, lượng, counts vehicles; one-new-car example and Vietnamese match.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "封|feng1",
+      "id": "3a813db7-952f-5431-9c2d-dd6c6ba7baae",
+      "source_content_version": 1,
+      "source_checksum": "acc3c17073ca26306c9759fbfd53a39a7fe351996bc76cccad4a47245e5cba59",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "acc3c17073ca26306c9759fbfd53a39a7fe351996bc76cccad4a47245e5cba59",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "封 feng1, phong, counts letters; received-letter example and Vietnamese are aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "场|chang3",
+      "id": "a2af535f-ff20-50bd-94b1-bd2463a10d08",
+      "source_content_version": 1,
+      "source_checksum": "ec35224f770945dce752fcff4cce11a4a025fec0a85d0073c402e5078dcad31c",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "9dd1f6cf018e0a7382826768d8aaa3ac8ad4681323a7787494e368d0a8e23f37",
+      "linguistic_outcome": "UNCERTAIN",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "场 chang3 for events is mixed with rain-spell sense normally taught as chang2. Keep the lexical key and valid meanings, but hold for pronunciation-specific sense reconciliation instead of silently changing the key.",
+      "correction": null,
+      "pending_reason": "Record chang3 event senses and rain example need explicit chang2/chang3 lexical-sense decision; no silent key rewrite or sense removal.",
+      "local_development_candidate": false,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    }
+  ]
+}

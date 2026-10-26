@@ -1,0 +1,1950 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L5-B023",
+  "source_file": "level-5-batch-023.jsonl",
+  "source_sha256": "22c8103080e5a935809550c78be195ba8ab5215e6c1bbd245b87badc71dd75b9",
+  "deployment_sha256": "225b363a07f728d9d6e17b213c96c2d820734e08cd8a6ee598831d8dea9a82f2",
+  "checkpoint_written_at": "2026-10-25T17:00:16.822155+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "strict_review_results_created": 0,
+  "scope": "All record fields and complete examples read in the active session",
+  "correction_review": "Corrected records re-read and assessed by this same session; no claim of a second independent model",
+  "supporting_sources": [
+    "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+    "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+    "https://www.asiaa.sinica.edu.tw/IAAQ/pdf/2018Q1.pdf",
+    "https://www.nist.gov/cybersecurity-and-privacy/what-quantum-cryptography"
+  ],
+  "records": [
+    {
+      "lexical_key": "暗物质|an4 wu4 zhi4",
+      "id": "5bb3a191-c1e5-5b59-a43d-c8737d44bfe6",
+      "source_content_version": 1,
+      "source_checksum": "5b58156bb6b1bbe2090d284e3686c652aadf1488c961b5efd8207a620ca8ff87",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "8e80027270d978833a5016136571e4583c62828618a1f4b6d77df28c9c92fffa",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "暗物质 ànwùzhì dark matter; 高精度 exact transcription corrected.",
+      "correction": {
+        "reason": "高精度 exact transcription.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "空间天文探测卫星在深空高能宇宙射线物理观测中，获得了多项疑似暗物质粒子湮灭的高精度最新数据。",
+              "pinyin": "Kōngjiān tiānwén tàncè wèixīng zài shēnkōng gāonéng yǔzhòu shèxiàn wùlǐ guāncè zhōng, huòdé le duō xiàng yísì ànwùzhì lìzǐ yānmiè de gāo jīngdù zuìxīn shùjù.",
+              "vietnamese": "Vệ tinh quan sát thiên văn không gian trong quan trắc vật lý tia vũ trụ năng lượng cao không gian sâu đã thu được nhiều dữ liệu mới nhất độ chính xác cao nghi là sự hủy hạt vật chất tối."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "靶向药|ba3 xiang4 yao4",
+      "id": "af809961-e2a9-5b68-a7c8-59a950563c19",
+      "source_content_version": 1,
+      "source_checksum": "652de9e5b635f4e59175b3e02753f8373143e6f26d7852ef07d5eea82d661398",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "0fa226367074f1fd73b69a5a540fc88b7c71ca097cd602b2ed31e58f047e563a",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "靶向药 bǎxiàngyào targeted drug; drug not therapy itself; replace universal response claim with precise research example.",
+      "correction": {
+        "reason": "Drug not therapy; precise nonuniversal example.",
+        "changes": {
+          "english_meanings": [
+            "targeted drug",
+            "molecularly targeted medicine"
+          ],
+          "examples": [
+            {
+              "simplified": "研究人员正在评估这种靶向药对特定肿瘤的作用。",
+              "pinyin": "Yánjiū rényuán zhèngzài pínggū zhè zhǒng bǎxiàngyào duì tèdìng zhǒngliú de zuòyòng.",
+              "vietnamese": "Các nhà nghiên cứu đang đánh giá tác dụng của thuốc điều trị đích này đối với một loại khối u cụ thể."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "半导体|ban4 dao3 ti3",
+      "id": "844f6bba-ef06-5f89-abef-94064d8d963b",
+      "source_content_version": 1,
+      "source_checksum": "6324ef4a78899a248df0ad9072425f789c20fe4da72744fcc5b459210d9fd9e7",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6324ef4a78899a248df0ad9072425f789c20fe4da72744fcc5b459210d9fd9e7",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "半导体 bàndǎotǐ semiconductor; wide-bandgap materials context aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "超级计算机|chao1 ji2 ji4 suan4 ji1",
+      "id": "def5079c-bd95-563d-aee5-13b9d1efdf4c",
+      "source_content_version": 1,
+      "source_checksum": "39be3ed1a944182cee41e7cd8918c268919cdad38fd8144997ccf1e43f145a42",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "39be3ed1a944182cee41e7cd8918c268919cdad38fd8144997ccf1e43f145a42",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "超级计算机 chāojíjìsuànjī supercomputer; exascale 百亿亿 and simulations aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "超导材料|chao1 dao3 cai2 liao4",
+      "id": "09bb744d-a657-5fcb-8cba-d821d852cdb8",
+      "source_content_version": 1,
+      "source_checksum": "576b1561a30474e52539c4e6b4e456472d5e005c739abacccc3827fc89e031da",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "576b1561a30474e52539c4e6b4e456472d5e005c739abacccc3827fc89e031da",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "超导材料 chāodǎocáiliào superconducting material; zero resistance/diamagnetism appropriate properties.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "等离子体|deng3 li2 zi3 ti3",
+      "id": "6369a17f-165d-52b3-a52f-7cb445c67516",
+      "source_content_version": 1,
+      "source_checksum": "0cbbb39ca26f1a03419d56d3a824b95ff5786f998bb9f8b3ae049b30714d895a",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "e9dd137c764d4f84a4dee1a7ff69b7cab771be7ec88588ab78d36368bb051119",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "等离子体 děnglízǐtǐ plasma; 离 lí not lǐ in example.",
+      "correction": {
+        "reason": "离 lí.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "在全超导托卡马克核聚变实验装置中，我国物理学家成功实现了上亿摄氏度超高温长脉冲稳定燃烧的高约束模等离子体运行。",
+              "pinyin": "Zài quán chāodǎo Tuōkǎmǎkè héjùbiàn shíyàn zhuāngzhì zhōng, wǒguó wùlǐxuéjiā chénggōng shíxiàn le shàng yì shèshìdù chāo gāowēn cháng màichōng wěndìng ránshāo de gāo yuēshùmó děnglízǐtǐ yùnxíng.",
+              "vietnamese": "Trong thiết bị thí nghiệm nhiệt hạch toàn siêu dẫn Tokamak, các nhà vật lý nước ta đã thực hiện thành công việc vận hành thể plasma chế độ giam giữ cao đốt cháy ổn định xung dài siêu nhiệt độ cao trên 100 triệu độ C."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "电磁波|dian4 ci2 bo1",
+      "id": "e8b39f90-7b97-594b-8b4a-a010395a5053",
+      "source_content_version": 1,
+      "source_checksum": "078c90b2cfc2414bbe85c6baeb347b6473b6a9f45f99e1442721c0790b1d0df5",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "9e92383786576dc52ca0df7e42b60b2a5f1a374c2f39477a65c38ec8ff288bee",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "电磁波 diàncíbō electromagnetic wave; 解调 jiětiáo not jiějiào.",
+      "correction": {
+        "reason": "解调 jiětiáo.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "现代无线通信网络与对地遥感卫星雷达系统，均基于不同频段电磁波在自由空间的高速传播与调制解调物理规律构建而成。",
+              "pinyin": "Xiàndài wúxiàn tōngxìn wǎngluò yǔ duìdì yáogǎn wèixīng léidá xìtǒng, jūn jīyú bùtóng pínduàn diàncíbō zài zìyóu kōngjiān de gāosù chuánbō yǔ tiáozhì jiětiáo wùlǐ guīlǜ gòujiàn ér chéng.",
+              "vietnamese": "Mạng viễn thông không dây hiện đại và hệ thống radar vệ tinh viễn thám hướng đất đều được xây dựng dựa trên quy luật vật lý điều chế giải điều chế và truyền lan tốc độ cao trong không gian tự do của sóng điện từ ở các dải tần khác nhau."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "分子生物学|fen1 zi3 sheng1 wu4 xue2",
+      "id": "ede129f8-a016-5b36-947f-e082484103af",
+      "source_content_version": 1,
+      "source_checksum": "de3d7ce9f5a5f33fd1a20b8fb677d18c821eaf3f598123be8b7c2f834ecffd86",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "de3d7ce9f5a5f33fd1a20b8fb677d18c821eaf3f598123be8b7c2f834ecffd86",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "分子生物学 fēnzǐshēngwùxué molecular biology; molecular structure/life research aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "基因工程|ji1 yin1 gong1 cheng2",
+      "id": "accc7f63-1969-5a11-a316-b7504fdcefe0",
+      "source_content_version": 1,
+      "source_checksum": "8ff2239a95dfe837675bae2b2335d4e3c501bed3c42c20ca2106c156c75c06ec",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8ff2239a95dfe837675bae2b2335d4e3c501bed3c42c20ca2106c156c75c06ec",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "基因工程 jīyīngōngchéng genetic engineering; crop breeding context aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "核聚变|he2 ju4 bian4",
+      "id": "c47c2197-8114-55da-81fd-f8e18b0c981a",
+      "source_content_version": 1,
+      "source_checksum": "e1d0bfd373d05bbb75603bfccbef3890c5551ad188d4a7873ab224fb28a7b0ac",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e1d0bfd373d05bbb75603bfccbef3890c5551ad188d4a7873ab224fb28a7b0ac",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "核聚变 héjùbiàn fusion; 竭 jié not jié? Source bùjié correct; retain.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "红外光谱|hong2 wai4 guang1 pu3",
+      "id": "afc96393-f1d7-5438-a062-a0f61d855bbf",
+      "source_content_version": 1,
+      "source_checksum": "b5a8afd9dddface4bbf39e9da16a85889889d59504af77bb666732a2186e13a1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b5a8afd9dddface4bbf39e9da16a85889889d59504af77bb666732a2186e13a1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "红外光谱 hóngwàiguāngpǔ infrared spectrum; functional group bond vibrations aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "激光雷达|ji1 guang1 lei2 da2",
+      "id": "54e29aa4-be2f-5f67-8cb5-5028b7512d80",
+      "source_content_version": 1,
+      "source_checksum": "ee7cac0478d50488fdcefba7023b1ddee5822ac6bca970afa257a0a279c81d62",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "f8b9605c97f99f5c901c2420b7bb6857c7aefd65cefa0b28134e841b30aa273a",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "激光雷达 jīguāngléidá LiDAR; 高精度 not 高精密 in pinyin.",
+      "correction": {
+        "reason": "高精度 exact transcription.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "现代高级别无人驾驶智能汽车通过搭载超高线束车载激光雷达，能够实时重构车辆周边三维物理环境的高精度点云地图。",
+              "pinyin": "Xiàndài gāo jíbié wúrén jiàshǐ zhìnéng qìchē tōngguò dāzài chāogāo xiànshù chēzài jīguāng léidá, nénggòu shíshí chónggòu chēliàng zhōubiān sānwéi wùlǐ huánjìng de gāo jīngdù diǎnyún dìtú.",
+              "vietnamese": "Ô tô thông minh tự lái cấp độ cao hiện đại thông qua việc trang bị cảm biến LiDAR radar laser trên xe chùm tia siêu cao có thể tái lập bản đồ đám mây điểm độ chính xác cao của môi trường vật lý ba chiều xung quanh xe trong thời gian thực."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "量子通信|liang4 zi3 tong1 xin4",
+      "id": "c033d6d9-24c3-5fa0-90b9-61086637e5ca",
+      "source_content_version": 1,
+      "source_checksum": "0736b830dfd408275a5c0a5c91c929c2a63c84f96e6fa0e37fd5b01c573ab54b",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "6e104449e96477cf3a38040c596a267c63ab321d7aed6d6e37ad93dadc8e1bb3",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "量子通信 liàngzǐtōngxìn quantum communication; remove physically guaranteed absolute implementation security claim.",
+      "correction": {
+        "reason": "No absolute implementation security guarantee.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "量子通信研究利用量子态传递信息的方法。",
+              "pinyin": "Liàngzǐ tōngxìn yánjiū lìyòng liàngzǐtài chuándì xìnxī de fāngfǎ.",
+              "vietnamese": "Truyền thông lượng tử nghiên cứu phương pháp dùng trạng thái lượng tử để truyền thông tin."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "纳米材料|na4 mi3 cai2 liao4",
+      "id": "6aec0838-158e-50e2-b15e-ad721cbad61b",
+      "source_content_version": 1,
+      "source_checksum": "63fc756bf23007c9e7d2f521f7a3db1eb716fe81e9a63ce32dd7ee632a971ec7",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "63fc756bf23007c9e7d2f521f7a3db1eb716fe81e9a63ce32dd7ee632a971ec7",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "纳米材料 nàmǐcáiliào nanomaterial; surface area/catalysis aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "脑机接口|nao3 ji1 jie1 kou3",
+      "id": "a14a3ef7-6125-593b-943e-d67c0fcf9341",
+      "source_content_version": 1,
+      "source_checksum": "5f38c1cbd7979cd24010dfaaa5333e9cd46fe773ffe909479c7c9ead3079412d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5f38c1cbd7979cd24010dfaaa5333e9cd46fe773ffe909479c7c9ead3079412d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "脑机接口 nǎojījiēkǒu brain-computer interface; motor intention robotic control example coherent.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "逆向工程|ni4 xiang4 gong1 cheng2",
+      "id": "da58e1af-62c5-52ef-956b-55940cff0327",
+      "source_content_version": 1,
+      "source_checksum": "f3dbf760cd52ab30e867f0cf3e584c5edb1e1d2f936618e59073e74e4de5249f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f3dbf760cd52ab30e867f0cf3e584c5edb1e1d2f936618e59073e74e4de5249f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "逆向工程 nìxiànggōngchéng reverse engineering; structure/algorithm analysis aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "人工心脏|ren2 gong1 xin1 zang4",
+      "id": "5f2f69cf-ae57-5b5b-b46d-aaf54dd092d8",
+      "source_content_version": 1,
+      "source_checksum": "6f4af24a79b00c827432b141b304d63d04e794c9ad0afe83205f71a9c3446a80",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6f4af24a79b00c827432b141b304d63d04e794c9ad0afe83205f71a9c3446a80",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "人工心脏 réngōngxīnzàng artificial heart; circulatory support narrative aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "神经元|shen2 jing1 yuan2",
+      "id": "b42657d3-7e5f-5a6e-bcdd-e1421f44e268",
+      "source_content_version": 1,
+      "source_checksum": "fe643468d3cfaa44af5c502207fb09033f5cd95b757f99c3fa03bd36385155aa",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "fe643468d3cfaa44af5c502207fb09033f5cd95b757f99c3fa03bd36385155aa",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "神经元 shénjīngyuán neuron; chemical synapse signaling appropriate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "深空探测|shen1 kong1 tan4 ce4",
+      "id": "e9d6b11a-ac70-58a0-b833-da761093793b",
+      "source_content_version": 1,
+      "source_checksum": "153bed55410ce5a122d76368be60c5fd6710bf201bcbc25de85fd4fb8ddf222b",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "89039b778fc92bec13a3953635ae961d9e6919081f6f8d4addb1582a37167c60",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "深空探测 shēnkōngtàncè deep space exploration; 返回 fǎnhuí not huíhuán.",
+      "correction": {
+        "reason": "返回 fǎnhuí.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "国家重大航天工程任务全面推进月球科研站与火星取样返回规划，将我国空间科学前沿视野拓展至更遥远辽阔的太阳系深空探测领域。",
+              "pinyin": "Guójiā zhòngdà hángtiān gōngchéng rènwu quánmiàn tuījìn yuèqiú kēyánzhàn yǔ huǒxīng qǔyàng fǎnhuí guīhuà, jiāng wǒguó kōngjiān kēxué qiányán shìyě tuòzhǎn zhì gèng yáoyuǎn liáokuò de tàiyángxì shēnkōng tàncè lǐngyù.",
+              "vietnamese": "Nhiệm vụ công trình hàng không vũ trụ trọng đại quốc gia thúc đẩy toàn diện quy hoạch trạm nghiên cứu khoa học mặt trăng và lấy mẫu sao hỏa trở về, mở rộng tầm nhìn tiền phong khoa học không gian nước ta tới lĩnh vực thám hiểm không gian sâu thám trắc vũ trụ xa của hệ mặt trời xa xôi bao la hơn."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "生物反应器|sheng1 wu4 fan3 ying4 qi4",
+      "id": "7516be02-a676-56ba-9ed1-f660628fd69a",
+      "source_content_version": 1,
+      "source_checksum": "5fd14e485eafcb6e5c1dabaa91191a5d73e806e448a24d52c7f858dc8181a8d1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5fd14e485eafcb6e5c1dabaa91191a5d73e806e448a24d52c7f858dc8181a8d1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "生物反应器 shēngwùfǎnyìngqì bioreactor; recombinant protein manufacture aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "石墨烯|shi2 mo4 xi1",
+      "id": "980ed646-ff53-591e-8d60-11f6a66359db",
+      "source_content_version": 1,
+      "source_checksum": "dde601d8169b6257b0d2cf8919d754dc887928d3c461d20b2a1030aab091e2d8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dde601d8169b6257b0d2cf8919d754dc887928d3c461d20b2a1030aab091e2d8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "石墨烯 shímòxī graphene; carbon single layer/honeycomb aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "太阳能电池|tai4 yang2 neng2 dian4 chi2",
+      "id": "95b5f75d-abfd-5eac-b60c-dea634359e39",
+      "source_content_version": 1,
+      "source_checksum": "880dc607264af412edb978097939f2d2eec0dfaf2bfa6169f8b7658afe56d8ac",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "d8a5e9e388a1a39c05a4922cc4a59d2608493533e717d43d46fb6a92ab58a120",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "太阳能电池 tàiyángnéngdiànchí solar cell; 钙 gài not gǎi.",
+      "correction": {
+        "reason": "钙 gài.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "科研团队研发的钙钛矿与晶硅叠层新型高效太阳能电池，成功在全光谱吸收利用中突破了百分之三十三的光电转换能量极限效率。",
+              "pinyin": "Kēyán tuánduì yánfā de gàitài kuàng yǔ jīngguī diécéng xīnxíng gāoxiào tàiyángnéng diànchí, chénggōng zài quán guāngpǔ xīshōu lìyòng zhōng tūpò le bǎifēnzhī sānshísān de guāngdiàn zhuǎnhuàn néngliàng jíxiàn xiàolǜ.",
+              "vietnamese": "Pin năng lượng mặt trời pin mặt trời hiệu suất cao kiểu mới xếp lớp perovskite và silicon tinh thể do đội ngũ nghiên cứu phát triển đã vượt qua hiệu suất giới hạn chuyển hóa quang điện 33% trong việc hấp thụ sử dụng toàn quang phổ thành công."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "碳纤维|tan4 xian1 wei2",
+      "id": "caa7fa5f-8093-5aca-82bc-fd1c5ae02f13",
+      "source_content_version": 1,
+      "source_checksum": "5012564b19ebe1847c8da8f81b149cd6af330b06d552f846b2541a8c66c7b084",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "50dc00f259569454c1d2aac5ad010ede183a9ab320417da28cf339e09430e61d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "碳纤维 tànxiānwéi carbon fiber; 模量 móliàng missing tone repaired; modulus not electrical module in Vietnamese.",
+      "correction": {
+        "reason": "Modulus tone and terminology.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "这种超高模量航空级新型复合碳纤维材料兼具极轻质量与高抗冲击损伤韧性，被广泛大量应用于新一代大客机机体主结构制造工程中。",
+              "pinyin": "Zhè zhǒng chāogāo móliàng hángkōngjí xīnxíng fùhé tànxiānwéi cáiliào jiānjù jí qīng zhìliàng yǔ gāo kàngchōngjī sǔnshāng rènxìng, bèi guǎngfàn dàliàng yìngyòng yú xīn yídài dà kèjī jītǐ zhǔ jiégòu zhìzào gōngchéng zhōng.",
+              "vietnamese": "Loại vật liệu sợi carbon composite kiểu mới cấp hàng không mô đun đàn hồi siêu cao này vừa có khối lượng cực nhẹ vừa có độ dẻo dai chống chịu va đập tổn thương cao, được ứng dụng rộng rãi và lượng lớn trong công trình chế tạo kết cấu chính thân máy bay chở khách cỡ lớn thế hệ mới."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "外骨骼|wai4 gu3 ge2",
+      "id": "0d93fd0d-392d-5021-8c67-5f07b7472d4d",
+      "source_content_version": 1,
+      "source_checksum": "bf22a54989eb9f5252b0747a3b2ca7c8f2dc70d9dfff3d3f16512abb68d98547",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "0174d14fab39f51863c31fd711f37a480857abdbb5c585cbd3e4a56109a062fe",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "外骨骼 wàigǔgé exoskeleton; duplicate robot in Vietnamese repaired.",
+      "correction": {
+        "reason": "Remove Vietnamese duplicate robot.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "穿戴式动力康复智能外骨骼机器人通过精密关节电机与肌电信号智能解码算法，辅助下肢运动功能受损病患开展高效步态康复训练。",
+              "pinyin": "Chuāndàishì dònglì kāngfù zhìnéng wàigǔgé jīqìrén tōngguò jīngmì guānjié diànjī yǔ jīdiàn xìnhào zhìnéng jiěmǎ suànfǎ, fùzhù xiàzhī yùndòng gōngnéng shòusǔn bìnghuàn kāizhǎn gāoxiào bùtài kāngfù xùnliàn.",
+              "vietnamese": "Robot khung xương ngoài trợ lực thông minh phục hồi chức năng vận lực đeo trên người thông qua thuật toán giải mã thông minh tín hiệu cơ điện và động cơ khớp chính xác hỗ trợ bệnh nhân bị tổn thương chức năng vận động chi dưới triển khai huấn luyện dáng đi phục hồi chức năng hiệu quả cao."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "微纳制造|wei1 na4 zhi4 zao4",
+      "id": "659650d7-c50b-54f3-ba88-8123a757b1fd",
+      "source_content_version": 1,
+      "source_checksum": "13d9c7349554a386dc81b9d82dc58e6dbc5d7579ba996279360e55645040cc70",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "13d9c7349554a386dc81b9d82dc58e6dbc5d7579ba996279360e55645040cc70",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "微纳制造 wēinàzhìzào micro/nano manufacture; MEMS lithography/etching aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "无线充电|wu2 xian4 chong1 dian4",
+      "id": "f10e526e-f670-5594-a5c7-e9645eb58b45",
+      "source_content_version": 1,
+      "source_checksum": "bda3776e59c03f3dd3fcbd81c74237398014fe9343d4e71644d1f57963210c2c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "bda3776e59c03f3dd3fcbd81c74237398014fe9343d4e71644d1f57963210c2c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "无线充电 wúxiànchōngdiàn wireless charging; resonant coupling appropriate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "云计算|yun2 ji4 suan4",
+      "id": "156ad23c-9026-50b2-8c83-7628e6511332",
+      "source_content_version": 1,
+      "source_checksum": "014af4d9a812ec8033e60e76227da2d0696218a26f45033e3502558796c5a925",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "41ab6c49c29c82c61d47922aebf79331192bde5bddc1955ca7918ee90063038b",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "云计算 yúnjìsuàn cloud computing; dangling 依托 subject repaired.",
+      "correction": {
+        "reason": "Restore grammatical subject.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "云计算平台为企业提供可按需扩展的计算资源。",
+              "pinyin": "Yúnjìsuàn píngtái wèi qǐyè tígōng kě ànxū kuòzhǎn de jìsuàn zīyuán.",
+              "vietnamese": "Nền tảng điện toán đám mây cung cấp cho doanh nghiệp tài nguyên tính toán có thể mở rộng theo nhu cầu."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "载人航天|zai4 ren2 hang2 tian1",
+      "id": "202d74c6-b519-5a38-b98d-a980c36bb2ef",
+      "source_content_version": 1,
+      "source_checksum": "72db13a43eea9b7f606f018210e39d03b17657f4d82a961763cb61e1b044b931",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "72db13a43eea9b7f606f018210e39d03b17657f4d82a961763cb61e1b044b931",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "载人航天 zàirénhángtiān crewed spaceflight; space laboratory narrative aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "质子治疗|zhi3 zi3 zhi4 liao2",
+      "id": "eed52d35-8cd0-58d7-8b8a-2a94a0dad5cc",
+      "source_content_version": 1,
+      "source_checksum": "59dd141dfd8203c648130511fb88bf4523be4a6e4522bcf442d9be974e0fc0c9",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "9b6a91c0c7f5080962be9054f7a123bafdd8656a9ee5f4e10dc5452f6f850fb4",
+      "linguistic_outcome": "UNCERTAIN",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "质子治疗 requires zhìzǐzhìliáo; stable key zhi3 incorrect. Hold identity; replace false nanoscale targeted explosion claim with proton beam irradiation.",
+      "correction": {
+        "reason": "Proton beam irradiation not nanoscale explosion; identity still held.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "质子治疗使用质子束照射肿瘤。",
+              "pinyin": "Zhìzǐ zhìliáo shǐyòng zhìzǐshù zhàoshè zhǒngliú.",
+              "vietnamese": "Xạ trị proton sử dụng chùm hạt proton để chiếu xạ khối u."
+            }
+          ]
+        }
+      },
+      "pending_reason": "Incorrect stable pronunciation identity 质子治疗|zhi3 zi3 zhi4 liao2: 质 must zhi4 (zhì). Example corrected and rechecked, but lexical key cannot be silently renamed. Excluded pending explicit identity resolution.",
+      "local_development_candidate": false,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "重力波|zhong4 li4 bo1",
+      "id": "6f3a578d-d492-5911-b424-4517dec2e555",
+      "source_content_version": 1,
+      "source_checksum": "8013954ea867c9bd9ac871d2ab233286dc24606a93fd24d83ad847c8faba06fa",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "92b8a521dc8cdcc915d50fe1f7f74c5e4ec6425395c1a769b0522b06d7ead5ef",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "重力波 zhònglìbō gravitational wave attested Taiwan usage (Academia Sinica); clarify regional sense and replace malformed binary-black-hole/detector claim.",
+      "correction": {
+        "reason": "Attested regional terminology clearly labeled.",
+        "changes": {
+          "vietnamese_meanings": [
+            "sóng hấp dẫn (cách gọi trong thiên văn học Đài Loan)"
+          ],
+          "english_meanings": [
+            "gravitational wave (Taiwan astronomical terminology)"
+          ],
+          "examples": [
+            {
+              "simplified": "在台湾的天文学文献中，引力波也称为重力波。",
+              "pinyin": "Zài Táiwān de tiānwénxué wénxiàn zhōng, yǐnlìbō yě chēngwéi zhònglìbō.",
+              "vietnamese": "Trong tài liệu thiên văn học Đài Loan, sóng hấp dẫn (引力波) cũng được gọi là 重力波."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "合成生物学|he2 cheng2 sheng1 wu4 xue2",
+      "id": "95ca5b9d-2dd5-5c34-8685-a86f11bfb7d7",
+      "source_content_version": 1,
+      "source_checksum": "8881f6ef25d2172f9779c755fa2c17ea809cd1eedaaacd7fff055f58556bebc5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8881f6ef25d2172f9779c755fa2c17ea809cd1eedaaacd7fff055f58556bebc5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "合成生物学 héchéngshēngwùxué synthetic biology; designed genetic circuits appropriate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "低温超导|di1 wen1 chao1 dao3",
+      "id": "3cde3c43-be7f-56ea-9958-d0c14b357be7",
+      "source_content_version": 1,
+      "source_checksum": "dab3c5271abdb011a0c116a3714059933ca9890d54229b04618e57aca055afef",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "dab3c5271abdb011a0c116a3714059933ca9890d54229b04618e57aca055afef",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "低温超导 dīwēnchāodǎo low-temperature superconductivity; liquid helium coils aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "单克隆抗体|dan1 ke4 long2 kang4 ti3",
+      "id": "26410c90-3944-5ac9-b481-e0dd63fec532",
+      "source_content_version": 1,
+      "source_checksum": "e2f0132a4a30b3328f1ce04da71e331ce04dd0d956c47b83e5c873e5c75e1f70",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "175c3a9903ae01e8d0ce3033e89ecff7f8981ee32f5b07274da1ea280e677e4a",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "单克隆抗体 dānkèlóngkàngtǐ monoclonal antibody; malignant autoimmune/express-after-purify wording repaired.",
+      "correction": {
+        "reason": "Remove malignant autoimmune classification and reversed manufacturing verbs.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "研究团队正在开发针对特定蛋白质的单克隆抗体。",
+              "pinyin": "Yánjiū tuánduì zhèngzài kāifā zhēnduì tèdìng dànbáizhì de dānkèlóng kàngtǐ.",
+              "vietnamese": "Nhóm nghiên cứu đang phát triển kháng thể đơn dòng nhắm vào một protein cụ thể."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "粒子物理|li4 zi3 wu4 li3",
+      "id": "7ef8ee7f-9b64-53bd-a52c-671106e13112",
+      "source_content_version": 1,
+      "source_checksum": "6bf5623cd38c111f9c57d28b936a50b79b3787eea1c2202b0022360a1bf38701",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "ccae572ce75a06de5e8082da11e8f0dbebab0e94f2373fcc4d8e28537c61290c",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "粒子物理 lìzǐwùlǐ particle physics; lạp tử not lập tử.",
+      "correction": {
+        "reason": "粒 lạp.",
+        "changes": {
+          "sino_vietnamese": "lạp tử vật lý"
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "热力学|re4 li4 xue2",
+      "id": "f64ae21d-5977-5843-9aea-ca79559cd1d0",
+      "source_content_version": 1,
+      "source_checksum": "bf817cd5d0758f8a184b489b64710e8c6315e9abd51d5f8a019b1bc5452e6b25",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "bf817cd5d0758f8a184b489b64710e8c6315e9abd51d5f8a019b1bc5452e6b25",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "热力学 rèlìxué thermodynamics; isolated-system entropy example aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "拓扑绝缘体|tuo4 pu1 jue2 yuan2 ti3",
+      "id": "79e4a0e9-7d13-53b7-ac38-255951460b9b",
+      "source_content_version": 1,
+      "source_checksum": "3df143578af0e723345419fc1874e72fd07015750c33aee51191676567c75782",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "5cffef021e90a3b3bd721776326ad3aee02ac3335e3c89240697f8a0c3dc1146",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "拓扑绝缘体 tuòpūjuéyuántǐ topological insulator; clarify bulk insulation/surface conduction rather than universally dissipationless current.",
+      "correction": {
+        "reason": "Basic property without overgeneralizing dissipationless spin current.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "拓扑绝缘体的内部绝缘，而表面可以导电。",
+              "pinyin": "Tuòpū juéyuántǐ de nèibù juéyuán, ér biǎomiàn kěyǐ dǎodiàn.",
+              "vietnamese": "Bên trong chất cách điện tô-pô có tính cách điện, còn bề mặt có thể dẫn điện."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "微流控|wei1 liu2 kong4",
+      "id": "42f368d8-1ff9-5248-a0ac-119bb3e9d5d2",
+      "source_content_version": 1,
+      "source_checksum": "cc2f75ce8582011704bdfccadb23a73180bea68fff5b07ff1e238b39b6f1f5b3",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "3d6c8ece4a4cc34725b467282a832ed1a0ee7912c82f20288a70e79c0521662d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "微流控 wēiliúkòng microfluidics; 指甲盖 zhǐjiǎgài and 皮升 píshēng corrected.",
+      "correction": {
+        "reason": "甲 jiǎ and pico 皮 pí.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "集成在指甲盖大小芯片基底上的微流控生物化学分析系统，能够精准操控微升乃至皮升级超微量液滴完成全自动快速病原体核酸分子检测。",
+              "pinyin": "Jíchéng zài zhǐjiǎgài dàxiǎo xīnpiàn jīdǐ shang de wēiliúkòng shēngwù-huàxué fēnxī xìtǒng, nénggòu jīngzhǔn cāokòng wēishēng nǎizhì píshēngjí chāowēiliàng yèdī wánchéng quán-zìdòng kuàisù bìngyuántǐ hésuān fēnzǐ jiǎncè.",
+              "vietnamese": "Hệ thống phân tích hóa sinh vi lưu chất công nghệ vi lưu tích hợp trên đế chip kích thước bằng móng tay có thể thao tác chuẩn xác các giọt chất lỏng siêu vi lượng cỡ microlit thậm chí picolit để hoàn thành xét nghiệm phân tử axit nucleic mầm bệnh nhanh chóng hoàn toàn tự động."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "光伏发电|guang1 fu2 fa1 dian4",
+      "id": "875d4f9f-c184-5804-901c-193e5570b60d",
+      "source_content_version": 1,
+      "source_checksum": "7264de6f2d3650f3fc15b8bf3419d6cde06e4ff9536cba891538902bca8911d0",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "97977b17a9af85b478b953abdaa496324b176e4dd6784431f9d35e279cfe7b11",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "光伏发电 guāngfúfādiàn photovoltaic generation; transmission of 度 electricity in kWh Vietnamese.",
+      "correction": {
+        "reason": "度 electrical unit kWh.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "我国在戈壁沙漠荒原大面积规划建设的国家级大型风电光伏发电基地，源源不断向中东部用电负荷中心输送着数以亿度计的绿色清洁零碳电能。",
+              "pinyin": "Wǒguó zài gēbì shāmò huāngyuán dà miànjī guīhuà jiànshè de guójiājí dàxíng fēngdiàn guāngfú fādiàn jīdì, yuányuán-bùduàn xiàng zhōng-dōngbù yòngdiàn fùhè zhōngxīn shūsòng zhe shù yǐ yì dù jì de lǜsè qīngjié língtàn diànnéng.",
+              "vietnamese": "Căn cứ phát điện quang điện điện mặt trời và điện gió quy mô lớn cấp quốc gia được quy hoạch xây dựng diện tích lớn trên hoang mạc sa mạc Gobi nước ta liên tục không ngừng truyền tải hàng trăm triệu kWh điện năng không carbon sạch xanh tới các trung tâm phụ tải điện miền Trung và miền Đông."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "量子比特|liang4 zi3 bi3 te4",
+      "id": "9c3069b2-21ba-52aa-b4a6-d416744b5dd7",
+      "source_content_version": 1,
+      "source_checksum": "ed49a6339362fb9b6c077ce2ab8998784ea25144ac493979c37773396c29c5c6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ed49a6339362fb9b6c077ce2ab8998784ea25144ac493979c37773396c29c5c6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "量子比特 liàngzǐbǐtè qubit; superconducting entanglement manipulation aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "数字孪生|shu4 zi4 luan2 sheng1",
+      "id": "14291bb2-edd8-591b-a65d-ce01bd3fc321",
+      "source_content_version": 1,
+      "source_checksum": "ffbe5b5ccc9cfbd77ff4adfa26d227fc0d1d2811195b8817b8778c2f4264f021",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "e3134109e22a820c3b799f04e2cab204dd7433695eb5f1742bb0ce245206d8c9",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "数字孪生 shùzìluánshēng digital twin; 流域 liúyù and 高精度 corrected.",
+      "correction": {
+        "reason": "流域 and 高精度 exact syllables.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "在特大型跨流域调水水利枢纽工程中，水利工程团队构建了高精度物理水工模型与数字孪生智能虚拟仿真推演平台，实现汛期智能安全精准调度。",
+              "pinyin": "Zài tèdàxíng kuàliúyù diàoshuǐ shuǐlì shūniǔ gōngchéng zhōng, shuǐlì gōngchéng tuánduì gòujiàn le gāo jīngdù wùlǐ shuǐgōng móxíng yǔ shùzì luánshēng zhìnéng xūnǐ fǎngzhēn tuīyǎn píngtái, shíxiàn xùnqī zhìnéng ānquán jīngzhǔn diàodù.",
+              "vietnamese": "Trong công trình đầu mối thủy lợi điều tiết nước liên lưu vực đặc biệt lớn, đội ngũ công trình thủy lợi đã xây dựng nền tảng diễn tập mô phỏng ảo thông minh bản sao số bản sao kỹ thuật số và mô hình công trình thủy lực vật lý độ chính xác cao, thực hiện điều độ chính xác an toàn thông minh trong mùa lũ."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "生物信息学|sheng1 wu4 xin1 xi1 xue2",
+      "id": "2b9b294f-8e8a-5ea2-86c7-f982c3f83d9e",
+      "source_content_version": 1,
+      "source_checksum": "0c9f4042b1c6957cc18068dd45d1e4d88a4899c4481b8963fd7aa34dd15f7aa1",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "263dfea99f4eb5d55c14d34223b882983c6e404d288d768db26db92fb68324be",
+      "linguistic_outcome": "UNCERTAIN",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "生物信息学 requires shēngwùxìnxīxué; immutable key xin1 should xin4. Hold identity; example already xìn correct.",
+      "correction": null,
+      "pending_reason": "Incorrect stable pronunciation identity 生物信息学|sheng1 wu4 xin1 xi1 xue2: 信 must xin4 (xìn), already correct in example. Preserve immutable key and hold pending explicit identity resolution.",
+      "local_development_candidate": false,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "干细胞|gan4 xi4 bao1",
+      "id": "e88e3f05-d1fd-5b6f-a50e-cfe8ee423c4c",
+      "source_content_version": 1,
+      "source_checksum": "8c68102fa0ce6edb086c97b0d6f062885219730b2cd2e257969cf1daa28a8ac6",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "390494dfaeb0a47d03bf1a8f7194ef230a09d169c0ac05b4906c56683c70c5a1",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "干细胞 gànxìbāo stem cell; induced pluripotent not totipotent, Vietnamese refined.",
+      "correction": {
+        "reason": "Pluripotent đa năng rather than totipotent vạn năng.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "利用现代诱导多能干细胞定向分化体外培育技术，再生医学科学家成功在实验室内精准培育出了具备自主搏动生理功能的微型三维人类心脏类器官组织。",
+              "pinyin": "Lìyòng xiàndài yòudǎo duōnéng gànxìbāo dìngxiàng fēnhuà tǐwài péiyù jìshù, zàishēng yīxué kēxuéjiā chénggōng zài shíyànshì nèi jīngzhǔn péiyù chū le jùbèi zìzhǔ bódòng shēnglǐ gōngnéng de wēixíng sānwéi rénlèi xīnzàng lèiqìguān zǔzhī.",
+              "vietnamese": "Tận dụng công nghệ nuôi cấy ngoài cơ thể biệt hóa định hướng tế bào gốc đa năng cảm ứng hiện đại, các nhà khoa học y học tái tạo đã nuôi cấy chuẩn xác thành công tổ chức cơ quan tương tự tim người ba chiều siêu nhỏ có chức năng sinh lý đập tự chủ trong phòng thí nghiệm."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "深海潜器|shen1 hai3 qian2 qi4",
+      "id": "8407a3ef-a70c-5659-91fc-5a635d390cb5",
+      "source_content_version": 1,
+      "source_checksum": "2a25d613f7d1c6484ffbe64d41801a7dfb343daa3dd9318d7f423fb925ab695e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2a25d613f7d1c6484ffbe64d41801a7dfb343daa3dd9318d7f423fb925ab695e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "深海潜器 shēnhǎiqiánqì deep submersible; sample collection aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "超燃冲压|chao1 ran2 chong1 ya1",
+      "id": "ebfaa558-791b-5fde-bffa-5d24d9abba19",
+      "source_content_version": 1,
+      "source_checksum": "2e26af735b96015301cd8e95570c46d3566e0b9253f572511000834cc6d23a3b",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "6cce554cd720e73b8e9fb9c38860a512f005a1b2d8ce30af0e179a0bd4fa568d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "超燃冲压 chāoránchōngyā scramjet propulsion; 难题 nántí correct.",
+      "correction": {
+        "reason": "难题 tí.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "在高超音速前沿航空推进技术自主攻关中，我国科研团队攻克了超燃冲压发动机内部超高速气流超声速稳定高效点火燃烧的世界级工程物理难题。",
+              "pinyin": "Zài gāochāoyīnsù qiányán hángkōng tuījìn jìshù zìzhǔ gōngguān zhōng, wǒguó kēyán tuánduì gōngkè le chāorán chōngyā fādòngjī nèibù chāogāosù qìliú chāoshēngsù wěndìng gāoxiào diǎnhuǒ ránshāo de shìjièjí gōngchéng wùlǐ nántí.",
+              "vietnamese": "Trong việc tự chủ đột phá công nghệ đẩy hàng không tiền phong siêu vượt âm, đội ngũ nghiên cứu nước ta đã khắc phục bài toán vật lý công trình tầm thế giới về điểm hỏa đốt cháy hiệu quả cao ổn định siêu âm của dòng khí siêu tốc bên trong động cơ phản lực dòng khí siêu âm siêu âm scramjet."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "自适应控制|zi4 shi4 ying4 kong4 zhi4",
+      "id": "11591c7b-b804-564a-b26e-4b887cc8a9b3",
+      "source_content_version": 1,
+      "source_checksum": "109fa2bc10acac7d2f5a5ce5ab3072d978a7932a1dda9fda0ed3580beebcbfd1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "109fa2bc10acac7d2f5a5ce5ab3072d978a7932a1dda9fda0ed3580beebcbfd1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "自适应控制 zìshìyìngkòngzhì adaptive control; autonomous landing response coherent.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "机器学习|ji1 qi4 xue2 xi2",
+      "id": "dd4c8301-92db-544d-8caa-7996a9d5f002",
+      "source_content_version": 1,
+      "source_checksum": "50e794caabbaede74d50bb2d09b97f0a5887f41bb46b72dfa9e8b1c0f17f1105",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "82220a0ab7a34540ebfb029f379ac11ea97655250641e808b39fa0c813b01511",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "机器学习 jīqìxuéxí machine learning; 高质量 exact pinyin corrected.",
+      "correction": {
+        "reason": "高质量 exact transcription.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "依托深度神经网络与海量高质量专业临床医学影像数据库，现代机器学习辅助诊断模型在早期肺癌微小结节智能筛查准确率上达到了资深专家水准。",
+              "pinyin": "Yītuō shēndù shénjīng wǎngluò yǔ hǎiliàng gāo zhìliàng zhuānyè línchuáng yīxué yǐngxiàng shùjùkù, xiàndài jīqì xuéxí fùzhù zhěnduàn móxíng zài zǎoqī fèi'ái wēixiǎo jiéjié zhìnéng shāichá zhǔnquèlǜ shang dádào le zīshēn zhuānjiā shuǐzhǔn.",
+              "vietnamese": "Dựa vào cơ sở dữ liệu hình ảnh y học lâm sàng chuyên nghiệp chất lượng cao khổng lồ và mạng thần kinh sâu, mô hình chẩn đoán hỗ trợ học máy hiện đại về độ chính xác sàng lọc thông minh nốt nhỏ ung thư phổi thời kỳ đầu đã đạt tới trình độ chuyên gia thâm niên."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "工业互联网|gong1 ye4 hu4 lian2 wang3",
+      "id": "002b671f-cec9-5a2e-a8fa-40889b643fcc",
+      "source_content_version": 1,
+      "source_checksum": "f5a2f9659b35c6d35c50dba5679025f60b6dc9417ad1b0bf0edec516ed2a921d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f5a2f9659b35c6d35c50dba5679025f60b6dc9417ad1b0bf0edec516ed2a921d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "工业互联网 gōngyèhùliánwǎng industrial internet; networked manufacturing appropriate.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "固态电池|gu4 tai4 dian4 chi2",
+      "id": "03ae040c-b7f8-5a53-acca-6c09fe3fbf95",
+      "source_content_version": 1,
+      "source_checksum": "a46f508e7745d7ba9037c33435f674259ffd7031b4b29aed5a5f48df6324c024",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "030643992012df67b19d9105cf1a9603e3ed50b4139f699f25a7576f6c2c5970",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "固态电池 gùtàidiànchí solid-state battery; 电解质 diànjiězhì not diànjiězì.",
+      "correction": {
+        "reason": "质 zhì.",
+        "changes": {
+          "examples": [
+            {
+              "simplified": "采用全固态不燃无机电解质替代传统易燃有机液态电解液的新型高能量密度全固态电池，被公认为突破现代新能源动力汽车安全性能的核心关键。",
+              "pinyin": "Cǎiyòng quán gùtài bùrán wújī diànjiězhì tìdài chuántǒng yìrán yǒujī yètài diànjiěyè de xīnxíng gāo néngliàng mìdù quán gùtài diànchí, bèi gōngrèn wéi tūpò xiàndài xīnnéngyuán dònglì qìchē ānquán xìngnéng de héxīn guānjiàn.",
+              "vietnamese": "Pin thể rắn ắc quy thể rắn hoàn toàn mật độ năng lượng cao kiểu mới áp dụng chất điện phân vô cơ không cháy hoàn toàn thể rắn thay thế dung dịch điện phân dạng lỏng hữu cơ dễ cháy truyền thống được thừa nhận chung là then chốt cốt lõi tạo đột phá cho tính năng an toàn của xe động lực năng lượng mới hiện đại."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "空间站|kong1 jian1 zhan4",
+      "id": "d0019b3c-d0c0-5025-9440-ffac79c90dd3",
+      "source_content_version": 1,
+      "source_checksum": "333b0f568b71f171ad6ab715af2e00b30e529dd3a93179e2829288c5bc0b99a3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "333b0f568b71f171ad6ab715af2e00b30e529dd3a93179e2829288c5bc0b99a3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "空间站 kōngjiānzhàn space station; orbital experiments context aligned.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    },
+    {
+      "lexical_key": "智能驾驶|zhi4 neng2 jia4 shi3",
+      "id": "ef3aa4c0-174a-5c68-9882-1f4a49d0abd5",
+      "source_content_version": 1,
+      "source_checksum": "a51a61b61917ec854b685e925a045890df39a13d1db8407ac0a8824398ac3eb8",
+      "reviewed_content_version": 2,
+      "reviewed_checksum": "0d0b50dcc4a056970e04b45b8bdfda3e7dad52569236fd9e14d9d7fbad4c441d",
+      "linguistic_outcome": "CORRECTED_PASS",
+      "checked_aspects": [
+        "simplified_spelling",
+        "mandarin_pinyin_tones",
+        "vietnamese_meanings",
+        "sino_vietnamese",
+        "part_of_speech",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "duplicates_readings_ambiguity"
+      ],
+      "note": "智能驾驶 zhìnéngjiàshǐ intelligent driving; distinguish assistance from unconditional autonomy in every scenario, repair example/gloss. Stable keys retained.",
+      "correction": {
+        "reason": "Intelligent assistance not blanket all-scenario autonomy.",
+        "changes": {
+          "vietnamese_meanings": [
+            "lái xe thông minh",
+            "công nghệ hỗ trợ lái xe thông minh"
+          ],
+          "english_meanings": [
+            "intelligent driving",
+            "intelligent driving assistance"
+          ],
+          "examples": [
+            {
+              "simplified": "智能驾驶系统利用多种传感器感知车辆周围的环境。",
+              "pinyin": "Zhìnéng jiàshǐ xìtǒng lìyòng duō zhǒng chuángǎnqì gǎnzhī chēliàng zhōuwéi de huánjìng.",
+              "vietnamese": "Hệ thống lái xe thông minh sử dụng nhiều loại cảm biến để nhận biết môi trường xung quanh xe."
+            }
+          ]
+        }
+      },
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "approval_contract_blockers": [
+        "Exact session reviewer model snapshot/version not exposed",
+        "No numeric confidence supplied; threshold cannot be truthfully asserted",
+        "Generator identity remains an unverified historical claim"
+      ],
+      "evidence_limitations": [
+        "Session notes have no separate provider response receipt; the offline schema does not itself require such a receipt"
+      ]
+    }
+  ]
+}

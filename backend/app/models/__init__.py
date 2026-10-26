@@ -7,6 +7,15 @@ from app.models.content import (
     LessonTemplateVersion,
     LessonVersion,
 )
+from app.models.curated_vocabulary import (  # noqa: F401
+    CuratedBatch,
+    CuratedUserVocabulary,
+    CuratedVocabulary,
+    VocabularyExample,
+    VocabularyMeaning,
+    VocabularyReviewSubmission,
+    VocabularyRevision,
+)
 from app.models.dictionary import (
     DictionaryCharacterEnrichment,
     DictionaryEnrichmentImport,
@@ -24,6 +33,7 @@ from app.models.learning import (
     Vocabulary,
     VocabularyCharacter,
 )
+from app.models.personal_vocabulary import PersonalVocabularyEntry
 from app.models.session import (
     AuthSession,
     LessonRun,
@@ -48,6 +58,7 @@ __all__ = [
     "LessonVersion",
     "LessonVocabulary",
     "PasswordCredential",
+    "PersonalVocabularyEntry",
     "RefreshCredential",
     "SceneCheckpoint",
     "SrsState",

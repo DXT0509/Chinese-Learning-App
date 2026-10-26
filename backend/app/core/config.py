@@ -2,7 +2,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import field_validator
+from pydantic import field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 from sqlalchemy.engine import make_url
 
@@ -19,7 +19,15 @@ class Settings(BaseSettings):
     cors_origins: list[str] = []
     google_web_client_id: str | None = None
     allow_content_preview: bool = False
+    allow_ai_approved_vocabulary: bool = False
+    allow_local_codex_reviewed_vocabulary: bool = False
     content_storage_dir: Path = Path(__file__).resolve().parents[2] / ".content-storage"
+
+    @model_validator(mode="after")
+    def local_review_is_development_only(self):
+        if self.allow_local_codex_reviewed_vocabulary and self.environment != "development":
+            raise ValueError("Local Codex review is restricted to development")
+        return self
 
     @field_validator("database_url")
     @classmethod

@@ -1,0 +1,60 @@
+{
+  "coverage": {
+    "policy": "local-codex-session-v1",
+    "reviewed": 322,
+    "accepted": 322,
+    "unreviewed": 0,
+    "excluded": [],
+    "receipts": [
+      {
+        "batch": "L0-B001",
+        "notes_sha256": "5b0aaad09ca65618bdff4e003019e8af941f990bbd2580596dccf43feb7b3039",
+        "data_sha256": "ef2444b8c698747c7e34630084c4aa1fe02b8b9634b572499718f448eb8b292a"
+      },
+      {
+        "batch": "L0-B002",
+        "notes_sha256": "c341d9668eea8638d655e386149502a7e254fc70faa69dec7fd2b540bd1fa35d",
+        "data_sha256": "615b014f292027aa0952e9b056013c4a2a34448029e1a627cbb7359cbe6bc79f"
+      },
+      {
+        "batch": "L0-B003",
+        "notes_sha256": "5c87146f04da53b0510dba010f81315fefb8a0a209cf897215e5e71a6fdd5294",
+        "data_sha256": "65349d5888b16cac8716307e5d0f39c08b149d52a93809475bd90a30aa38c635"
+      },
+      {
+        "batch": "L1-B001",
+        "notes_sha256": "237591e254cfb5089f50fbae2ab4ba457be80e5d1c8a3488d933c2c8615cc13e",
+        "data_sha256": "fcee0b4d4fc64703e99a93ca97eac4f27d88bfab72549f898863ef5cda8c57a5"
+      },
+      {
+        "batch": "L1-B002",
+        "notes_sha256": "d1fc3c03c7a08f50bcc61b08ee62298ef415aac84b34f0404ab002e4ad9d9d8d",
+        "data_sha256": "edc7aeff6a380118ef75ef16078a765ba58aff16ec2f5a26f42d93bde2277ffe"
+      },
+      {
+        "batch": "L1-B003",
+        "notes_sha256": "78c93df898477b827df2e0c9e7cb264553b36465d8aee30f10ea97b9c04b7353",
+        "data_sha256": "1e8f3dea3ed2b16cc0105b7991d0b6cd11debe419d579b3e7e0ab5d1ea347b76"
+      },
+      {
+        "batch": "L1-B004",
+        "notes_sha256": "2f6617986da790d7b40a769d0e4841248b405b4481478f1d9cc70226762ed80c",
+        "data_sha256": "924396a5a0f1cd115349550b526a9250ef80b3becc38cf2ec62beadf6af6d1b6"
+      },
+      {
+        "batch": "L2-B001",
+        "notes_sha256": "14707b117994664a62d6b5fa402bb350e36eee2eeceed565e6133c735f77a8d9",
+        "data_sha256": "f4eb5748511490a5467a3896202150f42e21831c2d14e1ded094d2a4d9aa5a0f"
+      }
+    ]
+  },
+  "levels": {
+    "0": 123,
+    "1": 189,
+    "2": 10
+  },
+  "bytes_sha256": "aa2b588689ef5a776f472380b34de3f3de40048f1cc111f49023baa2aa1c66f7",
+  "database_writes": 0,
+  "production_AI_APPROVED_created": 0,
+  "authored_and_reviewed_by_same_session": true
+}

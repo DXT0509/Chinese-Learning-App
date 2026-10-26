@@ -15,11 +15,8 @@ class RemoteDictionaryRepository @Inject constructor(
     override suspend fun detail(entryId: String) = session.authorized { api.detail(it, entryId) }.domain()
 }
 internal fun DictionarySuggestionDto.domain() = DictionarySuggestion(
-    entryId, simplified, traditional, pinyin, shortVietnameseMeaning, availableLanguages, source)
-internal fun DictionarySourceDto.domain() = DictionarySource(source, sourceUrl, license, licenseUrl, attribution, changes)
+    entryId, simplified, pinyin, shortVietnameseMeaning, availableLanguages, source)
 internal fun DictionaryEntryDto.domain() = DictionaryEntry(
-    DictionarySuggestion(entryId, simplified, traditional, pinyin, shortVietnameseMeaning, availableLanguages, source),
+    DictionarySuggestion(entryId, simplified, pinyin, shortVietnameseMeaning, availableLanguages, source),
     citationPinyin, meanings.mapValues { (_, senses) -> senses.map { DictionarySense(it.number, it.gloss) } },
-    sinoVietnamese, characters.map { CharacterEnrichment(it.scope, it.form, it.positions, it.traditionalPositions,
-        it.pinyin, it.sinoVietnamese, it.vietnameseGloss, it.matchesEntryPronunciation, it.provenance.domain()) },
-    provenance.domain())
+    sinoVietnamese, reviewStatus, active)

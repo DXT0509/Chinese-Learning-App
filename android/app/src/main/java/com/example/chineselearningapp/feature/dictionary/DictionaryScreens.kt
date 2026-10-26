@@ -10,7 +10,6 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -79,7 +78,6 @@ fun DictionarySearchScreen(state: DictionarySearchState, edit: (String, Boolean)
                         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)) {
                         Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                             Text(suggestion.simplified, style = MaterialTheme.typography.headlineMedium)
-                            Traditional(suggestion.simplified, suggestion.traditional)
                             Text(suggestion.pinyin, style = MaterialTheme.typography.titleMedium,
                                 color = MaterialTheme.colorScheme.primary)
                             suggestion.shortVietnameseMeaning?.takeIf { it.isNotBlank() }?.let { Text(it) }
@@ -107,7 +105,8 @@ private fun DictionaryTopBar(back: () -> Unit) {
 }
 
 @Composable
-fun DictionaryDetailScreen(state: DictionaryDetailState, retry: () -> Unit, back: () -> Unit) {
+fun DictionaryDetailScreen(state: DictionaryDetailState, retry: () -> Unit, back: () -> Unit,
+    savedAction: @Composable () -> Unit = {}) {
     Column(Modifier.fillMaxSize()) {
         DictionaryTopBar(back)
         LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(24.dp),
@@ -120,7 +119,6 @@ fun DictionaryDetailScreen(state: DictionaryDetailState, retry: () -> Unit, back
                         SelectionContainer {
                             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
                                 Text(entry.suggestion.simplified, style = MaterialTheme.typography.displayMedium)
-                                Traditional(entry.suggestion.simplified, entry.suggestion.traditional)
                                 Text(entry.citationPinyin, style = MaterialTheme.typography.headlineSmall,
                                     color = MaterialTheme.colorScheme.primary)
                                 entry.sinoVietnamese?.takeIf { it.isNotBlank() }?.let {
@@ -130,6 +128,8 @@ fun DictionaryDetailScreen(state: DictionaryDetailState, retry: () -> Unit, back
                         }
                     }
                 }
+                item { savedAction() }
+                if (!entry.active) item { Text(stringResource(R.string.wordbook_inactive)) }
                 entry.meaningGroups.forEach { group ->
                     item(key = "meanings-" + group.key) {
                         DictionaryPanel {
@@ -142,18 +142,12 @@ fun DictionaryDetailScreen(state: DictionaryDetailState, retry: () -> Unit, back
                         }
                     }
                 }
-                val characters = entry.characters.filter { it.scope == "character" }
-                if (characters.isNotEmpty()) {
-                    item {
-                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            Text(stringResource(R.string.dictionary_characters), style = MaterialTheme.typography.titleLarge)
-                            Text(stringResource(R.string.dictionary_character_note), style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        }
-                    }
-                    items(characters) { character -> CharacterCard(character) }
+                item {
+                    Text(stringResource(
+                        if (entry.reviewStatus == "LOCAL_CODEX_REVIEWED") R.string.curated_local_codex_source
+                        else R.string.curated_content_source
+                    ))
                 }
-                item { Sources((listOf(entry.provenance) + characters.map { it.provenance }).distinct()) }
             }
         }
     }
@@ -167,53 +161,11 @@ internal fun meaningLabel(language: String): String = when (language) {
 }
 
 @Composable
-private fun Traditional(simplified: String, traditional: String?) {
-    if (!traditional.isNullOrBlank() && traditional != simplified)
-        Text(stringResource(R.string.dictionary_traditional, traditional), color = MaterialTheme.colorScheme.onSurfaceVariant)
-}
-
-@Composable
-internal fun CharacterCard(character: CharacterEnrichment) {
-    DictionaryPanel {
-        Text(character.form, style = MaterialTheme.typography.headlineLarge)
-        Text(character.pinyin, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.titleMedium)
-        character.sinoVietnamese?.takeIf { it.isNotBlank() }?.let { Text(stringResource(R.string.dictionary_sino, it)) }
-        character.vietnameseGloss?.takeIf { it.isNotBlank() }?.let { Text(it) }
-        if (character.matchesEntryPronunciation != true) Text(stringResource(
-            if (character.matchesEntryPronunciation == false) R.string.dictionary_reading_mismatch else R.string.dictionary_reading_unknown),
-            style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-    }
-}
-
-@Composable
 private fun DictionaryPanel(content: @Composable ColumnScope.() -> Unit) {
     Surface(Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface, border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
         shadowElevation = 1.dp) {
         Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp), content = content)
-    }
-}
-
-@Composable
-private fun Sources(sources: List<DictionarySource>) {
-    var expanded by rememberSaveable { mutableStateOf(false) }
-    val uriHandler = LocalUriHandler.current
-    var linkError by remember { mutableStateOf(false) }
-    fun open(url: String) {
-        val uri = runCatching { java.net.URI(url) }.getOrNull()
-        if (uri?.scheme !in listOf("https", "http") || uri?.host.isNullOrEmpty()) { linkError = true; return }
-        linkError = runCatching { uriHandler.openUri(url) }.isFailure
-    }
-    DictionaryPanel {
-        TextButton(onClick = { expanded = !expanded }) { Text(stringResource(R.string.dictionary_sources)) }
-        if (expanded) sources.forEach { source ->
-            Text(source.source, style = MaterialTheme.typography.titleMedium)
-            Text(source.attribution, style = MaterialTheme.typography.bodySmall)
-            if (source.changes.isNotBlank()) Text(source.changes, style = MaterialTheme.typography.bodySmall)
-            TextButton(onClick = { open(source.sourceUrl) }) { Text(stringResource(R.string.dictionary_source_link)) }
-            TextButton(onClick = { open(source.licenseUrl) }) { Text(stringResource(R.string.dictionary_license_link, source.license)) }
-        }
-        if (linkError) Text(stringResource(R.string.dictionary_link_error))
     }
 }
 

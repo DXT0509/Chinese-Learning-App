@@ -15,6 +15,9 @@ import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
 import com.example.chineselearningapp.feature.dictionary.*
+import com.example.chineselearningapp.feature.vocabulary.*
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import com.example.chineselearningapp.feature.dictionary.handwriting.*
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.compose.*
@@ -32,7 +35,8 @@ import com.example.chineselearningapp.feature.profile.ProfileScreen
 @Composable
 internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
     connectivity: ConnectivityState, retryConnection: () -> Unit, lessonViewModel: LessonPlayerViewModel?, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository? = null,
-    handwritingFactory: (() -> HandwritingRecognizer)? = null) {
+    handwritingFactory: (() -> HandwritingRecognizer)? = null,
+    wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null) {
     val controller = rememberNavController()
     val entry by controller.currentBackStackEntryAsState()
     val destination = Destination.entries.firstOrNull { it.name == entry?.destination?.route }
@@ -92,7 +96,7 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
             composable(Destination.Learning.name) {
                 LearningScreen({ open(Destination.Lessons) }, { open(Destination.Roadmap) }, {
                     controller.navigate(DICTIONARY_SEARCH_ROUTE) { launchSingleTop = true }
-                })
+                }, { open(Destination.Vocabulary) })
             }
             composable(DICTIONARY_SEARCH_ROUTE) { backStackEntry ->
                 if (dictionaryRepository != null) {
@@ -119,16 +123,39 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
                         } })
                     val detail by model.state.collectAsStateWithLifecycle()
                     LaunchedEffect(detail.phase) { if (detail.phase == DictionaryPhase.Expired) actions.reload() }
-                    DictionaryDetailScreen(detail, model::retry, { controller.popBackStack() })
+                    val savedModel: SavedEntryViewModel? = wordbookRepository?.let { repository ->
+                        viewModel(viewModelStoreOwner = backStackEntry, factory = viewModelFactory { initializer {
+                            SavedEntryViewModel(repository, checkNotNull(backStackEntry.arguments?.getString("entryId")))
+                        } })
+                    }
+                    val saved = savedModel?.state?.collectAsStateWithLifecycle()?.value
+                    LaunchedEffect(saved?.expired) { if (saved?.expired == true) actions.reload() }
+                    DictionaryDetailScreen(detail, model::retry, { controller.popBackStack() }) {
+                        if (saved != null) SavedVocabularyAction(saved, savedModel::save, savedModel::refresh)
+                    }
                 }
             }
             composable(Destination.Review.name) { ReviewScreen() }
             composable(Destination.Profile.name) { ProfileScreen(state, actions.logout) }
-            composable(Destination.Vocabulary.name) {
-                PageColumn {
-                    Text(stringResource(R.string.vocabulary), style = MaterialTheme.typography.headlineMedium)
-                    Text(stringResource(R.string.coming_soon))
-                    Text(stringResource(R.string.placeholder_intro), color = MaterialTheme.colorScheme.onSurfaceVariant)
+            composable(Destination.Vocabulary.name) { backStackEntry ->
+                if (wordbookRepository != null) {
+                    val model: PersonalVocabularyViewModel = viewModel(viewModelStoreOwner = backStackEntry,
+                        factory = viewModelFactory { initializer {
+                            PersonalVocabularyViewModel(wordbookRepository, createSavedStateHandle())
+                        } })
+                    val words by model.state.collectAsStateWithLifecycle()
+                    LaunchedEffect(words.expired) { if (words.expired) actions.reload() }
+                    DisposableEffect(backStackEntry, model) {
+                        val observer = LifecycleEventObserver { _, event ->
+                            if (event == Lifecycle.Event.ON_RESUME) model.refresh()
+                        }
+                        backStackEntry.lifecycle.addObserver(observer)
+                        onDispose { backStackEntry.lifecycle.removeObserver(observer) }
+                    }
+                    MyVocabularyScreen(words, model::edit, model::refresh, model::more,
+                        { controller.navigate(dictionaryDetailRoute(it)) },
+                        { controller.navigate(DICTIONARY_SEARCH_ROUTE) { launchSingleTop = true } },
+                        model::askRemove, model::cancelRemove, model::confirmRemove)
                 }
             }
         }

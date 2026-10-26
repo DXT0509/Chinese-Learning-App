@@ -29,6 +29,11 @@ backend/.pytest-phase3*/
 htmlcov/
 backend/.content-storage/
 backend/.dictionary-source-cache/
+backend/.vocabulary-backups/
+backend/.vocabulary-reset-*.json
+backend/.phase4-postgres/
+backend/.phase402-postgres/
+backend/.vocabulary-pipeline/
 backend/.test-postgres-slice1/
 backend/.test-postgres-slice2*/
 dist/

@@ -27,7 +27,7 @@ class DictionaryViewModelTest {
         Dispatchers.setMain(StandardTestDispatcher(testScheduler))
         try { test(Repository()) } finally { Dispatchers.resetMain() }
     }
-    private fun suggestion(id: String) = DictionarySuggestion(id, "\u5bb6", "\u50a2", "ji\u0101", null, listOf("en"), "CC-CEDICT")
+    private fun suggestion(id: String) = DictionarySuggestion(id, "\u5bb6", "ji\u0101", null, listOf("en"), "CC-CEDICT")
 
     @Test fun debounceCancelsTypingAndDoesNotRepeatForCursorOrWhitespace() = scenario { repo ->
         val vm = DictionarySearchViewModel(repo, SavedStateHandle())
@@ -126,13 +126,11 @@ class DictionaryViewModelTest {
         repo.detailCall = { throw http(404) }
         val detail = DictionaryDetailViewModel(repo, SavedStateHandle(mapOf("entryId" to "id")))
         advanceUntilIdle(); assertEquals(DictionaryPhase.NotFound, detail.state.value.phase)
-        val origin = DictionarySource("source", "https://example.com", "license", "https://example.com", "credit", "")
         repo.detailCall = { DictionaryEntry(suggestion("id"), "jiā",
             linkedMapOf("en" to listOf(DictionarySense(1, "family")),
-                "vi" to listOf(DictionarySense(1, "gia đình"))), null, emptyList(), origin) }
+                "vi" to listOf(DictionarySense(1, "gia đình"))), null, "HUMAN_APPROVED") }
         detail.retry(); advanceUntilIdle()
         assertEquals(DictionaryPhase.Results, detail.state.value.phase)
         assertEquals(listOf("vi", "en"), detail.state.value.entry!!.meaningGroups.map { it.key })
-        assertTrue(detail.state.value.entry!!.characters.isEmpty())
     }
 }

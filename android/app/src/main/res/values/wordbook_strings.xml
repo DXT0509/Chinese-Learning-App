@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wordbook_title">Từ vựng của tôi</string>
+    <string name="wordbook_save">Lưu từ vựng</string>
+    <string name="wordbook_saved">Đã lưu</string>
+    <string name="wordbook_save_success">Đã lưu vào bộ sưu tập của bạn.</string>
+    <string name="wordbook_remove_success">Đã bỏ lưu từ vựng.</string>
+    <string name="wordbook_remove">Bỏ lưu</string>
+    <string name="wordbook_cancel">Hủy</string>
+    <string name="wordbook_confirm_remove">Bỏ lưu “%1$s” khỏi bộ sưu tập?</string>
+    <string name="wordbook_empty">Bạn chưa lưu từ vựng nào</string>
+    <string name="wordbook_explore">Khám phá từ điển</string>
+    <string name="wordbook_count">%1$d từ vựng</string>
+    <string name="wordbook_search">Tìm chữ Hán hoặc Pinyin</string>
+    <string name="wordbook_english">Nghĩa tiếng Anh: %1$s</string>
+    <string name="wordbook_inactive">Mục từ này không còn trong bản từ điển hiện hành.</string>
+    <string name="wordbook_error">Không thể cập nhật bộ sưu tập. Vui lòng kiểm tra kết nối và thử lại.</string>
+</resources>

@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
 
     private val lessonViewModel: com.example.chineselearningapp.feature.lesson.LessonPlayerViewModel by viewModels()
 
+    @javax.inject.Inject lateinit var wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository
     @javax.inject.Inject lateinit var dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository
     @javax.inject.Inject lateinit var handwritingRecognizers: javax.inject.Provider<com.example.chineselearningapp.feature.dictionary.handwriting.MlKitHandwritingRecognizer>
 
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.BLACK)
         )
         setContent {
-            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel, lessonViewModel, dictionaryRepository, { handwritingRecognizers.get() }) }
+            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel, lessonViewModel, dictionaryRepository, { handwritingRecognizers.get() }, wordbookRepository) }
         }
     }
 }

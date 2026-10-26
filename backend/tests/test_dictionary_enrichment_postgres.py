@@ -284,12 +284,6 @@ async def test_http_contract_is_additive_and_missing_enrichment_stays_empty(sess
     async with httpx.AsyncClient(
         transport=httpx.ASGITransport(app=app), base_url="http://test"
     ) as client:
-        for query, expected in (("学", True), ("你", False)):
+        for query in ("学", "你"):
             results = (await client.get("/api/v1/dictionary/search", params={"q": query})).json()
-            entry = results["items"][0]
-            response = await client.get(f"/api/v1/dictionary/entries/{entry['entry_id']}")
-            assert response.status_code == 200
-            detail = response.json()
-            assert bool(detail["character_enrichments"]) == expected
-            assert detail["short_vi_meaning"] is None
-            assert detail["sino_vietnamese"] is None and detail["available_languages"] == ["en"]
+            assert results["items"] == []  # Retired enrichment never becomes curated content.

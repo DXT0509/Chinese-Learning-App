@@ -1,5 +1,14 @@
 # Proposed database and learning architecture
 
+## Implemented Phase 3.4 personal collection
+
+Revision `0007_personal_vocabulary` adds `personal_vocabulary_entries` with owner/dictionary
+FKs, unique owner+entry identity, saved-time provenance/snapshot and an owner/time/UUID index.
+It does not repurpose `user_vocabulary` or `srs_states`, and saves do not grant learning
+eligibility. See [personal vocabulary](personal-vocabulary-design.md) for the implemented
+contract, revision retention and migration instructions.
+
+
 Phase 3.1 adds two implemented lookup tables, `dictionary_imports` and
 `dictionary_entries`, in additive revision `0005_dictionary_foundation` after the existing
 player revision 0004. They are shared external-source data, independent of the target

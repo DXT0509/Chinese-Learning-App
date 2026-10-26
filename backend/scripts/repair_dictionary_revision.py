@@ -47,6 +47,8 @@ def run():
     mode.add_argument("--dry-run", action="store_true")
     mode.add_argument("--confirm", action="store_true")
     args = parser.parse_args()
+    if args.confirm:
+        parser.error("Provider retired in Phase 4; legacy revision repair is read-only")
     try:
         with asyncio.Runner(loop_factory=new_event_loop) as runner:
             runner.run(execute(args))

@@ -1,5 +1,14 @@
 # Incremental MVP implementation plan
 
+## Phase 3.4 implemented: personal vocabulary
+
+The authenticated dictionary-to-wordbook slice now supports exact-entry save/status,
+owner-scoped search with cursor pagination, retained inactive entries and confirmed removal.
+Android Learning links to the wordbook; existing detail renders saved state. Curriculum
+completion, EXP, SRS and translation eligibility remain independent and unchanged.
+See [design, validation and manual rollout](personal-vocabulary-design.md).
+
+
 Status: **Slices 1 and 2 implemented; slices 3-8 remain planned**, 2026-10-18.
 See [content authoring](content-authoring.md) for the bounded preview contracts,
 legacy compatibility and local workflow. Read [schema](database-design.md),

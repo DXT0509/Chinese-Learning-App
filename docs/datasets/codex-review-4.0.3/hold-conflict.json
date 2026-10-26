@@ -1,0 +1,88 @@
+{
+  "lexical_key": "厕所|ce4 suo3",
+  "current_database_record": {
+    "id": "b58c0607-76a4-527c-a6ea-d77170d7dfd8",
+    "lexical_key": "厕所|ce4 suo3",
+    "review_status": "NEEDS_REVIEW",
+    "content_version": 1,
+    "checksum": "8cacc9b365454fb299bc079f50eb04cf3499ed3ea08c037628ee28229ee60026",
+    "revision_payload": {
+      "pinyin": "cè suǒ",
+      "examples": [
+        {
+          "pinyin": "Cèsuǒ zài nǎr?",
+          "simplified": "厕所在哪儿？",
+          "vietnamese": "Nhà vệ sinh ở đâu?"
+        }
+      ],
+      "simplified": "厕所",
+      "lexical_key": "厕所|ce4 suo3",
+      "review_status": "NEEDS_REVIEW",
+      "learning_level": 0,
+      "part_of_speech": "noun",
+      "schema_version": 1,
+      "content_version": 1,
+      "pinyin_numbered": "ce4 suo3",
+      "sino_vietnamese": null,
+      "english_meanings": [],
+      "vietnamese_meanings": [
+        "nhà vệ sinh"
+      ],
+      "difficulty_reference": "HSK_2_0",
+      "classification_standard": "APP_CURATED"
+    }
+  },
+  "incoming_original": {
+    "schema_version": 1,
+    "lexical_key": "厕所|ce4 suo3",
+    "simplified": "厕所",
+    "pinyin": "cè suǒ",
+    "pinyin_numbered": "ce4 suo3",
+    "sino_vietnamese": null,
+    "part_of_speech": "noun",
+    "learning_level": 0,
+    "classification_standard": "APP_CURATED",
+    "difficulty_reference": "HSK_2_0",
+    "review_status": "GENERATED_UNREVIEWED",
+    "content_version": 1,
+    "vietnamese_meanings": [
+      "nhà vệ sinh"
+    ],
+    "english_meanings": [],
+    "examples": [
+      {
+        "simplified": "厕所在哪儿？",
+        "pinyin": "Cèsuǒ zài nǎr?",
+        "vietnamese": "Nhà vệ sinh ở đâu?"
+      }
+    ]
+  },
+  "incoming_original_checksum": "8c34ca8ead7e0c31373c408222690ef5c49d9aefae83bb493870fad09cee71f6",
+  "reviewed_deployment_draft": {
+    "schema_version": 1,
+    "lexical_key": "厕所|ce4 suo3",
+    "simplified": "厕所",
+    "pinyin": "cè suǒ",
+    "pinyin_numbered": "ce4 suo3",
+    "sino_vietnamese": null,
+    "part_of_speech": "noun",
+    "learning_level": 0,
+    "classification_standard": "APP_CURATED",
+    "difficulty_reference": "HSK_2_0",
+    "review_status": "NEEDS_REVIEW",
+    "content_version": 2,
+    "vietnamese_meanings": [
+      "nhà vệ sinh"
+    ],
+    "english_meanings": [],
+    "examples": [
+      {
+        "simplified": "厕所在哪儿？",
+        "pinyin": "Cèsuǒ zài nǎr?",
+        "vietnamese": "Nhà vệ sinh ở đâu?"
+      }
+    ]
+  },
+  "reviewed_deployment_checksum": "1dbd1cabb4085c1ad629f96aef9f6a5b3ce4c29dd0101d76cd7c7121dbd6cf5c",
+  "safe_resolution": "Exclude from local acceptance and preserve current DB NEEDS_REVIEW/version 1. A later explicit editorial resolution is required to clear the hold. No DB write performed."
+}

@@ -1,5 +1,15 @@
 # API conventions
 
+## Personal vocabulary API
+
+Phase 3.4 adds authenticated GET/POST `/api/v1/me/vocabulary`, GET `/status` with
+`dictionary_entry_id`, and GET/DELETE `/{saved_id}`. Save accepts only a dictionary UUID
+and is idempotent per authenticated owner+entry (200). Delete is owner-filtered and returns
+204 for absent/foreign/already removed associations; detail returns 404 for absent/foreign IDs.
+Listing supports `q`, `limit` (1-50) and a keyset `cursor`; returns `items`, matching `total`,
+and `next_cursor`. See [full contracts](personal-vocabulary-design.md).
+
+
 `GET /api/v1/health` is the primary public liveness route. `GET /health` is an alias.
 Both return HTTP 200 and the same documented schema:
 

@@ -1,0 +1,323 @@
+# form|numbered pinyin|Vietnamese senses (; separated)|POS|Chinese example|example pinyin|Vietnamese example|actual session review note
+女|nü3|nữ; thuộc giới tính nữ|adjective|她是女医生。|Tā shì nǚ yīshēng.|Cô ấy là bác sĩ nữ.|Female modifier, not a substitute for the pronoun she; nǚ retains umlaut and third tone.
+口|kou3|miệng; lượng từ đếm người trong gia đình|noun; classifier|我家有三口人。|Wǒ jiā yǒu sān kǒu rén.|Nhà tôi có ba người.|Mouth and household-person classifier are legitimate kou3 senses; example explicitly illustrates the classifier.
+男|nan2|nam; thuộc giới tính nam|adjective|他是男老师。|Tā shì nán lǎoshī.|Anh ấy là giáo viên nam.|Male modifier nán; example does not equate 男 with the pronoun he.
+中|zhong1|ở giữa; trung tâm|noun; locality|他坐在我们中间。|Tā zuò zài wǒmen zhōngjiān.|Anh ấy ngồi giữa chúng tôi.|Restrict to zhong1 middle sense, not zhong4 hit; compound example makes location clear.
+左|zuo3|bên trái|noun; locality|请向左走。|Qǐng xiàng zuǒ zǒu.|Xin đi về bên trái.|Left direction zuo3; 向左走 is a natural directional instruction.
+右|you4|bên phải|noun; locality|请向右走。|Qǐng xiàng yòu zǒu.|Xin đi về bên phải.|Right direction you4, contrasted with left without adding a new reading.
+前|qian2|phía trước; trước|noun; locality|请向前走。|Qǐng xiàng qián zǒu.|Xin đi về phía trước.|Forward location qian2; example selects spatial rather than temporal use.
+后|hou4|phía sau; sau|noun; locality|他在我后面。|Tā zài wǒ hòumiàn.|Anh ấy ở phía sau tôi.|Simplified 后, hou4; rear location demonstrated in 后面.
+东|dong1|phía đông|noun; locality|我们向东走。|Wǒmen xiàng dōng zǒu.|Chúng tôi đi về phía đông.|East direction dong1, example uses a natural direction complement.
+西|xi1|phía tây|noun; locality|太阳从西边落下。|Tàiyáng cóng xībiān luòxià.|Mặt trời lặn ở phía tây.|West direction xi1; not the neutral syllable of 东西 meaning things.
+北|bei3|phía bắc|noun; locality|我们向北走。|Wǒmen xiàng běi zǒu.|Chúng tôi đi về phía bắc.|North direction bei3 and Vietnamese bắc agree.
+百|bai3|trăm|numeral|这里有一百本书。|Zhèlǐ yǒu yì bǎi běn shū.|Ở đây có một trăm quyển sách.|Hundred bai3; yì before third-tone 百 is contextual 一 sandhi, not headword identity.
+千|qian1|nghìn|numeral|这台电脑三千元。|Zhè tái diànnǎo sān qiān yuán.|Chiếc máy tính này giá ba nghìn nhân dân tệ.|Thousand qian1; price example has an explicit currency unit.
+万|wan4|vạn; mười nghìn|numeral|这个学校有一万名学生。|Zhège xuéxiào yǒu yí wàn míng xuésheng.|Trường này có mười nghìn học sinh.|Chinese 万 equals ten thousand, not thousand; yí wàn uses spoken sandhi.
+两|liang3|hai (thường dùng trước lượng từ)|numeral|我有两本书。|Wǒ yǒu liǎng běn shū.|Tôi có hai quyển sách.|Liang3 is the counting-before-classifier form; not a blanket replacement for 二.
+天|tian1|ngày; trời|noun|今天是晴天。|Jīntiān shì qíngtiān.|Hôm nay trời nắng.|Day/sky tian1; 晴天 is clear fair-weather context.
+分|fen1|phút; chia|noun; verb|请把苹果分成两半。|Qǐng bǎ píngguǒ fēn chéng liǎng bàn.|Xin chia quả táo thành hai nửa.|Fen1 divide/minute senses; exclude fen4 share reading. Example illustrates dividing.
+早|zao3|sớm|adjective|他今天来得很早。|Tā jīntiān lái de hěn zǎo.|Hôm nay anh ấy đến rất sớm.|Zao3 early; degree complement 得 naturally links arrival and time.
+晚|wan3|muộn|adjective|现在太晚了。|Xiànzài tài wǎn le.|Bây giờ muộn quá rồi.|Wan3 late; final 了 is neutral and marks changed/current situation.
+半|ban4|nửa; một nửa|numeral|我吃了半个苹果。|Wǒ chī le bàn ge píngguǒ.|Tôi đã ăn nửa quả táo.|Ban4 half; half plus classifier is grammatical, not two halves or thirty minutes here.
+木|mu4|gỗ (thường dùng trong từ ghép)|noun; word element|这张桌子是木头做的。|Zhè zhāng zhuōzi shì mùtou zuò de.|Chiếc bàn này được làm bằng gỗ.|Wood element mu4, not the tree word 树; 木头 example and usage qualifier prevent overgeneralization.
+金|jin1|vàng (kim loại)|noun|这个戒指是金的。|Zhège jièzhi shì jīn de.|Chiếc nhẫn này làm bằng vàng.|Jin1 gold metal, not yellow color 黄; material 是金的 is idiomatic.
+土|tu3|đất|noun|这里的土很干。|Zhèlǐ de tǔ hěn gān.|Đất ở đây rất khô.|Tu3 soil; excludes colloquial unfashionable sense to keep scope basic.
+石|shi2|đá (thường dùng trong từ ghép)|noun; word element|路边有很多石头。|Lùbiān yǒu hěn duō shítou.|Bên đường có nhiều đá.|Shi2 stone, not dan4 historical unit; neutral tou in 石头.
+田|tian2|ruộng|noun|这块田很大。|Zhè kuài tián hěn dà.|Thửa ruộng này rất rộng.|Tian2 cultivated field with classifier 块, distinct from generic soil 土.
+雨|yu3|mưa|noun|今天有雨。|Jīntiān yǒu yǔ.|Hôm nay có mưa.|Yu3 noun rain; 有雨 is a valid simple weather expression.
+电|dian4|điện|noun|这里没有电。|Zhèlǐ méiyǒu diàn.|Ở đây không có điện.|Dian4 electricity; no claim that 电 alone means television.
+气|qi4|khí; hơi|noun|这个球没有气了。|Zhège qiú méiyǒu qì le.|Quả bóng này hết hơi rồi.|Qi4 air/gas illustrated by an uninflated ball, not the weather word 天气.
+面|mian4|mì; bột mì|noun|我想吃一碗面。|Wǒ xiǎng chī yì wǎn miàn.|Tôi muốn ăn một bát mì.|Mian4 noodle/flour food senses only; 一碗面 is standard elliptical noodles usage.
+肉|rou4|thịt|noun|我今天不吃肉。|Wǒ jīntiān bù chī ròu.|Hôm nay tôi không ăn thịt.|Rou4 meat, natural mass noun without unnecessary classifier.
+虫|chong2|sâu; côn trùng|noun|叶子上有一条虫。|Yèzi shang yǒu yì tiáo chóng.|Trên chiếc lá có một con sâu.|Chong2 insect/worm; 条 matches a worm-shaped creature, not all insect classifiers.
+鸡|ji1|gà|noun|院子里有三只鸡。|Yuànzi lǐ yǒu sān zhī jī.|Trong sân có ba con gà.|Ji1 bird chicken with animal classifier 只; meat separately expressed as 鸡肉.
+鸭|ya1|vịt|noun|河里有两只鸭。|Hé lǐ yǒu liǎng zhī yā.|Dưới sông có hai con vịt.|Ya1 duck with classifier 只; no tone confusion with 牙 ya2.
+猪|zhu1|lợn; heo|noun|这只猪很胖。|Zhè zhī zhū hěn pàng.|Con lợn này rất béo.|Zhu1 pig; lợn/heo are Vietnamese regional equivalents.
+兔|tu4|thỏ|noun|这只兔很小。|Zhè zhī tù hěn xiǎo.|Con thỏ này rất nhỏ.|Tu4 rabbit, animal classifier 只; 兔子 is the common expanded form.
+龙|long2|rồng|noun|这幅画上有一条龙。|Zhè fú huà shang yǒu yì tiáo lóng.|Trong bức tranh này có một con rồng.|Long2 mythical dragon; 条 and depicted context avoid presenting it as an everyday real animal.
+鼠|shu3|chuột (thường dùng trong từ ghép)|noun; word element|这里有一只老鼠。|Zhèlǐ yǒu yì zhī lǎoshǔ.|Ở đây có một con chuột.|Shu3 rodent; note that ordinary spoken animal noun is 老鼠.
+虎|hu3|hổ (thường dùng trong từ ghép)|noun; word element|动物园里有老虎。|Dòngwùyuán lǐ yǒu lǎohǔ.|Trong sở thú có hổ.|Hu3 tiger, exemplified in the ordinary noun 老虎 rather than suggesting standalone use is always colloquial.
+蛇|she2|rắn|noun|草里有一条蛇。|Cǎo lǐ yǒu yì tiáo shé.|Trong cỏ có một con rắn.|She2 snake with long-animal classifier 条; ordinary sense only.
+嘴|zui3|miệng|noun|请张开嘴。|Qǐng zhāngkāi zuǐ.|Xin há miệng.|Zui3 is the usual spoken mouth noun; distinct headword from 口.
+牙|ya2|răng|noun|我的牙疼。|Wǒ de yá téng.|Tôi bị đau răng.|Ya2 tooth, second tone contrasts 鸭; possession and pain predicate are natural.
+心|xin1|tim; lòng|noun|她的心跳得很快。|Tā de xīn tiào de hěn kuài.|Tim cô ấy đập rất nhanh.|Xin1 physical heart and figurative heart; example selects physical beating.
+皮|pi2|da; vỏ|noun|这个苹果的皮很薄。|Zhège píngguǒ de pí hěn báo.|Vỏ quả táo này rất mỏng.|Pi2 skin/peel; báo is appropriate colloquial 薄 thinness reading in example.
+血|xue4|máu|noun|他的手上有血。|Tā de shǒu shang yǒu xuè.|Trên tay anh ấy có máu.|Choose standard literary/teaching xuè; do not silently create colloquial xuě as an alternate key.
+见|jian4|gặp; thấy|verb|我想见你。|Wǒ xiǎng jiàn nǐ.|Tôi muốn gặp bạn.|Jian4 meet/see; direct personal object makes the meeting sense unambiguous.
+学|xue2|học|verb|我想学汉语。|Wǒ xiǎng xué Hànyǔ.|Tôi muốn học tiếng Trung.|Xue2 is productive standalone study verb; Hànyǔ proper language name in example.
+答|da2|trả lời|verb|这个问题我答不出来。|Zhège wèntí wǒ dá bu chūlái.|Tôi không trả lời được câu hỏi này.|Da2 answer sense; exclude da1 in 答应, neutral bu within potential complement.
+认|ren4|nhận ra; nhận biết|verb|这个字我不认得。|Zhège zì wǒ bú rènde.|Tôi không nhận biết được chữ này.|Ren4 recognize; 认得 is a natural expanded recognition verb, bú before fourth-tone 认.
+站|zhan4|đứng; trạm|verb; noun|请站在这里。|Qǐng zhàn zài zhèlǐ.|Xin đứng ở đây.|Zhan4 verb stand and station noun; location example explicitly teaches the verb.
+用|yong4|dùng; sử dụng|verb|我用手机学习。|Wǒ yòng shǒujī xuéxí.|Tôi dùng điện thoại để học.|Yong4 instrumental use, with 手机 as direct object.
+打|da3|đánh; gọi (điện thoại)|verb|我给妈妈打电话。|Wǒ gěi māma dǎ diànhuà.|Tôi gọi điện cho mẹ.|Da3 productive verb; calling sense explicitly limited to 打电话 collocation.
+让|rang4|để; cho phép; bảo ai làm gì|verb|妈妈让我早点睡觉。|Māma ràng wǒ zǎodiǎn shuìjiào.|Mẹ bảo tôi đi ngủ sớm hơn một chút.|Rang4 causative/permission; example selects instruction, not mandatory coercion.
+帮|bang1|giúp|verb|请帮我开门。|Qǐng bāng wǒ kāimén.|Xin giúp tôi mở cửa.|Bang1 help takes person plus action; valid standalone counterpart of 帮忙.
+唱|chang4|hát|verb|这首歌我会唱。|Zhè shǒu gē wǒ huì chàng.|Tôi biết hát bài hát này.|Chang4 sing; song classifier 首 and ability 会 are appropriate.
+睡|shui4|ngủ|verb|孩子已经睡了。|Háizi yǐjīng shuì le.|Đứa trẻ đã ngủ rồi.|Shui4 sleep, natural standalone use, not xing3 wake.
+醒|xing3|tỉnh; thức giấc|verb|孩子醒了。|Háizi xǐng le.|Đứa trẻ thức giấc rồi.|Xing3 waking verb with final le; no claim that 醒 alone means get out of bed.
+又|you4|lại (sự việc lặp lại)|adverb|他今天又迟到了。|Tā jīntiān yòu chídào le.|Hôm nay anh ấy lại đến muộn.|You4 marks realized repetition, contrasted conceptually with future 再.
+更|geng4|hơn; càng|adverb|今天比昨天更冷。|Jīntiān bǐ zuótiān gèng lěng.|Hôm nay còn lạnh hơn hôm qua.|Geng4 comparative degree; exclude geng1 watch/change reading.
+最|zui4|nhất|adverb|我最喜欢这本书。|Wǒ zuì xǐhuan zhè běn shū.|Tôi thích quyển sách này nhất.|Zui4 superlative modifies 喜欢; classifier 本 is correct.
+哪|na3|nào|pronoun|你喜欢哪本书？|Nǐ xǐhuan nǎ běn shū?|Bạn thích quyển sách nào?|Na3 interrogative before classifier; no silent nei3 colloquial reading substitution.
+了|le5|trợ từ chỉ hoàn thành hoặc thay đổi tình huống|particle|我吃饭了。|Wǒ chīfàn le.|Tôi ăn cơm rồi.|Neutral le aspect/sentence particle, not liao3 finish; translation avoids claiming a general past-tense suffix.
+过|guo5|trợ từ chỉ trải nghiệm đã từng|particle|我去过北京。|Wǒ qù guo Běijīng.|Tôi từng đến Bắc Kinh.|Neutral experiential guo5 is scoped separately from guo4 cross/pass.
+着|zhe5|trợ từ chỉ trạng thái hoặc hành động đang tiếp diễn|particle|门开着。|Mén kāi zhe.|Cửa đang mở.|Neutral zhe5 durative state; exclude zhao2/zhuo2 other lexical readings.
+吧|ba5|trợ từ gợi ý hoặc làm dịu lời nói|particle|我们走吧。|Wǒmen zǒu ba.|Chúng ta đi thôi.|Neutral ba suggestion marker, not a lexical noun or tense marker.
+啊|a5|à; ôi; trợ từ cảm thán|particle|这里真漂亮啊！|Zhèlǐ zhēn piàoliang a!|Ở đây đẹp quá!|Neutral a5 canonical particle; connected-speech variants are not separate invented identities.
+跟|gen1|với; theo|preposition; verb|我跟朋友一起去。|Wǒ gēn péngyou yìqǐ qù.|Tôi đi cùng bạn.|Gen1 accompaniment and following senses; example clearly means with.
+被|bei4|bị; được (dấu hiệu câu bị động)|preposition|杯子被他打破了。|Bēizi bèi tā dǎpò le.|Cái cốc bị anh ấy làm vỡ rồi.|Bei4 passive construction; translation does not make every passive inherently adverse.
+杯|bei1|cốc; lượng từ cho đồ uống đựng trong cốc|noun; classifier|我想喝一杯茶。|Wǒ xiǎng hē yì bēi chá.|Tôi muốn uống một cốc trà.|Bei1 vessel/classifier, not passive bei4; 一杯茶 correctly measures tea.
+瓶|ping2|chai; lượng từ chỉ chai|noun; classifier|他买了两瓶水。|Tā mǎi le liǎng píng shuǐ.|Anh ấy đã mua hai chai nước.|Ping2 bottle classifier with 两 and mass noun 水.
+元|yuan2|nhân dân tệ (đơn vị tiền tệ)|classifier|这本书十元。|Zhè běn shū shí yuán.|Quyển sách này giá mười nhân dân tệ.|Yuan2 formal currency unit; price is not ten Vietnamese đồng.
+角|jiao3|góc; hào (một phần mười nhân dân tệ)|noun; classifier|这个房间有四个角。|Zhège fángjiān yǒu sì ge jiǎo.|Căn phòng này có bốn góc.|Jiao3 corner/currency senses; not jue2 role reading, example selects corners.
+里|li3|bên trong|noun; locality|书在包里。|Shū zài bāo lǐ.|Sách ở trong túi.|Li3 locative inside only; historical distance-unit sense omitted.
+坏|huai4|xấu; hỏng|adjective|我的手机坏了。|Wǒ de shǒujī huài le.|Điện thoại của tôi hỏng rồi.|Huai4 malfunctioning state in example; not morally bad device.
+轻|qing1|nhẹ|adjective|这个包很轻。|Zhège bāo hěn qīng.|Chiếc túi này rất nhẹ.|Qing1 low weight contrasts 重 zhong4.
+重|zhong4|nặng|adjective|这个箱子很重。|Zhège xiāngzi hěn zhòng.|Chiếc vali này rất nặng.|Zhong4 weight sense only, not chong2 again.
+病|bing4|bệnh; bị bệnh|noun; verb|他的病好了。|Tā de bìng hǎo le.|Bệnh của anh ấy đã khỏi.|Bing4 illness; 好了 indicates recovery, not illness being good.
+爸|ba4|bố; ba|noun|爸，我回来了。|Bà, wǒ huílái le.|Bố ơi, con về rồi.|Single-syllable direct-address bà; distinct from reduplicated 爸爸 with neutral second syllable.
+妈|ma1|mẹ; má|noun|妈，早上好！|Mā, zǎoshang hǎo!|Mẹ ơi, chào buổi sáng!|Ma1 mother direct address, not question particle ma5.
+哥|ge1|anh trai|noun|哥，你去哪儿？|Gē, nǐ qù nǎr?|Anh ơi, anh đi đâu vậy?|Ge1 older brother direct address, not younger brother 弟.
+姐|jie3|chị gái|noun|姐，谢谢你。|Jiě, xièxie nǐ.|Chị ơi, cảm ơn chị.|Jie3 older sister direct address; 女 gender association does not replace age relation.
+弟|di4|em trai (thường dùng trong từ ghép)|noun; word element|我弟弟今年六岁。|Wǒ dìdi jīnnián liù suì.|Em trai tôi năm nay sáu tuổi.|Di4 younger-brother element; common spoken 弟弟 example and usage qualifier.
+妹|mei4|em gái (thường dùng trong từ ghép)|noun; word element|我妹妹喜欢画画。|Wǒ mèimei xǐhuan huàhuà.|Em gái tôi thích vẽ.|Mei4 younger sister element; neutral second syllable in 妹妹 is intentional.
+房|fang2|nhà; phòng (thường dùng trong từ ghép)|noun; word element|我想买房。|Wǒ xiǎng mǎi fáng.|Tôi muốn mua nhà.|Fang2 dwelling in natural 买房; room sense usually 房间, explicitly qualified.
+窗|chuang1|cửa sổ (thường dùng trong từ ghép)|noun; word element|请开窗。|Qǐng kāi chuāng.|Xin mở cửa sổ.|Chuang1 window; 开窗 is natural even though 窗户 is the full common noun.
+床|chuang2|giường|noun|房间里有两张床。|Fángjiān lǐ yǒu liǎng zhāng chuáng.|Trong phòng có hai chiếc giường.|Chuang2 bed contrasts chuang1 window; classifier 张 is appropriate.
+笔|bi3|bút|noun|这支笔是我的。|Zhè zhī bǐ shì wǒ de.|Cây bút này là của tôi.|Bi3 pen with long-thin object classifier 支, not animal 只.
+纸|zhi3|giấy|noun|请给我一张纸。|Qǐng gěi wǒ yì zhāng zhǐ.|Xin cho tôi một tờ giấy.|Zhi3 paper, sheet classifier 张, no count noun assumption for bare material.
+车|che1|xe|noun|这辆车是新的。|Zhè liàng chē shì xīn de.|Chiếc xe này mới.|Che1 generic vehicle; 辆 classifier, no forced automobile-only meaning.
+店|dian4|cửa hàng; tiệm|noun|这家店很小。|Zhè jiā diàn hěn xiǎo.|Cửa hàng này rất nhỏ.|Dian4 shop with establishment classifier 家, not electricity 电 despite same pronunciation.
+名|ming2|tên; lượng từ trang trọng đếm người|noun; classifier|我们班有三十名学生。|Wǒmen bān yǒu sānshí míng xuésheng.|Lớp chúng tôi có ba mươi học sinh.|Ming2 name/person classifier; formal classifier illustrated, not the verb call.
+课|ke4|tiết học; bài học|noun|今天有三节课。|Jīntiān yǒu sān jié kè.|Hôm nay có ba tiết học.|Ke4 class period/lesson with classifier 节; not text 课文.
+班|ban1|lớp; ca làm việc|noun|我们班有二十个学生。|Wǒmen bān yǒu èrshí ge xuésheng.|Lớp chúng tôi có hai mươi học sinh.|Ban1 class/shift noun; example selects classroom group, not a single lesson period.
+力|li4|sức; lực|noun|请用力推门。|Qǐng yònglì tuī mén.|Xin dùng sức đẩy cửa.|Li4 force expressed in 用力, rather than assigning an unrelated ability meaning.
+它|ta1|nó (đồ vật hoặc động vật)|pronoun|我有一只猫，它很可爱。|Wǒ yǒu yì zhī māo, tā hěn kě'ài.|Tôi có một con mèo, nó rất đáng yêu.|Ta1 nonhuman pronoun; animal antecedent makes distinction from 他/她 explicit.
+它们|ta1 men5|chúng nó (đồ vật hoặc động vật)|pronoun|这些猫很小，它们喜欢玩。|Zhèxiē māo hěn xiǎo, tāmen xǐhuan wán.|Những con mèo này rất nhỏ, chúng thích chơi.|Nonhuman plural tāmen with neutral men; no people-only translation.
+大家|da4 jia1|mọi người|pronoun|大家好！|Dàjiā hǎo!|Xin chào mọi người!|Dajia4-1 collective everybody; not literal large family in this greeting sense.
+别人|bie2 ren2|người khác|pronoun|请不要打扰别人。|Qǐng bú yào dǎrǎo biérén.|Xin đừng làm phiền người khác.|Choose full citation biérén rather than colloquial neutral ren; bú yào has contextual 不 sandhi.
+自己|zi4 ji3|bản thân; tự mình|pronoun|我想自己做。|Wǒ xiǎng zìjǐ zuò.|Tôi muốn tự làm.|Ziji4-3 reflexive self; not a different person or automatic reflexive ownership in every context.
+男孩|nan2 hai2|bé trai; con trai|noun|那个男孩在看书。|Nàge nánhái zài kàn shū.|Cậu bé kia đang đọc sách.|Nanhai2-2 boy; does not necessarily mean one's son.
+女孩|nü3 hai2|bé gái; con gái|noun|那个女孩在唱歌。|Nàge nǚhái zài chànggē.|Cô bé kia đang hát.|Nühai3-2 girl, not necessarily daughter; umlaut preserved.
+男生|nan2 sheng1|nam sinh|noun|我们班有十个男生。|Wǒmen bān yǒu shí ge nánshēng.|Lớp chúng tôi có mười nam sinh.|Nansheng2-1 male student; classroom context avoids broad male-person synonym claim.
+女生|nü3 sheng1|nữ sinh|noun|我们班有十二个女生。|Wǒmen bān yǒu shí'èr ge nǚshēng.|Lớp chúng tôi có mười hai nữ sinh.|Nüsheng3-1 female student; explicit syllable break in shí'èr example number.
+男朋友|nan2 peng2 you5|bạn trai (người yêu)|noun|她的男朋友是医生。|Tā de nánpéngyou shì yīshēng.|Bạn trai của cô ấy là bác sĩ.|Boyfriend romantic sense, not any male friend; neutral you in 朋友 retained.
+女朋友|nü3 peng2 you5|bạn gái (người yêu)|noun|我的女朋友会说越南语。|Wǒ de nǚpéngyou huì shuō Yuènányǔ.|Bạn gái tôi biết nói tiếng Việt.|Girlfriend romantic sense, not any female friend; spoken Vietnamese-language ability is natural.
+外公|wai4 gong1|ông ngoại|noun|外公住在河内。|Wàigōng zhù zài Hénèi.|Ông ngoại sống ở Hà Nội.|Waigong4-1 maternal grandfather, not paternal 爷爷.
+太太|tai4 tai5|bà (cách xưng hô); vợ|noun|王太太是老师。|Wáng tàitai shì lǎoshī.|Bà Vương là giáo viên.|Neutral second tai; surname title Mrs and wife senses, not generic woman.
+家人|jia1 ren2|người nhà; gia đình|noun|我很想念家人。|Wǒ hěn xiǎngniàn jiārén.|Tôi rất nhớ người nhà.|Jiaren1-2 family members, not a house building.
+老人|lao3 ren2|người cao tuổi|noun|请给老人让座。|Qǐng gěi lǎorén ràngzuò.|Xin nhường chỗ cho người cao tuổi.|Laoren3-2 elderly person; not every parent or the adjective old alone.
+年轻人|nian2 qing1 ren2|người trẻ; thanh niên|noun|很多年轻人喜欢运动。|Hěn duō niánqīngrén xǐhuan yùndòng.|Nhiều người trẻ thích vận động.|Nianqingren2-1-2 young people noun, no gender restriction.
+耳朵|er3 duo5|tai|noun|我的耳朵有点儿疼。|Wǒ de ěrduo yǒudiǎnr téng.|Tai tôi hơi đau.|Neutral duo in everyday ear noun; distinction from literary 耳 is retained.
+鼻子|bi2 zi5|mũi|noun|他的鼻子很高。|Tā de bízi hěn gāo.|Sống mũi anh ấy cao.|Bizi2-5 nose; Vietnamese bridge-of-nose translation reflects natural 高鼻子 context.
+嘴巴|zui3 ba5|miệng|noun|请张开嘴巴。|Qǐng zhāngkāi zuǐba.|Xin há miệng.|Neutral ba suffix, not particle 吧; mouth noun synonymous with spoken 嘴.
+牙齿|ya2 chi3|răng|noun|每天都要刷牙，保护牙齿。|Měitiān dōu yào shuā yá, bǎohù yáchǐ.|Mỗi ngày đều cần đánh răng để bảo vệ răng.|Yachi2-3 teeth collective; hygiene sentence natural and translation preserves purpose.
+胳膊|ge1 bo5|cánh tay|noun|我的胳膊很疼。|Wǒ de gēbo hěn téng.|Cánh tay tôi rất đau.|Choose standard gēbo with neutral bo; no ge2 alternative silently added.
+脚趾|jiao3 zhi3|ngón chân|noun|我的脚趾受伤了。|Wǒ de jiǎozhǐ shòushāng le.|Ngón chân tôi bị thương rồi.|Jiaozhi3-3 citation tones retained; not hand finger 手指.
+手指|shou3 zhi3|ngón tay|noun|他的手指很长。|Tā de shǒuzhǐ hěn cháng.|Ngón tay anh ấy rất dài.|Shouzhi3-3 finger; citation third tones retained without unstable sandhi key.
+脖子|bo2 zi5|cổ|noun|我的脖子有点儿疼。|Wǒ de bózi yǒudiǎnr téng.|Cổ tôi hơi đau.|Bozi2-5 neck, not throat 喉咙; neutral zi suffix.
+膝盖|xi1 gai4|đầu gối|noun|他的膝盖受伤了。|Tā de xīgài shòushāng le.|Đầu gối anh ấy bị thương rồi.|Xigai1-4 knee; do not neutralize gài in canonical key.
+头疼|tou2 teng2|đau đầu|verb; adjective|我今天有点儿头疼。|Wǒ jīntiān yǒudiǎnr tóuténg.|Hôm nay tôi hơi đau đầu.|Touteng2-2 physical headache only; synonym of 头痛 but distinct written headword.
+感冒|gan3 mao4|cảm lạnh; bị cảm|noun; verb|他感冒了。|Tā gǎnmào le.|Anh ấy bị cảm rồi.|Ganmao3-4 common cold; not generic influenza 流感.
+药店|yao4 dian4|hiệu thuốc; nhà thuốc|noun|附近有药店吗？|Fùjìn yǒu yàodiàn ma?|Gần đây có nhà thuốc không?|Yaodian4-4 pharmacy, distinct from hospital 医院.
+时间|shi2 jian1|thời gian|noun|你现在有时间吗？|Nǐ xiànzài yǒu shíjiān ma?|Bây giờ bạn có thời gian không?|Shijian2-1 duration/available time, not the question when alone.
+白天|bai2 tian1|ban ngày|noun; time|我白天上班。|Wǒ báitiān shàngbān.|Tôi đi làm vào ban ngày.|Baitian2-1 daytime, literal white sky would be incorrect here.
+夜里|ye4 li5|ban đêm|noun; time|夜里很安静。|Yèli hěn ānjìng.|Ban đêm rất yên tĩnh.|Yeli4-5 locative suffix neutral li in this time noun.
+晚安|wan3 an1|chúc ngủ ngon|phrase|晚安，明天见！|Wǎn'ān, míngtiān jiàn!|Chúc ngủ ngon, hẹn gặp ngày mai!|Wan3 an1 needs apostrophe in compact example; bedtime farewell, not evening greeting.
+周末|zhou1 mo4|cuối tuần|noun; time|周末你想做什么？|Zhōumò nǐ xiǎng zuò shénme?|Cuối tuần bạn muốn làm gì?|Zhoumo1-4 weekend, example asks planned activity.
+周一|zhou1 yi1|thứ Hai|noun; time|我们周一上课。|Wǒmen zhōuyī shàngkè.|Chúng tôi học vào thứ Hai.|Zhou1 yi1 citation Monday, numeral not changed to a sandhi lexical identity.
+星期一|xing1 qi1 yi1|thứ Hai|noun; time|星期一我有课。|Xīngqīyī wǒ yǒu kè.|Thứ Hai tôi có tiết học.|Full Monday name xing1 qi1 yi1, synonym of 周一 but not duplicate key.
+星期二|xing1 qi1 er4|thứ Ba|noun; time|星期二我去学校。|Xīngqī'èr wǒ qù xuéxiào.|Thứ Ba tôi đến trường.|Tuesday is Vietnamese thứ Ba; apostrophe before ér vowel initial is marked.
+星期三|xing1 qi1 san1|thứ Tư|noun; time|星期三我们有考试。|Xīngqīsān wǒmen yǒu kǎoshì.|Thứ Tư chúng tôi có bài thi.|Wednesday maps to thứ Tư, not third day as Vietnamese thứ Ba.
+星期四|xing1 qi1 si4|thứ Năm|noun; time|星期四我去看朋友。|Xīngqīsì wǒ qù kàn péngyou.|Thứ Năm tôi đi thăm bạn.|Thursday numbering mapped correctly to Vietnamese thứ Năm.
+星期五|xing1 qi1 wu3|thứ Sáu|noun; time|星期五我没有课。|Xīngqīwǔ wǒ méiyǒu kè.|Thứ Sáu tôi không có tiết học.|Friday maps to thứ Sáu; negation 没有 appropriate for having no class.
+星期六|xing1 qi1 liu4|thứ Bảy|noun; time|星期六我在家休息。|Xīngqīliù wǒ zài jiā xiūxi.|Thứ Bảy tôi nghỉ ở nhà.|Saturday maps to thứ Bảy, neutral xi in 休息 is intentional.
+星期日|xing1 qi1 ri4|Chủ nhật|noun; time|星期日我们去公园。|Xīngqīrì wǒmen qù gōngyuán.|Chủ nhật chúng tôi đi công viên.|Sunday formal variant with 日, not a new eighth weekday.
+星期天|xing1 qi1 tian1|Chủ nhật|noun; time|星期天我不用上班。|Xīngqītiān wǒ bú yòng shàngbān.|Chủ nhật tôi không cần đi làm.|Sunday spoken variant; bú yòng follows contextual 不 sandhi.
+今年|jin1 nian2|năm nay|noun; time|我今年二十岁。|Wǒ jīnnián èrshí suì.|Năm nay tôi hai mươi tuổi.|Jinnian1-2 this year, standard no-copula age statement.
+生日|sheng1 ri4|sinh nhật|noun|祝你生日快乐！|Zhù nǐ shēngrì kuàilè!|Chúc bạn sinh nhật vui vẻ!|Shengri1-4 birthday, conventional greeting and translation align.
+秒钟|miao3 zhong1|giây (đơn vị thời gian)|noun|请等十秒钟。|Qǐng děng shí miǎozhōng.|Xin đợi mười giây.|Miaozhong3-1 seconds, not minutes 分钟.
+夜|ye4|đêm|noun|夜深了，请早点睡。|Yè shēn le, qǐng zǎodiǎn shuì.|Đêm đã khuya, xin ngủ sớm một chút.|Ye4 night noun; 夜深了 is natural, not the liquid 液 despite same sound.
+今天晚上|jin1 tian1 wan3 shang5|tối nay|phrase; time|今天晚上我在家。|Jīntiān wǎnshang wǒ zài jiā.|Tối nay tôi ở nhà.|Transparent beginner time phrase intentionally labelled phrase, neutral shang in 晚上.
+以前|yi3 qian2|trước đây; trước khi|noun; time|我以前住在北京。|Wǒ yǐqián zhù zài Běijīng.|Trước đây tôi sống ở Bắc Kinh.|Yiqian3-2 before/previously, not time duration alone.
+以后|yi3 hou4|sau này; sau khi|noun; time|下课以后我们去吃饭。|Xiàkè yǐhòu wǒmen qù chīfàn.|Sau giờ học chúng tôi đi ăn cơm.|Yihou3-4 follows the event 下课, natural after construction.
+刚才|gang1 cai2|vừa nãy|noun; time|你刚才去哪儿了？|Nǐ gāngcái qù nǎr le?|Vừa nãy bạn đi đâu vậy?|Gangcai1-2 recent past time word, distinguished from 刚 adverb.
+还没|hai2 mei2|vẫn chưa|phrase; adverb|我还没吃饭。|Wǒ hái méi chīfàn.|Tôi vẫn chưa ăn cơm.|Hai2 mei2 not-yet phrase; 还 is hai2 here, not return huan2.
+一会儿|yi1 hui4 er5|một lát; một chút thời gian|noun; time|请等一会儿。|Qǐng děng yíhuìr.|Xin đợi một lát.|Citation yi1 hui4 er5 retained; example realizes 一 sandhi and erhua as yíhuìr.
+每天|mei3 tian1|mỗi ngày; hằng ngày|noun; time|我每天学习汉语。|Wǒ měitiān xuéxí Hànyǔ.|Tôi học tiếng Trung mỗi ngày.|Meitian3-1 daily frequency expression, no past-only inference.
+每年|mei3 nian2|mỗi năm; hằng năm|noun; time|我们每年都回家。|Wǒmen měinián dōu huí jiā.|Chúng tôi năm nào cũng về nhà.|Meinian3-2 every year, 每 and 都 cooperate naturally.
+每月|mei3 yue4|mỗi tháng; hằng tháng|noun; time|我每月读两本书。|Wǒ měiyuè dú liǎng běn shū.|Tôi đọc hai quyển sách mỗi tháng.|Meiyue3-4 each month; 两 plus 本 correctly counts books.
+每周|mei3 zhou1|mỗi tuần; hằng tuần|noun; time|我们每周上三次课。|Wǒmen měizhōu shàng sān cì kè.|Chúng tôi học ba buổi mỗi tuần.|Meizhou3-1 weekly frequency; 次 counts occurrences, not weeks.
+有时候|you3 shi2 hou5|đôi khi; có lúc|adverb|我有时候坐公交车。|Wǒ yǒu shíhou zuò gōngjiāochē.|Đôi khi tôi đi xe buýt.|You3 shi2 hou5 with neutral hou; frequency sense not a literal possession of time.
+一起|yi1 qi3|cùng nhau|adverb|我们一起吃饭吧。|Wǒmen yìqǐ chīfàn ba.|Chúng ta cùng ăn cơm nhé.|Citation yi1 qi3, spoken yìqǐ before third-tone 起; no erroneous stable yi4 key.
+房子|fang2 zi5|nhà; căn nhà|noun|这座房子很漂亮。|Zhè zuò fángzi hěn piàoliang.|Ngôi nhà này rất đẹp.|Fangzi2-5 house/building, not necessarily a single room.
+卧室|wo4 shi4|phòng ngủ|noun|卧室里有一张床。|Wòshì lǐ yǒu yì zhāng chuáng.|Trong phòng ngủ có một chiếc giường.|Woshi4-4 bedroom, classifier 张 correctly applies to bed.
+门口|men2 kou3|cửa ra vào; ngay cửa|noun; locality|我在门口等你。|Wǒ zài ménkǒu děng nǐ.|Tôi đợi bạn ở cửa.|Menkou2-3 doorway location, not the door panel alone.
+窗户|chuang1 hu5|cửa sổ|noun|请打开窗户。|Qǐng dǎkāi chuānghu.|Xin mở cửa sổ.|Chuanghu1-5 neutral hu; differs from bed chuang2.
+床上|chuang2 shang4|trên giường|phrase; locality|猫在床上睡觉。|Māo zài chuáng shang shuìjiào.|Con mèo ngủ trên giường.|Locative phrase citation shang4; locative shang is unstressed in the connected example.
+电话|dian4 hua4|điện thoại; cuộc gọi điện thoại|noun|你的电话号码是多少？|Nǐ de diànhuà hàomǎ shì duōshao?|Số điện thoại của bạn là bao nhiêu?|Dianhua4-4 phone/call; number collocation and Vietnamese align.
+水杯|shui3 bei1|cốc uống nước|noun|这是我的水杯。|Zhè shì wǒ de shuǐbēi.|Đây là cốc uống nước của tôi.|Shuibei3-1 vessel, not the quantified phrase a cup of water 一杯水.
+碗筷|wan3 kuai4|bát đũa|noun|请把碗筷放在桌子上。|Qǐng bǎ wǎnkuài fàng zài zhuōzi shang.|Xin đặt bát đũa lên bàn.|Wankuai3-4 tableware pair, not literal rice bowl only.
+盘子|pan2 zi5|đĩa|noun|盘子里有水果。|Pánzi lǐ yǒu shuǐguǒ.|Trong đĩa có trái cây.|Panzi2-5 plate, neutral zi and locative 里 are natural.
+书包|shu1 bao1|cặp sách; ba lô đi học|noun|我的书包里有三本书。|Wǒ de shūbāo lǐ yǒu sān běn shū.|Trong cặp sách của tôi có ba quyển sách.|Shubao1-1 schoolbag, not any parcel of books.
+皮包|pi2 bao1|túi da|noun|这个皮包很贵。|Zhège píbāo hěn guì.|Chiếc túi da này rất đắt.|Pibao2-1 leather bag; not automatically wallet 钱包.
+洗脸|xi3 lian3|rửa mặt|verb|我每天早上洗脸。|Wǒ měitiān zǎoshang xǐ liǎn.|Tôi rửa mặt mỗi sáng.|Xilian3-3 verb-object phrase, literal face washing not general bathing.
+开门|kai1 men2|mở cửa|verb|请帮我开门。|Qǐng bāng wǒ kāi mén.|Xin giúp tôi mở cửa.|Kaimen1-2 opening a door, no assumption of a business-opening sense.
+关门|guan1 men2|đóng cửa|verb|出去的时候请关门。|Chūqù de shíhou qǐng guān mén.|Khi đi ra ngoài, xin đóng cửa.|Guanmen1-2 closing door; time clause translation preserved.
+馒头|man2 tou5|bánh màn thầu (bánh hấp không nhân)|noun|我早上吃了两个馒头。|Wǒ zǎoshang chī le liǎng ge mántou.|Buổi sáng tôi đã ăn hai chiếc bánh màn thầu.|Mantou2-5 plain steamed bun; distinguish filled 包子.
+豆浆|dou4 jiang1|sữa đậu nành|noun|我喜欢喝热豆浆。|Wǒ xǐhuan hē rè dòujiāng.|Tôi thích uống sữa đậu nành nóng.|Doujiang4-1 soy milk, not soy sauce 酱油.
+白酒|bai2 jiu3|rượu trắng Trung Quốc; rượu chưng cất từ ngũ cốc|noun|他不喝白酒。|Tā bù hē báijiǔ.|Anh ấy không uống rượu trắng Trung Quốc.|Baijiu2-3 Chinese distilled spirit, explicitly not white wine.
+饮料|yin3 liao4|đồ uống|noun|你想喝什么饮料？|Nǐ xiǎng hē shénme yǐnliào?|Bạn muốn uống đồ uống gì?|Yinliao3-4 beverage category, not water only.
+开水|kai1 shui3|nước đun sôi|noun|请给我一杯开水。|Qǐng gěi wǒ yì bēi kāishuǐ.|Xin cho tôi một cốc nước đun sôi.|Kaishui1-3 boiled water; does not mean opening water or necessarily currently boiling.
+热水|re4 shui3|nước nóng|noun|杯子里有热水。|Bēizi lǐ yǒu rèshuǐ.|Trong cốc có nước nóng.|Reshui4-3 hot water, distinct from boiled-water process 开水.
+冷水|leng3 shui3|nước lạnh|noun|我想喝冷水。|Wǒ xiǎng hē lěngshuǐ.|Tôi muốn uống nước lạnh.|Lengshui3-3 cold water; citation third tones retained.
+水果|shui3 guo3|trái cây; hoa quả|noun|我每天都吃水果。|Wǒ měitiān dōu chī shuǐguǒ.|Ngày nào tôi cũng ăn trái cây.|Shuiguo3-3 collective fruit noun, not literal water result.
+香蕉|xiang1 jiao1|chuối|noun|我买了三根香蕉。|Wǒ mǎi le sān gēn xiāngjiāo.|Tôi đã mua ba quả chuối.|Xiangjiao1-1 banana; 根 is a natural classifier for individual bananas.
+橘子|ju2 zi5|quýt|noun|这个橘子很甜。|Zhège júzi hěn tián.|Quả quýt này rất ngọt.|Juzi2-5 mandarin/tangerine, distinguished from 橙子 orange.
+橙子|cheng2 zi5|cam|noun|我想买两个橙子。|Wǒ xiǎng mǎi liǎng ge chéngzi.|Tôi muốn mua hai quả cam.|Chengzi2-5 orange fruit, neutral zi; not tangerine 橘子.
+草莓|cao3 mei2|dâu tây|noun|这些草莓很新鲜。|Zhèxiē cǎoméi hěn xīnxiān.|Những quả dâu tây này rất tươi.|Caomei3-2 strawberry; dâu tây avoids confusion with mulberry.
+桃子|tao2 zi5|quả đào|noun|这个桃子很甜。|Zhège táozi hěn tián.|Quả đào này rất ngọt.|Taozi2-5 peach fruit; no botanical tree sense needed.
+梨|li2|quả lê|noun|我吃了一个梨。|Wǒ chī le yí ge lí.|Tôi đã ăn một quả lê.|Li2 pear, distinct from locative 里 li3; yí ge is contextual 一 before ge4-derived classifier.
+蔬菜|shu1 cai4|rau; rau củ|noun|多吃蔬菜对身体好。|Duō chī shūcài duì shēntǐ hǎo.|Ăn nhiều rau tốt cho sức khỏe.|Shucai1-4 vegetables, broad category rather than fruit.
+白菜|bai2 cai4|cải thảo; cải trắng|noun|今天我们吃白菜。|Jīntiān wǒmen chī báicài.|Hôm nay chúng tôi ăn cải thảo.|Baicai2-4 Chinese cabbage; gloss qualified as cải trắng, not generic all white vegetables.
+西红柿|xi1 hong2 shi4|cà chua|noun|这个西红柿很大。|Zhège xīhóngshì hěn dà.|Quả cà chua này rất to.|Xihongshi1-2-4 tomato; canonical shì full fourth tone.
+土豆|tu3 dou4|khoai tây|noun|我买了两斤土豆。|Wǒ mǎi le liǎng jīn tǔdòu.|Tôi đã mua một ki-lô-gam khoai tây.|Tudou3-4 potato; two mainland 斤 equal one kilogram, translation makes measure accurate.
+黄瓜|huang2 gua1|dưa chuột; dưa leo|noun|这根黄瓜很新鲜。|Zhè gēn huángguā hěn xīnxiān.|Quả dưa chuột này rất tươi.|Huanggua2-1 cucumber with 根 classifier; not yellow melon by literal character translation.
+胡萝卜|hu2 luo2 bo5|cà rốt|noun|我喜欢吃胡萝卜。|Wǒ xǐhuan chī húluóbo.|Tôi thích ăn cà rốt.|Huluobo2-2-5 carrot; neutral bo is retained, not generic radish.
+鸡肉|ji1 rou4|thịt gà|noun|这碗汤里有鸡肉。|Zhè wǎn tāng lǐ yǒu jīròu.|Trong bát canh này có thịt gà.|Jirou1-4 chicken meat, distinct from living chicken headword.
+牛肉|niu2 rou4|thịt bò|noun|我想吃牛肉面。|Wǒ xiǎng chī niúròu miàn.|Tôi muốn ăn mì thịt bò.|Niurou2-4 beef; food compound example is ordinary.
+猪肉|zhu1 rou4|thịt lợn; thịt heo|noun|这个菜里有猪肉。|Zhège cài lǐ yǒu zhūròu.|Trong món này có thịt lợn.|Zhurou1-4 pork, Vietnamese regional synonyms preserved.
+鱼肉|yu2 rou4|thịt cá|noun|这个菜是用鱼肉做的。|Zhège cài shì yòng yúròu zuò de.|Món này được làm bằng thịt cá.|Yurou2-4 literal fish flesh food sense; literary exploit sense intentionally omitted.
+盐|yan2|muối|noun|汤里不要放太多盐。|Tāng lǐ bú yào fàng tài duō yán.|Đừng cho quá nhiều muối vào canh.|Yan2 salt; negative request and mass noun are natural.
+油|you2|dầu; dầu ăn|noun|做这个菜要放一点儿油。|Zuò zhège cài yào fàng yìdiǎnr yóu.|Nấu món này cần cho một chút dầu ăn.|You2 oil, food example selects cooking oil rather than petroleum.
+醋|cu4|giấm|noun|吃饺子的时候可以加点儿醋。|Chī jiǎozi de shíhou kěyǐ jiā diǎnr cù.|Khi ăn sủi cảo có thể thêm một chút giấm.|Cu4 vinegar, not metaphorical jealousy in this food lesson.
+辣椒|la4 jiao1|ớt|noun|我不喜欢吃辣椒。|Wǒ bù xǐhuan chī làjiāo.|Tôi không thích ăn ớt.|Lajiao4-1 chili pepper, not black pepper 胡椒.
+早餐|zao3 can1|bữa sáng|noun|你吃早餐了吗？|Nǐ chī zǎocān le ma?|Bạn ăn sáng chưa?|Zaocan3-1 breakfast, meal noun interchangeable in sense with 早饭.
+午饭|wu3 fan4|bữa trưa; cơm trưa|noun|我们一起吃午饭吧。|Wǒmen yìqǐ chī wǔfàn ba.|Chúng ta cùng ăn trưa nhé.|Wufan3-4 lunch, not afternoon snack.
+晚饭|wan3 fan4|bữa tối; cơm tối|noun|晚饭我想吃面条。|Wǎnfàn wǒ xiǎng chī miàntiáo.|Bữa tối tôi muốn ăn mì.|Wanfan3-4 evening meal, not midnight meal only.
+早饭|zao3 fan4|bữa sáng; cơm sáng|noun|我每天七点吃早饭。|Wǒ měitiān qī diǎn chī zǎofàn.|Tôi ăn sáng lúc bảy giờ mỗi ngày.|Zaofan3-4 breakfast; meal need not consist of rice despite 饭.
+餐厅|can1 ting1|nhà hàng; phòng ăn|noun|这家餐厅的菜很好吃。|Zhè jiā cāntīng de cài hěn hǎochī.|Đồ ăn của nhà hàng này rất ngon.|Canting1-1 restaurant/dining room, establishment classifier 家 in restaurant example.
+好吃|hao3 chi1|ngon (đồ ăn)|adjective|这碗面很好吃。|Zhè wǎn miàn hěn hǎochī.|Bát mì này rất ngon.|Hao3 chi1 tasty, exclude hao4 chi1 fond-of-eating reading.
+好喝|hao3 he1|ngon (đồ uống)|adjective|这杯茶很好喝。|Zhè bēi chá hěn hǎohē.|Cốc trà này rất ngon.|Hao3 he1 pleasant to drink, not hao4 he1 liking alcohol/drinking.
+学校|xue2 xiao4|trường học|noun|我每天走路去学校。|Wǒ měitiān zǒulù qù xuéxiào.|Tôi đi bộ đến trường mỗi ngày.|Xuexiao2-4 school; everyday missing core noun, not 校 alone.
+车站|che1 zhan4|bến xe; nhà ga|noun|车站在学校旁边。|Chēzhàn zài xuéxiào pángbiān.|Bến xe ở cạnh trường học.|Chezhan1-4 general transport station, not restricted to railway only.
+地铁站|di4 tie3 zhan4|ga tàu điện ngầm|noun|地铁站离这里很近。|Dìtiězhàn lí zhèlǐ hěn jìn.|Ga tàu điện ngầm cách đây rất gần.|Ditiezhan4-3-4 subway station; 离 distance construction matches translation.
+酒店|jiu3 dian4|khách sạn|noun|我们住在这家酒店。|Wǒmen zhù zài zhè jiā jiǔdiàn.|Chúng tôi ở khách sạn này.|Jiudian3-4 modern hotel meaning; not literally a wine shop in this travel context.
+越南|yue4 nan2|Việt Nam|proper noun|我来自越南。|Wǒ láizì Yuènán.|Tôi đến từ Việt Nam.|Country Yuènán has fourth then second tone; proper name capitalization in example.
+河内|he2 nei4|Hà Nội|proper noun|河内是越南的首都。|Hénèi shì Yuènán de shǒudū.|Hà Nội là thủ đô của Việt Nam.|Henei2-4 is established Hanoi name, not a literal river-inside gloss.
+胡志明市|hu2 zhi4 ming2 shi4|Thành phố Hồ Chí Minh|proper noun|我住在胡志明市。|Wǒ zhù zài Húzhìmíng Shì.|Tôi sống ở Thành phố Hồ Chí Minh.|Huzhimingshi2-4-2-4 proper city name; 市 is city suffix, not market here.
+中文|zhong1 wen2|tiếng Trung; chữ viết tiếng Trung|noun|我在学习中文。|Wǒ zài xuéxí Zhōngwén.|Tôi đang học tiếng Trung.|Zhongwen1-2 Chinese language/writing; no claim it is limited to Mandarin speech only.
+越南语|yue4 nan2 yu3|tiếng Việt|noun|他会说越南语。|Tā huì shuō Yuènányǔ.|Anh ấy biết nói tiếng Việt.|Yuenanyu4-2-3 Vietnamese language, not nationality adjective alone.
+英语|ying1 yu3|tiếng Anh|noun|你会说英语吗？|Nǐ huì shuō Yīngyǔ ma?|Bạn biết nói tiếng Anh không?|Yingyu1-3 English language; no confusion with yīn nasal ending.
+摩托车|mo2 tuo1 che1|xe máy; mô tô|noun|他骑摩托车去上班。|Tā qí mótuōchē qù shàngbān.|Anh ấy đi xe máy đến chỗ làm.|Motuoche2-1-1 motorcycle; riding uses 骑 rather than 开 in example.
+汽车|qi4 che1|ô tô; xe hơi|noun|这辆汽车是他的。|Zhè liàng qìchē shì tā de.|Chiếc ô tô này là của anh ấy.|Qiche4-1 automobile with classifier 辆, distinct from 骑车.
+火车|huo3 che1|tàu hỏa; xe lửa|noun|我坐火车去北京。|Wǒ zuò huǒchē qù Běijīng.|Tôi đi tàu hỏa đến Bắc Kinh.|Huoche3-1 train; passenger takes 坐, not vehicle-driving verb.
+地铁|di4 tie3|tàu điện ngầm; hệ thống tàu điện ngầm|noun|坐地铁很方便。|Zuò dìtiě hěn fāngbiàn.|Đi tàu điện ngầm rất tiện.|Ditie4-3 metro; not railroad in general.
+轮船|lun2 chuan2|tàu thủy|noun|我们坐轮船去旅行。|Wǒmen zuò lúnchuán qù lǚxíng.|Chúng tôi đi du lịch bằng tàu thủy.|Lunchuan2-2 powered ship/steamer; not any tiny boat.
+马路|ma3 lu4|đường phố; đường giao thông|noun|过马路要小心。|Guò mǎlù yào xiǎoxīn.|Qua đường phải cẩn thận.|Malu3-4 roadway, not horse path by literal character reading.
+红绿灯|hong2 lü4 deng1|đèn giao thông|noun|过马路要看红绿灯。|Guò mǎlù yào kàn hónglǜdēng.|Khi qua đường phải chú ý đèn giao thông.|Honglüdeng2-4-1 traffic signal; ü retained rather than lu4.
+路口|lu4 kou3|giao lộ; ngã đường|noun|请在前面的路口左转。|Qǐng zài qiánmiàn de lùkǒu zuǒzhuǎn.|Xin rẽ trái ở giao lộ phía trước.|Lukou4-3 intersection, direction and Vietnamese agree.
+上面|shang4 mian4|phía trên; bên trên|noun; locality|书在桌子上面。|Shū zài zhuōzi shàngmiàn.|Sách ở trên bàn.|Shang4 mian4 canonical full tones; above/on sense determined by table context.
+下面|xia4 mian4|phía dưới; bên dưới|noun; locality|猫在桌子下面。|Māo zài zhuōzi xiàmiàn.|Con mèo ở dưới bàn.|Xia4 mian4 canonical full tones; no lower-body euphemistic senses added.
+附近|fu4 jin4|gần đây; khu vực lân cận|noun; locality|附近有超市吗？|Fùjìn yǒu chāoshì ma?|Gần đây có siêu thị không?|Fujin4-4 spatial nearby, not temporal recently.
+上学|shang4 xue2|đi học; theo học ở trường|verb|我每天八点去上学。|Wǒ měitiān bā diǎn qù shàngxué.|Tôi đi học lúc tám giờ mỗi ngày.|Shangxue4-2 attend school, distinguished from attending one class 上课.
+放学|fang4 xue2|tan học|verb|我们下午四点放学。|Wǒmen xiàwǔ sì diǎn fàngxué.|Chúng tôi tan học lúc bốn giờ chiều.|Fangxue4-2 school dismissal, not leaving an individual class only.
+上课|shang4 ke4|học trên lớp; giảng dạy trên lớp; vào tiết học|verb|老师开始上课了。|Lǎoshī kāishǐ shàngkè le.|Thầy cô bắt đầu giảng bài rồi.|Shangke4-4 conduct/attend class depending on subject; teacher example selects conducting.
+下课|xia4 ke4|hết tiết; tan lớp|verb|下课以后我们去吃饭。|Xiàkè yǐhòu wǒmen qù chīfàn.|Sau khi hết tiết, chúng tôi đi ăn cơm.|Xiake4-4 class ends; distinguish full school-day dismissal 放学.
+复习|fu4 xi2|ôn tập|verb|我晚上复习汉语。|Wǒ wǎnshang fùxí Hànyǔ.|Buổi tối tôi ôn tập tiếng Trung.|Fuxi4-2 review already learned material, not first-time preview 预习.
+作业|zuo4 ye4|bài tập về nhà; bài tập được giao|noun|我还没做完作业。|Wǒ hái méi zuò wán zuòyè.|Tôi vẫn chưa làm xong bài tập.|Zuoye4-4 assigned work; complete complement 做完 and not-yet translation align.
+汉字|han4 zi4|chữ Hán|noun|这个汉字怎么读？|Zhège Hànzì zěnme dú?|Chữ Hán này đọc thế nào?|Hanzi4-4 written Chinese character, not the language as a whole.
+拼音|pin1 yin1|pinyin; hệ thống phiên âm Hán ngữ|noun|请写出这个字的拼音。|Qǐng xiě chū zhège zì de pīnyīn.|Xin viết pinyin của chữ này.|Pinyin1-1 phonetic spelling system, not any spelling system or translation.
+声调|sheng1 diao4|thanh điệu|noun|汉语的声调很重要。|Hànyǔ de shēngdiào hěn zhòngyào.|Thanh điệu tiếng Trung rất quan trọng.|Shengdiao1-4 tone; 调 uses diao4 rather than tiao2 adjust.
+发音|fa1 yin1|phát âm; cách phát âm|verb; noun|请听老师的发音。|Qǐng tīng lǎoshī de fāyīn.|Xin nghe cách phát âm của giáo viên.|Fayin1-1 pronunciation, not fa4 hair; noun sense used after 的.
+写字|xie3 zi4|viết chữ|verb|孩子正在写字。|Háizi zhèngzài xiě zì.|Đứa trẻ đang viết chữ.|Xiezi3-4 write characters, not compose an essay necessarily.
+读书|du2 shu1|đọc sách; đi học|verb|我每天晚上读书。|Wǒ měitiān wǎnshang dú shū.|Tôi đọc sách mỗi tối.|Dushu2-1 book reading/studying; example selects reading activity.
+看书|kan4 shu1|đọc sách|verb|她在图书馆看书。|Tā zài túshūguǎn kàn shū.|Cô ấy đọc sách ở thư viện.|Kanshu4-1 reading rather than literally looking at a cover; no kan1 watch reading.
+走路|zou3 lu4|đi bộ|verb|我走路去上班。|Wǒ zǒulù qù shàngbān.|Tôi đi bộ đến chỗ làm.|Zoulu3-4 walking, not driving or a particular road noun.
+骑车|qi2 che1|đi xe đạp hoặc xe hai bánh bằng cách cưỡi|verb|我每天骑车去学校。|Wǒ měitiān qí chē qù xuéxiào.|Tôi đạp xe đến trường mỗi ngày.|Qiche2-1 ride a cycle; translation selects usual bicycle interpretation, unlike 汽车 qi4 che1.
+坐车|zuo4 che1|đi xe (với tư cách hành khách)|verb|从这里坐车去车站很方便。|Cóng zhèlǐ zuò chē qù chēzhàn hěn fāngbiàn.|Từ đây đi xe đến bến xe rất tiện.|Zuoche4-1 passenger transport, distinct from driving 开车.
+打车|da3 che1|gọi xe; đi taxi|verb|太晚了，我们打车回家吧。|Tài wǎn le, wǒmen dǎchē huí jiā ba.|Muộn quá rồi, chúng ta đi taxi về nhà nhé.|Dache3-1 hire/take a taxi, not hitting a vehicle literally.
+上网|shang4 wang3|lên mạng; truy cập Internet|verb|我用手机上网。|Wǒ yòng shǒujī shàngwǎng.|Tôi dùng điện thoại để lên mạng.|Shangwang4-3 go online, not fishing-net sense.
+聊天|liao2 tian1|trò chuyện; tán gẫu|verb|我喜欢跟朋友聊天。|Wǒ xǐhuan gēn péngyou liáotiān.|Tôi thích trò chuyện với bạn bè.|Liaotian2-1 conversational chatting, no required online medium.
+照相|zhao4 xiang4|chụp ảnh|verb|我们在公园照相。|Wǒmen zài gōngyuán zhàoxiàng.|Chúng tôi chụp ảnh ở công viên.|Zhaoxiang4-4 take photographs; not look at a picture.
+拍照|pai1 zhao4|chụp ảnh|verb|这里可以拍照吗？|Zhèlǐ kěyǐ pāizhào ma?|Ở đây có được chụp ảnh không?|Paizhao1-4 photograph, distinct orthographic synonym of 照相.
+买东西|mai3 dong1 xi5|mua đồ; đi mua sắm|verb phrase|我去超市买东西。|Wǒ qù chāoshì mǎi dōngxi.|Tôi đến siêu thị mua đồ.|Mai3 dong1 xi5 shopping phrase, neutral xi meaning things rather than east-west directions.
+付钱|fu4 qian2|trả tiền; thanh toán|verb|我用手机付钱。|Wǒ yòng shǒujī fù qián.|Tôi dùng điện thoại để thanh toán.|Fuqian4-2 pay, not receive change 找钱.
+找钱|zhao3 qian2|trả lại tiền thừa|verb|我付了钱，服务员还没找钱。|Wǒ fù le qián, fúwùyuán hái méi zhǎo qián.|Tôi đã trả tiền, nhân viên phục vụ vẫn chưa trả lại tiền thừa.|Zhaoqian3-2 give change in transaction; context excludes literal searching for money.
+帮忙|bang1 mang2|giúp đỡ|verb|谢谢你来帮忙。|Xièxie nǐ lái bāngmáng.|Cảm ơn bạn đã đến giúp.|Bangmang1-2 help out; no ungrammatical 帮忙我 direct object pattern.
+旅行|lü3 xing2|du lịch; đi xa|verb; noun|我想去越南旅行。|Wǒ xiǎng qù Yuènán lǚxíng.|Tôi muốn đi du lịch Việt Nam.|Lüxing3-2 travel with ü, not 履行 lü3 xing2 carry out despite homophony.
+打球|da3 qiu2|chơi bóng|verb|放学以后我们去打球。|Fàngxué yǐhòu wǒmen qù dǎ qiú.|Sau khi tan học, chúng tôi đi chơi bóng.|Daqiu3-2 ball sports using hands/racket; not a universal instruction for kicking football.
+打开|da3 kai1|mở|verb|请打开这本书。|Qǐng dǎkāi zhè běn shū.|Xin mở quyển sách này.|Dakai3-1 open object; book example is natural, not turn on only.
+关闭|guan1 bi4|đóng; tắt|verb|请关闭手机。|Qǐng guānbì shǒujī.|Xin tắt điện thoại.|Guanbi1-4 shut/turn off; formal but useful UI/device term.
+进入|jin4 ru4|đi vào; bước vào|verb|请不要进入这个房间。|Qǐng bú yào jìnrù zhège fángjiān.|Xin đừng vào căn phòng này.|Jinru4-4 enter with direct place object; bú yào imperative sandhi correct.
+出去|chu1 qu4|đi ra ngoài|verb|我想出去走走。|Wǒ xiǎng chūqù zǒuzou.|Tôi muốn ra ngoài đi dạo một chút.|Chu1 qu4 citation directional verb, not 来 toward speaker; reduplicated 走走 neutral second syllable.
+回来|hui2 lai2|trở về; quay lại đây|verb|你什么时候回来？|Nǐ shénme shíhou huílái?|Khi nào bạn quay về?|Hui2 lai2 citation tones; direction toward reference/speaker retained in Vietnamese.
+回家|hui2 jia1|về nhà|verb|我下班以后回家。|Wǒ xiàbān yǐhòu huí jiā.|Tôi về nhà sau khi tan làm.|Huijia2-1 return home, not go back to any location.
+听见|ting1 jian4|nghe thấy|verb|你听见了吗？|Nǐ tīngjiàn le ma?|Bạn nghe thấy chưa?|Tingjian1-4 result of hearing, not merely listening intentionally.
+需要|xu1 yao4|cần|verb|我需要你的帮助。|Wǒ xūyào nǐ de bāngzhù.|Tôi cần sự giúp đỡ của bạn.|Xuyao1-4 need with noun phrase object, not wish alone.
+应该|ying1 gai1|nên; cần phải (theo lẽ phải)|modal verb|你应该早点休息。|Nǐ yīnggāi zǎodiǎn xiūxi.|Bạn nên nghỉ ngơi sớm hơn một chút.|Yinggai1-1 should, advice not certainty that an event happened.
+可以|ke3 yi3|có thể; được phép|modal verb|我可以坐这里吗？|Wǒ kěyǐ zuò zhèlǐ ma?|Tôi có thể ngồi ở đây không?|Keyi3-3 permission/possibility, third-tone citation identity stable.
+可能|ke3 neng2|có thể; có khả năng|modal verb; adjective|明天可能下雨。|Míngtiān kěnéng xià yǔ.|Ngày mai có thể mưa.|Keneng3-2 probability, not physical ability 能 alone.
+必须|bi4 xu1|phải; nhất thiết phải|adverb|明天我必须早起。|Míngtiān wǒ bìxū zǎoqǐ.|Ngày mai tôi phải dậy sớm.|Bixu4-1 necessity before verb; distinct from 必需 adjective indispensable.
+带来|dai4 lai2|mang đến|verb|请把书带来。|Qǐng bǎ shū dàilái.|Xin mang sách đến đây.|Dai4 lai2 bring toward reference point, not take away.
+拿走|na2 zou3|cầm đi; mang đi|verb|请把这些书拿走。|Qǐng bǎ zhèxiē shū názǒu.|Xin mang những quyển sách này đi.|Nazou2-3 take away result/direction, contrasts bringing 带来.
+等等|deng3 deng3|vân vân; và những thứ tương tự|particle|我买了苹果、香蕉等等。|Wǒ mǎi le píngguǒ, xiāngjiāo děngděng.|Tôi đã mua táo, chuối, vân vân.|Deng3 deng3 enumeration etc sense only; not reduplicated verb wait a moment with neutral second syllable.
+好看|hao3 kan4|đẹp; hay (khi xem hoặc đọc)|adjective|这部电影很好看。|Zhè bù diànyǐng hěn hǎokàn.|Bộ phim này rất hay.|Haokan3-4 attractive/enjoyable to watch; film classifier 部 and evaluation are natural.
+快乐|kuai4 le4|vui vẻ; hạnh phúc|adjective|祝你每天都快乐！|Zhù nǐ měitiān dōu kuàilè!|Chúc bạn ngày nào cũng vui vẻ!|Kuaile4-4 happiness; 乐 is le4 not music yue4.
+害怕|hai4 pa4|sợ; sợ hãi|verb; adjective|我有点儿害怕。|Wǒ yǒudiǎnr hàipà.|Tôi hơi sợ.|Haipa4-4 fear, no need to force a noun object in simple predicate.
+紧张|jin3 zhang1|căng thẳng; hồi hộp|adjective|考试前我很紧张。|Kǎoshì qián wǒ hěn jǐnzhāng.|Trước khi thi tôi rất hồi hộp.|Jinzhang3-1 tension/nervousness in exam context, not physical tightness alone.
+昂贵|ang2 gui4|đắt đỏ|adjective|这件衣服太昂贵了。|Zhè jiàn yīfu tài ángguì le.|Bộ quần áo này quá đắt đỏ.|Anggui2-4 costly, more formal than 贵 but useful synonym, not cheap.
+可爱|ke3 ai4|đáng yêu; dễ thương|adjective|这只猫很可爱。|Zhè zhī māo hěn kě'ài.|Con mèo này rất đáng yêu.|Ke3 ai4 requires apostrophe in compact pinyin kě'ài; adjective not the verb love.
+满|man3|đầy|adjective|杯子已经满了。|Bēizi yǐjīng mǎn le.|Cốc đã đầy rồi.|Man3 filled state, not satisfied 满意 or all items indiscriminately.
+一样|yi1 yang4|giống nhau; như nhau|adjective|这两本书一样。|Zhè liǎng běn shū yíyàng.|Hai quyển sách này giống nhau.|Citation yi1 yang4 while example yíyàng reflects 一 sandhi before yang4.
+不同|bu4 tong2|khác nhau; khác biệt|adjective|我们的名字不同。|Wǒmen de míngzi bùtóng.|Tên của chúng tôi khác nhau.|Bu4 tong2 different; 不 remains bù before second-tone 同.
+有点儿|you3 dian3 er5|hơi; có chút|adverb|今天有点儿冷。|Jīntiān yǒudiǎnr lěng.|Hôm nay hơi lạnh.|You3 dian3 er5 degree phrase commonly before undesirable states; erhua rendered yǒudiǎnr.
+一点儿|yi1 dian3 er5|một chút; một ít|quantifier|请给我一点儿水。|Qǐng gěi wǒ yìdiǎnr shuǐ.|Xin cho tôi một chút nước.|Citation yi1 dian3 er5, example yìdiǎnr quantity after 给 not pre-adjective 有点儿 pattern.
+哪儿|na3 er5|ở đâu; nơi nào|pronoun|你住在哪儿？|Nǐ zhù zài nǎr?|Bạn sống ở đâu?|Na3 er5 interrogative erhua, example nǎr not a literal separate syllable ér.
+这儿|zhe4 er5|ở đây; chỗ này|pronoun|请坐这儿。|Qǐng zuò zhèr.|Xin ngồi ở đây.|Zhe4 er5 near deictic location, example fused zhèr.
+那儿|na4 er5|ở đó; chỗ kia|pronoun|我的书在那儿。|Wǒ de shū zài nàr.|Sách của tôi ở kia.|Na4 er5 distal location, fourth tone distinguishes interrogative nǎr.
+不是|bu4 shi4|không phải|phrase|我不是老师。|Wǒ bú shì lǎoshī.|Tôi không phải là giáo viên.|Citation bu4 shi4 stable; example bú shì has contextual fourth-tone sandhi.
+不用|bu4 yong4|không cần|phrase; modal|你不用等我。|Nǐ bú yòng děng wǒ.|Bạn không cần đợi tôi.|Bu4 yong4 no need, not a prohibition equivalent to 不可以.
+不会|bu4 hui4|không biết làm; sẽ không|phrase; modal|我不会游泳。|Wǒ bú huì yóuyǒng.|Tôi không biết bơi.|Bu4 hui4 lack learned ability in example; future-will-not sense scoped separately in gloss.
+不要|bu4 yao4|đừng; không muốn|phrase; modal|请不要在这里吸烟。|Qǐng bú yào zài zhèlǐ xīyān.|Xin đừng hút thuốc ở đây.|Bu4 yao4 negative imperative selected; citation bù vs example bú before yào distinguished.
+不能|bu4 neng2|không thể; không được|phrase; modal|这里不能停车。|Zhèlǐ bù néng tíngchē.|Ở đây không được đỗ xe.|Bu4 neng2 restriction/ability negation; no fourth-tone sandhi before neng2.
+不可以|bu4 ke3 yi3|không được phép|phrase; modal|这里不可以拍照。|Zhèlǐ bù kěyǐ pāizhào.|Ở đây không được phép chụp ảnh.|Bu4 ke3 yi3 explicit prohibition, not the no-need meaning of 不用.
+然后|ran2 hou4|sau đó; rồi|conjunction|先洗手，然后吃饭。|Xiān xǐ shǒu, ránhòu chīfàn.|Rửa tay trước, sau đó ăn cơm.|Ranhou2-4 sequential connector with 先, not causal 所以.
+还是|hai2 shi4|hay là (trong câu hỏi lựa chọn); vẫn|conjunction; adverb|你喝茶还是喝咖啡？|Nǐ hē chá háishi hē kāfēi?|Bạn uống trà hay cà phê?|Hai2 shi4 citation; unstressed shi in spoken háishi, alternative-question connector not generic 或者 substitution.
+今|jin1|nay; hiện tại (yếu tố trong từ ghép)|word element|今天是星期一。|Jīntiān shì xīngqīyī.|Hôm nay là thứ Hai.|Jin1 current-time element in 今天, explicitly not a freely substitutable standalone pronoun.
+作|zuo4|làm; sáng tác (thường dùng trong từ ghép)|verb; word element|他会作诗。|Tā huì zuò shī.|Anh ấy biết làm thơ.|Zuo4 compose/do in 作诗; not falsely interchangeable with 做 in every collocation, exclude zuo1.
+儿|er2|con trai; trẻ em (thường dùng trong từ ghép)|noun; word element|他有一个儿子。|Tā yǒu yí ge érzi.|Anh ấy có một người con trai.|Er2 child/son element, explicitly different from neutral erhua suffix er5.
+午|wu3|giữa trưa (yếu tố trong từ ghép)|word element|中午我们在家吃饭。|Zhōngwǔ wǒmen zài jiā chīfàn.|Buổi trưa chúng tôi ăn cơm ở nhà.|Wu3 noon element illustrated in 中午, not a standalone replacement for 中午 in ordinary speech.
+友|you3|bạn (thường dùng trong từ ghép)|noun; word element|他是我的好友。|Tā shì wǒ de hǎoyǒu.|Anh ấy là bạn thân của tôi.|You3 friend element, expanded 好友 demonstrates register and use without claiming ordinary bare 友 address.
+喜|xi3|vui mừng; mừng|verb; word element|听到这个消息，她喜笑颜开。|Tīngdào zhège xiāoxi, tā xǐxiàoyánkāi.|Nghe tin này, cô ấy cười rạng rỡ.|Xi3 joy element; idiom example labelled compound usage rather than teaching 喜 as standalone like verb.
+国|guo2|nước; quốc gia (thường dùng trong từ ghép)|noun; word element|中国和越南都是亚洲国家。|Zhōngguó hé Yuènán dōu shì Yàzhōu guójiā.|Trung Quốc và Việt Nam đều là các quốc gia châu Á.|Guo2 nation element; natural 国家 context, not 国 as unrestricted standalone spoken noun.
+子|zi3|con; con trai (nghĩa gốc, thường trong từ ghép)|noun; word element|她有三个子女。|Tā yǒu sān ge zǐnǚ.|Bà ấy có ba người con.|Zi3 child/son element in 子女, explicitly not neutral zi5 noun suffix of 桌子.
+孙|sun1|cháu trai (thường dùng trong từ ghép)|noun; word element|他有一个孙子。|Tā yǒu yí ge sūnzi.|Ông ấy có một cháu trai.|Sun1 grandson element, example 孙子 defaults to paternal-line grandson, not granddaughter.
+工|gong1|công việc; người thợ (thường dùng trong từ ghép)|noun; word element|他是一名工人。|Tā shì yì míng gōngrén.|Anh ấy là một công nhân.|Gong1 work/worker element; 工人 context not false synonym of personal job 岗位 in every use.
+市|shi4|thành phố; chợ (thường dùng trong từ ghép)|noun; word element|这座城市很大。|Zhè zuò chéngshì hěn dà.|Thành phố này rất lớn.|Shi4 city/market element, 城市 selects city; not demonstrative 是 despite same sound.
+师|shi1|thầy; người có chuyên môn (thường dùng trong từ ghép)|noun; word element|我的老师很认真。|Wǒ de lǎoshī hěn rènzhēn.|Giáo viên của tôi rất tận tâm.|Shi1 teacher/master element, common word 老师 demonstrates usage instead of bare-address 师.
+文|wen2|văn; chữ viết; bài viết (thường dùng trong từ ghép)|noun; word element|我喜欢读中文书。|Wǒ xǐhuan dú Zhōngwén shū.|Tôi thích đọc sách tiếng Trung.|Wen2 writing/language element in 中文; do not gloss as a generic written character 字 in every context.
+时|shi2|thời gian; lúc (thường dùng trong từ ghép)|noun; word element|现在是什么时候？|Xiànzài shì shénme shíhou?|Bây giờ là lúc nào?|Shi2 time element in 时候, neutral hou; not a standalone everyday replacement for 小时.
+明|ming2|sáng; rõ; tiếp theo (trong 明天, 明年)|adjective; word element|明天我去学校。|Míngtiān wǒ qù xuéxiào.|Ngày mai tôi đến trường.|Ming2 bright/clear and next-time element; example next day, not direct equivalence 明 = tomorrow.
+易|yi4|dễ (thường dùng trong văn viết hoặc từ ghép)|adjective; word element|这个字容易写。|Zhège zì róngyì xiě.|Chữ này dễ viết.|Yi4 easy in 容易; written/bound register qualified, not all polysemous 易 senses.
+星|xing1|sao (thường dùng trong từ ghép)|noun; word element|天上有很多星星。|Tiān shang yǒu hěn duō xīngxing.|Trên trời có nhiều ngôi sao.|Xing1 star element; common spoken 星星 has neutral repeated syllable in example.
+昨|zuo2|hôm trước; ngày trước (trong từ ghép)|word element|我昨天去了学校。|Wǒ zuótiān qù le xuéxiào.|Hôm qua tôi đã đến trường.|Zuo2 previous-day element in 昨天, not a normal standalone time word in this register.
+朋|peng2|bạn (yếu tố trong từ ghép)|word element|他是我的朋友。|Tā shì wǒ de péngyou.|Anh ấy là bạn của tôi.|Peng2 friend element in 朋友, explicitly bound rather than a freely used colloquial friend noun.
+校|xiao4|trường học (yếu tố trong từ ghép)|noun; word element|学校门口有很多学生。|Xuéxiào ménkǒu yǒu hěn duō xuésheng.|Trước cổng trường có nhiều học sinh.|Xiao4 school element only; exclude jiao4 check/calibrate reading.
+桌|zhuo1|bàn (thường dùng trong từ ghép)|noun; word element|桌子上有一本书。|Zhuōzi shang yǒu yì běn shū.|Trên bàn có một quyển sách.|Zhuo1 table element, everyday noun 桌子; example does not claim bare 桌 is always interchangeable.
+椅|yi3|ghế tựa (thường dùng trong từ ghép)|noun; word element|这把椅子很舒服。|Zhè bǎ yǐzi hěn shūfu.|Chiếc ghế này rất thoải mái.|Yi3 chair element with classifier 把; not every stool 凳子.
+欢|huan1|vui; vui mừng (yếu tố trong từ ghép)|adjective; word element|孩子们玩得很欢乐。|Háizimen wán de hěn huānlè.|Bọn trẻ chơi đùa rất vui vẻ.|Huan1 joy element in 欢乐; not a standalone translation of the verb like 喜欢.
+汉|han4|Hán; thuộc người Hán hoặc tiếng Hán (trong từ ghép)|noun; word element|我想学习汉语。|Wǒ xiǎng xuéxí Hànyǔ.|Tôi muốn học tiếng Trung.|Han4 ethnic/language element illustrated by 汉语, not every Chinese nationality reduced to Han ethnicity.
+生|sheng1|sinh; sinh ra; sống (thường dùng trong từ ghép)|verb; word element|宝宝出生了。|Bǎobao chūshēng le.|Em bé đã chào đời.|Sheng1 birth/life senses only; not blanket gloss of every 学生 or raw-food compound sense.
+目|mu4|mắt (văn viết, thường dùng trong từ ghép)|noun; word element|请保护好你的双目。|Qǐng bǎohù hǎo nǐ de shuāngmù.|Xin bảo vệ tốt đôi mắt của bạn.|Mu4 literary eye in 双目; everyday equivalent 眼睛 remains separate and register explicit.
+眼|yan3|mắt|noun|她的眼很大。|Tā de yǎn hěn dà.|Mắt cô ấy rất to.|Yan3 eye noun; natural shortened form, not salt 盐 yan2.
+知|zhi1|biết (thường dùng trong từ ghép)|verb; word element|我不知道他的名字。|Wǒ bù zhīdào tā de míngzi.|Tôi không biết tên anh ấy.|Zhi1 know in 知道, not an unsupported everyday bare 知 substitution.
+老|lao3|già; cũ; lâu năm|adjective|爷爷老了。|Yéye lǎo le.|Ông đã già rồi.|Lao3 aged/old; respectful kinship context, not always negative or equivalent to obsolete.
+耳|er3|tai (văn viết, thường dùng trong từ ghép)|noun; word element|请保护好你的双耳。|Qǐng bǎohù hǎo nǐ de shuāng'ěr.|Xin bảo vệ tốt đôi tai của bạn.|Er3 ear literary/compound register, apostrophe in 双耳; not child 儿 er2.
+识|shi2|biết; nhận biết (thường dùng trong từ ghép)|verb; word element|我认识这位老师。|Wǒ rènshi zhè wèi lǎoshī.|Tôi biết vị giáo viên này.|Shi2 citation of knowledge element; neutral shi in 认识 example intentional, exclude zhi4 mark sense.
+语|yu3|ngôn ngữ; lời nói (thường dùng trong từ ghép)|noun; word element|我会说汉语和越南语。|Wǒ huì shuō Hànyǔ hé Yuènányǔ.|Tôi biết nói tiếng Trung và tiếng Việt.|Yu3 language/speech element, not yu4 tell reading; language-name examples show bound use.
+起|qi3|đứng dậy; nổi lên; bắt đầu|verb|他每天很早起床。|Tā měitiān hěn zǎo qǐchuáng.|Anh ấy dậy rất sớm mỗi ngày.|Qi3 rise/start, illustrated in get out of bed 起床; not the complete together word 一起.
+足|zu2|chân; bàn chân (văn viết, thường dùng trong từ ghép)|noun; word element|他在河边洗足。|Tā zài hébiān xǐ zú.|Anh ấy rửa chân bên sông.|Zu2 foot in literary 洗足; ordinary spoken 洗脚 is more common and register explicitly marked.
+身|shen1|thân; cơ thể (thường dùng trong từ ghép)|noun; word element|他每天锻炼身体。|Tā měitiān duànliàn shēntǐ.|Anh ấy rèn luyện thân thể mỗi ngày.|Shen1 body element illustrated by 身体; do not replace standalone colloquial 身体 with 身 indiscriminately.
+道|dao4|con đường; đạo lý (thường dùng trong từ ghép hoặc văn viết)|noun; word element|我们走人行道。|Wǒmen zǒu rénxíngdào.|Chúng tôi đi trên vỉa hè.|Dao4 way/path in 人行道, not neutral dao of 知道 or unrelated classifier sense.
+鼻|bi2|mũi (thường dùng trong từ ghép)|noun; word element|我的鼻子不舒服。|Wǒ de bízi bù shūfu.|Mũi tôi khó chịu.|Bi2 nose element with common 鼻子; neutral zi retained and register qualified.

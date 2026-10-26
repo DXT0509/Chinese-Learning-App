@@ -1,0 +1,336 @@
+{
+  "policy": "local-codex-session-v1",
+  "reviewed": 2501,
+  "accepted": 2482,
+  "unreviewed": 0,
+  "excluded": [
+    {
+      "lexical_key": "不客气|bu4 ke4 qi5",
+      "reason": "Existing source editorial hold retained"
+    },
+    {
+      "lexical_key": "没关系|mei2 guan1 xi5",
+      "reason": "Existing source editorial hold retained"
+    },
+    {
+      "lexical_key": "谁|shei2",
+      "reason": "Existing source editorial hold retained"
+    },
+    {
+      "lexical_key": "谁|shui2",
+      "reason": "Existing source editorial hold retained"
+    },
+    {
+      "lexical_key": "什么|shen2 me5",
+      "reason": "Existing source editorial hold retained"
+    },
+    {
+      "lexical_key": "厕所|ce4 suo3",
+      "reason": "Existing PostgreSQL editorial hold; versioned copy preserves NEEDS_REVIEW without changing linguistic content."
+    },
+    {
+      "lexical_key": "过去|guo4 qu5",
+      "reason": "Neutral qu5 lexical identity vs full-tone past-noun reading and mixed-sense example need resolution without changing an imported lexical key."
+    },
+    {
+      "lexical_key": "一直|yi4 zhi2",
+      "reason": "Contextual yi4 is attested, but citation identity policy and yi1/yi4 distinction need explicit reconciliation; do not rename automatically."
+    },
+    {
+      "lexical_key": "生发|sheng1 fa1",
+      "reason": "Mixed fa1 sprouting vs fa4 hair sense cannot be resolved while silently preserving a single pronunciation key; editorial sense/identity decision required."
+    },
+    {
+      "lexical_key": "一般|yi4 ban1",
+      "reason": "Need a consistent lexical citation-vs-spoken-sandhi policy for 一般|yi4 ban1 without silent key replacement."
+    },
+    {
+      "lexical_key": "活泼|huo2 po5",
+      "reason": "Verify whether neutral po5 is an accepted teaching variant or requires a different canonical pronunciation identity."
+    },
+    {
+      "lexical_key": "场|chang3",
+      "reason": "Record chang3 event senses and rain example need explicit chang2/chang3 lexical-sense decision; no silent key rewrite or sense removal."
+    },
+    {
+      "lexical_key": "一共|yi2 gong4",
+      "reason": "Need an explicit yi1 citation vs yi2 spoken-sandhi lexical identity policy for 一共."
+    },
+    {
+      "lexical_key": "不但|bu2 dan4",
+      "reason": "Need an explicit bu4 citation vs bu2 contextual-sandhi lexical identity policy for 不但."
+    },
+    {
+      "lexical_key": "引起|ying3 qi3",
+      "reason": "Incorrect headword nasal coda: imported identity ying3 qi3 conflicts with correct yin3 qi3. Preserve identity and hold for explicit repair."
+    },
+    {
+      "lexical_key": "贯彻|guan1 che4",
+      "reason": "Standard guan4 che4 conflicts with source stable lexical identity guan1 che4. Example repaired, but headword requires explicit identity repair rather than silent renaming."
+    },
+    {
+      "lexical_key": "克勤克俭|ke4 qin2 ke4 jian4",
+      "reason": "Incorrect stable pronunciation identity 克勤克俭|ke4 qin2 ke4 jian4: 俭 must jian3 (jiǎn), as already correctly transcribed in the example. Renaming the pronunciation-specific lexical key requires an explicit identity resolution; source key preserved, excluded from local acceptance."
+    },
+    {
+      "lexical_key": "质子治疗|zhi3 zi3 zhi4 liao2",
+      "reason": "Incorrect stable pronunciation identity 质子治疗|zhi3 zi3 zhi4 liao2: 质 must zhi4 (zhì). Example corrected and rechecked, but lexical key cannot be silently renamed. Excluded pending explicit identity resolution."
+    },
+    {
+      "lexical_key": "生物信息学|sheng1 wu4 xin1 xi1 xue2",
+      "reason": "Incorrect stable pronunciation identity 生物信息学|sheng1 wu4 xin1 xi1 xue2: 信 must xin4 (xìn), already correct in example. Preserve immutable key and hold pending explicit identity resolution."
+    }
+  ],
+  "receipts": [
+    {
+      "batch": "L0-B001",
+      "notes_sha256": "be5a31c77f753b2f3c9d1271be36f5f0623951275a15f7a99da9ef7bf2529dd6",
+      "data_sha256": "57b4b7abdbb4c3438fc8b11340d9cecb60a23fc777bf94c0e39391ae150ca06d"
+    },
+    {
+      "batch": "L0-B002",
+      "notes_sha256": "cd4f7ce9dacc8da52b63f1d64ed61b59a9c4e455c4ee014652f6d86fe7acc842",
+      "data_sha256": "b54dcca5adba14734c05a7bda607683b025edea62b44bc2d883cb439051f04cc"
+    },
+    {
+      "batch": "L1-B001",
+      "notes_sha256": "dfd0e37228053827a44d188e95f38cac5c5e1934a06f35b5801ee4beadb4b709",
+      "data_sha256": "e2360b8a72e8452d7237d8aac8a51819adba021792d7ee8aafc7675b657b593d"
+    },
+    {
+      "batch": "L1-B002",
+      "notes_sha256": "29883efc614bd5a2ce4ccf1dbb3b1ff3b3caae64e764f4cf8bb2ba491d6bff9e",
+      "data_sha256": "21d68982a509e2264554ed6def3fa5814b0601ef2f0ef1d2d30f8fe7b7083dcd"
+    },
+    {
+      "batch": "L2-B001",
+      "notes_sha256": "b6c3511e85175945ba521e860a2b39283e197ce762bd05ec8641e56a4a37a92b",
+      "data_sha256": "96a49a18075960d2c115906276bda3113f5e95a924ca9ae7619e64c612056351"
+    },
+    {
+      "batch": "L2-B002",
+      "notes_sha256": "ecf3f8fc8e3c97d40b3d2ee9e27359cae53edd61f1045de8f61ba4581f702eb6",
+      "data_sha256": "27917562e3a046dc88a96443d15513333e6b4f57e193bf39e22a596d467fcee2"
+    },
+    {
+      "batch": "L2-B003",
+      "notes_sha256": "1e5c3e2dcd5c95c09aa07acc14beb601a1c88ab650748d98c2bfb0b0a4648f09",
+      "data_sha256": "2bcddf7caf1ab3299b3213b304f5cefc20e9416405d18d63808382616d987a6f"
+    },
+    {
+      "batch": "L3-B001",
+      "notes_sha256": "86833d5c69b507ab53821ee4af620a31e20ce3c58d2f535fcf3d1d6fb1b4fe7b",
+      "data_sha256": "e7e9176b06baa886cea30243106b13865366971f002b79ecb83a40c8e6c5f2bc"
+    },
+    {
+      "batch": "L3-B002",
+      "notes_sha256": "d7eb30987535fb41e43d308279e782902cbd0dc3ce4f4181503b1d88e3093311",
+      "data_sha256": "4a1dbd3bb3a941da7deff8d0e61ebecaa91ab5c992f445cf0fd633632e392419"
+    },
+    {
+      "batch": "L3-B003",
+      "notes_sha256": "a78e88756ba43cd6c87e2931f1bd600c0ad46c704130cd9999483f74bfd9252b",
+      "data_sha256": "ab1c6924f7cb6efcd2d4f440e7e3dd129cef8c67ed0de1b0d43934f8f69ae86c"
+    },
+    {
+      "batch": "L3-B004",
+      "notes_sha256": "25e1c4ae87a7d8271340ec60938195020b60031a0c76c52ad9ebc3ccb0e87383",
+      "data_sha256": "c74e8800dc4b7ebb6f82746689bff869c8a2784b088819a0dd9b916d127380ad"
+    },
+    {
+      "batch": "L3-B005",
+      "notes_sha256": "743919778c1f496e6c19682d7140b3ed99a764f57714a767c1e7159140dec596",
+      "data_sha256": "5dd54cc6e12412b4888bf77e3f817430a34f18ec28843cb19a8fe857c35ccb3c"
+    },
+    {
+      "batch": "L3-B006",
+      "notes_sha256": "8d69d34e82e3d87a7cf8c97c80126c5c323629fac20a3073ad94dbcb3fab8c6f",
+      "data_sha256": "5d9f263b1f2f9f7552d996a0e48648f537939b43106dd7e0e664d528a18d31dd"
+    },
+    {
+      "batch": "L4-B001",
+      "notes_sha256": "76f6f14b601f7d138eef58e97b03332c33abf92fabacf91caaaff50278b78b42",
+      "data_sha256": "833c0ea1209572411fd8ee2f727f8184e7f6d45430ff754133661a2b54a16ff6"
+    },
+    {
+      "batch": "L4-B002",
+      "notes_sha256": "7297263d5b8c14228af0a8ab44fa134123688799e89ce8c237c59f5fcdc83aad",
+      "data_sha256": "b508884f69d8866fb0c9dd6e79a87f22bdd1d2382572928a914cbde6b0cecc72"
+    },
+    {
+      "batch": "L4-B003",
+      "notes_sha256": "0bd9aa7f5c4acdfd7cf80fc49b255e20e423ac7ff1ba52e88c59dd86c0a11807",
+      "data_sha256": "2b7534b48d8b20f7dbf56d2207237059cc7ad28a76991e2faba16dbcd6f147a6"
+    },
+    {
+      "batch": "L4-B004",
+      "notes_sha256": "568602736db210ca2661bf33be79f39491b9d4d123e6b7cb3f0800baa4e147f4",
+      "data_sha256": "e25525cb6603f8a5b15b3ab68bc5704ae3360b2a3b1a106dd3fe79949f8e2da2"
+    },
+    {
+      "batch": "L4-B005",
+      "notes_sha256": "f20846b93918da6e8d554e65f01de9ae326aa99d1e99071d997e36fda42acaa2",
+      "data_sha256": "396dd632a5c4e5480ad67acb483caea69435a3877f1319697aac34f4d128c74d"
+    },
+    {
+      "batch": "L4-B006",
+      "notes_sha256": "d083ac7a72532fdb9741d4387f6cee0aa4ece30646d727a480aaeabdcf2ef5a9",
+      "data_sha256": "23769c132457a9172a0c34cafab04cdfb4b63d23355a218592ba69098aa0c0aa"
+    },
+    {
+      "batch": "L4-B007",
+      "notes_sha256": "31cc637565fb6da666bf573d538d0e3ada6482231a1bd936f17589fbd0a61b05",
+      "data_sha256": "b3053504ca3edc3bac50f902db00e18526239eb60930ba6eaaf6f1f585fa43a4"
+    },
+    {
+      "batch": "L4-B008",
+      "notes_sha256": "ead4f30b5ebe1ef6f82a916badfcbe85bd8cce79de40b547cbc82697299705d5",
+      "data_sha256": "47003a2a95ee6220b5cfa2b835fc58d23f4194d6899e1e9c617ca03d8f9a6162"
+    },
+    {
+      "batch": "L4-B009",
+      "notes_sha256": "c479b9f58111f8bde0d689882cf140cccf46502dcf130c23a78c47e5c5a10f5b",
+      "data_sha256": "1c73c1d7315a0859d0cba381006f301ddb00940d2d8a69a51956fe2fc41444d4"
+    },
+    {
+      "batch": "L4-B010",
+      "notes_sha256": "6f3d6b2d2ac2e8cfa6a69c53adf7f0df31d48547cf663f6a8fd9e7d503b764d6",
+      "data_sha256": "557735408811596abf290c816480421d0728b53db009dc82914d4e44db97bc0e"
+    },
+    {
+      "batch": "L4-B011",
+      "notes_sha256": "cf00b3d2ff55437280db103660d7d29e58c075e7ad0cf5391fb2d06335df1ed2",
+      "data_sha256": "0df4b883cc1428362f0fdb7b060444a8e55436af96a3ebfe810884e064bf5a54"
+    },
+    {
+      "batch": "L4-B012",
+      "notes_sha256": "f7b727a4050f958ac24481a6ba011f2928df657e6545fb9e1bb1a8079aa636a7",
+      "data_sha256": "bdefd6a205234423175adeea3d65ab7af0b97273aceeb98c6a8c3120b8927957"
+    },
+    {
+      "batch": "L5-B001",
+      "notes_sha256": "266dff85572e16ac0df5c1d6e7b23fd8e56a8b386ebb3a142a1400ab8edbfc4d",
+      "data_sha256": "c5cb4bebca8511d59474660d8f9149e9782cfde00b88cf7b1eaeba036bf2daca"
+    },
+    {
+      "batch": "L5-B002",
+      "notes_sha256": "d7abfb7e3603a23ba7668fde33a48d31085dab55258a5ef89b667d51d6743e29",
+      "data_sha256": "3d37b15376b40c322128338e192471892f60024c6966f9570e7853a8b8add7c0"
+    },
+    {
+      "batch": "L5-B003",
+      "notes_sha256": "c934e5f2ef0fd8dc483fc87a2b2d59f10b6be821f3cf41ea8595a560aff13c27",
+      "data_sha256": "593441de78ef7498e5139bccb358aa84ba33ce24a48efd2668d29e9940905395"
+    },
+    {
+      "batch": "L5-B004",
+      "notes_sha256": "9df001cba7bb6a2464d4ec21958a7cced2a185eed9307794624785b684962079",
+      "data_sha256": "dd99b99feb04de243cfaf3dbd6a8bb44d1e28c67df86e4ab1f12d9aca8eb1975"
+    },
+    {
+      "batch": "L5-B005",
+      "notes_sha256": "2b4cbbf5d55a785356cb39e1f5efd6d67cfe66790e4a56e918fb7f0abd26670b",
+      "data_sha256": "5d9ee8f54ea5a5d3c3854c916f824d0c17f3ba7d2fc8dd64a2b1ce373f0f298a"
+    },
+    {
+      "batch": "L5-B006",
+      "notes_sha256": "be8319dc766bb5a12ebfb634a90cee98686a0bcf4eaa52e80899ad037dc8f4d7",
+      "data_sha256": "bf4364d92e5dd09d1407b0c023766f5141eb072c081277a733fbb58165045768"
+    },
+    {
+      "batch": "L5-B007",
+      "notes_sha256": "8bbf14c179a8d8007c52e6d4fe4189fdf9ed846520d14f6db5510d2f31970b4b",
+      "data_sha256": "ec7fa7aec44b4dea7a99b789160e29201de08bad230298f3fd166c0f4ff7ab42"
+    },
+    {
+      "batch": "L5-B008",
+      "notes_sha256": "d2091539dff3a1d80855e9a68068918597cce634a79afd50f82e3848fd44a2d8",
+      "data_sha256": "d7b75288d2f93d385552d30a4c0c85f838330ddee54a70c69cd49bec0251a4e9"
+    },
+    {
+      "batch": "L5-B009",
+      "notes_sha256": "6c8006a0d9f1c8d76af3d6280b65dfec03b969576496af6013d02cf627fb13ef",
+      "data_sha256": "19618e460ca5e81d9cf9aa4806d2388a4fb2a3ecdc18d6874aeb403751d5f6ff"
+    },
+    {
+      "batch": "L5-B010",
+      "notes_sha256": "cb7351c3dd05b25a58318737e7ffd2fbdb2905fce5b2725573f6caaa6e327299",
+      "data_sha256": "cef2cad8fa25540041f98795c2b12fa1117c6caa75eefabf7341efee9826b50b"
+    },
+    {
+      "batch": "L5-B011",
+      "notes_sha256": "cd19a74a72d7fd21143286befb7ab329becb7e765c1f6ffe89f517d3362c5764",
+      "data_sha256": "b3ffb8187bc8105134e0ee9f9ff3df2bd32b4c897489f4d800ed2275c6cbb3d7"
+    },
+    {
+      "batch": "L5-B012",
+      "notes_sha256": "55a616d451cb724de2283df4e7181229eba8c66453be466947335ff654a3e6d9",
+      "data_sha256": "4e03c75ca8e3abc206485f8930ba1eceee204426f3709e31e2f6b2959c66e98b"
+    },
+    {
+      "batch": "L5-B013",
+      "notes_sha256": "6b8e1ac4ffc53715f795d2687e716c7ee3b86c13b653776197d802f4381d797e",
+      "data_sha256": "ce0e2b260c0b6038f3f57a8ea20977d6112f72612f232e28cd646428099a060b"
+    },
+    {
+      "batch": "L5-B014",
+      "notes_sha256": "df7aa6692763ea7900f500bc474b8a6a768c5163491404b1723ed7afa2b6cd8b",
+      "data_sha256": "46bd3cbd26b15239f498c11c6c1775f54467a20ba7a0eb0fdb9395805b2390aa"
+    },
+    {
+      "batch": "L5-B015",
+      "notes_sha256": "9884cbdf062fb007c31f7b3b4e8ab626a03c826cd681b0b238b485b863a5df1d",
+      "data_sha256": "74426c808185029c5083950ddd89caa4ec45bca69c9a98bb26cbf40b10f146d4"
+    },
+    {
+      "batch": "L5-B016",
+      "notes_sha256": "35281f21b1952376f23ba26fe52f79b4485318a597c8b61560c00961ed605cb9",
+      "data_sha256": "4c572994bc31d1b17627fe90eac47c01b553fe26e7a1ef43ca6d0a08f4cd5237"
+    },
+    {
+      "batch": "L5-B017",
+      "notes_sha256": "d7344f4cbad0092ba04d61f42dc6aced5a6b20646a2036a29ffe8070f6077b28",
+      "data_sha256": "5a9041bccacfdd971cd2018ac694fc493a874bc237fbd1a68ae52520b14f8258"
+    },
+    {
+      "batch": "L5-B018",
+      "notes_sha256": "ab597025129d817f3f38e5e26e52bb378e2810034e7df471d6121e9c49896146",
+      "data_sha256": "878e21d8242f7bec5e1c63c1216b555c102411dc7b1f105bfa127b3ffbb23796"
+    },
+    {
+      "batch": "L5-B019",
+      "notes_sha256": "ff42c6323f5c3f9a6e4b11966aebf8c93b95993cc345f85b4f712fd7b2dd7a56",
+      "data_sha256": "f4ee24df91ff0f95f600a7780283f61075c5e81996f1e4cca798ff3fccb87e2c"
+    },
+    {
+      "batch": "L5-B020",
+      "notes_sha256": "4da8ba55772928a8e961d472679b1d7230eec0d8beba2bac93119fade082e821",
+      "data_sha256": "e966553d8d2c9a9c36e99949652e39efb5393784d8d437822bd6f2cd54581778"
+    },
+    {
+      "batch": "L5-B021",
+      "notes_sha256": "55330ab65e51f72696a469f58a2387a9595c5a98d21d1cf11825c1396f92ef1a",
+      "data_sha256": "722c8d0332f270fb36d7e6ad2e84eb10730b6c368a632fe16d076e04f8ea9c91"
+    },
+    {
+      "batch": "L5-B022",
+      "notes_sha256": "a21084618cafb709019e69b3ea67097aee0ab7cea701be0fed2de05d9f17d80d",
+      "data_sha256": "5d8c7bde4f997bb452ab490f30b6b9b9ac7d3cca5bd791aa84ccc63c7653c3ca"
+    },
+    {
+      "batch": "L5-B023",
+      "notes_sha256": "13ac1e5b66a774fab2a4953f8564713b38173b13b3af126643c997be6c6ee6c4",
+      "data_sha256": "beabb4979da275a3a57e5182adfba10cf9e0aa290cc1a16aa6d8fb482f080826"
+    },
+    {
+      "batch": "L5-B024",
+      "notes_sha256": "35fb2275f3da36a4b1209d945bb59c32bd78e57db7d3bc3417320746d4887d5a",
+      "data_sha256": "38334f4c69361f095ca737fd3583bc61fd6bd5d9bb6e0cf3b5281f0975dba3e8"
+    },
+    {
+      "batch": "L5-B025",
+      "notes_sha256": "8c72adf2cfcbcf27b763c5ef5800735603a1ec756897719b6f51bd8e53d791b9",
+      "data_sha256": "049942e9a09f65fbe13ce9f113a46b3cb949eb94382cadef46af4ad6b0593591"
+    }
+  ]
+}

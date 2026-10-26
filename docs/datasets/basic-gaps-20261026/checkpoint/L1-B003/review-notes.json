@@ -1,0 +1,1478 @@
+{
+  "artifact_kind": "CODEX_SESSION_LINGUISTIC_NOTES_NOT_REVIEWRESULT",
+  "batch": "L1-B003",
+  "source_file": "level-1-batch-003.authored.jsonl",
+  "source_sha256": "1e8f3dea3ed2b16cc0105b7991d0b6cd11debe419d579b3e7e0ab5d1ea347b76",
+  "deployment_sha256": "1e8f3dea3ed2b16cc0105b7991d0b6cd11debe419d579b3e7e0ab5d1ea347b76",
+  "checkpoint_written_at": "2026-10-26T04:52:03.340313+00:00",
+  "reviewer_label": "Codex session",
+  "reviewer_model": null,
+  "reviewer_version": null,
+  "confidence": null,
+  "paid_api_calls": 0,
+  "scope": "Session-authored supplementary entries; every field and complete example reviewed",
+  "supporting_sources": [],
+  "author_provenance": {
+    "author_label": "Codex session",
+    "author_model": null,
+    "author_version": null,
+    "method": "Manually composed in the active Codex conversation; not Gemini output",
+    "source": "authored.psv",
+    "source_sha256": "6a8cbea97a333c7bbe578e842332c23c720147f70f82718b40967aedc185e0c3",
+    "review": "All fields/examples and individual notes assessed by this same session; no independent model claimed",
+    "timestamp": "2026-10-26T04:52:03.340313+00:00",
+    "paid_api_calls": 0
+  },
+  "records": [
+    {
+      "lexical_key": "晚饭|wan3 fan4",
+      "id": "a562c4f0-1d4e-5e24-bef6-b333516c95b2",
+      "source_content_version": 1,
+      "source_checksum": "81dcc313aa2f865f5728ad972efb20d0ab7fa9b82c0f343d12c904c5df0d00e6",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "81dcc313aa2f865f5728ad972efb20d0ab7fa9b82c0f343d12c904c5df0d00e6",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Wanfan3-4 evening meal, not midnight meal only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "早饭|zao3 fan4",
+      "id": "554d4fed-2c8a-5b01-8530-a850923fbe9a",
+      "source_content_version": 1,
+      "source_checksum": "19e373133487fbdc6920ed51ff4f4954915df39bf3dd3f6d5accffd2ac4f331a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "19e373133487fbdc6920ed51ff4f4954915df39bf3dd3f6d5accffd2ac4f331a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zaofan3-4 breakfast; meal need not consist of rice despite 饭.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "餐厅|can1 ting1",
+      "id": "f8b132ec-fc80-52f8-ad65-34f53f2d98ea",
+      "source_content_version": 1,
+      "source_checksum": "c4d27c74ff521a6ed4baf5f26e4fdd04a118ce0c1c5041cc47f21ea9741b0d02",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c4d27c74ff521a6ed4baf5f26e4fdd04a118ce0c1c5041cc47f21ea9741b0d02",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Canting1-1 restaurant/dining room, establishment classifier 家 in restaurant example.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "好吃|hao3 chi1",
+      "id": "ae0cbc79-b6dd-50ae-b082-2bb594b85b6d",
+      "source_content_version": 1,
+      "source_checksum": "2462e0eb557afd179b1f952305844e60be8971d959ba42f593f36bbe368b4898",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2462e0eb557afd179b1f952305844e60be8971d959ba42f593f36bbe368b4898",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Hao3 chi1 tasty, exclude hao4 chi1 fond-of-eating reading.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "好喝|hao3 he1",
+      "id": "18251b34-79ec-59d1-a4e6-b18f206546fe",
+      "source_content_version": 1,
+      "source_checksum": "ee45105034de53d58f4a4d8a2923e441f6c8d04d9feba0afe382e33c35d987fd",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "ee45105034de53d58f4a4d8a2923e441f6c8d04d9feba0afe382e33c35d987fd",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Hao3 he1 pleasant to drink, not hao4 he1 liking alcohol/drinking.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "学校|xue2 xiao4",
+      "id": "5536491b-0b02-50fb-b030-d911d398eadd",
+      "source_content_version": 1,
+      "source_checksum": "e90d13ca1e6eea5676e96a9e61b9599c5a6b9e38dce613161a0f56ce914863a9",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e90d13ca1e6eea5676e96a9e61b9599c5a6b9e38dce613161a0f56ce914863a9",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xuexiao2-4 school; everyday missing core noun, not 校 alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "车站|che1 zhan4",
+      "id": "88000552-f5d7-5df0-8c65-7fe6f1ba1696",
+      "source_content_version": 1,
+      "source_checksum": "3005b05cca35c1a93034fd308933b1f733f9908dbdfc8f03989d28c5ddad0a49",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3005b05cca35c1a93034fd308933b1f733f9908dbdfc8f03989d28c5ddad0a49",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Chezhan1-4 general transport station, not restricted to railway only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "地铁站|di4 tie3 zhan4",
+      "id": "4f6db11b-d85d-5a89-a74e-d7accc8a33aa",
+      "source_content_version": 1,
+      "source_checksum": "6693aa2d697c4775619ecc65f56fa5dee963b9a81efd28d5c2c3839c4a754370",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6693aa2d697c4775619ecc65f56fa5dee963b9a81efd28d5c2c3839c4a754370",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Ditiezhan4-3-4 subway station; 离 distance construction matches translation.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "酒店|jiu3 dian4",
+      "id": "857be955-8ae6-5848-8f59-3acda4535cdd",
+      "source_content_version": 1,
+      "source_checksum": "772d86a0383229e8d6b90129b29bffbae9619f21b132be622bc5373e5cb7a618",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "772d86a0383229e8d6b90129b29bffbae9619f21b132be622bc5373e5cb7a618",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Jiudian3-4 modern hotel meaning; not literally a wine shop in this travel context.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "越南|yue4 nan2",
+      "id": "7e18b72f-a497-5d4f-ba56-f32d2c8ba971",
+      "source_content_version": 1,
+      "source_checksum": "cb2f6f2cc9da34e3715341dec9eb8af537e6380947ef44c5f2b05dde3143e3c9",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "cb2f6f2cc9da34e3715341dec9eb8af537e6380947ef44c5f2b05dde3143e3c9",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Country Yuènán has fourth then second tone; proper name capitalization in example.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "河内|he2 nei4",
+      "id": "bae83fb2-49ee-5664-89fb-0d3648352ff9",
+      "source_content_version": 1,
+      "source_checksum": "fa47b4b78ce43c92cb7e6722244935066d2847a9f539c11202b13a074cc3d77e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "fa47b4b78ce43c92cb7e6722244935066d2847a9f539c11202b13a074cc3d77e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Henei2-4 is established Hanoi name, not a literal river-inside gloss.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "胡志明市|hu2 zhi4 ming2 shi4",
+      "id": "2a72fe13-f0e4-5a28-b2c4-89eccde0d516",
+      "source_content_version": 1,
+      "source_checksum": "e7e49f9cc892614d5438f789fa21d6f88b751dae7d408d2b5b5d3d9f5ec8b67d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e7e49f9cc892614d5438f789fa21d6f88b751dae7d408d2b5b5d3d9f5ec8b67d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Huzhimingshi2-4-2-4 proper city name; 市 is city suffix, not market here.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "中文|zhong1 wen2",
+      "id": "f562c2b2-8aa7-58a0-9df4-510364c69e0d",
+      "source_content_version": 1,
+      "source_checksum": "c1f9ae431e959f7793494e7667b87f8926a3b273a34f8e1f0e44c71878d183d0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "c1f9ae431e959f7793494e7667b87f8926a3b273a34f8e1f0e44c71878d183d0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zhongwen1-2 Chinese language/writing; no claim it is limited to Mandarin speech only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "越南语|yue4 nan2 yu3",
+      "id": "56904b34-81d9-5b41-928e-214427e2fe68",
+      "source_content_version": 1,
+      "source_checksum": "6228c817b25ef474167a206d33ecac7305e3872727d24052e583f6e95d0d52eb",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6228c817b25ef474167a206d33ecac7305e3872727d24052e583f6e95d0d52eb",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yuenanyu4-2-3 Vietnamese language, not nationality adjective alone.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "英语|ying1 yu3",
+      "id": "2d7e17bd-d2ea-548d-9121-b5bb6f384ba6",
+      "source_content_version": 1,
+      "source_checksum": "adf088d74b8b298cf1efd06f62e592baef0392bd96736c72a9b0e82f9f1870cd",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "adf088d74b8b298cf1efd06f62e592baef0392bd96736c72a9b0e82f9f1870cd",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Yingyu1-3 English language; no confusion with yīn nasal ending.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "摩托车|mo2 tuo1 che1",
+      "id": "dc782b19-809b-5229-a112-4807e9eeae50",
+      "source_content_version": 1,
+      "source_checksum": "f036cb07dc21b436becde79bca792ad2039735b272f1f656b279eba4f6c4055f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f036cb07dc21b436becde79bca792ad2039735b272f1f656b279eba4f6c4055f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Motuoche2-1-1 motorcycle; riding uses 骑 rather than 开 in example.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "汽车|qi4 che1",
+      "id": "3c650460-e222-5125-910a-91e97799791e",
+      "source_content_version": 1,
+      "source_checksum": "cc14fa9a7ce87a1950080f441976ceb4f87196ff2072641d4044da4ed777f07a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "cc14fa9a7ce87a1950080f441976ceb4f87196ff2072641d4044da4ed777f07a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Qiche4-1 automobile with classifier 辆, distinct from 骑车.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "火车|huo3 che1",
+      "id": "4cb1c4a9-af99-5fa6-8a2c-41dcd0e79351",
+      "source_content_version": 1,
+      "source_checksum": "27b226ca0f8bd1e99e658c164e50337b2ea285126beced30a97d70457a3051f0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "27b226ca0f8bd1e99e658c164e50337b2ea285126beced30a97d70457a3051f0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Huoche3-1 train; passenger takes 坐, not vehicle-driving verb.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "地铁|di4 tie3",
+      "id": "91992c61-ff02-5546-ba53-b259157636e7",
+      "source_content_version": 1,
+      "source_checksum": "8e09c4e55cc3b98ec6a40bbdde74b6b2d3c73f8911e987d6bc2a8dbd8f8b44d1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "8e09c4e55cc3b98ec6a40bbdde74b6b2d3c73f8911e987d6bc2a8dbd8f8b44d1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Ditie4-3 metro; not railroad in general.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "轮船|lun2 chuan2",
+      "id": "6479cffc-ed01-520c-96d8-a28964e86785",
+      "source_content_version": 1,
+      "source_checksum": "9bbc60a9719016f725b91ed1b397f0ffec1f832050c7c539cde5533927600ea3",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9bbc60a9719016f725b91ed1b397f0ffec1f832050c7c539cde5533927600ea3",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Lunchuan2-2 powered ship/steamer; not any tiny boat.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "马路|ma3 lu4",
+      "id": "c4402a82-aba6-51e4-bb25-b6cf43bb8276",
+      "source_content_version": 1,
+      "source_checksum": "a2f8bdacf2a9fe9e8a95451ddbb87a23cbb945ddd39986ce72edc884eec6ff63",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a2f8bdacf2a9fe9e8a95451ddbb87a23cbb945ddd39986ce72edc884eec6ff63",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Malu3-4 roadway, not horse path by literal character reading.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "红绿灯|hong2 lü4 deng1",
+      "id": "4f91f55f-95c7-5d58-85ac-b93b7f96d19f",
+      "source_content_version": 1,
+      "source_checksum": "033d971514f5e0b268efcab860fc6acf68dc7c9a46483980f39385581fa2f430",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "033d971514f5e0b268efcab860fc6acf68dc7c9a46483980f39385581fa2f430",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Honglüdeng2-4-1 traffic signal; ü retained rather than lu4.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "路口|lu4 kou3",
+      "id": "693866a6-ba40-5cb2-859d-466554b91c29",
+      "source_content_version": 1,
+      "source_checksum": "93169ec71f3e48609710d8645f4846ac3871c8ab2eb889a9ec8a023a612a78c5",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "93169ec71f3e48609710d8645f4846ac3871c8ab2eb889a9ec8a023a612a78c5",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Lukou4-3 intersection, direction and Vietnamese agree.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "上面|shang4 mian4",
+      "id": "8638bc90-6441-5c2b-b865-a3e4f73dff5e",
+      "source_content_version": 1,
+      "source_checksum": "57f64b780cb2d9b430464f551f28efa5cb0a598f2b3fcec63f7549dd1e5a3f18",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "57f64b780cb2d9b430464f551f28efa5cb0a598f2b3fcec63f7549dd1e5a3f18",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shang4 mian4 canonical full tones; above/on sense determined by table context.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "下面|xia4 mian4",
+      "id": "0240d793-7692-5ae8-b64c-b358b349fc19",
+      "source_content_version": 1,
+      "source_checksum": "a24cff9a9bcab01561f554bdd7295eb2ef0114fe5d363ad51ba9de5e7366907b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a24cff9a9bcab01561f554bdd7295eb2ef0114fe5d363ad51ba9de5e7366907b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xia4 mian4 canonical full tones; no lower-body euphemistic senses added.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "附近|fu4 jin4",
+      "id": "5ffb5085-6c05-5220-9c27-394bb308aea2",
+      "source_content_version": 1,
+      "source_checksum": "72579bb6702aac05dbde48e25013047e9013296ef1cf2374c17a7b0d4addc37b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "72579bb6702aac05dbde48e25013047e9013296ef1cf2374c17a7b0d4addc37b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fujin4-4 spatial nearby, not temporal recently.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "上学|shang4 xue2",
+      "id": "6e044040-9ad6-5d3b-9571-b5ee5a91cc3d",
+      "source_content_version": 1,
+      "source_checksum": "3e739c1ab6fc458cea2c487dd84393ed5caf9cec7187bb3d4950ea31aedd56e0",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3e739c1ab6fc458cea2c487dd84393ed5caf9cec7187bb3d4950ea31aedd56e0",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shangxue4-2 attend school, distinguished from attending one class 上课.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "放学|fang4 xue2",
+      "id": "cdf88cc6-d62d-551e-821b-692933436158",
+      "source_content_version": 1,
+      "source_checksum": "b353fd62c8cefa4ebbb6c5a530a9611d015c9c61e4c09fc9bfd353a004110b7a",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "b353fd62c8cefa4ebbb6c5a530a9611d015c9c61e4c09fc9bfd353a004110b7a",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fangxue4-2 school dismissal, not leaving an individual class only.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "上课|shang4 ke4",
+      "id": "84ba6d6c-458c-58c9-b3de-89d666ba4df6",
+      "source_content_version": 1,
+      "source_checksum": "44d2df38ead8a446a72dca42e90703c7ece177110c842afe83835a846a643344",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "44d2df38ead8a446a72dca42e90703c7ece177110c842afe83835a846a643344",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shangke4-4 conduct/attend class depending on subject; teacher example selects conducting.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "下课|xia4 ke4",
+      "id": "0e72f4f0-b48b-57dd-9830-92369207ba11",
+      "source_content_version": 1,
+      "source_checksum": "395dafb1de21c7534a98d2baab252578a3bcf80674f0f62b8bd93b8e7020d603",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "395dafb1de21c7534a98d2baab252578a3bcf80674f0f62b8bd93b8e7020d603",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xiake4-4 class ends; distinguish full school-day dismissal 放学.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "复习|fu4 xi2",
+      "id": "b460e198-3022-5dd9-be4b-93ac06117a24",
+      "source_content_version": 1,
+      "source_checksum": "536580afaee2f8f50b9044a5b4707c674eda54d298fced20948a107d8c3aa92b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "536580afaee2f8f50b9044a5b4707c674eda54d298fced20948a107d8c3aa92b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fuxi4-2 review already learned material, not first-time preview 预习.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "作业|zuo4 ye4",
+      "id": "953b22fb-57c2-5087-8584-f109f4262a6b",
+      "source_content_version": 1,
+      "source_checksum": "585c9b2c0fe2abbc6be7af6c7416bddabbcc690e41694e59d80962469b5bf4b1",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "585c9b2c0fe2abbc6be7af6c7416bddabbcc690e41694e59d80962469b5bf4b1",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zuoye4-4 assigned work; complete complement 做完 and not-yet translation align.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "汉字|han4 zi4",
+      "id": "34432b97-013d-594c-a0a4-6d23e34cad57",
+      "source_content_version": 1,
+      "source_checksum": "a7f5ebe08ffb4273cccd5a00c802a0b04bf0168ee9b5ad7ff829921bf5f4be62",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a7f5ebe08ffb4273cccd5a00c802a0b04bf0168ee9b5ad7ff829921bf5f4be62",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Hanzi4-4 written Chinese character, not the language as a whole.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "拼音|pin1 yin1",
+      "id": "53de9669-1f2b-5968-b789-327ee8ca7406",
+      "source_content_version": 1,
+      "source_checksum": "6fd84b8549e190d5774bd2f0bb5f835ec9a619208cc1b005f7264f1d264f8476",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "6fd84b8549e190d5774bd2f0bb5f835ec9a619208cc1b005f7264f1d264f8476",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Pinyin1-1 phonetic spelling system, not any spelling system or translation.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "声调|sheng1 diao4",
+      "id": "d5266fc4-eb1d-5d5d-b1f6-e506a0c3e39d",
+      "source_content_version": 1,
+      "source_checksum": "9c130b60fdb1c714521167c08497e16b708ae3ab0235ce9e4d181a2899387b32",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "9c130b60fdb1c714521167c08497e16b708ae3ab0235ce9e4d181a2899387b32",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shengdiao1-4 tone; 调 uses diao4 rather than tiao2 adjust.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "发音|fa1 yin1",
+      "id": "77fe1795-e2de-58d8-8d10-eaa24d4393c2",
+      "source_content_version": 1,
+      "source_checksum": "03e49937edd0bb901c05caad7e904c49ada287d3cbfec62b1355f67b99f8a06c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "03e49937edd0bb901c05caad7e904c49ada287d3cbfec62b1355f67b99f8a06c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fayin1-1 pronunciation, not fa4 hair; noun sense used after 的.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "写字|xie3 zi4",
+      "id": "12c9e105-965b-5347-a9c4-276e2b18185f",
+      "source_content_version": 1,
+      "source_checksum": "f3192443ee8475222f25656a4da43acd10afbec047d5641137828e23a4a86b2c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "f3192443ee8475222f25656a4da43acd10afbec047d5641137828e23a4a86b2c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Xiezi3-4 write characters, not compose an essay necessarily.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "读书|du2 shu1",
+      "id": "51ad8e7c-d066-59ab-a748-f916d70bc7ee",
+      "source_content_version": 1,
+      "source_checksum": "56fbcc05323efa27bebdb39dc41d65ce296e0b17f3171f7c4a25a9ed567519c8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "56fbcc05323efa27bebdb39dc41d65ce296e0b17f3171f7c4a25a9ed567519c8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dushu2-1 book reading/studying; example selects reading activity.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "看书|kan4 shu1",
+      "id": "7a799e43-fd76-5551-ba56-20bd3279b103",
+      "source_content_version": 1,
+      "source_checksum": "3118f3b7c3e6e0a17a85f7c691de16fc68afe34c0ffc4db1fc39abc14fb9e4e8",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "3118f3b7c3e6e0a17a85f7c691de16fc68afe34c0ffc4db1fc39abc14fb9e4e8",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Kanshu4-1 reading rather than literally looking at a cover; no kan1 watch reading.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "走路|zou3 lu4",
+      "id": "2c3a826e-9645-5cff-b4ae-d66e36d782d6",
+      "source_content_version": 1,
+      "source_checksum": "97bbfe79b70ca8a22d224d4635c46c8fd093937b8e474cde19a98d3a97494230",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "97bbfe79b70ca8a22d224d4635c46c8fd093937b8e474cde19a98d3a97494230",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zoulu3-4 walking, not driving or a particular road noun.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "骑车|qi2 che1",
+      "id": "a8c4f26c-61a7-5275-938d-802e618d52a4",
+      "source_content_version": 1,
+      "source_checksum": "a6204c39815702e9d60daf4f351e535347b03adeb711257d62f4def6e6b9ed33",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "a6204c39815702e9d60daf4f351e535347b03adeb711257d62f4def6e6b9ed33",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Qiche2-1 ride a cycle; translation selects usual bicycle interpretation, unlike 汽车 qi4 che1.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "坐车|zuo4 che1",
+      "id": "e2208f84-ae3e-51e3-b6da-10b003740878",
+      "source_content_version": 1,
+      "source_checksum": "355e7548c1eb64f990025330ca13dc25d20d3e3f4c1d8e76733c924dcc28ef6e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "355e7548c1eb64f990025330ca13dc25d20d3e3f4c1d8e76733c924dcc28ef6e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zuoche4-1 passenger transport, distinct from driving 开车.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "打车|da3 che1",
+      "id": "c276e9be-2d5e-53b9-bf01-5d4231182122",
+      "source_content_version": 1,
+      "source_checksum": "30288dc2f6822e57b9cd961aa3779e516e1de302e468942f6e520bc47bbf5806",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "30288dc2f6822e57b9cd961aa3779e516e1de302e468942f6e520bc47bbf5806",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Dache3-1 hire/take a taxi, not hitting a vehicle literally.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "上网|shang4 wang3",
+      "id": "4a3f6dbc-2d3d-5f7b-90cd-53e06c27afec",
+      "source_content_version": 1,
+      "source_checksum": "e5c24044f8d3d878b4319b02f3c6cd03a6b954db99264cce21baeb83ed21582f",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "e5c24044f8d3d878b4319b02f3c6cd03a6b954db99264cce21baeb83ed21582f",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Shangwang4-3 go online, not fishing-net sense.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "聊天|liao2 tian1",
+      "id": "48addca8-e8b4-5bbc-ad1c-c13c381bf460",
+      "source_content_version": 1,
+      "source_checksum": "0f462795384dc34fb6750ae9121b36dea9a424c7b50177170b17345a26c2c9b2",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "0f462795384dc34fb6750ae9121b36dea9a424c7b50177170b17345a26c2c9b2",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Liaotian2-1 conversational chatting, no required online medium.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "照相|zhao4 xiang4",
+      "id": "a4fc3cb1-c4f9-53b7-b264-9e820a29201e",
+      "source_content_version": 1,
+      "source_checksum": "5fc407628525ab0e08c0654db7d5fa7077f8f632c5c71a76fc44149b9c61ab4d",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "5fc407628525ab0e08c0654db7d5fa7077f8f632c5c71a76fc44149b9c61ab4d",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zhaoxiang4-4 take photographs; not look at a picture.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "拍照|pai1 zhao4",
+      "id": "c3d4341e-af16-5e8f-980b-03d41305a752",
+      "source_content_version": 1,
+      "source_checksum": "bb9b84fccbb58e452231acc3425f683c9d40342237df38bc7c0dedc0f31cf86e",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "bb9b84fccbb58e452231acc3425f683c9d40342237df38bc7c0dedc0f31cf86e",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Paizhao1-4 photograph, distinct orthographic synonym of 照相.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "买东西|mai3 dong1 xi5",
+      "id": "ba146a20-8fa6-5c63-892e-e5f82f6f2bd4",
+      "source_content_version": 1,
+      "source_checksum": "0d20b5bf8e80d742a60f4c989265528efc7bf871339b3f57b4e83812de165a6b",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "0d20b5bf8e80d742a60f4c989265528efc7bf871339b3f57b4e83812de165a6b",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Mai3 dong1 xi5 shopping phrase, neutral xi meaning things rather than east-west directions.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "付钱|fu4 qian2",
+      "id": "d9a807a2-63f3-5a59-9d5b-5dbe1ba1f227",
+      "source_content_version": 1,
+      "source_checksum": "2bdeb91340c525d72a42bc1a6c81e98bf6e0ea9ae973422cd4d143f3db9bd09c",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "2bdeb91340c525d72a42bc1a6c81e98bf6e0ea9ae973422cd4d143f3db9bd09c",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Fuqian4-2 pay, not receive change 找钱.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    },
+    {
+      "lexical_key": "找钱|zhao3 qian2",
+      "id": "6190d46d-19c7-5c5a-a9a7-ad72db43131f",
+      "source_content_version": 1,
+      "source_checksum": "13441c3476bcee839e15274db6415ca16861bfec1c8d4d2141b009ae3af21a16",
+      "reviewed_content_version": 1,
+      "reviewed_checksum": "13441c3476bcee839e15274db6415ca16861bfec1c8d4d2141b009ae3af21a16",
+      "linguistic_outcome": "PASS",
+      "checked_aspects": [
+        "duplicates_readings_ambiguity",
+        "example_grammar_naturalness",
+        "example_pinyin_translation",
+        "learning_level",
+        "mandarin_pinyin_tones",
+        "part_of_speech",
+        "simplified_spelling",
+        "sino_vietnamese",
+        "vietnamese_meanings"
+      ],
+      "note": "Zhaoqian3-2 give change in transaction; context excludes literal searching for money.",
+      "correction": null,
+      "pending_reason": null,
+      "local_development_candidate": true,
+      "eligible_for_AI_APPROVED": false,
+      "evidence_limitations": [
+        "Same-session authoring/review; no authenticated provider receipt or exact model snapshot",
+        "Optional Sino-Vietnamese omitted where not confidently verified"
+      ]
+    }
+  ]
+}
