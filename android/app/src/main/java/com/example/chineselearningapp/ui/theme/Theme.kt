@@ -29,22 +29,22 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = ForestGreen,
-    onPrimary = WhiteSurface,
-    primaryContainer = MintMist,
-    onPrimaryContainer = InkGreen,
-    secondary = MutedGreen,
-    secondaryContainer = SoftMint,
-    onSecondaryContainer = InkGreen,
-    tertiary = FreshGreen,
-    background = MintBackground,
-    onBackground = InkGreen,
-    surface = WhiteSurface,
-    onSurface = InkGreen,
-    surfaceVariant = MintContainer,
-    onSurfaceVariant = MutedGreen,
-    outline = Color(0xFF738A7B),
-    outlineVariant = Color(0xFFC4DCCD)
+    primary = com.example.chineselearningapp.core.designsystem.Primary,
+    onPrimary = com.example.chineselearningapp.core.designsystem.Surface2,
+    primaryContainer = com.example.chineselearningapp.core.designsystem.PrimaryLight,
+    onPrimaryContainer = com.example.chineselearningapp.core.designsystem.PrimaryDark,
+    secondary = com.example.chineselearningapp.core.designsystem.TextSecondary,
+    secondaryContainer = com.example.chineselearningapp.core.designsystem.PrimaryMuted,
+    onSecondaryContainer = com.example.chineselearningapp.core.designsystem.PrimaryDark,
+    tertiary = com.example.chineselearningapp.core.designsystem.Primary,
+    background = com.example.chineselearningapp.core.designsystem.Surface0,
+    onBackground = com.example.chineselearningapp.core.designsystem.TextPrimary,
+    surface = com.example.chineselearningapp.core.designsystem.Surface2,
+    onSurface = com.example.chineselearningapp.core.designsystem.TextPrimary,
+    surfaceVariant = com.example.chineselearningapp.core.designsystem.Surface1,
+    onSurfaceVariant = com.example.chineselearningapp.core.designsystem.TextSecondary,
+    outline = com.example.chineselearningapp.core.designsystem.Border,
+    outlineVariant = com.example.chineselearningapp.core.designsystem.BorderStrong
 )
 
 @Composable

@@ -158,7 +158,7 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
                         viewModel(viewModelStoreOwner = reviewOwner, factory = viewModelFactory { initializer {
                             ReviewHandwritingViewModel(handwritingFactory(), createSavedStateHandle(), checkNotNull(state.account).id)
                         } })
-                    ReviewScreen(review, model, ink)
+                    ReviewScreen(review, model, ink, onLearnNewWords = { open(Destination.Learning) })
                 }
             }
             composable(Destination.Profile.name) { ProfileScreen(state, actions.logout) }

@@ -1,6 +1,9 @@
 package com.example.chineselearningapp.feature.review
 
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*
@@ -13,10 +16,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.*
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.chineselearningapp.R
+import com.example.chineselearningapp.core.designsystem.*
 
 /** Local editing only; accepted spelling and tone remain server-authoritative. */
 internal fun insertPinyinKey(value: TextFieldValue, key: String): TextFieldValue {
@@ -38,29 +43,71 @@ internal fun ReviewPinyinInput(draftKey: String, value: String, onValueChange: (
         if (field.text != value) field = TextFieldValue(value, TextRange(value.length))
     }
     val focus = LocalFocusManager.current
-    OutlinedTextField(field, { next ->
-        field = next.copy(text = next.text.take(500), selection = TextRange(
-            next.selection.start.coerceAtMost(500), next.selection.end.coerceAtMost(500)))
-        if (field.text != value) onValueChange(field.text)
-    }, Modifier.fillMaxWidth().testTag("review_answer_PINYIN"), enabled = enabled,
-        label = { Text(stringResource(R.string.srs_pinyin_input)) },
-        textStyle = LocalTextStyle.current.copy(fontSize = 24.sp),
-        keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None,
-            autoCorrectEnabled = false, keyboardType = KeyboardType.Ascii, imeAction = ImeAction.Done),
-        keyboardActions = KeyboardActions(onDone = { focus.clearFocus() }))
-    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-        listOf("ü", "1", "2", "3", "4", "5").forEach { key ->
-            val label = if (key == "ü") stringResource(R.string.srs_insert_umlaut)
-                else stringResource(R.string.srs_insert_tone, key)
-            OutlinedButton(onClick = {
-                field = insertPinyinKey(field, key)
-                onValueChange(field.text)
-            }, modifier = Modifier.weight(1f).heightIn(min = 48.dp)
-                .testTag("pinyin_key_$key").semantics { contentDescription = label },
-                enabled = enabled, contentPadding = PaddingValues(0.dp)) {
-                Text(if (key == "ü") stringResource(R.string.srs_umlaut) else key)
+    Column(verticalArrangement = Arrangement.spacedBy(SpaceSM)) {
+        OutlinedTextField(
+            value = field,
+            onValueChange = { next ->
+                field = next.copy(text = next.text.take(500), selection = TextRange(
+                    next.selection.start.coerceAtMost(500), next.selection.end.coerceAtMost(500)))
+                if (field.text != value) onValueChange(field.text)
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .testTag("review_answer_PINYIN"),
+            enabled = enabled,
+            shape = RoundedCornerShape(RadiusMedium),
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedContainerColor = Surface1,
+                unfocusedContainerColor = Surface1,
+                disabledContainerColor = Surface1,
+                focusedBorderColor = Primary,
+                unfocusedBorderColor = Border,
+                focusedTextColor = TextPrimary,
+                unfocusedTextColor = TextPrimary,
+                focusedLabelColor = Primary,
+                unfocusedLabelColor = TextSecondary
+            ),
+            label = { Text(stringResource(R.string.srs_pinyin_input), fontSize = 13.sp) },
+            textStyle = LocalTextStyle.current.copy(fontSize = 20.sp, fontWeight = FontWeight.Medium),
+            keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None,
+                autoCorrectEnabled = false, keyboardType = KeyboardType.Ascii, imeAction = ImeAction.Done),
+            keyboardActions = KeyboardActions(onDone = { focus.clearFocus() })
+        )
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(SpaceXS)) {
+            listOf("ü", "1", "2", "3", "4", "5").forEach { key ->
+                val label = if (key == "ü") stringResource(R.string.srs_insert_umlaut)
+                    else stringResource(R.string.srs_insert_tone, key)
+                OutlinedButton(
+                    onClick = {
+                        field = insertPinyinKey(field, key)
+                        onValueChange(field.text)
+                    },
+                    modifier = Modifier
+                        .weight(1f)
+                        .height(44.dp)
+                        .testTag("pinyin_key_$key")
+                        .semantics { contentDescription = label },
+                    enabled = enabled,
+                    shape = RoundedCornerShape(RadiusSmall),
+                    border = BorderStroke(1.dp, Border),
+                    colors = ButtonDefaults.outlinedButtonColors(
+                        containerColor = Surface1,
+                        contentColor = Primary
+                    ),
+                    contentPadding = PaddingValues(0.dp)
+                ) {
+                    Text(
+                        text = if (key == "ü") stringResource(R.string.srs_umlaut) else key,
+                        fontSize = 15.sp,
+                        fontWeight = FontWeight.Medium,
+                        color = Primary
+                    )
+                }
             }
         }
+        Text(
+            text = stringResource(R.string.srs_pinyin_keyboard_tip),
+            style = FontCaption.copy(color = TextMuted)
+        )
     }
-    Text(stringResource(R.string.srs_pinyin_keyboard_tip), style = MaterialTheme.typography.bodySmall)
 }
