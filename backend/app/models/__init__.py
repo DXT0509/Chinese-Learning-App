@@ -41,6 +41,8 @@ from app.models.session import (
     RefreshCredential,
     SceneCheckpoint,
 )
+from app.models.srs import SrsReviewAttempt, SrsTargetPolicy
+from app.models.srs_v2 import SrsActiveTime, SrsDailyPlan, SrsMemory  # noqa: F401
 
 __all__ = [
     "Asset",
@@ -61,7 +63,9 @@ __all__ = [
     "PersonalVocabularyEntry",
     "RefreshCredential",
     "SceneCheckpoint",
+    "SrsReviewAttempt",
     "SrsState",
+    "SrsTargetPolicy",
     "User",
     "UserLessonProgress",
     "UserVocabulary",

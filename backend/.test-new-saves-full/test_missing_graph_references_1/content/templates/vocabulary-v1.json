@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-preview",
+  "version": 1,
+  "description": "Bản xem trước nội dung; chưa hỗ trợ hoàn thành bài học.",
+  "scenes": [
+    {
+      "scene_key": "vocabulary-information",
+      "position": 20,
+      "scene_type": "VOCABULARY_INFORMATION",
+      "contract_version": 1,
+      "required": true,
+      "config": {
+        "vocabulary_ref": {"binding": "TARGET_VOCABULARY"},
+        "fields": ["PINYIN", "SINO_VIETNAMESE", "MEANING", "POS", "NOTES"]
+      }
+    },
+    {
+      "scene_key": "ordered-character-references",
+      "position": 30,
+      "scene_type": "CHARACTER_ANALYSIS",
+      "contract_version": 1,
+      "required": false,
+      "config": {
+        "vocabulary_ref": {"binding": "TARGET_VOCABULARY"},
+        "expansion": "ORDERED_CHARACTERS",
+        "missing_analysis": "SHOW_UNREVIEWED_PLACEHOLDER"
+      }
+    }
+  ]
+}

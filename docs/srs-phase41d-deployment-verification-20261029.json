@@ -1,0 +1,230 @@
+{
+  "status": "DEPLOYED_VERIFIED",
+  "verified_at_utc": "2026-10-28T17:28:44.604839+00:00",
+  "local_date": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "authorization": {
+    "received": true,
+    "source": "Explicit user message authorizing this exact bundle and 656 inserts",
+    "limited_scope": [
+      "install missing policies",
+      "post-installation verification",
+      "restart local backend",
+      "isolated regression tests"
+    ]
+  },
+  "target": {
+    "database": "chinese_learning",
+    "role": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432
+  },
+  "revision": "0012_srs_review_engine",
+  "bundle": "docs/datasets/srs-phase41d-complete-v2.json",
+  "bundle_sha256": "abae251396a78ffc12cfa535374751954f4cde060a330bbb8491e89e428e81e2",
+  "backup": {
+    "path": "backend/.vocabulary-backups/phase41d-deploy-4ed7b8af8b1f/before-installation.dump",
+    "size_bytes": 3115721,
+    "sha256": "521f05da564830f6466a44c69119024c5bac49cbc5d0eff0255e22c21f91cf1b",
+    "archive_list_verified": true,
+    "full_restore_verified": true
+  },
+  "installation": {
+    "validated": 2804,
+    "inserted": 656,
+    "unchanged": 2148,
+    "preserved_manual": 0,
+    "would_insert": 656,
+    "would_update": 0,
+    "install_requested": true,
+    "updated": 0,
+    "deleted": 0,
+    "conflicts": 0,
+    "development_install_command_executions": 1
+  },
+  "verification": {
+    "verified_at_utc": "2026-10-28T17:21:42.079371+00:00",
+    "target": {
+      "database": "chinese_learning",
+      "role": "postgres",
+      "host": "127.0.0.1",
+      "port": 5432
+    },
+    "revision": "0012_srs_review_engine",
+    "installed_policy_rows": 2804,
+    "runtime_valid_published": 2804,
+    "published_denominator": 2804,
+    "total_catalog": 2810,
+    "duplicate_policies": 0,
+    "stale_bindings": 0,
+    "six_unpublished_excluded": [
+      "不客气|bu4 ke4 qi5",
+      "什么|shen2 me5",
+      "厕所|ce4 suo3",
+      "没关系|mei2 guan1 xi5",
+      "谁|shei2",
+      "谁|shui2"
+    ],
+    "per_level": {
+      "0": {
+        "published": 218,
+        "valid_installed": 218
+      },
+      "1": {
+        "published": 289,
+        "valid_installed": 289
+      },
+      "2": {
+        "published": 158,
+        "valid_installed": 158
+      },
+      "3": {
+        "published": 294,
+        "valid_installed": 294
+      },
+      "4": {
+        "published": 599,
+        "valid_installed": 599
+      },
+      "5": {
+        "published": 1246,
+        "valid_installed": 1246
+      }
+    },
+    "original_policy_rows_preserved": 2148,
+    "nonpolicy_tables_preserved": 35,
+    "preserved_selected_counts": {
+      "users": 3,
+      "curated_vocabulary": 2810,
+      "curated_user_vocabulary": 27,
+      "srs_review_attempts": 1,
+      "curated_vocabulary_reviews": 0
+    },
+    "real_graded_attempts_submitted": 0,
+    "fingerprint_timezone": "UTC",
+    "read_only_revalidation": {
+      "validated": 2804,
+      "inserted": 0,
+      "unchanged": 2804,
+      "preserved_manual": 0,
+      "would_insert": 0,
+      "would_update": 0,
+      "install_requested": false
+    }
+  },
+  "final_all_36_postinstall_fingerprints_unchanged_after_restart_and_tests": true,
+  "source_code_matches_reviewed_preflight_hashes": true,
+  "live_api_checks": {
+    "base_url": "http://127.0.0.1:8000",
+    "checks": [
+      {
+        "method": "GET",
+        "path": "/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/openapi.json",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/dashboard",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/due",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/review-targets",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/session-targets",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/progress/00000000-0000-0000-0000-000000000000",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/sessions/00000000-0000-0000-0000-000000000000/question",
+        "status": 401,
+        "cache_control": "no-store"
+      }
+    ],
+    "srs_operations_present_and_bearer_secured": 9,
+    "question_schema_has_no_internal_answer_fields": true,
+    "http_methods_used": [
+      "GET"
+    ],
+    "real_authenticated_session_created": false,
+    "real_graded_attempts_submitted": 0,
+    "authenticated_live_http_success": "Not exercised without an existing raw session token; no login or token refresh performed"
+  },
+  "read_only_owner_service_checks": {
+    "enforced_read_only": true,
+    "owners_checked": 3,
+    "available_saved_words": 27,
+    "eligible_review_targets": 27,
+    "excluded_saved_words_by_reason": {},
+    "saved_progress_rows_checked": 27,
+    "bounded_due_session_targets_checked": 21,
+    "all_36_postinstall_table_fingerprints_still_match": true,
+    "no_session_creation_or_attempt_initialization": true,
+    "real_graded_attempts_submitted": 0
+  },
+  "isolated_regression_tests": {
+    "database": "chinese_p41d_final_tests_0dfe58e5bd",
+    "passed": 365,
+    "skipped": 13,
+    "exit_code": 0,
+    "schema_check": "PASSED",
+    "development_database_used": false,
+    "synthetic_only_database_empty_before_and_after": true,
+    "optional_dedicated_migration_and_race_database_urls_not_configured": true
+  },
+  "backend": {
+    "running": true,
+    "url": "http://127.0.0.1:8000",
+    "launcher_pid": 22572,
+    "listener_pid": 14272,
+    "command": ".venv/Scripts/python -m app",
+    "hidden_window": true,
+    "reload_enabled": false,
+    "access_logging_enabled": false
+  },
+  "android": {
+    "android_source_files_unchanged": 141,
+    "apk_sha256_unchanged": "e2c0fb33b3803fa6c78702d2a5831a544d59baa4cbd9620f4def48e6f06cfbe3",
+    "prior_unit_tests_passed": 109,
+    "prior_assemble_debug": "PASSED",
+    "prior_lint_debug": "PASSED",
+    "build_or_tests_rerun_this_deployment": false,
+    "debug_api_base_url": "http://127.0.0.1:8000/",
+    "physical_device_execution_performed": false,
+    "physical_test_readiness": "Updated APK and deployed backend ready; USB forwarding and device install/validation remain operator steps",
+    "isolated_test_database_final_users": 0,
+    "isolated_test_database_final_saved_words": 0
+  },
+  "real_graded_attempts_submitted": 0,
+  "user_progress_changes": 0,
+  "migrations_applied": 0,
+  "evidence_directory": "backend/.vocabulary-backups/phase41d-deploy-4ed7b8af8b1f"
+}

@@ -1,0 +1,136 @@
+{
+  "verified_at_utc": "2026-10-27T17:10:20.207881+00:00",
+  "label": "final-after-live-api",
+  "database": "chinese_learning",
+  "endpoint": "127.0.0.1:5432",
+  "revision": "0012_srs_review_engine",
+  "installed_policies": 2148,
+  "matches_approved_bundle": true,
+  "bundle_sha256": "1eda6b46b0c568c9bfaa891f83cc05be14e21d77cffaa1df5c7d33e97fce77b2",
+  "policy_table_fingerprint": "d04d9ed21f4695dc0330fb981a25a889519fa2f6e62fa9582627f437c9c85f48",
+  "original_tables_preserved": 34,
+  "all_original_row_fingerprints_match": true,
+  "duplicate_policies": 0,
+  "stale_policy_bindings": 0,
+  "runtime_gradable": 2148,
+  "published_unresolved": 656,
+  "unpublished_excluded": 6,
+  "manual_policy_payloads_preserved": 3,
+  "review_attempts": 0,
+  "dictionary_service_search_detail": "PASS",
+  "srs_read_only_service_checks": [
+    {
+      "available_count": 0,
+      "due_count": 0,
+      "grading_available": false,
+      "due_items": 0,
+      "review_target_items": 0,
+      "excluded_saved_items": 0
+    },
+    {
+      "available_count": 1,
+      "due_count": 1,
+      "grading_available": true,
+      "due_items": 1,
+      "review_target_items": 1,
+      "excluded_saved_items": 0
+    },
+    {
+      "available_count": 0,
+      "due_count": 0,
+      "grading_available": false,
+      "due_items": 0,
+      "review_target_items": 0,
+      "excluded_saved_items": 0
+    }
+  ],
+  "development_writes_during_verification": 0,
+  "policy_table_unchanged_after_api_checks": true,
+  "installation_command_result": {
+    "validated": 2148,
+    "inserted": 2148,
+    "unchanged": 0,
+    "install_requested": true
+  },
+  "read_only_idempotency_result": {
+    "validated": 2148,
+    "inserted": 0,
+    "unchanged": 2148,
+    "install_requested": false
+  },
+  "live_api": {
+    "verified_at_utc": "2026-10-27T17:09:45.617668+00:00",
+    "base_url": "http://127.0.0.1:8000",
+    "checks": [
+      {
+        "method": "GET",
+        "path": "/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/health",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "path": "/openapi.json",
+        "status": 200,
+        "srs_routes_declared_and_protected": 8
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/dashboard",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/due",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/review-targets?limit=50&offset=0",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/progress/00000000-0000-0000-0000-000000000000",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/me/srs/sessions/00000000-0000-0000-0000-000000000000/question",
+        "status": 401,
+        "cache_control": "no-store"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/dictionary/search?q=kou3&limit=20&offset=0",
+        "status": 401,
+        "cache_control": "no-store"
+      }
+    ],
+    "http_methods_used": [
+      "GET"
+    ],
+    "login_or_token_refresh_performed": false,
+    "real_attempts_created_or_submitted": false,
+    "live_authenticated_success_tests": false,
+    "authenticated_success_validation": "Isolated authenticated HTTP tests; read-only development service checks"
+  },
+  "isolated_test_result": {
+    "passed": 38,
+    "deselected": 1,
+    "duration_seconds": 7.63,
+    "database": "chinese_p41c_regular_65467151fc"
+  },
+  "migration_authorization_received": true,
+  "policy_installation_authorization_received": true,
+  "real_attempts_authorized": false,
+  "android_changed": false
+}

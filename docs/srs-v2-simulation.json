@@ -1,0 +1,114 @@
+{
+  "data": "SYNTHETIC; not measured learner outcomes",
+  "assumptions": "365 days; existing cohort; 3 synthetic prior Good reviews; due dates staggered over 21 days; 90% binary success; 45 seconds per review; one opportunity per word per day; no new words; seed 5000+size",
+  "results": [
+    {
+      "catalog_size": 500,
+      "scheduler": "SRS v1",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 27.17,
+      "last_90_days_mean_minutes": 26.41,
+      "max_daily_minutes": 39.0,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 350
+    },
+    {
+      "catalog_size": 500,
+      "scheduler": "FSRS",
+      "budgeted": true,
+      "days": 365,
+      "mean_daily_minutes": 4.16,
+      "last_90_days_mean_minutes": 2.65,
+      "max_daily_minutes": 19.5,
+      "final_deferred_words": 0,
+      "max_deferred_words": 27,
+      "days_above_20_minutes": 0
+    },
+    {
+      "catalog_size": 500,
+      "scheduler": "FSRS",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 4.12,
+      "last_90_days_mean_minutes": 2.23,
+      "max_daily_minutes": 24.75,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 18
+    },
+    {
+      "catalog_size": 2000,
+      "scheduler": "SRS v1",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 109.96,
+      "last_90_days_mean_minutes": 109.05,
+      "max_daily_minutes": 135.0,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 365
+    },
+    {
+      "catalog_size": 2000,
+      "scheduler": "FSRS",
+      "budgeted": true,
+      "days": 365,
+      "mean_daily_minutes": 11.32,
+      "last_90_days_mean_minutes": 10.13,
+      "max_daily_minutes": 19.5,
+      "final_deferred_words": 0,
+      "max_deferred_words": 1548,
+      "days_above_20_minutes": 0
+    },
+    {
+      "catalog_size": 2000,
+      "scheduler": "FSRS",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 15.62,
+      "last_90_days_mean_minutes": 7.88,
+      "max_daily_minutes": 93.0,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 57
+    },
+    {
+      "catalog_size": 5000,
+      "scheduler": "SRS v1",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 271.16,
+      "last_90_days_mean_minutes": 272.94,
+      "max_daily_minutes": 314.25,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 365
+    },
+    {
+      "catalog_size": 5000,
+      "scheduler": "FSRS",
+      "budgeted": true,
+      "days": 365,
+      "mean_daily_minutes": 19.34,
+      "last_90_days_mean_minutes": 18.84,
+      "max_daily_minutes": 19.5,
+      "final_deferred_words": 0,
+      "max_deferred_words": 4547,
+      "days_above_20_minutes": 0
+    },
+    {
+      "catalog_size": 5000,
+      "scheduler": "FSRS",
+      "budgeted": false,
+      "days": 365,
+      "mean_daily_minutes": 39.87,
+      "last_90_days_mean_minutes": 19.88,
+      "max_daily_minutes": 237.0,
+      "final_deferred_words": 0,
+      "max_deferred_words": 0,
+      "days_above_20_minutes": 165
+    }
+  ]
+}

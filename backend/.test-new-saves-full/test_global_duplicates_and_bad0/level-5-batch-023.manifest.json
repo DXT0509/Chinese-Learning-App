@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "batch_key": "L5-B023",
+  "learning_level": 5,
+  "batch_number": 23,
+  "expected_count": 50,
+  "actual_count": 50,
+  "cumulative_level_unique_lexical_count": 2400,
+  "provenance": "ORIGINAL_AI_AUTHORED",
+  "classification_standard": "APP_CURATED",
+  "difficulty_reference": "HSK_2_0",
+  "generator": {
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "version": "2026-10"
+  },
+  "artifact_file": "level-5-batch-023.jsonl",
+  "artifact_sha256": "22c8103080e5a935809550c78be195ba8ab5215e6c1bbd245b87badc71dd75b9",
+  "artifact_bytes": 67406,
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "structural_validation": "PASSED",
+  "independent_review": "PENDING",
+  "human_approved_count": 0,
+  "ai_approved_count": 0,
+  "review_status_counts": {
+    "GENERATED_UNREVIEWED": 50,
+    "NEEDS_REVIEW": 0
+  },
+  "records": [
+    {
+      "id": "5bb3a191-c1e5-5b59-a43d-c8737d44bfe6",
+      "lexical_key": "暗物质|an4 wu4 zhi4",
+      "simplified": "暗物质",
+      "pinyin_numbered": "an4 wu4 zhi4",
+      "content_version": 1,
+      "checksum": "5b58156bb6b1bbe2090d284e3686c652aadf1488c961b5efd8207a620ca8ff87"
+    },
+    {
+      "id": "af809961-e2a9-5b68-a7c8-59a950563c19",
+      "lexical_key": "靶向药|ba3 xiang4 yao4",
+      "simplified": "靶向药",
+      "pinyin_numbered": "ba3 xiang4 yao4",
+      "content_version": 1,
+      "checksum": "652de9e5b635f4e59175b3e02753f8373143e6f26d7852ef07d5eea82d661398"
+    },
+    {
+      "id": "844f6bba-ef06-5f89-abef-94064d8d963b",
+      "lexical_key": "半导体|ban4 dao3 ti3",
+      "simplified": "半导体",
+      "pinyin_numbered": "ban4 dao3 ti3",
+      "content_version": 1,
+      "checksum": "6324ef4a78899a248df0ad9072425f789c20fe4da72744fcc5b459210d9fd9e7"
+    },
+    {
+      "id": "def5079c-bd95-563d-aee5-13b9d1efdf4c",
+      "lexical_key": "超级计算机|chao1 ji2 ji4 suan4 ji1",
+      "simplified": "超级计算机",
+      "pinyin_numbered": "chao1 ji2 ji4 suan4 ji1",
+      "content_version": 1,
+      "checksum": "39be3ed1a944182cee41e7cd8918c268919cdad38fd8144997ccf1e43f145a42"
+    },
+    {
+      "id": "09bb744d-a657-5fcb-8cba-d821d852cdb8",
+      "lexical_key": "超导材料|chao1 dao3 cai2 liao4",
+      "simplified": "超导材料",
+      "pinyin_numbered": "chao1 dao3 cai2 liao4",
+      "content_version": 1,
+      "checksum": "576b1561a30474e52539c4e6b4e456472d5e005c739abacccc3827fc89e031da"
+    },
+    {
+      "id": "6369a17f-165d-52b3-a52f-7cb445c67516",
+      "lexical_key": "等离子体|deng3 li2 zi3 ti3",
+      "simplified": "等离子体",
+      "pinyin_numbered": "deng3 li2 zi3 ti3",
+      "content_version": 1,
+      "checksum": "0cbbb39ca26f1a03419d56d3a824b95ff5786f998bb9f8b3ae049b30714d895a"
+    },
+    {
+      "id": "e8b39f90-7b97-594b-8b4a-a010395a5053",
+      "lexical_key": "电磁波|dian4 ci2 bo1",
+      "simplified": "电磁波",
+      "pinyin_numbered": "dian4 ci2 bo1",
+      "content_version": 1,
+      "checksum": "078c90b2cfc2414bbe85c6baeb347b6473b6a9f45f99e1442721c0790b1d0df5"
+    },
+    {
+      "id": "ede129f8-a016-5b36-947f-e082484103af",
+      "lexical_key": "分子生物学|fen1 zi3 sheng1 wu4 xue2",
+      "simplified": "分子生物学",
+      "pinyin_numbered": "fen1 zi3 sheng1 wu4 xue2",
+      "content_version": 1,
+      "checksum": "de3d7ce9f5a5f33fd1a20b8fb677d18c821eaf3f598123be8b7c2f834ecffd86"
+    },
+    {
+      "id": "accc7f63-1969-5a11-a316-b7504fdcefe0",
+      "lexical_key": "基因工程|ji1 yin1 gong1 cheng2",
+      "simplified": "基因工程",
+      "pinyin_numbered": "ji1 yin1 gong1 cheng2",
+      "content_version": 1,
+      "checksum": "8ff2239a95dfe837675bae2b2335d4e3c501bed3c42c20ca2106c156c75c06ec"
+    },
+    {
+      "id": "c47c2197-8114-55da-81fd-f8e18b0c981a",
+      "lexical_key": "核聚变|he2 ju4 bian4",
+      "simplified": "核聚变",
+      "pinyin_numbered": "he2 ju4 bian4",
+      "content_version": 1,
+      "checksum": "e1d0bfd373d05bbb75603bfccbef3890c5551ad188d4a7873ab224fb28a7b0ac"
+    },
+    {
+      "id": "afc96393-f1d7-5438-a062-a0f61d855bbf",
+      "lexical_key": "红外光谱|hong2 wai4 guang1 pu3",
+      "simplified": "红外光谱",
+      "pinyin_numbered": "hong2 wai4 guang1 pu3",
+      "content_version": 1,
+      "checksum": "b5a8afd9dddface4bbf39e9da16a85889889d59504af77bb666732a2186e13a1"
+    },
+    {
+      "id": "54e29aa4-be2f-5f67-8cb5-5028b7512d80",
+      "lexical_key": "激光雷达|ji1 guang1 lei2 da2",
+      "simplified": "激光雷达",
+      "pinyin_numbered": "ji1 guang1 lei2 da2",
+      "content_version": 1,
+      "checksum": "ee7cac0478d50488fdcefba7023b1ddee5822ac6bca970afa257a0a279c81d62"
+    },
+    {
+      "id": "c033d6d9-24c3-5fa0-90b9-61086637e5ca",
+      "lexical_key": "量子通信|liang4 zi3 tong1 xin4",
+      "simplified": "量子通信",
+      "pinyin_numbered": "liang4 zi3 tong1 xin4",
+      "content_version": 1,
+      "checksum": "0736b830dfd408275a5c0a5c91c929c2a63c84f96e6fa0e37fd5b01c573ab54b"
+    },
+    {
+      "id": "6aec0838-158e-50e2-b15e-ad721cbad61b",
+      "lexical_key": "纳米材料|na4 mi3 cai2 liao4",
+      "simplified": "纳米材料",
+      "pinyin_numbered": "na4 mi3 cai2 liao4",
+      "content_version": 1,
+      "checksum": "63fc756bf23007c9e7d2f521f7a3db1eb716fe81e9a63ce32dd7ee632a971ec7"
+    },
+    {
+      "id": "a14a3ef7-6125-593b-943e-d67c0fcf9341",
+      "lexical_key": "脑机接口|nao3 ji1 jie1 kou3",
+      "simplified": "脑机接口",
+      "pinyin_numbered": "nao3 ji1 jie1 kou3",
+      "content_version": 1,
+      "checksum": "5f38c1cbd7979cd24010dfaaa5333e9cd46fe773ffe909479c7c9ead3079412d"
+    },
+    {
+      "id": "da58e1af-62c5-52ef-956b-55940cff0327",
+      "lexical_key": "逆向工程|ni4 xiang4 gong1 cheng2",
+      "simplified": "逆向工程",
+      "pinyin_numbered": "ni4 xiang4 gong1 cheng2",
+      "content_version": 1,
+      "checksum": "f3dbf760cd52ab30e867f0cf3e584c5edb1e1d2f936618e59073e74e4de5249f"
+    },
+    {
+      "id": "5f2f69cf-ae57-5b5b-b46d-aaf54dd092d8",
+      "lexical_key": "人工心脏|ren2 gong1 xin1 zang4",
+      "simplified": "人工心脏",
+      "pinyin_numbered": "ren2 gong1 xin1 zang4",
+      "content_version": 1,
+      "checksum": "6f4af24a79b00c827432b141b304d63d04e794c9ad0afe83205f71a9c3446a80"
+    },
+    {
+      "id": "b42657d3-7e5f-5a6e-bcdd-e1421f44e268",
+      "lexical_key": "神经元|shen2 jing1 yuan2",
+      "simplified": "神经元",
+      "pinyin_numbered": "shen2 jing1 yuan2",
+      "content_version": 1,
+      "checksum": "fe643468d3cfaa44af5c502207fb09033f5cd95b757f99c3fa03bd36385155aa"
+    },
+    {
+      "id": "e9d6b11a-ac70-58a0-b833-da761093793b",
+      "lexical_key": "深空探测|shen1 kong1 tan4 ce4",
+      "simplified": "深空探测",
+      "pinyin_numbered": "shen1 kong1 tan4 ce4",
+      "content_version": 1,
+      "checksum": "153bed55410ce5a122d76368be60c5fd6710bf201bcbc25de85fd4fb8ddf222b"
+    },
+    {
+      "id": "7516be02-a676-56ba-9ed1-f660628fd69a",
+      "lexical_key": "生物反应器|sheng1 wu4 fan3 ying4 qi4",
+      "simplified": "生物反应器",
+      "pinyin_numbered": "sheng1 wu4 fan3 ying4 qi4",
+      "content_version": 1,
+      "checksum": "5fd14e485eafcb6e5c1dabaa91191a5d73e806e448a24d52c7f858dc8181a8d1"
+    },
+    {
+      "id": "980ed646-ff53-591e-8d60-11f6a66359db",
+      "lexical_key": "石墨烯|shi2 mo4 xi1",
+      "simplified": "石墨烯",
+      "pinyin_numbered": "shi2 mo4 xi1",
+      "content_version": 1,
+      "checksum": "dde601d8169b6257b0d2cf8919d754dc887928d3c461d20b2a1030aab091e2d8"
+    },
+    {
+      "id": "95b5f75d-abfd-5eac-b60c-dea634359e39",
+      "lexical_key": "太阳能电池|tai4 yang2 neng2 dian4 chi2",
+      "simplified": "太阳能电池",
+      "pinyin_numbered": "tai4 yang2 neng2 dian4 chi2",
+      "content_version": 1,
+      "checksum": "880dc607264af412edb978097939f2d2eec0dfaf2bfa6169f8b7658afe56d8ac"
+    },
+    {
+      "id": "caa7fa5f-8093-5aca-82bc-fd1c5ae02f13",
+      "lexical_key": "碳纤维|tan4 xian1 wei2",
+      "simplified": "碳纤维",
+      "pinyin_numbered": "tan4 xian1 wei2",
+      "content_version": 1,
+      "checksum": "5012564b19ebe1847c8da8f81b149cd6af330b06d552f846b2541a8c66c7b084"
+    },
+    {
+      "id": "0d93fd0d-392d-5021-8c67-5f07b7472d4d",
+      "lexical_key": "外骨骼|wai4 gu3 ge2",
+      "simplified": "外骨骼",
+      "pinyin_numbered": "wai4 gu3 ge2",
+      "content_version": 1,
+      "checksum": "bf22a54989eb9f5252b0747a3b2ca7c8f2dc70d9dfff3d3f16512abb68d98547"
+    },
+    {
+      "id": "659650d7-c50b-54f3-ba88-8123a757b1fd",
+      "lexical_key": "微纳制造|wei1 na4 zhi4 zao4",
+      "simplified": "微纳制造",
+      "pinyin_numbered": "wei1 na4 zhi4 zao4",
+      "content_version": 1,
+      "checksum": "13d9c7349554a386dc81b9d82dc58e6dbc5d7579ba996279360e55645040cc70"
+    },
+    {
+      "id": "f10e526e-f670-5594-a5c7-e9645eb58b45",
+      "lexical_key": "无线充电|wu2 xian4 chong1 dian4",
+      "simplified": "无线充电",
+      "pinyin_numbered": "wu2 xian4 chong1 dian4",
+      "content_version": 1,
+      "checksum": "bda3776e59c03f3dd3fcbd81c74237398014fe9343d4e71644d1f57963210c2c"
+    },
+    {
+      "id": "156ad23c-9026-50b2-8c83-7628e6511332",
+      "lexical_key": "云计算|yun2 ji4 suan4",
+      "simplified": "云计算",
+      "pinyin_numbered": "yun2 ji4 suan4",
+      "content_version": 1,
+      "checksum": "014af4d9a812ec8033e60e76227da2d0696218a26f45033e3502558796c5a925"
+    },
+    {
+      "id": "202d74c6-b519-5a38-b98d-a980c36bb2ef",
+      "lexical_key": "载人航天|zai4 ren2 hang2 tian1",
+      "simplified": "载人航天",
+      "pinyin_numbered": "zai4 ren2 hang2 tian1",
+      "content_version": 1,
+      "checksum": "72db13a43eea9b7f606f018210e39d03b17657f4d82a961763cb61e1b044b931"
+    },
+    {
+      "id": "eed52d35-8cd0-58d7-8b8a-2a94a0dad5cc",
+      "lexical_key": "质子治疗|zhi3 zi3 zhi4 liao2",
+      "simplified": "质子治疗",
+      "pinyin_numbered": "zhi3 zi3 zhi4 liao2",
+      "content_version": 1,
+      "checksum": "59dd141dfd8203c648130511fb88bf4523be4a6e4522bcf442d9be974e0fc0c9"
+    },
+    {
+      "id": "6f3a578d-d492-5911-b424-4517dec2e555",
+      "lexical_key": "重力波|zhong4 li4 bo1",
+      "simplified": "重力波",
+      "pinyin_numbered": "zhong4 li4 bo1",
+      "content_version": 1,
+      "checksum": "8013954ea867c9bd9ac871d2ab233286dc24606a93fd24d83ad847c8faba06fa"
+    },
+    {
+      "id": "95ca5b9d-2dd5-5c34-8685-a86f11bfb7d7",
+      "lexical_key": "合成生物学|he2 cheng2 sheng1 wu4 xue2",
+      "simplified": "合成生物学",
+      "pinyin_numbered": "he2 cheng2 sheng1 wu4 xue2",
+      "content_version": 1,
+      "checksum": "8881f6ef25d2172f9779c755fa2c17ea809cd1eedaaacd7fff055f58556bebc5"
+    },
+    {
+      "id": "3cde3c43-be7f-56ea-9958-d0c14b357be7",
+      "lexical_key": "低温超导|di1 wen1 chao1 dao3",
+      "simplified": "低温超导",
+      "pinyin_numbered": "di1 wen1 chao1 dao3",
+      "content_version": 1,
+      "checksum": "dab3c5271abdb011a0c116a3714059933ca9890d54229b04618e57aca055afef"
+    },
+    {
+      "id": "26410c90-3944-5ac9-b481-e0dd63fec532",
+      "lexical_key": "单克隆抗体|dan1 ke4 long2 kang4 ti3",
+      "simplified": "单克隆抗体",
+      "pinyin_numbered": "dan1 ke4 long2 kang4 ti3",
+      "content_version": 1,
+      "checksum": "e2f0132a4a30b3328f1ce04da71e331ce04dd0d956c47b83e5c873e5c75e1f70"
+    },
+    {
+      "id": "7ef8ee7f-9b64-53bd-a52c-671106e13112",
+      "lexical_key": "粒子物理|li4 zi3 wu4 li3",
+      "simplified": "粒子物理",
+      "pinyin_numbered": "li4 zi3 wu4 li3",
+      "content_version": 1,
+      "checksum": "6bf5623cd38c111f9c57d28b936a50b79b3787eea1c2202b0022360a1bf38701"
+    },
+    {
+      "id": "f64ae21d-5977-5843-9aea-ca79559cd1d0",
+      "lexical_key": "热力学|re4 li4 xue2",
+      "simplified": "热力学",
+      "pinyin_numbered": "re4 li4 xue2",
+      "content_version": 1,
+      "checksum": "bf817cd5d0758f8a184b489b64710e8c6315e9abd51d5f8a019b1bc5452e6b25"
+    },
+    {
+      "id": "79e4a0e9-7d13-53b7-ac38-255951460b9b",
+      "lexical_key": "拓扑绝缘体|tuo4 pu1 jue2 yuan2 ti3",
+      "simplified": "拓扑绝缘体",
+      "pinyin_numbered": "tuo4 pu1 jue2 yuan2 ti3",
+      "content_version": 1,
+      "checksum": "3df143578af0e723345419fc1874e72fd07015750c33aee51191676567c75782"
+    },
+    {
+      "id": "42f368d8-1ff9-5248-a0ac-119bb3e9d5d2",
+      "lexical_key": "微流控|wei1 liu2 kong4",
+      "simplified": "微流控",
+      "pinyin_numbered": "wei1 liu2 kong4",
+      "content_version": 1,
+      "checksum": "cc2f75ce8582011704bdfccadb23a73180bea68fff5b07ff1e238b39b6f1f5b3"
+    },
+    {
+      "id": "875d4f9f-c184-5804-901c-193e5570b60d",
+      "lexical_key": "光伏发电|guang1 fu2 fa1 dian4",
+      "simplified": "光伏发电",
+      "pinyin_numbered": "guang1 fu2 fa1 dian4",
+      "content_version": 1,
+      "checksum": "7264de6f2d3650f3fc15b8bf3419d6cde06e4ff9536cba891538902bca8911d0"
+    },
+    {
+      "id": "9c3069b2-21ba-52aa-b4a6-d416744b5dd7",
+      "lexical_key": "量子比特|liang4 zi3 bi3 te4",
+      "simplified": "量子比特",
+      "pinyin_numbered": "liang4 zi3 bi3 te4",
+      "content_version": 1,
+      "checksum": "ed49a6339362fb9b6c077ce2ab8998784ea25144ac493979c37773396c29c5c6"
+    },
+    {
+      "id": "14291bb2-edd8-591b-a65d-ce01bd3fc321",
+      "lexical_key": "数字孪生|shu4 zi4 luan2 sheng1",
+      "simplified": "数字孪生",
+      "pinyin_numbered": "shu4 zi4 luan2 sheng1",
+      "content_version": 1,
+      "checksum": "ffbe5b5ccc9cfbd77ff4adfa26d227fc0d1d2811195b8817b8778c2f4264f021"
+    },
+    {
+      "id": "2b9b294f-8e8a-5ea2-86c7-f982c3f83d9e",
+      "lexical_key": "生物信息学|sheng1 wu4 xin1 xi1 xue2",
+      "simplified": "生物信息学",
+      "pinyin_numbered": "sheng1 wu4 xin1 xi1 xue2",
+      "content_version": 1,
+      "checksum": "0c9f4042b1c6957cc18068dd45d1e4d88a4899c4481b8963fd7aa34dd15f7aa1"
+    },
+    {
+      "id": "e88e3f05-d1fd-5b6f-a50e-cfe8ee423c4c",
+      "lexical_key": "干细胞|gan4 xi4 bao1",
+      "simplified": "干细胞",
+      "pinyin_numbered": "gan4 xi4 bao1",
+      "content_version": 1,
+      "checksum": "8c68102fa0ce6edb086c97b0d6f062885219730b2cd2e257969cf1daa28a8ac6"
+    },
+    {
+      "id": "8407a3ef-a70c-5659-91fc-5a635d390cb5",
+      "lexical_key": "深海潜器|shen1 hai3 qian2 qi4",
+      "simplified": "深海潜器",
+      "pinyin_numbered": "shen1 hai3 qian2 qi4",
+      "content_version": 1,
+      "checksum": "2a25d613f7d1c6484ffbe64d41801a7dfb343daa3dd9318d7f423fb925ab695e"
+    },
+    {
+      "id": "ebfaa558-791b-5fde-bffa-5d24d9abba19",
+      "lexical_key": "超燃冲压|chao1 ran2 chong1 ya1",
+      "simplified": "超燃冲压",
+      "pinyin_numbered": "chao1 ran2 chong1 ya1",
+      "content_version": 1,
+      "checksum": "2e26af735b96015301cd8e95570c46d3566e0b9253f572511000834cc6d23a3b"
+    },
+    {
+      "id": "11591c7b-b804-564a-b26e-4b887cc8a9b3",
+      "lexical_key": "自适应控制|zi4 shi4 ying4 kong4 zhi4",
+      "simplified": "自适应控制",
+      "pinyin_numbered": "zi4 shi4 ying4 kong4 zhi4",
+      "content_version": 1,
+      "checksum": "109fa2bc10acac7d2f5a5ce5ab3072d978a7932a1dda9fda0ed3580beebcbfd1"
+    },
+    {
+      "id": "dd4c8301-92db-544d-8caa-7996a9d5f002",
+      "lexical_key": "机器学习|ji1 qi4 xue2 xi2",
+      "simplified": "机器学习",
+      "pinyin_numbered": "ji1 qi4 xue2 xi2",
+      "content_version": 1,
+      "checksum": "50e794caabbaede74d50bb2d09b97f0a5887f41bb46b72dfa9e8b1c0f17f1105"
+    },
+    {
+      "id": "002b671f-cec9-5a2e-a8fa-40889b643fcc",
+      "lexical_key": "工业互联网|gong1 ye4 hu4 lian2 wang3",
+      "simplified": "工业互联网",
+      "pinyin_numbered": "gong1 ye4 hu4 lian2 wang3",
+      "content_version": 1,
+      "checksum": "f5a2f9659b35c6d35c50dba5679025f60b6dc9417ad1b0bf0edec516ed2a921d"
+    },
+    {
+      "id": "03ae040c-b7f8-5a53-acca-6c09fe3fbf95",
+      "lexical_key": "固态电池|gu4 tai4 dian4 chi2",
+      "simplified": "固态电池",
+      "pinyin_numbered": "gu4 tai4 dian4 chi2",
+      "content_version": 1,
+      "checksum": "a46f508e7745d7ba9037c33435f674259ffd7031b4b29aed5a5f48df6324c024"
+    },
+    {
+      "id": "d0019b3c-d0c0-5025-9440-ffac79c90dd3",
+      "lexical_key": "空间站|kong1 jian1 zhan4",
+      "simplified": "空间站",
+      "pinyin_numbered": "kong1 jian1 zhan4",
+      "content_version": 1,
+      "checksum": "333b0f568b71f171ad6ab715af2e00b30e529dd3a93179e2829288c5bc0b99a3"
+    },
+    {
+      "id": "ef3aa4c0-174a-5c68-9882-1f4a49d0abd5",
+      "lexical_key": "智能驾驶|zhi4 neng2 jia4 shi3",
+      "simplified": "智能驾驶",
+      "pinyin_numbered": "zhi4 neng2 jia4 shi3",
+      "content_version": 1,
+      "checksum": "a51a61b61917ec854b685e925a045890df39a13d1db8407ac0a8824398ac3eb8"
+    }
+  ]
+}

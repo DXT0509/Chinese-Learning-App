@@ -1,0 +1,16 @@
+{
+  "operator": "test",
+  "batches": {
+    "b": {
+      "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "generator": {
+        "provider": "synthetic",
+        "model": "generator-fixture",
+        "version": "test"
+      },
+      "evidence_file": "generation.json",
+      "evidence_sha256": "ffbc2dfc402782325da71132100e74ff511d1585dd80e4ea196ed4bcace3fef2",
+      "verification_note": "SYNTHETIC TEST ONLY"
+    }
+  }
+}

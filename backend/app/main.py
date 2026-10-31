@@ -1,9 +1,12 @@
 from contextlib import asynccontextmanager
+from time import perf_counter
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from sqlalchemy.exc import DBAPIError
+from sqlalchemy.exc import TimeoutError as DatabaseTimeout
 
 from app.api.v1.endpoints.authentication import router as auth_router
 from app.api.v1.endpoints.health import router as health_router
@@ -44,6 +47,13 @@ def create_app() -> FastAPI:
     @app.exception_handler(Exception)
     async def unexpected_error(request: Request, exc: Exception) -> JSONResponse:
         logger.error("unhandled_server_error")
+        # Fixed categories only: exception messages can include SQL and credentials.
+        category = "application"
+        if isinstance(exc, DatabaseTimeout):
+            category = "database_pool_timeout"
+        elif isinstance(exc, DBAPIError):
+            category = "database_connection" if exc.connection_invalidated else "database_operation"
+        logger.error("server_failure_%s", category)
         return JSONResponse(status_code=500, content={"detail": "Internal server error"})
 
     app.include_router(router)
@@ -57,9 +67,25 @@ def create_app() -> FastAPI:
 
     @app.middleware("http")
     async def private_responses(request: Request, call_next):
-        response = await call_next(request)
-        response.headers["Cache-Control"] = "no-store"
-        return response
+        started = perf_counter()
+        status = 500
+        try:
+            response = await call_next(request)
+            status = response.status_code
+            response.headers["Cache-Control"] = "no-store"
+            return response
+        finally:
+            # Route templates contain no actual attempt/user IDs or query values.
+            route = getattr(request.scope.get("route"), "path", "")
+            if settings.environment == "development" and route.startswith(
+                ("/api/v1/me/srs/", "/me/srs/")
+            ):
+                logger.info(
+                    "srs_request route=%s status=%d ms=%.2f",
+                    route,
+                    status,
+                    (perf_counter() - started) * 1000,
+                )
 
     app.include_router(health_router)
     return app

@@ -1,0 +1,5 @@
+<resources>
+    <string name="srs_daily_budget">Hôm nay: %1$d / %2$d phút</string>
+    <string name="srs_daily_backlog">Còn %1$d từ đến hạn · khoảng %2$d phút · trong đó %3$d từ chưa ôn lần nào</string>
+    <string name="srs_continue_beyond">Tiếp tục ôn</string>
+</resources>

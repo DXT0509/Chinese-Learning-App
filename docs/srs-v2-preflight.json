@@ -1,0 +1,304 @@
+{
+  "captured_at": "2026-10-30T17:00:57.395901+00:00",
+  "transaction_read_only": "on",
+  "revision": "0012_srs_review_engine",
+  "database_writes": 0,
+  "counts": {
+    "users": 3,
+    "curated_user_vocabulary": 27,
+    "personal_vocabulary_entries": 0,
+    "srs_review_attempts": 20,
+    "srs_target_policies": 2804,
+    "curated_vocabulary_reviews": 0
+  },
+  "preservation_sha256": {
+    "users": "f7af12bc5abac49d3d0b5f41d1912fc43981b0b5dc2ad98575a3839e8eff4483",
+    "curated_user_vocabulary": "4214c13d83debf86efc822e6eea141e438f9522f2565727cc9361ef67e46c859",
+    "personal_vocabulary_entries": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "srs_review_attempts": "c1ea0d7779b7d456844818eeff9b45f44ed3c16e3deaafe406a56e439839a5ff",
+    "srs_target_policies": "b6fe65a916c2276f76db43aec1079a675e93d9ad875340ad948048144c441b64",
+    "curated_vocabulary_reviews": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "expected_migration_writes": {
+    "new_tables": 3,
+    "new_columns": 1,
+    "existing_rows_receiving_activation_default": 27,
+    "schedule_updates": 0,
+    "mastery_updates": 0,
+    "policy_inserts": 0,
+    "history_updates": 0,
+    "alembic_version_updates": 1
+  },
+  "projections": [
+    {
+      "identity_sha256": "9abda24f493b1743a36f064dc0a2e913202f270fff4a0a0606238ddd3be44eea",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-26T11:08:40.372609+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "18692de961560f1e99ac67b6666ddd1c3315f014117b42ec0f61984569e5c3a7",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:34:55.375847+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "f6eaf01adb4fae17df8620b0a0c4faa38fc2350f6b513492723fae8ce4d90eea",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:38:16.475419+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "52f8420f2205a59e4cf620644c6a8d39f9b666b36f2dffc49fa0e88a69c58854",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:42:50.210908+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "69dcaa56af3b80cf145e4a87ec57d6bdcd416da399a7c6717a5778a6f53d0d81",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:50:58.964207+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "17eb20d4adf2822c60483548e71b459e312d896ad7ffc184b7fe765c58b27a38",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:51:38.563346+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "50c066eb1ef0689f4cc0b9f1c559a636f885aec184998933a0b32415bc98952f",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:52:04.993789+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "9ddd62371aa88542852692edf8b9b9cf254afa901e9b2154614b355e125c68d0",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:52:28.972451+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "35436ac9df50932b803223a16f6bb5a82f436b6c5bb0161cfc0806cd7bb5702e",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:52:48.585029+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "a7a81cc4db017baa8684840d91ca7d509c0b0b91e9c53899173790cf7a9c061e",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:52:57.473734+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "84a28849ec243fc41c514a0f9db1c3c7b9aa30a84fda73c431182ecda1817d22",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:53:43.304800+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "40d730cee66ab629ad77fb6a57c138df5efd9a76b543d8edcd4660c07b54c009",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:54:05.569561+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "6a64ffa8a651f6de2e0444462ee71bbfd65fc6a0d25ea39c7e3af935f28117cd",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T15:54:28.153095+00:00",
+      "recorded_scheduling_outcomes": 0,
+      "memory_initialization": "cold start (no invented history)",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "95bed4f13b95dacbc1105bc6863320818eedcf7353fefc494cdda6f002e7ccbf",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T17:44:46.836197+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "28c585d7138322aa2bb91521bbc443b5804b8d518c24ad6380e27bccc4bbb80d",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T17:46:59.920603+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "f58b715ad303dcd50dbfa4aabfc31cc2c8fc6b12eeddeb750f4dad17e8c732bc",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T17:48:14.595344+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "4cd8c4ecc616ed8c59cb8a88d9e8c919858944765f2a73cb87a880dc30a1bfa5",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T17:49:23.583080+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "671a9fe78ad870686cc34fe046104b3dff0187b0a66b892400fd51e2ba5640c1",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-28T17:50:24.020407+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "54062a361fa6626f5323bbeec823627c82dc3a3eb8acb93c9d763ddb9bfe2309",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T15:42:52.860810+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "a2724450631bf4ee9328d7962b28b9f798bf018dcf95d6a5280b68298ec82314",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T15:44:09.173361+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "01796f0ebdc2ed5e7cb9da423bd8fbb90d3b304cb7233ed2c3b2f188b5ce7b41",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T15:51:37.481474+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "513eb5ceaa130abbd6ba196a2290a60a0472279f56bb268fd0cddb8587c339e7",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T16:39:51.827688+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-06T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "3db2dc1492bd840155bd03db67b4a793e8baf80f948b317ae73dab09d5c020d4",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T17:24:18.783848+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-01T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "2281f026c16d45ee8a7029da5ff26e5aaa518dfa6bdd55dcbe09db292f2ed33f",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T18:05:26.732175+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-01T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "ed2ad6cdb143b60138f86fa89ffc60951efda64339697a807e550076b781ef3c",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T18:06:47.317513+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-11-01T17:00:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    },
+    {
+      "identity_sha256": "8f6c65242b86094b184fe36670204ef34ea14f0a22c949b4de83f93bcbb3141e",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-30T17:57:48.619210+00:00",
+      "recorded_scheduling_outcomes": 2,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:57:48.619210+00:00",
+      "hypothetical_good_due": "2026-11-06T17:57:48.619210+00:00",
+      "hypothetical_again_due": "2026-10-30T18:07:48.619210+00:00"
+    },
+    {
+      "identity_sha256": "535239c1020aaae3d03cd4401563aa5c85e3264be0555105cccdfb40e5a2e238",
+      "mastery_preserved": 0,
+      "current_due_unchanged": "2026-10-29T18:13:10.986966+00:00",
+      "recorded_scheduling_outcomes": 1,
+      "memory_initialization": "recorded replay",
+      "hypothetical_next_eligible_completion": "2026-10-30T17:00:57.395901+00:00",
+      "hypothetical_good_due": "2026-10-30T17:10:57.395901+00:00",
+      "hypothetical_again_due": "2026-10-30T17:01:57.395901+00:00"
+    }
+  ]
+}

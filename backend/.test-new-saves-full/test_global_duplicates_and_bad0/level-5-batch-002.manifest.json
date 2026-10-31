@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "batch_key": "L5-B002",
+  "learning_level": 5,
+  "batch_number": 2,
+  "expected_count": 50,
+  "actual_count": 50,
+  "cumulative_level_unique_lexical_count": 1350,
+  "provenance": "ORIGINAL_AI_AUTHORED",
+  "classification_standard": "APP_CURATED",
+  "difficulty_reference": "HSK_2_0",
+  "generator": {
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "version": "2026-10"
+  },
+  "artifact_file": "level-5-batch-002.jsonl",
+  "artifact_sha256": "e140a9e6559b2912638fb37dc62bd7ca1c240b5843865b066befab16e5dd67b4",
+  "artifact_bytes": 48456,
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "structural_validation": "PASSED",
+  "independent_review": "PENDING",
+  "human_approved_count": 0,
+  "ai_approved_count": 0,
+  "review_status_counts": {
+    "GENERATED_UNREVIEWED": 50,
+    "NEEDS_REVIEW": 0
+  },
+  "records": [
+    {
+      "id": "65aa1b11-dd71-58f9-96e1-bc39be986206",
+      "lexical_key": "查询|cha2 xun2",
+      "simplified": "查询",
+      "pinyin_numbered": "cha2 xun2",
+      "content_version": 1,
+      "checksum": "9f02740e17b29c781c41deb7f486ab4e5f3c98a3abb3cde76f4c98037e8a0e1a"
+    },
+    {
+      "id": "d96286df-38ed-5852-afca-51e55a8d6e39",
+      "lexical_key": "差别|cha1 bie2",
+      "simplified": "差别",
+      "pinyin_numbered": "cha1 bie2",
+      "content_version": 1,
+      "checksum": "bdef4c68a747d6a616baa1748aaef586d68825da1a22e8f63fa0882345a1b5fa"
+    },
+    {
+      "id": "6ec57790-e732-53d9-9f2d-0c00c5c7377f",
+      "lexical_key": "查明|cha2 ming2",
+      "simplified": "查明",
+      "pinyin_numbered": "cha2 ming2",
+      "content_version": 1,
+      "checksum": "041757d2a92f477b782b3e5d886c6029eff39d1a7a975a9acfbd63f2adfe1cbe"
+    },
+    {
+      "id": "d2ce149a-f8ea-5d49-a01e-4c0a51d07ccc",
+      "lexical_key": "产物|chan3 wu4",
+      "simplified": "产物",
+      "pinyin_numbered": "chan3 wu4",
+      "content_version": 1,
+      "checksum": "74f1675d9c8ba3564c42d2acceccaf808e01b92a50a14d938bb795b63dee02d5"
+    },
+    {
+      "id": "ed02b485-db6b-5e52-94ae-a9dc05843b75",
+      "lexical_key": "阐明|chan3 ming2",
+      "simplified": "阐明",
+      "pinyin_numbered": "chan3 ming2",
+      "content_version": 1,
+      "checksum": "c1cd81f05fae17de4497ea2418b2f9fe6c5f5c70bee5d804ddc651ce24d6dbda"
+    },
+    {
+      "id": "bdffd673-2d63-5a95-8ed1-8c4e85fe034c",
+      "lexical_key": "长久|chang2 jiu3",
+      "simplified": "长久",
+      "pinyin_numbered": "chang2 jiu3",
+      "content_version": 1,
+      "checksum": "22c9a99b3da1c8e75ce310f4117a4ab1fa262422a090b95badfc1f5816629e35"
+    },
+    {
+      "id": "2a5103fd-af95-53d8-8cbd-ba06cf79bed6",
+      "lexical_key": "偿还|chang2 huan2",
+      "simplified": "偿还",
+      "pinyin_numbered": "chang2 huan2",
+      "content_version": 1,
+      "checksum": "d3e615cf58fdcde2df0bbdcd2a7404bab3f76c663daf9989d5a19056225603a9"
+    },
+    {
+      "id": "b021bdcf-a658-5161-9a19-c0384afd168f",
+      "lexical_key": "常年|chang2 nian2",
+      "simplified": "常年",
+      "pinyin_numbered": "chang2 nian2",
+      "content_version": 1,
+      "checksum": "dffab631a81e326da2c101e4ba5a21b5ea6845196f9fb15516f5f93adfb42f8b"
+    },
+    {
+      "id": "e228681b-95e2-515f-ae75-35ecb9a76d1c",
+      "lexical_key": "昌盛|chang1 sheng4",
+      "simplified": "昌盛",
+      "pinyin_numbered": "chang1 sheng4",
+      "content_version": 1,
+      "checksum": "5ae9eb27cf29861698558381d7f5ba9f795042660784f4a19ab4cd462f58ff43"
+    },
+    {
+      "id": "15651afb-f6b5-520d-b7a1-b4b08f2fa3ea",
+      "lexical_key": "常理|chang2 li3",
+      "simplified": "常理",
+      "pinyin_numbered": "chang2 li3",
+      "content_version": 1,
+      "checksum": "03b089610b91aaa950f0107072a4fb23b248d1c23e81ecb977804cc3120df801"
+    },
+    {
+      "id": "73927978-da3d-533d-8bd6-2fc4c4bf6e4a",
+      "lexical_key": "倡议|chang4 yi4",
+      "simplified": "倡议",
+      "pinyin_numbered": "chang4 yi4",
+      "content_version": 1,
+      "checksum": "797a15158c2f1671584bbc1d2d8d1d00872f4175d9c45b15c7f6d388787ea4f0"
+    },
+    {
+      "id": "28fa84b1-48be-552b-8754-5be8280ca9ab",
+      "lexical_key": "超越性|chao1 yue4 xing4",
+      "simplified": "超越性",
+      "pinyin_numbered": "chao1 yue4 xing4",
+      "content_version": 1,
+      "checksum": "c35f586a4ab8adf7bbb7afc51f220a612053082f16bfe5e4a105b80a1a56fde2"
+    },
+    {
+      "id": "a948f659-cc9d-54e8-aac9-976b718f082d",
+      "lexical_key": "沉淀|chen2 dian4",
+      "simplified": "沉淀",
+      "pinyin_numbered": "chen2 dian4",
+      "content_version": 1,
+      "checksum": "33e262ea43fcee8706bd814a4f1a750dd7fa21f92a582106a18aab934fba8f87"
+    },
+    {
+      "id": "02da0a27-4b67-523b-adf5-591ba424634c",
+      "lexical_key": "沉着|chen2 zhuo2",
+      "simplified": "沉着",
+      "pinyin_numbered": "chen2 zhuo2",
+      "content_version": 1,
+      "checksum": "773cf7668d28717b92fd0d5a76155b5aaca420ec0f65ddebc9d84a0d15ed3a4a"
+    },
+    {
+      "id": "447af0f7-13ec-5502-a22e-d146de2eb1f5",
+      "lexical_key": "沉闷|chen2 men4",
+      "simplified": "沉闷",
+      "pinyin_numbered": "chen2 men4",
+      "content_version": 1,
+      "checksum": "b8a85b1710c8e691ed034ad9159ff574f043e29134b9a836092eaf9a076505c0"
+    },
+    {
+      "id": "a1f465c8-f731-55a0-8f99-b60ad1ac8e94",
+      "lexical_key": "沉沦|chen2 lun2",
+      "simplified": "沉沦",
+      "pinyin_numbered": "chen2 lun2",
+      "content_version": 1,
+      "checksum": "a812bc043bb718cbfe83e79bb9b9a2208b51ff3f39a5ab940a3979603971cbbc"
+    },
+    {
+      "id": "85b060ba-a450-566a-93dc-f73e55219ec6",
+      "lexical_key": "陈列室|chen2 lie4 shi4",
+      "simplified": "陈列室",
+      "pinyin_numbered": "chen2 lie4 shi4",
+      "content_version": 1,
+      "checksum": "9130b15d16fc23891c874833f5c2880be19eedca9d82f59b8abec55bbbcd861c"
+    },
+    {
+      "id": "32625772-02c4-549e-80b1-ced255a496fb",
+      "lexical_key": "晨练|chen2 lian4",
+      "simplified": "晨练",
+      "pinyin_numbered": "chen2 lian4",
+      "content_version": 1,
+      "checksum": "215cfcad6b5d7fbb14ed15a83aa2a41efc5a1fc3c1c636a7f0791d9f6ddcdbdb"
+    },
+    {
+      "id": "667419e8-0594-5f46-b405-7d9b5c663ae1",
+      "lexical_key": "成效|cheng2 xiao4",
+      "simplified": "成效",
+      "pinyin_numbered": "cheng2 xiao4",
+      "content_version": 1,
+      "checksum": "333a768605d8d8297cfd19a2e5b67134d6edf6e26170cb54b953d7d780eae4cc"
+    },
+    {
+      "id": "021d7395-1a28-53a1-81d1-d6dc2fbfbcf5",
+      "lexical_key": "澄清|cheng2 qing1",
+      "simplified": "澄清",
+      "pinyin_numbered": "cheng2 qing1",
+      "content_version": 1,
+      "checksum": "db6aa4e6baae05a124e46fd5dcf956ffd2e79372c63bf4317cf7746ea8f0f916"
+    },
+    {
+      "id": "a7969121-4acb-5523-a939-924c3e6d61e5",
+      "lexical_key": "呈现|cheng2 xian4",
+      "simplified": "呈现",
+      "pinyin_numbered": "cheng2 xian4",
+      "content_version": 1,
+      "checksum": "814482fb2c4b21fe68f79d1a103f35f8ba75be60b6fe9699dc5edec71594a83f"
+    },
+    {
+      "id": "9f12408c-f039-561f-abc9-c7c4e022d746",
+      "lexical_key": "沉思|chen2 si1",
+      "simplified": "沉思",
+      "pinyin_numbered": "chen2 si1",
+      "content_version": 1,
+      "checksum": "c60a61f940bacaab113581fde40e1191f46fd7eefa98927ea555d2af6ed26b5c"
+    },
+    {
+      "id": "39a59612-3549-5b5a-b5e4-50426d91bd0f",
+      "lexical_key": "称霸|cheng1 ba4",
+      "simplified": "称霸",
+      "pinyin_numbered": "cheng1 ba4",
+      "content_version": 1,
+      "checksum": "e0af359837d8b1018faf1cb228cff40359ca10f335090e45026ff2322c729a5b"
+    },
+    {
+      "id": "4eb04101-949a-5eda-88af-dce9e75f4c21",
+      "lexical_key": "成分|cheng2 fen4",
+      "simplified": "成分",
+      "pinyin_numbered": "cheng2 fen4",
+      "content_version": 1,
+      "checksum": "08afb71d8f769374c6161b208d9633e893cadd47f2b2d8b4d3736641b448bbe7"
+    },
+    {
+      "id": "938a48a1-c481-5e66-a186-32a45f3058df",
+      "lexical_key": "成见|cheng2 jian4",
+      "simplified": "成见",
+      "pinyin_numbered": "cheng2 jian4",
+      "content_version": 1,
+      "checksum": "3448891b56ffe1183b8c1cd47defca76fc8c1a99d84331b561758d8b52fbcf6d"
+    },
+    {
+      "id": "e0be1d67-9fc7-508c-bcd7-899a3f7b7938",
+      "lexical_key": "承载|cheng2 zai4",
+      "simplified": "承载",
+      "pinyin_numbered": "cheng2 zai4",
+      "content_version": 1,
+      "checksum": "33a6a07f065d36c0cd7bf517d21cb8e50a7995498372f67ebd0c49a86d0aced7"
+    },
+    {
+      "id": "747bf6d6-5676-50f7-91bb-de898c58f4ef",
+      "lexical_key": "乘务员|cheng2 wu4 yuan2",
+      "simplified": "乘务员",
+      "pinyin_numbered": "cheng2 wu4 yuan2",
+      "content_version": 1,
+      "checksum": "36ca30d99032a5ea3d6e9a5a7bf4a05f99776f126cd009b73d5e3df3cf706205"
+    },
+    {
+      "id": "70f88d5b-e98e-59bb-8d7c-47b28c05db68",
+      "lexical_key": "惩罚|cheng2 fa2",
+      "simplified": "惩罚",
+      "pinyin_numbered": "cheng2 fa2",
+      "content_version": 1,
+      "checksum": "4e2487d334a9d26736849acbe0d64989b5337d4682222498bccb34ce46d6795e"
+    },
+    {
+      "id": "320edc81-a3d7-5a7a-8811-72d73f77bd78",
+      "lexical_key": "成败|cheng2 bai4",
+      "simplified": "成败",
+      "pinyin_numbered": "cheng2 bai4",
+      "content_version": 1,
+      "checksum": "77c8099c2dfbeb4c74cfb6cacd63af95ec658affc8536a66e6e4bfe33e3f3ad0"
+    },
+    {
+      "id": "4f87cd26-8dae-5d18-b38c-d1bf9618313f",
+      "lexical_key": "城镇化|cheng2 zhen4 hua4",
+      "simplified": "城镇化",
+      "pinyin_numbered": "cheng2 zhen4 hua4",
+      "content_version": 1,
+      "checksum": "86180887bc941ea5d17984cda872cc70ab125cb0ef5cdf9cfad58557dcbf7ebf"
+    },
+    {
+      "id": "3a35dabb-eb1b-5ac6-b91f-0750eb805fc4",
+      "lexical_key": "澄清度|cheng2 qing1 du4",
+      "simplified": "澄清度",
+      "pinyin_numbered": "cheng2 qing1 du4",
+      "content_version": 1,
+      "checksum": "4d0c7fc3cb509e759494e5e25dc313d6352486eedd595e29aaf66f87e68f691b"
+    },
+    {
+      "id": "48493a29-6cfa-559a-865b-5b91e4fd79e1",
+      "lexical_key": "称呼|cheng1 hu5",
+      "simplified": "称呼",
+      "pinyin_numbered": "cheng1 hu5",
+      "content_version": 1,
+      "checksum": "9f5966bd1675801c4cdbd57dfe207c78d64570717d8bd2186490bf37f7138ae9"
+    },
+    {
+      "id": "4a571ee5-7a2f-5d0b-9b1e-e952e894cf37",
+      "lexical_key": "诚恳|cheng2 ken3",
+      "simplified": "诚恳",
+      "pinyin_numbered": "cheng2 ken3",
+      "content_version": 1,
+      "checksum": "c67ba99518dc8932d0fc9e4598d3c12078540fe395a6aa6727e8585bf635a817"
+    },
+    {
+      "id": "652f1fec-4fb8-5061-807c-e8fabdcf47a6",
+      "lexical_key": "盛产|sheng4 chan3",
+      "simplified": "盛产",
+      "pinyin_numbered": "sheng4 chan3",
+      "content_version": 1,
+      "checksum": "1e1e459f8fb0b56364059c6931406e2722aab3e0092f7a968322f05a1e4dd58a"
+    },
+    {
+      "id": "e97a97a9-c759-5fc1-aad7-dd67497dc91d",
+      "lexical_key": "乘机|cheng2 ji1",
+      "simplified": "乘机",
+      "pinyin_numbered": "cheng2 ji1",
+      "content_version": 1,
+      "checksum": "6dc051c3883cc988af83b59ffafefd76117da5e58b07cd817b8370189e41e9a4"
+    },
+    {
+      "id": "ad8bd063-7785-51b4-9a95-348fff12aff7",
+      "lexical_key": "成千上万|cheng2 qian1 shang4 wan4",
+      "simplified": "成千上万",
+      "pinyin_numbered": "cheng2 qian1 shang4 wan4",
+      "content_version": 1,
+      "checksum": "72bf23ba6919427437a7393e597b0209f8101515779603564b10a322190f8a3d"
+    },
+    {
+      "id": "e12ddc77-c728-5933-b04f-d03296b7f35c",
+      "lexical_key": "承诺|cheng2 nuo4",
+      "simplified": "承诺",
+      "pinyin_numbered": "cheng2 nuo4",
+      "content_version": 1,
+      "checksum": "0d39c8a4a39c800f9e19aa3436de1954b98783ea8e8c70dbaa9f6012a016acb5"
+    },
+    {
+      "id": "de74074e-858b-5384-a67f-97a832e6806d",
+      "lexical_key": "崇敬|chong2 jing4",
+      "simplified": "崇敬",
+      "pinyin_numbered": "chong2 jing4",
+      "content_version": 1,
+      "checksum": "d43f9fcc68fc5777da71288bdcb16d6773b5653670a4fefdd011d18e04a3c4af"
+    },
+    {
+      "id": "ce929374-9557-531f-8a61-4f66a6ad9f9d",
+      "lexical_key": "充沛|chong1 pei4",
+      "simplified": "充沛",
+      "pinyin_numbered": "chong1 pei4",
+      "content_version": 1,
+      "checksum": "eebf65b179faa97e49215d6623876acb8d32fb943fb62429ded89a475aa159c4"
+    },
+    {
+      "id": "7c40f5fb-f8c8-511c-b9c1-f829029eaa17",
+      "lexical_key": "崇尚|chong2 shang4",
+      "simplified": "崇尚",
+      "pinyin_numbered": "chong2 shang4",
+      "content_version": 1,
+      "checksum": "65f99473a295e894bae2aa3b582a7e72c25c7fe2203215171b44b3132d23b9ef"
+    },
+    {
+      "id": "9a4dbde7-83eb-583e-8739-8e3b7814bb0d",
+      "lexical_key": "冲突|chong1 tu1",
+      "simplified": "冲突",
+      "pinyin_numbered": "chong1 tu1",
+      "content_version": 1,
+      "checksum": "18f7cfd9a0fcc168ead43f34c052450d2c35298c98b05866bb3486b75a35096b"
+    },
+    {
+      "id": "1ddf81e5-6e41-5c62-9a43-83d24a7b07cb",
+      "lexical_key": "充足|chong1 zu2",
+      "simplified": "充足",
+      "pinyin_numbered": "chong1 zu2",
+      "content_version": 1,
+      "checksum": "93cdf32ffd093aa5aeb962133c83ce2a15a18959a23ecaa6bcb0de70705804ae"
+    },
+    {
+      "id": "3a05a09c-307e-5f2a-8f7d-3e2fc1abc4bb",
+      "lexical_key": "抽空|chou1 kong4",
+      "simplified": "抽空",
+      "pinyin_numbered": "chou1 kong4",
+      "content_version": 1,
+      "checksum": "4944c795843c8ce8565e991805541566f6c83b9db75099c8d86d1368610bb264"
+    },
+    {
+      "id": "e2f0eb83-0daf-53c0-a486-d4d1a749ef17",
+      "lexical_key": "抽象|chou1 xiang4",
+      "simplified": "抽象",
+      "pinyin_numbered": "chou1 xiang4",
+      "content_version": 1,
+      "checksum": "6b2b24b79768491967cacbc198b6a8c5e7d948204c2895d815219c20cdeb150d"
+    },
+    {
+      "id": "b8daa767-15ee-502f-9da5-2fba9af327ad",
+      "lexical_key": "抽查|chou1 cha2",
+      "simplified": "抽查",
+      "pinyin_numbered": "chou1 cha2",
+      "content_version": 1,
+      "checksum": "548a7453027a1c2d76517124bd4dea84d7c9ab3ade36efcd696a3902d5eee7ed"
+    },
+    {
+      "id": "faf58766-95a2-5e37-8ee3-a61a1bbba62f",
+      "lexical_key": "筹备|chou2 bei4",
+      "simplified": "筹备",
+      "pinyin_numbered": "chou2 bei4",
+      "content_version": 1,
+      "checksum": "1e61e4f327f25611c38f2252e3435032b7ac1d8008aad73d9ed2bf5abcd0431b"
+    },
+    {
+      "id": "093c61f8-2f11-5035-8963-c1ec94e19c29",
+      "lexical_key": "稠密|chou2 mi4",
+      "simplified": "稠密",
+      "pinyin_numbered": "chou2 mi4",
+      "content_version": 1,
+      "checksum": "668d8cc509a7b5a2676dbf6c40a051d91d5e3d4bb56b84c76dfcb570034951eb"
+    },
+    {
+      "id": "314b9602-d587-5b0f-a201-459e6282080c",
+      "lexical_key": "筹划|chou2 hua4",
+      "simplified": "筹划",
+      "pinyin_numbered": "chou2 hua4",
+      "content_version": 1,
+      "checksum": "771463000532b4c87d0212f98f26ab415caa18b533de1dfa20b6a48ea52cbb14"
+    },
+    {
+      "id": "9e5152fb-3533-55e5-9c03-185a8beccad1",
+      "lexical_key": "初衷|chu1 zhong1",
+      "simplified": "初衷",
+      "pinyin_numbered": "chu1 zhong1",
+      "content_version": 1,
+      "checksum": "6b44245f11f7d393610c2822f69268baa6ea41e1abe1e5d34c0c8da2a9a941ac"
+    },
+    {
+      "id": "caf45d35-a098-5c81-8a35-ab9764c298fc",
+      "lexical_key": "出道|chu1 dao4",
+      "simplified": "出道",
+      "pinyin_numbered": "chu1 dao4",
+      "content_version": 1,
+      "checksum": "0b025c9bd67514276addbf4f38012904f3ff6796cb841f695cb5deffcb2ef996"
+    }
+  ]
+}

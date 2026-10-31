@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "lesson-ni",
+  "version": 2,
+  "lesson_type": "VOCABULARY",
+  "title": "你 — bạn",
+  "template": {
+    "id": "vocabulary-preview",
+    "version": 2
+  },
+  "vocabulary": [
+    {
+      "vocabulary": "v-ni",
+      "position": 0,
+      "role": "TEACHES"
+    }
+  ]
+}

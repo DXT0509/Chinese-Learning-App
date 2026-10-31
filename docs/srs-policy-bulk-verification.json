@@ -1,0 +1,26 @@
+{
+  "isolated_database": "chinese_p41c_bulk_ca3b44d571",
+  "development_revision": "0011_srs_foundation",
+  "development_fingerprints_unchanged": true,
+  "development_tables_checked": 34,
+  "dry_run": {
+    "validated": 2148,
+    "inserted": 0,
+    "unchanged": 0,
+    "preserved_manual": 0
+  },
+  "first_import": {
+    "validated": 2148,
+    "inserted": 2148,
+    "unchanged": 0,
+    "preserved_manual": 0
+  },
+  "repeated_import": {
+    "validated": 2148,
+    "inserted": 0,
+    "unchanged": 2148,
+    "preserved_manual": 0
+  },
+  "runtime_gradable": 2148,
+  "source_bound_policy_schema_validation": 2148
+}

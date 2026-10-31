@@ -86,12 +86,20 @@ private fun HandwritingStatus(phase: HandwritingPhase, retry: () -> Unit) {
 
 @Composable
 fun HandwritingCanvas(strokes: List<HandwritingStroke>, enabled: Boolean,
-    begin: () -> Unit, complete: (HandwritingStroke?) -> Unit) {
+    begin: () -> Unit, complete: (HandwritingStroke?) -> Unit, preserveInterrupted: Boolean = false) {
     val active = remember { mutableStateListOf<HandwritingPoint>() }
     var gestureEpoch by remember { mutableIntStateOf(0) }
-    LifecycleEventEffect(Lifecycle.Event.ON_STOP) { gestureEpoch++ }
     val currentBegin by rememberUpdatedState(begin)
     val currentComplete by rememberUpdatedState(complete)
+    LifecycleEventEffect(if (preserveInterrupted) Lifecycle.Event.ON_PAUSE else Lifecycle.Event.ON_STOP) {
+        // Persist synchronously before the activity's state is saved; a
+        // recomposition-driven pointer cancellation may not run until foregrounding.
+        if (preserveInterrupted && active.isNotEmpty()) {
+            currentComplete(HandwritingStroke(active.toList()))
+            active.clear()
+        }
+        gestureEpoch++
+    }
     val ink = MaterialTheme.colorScheme.onSurface
     val guide = MaterialTheme.colorScheme.outlineVariant
     val description = stringResource(R.string.ink_canvas)
@@ -128,8 +136,8 @@ fun HandwritingCanvas(strokes: List<HandwritingStroke>, enabled: Boolean,
                             collector.move(next); active.add(next)
                         }
                     } finally {
+                        if (!finished) currentComplete(if (preserveInterrupted && active.isNotEmpty()) HandwritingStroke(active.toList()) else null)
                         collector.cancel(); active.clear()
-                        if (!finished) currentComplete(null)
                     }
                 }
             } finally { collector.cancel(); active.clear(); currentComplete(null) }
@@ -145,7 +153,11 @@ fun HandwritingCanvas(strokes: List<HandwritingStroke>, enabled: Boolean,
             }
             val path = Path().apply {
                 moveTo(first.x, first.y)
-                points.drop(1).forEach { val p = offset(it); lineTo(p.x, p.y) }
+                points.zipWithNext().forEach { (previous, next) ->
+                    val p = offset(previous); val n = offset(next)
+                    quadraticTo(p.x, p.y, (p.x + n.x) / 2, (p.y + n.y) / 2)
+                }
+                val last = offset(points.last()); lineTo(last.x, last.y)
             }
             drawPath(path, ink, style = Stroke(4.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round))
         }

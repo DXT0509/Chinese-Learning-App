@@ -40,6 +40,12 @@ object AppModule {
         retrofit.create(com.example.chineselearningapp.core.network.PersonalVocabularyApi::class.java)
 
     @Provides @Singleton
+    fun reviewApi(retrofit: Retrofit): com.example.chineselearningapp.core.network.ReviewApi =
+        // Every SRS mutation has a persisted replay identity or idempotent finalization.
+        // Retain OkHttp recovery for stale pooled connections, just like the other APIs.
+        retrofit.create(com.example.chineselearningapp.core.network.ReviewApi::class.java)
+
+    @Provides @Singleton
     fun client(): OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(10, TimeUnit.SECONDS).readTimeout(10, TimeUnit.SECONDS)
         .callTimeout(15, TimeUnit.SECONDS).build()
@@ -59,6 +65,9 @@ object AppModule {
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
+    @Binds @Singleton
+    abstract fun review(implementation: com.example.chineselearningapp.feature.review.RemoteReviewRepository): com.example.chineselearningapp.domain.repository.ReviewRepository
+
     @Binds @Singleton
     abstract fun personalVocabulary(implementation: com.example.chineselearningapp.feature.vocabulary.data.RemotePersonalVocabularyRepository): com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository
 

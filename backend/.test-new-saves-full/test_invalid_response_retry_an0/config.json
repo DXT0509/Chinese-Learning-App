@@ -1,0 +1,12 @@
+{
+  "max_calls": 1,
+  "max_tokens": 100,
+  "attempts": 3,
+  "reviewer": {
+    "provider": "anthropic",
+    "model": "reviewer-fixture",
+    "version": "reviewer-fixture"
+  },
+  "correction_reviewer": null,
+  "requests_sha256": "b4d0dd7afbaeb1e215f3dfe153746a65b03448e90eb2fb2ef1323c67c6e673d8"
+}

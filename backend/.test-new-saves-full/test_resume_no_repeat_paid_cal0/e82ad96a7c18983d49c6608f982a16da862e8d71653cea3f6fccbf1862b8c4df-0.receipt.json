@@ -1,0 +1,20 @@
+{
+  "received_at": "2026-10-31T14:02:55.855971+00:00",
+  "response": {
+    "type": "message",
+    "role": "assistant",
+    "model": "reviewer-fixture",
+    "id": "synthetic-test-only-reviewer-fixture-1",
+    "stop_reason": "end_turn",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"decision\": \"AI_APPROVED\", \"confidence\": 0.99, \"assessments\": [{\"aspect\": \"simplified\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"mandarin_pinyin_neutral_tones\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"vietnamese_definitions\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"sino_vietnamese\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"example_correctness\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"example_pinyin_alignment\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"learning_difficulty\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"duplicate_identity\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}, {\"aspect\": \"ambiguity\", \"result\": \"pass\", \"rationale\": \"Synthetic unit fixture\"}], \"findings\": [], \"suggested_record\": null}"
+      }
+    ],
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 100
+    }
+  }
+}

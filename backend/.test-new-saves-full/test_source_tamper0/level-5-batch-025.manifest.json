@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "batch_key": "L5-B025",
+  "learning_level": 5,
+  "batch_number": 25,
+  "expected_count": 50,
+  "actual_count": 50,
+  "cumulative_level_unique_lexical_count": 2500,
+  "provenance": "ORIGINAL_AI_AUTHORED",
+  "classification_standard": "APP_CURATED",
+  "difficulty_reference": "HSK_2_0",
+  "generator": {
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "version": "2026-10"
+  },
+  "artifact_file": "level-5-batch-025.jsonl",
+  "artifact_sha256": "a3f7d62f3e67a2e5142ea7d0f32dcb98764b5f6fc2311522bde0c0b194b46248",
+  "artifact_bytes": 42277,
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "structural_validation": "PASSED",
+  "independent_review": "PENDING",
+  "human_approved_count": 0,
+  "ai_approved_count": 0,
+  "review_status_counts": {
+    "GENERATED_UNREVIEWED": 50,
+    "NEEDS_REVIEW": 0
+  },
+  "records": [
+    {
+      "id": "055f27d4-ebd6-560d-8c41-8f1bc165320b",
+      "lexical_key": "霸权主义|ba4 quan2 zhu3 yi4",
+      "simplified": "霸权主义",
+      "pinyin_numbered": "ba4 quan2 zhu3 yi4",
+      "content_version": 1,
+      "checksum": "dce29019484703204d90524f10b856fddd8dec2a872fa85d16dd4cdaea26a821"
+    },
+    {
+      "id": "698aa595-6bd3-5576-9929-c982368336e7",
+      "lexical_key": "单边主义|dan1 bian1 zhu3 yi4",
+      "simplified": "单边主义",
+      "pinyin_numbered": "dan1 bian1 zhu3 yi4",
+      "content_version": 1,
+      "checksum": "2a7b46c7fddc139d7a875ea7b03bc06a64b31cd77263fc208e1ac16a460e7cd8"
+    },
+    {
+      "id": "b7d7c546-1476-5619-b160-20fd11571154",
+      "lexical_key": "多极化|duo1 ji2 hua4",
+      "simplified": "多极化",
+      "pinyin_numbered": "duo1 ji2 hua4",
+      "content_version": 1,
+      "checksum": "09b028d0fe93722a2e7e8e3e552ce517b368968f1cb65556b94b6b0cbed02f33"
+    },
+    {
+      "id": "aaf99dc2-2612-5b19-b669-3b0dcf065f54",
+      "lexical_key": "地缘政治|di4 yuan2 zheng4 zhi4",
+      "simplified": "地缘政治",
+      "pinyin_numbered": "di4 yuan2 zheng4 zhi4",
+      "content_version": 1,
+      "checksum": "f34b6d12460b392940e7cc811a71e5b59918155d14e6ba3ab71320a58d105acb"
+    },
+    {
+      "id": "55c3112a-e486-58a9-85f7-e097a6c5452e",
+      "lexical_key": "繁荣昌盛|fan2 rong2 chang1 sheng4",
+      "simplified": "繁荣昌盛",
+      "pinyin_numbered": "fan2 rong2 chang1 sheng4",
+      "content_version": 1,
+      "checksum": "e44959d85367556bc028217058acf4bd1d52b4ac7734a958f17401ff89fd8319"
+    },
+    {
+      "id": "53a9a72b-f9e4-5030-8d0c-fe555650c110",
+      "lexical_key": "关税壁垒|guan1 shui4 bi4 lei3",
+      "simplified": "关税壁垒",
+      "pinyin_numbered": "guan1 shui4 bi4 lei3",
+      "content_version": 1,
+      "checksum": "99741937c9b5c095107ac6633a0d27910bf971de25af6137b0edd8a096f33b53"
+    },
+    {
+      "id": "e91e2e05-b21d-5d69-bca4-42a948c5b582",
+      "lexical_key": "国际惯例|guo2 ji4 guan4 li4",
+      "simplified": "国际惯例",
+      "pinyin_numbered": "guo2 ji4 guan4 li4",
+      "content_version": 1,
+      "checksum": "f4b24f8ed3f1e271baa04c2a171a70e1d977876a18a5136f97a6ebff4db423ee"
+    },
+    {
+      "id": "c5884327-e811-59ce-882e-9c48848dde1b",
+      "lexical_key": "互利共赢|hu4 li4 gong4 ying2",
+      "simplified": "互利共赢",
+      "pinyin_numbered": "hu4 li4 gong4 ying2",
+      "content_version": 1,
+      "checksum": "d3bbdac82d1757575134851e8f0333bc274bd1a83973bb5f5aecaa1b7acc5492"
+    },
+    {
+      "id": "9af9737d-5550-588c-a4cf-0b94baf15241",
+      "lexical_key": "和平共处|he2 ping2 gong4 chu3",
+      "simplified": "和平共处",
+      "pinyin_numbered": "he2 ping2 gong4 chu3",
+      "content_version": 1,
+      "checksum": "c814b71e96eb4d8354438b458a7f0992100f7892274f592065c26fe9dc8f11b3"
+    },
+    {
+      "id": "96a6f983-f04b-5861-a395-ba1560f287d1",
+      "lexical_key": "经贸摩擦|jing1 mao4 mo2 ca1",
+      "simplified": "经贸摩擦",
+      "pinyin_numbered": "jing1 mao4 mo2 ca1",
+      "content_version": 1,
+      "checksum": "f8a491017d372a05c6ff1887d1c4dc1b6b1be9e21da6cfb12c5486376b8d6ad3"
+    },
+    {
+      "id": "cf86cbe9-918f-5e94-8d01-f5eb0bbe9ea3",
+      "lexical_key": "命运共同体|ming4 yun4 gong4 tong2 ti3",
+      "simplified": "命运共同体",
+      "pinyin_numbered": "ming4 yun4 gong4 tong2 ti3",
+      "content_version": 1,
+      "checksum": "382084445ffaad9b6aed543284b2858deac85ce44ee44653a49010ca5d077567"
+    },
+    {
+      "id": "e599260d-3a4c-5ed3-a384-846a7f544260",
+      "lexical_key": "逆全球化|ni4 quan2 qiu2 hua4",
+      "simplified": "逆全球化",
+      "pinyin_numbered": "ni4 quan2 qiu2 hua4",
+      "content_version": 1,
+      "checksum": "b12c4c72d0627ee18c470f6bfc0fa9562cfdfec08d30dfd7127ed482c4a90a83"
+    },
+    {
+      "id": "dceff0fe-7ad7-54e3-b610-2fda402dc1de",
+      "lexical_key": "区域经济|qu1 yu4 jing1 ji4",
+      "simplified": "区域经济",
+      "pinyin_numbered": "qu1 yu4 jing1 ji4",
+      "content_version": 1,
+      "checksum": "ecc6bf5978a2eadd4579fc3fd91b00ba58e81e0269b3796f0936e45e1e94661f"
+    },
+    {
+      "id": "b45f602b-fb00-5213-8739-23beb7aafd84",
+      "lexical_key": "双边贸易|shuang1 bian1 mao4 yi4",
+      "simplified": "双边贸易",
+      "pinyin_numbered": "shuang1 bian1 mao4 yi4",
+      "content_version": 1,
+      "checksum": "616c6ce1f819602cb06c6831e0cf082cff2ac5d2eabdbac5b76249fc17120e5e"
+    },
+    {
+      "id": "dc5e679b-2644-5b55-9783-206aab8041fc",
+      "lexical_key": "实体经济|shi2 ti3 jing1 ji4",
+      "simplified": "实体经济",
+      "pinyin_numbered": "shi2 ti3 jing1 ji4",
+      "content_version": 1,
+      "checksum": "26ebddfc24ec3d3236b1b74685818aefa59f8eeac0be77dede5067b5550bc418"
+    },
+    {
+      "id": "27c59372-488a-52f9-9089-7720500e21ce",
+      "lexical_key": "丝绸之路|si1 chou2 zhi1 lu4",
+      "simplified": "丝绸之路",
+      "pinyin_numbered": "si1 chou2 zhi1 lu4",
+      "content_version": 1,
+      "checksum": "50e1620b1ff71301fc54dfcd261e8f3d43cd186e73de3b8318347442d0a36666"
+    },
+    {
+      "id": "8dfa4bb7-6237-5d93-a6e4-91868504cd97",
+      "lexical_key": "通货紧缩|tong1 huo4 jin3 suo1",
+      "simplified": "通货紧缩",
+      "pinyin_numbered": "tong1 huo4 jin3 suo1",
+      "content_version": 1,
+      "checksum": "5d3df80639a61020011e8bb2766e6c49a5520879158791cece7d99b1e3bfbb11"
+    },
+    {
+      "id": "bedc71ae-05f5-51de-be2f-f7920cbafd2d",
+      "lexical_key": "碳达峰|tan4 da2 feng1",
+      "simplified": "碳达峰",
+      "pinyin_numbered": "tan4 da2 feng1",
+      "content_version": 1,
+      "checksum": "871decc105082508b971660a2ec652dfc8171b2346d6c333cdb08ec938e62a88"
+    },
+    {
+      "id": "063d8699-75be-58b0-8ea7-a0794d3e8e37",
+      "lexical_key": "碳中和|tan4 zhong1 he2",
+      "simplified": "碳中和",
+      "pinyin_numbered": "tan4 zhong1 he2",
+      "content_version": 1,
+      "checksum": "85e08f3d38b0a6f9ec8e8096aed564cc74172d2ba133197825cbc77a411d07a4"
+    },
+    {
+      "id": "09cc4935-c3b3-5515-a085-01313d06d2fd",
+      "lexical_key": "脱钩断链|tuo1 gou1 duan4 lian4",
+      "simplified": "脱钩断链",
+      "pinyin_numbered": "tuo1 gou1 duan4 lian4",
+      "content_version": 1,
+      "checksum": "93758b1386de1847fd8903583b1acfbb3a994b21261928b088a8b2d308d82a8c"
+    },
+    {
+      "id": "ea56ad9f-b35e-5308-b32c-c7e34704c6f6",
+      "lexical_key": "稳健性|wen3 jian4 xing4",
+      "simplified": "稳健性",
+      "pinyin_numbered": "wen3 jian4 xing4",
+      "content_version": 1,
+      "checksum": "d9a3d3424b44df139677ade5ac01ab76db0988ef4705a480ef9c2d9ef7af39a1"
+    },
+    {
+      "id": "f22a712c-54fe-596f-bd4f-1d8f3f286eb0",
+      "lexical_key": "现代物流|xian4 dai4 wu4 liu2",
+      "simplified": "现代物流",
+      "pinyin_numbered": "xian4 dai4 wu4 liu2",
+      "content_version": 1,
+      "checksum": "472d6b966a6d6775b529a352a0a3febcb7f3d2d114a6d710284aa302ce01da08"
+    },
+    {
+      "id": "8a71a3a1-0315-5827-b65f-3d8b2c6bbfe6",
+      "lexical_key": "系统性风险|xi4 tong3 xing4 feng1 xian3",
+      "simplified": "系统性风险",
+      "pinyin_numbered": "xi4 tong3 xing4 feng1 xian3",
+      "content_version": 1,
+      "checksum": "3cea29962c6375ec85847694a3df917daf81a092169a1be8f75eb2c181fe18f7"
+    },
+    {
+      "id": "39efc3d1-1585-59e1-b0c8-83fbf90d4293",
+      "lexical_key": "循环经济|xun2 huan2 jing1 ji4",
+      "simplified": "循环经济",
+      "pinyin_numbered": "xun2 huan2 jing1 ji4",
+      "content_version": 1,
+      "checksum": "097a0cc82889b3db3e70395a34a78b3e90a1903c99e29955cb90b3747d21a964"
+    },
+    {
+      "id": "521300c2-1830-51d6-ba1a-721709b61548",
+      "lexical_key": "自由贸易|zi4 you2 mao4 yi4",
+      "simplified": "自由贸易",
+      "pinyin_numbered": "zi4 you2 mao4 yi4",
+      "content_version": 1,
+      "checksum": "05255c401aeda2052aaba16c1f98f2e52c01ed77db3472820cf066789911aa60"
+    },
+    {
+      "id": "5b070b5d-6c8b-5cb3-a939-629914c01880",
+      "lexical_key": "战略互信|zhan4 lüe4 hu4 xin4",
+      "simplified": "战略互信",
+      "pinyin_numbered": "zhan4 lüe4 hu4 xin4",
+      "content_version": 1,
+      "checksum": "b18909c0422ffef0230e0e2f3b315392446c23776598b50fbc8d90dc7ec8169c"
+    },
+    {
+      "id": "97b82daf-c9f2-5fdd-b3a7-6ab34a7be316",
+      "lexical_key": "主权原则|zhu3 quan2 yuan2 ze2",
+      "simplified": "主权原则",
+      "pinyin_numbered": "zhu3 quan2 yuan2 ze2",
+      "content_version": 1,
+      "checksum": "62b5531a1b07416cfd0a0516bb20d89fb1813b51dc1605ebfa222b7ce79b06b4"
+    },
+    {
+      "id": "14644915-0296-5974-bd47-6d14fa9eed98",
+      "lexical_key": "软实力|ruan3 shi2 li4",
+      "simplified": "软实力",
+      "pinyin_numbered": "ruan3 shi2 li4",
+      "content_version": 1,
+      "checksum": "dc0369cebe94781d5ed14b90de43fc4692fcd809c8adefa14d747c1f6679c65f"
+    },
+    {
+      "id": "91fefd26-65ac-56a6-ab71-9f6b3724b7ef",
+      "lexical_key": "产业链|chan3 ye4 lian4",
+      "simplified": "产业链",
+      "pinyin_numbered": "chan3 ye4 lian4",
+      "content_version": 1,
+      "checksum": "9d23baa050a5256bc4216e92f8386e8ec14154acce8c726d31a60c72b3a711d5"
+    },
+    {
+      "id": "b5ffaae3-b1f4-5368-8f49-1de2eef7c70a",
+      "lexical_key": "供应链|gong1 ying4 lian4",
+      "simplified": "供应链",
+      "pinyin_numbered": "gong1 ying4 lian4",
+      "content_version": 1,
+      "checksum": "e96da22ff3c4fe4be6cb28bd3b90d29877d15e5f68220de306a08fbdd1e82c34"
+    },
+    {
+      "id": "35996186-fc91-58a9-aef5-582862e089b3",
+      "lexical_key": "高质量发展|gao1 zhi4 liang4 fa1 zhan3",
+      "simplified": "高质量发展",
+      "pinyin_numbered": "gao1 zhi4 liang4 fa1 zhan3",
+      "content_version": 1,
+      "checksum": "c5e255e2b96d393fd217c848e8f05d8e616ab10aaac98e1eeffa17a22259c754"
+    },
+    {
+      "id": "c677f35f-b113-53fe-88ac-b240f6e149ae",
+      "lexical_key": "内生动力|nei4 sheng1 dong4 li4",
+      "simplified": "内生动力",
+      "pinyin_numbered": "nei4 sheng1 dong4 li4",
+      "content_version": 1,
+      "checksum": "883cbe233d8a33ace0c4e032f029f380dae914cfe7aae5b1310d9f70084b0b4f"
+    },
+    {
+      "id": "f65e721e-3992-5857-aa80-75f0effe2262",
+      "lexical_key": "自主可控|zi4 zhu3 ke3 kong4",
+      "simplified": "自主可控",
+      "pinyin_numbered": "zi4 zhu3 ke3 kong4",
+      "content_version": 1,
+      "checksum": "e405b199f30939ab0f54b9ad11b9dc184e32d98f76ed34c9e1f86beddf4d592d"
+    },
+    {
+      "id": "7cdd4ff1-9bb4-50f1-b09e-193373b714e6",
+      "lexical_key": "核心竞争力|he2 xin1 jing4 zheng1 li4",
+      "simplified": "核心竞争力",
+      "pinyin_numbered": "he2 xin1 jing4 zheng1 li4",
+      "content_version": 1,
+      "checksum": "8da0cd4832423555ea1c670b1b8f8e80f2f794b5e65c2c7a37106e133236cbfb"
+    },
+    {
+      "id": "5afe4be4-6635-542b-9c7b-1f5d775aeccf",
+      "lexical_key": "数字化转型|shu4 zi4 hua4 zhuan3 xing2",
+      "simplified": "数字化转型",
+      "pinyin_numbered": "shu4 zi4 hua4 zhuan3 xing2",
+      "content_version": 1,
+      "checksum": "04f427e8a1c6774c04f54d7a86a7d9a28f78df714c0126cdd3eecaab7f41db71"
+    },
+    {
+      "id": "4a6efb26-8e2f-5b5b-954e-22704fd476e4",
+      "lexical_key": "宏观审慎|hong2 guan1 shen3 shen4",
+      "simplified": "宏观审慎",
+      "pinyin_numbered": "hong2 guan1 shen3 shen4",
+      "content_version": 1,
+      "checksum": "d3dab8fe9f5af11912a3e52faf7be87b6a76ab5ae4aa380372664479459b13ad"
+    },
+    {
+      "id": "d1d05551-4d30-5a19-9579-8358fd1b02d0",
+      "lexical_key": "普惠金融|pu3 hui4 jin1 rong2",
+      "simplified": "普惠金融",
+      "pinyin_numbered": "pu3 hui4 jin1 rong2",
+      "content_version": 1,
+      "checksum": "7ccc68e212d802b3b4a3175edddcbef847d7dc626d65f740c9e37dee0d565538"
+    },
+    {
+      "id": "36eec018-ce5b-5ec6-a776-aa1916fb59db",
+      "lexical_key": "协同效应|xie2 tong2 xiao4 ying4",
+      "simplified": "协同效应",
+      "pinyin_numbered": "xie2 tong2 xiao4 ying4",
+      "content_version": 1,
+      "checksum": "bd71091f01e008b5b7da2a98472e41e1a03eccf67ac532e03adf6d36204c2de8"
+    },
+    {
+      "id": "29950e20-2763-5dfe-8470-025fb7f0f187",
+      "lexical_key": "规模效应|gui1 mo2 xiao4 ying4",
+      "simplified": "规模效应",
+      "pinyin_numbered": "gui1 mo2 xiao4 ying4",
+      "content_version": 1,
+      "checksum": "d1199cfc585e1eed4d1b7c9c323e50b06e5a09cd06dfa041a7964b79c76115ea"
+    },
+    {
+      "id": "ce30dac6-487d-52f5-af3e-e0e46220fa16",
+      "lexical_key": "结构调整|jie2 gou4 tiao2 zheng3",
+      "simplified": "结构调整",
+      "pinyin_numbered": "jie2 gou4 tiao2 zheng3",
+      "content_version": 1,
+      "checksum": "67c615c98ed73378919266b5a2517593ca63f28f7a329e2960ca164db104bf8f"
+    },
+    {
+      "id": "8b04de97-7bd8-53de-aba3-cf987c959147",
+      "lexical_key": "内循环|nei4 xun2 huan2",
+      "simplified": "内循环",
+      "pinyin_numbered": "nei4 xun2 huan2",
+      "content_version": 1,
+      "checksum": "2fb125cc21c7041610f49407b80f2b0e60f798fe2f5463bebc00ea41d7f47ddf"
+    },
+    {
+      "id": "bb2d9172-7b76-5288-bf51-0466e1e4bb51",
+      "lexical_key": "外循环|wai4 xun2 huan2",
+      "simplified": "外循环",
+      "pinyin_numbered": "wai4 xun2 huan2",
+      "content_version": 1,
+      "checksum": "4842d2fc34b8d7ebf36d9a58124f58546f6e517ddf3946e72382899f0cce4b85"
+    },
+    {
+      "id": "ffb72773-9e91-5349-a867-a48f33ac262d",
+      "lexical_key": "贸易顺差|mao4 yi4 shun4 cha1",
+      "simplified": "贸易顺差",
+      "pinyin_numbered": "mao4 yi4 shun4 cha1",
+      "content_version": 1,
+      "checksum": "898ca26a12103444b52037aac6550f6b9adb9b94c3a12c30c9b075751551d09c"
+    },
+    {
+      "id": "275835f3-c15c-57c7-8d16-b772b0201838",
+      "lexical_key": "贸易逆差|mao4 yi4 ni4 cha1",
+      "simplified": "贸易逆差",
+      "pinyin_numbered": "mao4 yi4 ni4 cha1",
+      "content_version": 1,
+      "checksum": "96560e6afa4becca69ce95c8eba19c4e583590bd9dff1c89d7f49179e64154ea"
+    },
+    {
+      "id": "f1134ab9-7d10-5396-b23f-3501887f8535",
+      "lexical_key": "投资组合|tou2 zi1 zu3 he2",
+      "simplified": "投资组合",
+      "pinyin_numbered": "tou2 zi1 zu3 he2",
+      "content_version": 1,
+      "checksum": "9950e48f4fe377a61ffff76c26377ba821a33330373872de60e216e71fb3ae3a"
+    },
+    {
+      "id": "7c929004-7e02-57cf-a2d4-7c2de70be7c3",
+      "lexical_key": "营商环境|ying2 shang1 huan2 jing4",
+      "simplified": "营商环境",
+      "pinyin_numbered": "ying2 shang1 huan2 jing4",
+      "content_version": 1,
+      "checksum": "ffbd270cf5dbcf49918a587674ee8b4ba1448ba99e99f12096dd344d3bfe59b1"
+    },
+    {
+      "id": "69752e89-a646-5bad-a2b1-2b5b776af35f",
+      "lexical_key": "资本积累|zi1 ben3 ji1 lei3",
+      "simplified": "资本积累",
+      "pinyin_numbered": "zi1 ben3 ji1 lei3",
+      "content_version": 1,
+      "checksum": "466d60b11f37e8dc883f049a8d3f384581f01e24650ae6719475750ea10f108f"
+    },
+    {
+      "id": "4ae39062-d46d-5c72-9210-931620b7866e",
+      "lexical_key": "自主创新|zi4 zhu3 chuang4 xin1",
+      "simplified": "自主创新",
+      "pinyin_numbered": "zi4 zhu3 chuang4 xin1",
+      "content_version": 1,
+      "checksum": "f6b54e222fe5f52e8a63413df2edb4eb915f6da750e03fd10003884dae3041f1"
+    },
+    {
+      "id": "6de56389-4700-5df9-9907-77c4de25cf5e",
+      "lexical_key": "资源优化|zi1 yuan2 you1 hua4",
+      "simplified": "资源优化",
+      "pinyin_numbered": "zi1 yuan2 you1 hua4",
+      "content_version": 1,
+      "checksum": "1dcfd89bb638c2a9697d4eea5de4fed5380415bf44a602a8bf0cd29c86349acf"
+    },
+    {
+      "id": "30b6633a-1f40-58aa-8355-42ae20586947",
+      "lexical_key": "总体布局|zong3 ti3 bu4 ju2",
+      "simplified": "总体布局",
+      "pinyin_numbered": "zong3 ti3 bu4 ju2",
+      "content_version": 1,
+      "checksum": "54d320fb6e783e61bbc33c5a530e7e8b007cbc05255bd5a3c7f42ff26e889281"
+    }
+  ]
+}

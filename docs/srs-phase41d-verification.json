@@ -1,0 +1,63 @@
+{
+  "development_writes": 0,
+  "target": {
+    "database": "chinese_learning",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "role": "postgres"
+  },
+  "preview": {
+    "validated": 2562,
+    "inserted": 0,
+    "unchanged": 2148,
+    "preserved_manual": 0,
+    "would_insert": 414,
+    "would_update": 0
+  },
+  "bundle_sha256": "55220d14c466a3b9ac7c1b12624a48647bd4e4e9b263d8c8fdfe8b475aa1d159",
+  "deterministic_bundle_regeneration": true,
+  "complete_nonpolicy_fingerprints_match_restored_snapshot": true,
+  "nonpolicy_tables_compared": 35,
+  "isolated_rehearsal": {
+    "isolated_database": "chinese_p41d_rehearsal_64a086fb54",
+    "first_install": {
+      "validated": 2562,
+      "inserted": 414,
+      "unchanged": 2148,
+      "preserved_manual": 0,
+      "would_insert": 414,
+      "would_update": 0
+    },
+    "reimport": {
+      "validated": 2562,
+      "inserted": 0,
+      "unchanged": 2562,
+      "preserved_manual": 0,
+      "would_insert": 0,
+      "would_update": 0
+    },
+    "runtime_gradable": 2562,
+    "all_nonpolicy_table_fingerprints_preserved": true,
+    "source_writes": 0,
+    "backup_sha256": "7f9021908c955c16964a4b1eba5eedab71b47b84c39905aa9487c9e84bbc7d14"
+  },
+  "backend_tests": {
+    "passed": 353,
+    "skipped": 13,
+    "environment": "isolated test database; local-review enablement false"
+  },
+  "metadata_corrections": [],
+  "android_checks": {
+    "testDebugUnitTest": "PASSED",
+    "assembleDebug": "PASSED",
+    "lintDebug": "PASSED",
+    "execution": "installed Gradle 9.2.1 offline with Android Studio JBR",
+    "device_or_emulator_validation": false,
+    "client_source_changed": false
+  },
+  "lint": "ruff check . passed",
+  "targeted_final_coverage_tests": {
+    "passed": 26,
+    "postgres_deselected": 1
+  }
+}

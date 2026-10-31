@@ -164,7 +164,7 @@ async def test_import_approval_api_ownership_and_unified_mastery(curated_session
     assert detail["review_status"] == "HUMAN_APPROVED"
     assert detail["meanings"]["vi"][0]["gloss"] == "học"
     saved = (await client.post(path, json=body, headers=a)).json()
-    assert saved["mastery_level"] == 0 and saved["next_review_at"] is None
+    assert saved["mastery_level"] == 0 and saved["next_review_at"] is not None
     assert (await client.post(path, json=body, headers=a)).json() == saved
     saved_path = path + "/" + saved["id"]
     assert (await client.get(saved_path, headers=b)).status_code == 404
@@ -176,7 +176,7 @@ async def test_import_approval_api_ownership_and_unified_mastery(curated_session
         await client.post(path, json={**body, "user_id": str(uuid4())}, headers=a)
     ).status_code == 422
     async with sessions() as session, session.begin():
-        await session.execute(update(CuratedUserVocabulary).values(mastery_level=3))
+        await session.execute(update(CuratedUserVocabulary).values(mastery_level=3, phase="REVIEW"))
     await client.delete(saved_path, headers=a)
     assert (await client.get(path, headers=a)).json()["total"] == 0
     readded = (await client.post(path, json=body, headers=a)).json()

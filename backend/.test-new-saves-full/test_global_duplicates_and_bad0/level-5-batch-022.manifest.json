@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "batch_key": "L5-B022",
+  "learning_level": 5,
+  "batch_number": 22,
+  "expected_count": 50,
+  "actual_count": 50,
+  "cumulative_level_unique_lexical_count": 2350,
+  "provenance": "ORIGINAL_AI_AUTHORED",
+  "classification_standard": "APP_CURATED",
+  "difficulty_reference": "HSK_2_0",
+  "generator": {
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "version": "2026-10"
+  },
+  "artifact_file": "level-5-batch-022.jsonl",
+  "artifact_sha256": "60560f996900bd36a0e86697dbe1f494e82ad7a88929909683d98eadc0363391",
+  "artifact_bytes": 70207,
+  "encoding": "UTF-8",
+  "unicode_normalization": "NFC",
+  "line_endings": "LF",
+  "structural_validation": "PASSED",
+  "independent_review": "PENDING",
+  "human_approved_count": 0,
+  "ai_approved_count": 0,
+  "review_status_counts": {
+    "GENERATED_UNREVIEWED": 50,
+    "NEEDS_REVIEW": 0
+  },
+  "records": [
+    {
+      "id": "97d1d97f-6217-5e8b-b385-953a9da41d80",
+      "lexical_key": "安邦定国|an1 bang1 ding4 guo2",
+      "simplified": "安邦定国",
+      "pinyin_numbered": "an1 bang1 ding4 guo2",
+      "content_version": 1,
+      "checksum": "ec0728eff29cba74f19affedc7f3e0db9fb6c994c8b1b60113a4726125450948"
+    },
+    {
+      "id": "d0e68403-d858-5f2a-bf06-ca3d8dfbeb24",
+      "lexical_key": "百废俱兴|bai3 fei4 ju4 xing1",
+      "simplified": "百废俱兴",
+      "pinyin_numbered": "bai3 fei4 ju4 xing1",
+      "content_version": 1,
+      "checksum": "5daa60a4f19d33f4be3a6b4d6c25010db427731f75b101455df06c107d98ee14"
+    },
+    {
+      "id": "7a669a57-1519-5905-8f4b-c3fe84708ae4",
+      "lexical_key": "保家卫国|bao3 jia1 wei4 guo2",
+      "simplified": "保家卫国",
+      "pinyin_numbered": "bao3 jia1 wei4 guo2",
+      "content_version": 1,
+      "checksum": "d43b40fd6670f9d32944401b351b9c0687abf34a3e1ceae8dfc8d434c9e836c1"
+    },
+    {
+      "id": "b8864e09-1be2-54e5-bb5b-1a0967e28f2c",
+      "lexical_key": "本固枝荣|ben3 gu4 zhi1 rong2",
+      "simplified": "本固枝荣",
+      "pinyin_numbered": "ben3 gu4 zhi1 rong2",
+      "content_version": 1,
+      "checksum": "69deed73a7037ee04f58cbf573847d3e3fa2f56847da00e7156046f162817050"
+    },
+    {
+      "id": "e645e873-0bd9-5a32-9731-4a1633deb207",
+      "lexical_key": "标本兼治|biao1 ben3 jian1 zhi4",
+      "simplified": "标本兼治",
+      "pinyin_numbered": "biao1 ben3 jian1 zhi4",
+      "content_version": 1,
+      "checksum": "4e02833f0a6733505da263b28dda60f18e7a6a075745f0d5e57a1b56e78b44c2"
+    },
+    {
+      "id": "8b79ccbe-6f0a-5a33-9710-efebb1a27fe7",
+      "lexical_key": "惩恶扬善|cheng2 e4 yang2 shan4",
+      "simplified": "惩恶扬善",
+      "pinyin_numbered": "cheng2 e4 yang2 shan4",
+      "content_version": 1,
+      "checksum": "afe06de5bf2d280fbbeced4cf26b89eeccd5815c9c079db8aad319b71b03e301"
+    },
+    {
+      "id": "0aa98820-f3bb-5855-a94a-68a2ef0a1d1e",
+      "lexical_key": "除暴安良|chu2 bao4 an1 liang2",
+      "simplified": "除暴安良",
+      "pinyin_numbered": "chu2 bao4 an1 liang2",
+      "content_version": 1,
+      "checksum": "45e46d1c3b2eb9cf6c9591e45050c7f018324a99a5856a8985620290f692e53a"
+    },
+    {
+      "id": "1504383d-63c3-52ff-bc90-5f692ec2cd93",
+      "lexical_key": "大同世界|da4 tong2 shi4 jie4",
+      "simplified": "大同世界",
+      "pinyin_numbered": "da4 tong2 shi4 jie4",
+      "content_version": 1,
+      "checksum": "d84001a31d1f94eae902b56266ac949e043f51cb491f470d1f07e2903f7a2bf3"
+    },
+    {
+      "id": "b7d2ca75-ca84-5994-a8d8-e0667b09e51e",
+      "lexical_key": "德政|de2 zheng4",
+      "simplified": "德政",
+      "pinyin_numbered": "de2 zheng4",
+      "content_version": 1,
+      "checksum": "6cf9e082049863a5b76585696f56c2fc54482058e7e15111e29353b15987526b"
+    },
+    {
+      "id": "ca52bade-5e04-59e7-9069-b8471a1f1c17",
+      "lexical_key": "法度|fa3 du4",
+      "simplified": "法度",
+      "pinyin_numbered": "fa3 du4",
+      "content_version": 1,
+      "checksum": "e935b18dc662fd2a1095ff2bc33f8c95bc9542967251ecba19248f8896fb597f"
+    },
+    {
+      "id": "0e6ed84f-5de7-5311-9087-e5fc385d3050",
+      "lexical_key": "反腐倡廉|fan3 fu3 chang4 lian2",
+      "simplified": "反腐倡廉",
+      "pinyin_numbered": "fan3 fu3 chang4 lian2",
+      "content_version": 1,
+      "checksum": "846960b64bdabd287a5709695fc273c23b90a78c99327d50ac2e93b140a58b7e"
+    },
+    {
+      "id": "e00a42b1-7b18-578f-82ba-d53d46154653",
+      "lexical_key": "防微杜渐|fang2 wei1 du4 jian4",
+      "simplified": "防微杜渐",
+      "pinyin_numbered": "fang2 wei1 du4 jian4",
+      "content_version": 1,
+      "checksum": "6e35090e31feb0b6956a0d7884a510fddee4ea073e0dcd5e9662d1bbfa157680"
+    },
+    {
+      "id": "513d5e30-687f-5d5d-a68d-7441c774e3af",
+      "lexical_key": "国计民生|guo2 ji4 min2 sheng1",
+      "simplified": "国计民生",
+      "pinyin_numbered": "guo2 ji4 min2 sheng1",
+      "content_version": 1,
+      "checksum": "7bd8bd3e87a3538b477b9faaad4170a5a1b31b0e68bed53417d86b5d642e0143"
+    },
+    {
+      "id": "502b64bc-c6f2-58d7-8aa6-77ce5a7d9f73",
+      "lexical_key": "海晏河清|hai3 yan4 he2 qing1",
+      "simplified": "海晏河清",
+      "pinyin_numbered": "hai3 yan4 he2 qing1",
+      "content_version": 1,
+      "checksum": "e7b2d3ab8f8a21d36b110ede0bfd02f9c148fd6a991d46bf3d1fcf6ea8502b84"
+    },
+    {
+      "id": "19ecb05c-b398-5e9b-a997-9aaec406087f",
+      "lexical_key": "合力|he2 li4",
+      "simplified": "合力",
+      "pinyin_numbered": "he2 li4",
+      "content_version": 1,
+      "checksum": "a358078c062db43720a72619f27c4adeb71f7c1a432752091fd604272be98e80"
+    },
+    {
+      "id": "7facf784-2f5a-5c19-878d-35f14d9d68c5",
+      "lexical_key": "和衷共济|he2 zhong1 gong4 ji4",
+      "simplified": "和衷共济",
+      "pinyin_numbered": "he2 zhong1 gong4 ji4",
+      "content_version": 1,
+      "checksum": "ceb6c80b02fb9c6cdb93c3c058c845d8745a5f3a180b22da38b64dafd3b386b8"
+    },
+    {
+      "id": "4c41c5d8-cffc-5d2c-b368-34469ca6f80f",
+      "lexical_key": "惠民|hui4 min2",
+      "simplified": "惠民",
+      "pinyin_numbered": "hui4 min2",
+      "content_version": 1,
+      "checksum": "183a32549fcedb2d93eafb48b0d46717a3b82cfae5ac0076aef80395358242b5"
+    },
+    {
+      "id": "85204fe6-1357-508c-b994-21ced5b56816",
+      "lexical_key": "集思广益|ji2 si1 guang3 yi4",
+      "simplified": "集思广益",
+      "pinyin_numbered": "ji2 si1 guang3 yi4",
+      "content_version": 1,
+      "checksum": "b3a44075af6be2b086fb3fd295b6f12b7ec4351d69a3255aec86dc56a111b26f"
+    },
+    {
+      "id": "0f89d42e-b613-5150-9d5a-26f6ab45854c",
+      "lexical_key": "经世致用|jing1 shi4 zhi4 yong4",
+      "simplified": "经世致用",
+      "pinyin_numbered": "jing1 shi4 zhi4 yong4",
+      "content_version": 1,
+      "checksum": "f6072b88603bb88d52eb55f40cbfebbe31f65a4ae408343669338166875947ac"
+    },
+    {
+      "id": "b68d691d-d443-521f-97b8-b7553f43ec72",
+      "lexical_key": "开源节流|kai1 yuan2 jie2 liu2",
+      "simplified": "开源节流",
+      "pinyin_numbered": "kai1 yuan2 jie2 liu2",
+      "content_version": 1,
+      "checksum": "9854ab19a4840316192afff9d0bafd2766b325de7ca8b48029a9820258ff21be"
+    },
+    {
+      "id": "3dfb08ed-afdd-5e5d-9fb1-4d24263365fb",
+      "lexical_key": "克勤克俭|ke4 qin2 ke4 jian4",
+      "simplified": "克勤克俭",
+      "pinyin_numbered": "ke4 qin2 ke4 jian4",
+      "content_version": 1,
+      "checksum": "bdd44451109f36bb443a71ceda373c667fe0c7f6c48e78dd6c12a6377a8d5add"
+    },
+    {
+      "id": "af7f85ee-f160-521f-8b6b-17c59229453c",
+      "lexical_key": "廉政公署|lian2 zheng4 gong1 shu3",
+      "simplified": "廉政公署",
+      "pinyin_numbered": "lian2 zheng4 gong1 shu3",
+      "content_version": 1,
+      "checksum": "1aa1665b56646d28d5ca8722a2149e4eaf6fc80abfc468b553cf3b8d4b86ed70"
+    },
+    {
+      "id": "678f0138-dcb4-524d-9416-f0e1cfc72597",
+      "lexical_key": "量入为出|liang4 ru4 wei2 chu1",
+      "simplified": "量入为出",
+      "pinyin_numbered": "liang4 ru4 wei2 chu1",
+      "content_version": 1,
+      "checksum": "dfd032d79a9aa7ac09ebe8df607796ffa44dc49f679832aef1434fb063eb2a4d"
+    },
+    {
+      "id": "f0ae37ca-3039-503b-b837-3eab74972dab",
+      "lexical_key": "民为邦本|min2 wei2 bang1 ben3",
+      "simplified": "民为邦本",
+      "pinyin_numbered": "min2 wei2 bang1 ben3",
+      "content_version": 1,
+      "checksum": "e66b60f67a960bb60845f2345e85a3e648666bacdbae40431d4e5d6acd35a272"
+    },
+    {
+      "id": "ece5d271-906c-5727-97a4-6741567d2d3a",
+      "lexical_key": "民熙物阜|min2 xi1 wu4 fu4",
+      "simplified": "民熙物阜",
+      "pinyin_numbered": "min2 xi1 wu4 fu4",
+      "content_version": 1,
+      "checksum": "f842865b2a385ae69d5706bd4347874be4ed72bc81cfd26c9e614c2d3f4951ba"
+    },
+    {
+      "id": "a975ce08-d754-51d8-ace5-13dbc83ad034",
+      "lexical_key": "谋篇布局|mou2 pian1 bu4 ju2",
+      "simplified": "谋篇布局",
+      "pinyin_numbered": "mou2 pian1 bu4 ju2",
+      "content_version": 1,
+      "checksum": "d311ee4c8f09d3f6b3dd9e877bc96b4a25ae81d561a22a05bee46ffe90d00cbb"
+    },
+    {
+      "id": "7cadb9b2-5d8e-5d6b-be6c-c45c257bfdbd",
+      "lexical_key": "清正廉明|qing1 zheng4 lian2 ming2",
+      "simplified": "清正廉明",
+      "pinyin_numbered": "qing1 zheng4 lian2 ming2",
+      "content_version": 1,
+      "checksum": "bd24f773d512263d6f9a3882bc6d01e1caa1300fffe46084cb552c858b11b583"
+    },
+    {
+      "id": "7133bb8e-b4cd-5436-8ea9-5f4df893179e",
+      "lexical_key": "求真务实|qiu2 zhen1 wu4 shi2",
+      "simplified": "求真务实",
+      "pinyin_numbered": "qiu2 zhen1 wu4 shi2",
+      "content_version": 1,
+      "checksum": "ff2a3489c4b80fb460c3f158eef0937ac9be60c49114e47562c1e8033ab2ef73"
+    },
+    {
+      "id": "c6457412-97c6-528c-8543-7fdec0326622",
+      "lexical_key": "群策群力|qun2 ce4 qun2 li4",
+      "simplified": "群策群力",
+      "pinyin_numbered": "qun2 ce4 qun2 li4",
+      "content_version": 1,
+      "checksum": "bfdfbaa1aee7c38506ef5cb6a161d2407f08f0eb3d1f9cc26945a3030bcc1580"
+    },
+    {
+      "id": "34454ff3-a375-5afa-8b1e-aabd108f7953",
+      "lexical_key": "深谋远略|shen1 mou2 yuan3 lüe4",
+      "simplified": "深谋远略",
+      "pinyin_numbered": "shen1 mou2 yuan3 lüe4",
+      "content_version": 1,
+      "checksum": "cae060d2d2e6c9401711f2981d3c4390e387a1c6401407815d6755231d44d335"
+    },
+    {
+      "id": "30060357-f8e6-5f58-bf0f-d3383d925df7",
+      "lexical_key": "实干兴邦|shi2 gan4 xing1 bang1",
+      "simplified": "实干兴邦",
+      "pinyin_numbered": "shi2 gan4 xing1 bang1",
+      "content_version": 1,
+      "checksum": "76034398c8f4e8d3302bb192cdc8bcf61103f93ec08d97cbc1ae7589931e1c49"
+    },
+    {
+      "id": "66b94468-b477-5173-9f5d-2092df3df65a",
+      "lexical_key": "天下为公|tian1 xia4 wei2 gong1",
+      "simplified": "天下为公",
+      "pinyin_numbered": "tian1 xia4 wei2 gong1",
+      "content_version": 1,
+      "checksum": "bb5b4d830d4f09c0cbdf7240d3417bd20cb186195bada6b98ef6f21f2e622018"
+    },
+    {
+      "id": "d5adadf1-8ff6-54f5-a4b4-4f81db255e2f",
+      "lexical_key": "立党为公|li4 dang3 wei2 gong1",
+      "simplified": "立党为公",
+      "pinyin_numbered": "li4 dang3 wei2 gong1",
+      "content_version": 1,
+      "checksum": "a927346a3da84372e79cc1b39fe3d3f34607edd1a481da6372ac2c0f29bcfa05"
+    },
+    {
+      "id": "d824f62d-ee31-500a-9b93-1b732eb75db8",
+      "lexical_key": "万象更新|wan4 xiang4 geng1 xin1",
+      "simplified": "万象更新",
+      "pinyin_numbered": "wan4 xiang4 geng1 xin1",
+      "content_version": 1,
+      "checksum": "37254df16601c14b0cc695ba09231b67bc4ca45f7ffd248502200882feb78bc4"
+    },
+    {
+      "id": "cb4d0072-10b5-52f6-93bc-0f8a8e8d8044",
+      "lexical_key": "为民造福|wei4 min2 zao4 fu2",
+      "simplified": "为民造福",
+      "pinyin_numbered": "wei4 min2 zao4 fu2",
+      "content_version": 1,
+      "checksum": "977c4eef3a21490ed3dd38e77162c3050aa7842815af8f27c9a53b2ffbd4dca7"
+    },
+    {
+      "id": "1d3ed72a-870c-5def-8b80-eb24971e4127",
+      "lexical_key": "问政|wen4 zheng4",
+      "simplified": "问政",
+      "pinyin_numbered": "wen4 zheng4",
+      "content_version": 1,
+      "checksum": "1c58b72c415035725b0ad55905c1109aaf035a8a0e5669acc4a3dd897cf8aedc"
+    },
+    {
+      "id": "c3ccb131-f06a-5c6a-9a46-5651d05684fb",
+      "lexical_key": "无为而治|wu2 wei2 er2 zhi4",
+      "simplified": "无为而治",
+      "pinyin_numbered": "wu2 wei2 er2 zhi4",
+      "content_version": 1,
+      "checksum": "dc80ad02d6771f8c1ed8d2e55ac16e7724f67d6d2f7d1cbda4d017e34a44bc01"
+    },
+    {
+      "id": "d8ba60dc-ab5c-5697-9b48-ef9d42c70e36",
+      "lexical_key": "下情上达|xia4 qing2 shang4 da2",
+      "simplified": "下情上达",
+      "pinyin_numbered": "xia4 qing2 shang4 da2",
+      "content_version": 1,
+      "checksum": "7d9e5a6e0ec9e9f04dfa456829b27bf8f189000aab4fa3da920e51259290e936"
+    },
+    {
+      "id": "7b818100-6367-5a86-8143-34b87ef2ce9e",
+      "lexical_key": "协和万邦|xie2 he2 wan4 bang1",
+      "simplified": "协和万邦",
+      "pinyin_numbered": "xie2 he2 wan4 bang1",
+      "content_version": 1,
+      "checksum": "be2274d455f24ed981a61826df0dffe3b45ebfc6a60ea3bfd08772417b9d3428"
+    },
+    {
+      "id": "9d3e09aa-2814-543b-8f33-277d36990b60",
+      "lexical_key": "修明|xiu1 ming2",
+      "simplified": "修明",
+      "pinyin_numbered": "xiu1 ming2",
+      "content_version": 1,
+      "checksum": "b1ff8f78243a65002fa434e78cbdef2dda51d54b76c17eacf467e060bd7a63b5"
+    },
+    {
+      "id": "7bee5ef0-1252-59c6-a97f-30c0db5d52ce",
+      "lexical_key": "严于律己|yan2 yu2 lü4 ji3",
+      "simplified": "严于律己",
+      "pinyin_numbered": "yan2 yu2 lü4 ji3",
+      "content_version": 1,
+      "checksum": "6c8fe1e866566bf7e507c801d84e783968b5c6dbb6139987303f47df200dbfb9"
+    },
+    {
+      "id": "2660caac-4ebb-55f0-be62-605d2e5c109b",
+      "lexical_key": "依法治国|yi1 fa3 zhi4 guo2",
+      "simplified": "依法治国",
+      "pinyin_numbered": "yi1 fa3 zhi4 guo2",
+      "content_version": 1,
+      "checksum": "cf794fb0f2fa513f73ca0c253377e20b138c2e87713b519d9de1a08ebe65022c"
+    },
+    {
+      "id": "c6ea833b-7d0c-5140-9973-839c701d3292",
+      "lexical_key": "治国理政|zhi4 guo2 li3 zheng4",
+      "simplified": "治国理政",
+      "pinyin_numbered": "zhi4 guo2 li3 zheng4",
+      "content_version": 1,
+      "checksum": "a46e3e1419055ab776f3f436e2667754d10acbcde40b1464ecd81f892e19d9b0"
+    },
+    {
+      "id": "de068873-2d62-5645-af3d-81e2f2bcdcaf",
+      "lexical_key": "政通人和|zheng4 tong1 ren2 he2",
+      "simplified": "政通人和",
+      "pinyin_numbered": "zheng4 tong1 ren2 he2",
+      "content_version": 1,
+      "checksum": "0777d72da12fd3bdecf401fcf9149f3c4573fcf91d84f0f64566d85181dfd6fb"
+    },
+    {
+      "id": "446635b6-018b-5ba8-83f1-a46853cebd76",
+      "lexical_key": "至理名言|zhi4 li3 ming2 yan2",
+      "simplified": "至理名言",
+      "pinyin_numbered": "zhi4 li3 ming2 yan2",
+      "content_version": 1,
+      "checksum": "9c13f7fa1ba3baa7799bcdd349ed7ed0e259e50dba0b33f70f9aee72b6ea3b89"
+    },
+    {
+      "id": "6cc5ca6e-701c-5be1-83e3-35050044889d",
+      "lexical_key": "中流砥柱|zhong1 liu2 di3 zhu4",
+      "simplified": "中流砥柱",
+      "pinyin_numbered": "zhong1 liu2 di3 zhu4",
+      "content_version": 1,
+      "checksum": "b5d2ccba7aa3870d4fd586d5549c066191ddbc3fea4aa05085920c50e88c14a0"
+    },
+    {
+      "id": "8cec9e09-252e-56ea-bd9a-1dac66294681",
+      "lexical_key": "忠于职守|zhong1 yu2 zhi2 shou3",
+      "simplified": "忠于职守",
+      "pinyin_numbered": "zhong1 yu2 zhi2 shou3",
+      "content_version": 1,
+      "checksum": "92bcf88ec09b4a70b7560e713f8097c3eaa66a3bc57bf1a56610038421550a3e"
+    },
+    {
+      "id": "fea374cf-41f6-5b2d-b108-ab0fd093de9e",
+      "lexical_key": "众望所归|zhong4 wang4 suo3 gui1",
+      "simplified": "众望所归",
+      "pinyin_numbered": "zhong4 wang4 suo3 gui1",
+      "content_version": 1,
+      "checksum": "b4bbe6571a6835b29e027bc4b690538ce16ed0f4b6864f99870f6fac0ffb99cd"
+    },
+    {
+      "id": "a4e2c7a3-7444-5309-a8e3-e382947b451d",
+      "lexical_key": "主心骨|zhu3 xin1 gu3",
+      "simplified": "主心骨",
+      "pinyin_numbered": "zhu3 xin1 gu3",
+      "content_version": 1,
+      "checksum": "ec3637d4500b39ffd23bc16e2d237e91f12169c7e88424463e5f342f18cde820"
+    },
+    {
+      "id": "684737ad-57b4-58e6-b1d9-39cff2962f30",
+      "lexical_key": "自强不息|zi4 qiang2 bu4 xi1",
+      "simplified": "自强不息",
+      "pinyin_numbered": "zi4 qiang2 bu4 xi1",
+      "content_version": 1,
+      "checksum": "a01b199568b1a34e3bca5b27339c88ec1d460c0fcf037dd445b95a366d5e8b35"
+    }
+  ]
+}

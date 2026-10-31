@@ -1,0 +1,38 @@
+[
+  {
+    "vocabulary_id": "e611f2a1-17bb-5215-8862-7f69f32ca0fb",
+    "content_version": 1,
+    "checksum": "31990f56679ab7c4ab549aa4871638164b3d9d9683ac120c5aeabf7b96e000e3",
+    "policy_version": "implementation-reviewed-20261027-v1",
+    "sense_key": "singular-listener-familiar",
+    "vietnamese_prompt": "Chỉ người đang nghe khi nói 'cậu' hoặc 'bạn' với một người ngang hàng, không dùng lối xưng hô kính trọng. Viết một chữ theo tiếng Phổ thông hiện đại.",
+    "reviewed_by": "Codex local implementation review, 2026-10-27",
+    "ambiguity_resolution": "Selected the catalog's singular second-person familiar sense. The listener and familiar register distinguish this from the noun meaning friend and the respectful form. One-character modern standard Mandarin excludes plural and regional forms. Both curated Vietnamese glosses describe this selected sense. POS pronoun is present in the catalog; no category is inferred from gloss order.",
+    "accepted_pos": ["pronoun"],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "2dc82ad4-23e8-5531-a64e-b6cb78d26cdf",
+    "content_version": 1,
+    "checksum": "ac0413c2a5dc1895ae341751c1e6b5b21fcb02f0cd81eba4419bc636dd717467",
+    "policy_version": "implementation-reviewed-20261027-v1",
+    "sense_key": "singular-male-referent",
+    "vietnamese_prompt": "Chỉ một người đàn ông đã được nhắc đến: 'anh ấy', 'ông ấy' hoặc 'cậu ấy'. Người đó không phải người nói hay người đang nghe. Viết một chữ theo tiếng Phổ thông hiện đại.",
+    "reviewed_by": "Codex local implementation review, 2026-10-27",
+    "ambiguity_resolution": "Selected a singular male human referent in modern standard Mandarin. Male human context distinguishes female, object and deity written forms; one character distinguishes expanded noun phrases and plurals. The three curated glosses are compatible realizations of this selected sense. POS pronoun is explicitly present in the catalog.",
+    "accepted_pos": ["pronoun"],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "373fa2a5-1516-5b2e-a091-5f159a388f97",
+    "content_version": 1,
+    "checksum": "9b699357153f62b714cfacca7d0eff608135517994489164f842f86d2975e576",
+    "policy_version": "implementation-reviewed-20261027-v1",
+    "sense_key": "singular-female-referent",
+    "vietnamese_prompt": "Chỉ một người phụ nữ đã được nhắc đến: 'cô ấy', 'bà ấy' hoặc 'chị ấy'. Người đó không phải người nói hay người đang nghe. Viết một chữ theo tiếng Phổ thông hiện đại.",
+    "reviewed_by": "Codex local implementation review, 2026-10-27",
+    "ambiguity_resolution": "Selected a singular female human referent in modern standard Mandarin. Female human context distinguishes male and object written forms; one character distinguishes expanded noun phrases and plurals. The three curated glosses are compatible realizations of this selected sense. POS pronoun is explicitly present in the catalog.",
+    "accepted_pos": ["pronoun"],
+    "pos_skip_reason": null
+  }
+]

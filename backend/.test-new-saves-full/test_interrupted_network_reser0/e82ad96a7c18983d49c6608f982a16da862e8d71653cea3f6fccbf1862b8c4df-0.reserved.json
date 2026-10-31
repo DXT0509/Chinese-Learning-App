@@ -1,0 +1,8 @@
+{
+  "started_at": "2026-10-31T14:02:56.095244+00:00",
+  "reviewer": {
+    "provider": "anthropic",
+    "model": "reviewer-fixture",
+    "version": "reviewer-fixture"
+  }
+}

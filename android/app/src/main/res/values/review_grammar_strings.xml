@@ -1,0 +1,18 @@
+<resources>
+    <string name="srs_grammar_subject">Chủ ngữ</string>
+    <string name="srs_grammar_predicate">Vị ngữ / phần trung tâm vị ngữ</string>
+    <string name="srs_grammar_object">Tân ngữ (của động từ hoặc giới từ)</string>
+    <string name="srs_grammar_attribute">Định ngữ (bổ nghĩa cho danh từ)</string>
+    <string name="srs_grammar_adverbial">Trạng ngữ (thời gian, cách thức…)</string>
+    <string name="srs_grammar_complement">Bổ ngữ (kết quả, mức độ…)</string>
+    <string name="srs_grammar_modal">Bộ phận năng nguyện / tình thái</string>
+    <string name="srs_grammar_clause">Mệnh đề độc lập, nêu ý trọn vẹn</string>
+    <string name="srs_expression_greeting">Lời chào khi gặp</string>
+    <string name="srs_expression_farewell">Lời tạm biệt</string>
+    <string name="srs_expression_gratitude">Lời cảm ơn</string>
+    <string name="srs_expression_apology">Lời xin lỗi</string>
+    <string name="srs_expression_wish">Lời chúc</string>
+    <string name="srs_morpheme_bound">Yếu tố tạo từ trong từ ghép</string>
+    <string name="srs_morpheme_word">Từ độc lập</string>
+    <string name="srs_quantity_phrase">Cụm chỉ số lượng (một ít, một chút…)</string>
+</resources>

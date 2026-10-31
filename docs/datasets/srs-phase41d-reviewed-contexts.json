@@ -1,0 +1,609 @@
+[
+  {
+    "vocabulary_id": "c938541f-5937-59ae-971b-ae09264e2803",
+    "content_version": 1,
+    "checksum": "b3099e8a3d74795127e997c074df4d9433b3e42818894ebeaaeb596a28408651",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Cùng nhau làm một việc; chữ đầu mang nghĩa một, chữ sau mang nghĩa đứng dậy. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Cùng nhau làm một việc; chữ đầu mang nghĩa một, chữ sau mang nghĩa đứng dậy. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adverb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "6e044040-9ad6-5d3b-9571-b5ee5a91cc3d",
+    "content_version": 1,
+    "checksum": "3e739c1ab6fc458cea2c487dd84393ed5caf9cec7187bb3d4950ea31aedd56e0",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đi học ở trường; chữ đầu mang nghĩa lên, chữ sau mang nghĩa học. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đi học ở trường; chữ đầu mang nghĩa lên, chữ sau mang nghĩa học. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "d9a807a2-63f3-5a59-9d5b-5dbe1ba1f227",
+    "content_version": 1,
+    "checksum": "2bdeb91340c525d72a42bc1a6c81e98bf6e0ea9ae973422cd4d143f3db9bd09c",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Trả tiền; chữ sau chính là danh từ tiền, không phải chữ chỉ sổ hoặc tài khoản. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Trả tiền; chữ sau chính là danh từ tiền, không phải chữ chỉ sổ hoặc tài khoản. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "74c12c80-9906-5ef3-a93f-3a9ed3bcbf75",
+    "content_version": 1,
+    "checksum": "790caae48d8abc2f034a1029fc51c32db100f43746851687a457abe8b2d63cba",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Làm, sáng tác; chọn chữ đơn có 7 nét, thường gặp trong từ chỉ tác phẩm hoặc tác giả. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Làm, sáng tác; chọn chữ đơn có 7 nét, thường gặp trong từ chỉ tác phẩm hoặc tác giả. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "dd19a2d2-b0fc-54c7-a51c-59699a5fd87a",
+    "content_version": 1,
+    "checksum": "a32229d701da693ef9006675c5db3d3298e4ac329aca40213bd44a24af56acca",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Làm, chế tạo; chọn chữ đơn có 11 nét, dùng trong hoạt động làm việc hoặc làm đồ ăn. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Làm, chế tạo; chọn chữ đơn có 11 nét, dùng trong hoạt động làm việc hoặc làm đồ ăn. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "04703217-5528-57e2-b8ae-6c3edb633658",
+    "content_version": 2,
+    "checksum": "97093679f9384f217aeb95441eda564bbf34dec86a5a42d53dfe331ffdb7e8a5",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Chung, cùng nhau; âm Hán-Việt cộng đồng, dùng cho điều chung của nhiều bên. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chung, cùng nhau; âm Hán-Việt cộng đồng, dùng cho điều chung của nhiều bên. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adjective",
+      "adverb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "c2825418-628a-5a5a-9b0c-4640121c8829",
+    "content_version": 1,
+    "checksum": "80e724fde73d8837a8e076308b9b1b8d735ddfe21a25c2ac8bfaca01fa5aa07f",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đóng cánh cửa vật lý khi ra ngoài; chữ sau chỉ cửa, không hỏi việc doanh nghiệp phá sản. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đóng cánh cửa vật lý khi ra ngoài; chữ sau chỉ cửa, không hỏi việc doanh nghiệp phá sản. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "b3e7516f-6923-54d4-b5d1-340be3727567",
+    "content_version": 1,
+    "checksum": "3578d5c683c1bab2ba998a52050dbb9e2b19ddd31289e176bb2ed62593e88664",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Miệng; âm Hán-Việt khẩu. Mục từ còn dùng để đếm số người trong gia đình. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Miệng; âm Hán-Việt khẩu. Mục từ còn dùng để đếm số người trong gia đình. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun",
+      "classifier"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "c1c1f1e6-d433-5cfb-8a8f-21d44e00efc0",
+    "content_version": 1,
+    "checksum": "f5763c53b5250d8cb1c37e9ee92391e85d0968c5702fb3529e55b9dc4e6bf0f3",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Hỏi ở đâu; chọn biến thể có hậu tố vốn mang nghĩa trẻ nhỏ, không phải hậu tố mang nghĩa bên trong. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Hỏi ở đâu; chọn biến thể có hậu tố vốn mang nghĩa trẻ nhỏ, không phải hậu tố mang nghĩa bên trong. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "57c1fe8f-48a3-5872-8c4f-d57c0caa73dd",
+    "content_version": 1,
+    "checksum": "fc2e987bdda85021db96851bf9f3553e70e7f96adbadb48efbb57e1b57bfd4ce",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Hỏi ở đâu; chọn biến thể có hậu tố mang nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Hỏi ở đâu; chọn biến thể có hậu tố mang nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "04e5958a-876c-53e5-b1f7-2d1977de09a6",
+    "content_version": 1,
+    "checksum": "4cf5e35190194065d696898176d0302655f6a6e3cdd8130bd14deb2e411a51cf",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Miệng; chọn chữ phức tạp gồm 16 nét, dùng trong lời yêu cầu há miệng. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Miệng; chọn chữ phức tạp gồm 16 nét, dùng trong lời yêu cầu há miệng. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "f7fa154b-1775-5c32-8d68-8336f0a55a10",
+    "content_version": 1,
+    "checksum": "210cae48afda4681c006793cae01caaeadf8d13e91c219f2e557872d1c474d41",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Ban đêm; chữ đầu chỉ đêm, chữ sau mang nghĩa bên trong; không phải tổ hợp chiều tối và trên. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Ban đêm; chữ đầu chỉ đêm, chữ sau mang nghĩa bên trong; không phải tổ hợp chiều tối và trên. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "08e3e132-8c28-53f5-acac-575a52068269",
+    "content_version": 1,
+    "checksum": "83ac9e386546f499d8814bb07f31e30760ce86ecc551e54d59eca19b453bc8d8",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Bà, vợ; cách gọi bà Vương gồm hai chữ giống hệt nhau. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Bà, vợ; cách gọi bà Vương gồm hai chữ giống hệt nhau. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "48abe55b-293a-587f-80d4-789ff29e64c5",
+    "content_version": 1,
+    "checksum": "42dfdc843666b819ec25de54cb7771cda8216b4bf72f49b2c3e2b4c3c0541301",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Bé gái; chữ sau có nghĩa đứa trẻ, không hỏi quan hệ con gái với bố mẹ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Bé gái; chữ sau có nghĩa đứa trẻ, không hỏi quan hệ con gái với bố mẹ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "e714f344-7abd-5d19-ad6e-3ee706fa1cf8",
+    "content_version": 1,
+    "checksum": "ab3fcee9ad30ea37ce4ca3e5cb24404e215848caa02928878bb0ef0fb1632b06",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đẹp hoặc hay khi xem, đọc; chữ đầu nghĩa tốt, chữ sau chính là động từ xem. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đẹp hoặc hay khi xem, đọc; chữ đầu nghĩa tốt, chữ sau chính là động từ xem. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adjective"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "f7852100-9028-5dae-ab2c-1e6283502518",
+    "content_version": 2,
+    "checksum": "a520579a10a02daa4a21fbd11ca1b0c833c45fe83fe930c8b91ff1e9ae56cdcd",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Tiểu thư, cô; âm Hán-Việt tiểu thư. Cách xưng hô trong danh xưng với phụ nữ trẻ; tránh gọi riêng người lạ ở một số vùng. Không phải danh từ chỉ em gái. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Tiểu thư, cô; âm Hán-Việt tiểu thư. Cách xưng hô trong danh xưng với phụ nữ trẻ; tránh gọi riêng người lạ ở một số vùng. Không phải danh từ chỉ em gái. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "fad2c83b-2218-5b51-a3c5-d4770225aede",
+    "content_version": 1,
+    "checksum": "e3882b4b29e5cfe77a7b2b0b03040286d3790b93249d919aff3c00b4f9983d47",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Rất; phó từ mức độ cơ bản, chữ có bộ bước chân kép, tổng cộng 9 nét. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Rất; phó từ mức độ cơ bản, chữ có bộ bước chân kép, tổng cộng 9 nét. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adverb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "cb230bd6-f515-589a-ab1a-6849dcf7e7df",
+    "content_version": 1,
+    "checksum": "17d8702e85c32ed8c918491df36e7daee51e13ff4eb8196bf79996d30d4b3fcb",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Chúng tôi hoặc chúng ta; chữ đầu là đại từ ngôi thứ nhất số ít cơ bản có 7 nét. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chúng tôi hoặc chúng ta; chữ đầu là đại từ ngôi thứ nhất số ít cơ bản có 7 nét. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "1397c0a2-98cf-5892-a74e-12a5da289ce5",
+    "content_version": 1,
+    "checksum": "1991c89b1dbc71d82bef95adaa5239149ac43442556060e40d34a8d504d6ccdb",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Tường thuật, đưa tin; âm Hán-Việt báo đạo, chữ thứ hai mang nghĩa dẫn dắt. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Tường thuật, đưa tin; âm Hán-Việt báo đạo, chữ thứ hai mang nghĩa dẫn dắt. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "555572ce-c52e-5de4-92a7-59316e252f6e",
+    "content_version": 2,
+    "checksum": "4a49e7fc364230dc6c111c26bbb59735564c18e12dfbdbf4774f6225182f8f73",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đưa tin, bài báo; âm Hán-Việt báo đạo, chữ thứ hai mang nghĩa con đường. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đưa tin, bài báo; âm Hán-Việt báo đạo, chữ thứ hai mang nghĩa con đường. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun",
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "c3d4341e-af16-5e8f-980b-03d41305a752",
+    "content_version": 1,
+    "checksum": "bb9b84fccbb58e452231acc3425f683c9d40342237df38bc7c0dedc0f31cf86e",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Chụp ảnh; chữ đầu là động từ mang nghĩa vỗ hoặc chụp, có bộ tay. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chụp ảnh; chữ đầu là động từ mang nghĩa vỗ hoặc chụp, có bộ tay. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "1b28c467-f5cc-506b-92c3-467aa7415325",
+    "content_version": 1,
+    "checksum": "ad76e107ae4368231f7f840268127fe58c992eac1e3d56fe0f95b7d2240a4510",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Bữa sáng; chữ sau là chữ 16 nét chỉ bữa ăn, không phải chữ chỉ cơm. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Bữa sáng; chữ sau là chữ 16 nét chỉ bữa ăn, không phải chữ chỉ cơm. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "554d4fed-2c8a-5b01-8530-a850923fbe9a",
+    "content_version": 1,
+    "checksum": "19e373133487fbdc6920ed51ff4f4954915df39bf3dd3f6d5accffd2ac4f331a",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Cơm sáng, bữa sáng; chữ sau chính là chữ chỉ cơm, không phải chữ 16 nét chỉ bữa ăn. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Cơm sáng, bữa sáng; chữ sau chính là chữ chỉ cơm, không phải chữ 16 nét chỉ bữa ăn. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "768e07ae-0345-553f-acfd-635e87d0c65c",
+    "content_version": 1,
+    "checksum": "ffe57ae7bc383a150bb9fc65a8623de11d53c3f5b3142c8972ace5fa7366f562",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Sáng, rõ; âm Hán-Việt minh. Chữ đơn ghép hai thành phần mang nghĩa mặt trời và mặt trăng. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Sáng, rõ; âm Hán-Việt minh. Chữ đơn ghép hai thành phần mang nghĩa mặt trời và mặt trăng. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adjective"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "2b4d9c35-c9bf-5b93-a9a5-91bc38a96089",
+    "content_version": 1,
+    "checksum": "4109aca683537dc2dcd87a96a1feae71b5423b3998463932bdd1c17dc37921f9",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (3 chữ Hán). Chủ nhật; chữ cuối nghĩa bầu trời, không phải chữ nghĩa mặt trời hoặc ngày. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chủ nhật; chữ cuối nghĩa bầu trời, không phải chữ nghĩa mặt trời hoặc ngày. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "03241e75-969c-5098-a4b4-9845e97d8765",
+    "content_version": 1,
+    "checksum": "8ab3fd1985432722810e961d75d896078901a59b30a55068780c96b096dc410d",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (3 chữ Hán). Chủ nhật; chữ cuối nghĩa mặt trời hoặc ngày, không phải chữ nghĩa bầu trời. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chủ nhật; chữ cuối nghĩa mặt trời hoặc ngày, không phải chữ nghĩa bầu trời. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "a4fc3cb1-c4f9-53b7-b264-9e820a29201e",
+    "content_version": 1,
+    "checksum": "5fc407628525ab0e08c0654db7d5fa7077f8f632c5c71a76fc44149b9c61ab4d",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Chụp ảnh; chữ đầu mang nghĩa chiếu sáng, chữ sau mang nghĩa hình ảnh. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chụp ảnh; chữ đầu mang nghĩa chiếu sáng, chữ sau mang nghĩa hình ảnh. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "d97aabfe-1e36-59cf-b21c-93e99c8fc50d",
+    "content_version": 1,
+    "checksum": "616dbec747b834d49aea347b4e615005f48cdb7586e4306c93d2c618fb2836b4",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Bố, ba trong gia đình; chữ đơn gồm 8 nét, không hỏi số ba. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Bố, ba trong gia đình; chữ đơn gồm 8 nét, không hỏi số ba. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "03c8811e-9213-5ab1-ac73-a0bcdac7cafd",
+    "content_version": 1,
+    "checksum": "7e094e188fe87f97df2b9011a83dd3373715eeb251174c8816918b368f416fe8",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Bé trai; chữ sau có nghĩa đứa trẻ, không hỏi quan hệ con trai với bố mẹ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Bé trai; chữ sau có nghĩa đứa trẻ, không hỏi quan hệ con trai với bố mẹ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "7a799e43-fd76-5551-ba56-20bd3279b103",
+    "content_version": 1,
+    "checksum": "3118f3b7c3e6e0a17a85f7c691de16fc68afe34c0ffc4db1fc39abc14fb9e4e8",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đọc sách; chữ đầu chính là động từ xem, chữ sau nghĩa sách. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đọc sách; chữ đầu chính là động từ xem, chữ sau nghĩa sách. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "7ab213bb-540c-5096-9b34-1d8ba6d8a693",
+    "content_version": 1,
+    "checksum": "7f63ae0ba92b77f24708ee0b06ec7f40b06ca1ec13ff1e5276fe60635515dc2e",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Muốn lấy thứ gì khi yêu cầu; chữ đơn 9 nét có bộ nữ ở dưới, không phải chữ chỉ suy nghĩ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Muốn lấy thứ gì khi yêu cầu; chữ đơn 9 nét có bộ nữ ở dưới, không phải chữ chỉ suy nghĩ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "51ad8e7c-d066-59ab-a748-f916d70bc7ee",
+    "content_version": 1,
+    "checksum": "56fbcc05323efa27bebdb39dc41d65ce296e0b17f3171f7c4a25a9ed567519c8",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đọc sách, đi học; chữ đầu chính là động từ đọc có bộ ngôn, chữ sau nghĩa sách. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đọc sách, đi học; chữ đầu chính là động từ đọc có bộ ngôn, chữ sau nghĩa sách. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "40b3c5e5-715d-5fd7-b0c8-2bfe3c4d8a93",
+    "content_version": 1,
+    "checksum": "11af260e8658d6a6dff57e4077b5e2ee101c07d04a6f955364dffeeaaa7c5924",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (1 chữ Hán). Với, theo; chữ có bộ chân, không phải chữ mang nghĩa hòa. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Với, theo; chữ có bộ chân, không phải chữ mang nghĩa hòa. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb",
+      "preposition"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "3a13c288-239a-5b9c-8a03-694293863c64",
+    "content_version": 2,
+    "checksum": "c520a9797491ac049dd4d0cfc42e735c1156e95b2415aef5f5c4d203c7b062c9",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Quá mức, vượt mức độ thích hợp; âm Hán-Việt quá độ, chữ sau chỉ mức độ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Quá mức, vượt mức độ thích hợp; âm Hán-Việt quá độ, chữ sau chỉ mức độ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adjective"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "e14bc879-4b85-5225-80b1-69a611688388",
+    "content_version": 1,
+    "checksum": "dde1efa5a32bbc6869a1bc8cb00ea71866a702192bbec28fc765aaeeb1301233",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Chuyển tiếp từ trạng thái này sang trạng thái khác; chữ sau có bộ nước và nghĩa vượt qua sông. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Chuyển tiếp từ trạng thái này sang trạng thái khác; chữ sau có bộ nước và nghĩa vượt qua sông. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "verb"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "429ca13d-40ec-59c2-80d1-b9f39f9b56e0",
+    "content_version": 1,
+    "checksum": "b24a588018d0f9ab416400947c77cf1f50896d63bb73b04bfc34d36d4e60bf2e",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Hay là trong câu hỏi lựa chọn, cũng có nghĩa vẫn; chữ sau chính là động từ là. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Hay là trong câu hỏi lựa chọn, cũng có nghĩa vẫn; chữ sau chính là động từ là. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "adverb",
+      "conjunction"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "9b22112d-1d87-5d39-bf50-6810e0807497",
+    "content_version": 1,
+    "checksum": "9fd5efc3183d949983730625fe729d5fe21751f3f1b2b1a66940cbc2a3b2b007",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Ở đây; chọn hậu tố vốn nghĩa trẻ nhỏ, không phải hậu tố nghĩa bên trong. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Ở đây; chọn hậu tố vốn nghĩa trẻ nhỏ, không phải hậu tố nghĩa bên trong. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "6d37f556-1c45-5ed2-87c2-01f22c924863",
+    "content_version": 1,
+    "checksum": "93d251de69c9f094b1571665b41040d552ab22e557f3a59068e85c10d224cf29",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Ở đây; chọn hậu tố nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Ở đây; chọn hậu tố nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "4f94d609-6fa1-51b4-91b4-4f45ccccdeba",
+    "content_version": 1,
+    "checksum": "b909dee70934fb6f1e20fc4a319f9838c2578e5fd780cfbe4dafc84173b040e8",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Ở kia; chọn hậu tố vốn nghĩa trẻ nhỏ, không phải hậu tố nghĩa bên trong. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Ở kia; chọn hậu tố vốn nghĩa trẻ nhỏ, không phải hậu tố nghĩa bên trong. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "eb41dbe6-d5cc-5e67-92fd-f6c00fe12e95",
+    "content_version": 1,
+    "checksum": "8272c292b36ec23afb8ed45b5deff15241148a43df611fd7605baa92e1dcae8b",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Ở kia; chọn hậu tố nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Ở kia; chọn hậu tố nghĩa bên trong, không phải hậu tố vốn nghĩa trẻ nhỏ. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "pronoun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "857be955-8ae6-5848-8f59-3acda4535cdd",
+    "content_version": 1,
+    "checksum": "772d86a0383229e8d6b90129b29bffbae9619f21b132be622bc5373e5cb7a618",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Khách sạn; chữ đầu chính là chữ nghĩa rượu, chữ sau nghĩa cửa hàng. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Khách sạn; chữ đầu chính là chữ nghĩa rượu, chữ sau nghĩa cửa hàng. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "f8b132ec-fc80-52f8-ad65-34f53f2d98ea",
+    "content_version": 1,
+    "checksum": "c4d27c74ff521a6ed4baf5f26e4fdd04a118ce0c1c5041cc47f21ea9741b0d02",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Nhà hàng, phòng ăn; chữ đầu nghĩa bữa ăn, chữ sau nghĩa sảnh hoặc phòng lớn. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Nhà hàng, phòng ăn; chữ đầu nghĩa bữa ăn, chữ sau nghĩa sảnh hoặc phòng lớn. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  },
+  {
+    "vocabulary_id": "c4402a82-aba6-51e4-bb25-b6cf43bb8276",
+    "content_version": 1,
+    "checksum": "a2f8bdacf2a9fe9e8a95451ddbb87a23cbb945ddd39986ce72edc884eec6ff63",
+    "policy_version": "phase41d-context-reviewed-v1",
+    "sense_key": "cued-lexical-identity-all-source-pos",
+    "vietnamese_prompt": "Viết mục từ đã học (2 chữ Hán). Đường giao thông, đường phố; chữ đầu nghĩa ngựa, chữ sau nghĩa đường. Ở bước từ loại, chọn tất cả từ loại của mục từ này trong danh mục.",
+    "reviewed_by": "Codex session linguistic review 2026-10-28; no human approval asserted",
+    "ambiguity_resolution": "Đường giao thông, đường phố; chữ đầu nghĩa ngựa, chữ sau nghĩa đường. Reviewed against catalog conflicts; only the bound spelling and pronunciation are answers. All source POS retained. Prompt-only decision; published content unchanged.",
+    "accepted_pos": [
+      "noun"
+    ],
+    "pos_skip_reason": null
+  }
+]

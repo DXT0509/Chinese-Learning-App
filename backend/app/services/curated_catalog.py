@@ -4,7 +4,7 @@ from datetime import datetime
 from uuid import UUID, uuid4
 
 from fastapi import HTTPException
-from sqlalchemy import exists, func, or_, select, tuple_, update
+from sqlalchemy import case, exists, func, or_, select, tuple_, update
 from sqlalchemy.dialects.postgresql import insert
 
 from app.core.config import get_settings
@@ -209,7 +209,14 @@ class CuratedCatalog:
                 insert(Saved)
                 .values(id=uuid4(), user_id=user_id, vocabulary_id=entry_id)
                 .on_conflict_do_update(
-                    index_elements=[Saved.user_id, Saved.vocabulary_id], set_={"is_active": True}
+                    index_elements=[Saved.user_id, Saved.vocabulary_id],
+                    set_={
+                        "is_active": True,
+                        "schedule_version": case(
+                            (Saved.is_active, Saved.schedule_version),
+                            else_=Saved.schedule_version + 1,
+                        ),
+                    },
                 )
                 .returning(Saved)
             )
@@ -231,8 +238,8 @@ class CuratedCatalog:
         async with self.session.begin():
             await self.session.execute(
                 update(Saved)
-                .where(Saved.id == saved_id, Saved.user_id == user_id)
-                .values(is_active=False)
+                .where(Saved.id == saved_id, Saved.user_id == user_id, Saved.is_active)
+                .values(is_active=False, schedule_version=Saved.schedule_version + 1)
             )
 
     async def listing(self, user_id, query):

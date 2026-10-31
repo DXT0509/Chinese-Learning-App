@@ -1,0 +1,22 @@
+<resources>
+    <string name="srs_write">Viết tay</string>
+    <string name="srs_keyboard">Bàn phím</string>
+    <string name="srs_write_help">Viết một chữ giản thể trong mỗi ô, nhận dạng rồi chọn chữ bạn muốn gửi.</string>
+    <string name="srs_identity_only">Bài ôn chấm chữ được nhận dạng, không chấm thứ tự nét hay chất lượng thư pháp.</string>
+    <string name="srs_slot">%1$d · %2$s</string>
+    <string name="srs_canvas_empty">Ô đang trống. Hãy viết một chữ trước khi nhận dạng.</string>
+    <string name="srs_selected_word">Câu trả lời: %1$s</string>
+    <string name="srs_summary_title">Bạn đã hoàn thành phiên ôn!</string>
+    <string name="srs_summary_counts">Đã ôn %1$d từ · Đạt %2$d · Chưa đạt %3$d</string>
+    <string name="srs_summary_change">Tổng thay đổi mức thành thạo: %1$d</string>
+    <string name="srs_summary_skipped">Đã bỏ qua %1$d từ · Không thay đổi lịch ôn</string>
+    <string name="srs_summary_open">Xem tổng kết phiên</string>
+    <string name="srs_session_position">Từ %1$d / %2$d · Ba bước ôn tập</string>
+    <string name="srs_dashboard_help">Mỗi ngày một chút, ghi nhớ lâu hơn.</string>
+    <string name="srs_session_limit">Mỗi phiên chọn ngẫu nhiên tối đa 20 từ đủ điều kiện đến hạn.</string>
+    <string name="srs_learning_progress">Đã đạt mức 1–5: %1$d / %2$d từ</string>
+    <string name="srs_result_help_pass">Bạn làm tốt lắm! Tiếp tục ôn đều để ghi nhớ lâu hơn.</string>
+    <string name="srs_result_help_fail">Mỗi lần luyện tập là một bước tiến. Hãy xem lại phản hồi và thử sức ở lần ôn sau.</string>
+    <string name="srs_count">Số chữ cần viết: %1$d</string>
+    <string name="srs_ink_capacity">Đã đạt giới hạn lưu nét. Hãy xóa bớt nét hoặc dùng bàn phím để tiếp tục.</string>
+</resources>

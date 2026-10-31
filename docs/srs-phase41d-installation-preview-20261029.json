@@ -1,0 +1,133 @@
+{
+  "status": "READY_AWAITING_EXPLICIT_INSTALLATION_AUTHORIZATION",
+  "prepared_at_utc": "2026-10-28T17:02:30.532124+00:00",
+  "target": {
+    "database": "chinese_learning",
+    "role": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432
+  },
+  "revision": "0012_srs_review_engine",
+  "bundle": "docs/datasets/srs-phase41d-complete-v2.json",
+  "bundle_sha256": "abae251396a78ffc12cfa535374751954f4cde060a330bbb8491e89e428e81e2",
+  "preview": {
+    "validated": 2804,
+    "inserted": 0,
+    "unchanged": 2148,
+    "preserved_manual": 0,
+    "would_insert": 656,
+    "would_update": 0,
+    "would_delete": 0,
+    "conflicts": 0
+  },
+  "backup": {
+    "path": "backend/.vocabulary-backups/phase41d-deploy-4ed7b8af8b1f/before-installation.dump",
+    "size_bytes": 3115721,
+    "sha256": "521f05da564830f6466a44c69119024c5bac49cbc5d0eff0255e22c21f91cf1b",
+    "archive_list_verified": true,
+    "full_restore_verified": true
+  },
+  "fresh_offline_reproduction_exact_hash_match": true,
+  "all_source_table_fingerprints_unchanged": 36,
+  "all_existing_policy_payloads_unchanged": 2148,
+  "development_database_writes": 0,
+  "real_graded_attempts_submitted": 0,
+  "api_stopped_for_maintenance": true,
+  "isolated_rehearsal": {
+    "database": "chinese_p41d_deploy_4ed7b8af8b1f_verified",
+    "full_restore_matches_all_36_source_tables": true,
+    "first_import": {
+      "validated": 2804,
+      "inserted": 656,
+      "unchanged": 2148,
+      "preserved_manual": 0,
+      "would_insert": 656,
+      "would_update": 0
+    },
+    "reimport": {
+      "validated": 2804,
+      "inserted": 0,
+      "unchanged": 2804,
+      "preserved_manual": 0,
+      "would_insert": 0,
+      "would_update": 0
+    },
+    "runtime_gradable": 2804,
+    "duplicate_policies": 0,
+    "stale_policies": 0,
+    "protected_unpublished_excluded": [
+      "不客气|bu4 ke4 qi5",
+      "什么|shen2 me5",
+      "厕所|ce4 suo3",
+      "没关系|mei2 guan1 xi5",
+      "谁|shei2",
+      "谁|shui2"
+    ],
+    "per_level": {
+      "0": {
+        "published": 218,
+        "valid": 218
+      },
+      "1": {
+        "published": 289,
+        "valid": 289
+      },
+      "2": {
+        "published": 158,
+        "valid": 158
+      },
+      "3": {
+        "published": 294,
+        "valid": 294
+      },
+      "4": {
+        "published": 599,
+        "valid": 599
+      },
+      "5": {
+        "published": 1246,
+        "valid": 1246
+      }
+    },
+    "nonpolicy_table_fingerprints_unchanged": 35,
+    "original_policy_rows_unchanged": 2148,
+    "fingerprint_timezone": "UTC",
+    "alembic_check": "PASSED"
+  },
+  "evidence_directory": "backend/.vocabulary-backups/phase41d-deploy-4ed7b8af8b1f",
+  "fingerprint_timezone": "UTC",
+  "android": {
+    "apk_path": "android/app/build/outputs/apk/debug/app-debug.apk",
+    "apk_sha256": "e2c0fb33b3803fa6c78702d2a5831a544d59baa4cbd9620f4def48e6f06cfbe3",
+    "prior_unit_tests_passed": 109,
+    "prior_assemble_and_lint": "PASSED",
+    "device_installation_verified": false
+  },
+  "deployment_source_sha256": {
+    "backend/scripts/review_policies.py": "4a02e4a24d326f9905775f55a0e5fc77ca4db4dd9128a144f18e3e53e87e143e",
+    "backend/app/services/policy_installation.py": "06e3dba6664ca9f6660db7d5f947a997bd138b0e2706d372fc349f718494ce95",
+    "backend/app/services/review_targets.py": "5c05e921dd1590f73c1c594e223d4b8782fb25e19199299a974e9273bcdbd93d",
+    "backend/app/services/contextual_grammar.py": "f4b6f388626abfa4336f92719523a7e2731d374a79b6e0e7715727ae13133a9e",
+    "backend/app/services/review_engine.py": "d44c789cb068830060fd6b446311bc76268cd6cce1cecbf860cda545f93ea95e",
+    "backend/app/services/srs_contract.py": "0f1c102aa1393926d899eb90334a609f5f4964f62c61f76c274da4c71a27624f",
+    "backend/app/services/srs.py": "b7a2cd446b8d35900adbbd9486c63afc294c9ff0cf4b42f3054f2ef30d94eaba",
+    "backend/app/services/srs_state.py": "0bbd7619bc69508c68e5d64dfc07e52a812257b1c516ceef7f9ac528aaa9bafb",
+    "backend/app/models/srs.py": "a87f8d86a26882979a4f1b8af87dd039a286bb3ece43eccf562ce7c866021961"
+  },
+  "preserved_selected_row_counts": {
+    "curated_vocabulary": 2810,
+    "users": 3,
+    "curated_user_vocabulary": 27,
+    "srs_review_attempts": 1,
+    "curated_vocabulary_reviews": 0,
+    "srs_target_policies": 2148
+  },
+  "backend_restart_after_authorization": {
+    "command": ".venv/Scripts/python -m app",
+    "working_directory": "backend",
+    "bind": "127.0.0.1:8000",
+    "window": "hidden",
+    "access_logging": false
+  },
+  "authorization_received": false
+}

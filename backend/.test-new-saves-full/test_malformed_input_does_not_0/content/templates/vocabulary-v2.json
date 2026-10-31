@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-preview",
+  "version": 2,
+  "description": "Bản xem trước nội dung; chưa hỗ trợ hoàn thành bài học.",
+  "scenes": [
+    {
+      "scene_key": "vocabulary-introduction",
+      "position": 10,
+      "scene_type": "VOCABULARY_INTRODUCTION",
+      "contract_version": 1,
+      "required": true,
+      "config": {
+        "vocabulary_ref": {
+          "binding": "TARGET_VOCABULARY"
+        },
+        "show_meaning": true
+      }
+    },
+    {
+      "scene_key": "vocabulary-information",
+      "position": 20,
+      "scene_type": "VOCABULARY_INFORMATION",
+      "contract_version": 1,
+      "required": true,
+      "config": {
+        "vocabulary_ref": {
+          "binding": "TARGET_VOCABULARY"
+        },
+        "fields": [
+          "PINYIN",
+          "SINO_VIETNAMESE",
+          "MEANING",
+          "POS",
+          "NOTES"
+        ]
+      }
+    },
+    {
+      "scene_key": "ordered-character-references",
+      "position": 30,
+      "scene_type": "CHARACTER_ANALYSIS",
+      "contract_version": 1,
+      "required": false,
+      "config": {
+        "vocabulary_ref": {
+          "binding": "TARGET_VOCABULARY"
+        },
+        "expansion": "ORDERED_CHARACTERS",
+        "missing_analysis": "SHOW_UNREVIEWED_PLACEHOLDER",
+        "pagination": "ONE_COMPONENT_PER_PAGE"
+      }
+    },
+    {
+      "scene_key": "stroke-animation",
+      "position": 40,
+      "scene_type": "STROKE_ANIMATION",
+      "contract_version": 1,
+      "required": false,
+      "config": {
+        "vocabulary_ref": {
+          "binding": "TARGET_VOCABULARY"
+        }
+      }
+    },
+    {
+      "scene_key": "handwriting-practice",
+      "position": 50,
+      "scene_type": "HANDWRITING_PRACTICE",
+      "contract_version": 1,
+      "required": false,
+      "config": {
+        "vocabulary_ref": {
+          "binding": "TARGET_VOCABULARY"
+        }
+      }
+    }
+  ]
+}

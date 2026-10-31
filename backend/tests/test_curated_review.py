@@ -158,7 +158,7 @@ async def test_ai_publication_replay_versions_and_owner_mastery(
     assert (await client.delete(saved_path, headers=b)).status_code == 204
     assert (await client.get(path, headers=b)).json()["total"] == 0
     async with sessions() as session, session.begin():
-        await session.execute(update(CuratedUserVocabulary).values(mastery_level=4))
+        await session.execute(update(CuratedUserVocabulary).values(mastery_level=4, phase="REVIEW"))
     revised = request_for(request.content.model_copy(update={"content_version": 2}))
     await install(sessions, [revised.content], "batch2", "b" * 64)
     assert (await client.get(detail, headers=a)).status_code == 404

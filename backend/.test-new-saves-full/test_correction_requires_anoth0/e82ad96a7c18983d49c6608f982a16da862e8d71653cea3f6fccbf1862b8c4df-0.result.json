@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "review_id": "032d0d0f-8cdc-50b8-849b-ceb3d7559f75",
+  "policy_version": "zhvi-semantic-v1",
+  "lexical_key": "学|xue2",
+  "content_version": 1,
+  "content_checksum": "e82ad96a7c18983d49c6608f982a16da862e8d71653cea3f6fccbf1862b8c4df",
+  "generator": {
+    "provider": "synthetic",
+    "model": "generator-fixture",
+    "version": "test"
+  },
+  "reviewer": {
+    "provider": "anthropic",
+    "model": "reviewer-fixture",
+    "version": "reviewer-fixture"
+  },
+  "reviewed_at": "2026-10-31T14:02:55.985039Z",
+  "decision": "NEEDS_REVIEW",
+  "confidence": 0.8,
+  "assessments": [
+    {
+      "aspect": "simplified",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "mandarin_pinyin_neutral_tones",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "vietnamese_definitions",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "sino_vietnamese",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "example_correctness",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "example_pinyin_alignment",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "learning_difficulty",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "duplicate_identity",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    },
+    {
+      "aspect": "ambiguity",
+      "result": "uncertain",
+      "rationale": "Synthetic"
+    }
+  ],
+  "findings": [
+    {
+      "aspect": "vietnamese_definitions",
+      "severity": "blocking",
+      "message": "Synthetic correction",
+      "resolved": false
+    }
+  ],
+  "automated_validation": {
+    "validator_version": "curated-record-v1",
+    "content_checksum": "e82ad96a7c18983d49c6608f982a16da862e8d71653cea3f6fccbf1862b8c4df",
+    "passed": true,
+    "checks": [
+      "strict_schema",
+      "simplified_only",
+      "pinyin_rendering",
+      "lexical_identity",
+      "level_0_5",
+      "required_vietnamese"
+    ]
+  }
+}

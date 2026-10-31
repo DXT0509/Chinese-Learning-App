@@ -1,5 +1,47 @@
 # Architecture
 
+Phase 5.0 [FSRS-only replacement](runbooks/srs-fsrs-only-deployment.md) is deployed
+locally at revision 0014. Upstream FSRS 6.3.2 is the sole runtime scheduler;
+two-stage ink/Pinyin reviews and durable 20-minute plans are active. Existing
+history, mastery, due dates and editorial policy rows are preserved. The older
+phase descriptions below are historical; no fixed-interval runtime remains.
+
+Phase 4.4 [review UX and performance](srs-phase-4.4-ux-performance.md) adds persistent
+stage selectors, freely collected drafts with canonical server submissions, safe next-word
+prefetch and concise feedback. API additions are backward-compatible; no migration or
+scheduling change. Reload the API before installing Android.
+
+Phase 4.1D's [complete policy preparation](srs-phase41d-completion.md) preserves
+2,562 prior policies and resolves 242 further identities through individually
+reviewed grammatical functions, contextual syntax and explicit expression/morpheme
+questions. [Authorized local deployment](runbooks/srs-phase41d-deployment-20261029.md)
+now provides 2,804 / 2,804 valid installed policies. Optional JSON review evidence
+and pinned question/options need no schema
+migration; Android labels the new choices. Scheduling and identity are unchanged.
+
+Phase 4.3 [Android SRS experience](srs-phase-4.3-experience.md) adds a separate saved-state
+handwriting ViewModel using the existing ML Kit adapter, per-character slots and explicit
+candidate confirmation. A read-only server selection endpoint samples the entire eligible
+due population into bounded sessions. Queue order, results and summaries survive normal
+restoration; the existing engine remains the only grader/scheduler. No new schema/dependency.
+
+Phase 4.2 [integration stabilization](android-srs-review.md) adds authenticated mastery
+histograms, optional UUID-keyed creation replay using the existing attempt primary key,
+and pinned previous/resulting mastery in finalization. Android retains creation and
+submission keys in identity-scoped saved state. Scheduling and schema remain unchanged;
+legacy clients can omit the new creation key. Historical phase notes follow.
+
+Phase 4.1A extends the curated saved-word record with ChineseLearning SRS v1 state
+and adds pinned, auditable attempts. Only an internal server evaluator boundary can
+schedule reviews; authenticated HTTP exposes counts, due queues, owned progress and
+initialization with grading disabled. See [SRS foundation](srs-foundation.md).
+Legacy SRS, dictionary saves, preview runs and roadmap provenance are preserved.
+
+Phase 4.1B adds the [authoritative review engine](srs-review-engine.md): reviewed
+version/checksum-bound sense policies, ordered persisted answers and atomic
+finalization through the same SRS service. Migration 0012 is prepared but is not
+applied to development. Android review UI integration remains a future phase.
+
 Phase 3.3 adds [on-device dictionary handwriting](android-handwriting.md), using a
 back-stack ViewModel and a dedicated ML Kit adapter. Selected candidates feed the existing
 dictionary query pipeline; recognition adds no backend operations or learning progress.

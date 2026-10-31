@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "v-ni",
+  "simplified": "你",
+  "pinyin": "nǐ",
+  "sino_vietnamese": "nhĩ",
+  "vietnamese_meaning": "bạn",
+  "part_of_speech": "pronoun",
+  "notes": "Chưa có âm thanh, hoạt ảnh thứ tự nét hoặc phân tích thành phần đã duyệt.",
+  "audio_asset": null,
+  "characters": [
+    {
+      "id": "character-ni",
+      "hanzi": "你",
+      "stroke_count": null,
+      "stroke_order_asset": null
+    }
+  ],
+  "occurrences": [
+    {"position": 0, "character": "character-ni"}
+  ]
+}

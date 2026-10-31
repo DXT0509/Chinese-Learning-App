@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "policy_version": "zhvi-semantic-v1",
+  "generator": {
+    "provider": "synthetic",
+    "model": "generator-fixture",
+    "version": "test"
+  },
+  "content_checksum": "e82ad96a7c18983d49c6608f982a16da862e8d71653cea3f6fccbf1862b8c4df",
+  "content": {
+    "schema_version": 1,
+    "lexical_key": "学|xue2",
+    "simplified": "学",
+    "pinyin": "xué",
+    "pinyin_numbered": "xue2",
+    "sino_vietnamese": null,
+    "part_of_speech": null,
+    "learning_level": 0,
+    "classification_standard": "APP_CURATED",
+    "difficulty_reference": "HSK_2_0",
+    "review_status": "GENERATED_UNREVIEWED",
+    "content_version": 1,
+    "vietnamese_meanings": [
+      "học"
+    ],
+    "english_meanings": [],
+    "examples": [
+      {
+        "simplified": "学",
+        "pinyin": "xué",
+        "vietnamese": "học"
+      }
+    ]
+  },
+  "automated_validation": {
+    "validator_version": "curated-record-v1",
+    "content_checksum": "e82ad96a7c18983d49c6608f982a16da862e8d71653cea3f6fccbf1862b8c4df",
+    "passed": true,
+    "checks": [
+      "strict_schema",
+      "simplified_only",
+      "pinyin_rendering",
+      "lexical_identity",
+      "level_0_5",
+      "required_vietnamese"
+    ]
+  },
+  "lexical_catalog": [
+    "学|xue2"
+  ],
+  "required_aspects": [
+    "simplified",
+    "mandarin_pinyin_neutral_tones",
+    "vietnamese_definitions",
+    "sino_vietnamese",
+    "example_correctness",
+    "example_pinyin_alignment",
+    "learning_difficulty",
+    "duplicate_identity",
+    "ambiguity"
+  ],
+  "instructions": "Assess every aspect independently. Citation and neutral tones, natural Vietnamese, optional Sino-Vietnamese, examples and Pinyin alignment, levels 0-5, duplicate lexical identity and ambiguous senses/readings require semantic assessment. Mark uncertain items NEEDS_REVIEW. Do not treat mechanical validation as linguistic approval. Return ReviewResult JSON; never invent model provenance. Compare supplied batch identities and flag possible duplicates for operator resolution."
+}

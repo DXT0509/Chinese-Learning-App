@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "review_id": "2827b014-5a07-5392-93a8-6ab98fe6aaa8",
+  "policy_version": "zhvi-semantic-v1",
+  "lexical_key": "学|xue2",
+  "content_version": 2,
+  "content_checksum": "6010d76144e891318a23e2d1485313f54cc23b67f126cb19755d1ec2046ad0c4",
+  "generator": {
+    "provider": "anthropic",
+    "model": "reviewer-fixture",
+    "version": "reviewer-fixture"
+  },
+  "reviewer": {
+    "provider": "anthropic",
+    "model": "independent-correction-fixture",
+    "version": "independent-correction-fixture"
+  },
+  "reviewed_at": "2026-10-31T14:02:56.007834Z",
+  "decision": "AI_APPROVED",
+  "confidence": 0.99,
+  "assessments": [
+    {
+      "aspect": "simplified",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "mandarin_pinyin_neutral_tones",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "vietnamese_definitions",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "sino_vietnamese",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "example_correctness",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "example_pinyin_alignment",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "learning_difficulty",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "duplicate_identity",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    },
+    {
+      "aspect": "ambiguity",
+      "result": "pass",
+      "rationale": "Synthetic unit fixture"
+    }
+  ],
+  "findings": [],
+  "automated_validation": {
+    "validator_version": "curated-record-v1",
+    "content_checksum": "6010d76144e891318a23e2d1485313f54cc23b67f126cb19755d1ec2046ad0c4",
+    "passed": true,
+    "checks": [
+      "strict_schema",
+      "simplified_only",
+      "pinyin_rendering",
+      "lexical_identity",
+      "level_0_5",
+      "required_vietnamese"
+    ]
+  }
+}

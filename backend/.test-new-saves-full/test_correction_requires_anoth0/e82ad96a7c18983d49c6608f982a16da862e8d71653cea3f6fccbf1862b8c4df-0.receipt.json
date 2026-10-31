@@ -1,0 +1,20 @@
+{
+  "received_at": "2026-10-31T14:02:55.985039+00:00",
+  "response": {
+    "type": "message",
+    "role": "assistant",
+    "model": "reviewer-fixture",
+    "id": "synthetic-test-only-reviewer-fixture-1",
+    "stop_reason": "end_turn",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"decision\": \"NEEDS_REVIEW\", \"confidence\": 0.8, \"assessments\": [{\"aspect\": \"simplified\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"mandarin_pinyin_neutral_tones\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"vietnamese_definitions\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"sino_vietnamese\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"example_correctness\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"example_pinyin_alignment\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"learning_difficulty\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"duplicate_identity\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}, {\"aspect\": \"ambiguity\", \"result\": \"uncertain\", \"rationale\": \"Synthetic\"}], \"findings\": [{\"aspect\": \"vietnamese_definitions\", \"severity\": \"blocking\", \"message\": \"Synthetic correction\", \"resolved\": false}], \"suggested_record\": {\"schema_version\": 1, \"lexical_key\": \"\\u5b66|xue2\", \"simplified\": \"\\u5b66\", \"pinyin\": \"xu\\u00e9\", \"pinyin_numbered\": \"xue2\", \"sino_vietnamese\": null, \"part_of_speech\": null, \"learning_level\": 0, \"classification_standard\": \"APP_CURATED\", \"difficulty_reference\": \"HSK_2_0\", \"review_status\": \"GENERATED_UNREVIEWED\", \"content_version\": 2, \"vietnamese_meanings\": [\"h\\u1ecdc\"], \"english_meanings\": [], \"examples\": [{\"simplified\": \"\\u5b66\", \"pinyin\": \"xu\\u00e9\", \"vietnamese\": \"h\\u1ecdc\"}]}}"
+      }
+    ],
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 100
+    }
+  }
+}

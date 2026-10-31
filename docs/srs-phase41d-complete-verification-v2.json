@@ -1,0 +1,124 @@
+{
+  "target": {
+    "database": "chinese_learning",
+    "role": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432
+  },
+  "source_revision": "0012_srs_review_engine",
+  "total_catalog": 2810,
+  "published": 2804,
+  "protected_unpublished": [
+    "不客气|bu4 ke4 qi5",
+    "什么|shen2 me5",
+    "厕所|ce4 suo3",
+    "没关系|mei2 guan1 xi5",
+    "谁|shei2",
+    "谁|shui2"
+  ],
+  "installed_valid": 2148,
+  "proposed_valid": 2804,
+  "pending": [],
+  "per_level": {
+    "0": {
+      "published": 218,
+      "installed_valid": 112,
+      "proposed_valid": 218
+    },
+    "1": {
+      "published": 289,
+      "installed_valid": 110,
+      "proposed_valid": 289
+    },
+    "2": {
+      "published": 158,
+      "installed_valid": 142,
+      "proposed_valid": 158
+    },
+    "3": {
+      "published": 294,
+      "installed_valid": 276,
+      "proposed_valid": 294
+    },
+    "4": {
+      "published": 599,
+      "installed_valid": 536,
+      "proposed_valid": 599
+    },
+    "5": {
+      "published": 1246,
+      "installed_valid": 972,
+      "proposed_valid": 1246
+    }
+  },
+  "read_only_preview": {
+    "validated": 2804,
+    "inserted": 0,
+    "unchanged": 2148,
+    "preserved_manual": 0,
+    "would_insert": 656,
+    "would_update": 0
+  },
+  "preserved_prepared_policies": 2562,
+  "preserved_installed_policies": 2148,
+  "candidate_bundle_sha256": "abae251396a78ffc12cfa535374751954f4cde060a330bbb8491e89e428e81e2",
+  "development_writes": 0,
+  "source_nonpolicy_tables_unchanged": 35,
+  "fresh_backup": {
+    "path": ".vocabulary-backups\\phase41d-final-0dfe58e5bd\\source.dump",
+    "size_bytes": 3115721,
+    "sha256": "0e969f05142ec8341a18c832c38aefec3013f70eac6e3c994bac1fd0ed41243b",
+    "archive_list_verified": true,
+    "full_restore_verified": true
+  },
+  "isolated_rehearsal": {
+    "database": "chinese_p41d_final_rehearsal_0dfe58e5bd_v2",
+    "first_import": {
+      "validated": 2804,
+      "inserted": 656,
+      "unchanged": 2148,
+      "preserved_manual": 0,
+      "would_insert": 656,
+      "would_update": 0
+    },
+    "reimport": {
+      "validated": 2804,
+      "inserted": 0,
+      "unchanged": 2804,
+      "preserved_manual": 0,
+      "would_insert": 0,
+      "would_update": 0
+    },
+    "runtime_gradable": 2804,
+    "all_nonpolicy_table_fingerprints_preserved": true,
+    "all_previous_policy_payloads_preserved": true
+  },
+  "schema_checks": {
+    "fresh_test_upgrade": "PASSED",
+    "fresh_test_alembic_check": "PASSED",
+    "restored_catalog_alembic_check": "PASSED",
+    "new_migration_required": false
+  },
+  "backend_tests": {
+    "passed": 365,
+    "skipped": 13,
+    "database": "chinese_p41d_final_tests_0dfe58e5bd",
+    "local_review_enablement_for_tests": false,
+    "optional_dedicated_migration_and_race_urls_not_configured": true
+  },
+  "android_checks": {
+    "tests": 109,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "testDebugUnitTest": "PASSED",
+    "assembleDebug": "PASSED",
+    "lintDebug": "PASSED",
+    "execution": "Gradle 9.2.1 offline, Android Studio JBR",
+    "device_or_emulator_validation": false
+  },
+  "lint": {
+    "ruff_check_repository": "PASSED",
+    "changed_python_format_check": "PASSED"
+  }
+}

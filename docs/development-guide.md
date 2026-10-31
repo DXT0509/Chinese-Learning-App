@@ -1,5 +1,54 @@
 # Development guide
 
+Phase 5.0 [FSRS-only replacement](runbooks/srs-fsrs-only-deployment.md) is deployed
+in local development at 0014. No scheduler rollout flag or fixed-interval fallback
+exists. Run `python -m scripts.srs_v2_isolated_checks` from the backend venv for
+fresh dedicated databases and preservation/concurrency tests; fixtures remain.
+Future database changes still require explicit authorization. Historical deployment
+notes below describe earlier revisions rather than the current database state.
+
+Device-test note (30 October): this AGP setup's `connectedDebugAndroidTest` cleanup
+uninstalls the target application. Run it only on an isolated emulator/test phone,
+not a device holding user sign-in or drafts. Use `adb install -r` for ordinary APK
+updates. See [the observed cleanup and recovery](srs-submission-pinyin-20261030.md).
+
+Phase 4.4 [review UX and performance](srs-phase-4.4-ux-performance.md) adds persistent
+stage selectors, freely collected drafts with canonical server submissions, safe next-word
+prefetch and concise feedback. API additions are backward-compatible; no migration or
+scheduling change. Reload the API before installing Android.
+
+For current policy preparation, see [Phase 4.1D completion](srs-phase41d-completion.md)
+and the [installation runbook](runbooks/srs-phase41d-installation.md). The final
+2,804-policy candidate preserves the previous 2,562 and adds 242 reviewed policies.
+It is **installed and verified** in development following explicit authorization:
+656 inserts, zero updates, all existing learner data preserved. See the
+[deployment report](runbooks/srs-phase41d-deployment-20261029.md). The updated backend
+is running and the existing updated Android APK is ready for physical testing.
+
+For current randomized SRS sessions, handwriting, verification and first-device testing,
+follow [Phase 4.3](srs-phase-4.3-experience.md). Reload its backend source for the new
+read-only session-targets and character-count contracts before installing Android.
+
+For the current [Android SRS stabilization and physical-device checklist](android-srs-review.md),
+use an isolated synthetic backend on port 8001 for every graded test. Updated Android
+requires the source API contract with optional `request_id`, mastery distribution and
+final mastery fields. No new migration is required; do not reset development vocabulary
+or progress. Physical-device execution remains pending.
+
+Phase 4.1A adds the [SRS backend foundation](srs-foundation.md),
+[verification results](srs-verification.md) and an explicit
+[0011 operator deployment runbook](runbooks/srs-local-deployment.md).
+Local development is now at 0011 following explicit authorization; see the
+[deployment verification](runbooks/srs-0011-deployment-20261026.md).
+Do not migrate the development database without operator authorization.
+
+Phase 4.1B's [review engine and Android contract](srs-review-engine.md) requires
+additive migration 0012 and explicitly installed reviewed sense policies. Development
+remains at 0011; follow the [0012 operator procedure](runbooks/srs-0012-deployment.md)
+only after authorization. See [executed verification](srs-review-verification.md)
+for isolated migration/concurrency database variables and test results. Android UI
+integration remains Phase 4.2 work.
+
 For direct Codex session review, use the versioned development-only
 [local Codex runbook](runbooks/local-codex-vocabulary.md) and
 [current review coverage](phase4.0.3-codex-review.md). Additive migration 0010

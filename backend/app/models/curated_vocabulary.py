@@ -142,6 +142,20 @@ class CuratedUserVocabulary(Base):
     __table_args__ = (
         UniqueConstraint("user_id", "vocabulary_id"),
         CheckConstraint("mastery_level BETWEEN 0 AND 5", name="mastery_range"),
+        CheckConstraint(
+            "(phase = 'LEARNING' AND mastery_level = 0 AND phase_step BETWEEN 0 AND 2 "
+            "AND level_progress = 0) OR "
+            "(phase = 'REVIEW' AND mastery_level BETWEEN 1 AND 5 AND phase_step = 0 "
+            "AND level_progress BETWEEN 0 AND 1 AND (mastery_level < 5 OR level_progress = 0)) OR "
+            "(phase = 'RELEARNING' AND mastery_level BETWEEN 1 AND 4 "
+            "AND phase_step BETWEEN 0 AND 1 AND level_progress = 0)",
+            name="srs_state",
+        ),
+        CheckConstraint(
+            "schedule_version >= 0 AND due_review_count >= 0 AND "
+            "practice_count >= 0 AND failure_count BETWEEN 0 AND due_review_count",
+            name="srs_counters",
+        ),
         Index("ix_curated_user_vocabulary_owner_due", "user_id", "is_active", "next_review_at"),
     )
     id: Mapped[UUID] = mapped_column(Uuid, primary_key=True, default=uuid4)
@@ -150,7 +164,18 @@ class CuratedUserVocabulary(Base):
         ForeignKey("curated_vocabulary.id", ondelete="RESTRICT")
     )
     mastery_level: Mapped[int] = mapped_column(Integer, server_default="0")
-    next_review_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    phase: Mapped[str] = mapped_column(Text, server_default="LEARNING")
+    phase_step: Mapped[int] = mapped_column(Integer, server_default="0")
+    level_progress: Mapped[int] = mapped_column(Integer, server_default="0")
+    schedule_version: Mapped[int] = mapped_column(Integer, server_default="0")
+    due_review_count: Mapped[int] = mapped_column(Integer, server_default="0")
+    practice_count: Mapped[int] = mapped_column(Integer, server_default="0")
+    failure_count: Mapped[int] = mapped_column(Integer, server_default="0")
+    legacy_srs_snapshot: Mapped[dict | None] = mapped_column(JSONB)
+    learning_activated: Mapped[bool] = mapped_column(Boolean, server_default="false")
+    next_review_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )
     last_reviewed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     saved_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
     is_active: Mapped[bool] = mapped_column(Boolean, server_default="true")

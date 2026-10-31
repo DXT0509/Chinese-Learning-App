@@ -28,7 +28,7 @@ import com.example.chineselearningapp.feature.home.HomeScreen
 import com.example.chineselearningapp.feature.lesson.*
 import com.example.chineselearningapp.feature.roadmap.*
 import com.example.chineselearningapp.feature.learning.LearningScreen
-import com.example.chineselearningapp.feature.review.ReviewScreen
+import com.example.chineselearningapp.feature.review.*
 import com.example.chineselearningapp.feature.profile.ProfileScreen
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -36,7 +36,8 @@ import com.example.chineselearningapp.feature.profile.ProfileScreen
 internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
     connectivity: ConnectivityState, retryConnection: () -> Unit, lessonViewModel: LessonPlayerViewModel?, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository? = null,
     handwritingFactory: (() -> HandwritingRecognizer)? = null,
-    wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null) {
+    wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null,
+    reviewRepository: com.example.chineselearningapp.domain.repository.ReviewRepository? = null) {
     val controller = rememberNavController()
     val entry by controller.currentBackStackEntryAsState()
     val destination = Destination.entries.firstOrNull { it.name == entry?.destination?.route }
@@ -135,7 +136,31 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
                     }
                 }
             }
-            composable(Destination.Review.name) { ReviewScreen() }
+            composable(Destination.Review.name) { backStackEntry ->
+                if (reviewRepository != null) {
+                    // The protected graph owns the attempt, including when Back pops this tab.
+                    // SessionNavigation discards this owner on logout or identity change.
+                    val reviewOwner = remember(backStackEntry) { controller.getBackStackEntry(controller.graph.id) }
+                    val model: ReviewViewModel = viewModel(viewModelStoreOwner = reviewOwner,
+                        factory = viewModelFactory { initializer {
+                            ReviewViewModel(reviewRepository, createSavedStateHandle(), checkNotNull(state.account).id)
+                        } })
+                    val review by model.state.collectAsStateWithLifecycle()
+                    LaunchedEffect(review.signedOut) { if (review.signedOut) actions.reload() }
+                    DisposableEffect(backStackEntry, model) {
+                        val observer = LifecycleEventObserver { _, event ->
+                            if (event == Lifecycle.Event.ON_RESUME) model.onResume()
+                        }
+                        backStackEntry.lifecycle.addObserver(observer)
+                        onDispose { backStackEntry.lifecycle.removeObserver(observer) }
+                    }
+                    val ink: ReviewHandwritingViewModel? = if (handwritingFactory == null) null else
+                        viewModel(viewModelStoreOwner = reviewOwner, factory = viewModelFactory { initializer {
+                            ReviewHandwritingViewModel(handwritingFactory(), createSavedStateHandle(), checkNotNull(state.account).id)
+                        } })
+                    ReviewScreen(review, model, ink)
+                }
+            }
             composable(Destination.Profile.name) { ProfileScreen(state, actions.logout) }
             composable(Destination.Vocabulary.name) { backStackEntry ->
                 if (wordbookRepository != null) {

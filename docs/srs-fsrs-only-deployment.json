@@ -1,0 +1,289 @@
+{
+  "deployed_at": "2026-10-30T17:47:17.328769+00:00",
+  "environment": "local development",
+  "database": "chinese_learning",
+  "previous_revision": "0012_srs_review_engine",
+  "revision": "0014_fsrs_only",
+  "scheduler": "fsrs-6.3.2/binary-v2",
+  "backup": {
+    "path": ".vocabulary-backups\\fsrs-only-20261030174649\\before-migration.dump",
+    "bytes": 3270859,
+    "sha256": "4deab1bd49a28b259128fa7b8063d95588ff43c44043d641102cc05bc3125892",
+    "archive_listing_verified": true,
+    "restore_rehearsal_performed": false
+  },
+  "all_original_rows_and_columns_preserved": true,
+  "preserved_tables": {
+    "assets": {
+      "rows": 1,
+      "sha256": "9e09f3aaf2030a61e1c3b85d145e75d673a2e90ccfe581d259a14fd848e2d957"
+    },
+    "auth_sessions": {
+      "rows": 14,
+      "sha256": "b68e9233c784ca5c33e5862d741e243c7445919f7b488f58d305b715b42632e0"
+    },
+    "characters": {
+      "rows": 1,
+      "sha256": "962604ae6b04b42fdfcebf364c4e75b61ce080abe18224d343ac4524c8a1bc81"
+    },
+    "curated_user_vocabulary": {
+      "rows": 27,
+      "sha256": "ebf3b511f7cc39772d460e29599c2b265d80ba61ab8b1f0976a05db29e9f2583"
+    },
+    "curated_vocabulary": {
+      "rows": 2810,
+      "sha256": "2cc128ffeb8818176175bf566abd9c93312560cc6cf53ea9d4335b4c02dd3a4d"
+    },
+    "curated_vocabulary_ai_reviews": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "curated_vocabulary_batches": {
+      "rows": 3,
+      "sha256": "2604f6dfd4ca09cbbc3c3e3f363dd833a2edf6fc6921453bb6af326ac8325a98"
+    },
+    "curated_vocabulary_local_reviews": {
+      "rows": 2804,
+      "sha256": "d055bc19f9d9094bd32c65ac6f4b3ac0f159d9e33a837969448853170dbd98ee"
+    },
+    "curated_vocabulary_reviews": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "curated_vocabulary_revisions": {
+      "rows": 2810,
+      "sha256": "d08e936cc579771a363e808507d3373f4677e8bd901b2ed77c01e9483345fd0d"
+    },
+    "dictionary_character_enrichments": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "dictionary_enrichment_imports": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "dictionary_entries": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "dictionary_imports": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lesson_runs": {
+      "rows": 1,
+      "sha256": "3b9f7dce7e5635417f9a15a0a14da6e17d93f3e509e0037e4def6f42e73d2285"
+    },
+    "lesson_scene_progress": {
+      "rows": 2,
+      "sha256": "5b976802677abbe5a418b58cc2273b413b1b8a154da56362ca8635ce09778987"
+    },
+    "lesson_template_scenes": {
+      "rows": 2,
+      "sha256": "ad85723fbb1539448fb49e58c66fef04ae5d6462c2eb7f671e73578a6f9ccac0"
+    },
+    "lesson_template_versions": {
+      "rows": 1,
+      "sha256": "25cc354eb65c43ec2d7164f7f7f1e8ed44f28da7558781774147f8e3c122ddf9"
+    },
+    "lesson_templates": {
+      "rows": 1,
+      "sha256": "599456ba3e24222328ec99a5adcd909390039ab1d6404f8058bf2bf70e6c1b1f"
+    },
+    "lesson_versions": {
+      "rows": 1,
+      "sha256": "d17c1e0402279f4c43d999807a2c62f54ee2164afd094b15cb249b59930441bc"
+    },
+    "lesson_vocabulary": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "lessons": {
+      "rows": 1,
+      "sha256": "870590be47764006e04fc63ba4215319c1dee1698480ecd7a1eec5b287a0fc8b"
+    },
+    "password_credentials": {
+      "rows": 3,
+      "sha256": "065a528d50397bf96eb25e975b2125b7bd6ab610c9bb91fbaf4e6acdd389237d"
+    },
+    "personal_vocabulary_entries": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "refresh_credentials": {
+      "rows": 40,
+      "sha256": "b431a190c58b3bcae1b124c9bb240eb50241eda4f36283618e336d47b66a981e"
+    },
+    "srs_review_attempts": {
+      "rows": 20,
+      "sha256": "354a59fe414ef3224444f8a4a70e925e70d690e85c8756e87d1bfbe9d9c81d7f"
+    },
+    "srs_states": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "srs_target_policies": {
+      "rows": 2804,
+      "sha256": "b6fe65a916c2276f76db43aec1079a675e93d9ad875340ad948048144c441b64"
+    },
+    "user_lesson_progress": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "user_vocabulary": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "users": {
+      "rows": 3,
+      "sha256": "0b821bb5ffa8ec4d871e066d85983706640a1e88efda17ff2bce3c504fafa27f"
+    },
+    "vocabulary": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vocabulary_characters": {
+      "rows": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vocabulary_examples": {
+      "rows": 2809,
+      "sha256": "16f148f44bcf42057e149ae9ec260b4050d7bcab47a64cfaa81da0e97a530c6c"
+    },
+    "vocabulary_meanings": {
+      "rows": 9582,
+      "sha256": "398c75f32c90408828a0af2a5077c32868874ad074e6e4d23531e0347d287206"
+    }
+  },
+  "counts": {
+    "assets": 1,
+    "auth_sessions": 14,
+    "characters": 1,
+    "curated_user_vocabulary": 27,
+    "curated_vocabulary": 2810,
+    "curated_vocabulary_ai_reviews": 0,
+    "curated_vocabulary_batches": 3,
+    "curated_vocabulary_local_reviews": 2804,
+    "curated_vocabulary_reviews": 0,
+    "curated_vocabulary_revisions": 2810,
+    "dictionary_character_enrichments": 0,
+    "dictionary_enrichment_imports": 0,
+    "dictionary_entries": 0,
+    "dictionary_imports": 0,
+    "lesson_runs": 1,
+    "lesson_scene_progress": 2,
+    "lesson_template_scenes": 2,
+    "lesson_template_versions": 1,
+    "lesson_templates": 1,
+    "lesson_versions": 1,
+    "lesson_vocabulary": 0,
+    "lessons": 1,
+    "password_credentials": 3,
+    "personal_vocabulary_entries": 0,
+    "refresh_credentials": 40,
+    "srs_review_attempts": 20,
+    "srs_states": 0,
+    "srs_target_policies": 2804,
+    "user_lesson_progress": 0,
+    "user_vocabulary": 0,
+    "users": 3,
+    "vocabulary": 0,
+    "vocabulary_characters": 0,
+    "vocabulary_examples": 2809,
+    "vocabulary_meanings": 9582
+  },
+  "memory_rows": 27,
+  "memory_rows_with_recorded_history": 14,
+  "schedule_updates": 0,
+  "mastery_updates": 0,
+  "historical_attempt_updates": 0,
+  "installed_policy_updates": 0,
+  "two_stage_policies_valid": 2804,
+  "dashboards": [
+    {
+      "owner_sha256": "d27ba47155d08f49bc6d9d65c2904dea51e153c23f026fc33748ba36ff98e899",
+      "available_count": 26,
+      "due_count": 25,
+      "grading_available": true,
+      "target_seconds": 1200,
+      "active_seconds": 0,
+      "estimated_seconds_per_word": 45,
+      "overdue_count": 25,
+      "estimated_backlog_seconds": 1125,
+      "pending_count": 0,
+      "local_day": "2026-10-31",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "owner_sha256": "21937555c40f1159708c909af51a863943d1b2478f733495c4dd5a4ec8c1cc22",
+      "available_count": 1,
+      "due_count": 1,
+      "grading_available": true,
+      "target_seconds": 1200,
+      "active_seconds": 0,
+      "estimated_seconds_per_word": 45,
+      "overdue_count": 1,
+      "estimated_backlog_seconds": 45,
+      "pending_count": 0,
+      "local_day": "2026-10-31",
+      "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+      "owner_sha256": "bad1d03978cf6e51757824cad26ee08ffffeaccbc960bfc3bdb5a2b044cad5e7",
+      "available_count": 0,
+      "due_count": 0,
+      "grading_available": false,
+      "target_seconds": 1200,
+      "active_seconds": 0,
+      "estimated_seconds_per_word": 45,
+      "overdue_count": 0,
+      "estimated_backlog_seconds": 0,
+      "pending_count": 0,
+      "local_day": "2026-10-31",
+      "timezone": "Asia/Ho_Chi_Minh"
+    }
+  ],
+  "alembic_check_passed": true,
+  "live_http_checks": {
+    "/health": 200,
+    "/api/v1/health": 200,
+    "/openapi.json": 200,
+    "/api/v1/me/srs/dashboard": 401,
+    "/api/v1/me/srs/session-targets": 404,
+    "POST /api/v1/me/srs/daily-plans": 401
+  },
+  "live_scheduler_version": "fsrs-6.3.2/binary-v2",
+  "recorded_history_timestamp_mismatches": 0,
+  "scheduler_versions": [
+    "fsrs-6.3.2/binary-v2"
+  ],
+  "retention_values": [
+    0.9
+  ],
+  "runtime_audit": {
+    "fixed_interval_function_present": false,
+    "scheduler_rollout_switch_present": false,
+    "retired_random_session_route_present": false,
+    "historical_attempts_read_only": true,
+    "new_finalizations_scheduler": "fsrs-6.3.2/binary-v2"
+  },
+  "backend_url": "http://127.0.0.1:8000",
+  "launcher_pid": 21736,
+  "worker_pid": 14112,
+  "verified_after_restart_at": "2026-10-30T17:50:55.234361+00:00",
+  "android": {
+    "unit_tests_passed": 132,
+    "debug_build_passed": true,
+    "lint_passed": true,
+    "instrumentation_compilation_passed": true,
+    "device_tests_executed": false,
+    "apk_sha256": "7486e0f625a289579f3a636904ab2783f3a9c4dce1749885839d0743a585f9c1"
+  },
+  "verification": {
+    "backend_full_passed": 400,
+    "backend_optional_skipped": 10,
+    "nonempty_history_migration_passed": true,
+    "isolated_alembic_check_passed": true,
+    "development_alembic_check_passed": true
+  }
+}
