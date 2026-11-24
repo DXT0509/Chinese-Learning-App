@@ -37,7 +37,8 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
     connectivity: ConnectivityState, retryConnection: () -> Unit, lessonViewModel: LessonPlayerViewModel?, dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository? = null,
     handwritingFactory: (() -> HandwritingRecognizer)? = null,
     wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository? = null,
-    reviewRepository: com.example.chineselearningapp.domain.repository.ReviewRepository? = null) {
+    reviewRepository: com.example.chineselearningapp.domain.repository.ReviewRepository? = null,
+    roadmapRepository: com.example.chineselearningapp.domain.repository.RoadmapRepository? = null) {
     val controller = rememberNavController()
     val entry by controller.currentBackStackEntryAsState()
     val destination = Destination.entries.firstOrNull { it.name == entry?.destination?.route }
@@ -50,7 +51,7 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
     Scaffold(containerColor = MaterialTheme.colorScheme.surface.copy(alpha = 0f),
         bottomBar = { if (topLevel) MainBottomBar(destination, open) },
         topBar = {
-            if (!topLevel && !playerOpen && destination != null) {
+            if (!topLevel && !playerOpen && destination != null && destination != Destination.Roadmap) {
                 TopAppBar(title = { Text(stringResource(destination.title)) }, navigationIcon = {
                     TextButton(onClick = { controller.popBackStack() }) { Text(stringResource(R.string.screen_back)) }
                 }, colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surface.copy(alpha = 0f)))
@@ -91,8 +92,17 @@ internal fun ProtectedGraph(state: SessionState, actions: SessionActions,
                         lessonViewModel::retry, lessonViewModel::persist, lessonViewModel::ink, lessonViewModel::loadMedia)
                 }
             }
-            composable(Destination.Roadmap.name) {
-                PageColumn { RoadmapScreen(connectivity, retryConnection) }
+            composable(Destination.Roadmap.name) { backStackEntry ->
+                if (roadmapRepository != null) {
+                    val owner = remember(backStackEntry) { controller.getBackStackEntry(controller.graph.id) }
+                    val model: RoadmapViewModel = viewModel(viewModelStoreOwner = owner,
+                        factory = viewModelFactory { initializer {
+                            RoadmapViewModel(roadmapRepository, createSavedStateHandle(), checkNotNull(state.account).id, handwritingFactory?.invoke())
+                        } })
+                    val roadmap by model.state.collectAsStateWithLifecycle()
+                    LaunchedEffect(roadmap.expired) { if (roadmap.expired) actions.reload() }
+                    VocabularyRoadmapScreen(roadmap, model) { controller.popBackStack() }
+                } else RoadmapEmpty()
             }
             composable(Destination.Learning.name) {
                 LearningScreen({ open(Destination.Lessons) }, { open(Destination.Roadmap) }, {

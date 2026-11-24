@@ -26,6 +26,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object AppModule {
     @Provides @Singleton
+    fun roadmapApi(retrofit: Retrofit): com.example.chineselearningapp.core.network.RoadmapApi =
+        retrofit.create(com.example.chineselearningapp.core.network.RoadmapApi::class.java)
+    @Provides @Singleton
     fun retrofit(client: OkHttpClient): Retrofit = Retrofit.Builder()
         .baseUrl(BuildConfig.API_BASE_URL).client(client)
         .addConverterFactory(GsonConverterFactory.create()).build()
@@ -65,6 +68,8 @@ object AppModule {
 @Module
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
+    @Binds @Singleton
+    abstract fun roadmap(implementation: com.example.chineselearningapp.feature.roadmap.RemoteRoadmapRepository): com.example.chineselearningapp.domain.repository.RoadmapRepository
     @Binds @Singleton
     abstract fun review(implementation: com.example.chineselearningapp.feature.review.RemoteReviewRepository): com.example.chineselearningapp.domain.repository.ReviewRepository
 

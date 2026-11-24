@@ -1,5 +1,6 @@
 """Import all models here so Alembic sees the complete metadata."""
 
+from app.models import roadmap  # noqa: F401
 from app.models.content import (
     Asset,
     LessonTemplate,

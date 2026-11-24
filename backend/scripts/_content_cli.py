@@ -22,12 +22,21 @@ def run(command: str):
     parser.add_argument("--storage-dir", type=Path, default=Path(".content-storage"))
     if command in ("validate", "import"):
         parser.add_argument("--content-dir", type=Path, default=Path("content"))
+        parser.add_argument(
+            "--assets-only",
+            action="store_true",
+            help="Accept only asset definitions; refuse vocabulary, templates and lessons",
+        )
     else:
         parser.add_argument("--lesson", required=True)
         parser.add_argument("--version", type=int, required=True)
     args = parser.parse_args()
     try:
-        library = load_library(args.content_dir) if command in ("validate", "import") else None
+        library = (
+            load_library(args.content_dir, assets_only=args.assets_only)
+            if command in ("validate", "import")
+            else None
+        )
         if command == "validate":
             from app.services.content_storage import verify_object
 

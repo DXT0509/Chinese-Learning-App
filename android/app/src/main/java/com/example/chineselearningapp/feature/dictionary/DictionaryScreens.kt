@@ -404,16 +404,6 @@ fun DictionaryDetailScreen(
                         }
                     }
                 }
-
-                item {
-                    Text(
-                        text = stringResource(
-                            if (entry.reviewStatus == "LOCAL_CODEX_REVIEWED") R.string.curated_local_codex_source
-                            else R.string.curated_content_source
-                        ),
-                        style = FontCaption.copy(color = TextMuted)
-                    )
-                }
             }
         }
     }

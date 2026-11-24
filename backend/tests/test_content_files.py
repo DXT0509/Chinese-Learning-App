@@ -27,7 +27,7 @@ CONTENT = Path(__file__).resolve().parents[1] / "content"
 @pytest.fixture
 def content_copy(tmp_path):
     destination = tmp_path / "content"
-    shutil.copytree(CONTENT, destination)
+    shutil.copytree(CONTENT, destination, ignore=shutil.ignore_patterns("roadmaps"))
     return destination
 
 

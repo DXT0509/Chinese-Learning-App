@@ -39,12 +39,21 @@ fun ProfileScreen(state: SessionState, logout: () -> Unit) {
             Column(Modifier.fillMaxWidth().padding(20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(stringResource(R.string.profile_email), style = MaterialTheme.typography.labelLarge)
                 state.account?.email?.let { Text(it) }
-                Text(stringResource(R.string.auth_unverified), color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    style = MaterialTheme.typography.bodySmall)
             }
         }
         Text(stringResource(R.string.profile_settings), style = MaterialTheme.typography.titleLarge)
         Text(stringResource(R.string.profile_settings_soon), color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text("Dữ liệu nét chữ (Stroke Order)", style = MaterialTheme.typography.titleMedium)
+        Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
+            Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("Make Me a Hanzi / hanzi-writer-data", style = MaterialTheme.typography.labelLarge)
+                Text(
+                    "Dữ liệu vector thứ tự nét chữ Hán được cấp phép theo Arphic Public License (APL).",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
         state.error?.let { ErrorBanner(it) }
         OutlinedButton(onClick = { confirming = true }, enabled = !state.loading,

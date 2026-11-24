@@ -29,6 +29,9 @@ android {
     }
     buildTypes {
         debug {
+            if (providers.gradleProperty("ISOLATED_HSK0_TEST").orNull == "true") {
+                applicationIdSuffix = ".hsk0validation"
+            }
             buildConfigField("String", "API_BASE_URL", apiUrl("DEV_API_BASE_URL", "http://127.0.0.1:8000/", false))
         }
         release {
@@ -45,6 +48,9 @@ android {
         compose = true
         buildConfig = true
     }
+    sourceSets.getByName("androidTest").assets.srcDir(
+        rootProject.file("../backend/content/roadmaps/preparation/hsk-0-pack/sources")
+    )
 }
 
 kotlin { compilerOptions { jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17) } }

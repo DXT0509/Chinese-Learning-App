@@ -27,6 +27,81 @@ val TextMuted = Color(0xFFA0A09A)
 val Border = Color(0x14000000)          // rgba(0, 0, 0, 0.08)
 val BorderStrong = Color(0x24000000)    // rgba(0, 0, 0, 0.14)
 
+// --- Lesson Redesign & Scene Tokens ---
+val LessonBorder = Color(0xFFD6E9DE)
+val LessonShadow = Color(0xFFC8E0D2)
+val ProgressGradientStart = Color(0xFF34C478)
+val ProgressGradientEnd = Color(0xFF1A7A4A) // Primary
+val LessonVolumeBg = Color(0xFFF4FAF6)
+val DangerColor = Color(0xFFA32D2D)
+val DangerBorder = Color(0xFFF0BCBC)
+val DangerBg = Color(0xFFFDECEC)
+val SealBorder = Color(0xFFE8A5A5)
+val PinyinBg = Color(0xFFE8F5EE)
+val PinyinBorder = Color(0xFFB9DFC9)
+val NewWordChipBg = Color(0xFFFFF3CC)
+val NewWordChipBorder = Color(0xFFF5D27A)
+val NewWordChipText = Color(0xFF8A5A00)
+val TianZiGeGrid = Color(0xFFCFE5D8)
+val MeaningLabel = Color(0xFF7A9A88)
+val ScreenGradientTop = Color(0xFFE3F4EA)
+val ScreenGradientMid = Color(0xFFF4FAF6)
+
+// --- Writing Redesign Tokens ---
+val SuccessStrokeColor = Color(0xFF1A9A58)
+val SuccessBannerBg = Color(0xFFDFF5E8)
+val DangerBannerBg = Color(0xFFFDE8E8)
+val DangerButtonBg = Color(0xFFD63C42)
+val DangerCardShadow = Color(0xFFF0A8A8)
+val InactiveStrokeColor = Color(0xFFE3E8E5)
+val DemoGridColor = Color(0xFFD9EBE0)
+val ToolbarTextColor = Color(0xFF5F7A6B)
+val SubtitleCaptionColor = Color(0xFF7A9A88)
+val CorrectGlowColor = Color(0xFF34C478)
+val ErrorColor = Color(0xFFE5484D)
+val PinyinPlaceholder = Color(0xFFA9BDB0)
+val PinyinErrorText = Color(0xFFC0353A)
+
+// --- Pronunciation & Speaking Redesign Tokens ---
+val PronunChipBg = Color(0xFFFDE8F3)
+val PronunChipBorder = Color(0xFFF0B6D6)
+val PronunChipText = Color(0xFFA0286A)
+val MicListeningStart = Color(0xFFFF8A8A)
+val MicListeningEnd = Color(0xFFE5484D)
+val MicProcessingStart = Color(0xFF8FD4FF)
+val MicProcessingEnd = Color(0xFF2B84F0)
+val MicProcessingShadow = Color(0xFF124A99)
+val PronunNoteText = Color(0xFF8AA597)
+
+// --- Scene 2 Structure Tokens ---
+val StructureChipBg = Color(0xFFE8F0FF)
+val StructureChipBorder = Color(0xFFB9C9F0)
+val StructureChipText = Color(0xFF2B4A9A)
+
+val SemanticBg = Color(0xFFFFF3CC)
+val SemanticBorder = Color(0xFFF5D27A)
+val SemanticText = Color(0xFF7A4A00)
+
+val ComponentTagBg = Color(0xFFE8F0FF)
+val ComponentTagBorder = Color(0xFFB9C9F0)
+val ComponentTagText = Color(0xFF2B4A9A)
+
+val MnemonicBgStart = Color(0xFFFFFBE6)
+val MnemonicBgEnd = Color(0xFFFFF4C2)
+val MnemonicBorder = Color(0xFFF5D27A)
+val MnemonicShadow = Color(0xFFE8C25A)
+val FormulaOperatorColor = Color(0xFFC47A1A)
+
+// --- Listening Choice Screen Tokens ---
+val ListeningChipBg = Color(0xFFEFE8FF)
+val ListeningChipBorder = Color(0xFFCDBDF2)
+val ListeningPurple = Color(0xFF5B36B0)
+val ListeningSpeakerStart = Color(0xFF8A63E0)
+val ListeningSpeakerShadow = Color(0xFF3C2278)
+val ListeningWaveIdle = Color(0xFFD8CDF3)
+val ListeningQuestionText = Color(0xFF3B4A42)
+
+
 // --- Mastery Level Colors & Metadata ---
 data class MasteryLevelToken(
     val level: Int,

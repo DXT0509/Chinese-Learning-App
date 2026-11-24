@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="word_reveal_look_hint">Nhìn kỹ chữ này đi đã, rồi mới nhấn Tiếp tục nha 👀</string>
+    <string name="word_reveal_listen_hint">Nghe thử phát âm xem nào 🔊</string>
+    <string name="word_reveal_remember_hint">Nhớ sơ sơ rồi thì nhấn \'Đã nhớ\' để học tiếp nhé 💪</string>
+    <string name="word_reveal_remember">Đã nhớ ✓</string>
+    <string name="word_reveal_reading_prefix">Hán Việt:\u0020</string>
+    <string name="word_reveal_listen">Nghe phát âm tiếng Trung</string>
+    <string name="word_reveal_tts_unavailable">Chưa thể phát âm. Hãy kiểm tra giọng đọc tiếng Trung trong cài đặt thiết bị.</string>
+</resources>

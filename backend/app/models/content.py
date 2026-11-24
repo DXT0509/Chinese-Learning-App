@@ -124,3 +124,4 @@ class LessonVersion(CreatedAt, Base):
         ForeignKey("assets.id", ondelete="RESTRICT"), index=True
     )
     published_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    engine_definition: Mapped[dict | None] = mapped_column(JSONB)

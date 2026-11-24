@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "id": "0257c183-084f-54bf-ae2e-1bc59b5f69db",
+  "code": "hsk-0-example",
+  "version": 1,
+  "title": "HSK 0 — Bản nháp minh họa",
+  "review_interval": 3,
+  "allow_review_skip": false,
+  "rewards": {
+    "new_word": 10,
+    "review": 15
+  },
+  "nodes": [
+    {
+      "id": "5dfac41f-4e03-5a30-b7f0-d4da2f0b6bfb",
+      "position": 0,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 1",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "4ae81805-45f9-5d4f-a576-2a03b4ba27c9",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "4ef0aa3c-e812-5b37-912b-f470fa93ce85",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "644e0368-2df6-54a4-bc53-09d0cf26d8ec",
+      "position": 1,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 2",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "e611f2a1-17bb-5215-8862-7f69f32ca0fb",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "a00ccd24-5f5b-5f10-8372-35bcbd286784",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "57802ff4-3abc-5f29-83e8-0810e8d7f24a",
+      "position": 2,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 3",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "48fd5063-1606-5d90-9943-74d05d8dfc48",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "4a3e654c-a5ba-5b43-8cf0-6fd64964d7c9",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "04c19ef6-9074-52e9-9364-c1211b36641a",
+      "position": 3,
+      "node_type": "REVIEW",
+      "title": "Ôn tập 1",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "4ae81805-45f9-5d4f-a576-2a03b4ba27c9",
+            "content_version": 1
+          },
+          {
+            "vocabulary_id": "e611f2a1-17bb-5215-8862-7f69f32ca0fb",
+            "content_version": 1
+          },
+          {
+            "vocabulary_id": "48fd5063-1606-5d90-9943-74d05d8dfc48",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "94005151-e6dc-5620-88e3-4e3643424269",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc lại ba từ vừa học.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "c444234a-ee10-583a-9bda-efcdd5d04d64",
+      "position": 4,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 4",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "03b2390f-aba8-5fd1-b088-75f3ebd297b4",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "e57bfedb-4f58-5471-ac29-ad376eedfde7",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "3bc9a257-9d4e-5b4a-aed3-6d58e21276d2",
+      "position": 5,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 5",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "21c8da77-0994-5d8f-99d3-0a5f639dbe02",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "41072be3-3b10-5c4f-a59a-833a05c65748",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "6cccbce1-b639-5368-a2be-df7ded765c35",
+      "position": 6,
+      "node_type": "NEW_WORD",
+      "title": "Từ mới 6",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "157a1707-3dd4-5448-aece-3da28b265b19",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "88bb72da-9035-59e8-986a-1cfd939aaac9",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc chữ Hán, Pinyin và nghĩa tiếng Việt.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "d033b505-7a2d-523b-8370-cf8b38116f41",
+      "position": 7,
+      "node_type": "REVIEW",
+      "title": "Ôn tập 2",
+      "section": "hsk-0",
+      "visual": {},
+      "lesson": {
+        "schema_version": 1,
+        "vocabulary": [
+          {
+            "vocabulary_id": "03b2390f-aba8-5fd1-b088-75f3ebd297b4",
+            "content_version": 1
+          },
+          {
+            "vocabulary_id": "21c8da77-0994-5d8f-99d3-0a5f639dbe02",
+            "content_version": 1
+          },
+          {
+            "vocabulary_id": "157a1707-3dd4-5448-aece-3da28b265b19",
+            "content_version": 1
+          }
+        ],
+        "audio": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "examples": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "notes": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "stroke_order": {
+          "status": "UNAVAILABLE",
+          "required": false,
+          "asset_id": null,
+          "text": null
+        },
+        "components": [],
+        "activities": [
+          {
+            "id": "042a9d62-31f0-55b0-99fe-565527a3238d",
+            "kind": "INTRODUCTION",
+            "required": true,
+            "prompt": "Đọc lại ba từ vừa học.",
+            "repetitions": 1,
+            "options": [],
+            "correct_option": null,
+            "evaluation": "PARTICIPATION",
+            "preserve_freehand": true,
+            "automatic_snapping": false
+          }
+        ]
+      }
+    }
+  ]
+}

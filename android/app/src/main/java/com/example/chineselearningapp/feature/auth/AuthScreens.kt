@@ -102,8 +102,6 @@ private fun AuthForm(
                 }
             }
         }
-        Text(stringResource(R.string.auth_unverified), style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant)
         Spacer(Modifier.height(8.dp))
     }
 }

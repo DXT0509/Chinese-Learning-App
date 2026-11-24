@@ -1,0 +1,96 @@
+{
+  "verified_at_utc": "2026-11-01T09:08:36.649073+00:00",
+  "database": {
+    "name": "chinese_learning",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "role": "postgres",
+    "server_version": "PostgreSQL 18.3"
+  },
+  "revision_before": "0014_fsrs_only",
+  "revision_after": "0015_roadmap_engine",
+  "migration_sha256": "74c417eb744015fb8e97d5544e2972f5d0ac44da84db72d3ba21b719981ce4fd",
+  "backup": {
+    "path": "C:\\Users\\ADMIN\\AndroidStudioProjects\\ChineseLearningApp\\backend\\.vocabulary-backups\\roadmap-0015-20261101T090326Z\\before-migration.dump",
+    "bytes": 3582158,
+    "sha256": "fbcfd2f9bdd51eff72a426b9266695c9c6f1e06240236379164c840b7028de70",
+    "pg_dump_exit_code": 0,
+    "pg_restore_archive_list_exit_code": 0
+  },
+  "preservation": {
+    "all_original_table_count": 38,
+    "all_original_rows_and_columns_match": true,
+    "protected_counts": {
+      "users": 3,
+      "password_credentials": 3,
+      "curated_vocabulary": 2810,
+      "curated_vocabulary_revisions": 2810,
+      "srs_target_policies": 2804,
+      "curated_user_vocabulary": 52,
+      "srs_memory": 33,
+      "srs_review_attempts": 85,
+      "srs_daily_plans": 10,
+      "srs_active_time": 56,
+      "auth_sessions": 15,
+      "refresh_credentials": 51
+    },
+    "final_post_restart_and_test_comparison_passed": true
+  },
+  "schema": {
+    "new_table_names": [
+      "roadmap_activity_receipts",
+      "roadmap_exp_grants",
+      "roadmap_node_identities",
+      "roadmap_nodes",
+      "roadmap_progress",
+      "roadmap_runs",
+      "roadmap_versions",
+      "roadmap_vocabulary",
+      "roadmaps"
+    ],
+    "total_new_table_rows": 0,
+    "key_check_foreign_key_constraints": 41,
+    "not_null_constraints": 40,
+    "enabled_new_guards": 10,
+    "dev_alembic_check_exit_code": 0
+  },
+  "api": {
+    "base_url": "http://127.0.0.1:8000",
+    "health_status": 200,
+    "openapi_roadmap_routes": 8,
+    "all_roadmap_routes_require_authentication": true,
+    "actual_database_read_only_accounts_probed": 3,
+    "live_authenticated_http_probe": false,
+    "authenticated_http_flow_tested_in_isolated_postgres": true,
+    "runtime": "reload; safe JSON logs; no access logs; psycopg-compatible event loop"
+  },
+  "regression": {
+    "database_names": [
+      "chinese_roadmap_deploy_test_20261101090710",
+      "chinese_roadmap_deploy_concurrent_20261101090710",
+      "chinese_roadmap_deploy_v2_20261101090710",
+      "chinese_roadmap_deploy_upgrade_20261101090710"
+    ],
+    "modules": [
+      "tests/test_roadmap.py",
+      "tests/test_roadmap_postgres.py",
+      "tests/test_roadmap_migration.py",
+      "tests/test_fsrs_only.py",
+      "tests/test_fsrs_v2.py",
+      "tests/test_srs_v2_postgres.py",
+      "tests/test_sessions.py"
+    ],
+    "pytest_exit_code": 0,
+    "isolated_alembic_check_exit_code": 0,
+    "result": "58 passed, 0 skipped, 2 warnings; 27.43 seconds",
+    "ruff_check": "passed",
+    "ruff_format_check": "178 files formatted"
+  },
+  "content_published_or_activated": false,
+  "real_learner_writes": false,
+  "phase62_limitations": [
+    "No roadmap content imported/published/activated: live catalog intentionally empty.",
+    "Live authenticated HTTP success not exercised without user credentials; existing-account data handlers checked read-only and authenticated route flow covered on isolated PostgreSQL.",
+    "Handwriting/pronunciation participation remains separate from quality grading as designed."
+  ]
+}

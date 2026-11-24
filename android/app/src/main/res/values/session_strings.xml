@@ -9,7 +9,6 @@
     <string name="auth_invalid">Email hoặc mật khẩu không hợp lệ.</string>
     <string name="auth_duplicate">Không thể đăng ký với thông tin này.</string>
     <string name="auth_throttled">Quá nhiều yêu cầu. Vui lòng thử lại sau một phút.</string>
-    <string name="auth_unverified">Email chưa được xác minh. Chỉ dùng tài khoản thử nghiệm ở giai đoạn này.</string>
     <string name="session_expired">Phiên đã hết hạn. Vui lòng đăng nhập lại.</string>
     <string name="session_network_error">Không thể kết nối. Vui lòng thử lại.</string>
     <string name="session_retry">Tải lại</string>

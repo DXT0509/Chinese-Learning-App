@@ -13,17 +13,8 @@
     <string name="dictionary_not_found">Mục từ này không còn khả dụng.</string>
     <string name="dictionary_retry">Thử lại</string>
     <string name="dictionary_more">Xem thêm kết quả</string>
-    <string name="dictionary_traditional">Phồn thể: %1$s</string>
     <string name="dictionary_meaning_en">Nghĩa tiếng Anh</string>
     <string name="dictionary_meaning_vi">Nghĩa tiếng Việt</string>
     <string name="dictionary_meaning_other">Nghĩa (%1$s)</string>
-    <string name="dictionary_characters">Khám phá từng chữ Hán</string>
-    <string name="dictionary_character_note">Chú giải từng chữ, không phải bản dịch hay âm Hán Việt đã xác minh cho cả từ.</string>
     <string name="dictionary_sino">Âm Hán Việt: %1$s</string>
-    <string name="dictionary_reading_mismatch">Chú giải này có cách đọc khác với mục từ đang xem.</string>
-    <string name="dictionary_reading_unknown">Chưa xác minh cách đọc này với mục từ đang xem.</string>
-    <string name="dictionary_sources">Nguồn và giấy phép</string>
-    <string name="dictionary_source_link">Trang nguồn</string>
-    <string name="dictionary_license_link">Giấy phép: %1$s</string>
-    <string name="dictionary_link_error">Không thể mở liên kết này.</string>
 </resources>

@@ -1,8 +1,9 @@
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
 from app.services.review_mastery import advance_mastery
+from app.services.srs import MASTERY_MAX_INTERVALS, clamp_mastery_due
 from app.services.srs_contract import Stage, StageEvidence, StageVerdict, ValidatedReview
 from app.services.srs_state import Outcome, Phase, State
 
@@ -20,6 +21,30 @@ def test_mastery_changes_without_calculating_due_dates(mastery):
     assert second.next_review_at == NOW
     if 0 < mastery < 5:
         assert second.mastery_level == mastery + 1
+
+
+def test_clamp_mastery_due_caps_long_intervals():
+    assert MASTERY_MAX_INTERVALS == {
+        0: timedelta(days=1),
+        1: timedelta(days=3),
+        2: timedelta(days=10),
+        3: timedelta(days=20),
+        4: timedelta(days=30),
+        5: None,
+    }
+    # Short intervals (e.g. 10 minutes) are never stretched
+    short_due = NOW + timedelta(minutes=10)
+    for level in range(6):
+        assert clamp_mastery_due(short_due, NOW, level) == short_due
+
+    # Long interval (e.g. 45 days) is clamped according to mastery level
+    long_due = NOW + timedelta(days=45)
+    assert clamp_mastery_due(long_due, NOW, 0) == NOW + timedelta(days=1)
+    assert clamp_mastery_due(long_due, NOW, 1) == NOW + timedelta(days=3)
+    assert clamp_mastery_due(long_due, NOW, 2) == NOW + timedelta(days=10)
+    assert clamp_mastery_due(long_due, NOW, 3) == NOW + timedelta(days=20)
+    assert clamp_mastery_due(long_due, NOW, 4) == NOW + timedelta(days=30)
+    assert clamp_mastery_due(long_due, NOW, 5) == long_due
 
 
 def test_typed_ordered_first_submission_contract():

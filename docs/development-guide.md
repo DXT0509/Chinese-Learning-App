@@ -1,5 +1,22 @@
 # Development guide
 
+For the first HSK 0 pack, follow [Phase 6.3B](roadmap-phase-6.3b.md), its
+[educational checklist](runbooks/roadmap-phase-6.3b-review.md) and the exact
+[future publication procedure](runbooks/roadmap-phase-6.3b.md). The full proposal is a
+private review preview; development content remains unpublished. Device tests can use
+`-PISOLATED_HSK0_TEST=true` to protect the primary app from instrumentation cleanup.
+
+Phase 6.2's [implementation, verification, device checklist and first-publication steps](roadmap-phase-6.2.md)
+cover the Android roadmap player. Restart the API for its additive resume/position/media
+contracts; no migration is needed. Content publication requires separate authorization.
+An empty catalog is expected and is rendered explicitly by Android.
+
+For Phase 6.1, use the [roadmap contracts/workflow](roadmap-phase-6.1.md) and
+[0015 preflight/deployment plan](runbooks/roadmap-phase-6.1.md). The isolated runner is
+`python -m scripts.roadmap_isolated_checks`; it leaves fixtures intact. Local development
+is now at [verified revision 0015](runbooks/roadmap-0015-deployment-20261101.md) following
+explicit authorization. Roadmap content import/publication remains pending separate authorization.
+
 Phase 5.0 [FSRS-only replacement](runbooks/srs-fsrs-only-deployment.md) is deployed
 in local development at 0014. No scheduler rollout flag or fixed-interval fallback
 exists. Run `python -m scripts.srs_v2_isolated_checks` from the backend venv for

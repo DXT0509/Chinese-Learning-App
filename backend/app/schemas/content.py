@@ -249,7 +249,13 @@ class AssetDefinition(ContentModel):
     id: Identifier
     storage_key: Annotated[str, StringConstraints(pattern=r"^sha256/[0-9a-f]{64}\.[a-z0-9]+$")]
     media_type: Literal[
-        "audio/mpeg", "audio/wav", "image/png", "image/webp", "image/gif", "application/json"
+        "audio/mpeg",
+        "audio/wav",
+        "audio/ogg",
+        "image/png",
+        "image/webp",
+        "image/gif",
+        "application/json",
     ]
     sha256: Annotated[str, StringConstraints(pattern=r"^[0-9a-f]{64}$")]
     byte_length: Annotated[int, Field(gt=0, le=50000000)]

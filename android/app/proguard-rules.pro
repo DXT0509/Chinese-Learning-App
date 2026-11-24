@@ -2,6 +2,10 @@
 # Retrofit/Gson session wire contracts use reflective field access, including names
 # without SerializedName. Preserve them in release builds.
 -keep class com.example.chineselearningapp.core.network.**Dto { *; }
+# Roadmap SavedState JSON retains uncertain-delivery evidence across normal restoration.
+-keep class com.example.chineselearningapp.domain.model.RoadmapEvidence { *; }
+-keep class com.example.chineselearningapp.domain.model.RoadmapPoint { *; }
+-keep class com.example.chineselearningapp.domain.model.RoadmapCompletion { *; }
 # You can control the set of applied configuration files using the
 # proguardFiles setting in build.gradle.
 #

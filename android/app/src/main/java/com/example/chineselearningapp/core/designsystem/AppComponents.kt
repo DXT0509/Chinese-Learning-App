@@ -612,7 +612,11 @@ internal fun DrawingGridCanvas(
     enabled: Boolean,
     onBegin: () -> Unit,
     onComplete: (HandwritingStroke?) -> Unit,
-    preserveInterrupted: Boolean = false
+    preserveInterrupted: Boolean = false,
+    showGrid: Boolean = true,
+    gridColor: Color = Border,
+    strokeColor: Color = TextPrimary,
+    strokeWidthDp: Float = 4f
 ) {
     val active = remember { mutableStateListOf<HandwritingPoint>() }
     var gestureEpoch by remember { mutableIntStateOf(0) }
@@ -627,8 +631,7 @@ internal fun DrawingGridCanvas(
         gestureEpoch++
     }
 
-    val inkColor = TextPrimary
-    val gridColor = Border
+    val inkColor = strokeColor
     val description = stringResource(R.string.ink_canvas)
 
     Canvas(
@@ -688,25 +691,27 @@ internal fun DrawingGridCanvas(
             }
     ) {
         // Lưới 2x2: đường kẻ nét mờ border-color
-        drawLine(
-            color = gridColor,
-            start = Offset(size.width / 2f, 0f),
-            end = Offset(size.width / 2f, size.height),
-            strokeWidth = 1.dp.toPx()
-        )
-        drawLine(
-            color = gridColor,
-            start = Offset(0f, size.height / 2f),
-            end = Offset(size.width, size.height / 2f),
-            strokeWidth = 1.dp.toPx()
-        )
-
+        if (showGrid) {
+            drawLine(
+                color = gridColor,
+                start = Offset(size.width / 2f, 0f),
+                end = Offset(size.width / 2f, size.height),
+                strokeWidth = 1.dp.toPx()
+            )
+            drawLine(
+                color = gridColor,
+                start = Offset(0f, size.height / 2f),
+                end = Offset(size.width, size.height / 2f),
+                strokeWidth = 1.dp.toPx()
+            )
+        }
         fun renderStroke(points: List<HandwritingPoint>) {
             if (points.isEmpty()) return
             fun offset(p: HandwritingPoint) = Offset(p.x / 1000f * size.width, p.y / 1000f * size.height)
             val first = offset(points.first())
+            val strokeWidthPx = strokeWidthDp.dp.toPx()
             if (points.size == 1 || points.all { it.x == points.first().x && it.y == points.first().y }) {
-                drawCircle(inkColor, 2.dp.toPx(), first)
+                drawCircle(inkColor, strokeWidthPx / 2f, first)
                 return
             }
             val path = Path().apply {
@@ -719,7 +724,7 @@ internal fun DrawingGridCanvas(
                 val last = offset(points.last())
                 lineTo(last.x, last.y)
             }
-            drawPath(path, inkColor, style = Stroke(4.dp.toPx(), cap = StrokeCap.Round, join = StrokeJoin.Round))
+            drawPath(path, inkColor, style = Stroke(strokeWidthPx, cap = StrokeCap.Round, join = StrokeJoin.Round))
         }
 
         strokes.forEach { renderStroke(it.points) }

@@ -2,7 +2,7 @@
 
 from collections.abc import Callable
 from dataclasses import asdict, replace
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from typing import Protocol
 from uuid import UUID, uuid4
 
@@ -22,6 +22,24 @@ from app.services.review_mastery import advance_mastery
 from app.services.review_targets import ReviewedTargets
 from app.services.srs_contract import ReviewTarget, Stage, ValidatedReview
 from app.services.srs_state import Outcome, Phase, State, utc
+
+MASTERY_MAX_INTERVALS: dict[int, timedelta | None] = {
+    0: timedelta(days=1),
+    1: timedelta(days=3),
+    2: timedelta(days=10),
+    3: timedelta(days=20),
+    4: timedelta(days=30),
+    5: None,
+}
+
+
+def clamp_mastery_due(due: datetime, now: datetime, mastery_level: int) -> datetime:
+    limit = MASTERY_MAX_INTERVALS.get(mastery_level)
+    if limit is not None:
+        capped = now + limit
+        if due > capped:
+            return capped
+    return due
 
 
 def state_of(saved):
@@ -326,7 +344,11 @@ class SrsService:
             else:
                 config, card = memory.configuration, memory.card
             memory.card, fsrs_log = fsrs_scheduler.review(card, outcome, now, config)
-            updated = replace(updated, next_review_at=datetime.fromisoformat(memory.card["due"]))
+            due = clamp_mastery_due(
+                datetime.fromisoformat(memory.card["due"]), now, updated.mastery_level
+            )
+            memory.card["due"] = due.isoformat()
+            updated = replace(updated, next_review_at=due)
             saved.learning_activated = True
         if eligible:
             for name, value in asdict(updated).items():

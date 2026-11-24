@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="structure_back">← Quay lại</string>
+    <string name="structure_continue">Tiếp tục</string>
+    <string name="structure_understood">Hiểu rồi, tiếp tục →</string>
+    <string name="structure_mnemonic">💡 Mẹo nhớ</string>
+    <string name="structure_mascot_start">Chữ này được ghép từ nhiều mảnh — cùng khám phá nhé! 🧩</string>
+    <string name="structure_mascot_component">Mảnh %2$d/%3$d: %1$s — thêm một phần của chữ rồi! 🧩</string>
+    <string name="structure_mascot_mnemonic">Ghép các mảnh với mẹo nhớ này nhé! 💡</string>
+    <string name="structure_standing_person">Bộ nhân đứng</string>
+    <string name="structure_structural_name">Thành phần cấu tạo</string>
+    <string name="structure_person_meaning">Biểu thị con người</string>
+    <string name="structure_er_meaning">Không mang nghĩa riêng</string>
+    <string name="structure_semantic_meaning">Gợi ý về nghĩa của chữ</string>
+    <string name="structure_phonetic_meaning">Gợi ý cách đọc của chữ</string>
+    <string name="structure_structural_meaning">Giúp nhận diện hình dạng chữ</string>
+    <string name="structure_ni_mnemonic">Người (亻) bé nhỏ (尔) → 你: người bạn nhỏ.</string>
+</resources>

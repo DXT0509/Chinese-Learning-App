@@ -1,5 +1,29 @@
 # Architecture
 
+The Android roadmap now uses the [sequential lesson flow](lesson-flow.md), replacing
+the legacy word/details and practice-chip screen. One run-scoped LessonViewModel
+retains local score, time, drafts and cursor; the existing RoadmapViewModel and
+authenticated service retain authority over evidence, completion and XP.
+
+Phase 6.3B prepares the [first HSK 0 pack](roadmap-phase-6.3b.md) using the existing
+roadmap and curated identities. Real source audio/GIFs, concise templates and isolated
+publication/device tests are provided; human educational approval and authorized
+development publication remain pending. No new schema, scheduler or identity path is added.
+
+Phase 6.2 adds the [Android roadmap and activity player](roadmap-phase-6.2.md): paginated
+server-owned node states, pinned one-word content, six activity renderers, owned-run
+resume, UUID-stable retries, skip/replay and authoritative EXP results. Small additive
+API projections expose accepted repetitions, current/section positions and guarded
+referenced media. There is no new schema, local progress database or FSRS mutation
+path. Development content remains unpublished; device validation/publication are pending.
+
+Phase 6.1 adds the [executable roadmap foundation](roadmap-phase-6.1.md), extending existing
+lesson versions with curated one-word definitions, versioned ordering, evidence-backed
+completion, exactly-once EXP and pending FSRS intake. Migration 0015 is
+[deployed and preservation-verified locally](runbooks/roadmap-0015-deployment-20261101.md)
+following explicit authorization; roadmap content publication remains pending. Preview bundles retain
+their original semantics; Android roadmap UI is deferred to Phase 6.2.
+
 Phase 5.0 [FSRS-only replacement](runbooks/srs-fsrs-only-deployment.md) is deployed
 locally at revision 0014. Upstream FSRS 6.3.2 is the sole runtime scheduler;
 two-stage ink/Pinyin reviews and durable 20-minute plans are active. Existing

@@ -63,7 +63,7 @@ def _read_folder(root: Path, folder: str, schema):
     return items
 
 
-def load_library(root: Path) -> ContentLibrary:
+def load_library(root: Path, *, assets_only: bool = False) -> ContentLibrary:
     if not root.is_dir():
         raise ContentError("content directory does not exist")
     library = ContentLibrary(
@@ -81,6 +81,10 @@ def load_library(root: Path) -> ContentLibrary:
         keys = [(content_id(kind, item.id), getattr(item, "version", None)) for item in items]
         if len(keys) != len(set(keys)):
             raise ContentError(f"duplicate {kind} identifiers/versions")
+    if assets_only:
+        if library.vocabulary or library.templates or library.lessons:
+            raise ContentError("assets-only import refuses vocabulary, templates and lessons")
+        return library
     if not library.lessons:
         raise ContentError("content directory must contain at least one lesson")
     assets = {content_id("asset", item.id): item for item in library.assets}

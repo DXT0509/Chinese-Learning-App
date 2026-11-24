@@ -85,6 +85,31 @@ class CuratedCatalog:
     def __init__(self, session):
         self.session = session
 
+    async def enqueue_lesson_word(self, user_id, entry_id):
+        """Within caller's transaction: pending FSRS intake; preserve any existing save/state."""
+        settings = get_settings()
+        for key, enabled in (
+            (
+                "app.allow_local_codex_reviewed_vocabulary",
+                settings.environment == "development"
+                and settings.allow_local_codex_reviewed_vocabulary,
+            ),
+            ("app.allow_ai_approved_vocabulary", settings.allow_ai_approved_vocabulary),
+        ):
+            await self.session.execute(select(func.set_config(key, str(enabled).lower(), True)))
+        word = await self.session.scalar(
+            select(Word).where(Word.id == entry_id, visible()).with_for_update(read=True)
+        )
+        if not word:
+            raise HTTPException(409, "Vocabulary unavailable for intake")
+        # New rows retain learning_activated=false. DailyReview reserves a bounded plan;
+        # only the existing graded engine creates memory state. Never reactivate a manual removal.
+        await self.session.execute(
+            insert(Saved)
+            .values(id=uuid4(), user_id=user_id, vocabulary_id=entry_id)
+            .on_conflict_do_nothing(index_elements=[Saved.user_id, Saved.vocabulary_id])
+        )
+
     async def meanings(self, identifier):
         result = {}
         for meaning in await self.session.scalars(

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "5a8aa397-65fb-5582-b6a1-93a90ad9ebe8",
+  "code": "hsk-0-preparation",
+  "version": 1,
+  "title": "HSK 0 — Tôi, bạn và tốt (bản nháp)",
+  "review_interval": 3,
+  "groups": [
+    {
+      "key": "first-three",
+      "section": "hsk-0",
+      "vocabulary": [
+        {"vocabulary_id": "4ae81805-45f9-5d4f-a576-2a03b4ba27c9", "content_version": 1},
+        {"vocabulary_id": "e611f2a1-17bb-5215-8862-7f69f32ca0fb", "content_version": 1},
+        {"vocabulary_id": "48fd5063-1606-5d90-9943-74d05d8dfc48", "content_version": 1}
+      ]
+    }
+  ],
+  "assets": [],
+  "enrichments": []
+}

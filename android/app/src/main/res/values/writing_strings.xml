@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="writing_back">← Quay lại</string>
+    <string name="writing_step">Bước 3/7</string>
+    <string name="writing_replay_caption">Nhấn ▶ để xem lại</string>
+    <string name="writing_clear">Xóa hết</string>
+    <string name="writing_guided_hint">Xem kỹ thứ tự nét rồi viết theo nhé, đừng vội! ✍️</string>
+    <string name="writing_independent_hint">Giờ tự viết thử xem nào, không cần hoàn hảo đâu 😄</string>
+    <string name="writing_continue">Viết xong, tiếp tục →</string>
+    <string name="writing_check">Kiểm tra</string>
+    <string name="writing_correct">Chính xác! 🎉</string>
+    <string name="writing_incorrect">Chưa đúng, thử lại nhé!</string>
+</resources>

@@ -36,6 +36,9 @@ backend/.phase402-postgres/
 backend/.vocabulary-pipeline/
 backend/.test-postgres-slice1/
 backend/.test-postgres-slice2*/
+backend/.test-roadmap-isolated/
+backend/.test-phase63a/
+backend/.roadmap-preflight-*.json
 dist/
 *.log
 .DS_Store

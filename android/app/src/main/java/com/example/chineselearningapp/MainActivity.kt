@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
 
     private val lessonViewModel: com.example.chineselearningapp.feature.lesson.LessonPlayerViewModel by viewModels()
 
+    @javax.inject.Inject lateinit var roadmapRepository: com.example.chineselearningapp.domain.repository.RoadmapRepository
     @javax.inject.Inject lateinit var reviewRepository: com.example.chineselearningapp.domain.repository.ReviewRepository
     @javax.inject.Inject lateinit var wordbookRepository: com.example.chineselearningapp.domain.repository.PersonalVocabularyRepository
     @javax.inject.Inject lateinit var dictionaryRepository: com.example.chineselearningapp.domain.repository.DictionaryRepository
@@ -30,7 +31,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.BLACK)
         )
         setContent {
-            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel, lessonViewModel, dictionaryRepository, { handwritingRecognizers.get() }, wordbookRepository, reviewRepository) }
+            ChineseLearningAppTheme { AppNavigation(connectivityViewModel, sessionViewModel, lessonViewModel, dictionaryRepository, { handwritingRecognizers.get() }, wordbookRepository, reviewRepository, roadmapRepository) }
         }
     }
 }
